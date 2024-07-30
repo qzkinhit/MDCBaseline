@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-import pandas as pd
-import numpy as np
 import queue
-import time
-import argparse
-import sys
 import csv
 import re
 import pandas as pd
@@ -738,11 +733,8 @@ def dirty_cells(dirty_file, clean_file):
     return dirty_c
 
 
-ONLYED = 0
-PERFECTED = 0
 
-
-def main(dirty_path, rule_path, clean_path, task_name, ONLYED=0, PERFECTED=0):
+def Horizon(dirty_path, rule_path, clean_path, task_name,output_path):
     """
     主函数，用于执行数据清洗过程
 
@@ -785,7 +777,7 @@ def main(dirty_path, rule_path, clean_path, task_name, ONLYED=0, PERFECTED=0):
     print(rep_f1)
     print("Elapsed time:", end_time - start_time)
 
-    results_dir = "./results/" + task_name[:-1]
+    results_dir = output_path
     os.makedirs(results_dir, exist_ok=True)
 
     if True:
@@ -812,14 +804,24 @@ def main(dirty_path, rule_path, clean_path, task_name, ONLYED=0, PERFECTED=0):
         res_df = pd.read_csv(dirty_path)
         for i in range(len(res_df)):
             for v in pattern_expressions[i]:
-                res_df.loc[i, v] = pattern_expressions[i][v]
+                # 检查要赋值的值是否可以转换为整数
+                value_to_assign = pattern_expressions[i][v]
+                try:
+                    value_to_assign = int(value_to_assign)
+                except ValueError:
+                    pass  # 如果不能转换为整数，可以选择跳过或处理
+
+                # 将值赋给DataFrame
+                res_df.loc[i, v] = value_to_assign
         res_df.to_csv(res_path, index=False)
 
+ONLYED=0
+PERFECTED=0
 
 if __name__ == "__main__":
-    dirty_path = "./data_with_rules/hospital/noise/hospital_test.csv"
-    rule_path = "./data_with_rules/hospital/dc_rules_test.txt"
-    clean_path = "./data_with_rules/hospital/test_clean.csv"
-    task_name = "hospital1"
-
-    main(dirty_path, rule_path, clean_path, task_name)
+    dirty_path = "../../Data/hospital/noise/hospital_test.csv"
+    rule_path = "../../Data/hospital/dc_rules_test.txt"
+    clean_path = "../../Data/hospital/test_clean.csv"
+    task_name = "hospital_1"
+    output_path = "../../results/horizon/"+task_name
+    Horizon(dirty_path, rule_path, clean_path, task_name,output_path)
