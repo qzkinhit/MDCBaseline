@@ -1,0 +1,4 @@
+HospitalName ⇒ ZipCode
+ProviderNumber ⇒ HospitalName
+HospitalName ⇒ City
+ZipCode ⇒ EmergencyService
