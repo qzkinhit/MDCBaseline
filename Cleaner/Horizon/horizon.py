@@ -7,160 +7,8 @@ import time
 import sys
 import os
 
-
-def check_string(string: str):
-    if re.search(r"-inner_error-", string):
-        return "-inner_error-" + string[-6:-4]
-    elif re.search(r"-outer_error-", string):
-        return "-outer_error-" + string[-6:-4]
-    elif re.search(r"-inner_outer_error-", string):
-        return "-inner_outer_error-" + string[-6:-4]
-    elif re.search(r"-dirty-original_error-", string):
-        return "-original_error-" + string[-9:-4]
-
-
-class Vertex:
-    def __init__(self, key, key1, type):
-        """
-        初始化顶点对象
-
-        :param key: 顶点的ID
-        :param key1: 顶点的属性
-        :param type: 顶点的类型
-        """
-        self.id = key
-        self.attr = key1
-        self.type = type
-        self.connectedTo = {}
-        self.connectedQLT = {}
-
-    def addNeighbor(self, nbr):
-        """
-        添加邻居顶点
-
-        :param nbr: 邻居顶点对象
-        """
-        if nbr in self.connectedTo:
-            self.connectedTo[nbr] += 1
-        else:
-            self.connectedTo[nbr] = 1
-        self.connectedQLT[nbr] = 0
-
-    def __str__(self):
-        """
-        返回顶点的字符串表示
-        """
-        return str(self.id) + ' connectedTo: ' + str([x.id for x in self.connectedTo])
-
-    def getConnections(self):
-        """
-        获取所有邻居顶点
-
-        :return: 邻居顶点列表
-        """
-        return list(self.connectedTo.keys())
-
-    def getId(self):
-        """
-        获取顶点ID
-
-        :return: 顶点ID
-        """
-        return self.id
-
-    def getAttr(self):
-        """
-        获取顶点属性
-
-        :return: 顶点属性
-        """
-        return self.attr
-
-    def getType(self):
-        """
-        获取顶点类型
-
-        :return: 顶点类型
-        """
-        return self.type
-
-    def getWeight(self, nbr):
-        """
-        获取与邻居顶点的连接权重
-
-        :param nbr: 邻居顶点对象
-        :return: 权重值
-        """
-        return self.connectedTo[nbr]
-
-
-class Graph:
-    def __init__(self):
-        """
-        初始化图对象
-        """
-        self.vertList = {}
-        self.numVertices = 0
-
-    def addVertex(self, key, key1, type):
-        """
-        添加顶点
-
-        :param key: 顶点ID
-        :param key1: 顶点属性
-        :param type: 顶点类型
-        :return: 新添加的顶点对象
-        """
-        if key not in self.vertList:
-            self.numVertices += 1
-            newVertex = Vertex(key, key1, type)
-            self.vertList[key] = newVertex
-            return newVertex
-
-    def getVertex(self, n):
-        """
-        获取顶点对象
-
-        :param n: 顶点ID
-        :return: 顶点对象或None
-        """
-        if n in self.vertList:
-            return self.vertList[n]
-        else:
-            return None
-
-    def __contains__(self, n):
-        """
-        判断顶点是否在图中
-
-        :param n: 顶点ID
-        :return: True或False
-        """
-        return n in self.vertList
-
-    def addEdge(self, f, t, const=0):
-        """
-        添加边
-
-        :param f: 起始顶点ID
-        :param t: 目标顶点ID
-        :param const: 可选参数，默认为0
-        """
-        self.vertList[f].addNeighbor(self.vertList[t])
-
-    def getVertices(self):
-        """
-        获取图中所有顶点ID
-
-        :return: 顶点ID列表
-        """
-        return self.vertList.keys()
-
-    def __iter__(self):
-        """
-        返回图对象的迭代器
-        """
-        return iter(self.vertList.values())
+from Cleaner.Horizon.graph import Graph, topoSort, walk, tr
+from Cleaner.Horizon.util import calDetPrecRec, calRepPrec, calRepRec, calF1, check_string
 
 
 def BuildFDPatternGraph(D_path, constrains_path):
@@ -251,24 +99,24 @@ def dfs(g, root, vis):
     return sup, num
 
 
-def dfs1(g, root, vis):
-    """
-    深度优先搜索，打印图中从root出发的路径和连接质量
-
-    :param g: 图对象
-    :param root: 当前顶点
-    :param vis: 访问标记字典
-    """
-    print(root.id)
-    if len(root.getConnections()) == 0:
-        return
-    if vis[root.attr] == 1:
-        return
-    vis[root.attr] = 1
-    for v in root.getConnections():
-        print(root.connectedQLT[v])
-        dfs1(g, g.vertList[v.id], vis)
-    vis[root.attr] = 0
+# def dfs1(g, root, vis):
+#     """
+#     深度优先搜索，打印图中从root出发的路径和连接质量
+#
+#     :param g: 图对象
+#     :param root: 当前顶点
+#     :param vis: 访问标记字典
+#     """
+#     print(root.id)
+#     if len(root.getConnections()) == 0:
+#         return
+#     if vis[root.attr] == 1:
+#         return
+#     vis[root.attr] = 1
+#     for v in root.getConnections():
+#         print(root.connectedQLT[v])
+#         dfs1(g, g.vertList[v.id], vis)
+#     vis[root.attr] = 0
 
 
 def ComputePatternQulity(g):
@@ -284,72 +132,6 @@ def ComputePatternQulity(g):
                 vis[vv.attr] = 0
             dfs(g, v, vis)
 
-
-def tr(G):
-    """
-    计算图的转置图
-
-    :param G: 图的邻接表表示
-    :return: 转置图的邻接表表示
-    """
-    GT = dict()
-    for u in G.keys():
-        GT[u] = GT.get(u, set())
-    for u in G.keys():
-        for v in G[u]:
-            GT[v].add(u)
-    return GT
-
-
-def topoSort(G):
-    """
-    拓扑排序
-
-    :param G: 图的邻接表表示
-    :return: 拓扑排序结果列表
-    """
-    res = []
-    S = set()
-
-    def dfs(G, u):
-        if u in S:
-            return
-        S.add(u)
-        for v in G[u]:
-            if v in S:
-                continue
-            dfs(G, v)
-        res.append(u)
-
-    for u in G.keys():
-        dfs(G, u)
-    res.reverse()
-    return res
-
-
-def walk(G, s, S=None):
-    """
-    遍历图，返回从顶点s开始的路径
-
-    :param G: 图的邻接表表示
-    :param s: 起始顶点
-    :param S: 可选参数，指定不遍历的顶点集合
-    :return: 从顶点s开始的路径字典
-    """
-    if S is None:
-        S = set()
-    Q = []
-    P = dict()
-    Q.append(s)
-    P[s] = None
-    while Q:
-        u = Q.pop()
-        for v in G[u]:
-            if v in P.keys() or v in S:
-                continue
-            Q.append(v)
-            P[v] = u
-    return P
 
 
 def BuildSCCGraghAndSort(constrains_path):
@@ -476,140 +258,6 @@ def OrderFDs(constrains_path, order, tar, scc, G):
     return OrderedFDs
 
 
-def calDetPrecRec(pattern_expressions, dirty_path, clean_path,dirty_c):
-    """
-    计算检测的准确率和召回率
-
-    :param pattern_expressions: 模式表达式
-    :param dirty_path: 脏数据文件路径
-    :param clean_path: 干净数据文件路径
-    :return: 检测的准确率和召回率
-    """
-    attrList = []
-    dirty_dict = []
-
-    # 读取脏数据文件
-    with open(dirty_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, restval='nan')
-        for line in reader:
-            dirty_dict.append(line)
-            attrList = list(line.keys())
-
-    # 读取干净数据文件
-    clean_df = pd.read_csv(clean_path, header=0)
-    clean_df.columns = attrList
-
-    tot = 0
-    correct_rec = 0
-
-    # 计算正确检测的数量和总检测数量
-    with open(dirty_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, restval='nan')
-        cnt = 0
-        for line in reader:
-            for v in pattern_expressions[cnt]:
-                if pattern_expressions[cnt][v] != dirty_dict[cnt][v]:
-                    if (cnt, list(clean_df.columns).index(v)) in dirty_c:
-                        correct_rec += 1
-                tot += 1
-            cnt += 1
-
-    precision = correct_rec / tot
-    recall = correct_rec / len(dirty_c)
-    return precision, recall
-
-
-
-
-def calRepPrec(pattern_expressions, dirty_path, clean_path):
-    """
-    计算修复的精度
-
-    :param pattern_expressions: 模式表达式
-    :param dirty_path: 脏数据文件路径
-    :param clean_path: 干净数据文件路径
-    :return: 修复的精度
-    """
-    attrList = []
-    dirty_dict = []
-
-    # 读取脏数据文件，存储为字典列表
-    with open(dirty_path, 'r') as f:
-        reader = csv.DictReader(f, restval='nan')
-        for line in reader:
-            dirty_dict.append(line)
-            attrList = list(line.keys())
-
-    # 读取干净数据文件
-    df = pd.read_csv(clean_path, header=0)
-    df.columns = attrList
-
-    tot = 0
-    correct = 0
-
-    # 计算修复的正确数量和总数量
-    with open(clean_path, 'r') as f:
-        reader = csv.DictReader(f, restval='nan')
-        cnt = 0
-        for line in reader:
-            for v in pattern_expressions[cnt]:
-                if pattern_expressions[cnt][v] != dirty_dict[cnt][v]:
-                    if pattern_expressions[cnt][v] == line[v]:
-                        correct += 1
-                    tot += 1
-            cnt += 1
-    return correct / tot
-
-
-def calRepRec(pattern_expressions, dirty_path, clean_path):
-    """
-    计算修复的召回率
-
-    :param pattern_expressions: 模式表达式
-    :param dirty_path: 脏数据文件路径
-    :param clean_path: 干净数据文件路径
-    :return: 修复的召回率
-    """
-    attrList = []
-
-    # 读取脏数据文件，获取属性列表
-    with open(dirty_path, 'r') as f:
-        reader = csv.DictReader(f, restval='nan')
-        for line in reader:
-            attrList = list(line.keys())
-            break
-
-    # 读取干净数据文件
-    df = pd.read_csv(clean_path, header=0)
-    df.columns = attrList
-
-    dirty_dict = []
-    tot = 0
-    correct = 0
-
-    # 读取脏数据文件，存储为字典列表
-    with open(dirty_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, restval='nan')
-        for line in reader:
-            dirty_dict.append(line)
-
-    # 计算修复的正确数量和总数量
-    with open(clean_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, restval='nan')
-        cnt = 0
-        for line in reader:
-            for v in dirty_dict[cnt]:
-                if dirty_dict[cnt][v] != line[v]:
-                    try:
-                        if pattern_expressions[cnt][v] == line[v]:
-                            correct += 1
-                    except:
-                        pass
-                    tot += 1
-            cnt += 1
-    return correct / tot
-
-
 def export_res(pattern_expressions, dirty_path):
     """
     导出修复结果
@@ -629,15 +277,6 @@ def export_res(pattern_expressions, dirty_path):
     res_df.to_csv(res_path, index=False)
 
 
-def calF1(precision, recall):
-    """
-    计算F1值
-
-    :param precision: 精度
-    :param recall: 召回率
-    :return: F1值
-    """
-    return 2 * precision * recall / (precision + recall + 1e-10)
 
 
 
