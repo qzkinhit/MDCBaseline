@@ -1,0 +1,2031 @@
+/Users/qianzekai/anaconda3/bin/python /Users/qianzekai/PycharmProjects/dataclean/examples_ramdon/hospitaltest.py
+logs\20240820-210819_B9HRMQ1DY7.log
+Logs saved in logs\20240820-210819_B9HRMQ1DY7.log
+Computing Block=36617 1 out of 49
+0.000289
+Computing Block=35555 2 out of 49
+0.000268
+Computing Block=35007 3 out of 49
+0.000298
+Computing Block=36033 4 out of 49
+0.000294
+Computing Block=35205 5 out of 49
+0.000246
+Computing Block=35233*** 6 out of 49
+0.000214
+Computing Block=35150 7 out of 49
+0.000294
+Computing Block=35631 8 out of 49
+0.000304
+Computing Block=36106 9 out of 49
+0.0003
+Computing Block=36854 10 out of 49
+0.000299
+Computing Block=35660 11 out of 49
+0.000303
+Computing Block=3507 12 out of 49
+0.000239
+Computing Block=35233 13 out of 49
+0.000271
+Computing Block=36360 14 out of 49
+0.000234
+Computing Block=35640 15 out of 49
+0.000265
+Computing Block=36420 16 out of 49
+0.000253
+Computing Block=36305 17 out of 49
+0.000235
+Computing Block=35957 18 out of 49
+0.000272
+Computing Block=99508 19 out of 49
+0.000231
+Computing Block=36278 20 out of 49
+0.000221
+Computing Block=35968 21 out of 49
+0.000273
+Computing Block=5233 22 out of 49
+0.000219
+Computing Block=35801 23 out of 49
+0.000223
+Computing Block=36116 24 out of 49
+0.000258
+Computing Block=35045 25 out of 49
+0.000238
+Computing Block=35594 26 out of 49
+0.000262
+Computing Block=36201 27 out of 49
+0.000296
+Computing Block=35570 28 out of 49
+0.000292
+Computing Block=35903 29 out of 49
+0.00028
+Computing Block=36323 30 out of 49
+0.000259
+Computing Block=53957 31 out of 49
+0.000236
+Computing Block=35976 32 out of 49
+0.000282
+Computing Block=35058 33 out of 49
+0.000299
+Computing Block=36302 34 out of 49
+0.000301
+Computing Block=36078 35 out of 49
+Pruned:  df = swap(df,'ZipCode','36078',('EmergencyService', {'no'}))
+Pruned:  df = swap(df,'ZipCode','36078',('EmergencyService', {'mno'}))
+0.000289
+Computing Block=35901 36 out of 49
+0.000293
+Computing Block=36801 37 out of 49
+0.000273
+Computing Block=35235 38 out of 49
+0.000285
+Computing Block=36049 39 out of 49
+0.000244
+Computing Block=99559 40 out of 49
+0.000217
+Computing Block=35960 41 out of 49
+0.000279
+Computing Block=35653 42 out of 49
+0.000249
+Computing Block=36330 43 out of 49
+0.000239
+Computing Block=36784 44 out of 49
+0.000289
+Computing Block=36067 45 out of 49
+0.000276
+Computing Block=35609 46 out of 49
+0.000219
+Computing Block=35121 47 out of 49
+0.000221
+Computing Block=3550 48 out of 49
+0.000207
+Computing Block=36467 49 out of 49
+0.000377
+Computing Block=hf-3 1 out of 32
+0.000274
+Computing Block=ami-2 2 out of 32
+Pruned:  df = swap(df,'Stateavg','al_ambi-2',('MeasureCode', {'ami-2'}))
+Pruned:  df = swap(df,'Stateavg','afl_ami-2',('MeasureCode', {'ami-2'}))
+Pruned:  df = swap(df,'MeasureCode','ami-2',('Stateavg', {'al_ambi-2'}))
+Pruned:  df = swap(df,'MeasureCode','ami-2',('Stateavg', {'afl_ami-2'}))
+0.00026
+Computing Block=pn-4 3 out of 32
+Pruned:  df = swap(df,'MeasureCode','pn-4',('Stateavg', {'ak_pn-4'}))
+Pruned:  df = swap(df,'MeasureCode','pn-4',('Stateavg', {'al_pn-4'}))
+0.000265
+Computing Block=am-7a 4 out of 32
+0.000218
+Computing Block=pn-3b 5 out of 32
+Pruned:  df = swap(df,'MeasureCode','pn-3b',('Stateavg', {'al_pn-3b'}))
+Pruned:  df = swap(df,'MeasureCode','pn-3b',('Stateavg', {'ak_pn-3b'}))
+0.000278
+Computing Block=cac-2 6 out of 32
+0.000226
+Computing Block=scip-inf-1 7 out of 32
+Pruned:  df = swap(df,'MeasureCode','scip-inf-1',('Stateavg', {'al_scip-inf-1'}))
+Pruned:  df = swap(df,'MeasureCode','scip-inf-1',('Stateavg', {'ak_scip-inf-1'}))
+0.000272
+Computing Block=scip-inf-2 8 out of 32
+Pruned:  df = swap(df,'MeasureCode','scip-inf-2',('Stateavg', {'al_scip-inf-2'}))
+Pruned:  df = swap(df,'MeasureCode','scip-inf-2',('Stateavg', {'ak_scip-inf-2'}))
+0.000271
+Computing Block=ami-1 9 out of 32
+Pruned:  df = swap(df,'MeasureCode','ami-1',('Stateavg', {'al_ami-1'}))
+Pruned:  df = swap(df,'MeasureCode','ami-1',('Stateavg', {'ak_ami-1'}))
+0.000269
+Computing Block=pn-6 10 out of 32
+Pruned:  df = swap(df,'MeasureCode','pn-6',('Stateavg', {'ak_pn-6'}))
+Pruned:  df = swap(df,'MeasureCode','pn-6',('Stateavg', {'al_pn-6'}))
+0.000262
+Computing Block=scip-inf-4 11 out of 32
+Pruned:  df = swap(df,'MeasureCode','scip-inf-4',('Stateavg', {'al_scip-inf-4'}))
+Pruned:  df = swap(df,'MeasureCode','scip-inf-4',('Stateavg', {'ak_scip-inf-4'}))
+0.00027
+Computing Block=scimp-inf-4 12 out of 32
+0.000223
+Computing Block=cac-3 13 out of 32
+0.000216
+Computing Block=hf-1 14 out of 32
+Pruned:  df = swap(df,'MeasureCode','hf-1',('Stateavg', {'ak_hf-1'}))
+Pruned:  df = swap(df,'MeasureCode','hf-1',('Stateavg', {'al_hf-1'}))
+0.000276
+Computing Block=pn-7 15 out of 32
+Pruned:  df = swap(df,'MeasureCode','pn-7',('Stateavg', {'ak_pn-7'}))
+Pruned:  df = swap(df,'MeasureCode','pn-7',('Stateavg', {'al_pn-7'}))
+0.000266
+Computing Block=scip-inf-6 16 out of 32
+Pruned:  df = swap(df,'MeasureCode','scip-inf-6',('Stateavg', {'ak_scip-inf-6'}))
+Pruned:  df = swap(df,'MeasureCode','scip-inf-6',('Stateavg', {'al_scip-inf-6'}))
+0.000305
+Computing Block=cac-1 17 out of 32
+0.000272
+Computing Block=scip-card-2 18 out of 32
+Pruned:  df = swap(df,'Stateavg','al_hf-1',('MeasureCode', {'scip-card-2'}))
+Pruned:  df = swap(df,'Stateavg','al_pn-3b',('MeasureCode', {'scip-card-2'}))
+Pruned:  df = swap(df,'MeasureCode','scip-card-2',('Stateavg', {'ak_scip-card-2'}))
+Pruned:  df = swap(df,'MeasureCode','scip-card-2',('Stateavg', {'al_scip-inf-1'}))
+Pruned:  df = swap(df,'MeasureCode','scip-card-2',('Stateavg', {'al_hf-1'}))
+Pruned:  df = swap(df,'MeasureCode','scip-card-2',('Stateavg', {'al_pn-4'}))
+Pruned:  df = swap(df,'MeasureCode','scip-card-2',('Stateavg', {'al_pn-3b'}))
+Pruned:  df = swap(df,'MeasureCode','scip-card-2',('Stateavg', {'al_scip-card-2'}))
+Pruned:  df = swap(df,'MeasureCode','scip-card-2',('Stateavg', {'al_hf-2'}))
+Pruned:  df = swap(df,'MeasureCode','scip-card-2',('Stateavg', {'al_scip-inf-2'}))
+0.000294
+Computing Block=ami-8a 19 out of 32
+0.000329
+Computing Block=ami-5 20 out of 32
+0.000314
+Computing Block=hf-4 21 out of 32
+Pruned:  df = swap(df,'MeasureCode','hf-4',('Stateavg', {'al_hf-4'}))
+Pruned:  df = swap(df,'MeasureCode','hf-4',('Stateavg', {'ak_hf-4'}))
+0.000306
+Computing Block=ami-7a 22 out of 32
+0.000404
+Computing Block=ami-3 23 out of 32
+0.000304
+Computing Block=scip-vte-1 24 out of 32
+Pruned:  df = swap(df,'MeasureCode','scip-vte-1',('Stateavg', {'al_scip-vte-1'}))
+Pruned:  df = swap(df,'MeasureCode','scip-vte-1',('Stateavg', {'ak_scip-vte-1'}))
+0.00031
+Computing Block=scip-nif-4 25 out of 32
+0.000224
+Computing Block=ami-4 26 out of 32
+0.000357
+Computing Block=p-6 27 out of 32
+0.000245
+Computing Block=hf-2 28 out of 32
+Pruned:  df = swap(df,'MeasureCode','hf-2',('Stateavg', {'al_hf-2'}))
+Pruned:  df = swap(df,'MeasureCode','hf-2',('Stateavg', {'ak_hf-2'}))
+0.00028
+Computing Block=pn-5c 29 out of 32
+Pruned:  df = swap(df,'MeasureCode','pn-5c',('Stateavg', {'al_pn-5c'}))
+Pruned:  df = swap(df,'MeasureCode','pn-5c',('Stateavg', {'ak_pn-5c'}))
+0.000263
+Computing Block=scip-vte-2 30 out of 32
+Pruned:  df = swap(df,'MeasureCode','scip-vte-2',('Stateavg', {'ak_scip-vte-2'}))
+Pruned:  df = swap(df,'MeasureCode','scip-vte-2',('Stateavg', {'al_scip-vte-2'}))
+0.000299
+Computing Block=scip-inf-3 31 out of 32
+Pruned:  df = swap(df,'MeasureCode','scip-inf-3',('Stateavg', {'ak_scip-inf-3'}))
+Pruned:  df = swap(df,'MeasureCode','scip-inf-3',('Stateavg', {'al_scip-inf-3'}))
+0.000267
+Computing Block=pn-2 32 out of 32
+Pruned:  df = swap(df,'MeasureCode','pn-2',('Stateavg', {'ak_pn-2'}))
+Pruned:  df = swap(df,'MeasureCode','pn-2',('Stateavg', {'al_pn-2'}))
+0.000253
+Computing Block=callahan eye foundation hospital 1 out of 45
+0.000262
+Computing Block=st vincents blount 2 out of 45
+0.000315
+Computing Block=chilton medical center 3 out of 45
+0.000316
+Computing Block=southeast alabama medical center 4 out of 45
+0.000255
+Computing Block=russellville hospital 5 out of 45
+0.000215
+Computing Block=jackson hospital & clinic inc 6 out of 45
+0.000389
+Computing Block=georgiana hospital 7 out of 45
+0.000283
+Computing Block=marshall medical center north 8 out of 45
+0.000288
+Computing Block=cullman regional medical center 9 out of 45
+0.000245
+Computing Block=st vincents east 10 out of 45
+0.000304
+Computing Block=cherokee medical center 11 out of 45
+0.000289
+Computing Block=dale medical center 12 out of 45
+0.000314
+Computing Block=riverview regional medical center 13 out of 45
+0.000295
+Computing Block=hartselle medical center 14 out of 45
+0.000308
+Computing Block=yukon kuskokwim delta reg hospital 15 out of 45
+0.00022
+Computing Block=marion regional medical center 16 out of 45
+Pruned:  df = swap(df,'HospitalName','marion regional medical center',('ZipCode', {'35570'}))
+Pruned:  df = swap(df,'HospitalName','marion regional medical center',('ZipCode', {'3550'}))
+0.000288
+Computing Block=medical center enterprise 17 out of 45
+0.000255
+Computing Block=andalusia regional hospital 18 out of 45
+0.000288
+Computing Block=eliza coffee memorial hospital 19 out of 45
+0.00028
+Computing Block=southwest alabama medical center 20 out of 45
+0.000293
+Computing Block=prattville baptist hospital 21 out of 45
+0.000247
+Computing Block=dekalb regional medical center 22 out of 45
+0.00023
+Computing Block=community hospital inc 23 out of 45
+0.000297
+Computing Block=decatur general hospital 24 out of 45
+0.000217
+Computing Block=huntsville hospital 25 out of 45
+0.0003
+Computing Block=crenshaw community hospital 26 out of 45
+0.000262
+Computing Block=fayette medical center 27 out of 45
+0.00028
+Computing Block=university of alabama hospital 28 out of 45
+0.000252
+Computing Block=alaska regional hospital 29 out of 45
+0.000281
+Computing Block=univ of south alabama medical center 30 out of 45
+0.000274
+Computing Block=stringfellow memorial hospital 31 out of 45
+0.000303
+Computing Block=baptist medical center south 32 out of 45
+0.000295
+Computing Block=wedowee hospital 33 out of 45
+0.000335
+Computing Block=st vincents hospital 34 out of 45
+0.000244
+Computing Block=coosa valley medical center 35 out of 45
+0.0003
+Computing Block=gadsden regional medical center 36 out of 45
+0.000315
+Computing Block=northwest medical center 37 out of 45
+0.000326
+Computing Block=elba general hospital 38 out of 45
+0.000285
+Computing Block=marshall medical center south 39 out of 45
+Pruned:  df = swap(df,'HospitalName','marshall medical center south',('ZipCode', {'53957'}))
+Pruned:  df = swap(df,'HospitalName','marshall medical center south',('ZipCode', {'35957'}))
+0.00025
+Computing Block=helen keller memorial hospital 40 out of 45
+0.000308
+Computing Block=mizell memorial hospital 41 out of 45
+0.0003
+Computing Block=flowers hospital 42 out of 45
+0.000254
+Computing Block=g h lanier memorial hospital 43 out of 45
+0.000307
+Computing Block=east alabama medical center and snf 44 out of 45
+0.000315
+Computing Block=shelby baptist medical center 45 out of 45
+0.000336
+Computing Block=callahan eye foundation hospital 1 out of 45
+0.000313
+Computing Block=st vincents blount 2 out of 45
+0.000383
+Computing Block=chilton medical center 3 out of 45
+0.000299
+Computing Block=southeast alabama medical center 4 out of 45
+0.000302
+Computing Block=russellville hospital 5 out of 45
+0.000243
+Computing Block=jackson hospital & clinic inc 6 out of 45
+0.000288
+Computing Block=georgiana hospital 7 out of 45
+0.000282
+Computing Block=marshall medical center north 8 out of 45
+0.000267
+Computing Block=cullman regional medical center 9 out of 45
+0.000289
+Computing Block=st vincents east 10 out of 45
+0.000274
+Computing Block=cherokee medical center 11 out of 45
+0.000292
+Computing Block=dale medical center 12 out of 45
+0.000294
+Computing Block=riverview regional medical center 13 out of 45
+0.00029
+Computing Block=hartselle medical center 14 out of 45
+0.000264
+Computing Block=yukon kuskokwim delta reg hospital 15 out of 45
+0.000218
+Computing Block=marion regional medical center 16 out of 45
+0.000259
+Computing Block=medical center enterprise 17 out of 45
+0.000292
+Computing Block=andalusia regional hospital 18 out of 45
+0.000259
+Computing Block=eliza coffee memorial hospital 19 out of 45
+0.000256
+Computing Block=southwest alabama medical center 20 out of 45
+0.000281
+Computing Block=prattville baptist hospital 21 out of 45
+0.000274
+Computing Block=dekalb regional medical center 22 out of 45
+0.000286
+Computing Block=community hospital inc 23 out of 45
+Pruned:  df = swap(df,'HospitalOwner','voluntary non-profit- private',('HospitalName', {'community hospital inc'}))
+Pruned:  df = swap(df,'HospitalOwner','voluntary non-profit - private',('HospitalName', {'community hospital inc'}))
+Pruned:  df = swap(df,'HospitalName','community hospital inc',('HospitalOwner', {'voluntary non-profit- private'}))
+Pruned:  df = swap(df,'HospitalName','community hospital inc',('HospitalOwner', {'voluntary non-profit - private'}))
+0.000239
+Computing Block=decatur general hospital 24 out of 45
+0.000212
+Computing Block=huntsville hospital 25 out of 45
+0.000282
+Computing Block=crenshaw community hospital 26 out of 45
+0.000271
+Computing Block=fayette medical center 27 out of 45
+0.000278
+Computing Block=university of alabama hospital 28 out of 45
+0.000309
+Computing Block=alaska regional hospital 29 out of 45
+0.000241
+Computing Block=univ of south alabama medical center 30 out of 45
+0.000277
+Computing Block=stringfellow memorial hospital 31 out of 45
+0.000259
+Computing Block=baptist medical center south 32 out of 45
+0.000273
+Computing Block=wedowee hospital 33 out of 45
+Pruned:  df = swap(df,'HospitalName','wedowee hospital',('HospitalOwner', {'government t- local'}))
+Pruned:  df = swap(df,'HospitalName','wedowee hospital',('HospitalOwner', {'government - local'}))
+0.000311
+Computing Block=st vincents hospital 34 out of 45
+0.000219
+Computing Block=coosa valley medical center 35 out of 45
+0.000254
+Computing Block=gadsden regional medical center 36 out of 45
+0.00027
+Computing Block=northwest medical center 37 out of 45
+0.000257
+Computing Block=elba general hospital 38 out of 45
+0.000308
+Computing Block=marshall medical center south 39 out of 45
+0.000283
+Computing Block=helen keller memorial hospital 40 out of 45
+Pruned:  df = swap(df,'HospitalOwner','government - hospital district or autority',('HospitalName', {'helen keller memorial hospital'}))
+Pruned:  df = swap(df,'HospitalOwner','government - hospitla district or authority',('HospitalName', {'helen keller memorial hospital'}))
+Pruned:  df = swap(df,'HospitalOwner','government - hospital district or authority',('HospitalName', {'helen keller memorial hospital'}))
+Pruned:  df = swap(df,'HospitalName','helen keller memorial hospital',('HospitalOwner', {'government - hospital district or autority'}))
+Pruned:  df = swap(df,'HospitalName','helen keller memorial hospital',('HospitalOwner', {'government - hospitla district or authority'}))
+Pruned:  df = swap(df,'HospitalName','helen keller memorial hospital',('HospitalOwner', {'government - hospital district or authority'}))
+0.000258
+Computing Block=mizell memorial hospital 41 out of 45
+0.000266
+Computing Block=flowers hospital 42 out of 45
+0.00027
+Computing Block=g h lanier memorial hospital 43 out of 45
+Pruned:  df = swap(df,'HospitalOwner','voluntary non-profit - other',('HospitalName', {'g h lanier memorial hospital'}))
+Pruned:  df = swap(df,'HospitalOwner','voluntary non-prfoit - other',('HospitalName', {'g h lanier memorial hospital'}))
+Pruned:  df = swap(df,'HospitalName','g h lanier memorial hospital',('HospitalOwner', {'voluntary non-profit - other'}))
+Pruned:  df = swap(df,'HospitalName','g h lanier memorial hospital',('HospitalOwner', {'voluntary non-prfoit - other'}))
+0.000248
+Computing Block=east alabama medical center and snf 44 out of 45
+0.000287
+Computing Block=shelby baptist medical center 45 out of 45
+0.00023
+Computing Block=10158 1 out of 50
+0.000252
+Computing Block=10006 2 out of 50
+0.000367
+Computing Block=10085 3 out of 50
+0.000284
+Computing Block=10023 4 out of 50
+0.000308
+Computing Block=10108 5 out of 50
+0.00028
+Computing Block=10029 6 out of 50
+0.000294
+Computing Block=10001 7 out of 50
+0.000268
+Computing Block=10039 8 out of 50
+0.000297
+Computing Block=01019 9 out of 50
+0.000219
+Computing Block=10033 10 out of 50
+0.000249
+Computing Block=10045 11 out of 50
+0.000314
+Computing Block=01009 12 out of 50
+0.000226
+Computing Block=10040 13 out of 50
+0.000266
+Computing Block=10019 14 out of 50
+0.000297
+Computing Block=10055 15 out of 50
+0.000289
+Computing Block=10011 16 out of 50
+0.000266
+Computing Block=10036 17 out of 50
+0.000281
+Computing Block=10035 18 out of 50
+0.000308
+Computing Block=10044 19 out of 50
+0.0003
+Computing Block=10018 20 out of 50
+0.000313
+Computing Block=10012 21 out of 50
+0.000287
+Computing Block=10038 22 out of 50
+0.000295
+Computing Block=10043 23 out of 50
+0.000331
+Computing Block=10047 24 out of 50
+0.0003
+Computing Block=10009 25 out of 50
+0.000306
+Computing Block=10034 26 out of 50
+0.000321
+Computing Block=10056 27 out of 50
+0.000252
+Computing Block=10086 28 out of 50
+0.000303
+Computing Block=10007 29 out of 50
+0.00027
+Computing Block=10016 30 out of 50
+0.000323
+Computing Block=10032 31 out of 50
+0.00036
+Computing Block=10050 32 out of 50
+0.000307
+Computing Block=1j0044 33 out of 50
+0.000256
+Computing Block=10008 34 out of 50
+0.00035
+Computing Block=10025 35 out of 50
+0.000267
+Computing Block=10045*** 36 out of 50
+0.000217
+Computing Block=10046 37 out of 50
+0.000295
+Computing Block=10087 38 out of 50
+0.000239
+Computing Block=10005 39 out of 50
+0.000224
+Computing Block=10049 40 out of 50
+0.000287
+Computing Block=20018 41 out of 50
+0.000222
+Computing Block=1019 42 out of 50
+0.000211
+Computing Block=10024 43 out of 50
+0.000273
+Computing Block=10010 44 out of 50
+0.000275
+Computing Block=20017 45 out of 50
+0.000233
+Computing Block=10021 46 out of 50
+0.000224
+Computing Block=10164 47 out of 50
+0.000264
+Computing Block=10022 48 out of 50
+0.000258
+Computing Block=10027 49 out of 50
+0.000272
+Computing Block=10015 50 out of 50
+0.00026
+Computing Block=heart attack*** 1 out of 12
+0.000218
+Computing Block=penumonia 2 out of 12
+0.000208
+Computing Block=surgical infection prevenion 3 out of 12
+0.000202
+Computing Block=surgical infection prevention 4 out of 12
+0.000375
+Computing Block=hearbt attack 5 out of 12
+0.000222
+Computing Block=heart atjtack 6 out of 12
+0.000209
+Computing Block=heart failure 7 out of 12
+0.000326
+Computing Block=heart tatack 8 out of 12
+0.000223
+Computing Block=children s asthma care 9 out of 12
+0.000219
+Computing Block=heart attack 10 out of 12
+Pruned:  df = swap(df,'Condition','heart attack',('HospitalType', {'acute care hospitals'}))
+Pruned:  df = swap(df,'Condition','heart attack',('HospitalType', {'acute care hospidtals'}))
+Pruned:  df = swap(df,'Condition','heart attack',('HospitalType', {'acute care hospitales'}))
+Pruned:  df = swap(df,'Condition','heart attack',('HospitalType', {'acutee care hospitals'}))
+Pruned:  df = swap(df,'Condition','heart attack',('HospitalType', {'acue care hospitals'}))
+Pruned:  df = swap(df,'Condition','heart attack',('MeasureName', {'heart attack patients given aspirin at arrival'}))
+Pruned:  df = swap(df,'Condition','heart attack',('MeasureName', {'heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)'}))
+0.000337
+Computing Block=pneumonia 11 out of 12
+Pruned:  df = swap(df,'MeasureName','pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics',('Condition', {'pneumonia'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients assessed and given influenza vaccination',('Condition', {'pneumonia'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients assessed and given pneumococcal vaccination',('Condition', {'pneumonia'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given the most appropriate initial antibiotic(s)',('Condition', {'pneumonia'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given smoking cessation advice/counseling',('Condition', {'pneumonia'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given initial antibiotic(s) within 6 hours after arrival',('Condition', {'pneumonia'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics',('HospitalType', {'acute care hospitals'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients assessed and given influenza vaccination',('HospitalType', {'acute care hospitals'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients assessed and given pneumococcal vaccination',('HospitalType', {'acute care hospitals'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given the most appropriate initial antibiotic(s)',('HospitalType', {'acute care hospitals'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given smoking cessation advice/counseling',('HospitalType', {'acute care hospitals'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given initial antibiotic(s) within 6 hours after arrival',('HospitalType', {'acute care hospitals'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics',('HospitalType', {'aqcute care hospitals'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients assessed and given influenza vaccination',('HospitalType', {'aqcute care hospitals'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients assessed and given pneumococcal vaccination',('HospitalType', {'aqcute care hospitals'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given the most appropriate initial antibiotic(s)',('HospitalType', {'aqcute care hospitals'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given smoking cessation advice/counseling',('HospitalType', {'aqcute care hospitals'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given initial antibiotic(s) within 6 hours after arrival',('HospitalType', {'aqcute care hospitals'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients assessed and given influenza vaccination',('MeasureName', {'pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients assessed and given pneumococcal vaccination',('MeasureName', {'pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given the most appropriate initial antibiotic(s)',('MeasureName', {'pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given smoking cessation advice/counseling',('MeasureName', {'pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given initial antibiotic(s) within 6 hours after arrival',('MeasureName', {'pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics'}))
+0.000324
+Computing Block=sugical infection prevention 12 out of 12
+0.000219
+Computing Block=2059397000 1 out of 49
+0.000217
+Computing Block=2563321611 2 out of 49
+0.000208
+Computing Block=2563864556*** 3 out of 49
+0.0002
+Computing Block=2563572111 4 out of 49
+0.000261
+Computing Block=3342882100 5 out of 49
+0.000242
+Computing Block=2057555200 6 out of 49
+0.000208
+Computing Block=3343762205 7 out of 49
+0.000286
+Computing Block=2565435200 8 out of 49
+0.000234
+Computing Block=2059216200 9 out of 49
+0.000237
+Computing Block=2563864556 10 out of 49
+0.000256
+Computing Block=2563846556 11 out of 49
+0.00021
+Computing Block=2567736511 12 out of 49
+0.000256
+Computing Block=2569275531 13 out of 49
+0.000226
+Computing Block=2057552500 14 out of 49
+0.000238
+Computing Block=2514717110 15 out of 49
+0.000223
+Computing Block=3347493411 16 out of 49
+0.000224
+Computing Block=3343353374 17 out of 49
+0.000221
+Computing Block=2568453150 18 out of 49
+0.000246
+Computing Block=3342228466 19 out of 49
+0.000247
+Computing Block=2562651000 20 out of 49
+0.000276
+Computing Block=2563412000 21 out of 49
+0.000286
+Computing Block=3343614267 22 out of 49
+0.000376
+Computing Block=3342938000 23 out of 49
+0.000313
+Computing Block=2562495000 24 out of 49
+0.000322
+Computing Block=3347561400 25 out of 49
+0.000311
+Computing Block=3347938701 26 out of 49
+0.000281
+Computing Block=3343470584 27 out of 49
+0.000281
+Computing Block=k2569275531 28 out of 49
+0.000219
+Computing Block=2567372000 29 out of 49
+0.000259
+Computing Block=3347742601 30 out of 49
+0.000272
+Computing Block=3344933541 31 out of 49
+0.00023
+Computing Block=9072761131 32 out of 49
+0.000217
+Computing Block=2056208100 33 out of 49
+0.000242
+Computing Block=2567688400 34 out of 49
+0.000223
+Computing Block=2564944000 35 out of 49
+0.000246
+Computing Block=2565938310 36 out of 49
+0.000229
+Computing Block=2053258100 37 out of 49
+0.000234
+Computing Block=9075436300 38 out of 49
+0.00021
+Computing Block=3342836541 39 out of 49
+0.000298
+Computing Block=3347935000 40 out of 49
+0.000277
+Computing Block=2054877736 41 out of 49
+0.000291
+Computing Block=2562358900 42 out of 49
+0.00025
+Computing Block=2058383122 43 out of 49
+0.000363
+Computing Block=3346366221 44 out of 49
+0.000309
+Computing Block=3348972257 45 out of 49
+0.000418
+Computing Block=2052743000 46 out of 49
+0.000232
+Computing Block=2059325966 47 out of 49
+0.00023
+Computing Block=2565718000 48 out of 49
+0.000295
+Computing Block=2059344011 49 out of 49
+0.000273
+Computing Block=callahan eye foundation hospital 1 out of 45
+0.000293
+Computing Block=st vincents blount 2 out of 45
+0.000313
+Computing Block=chilton medical center 3 out of 45
+0.000386
+Computing Block=southeast alabama medical center 4 out of 45
+0.000297
+Computing Block=russellville hospital 5 out of 45
+0.000257
+Computing Block=jackson hospital & clinic inc 6 out of 45
+0.000278
+Computing Block=georgiana hospital 7 out of 45
+0.000345
+Computing Block=marshall medical center north 8 out of 45
+0.00037
+Computing Block=cullman regional medical center 9 out of 45
+0.000317
+Computing Block=st vincents east 10 out of 45
+0.000244
+Computing Block=cherokee medical center 11 out of 45
+0.000252
+Computing Block=dale medical center 12 out of 45
+0.000284
+Computing Block=riverview regional medical center 13 out of 45
+0.00028
+Computing Block=hartselle medical center 14 out of 45
+0.000276
+Computing Block=yukon kuskokwim delta reg hospital 15 out of 45
+0.000215
+Computing Block=marion regional medical center 16 out of 45
+Pruned:  df = swap(df,'ProviderNumber','10044',('ProviderNumber', {'1j0044'}))
+Pruned:  df = swap(df,'ProviderNumber','1j0044',('ProviderNumber', {'10044'}))
+Pruned:  df = swap(df,'ProviderNumber','1j0044',('HospitalName', {'marion regional medical center'}))
+Pruned:  df = swap(df,'ProviderNumber','10044',('HospitalName', {'marion regional medical center'}))
+0.000249
+Computing Block=medical center enterprise 17 out of 45
+0.000228
+Computing Block=andalusia regional hospital 18 out of 45
+0.000378
+Computing Block=eliza coffee memorial hospital 19 out of 45
+0.000275
+Computing Block=southwest alabama medical center 20 out of 45
+0.000238
+Computing Block=prattville baptist hospital 21 out of 45
+0.000224
+Computing Block=dekalb regional medical center 22 out of 45
+0.000282
+Computing Block=community hospital inc 23 out of 45
+0.000284
+Computing Block=decatur general hospital 24 out of 45
+0.000237
+Computing Block=huntsville hospital 25 out of 45
+0.000249
+Computing Block=crenshaw community hospital 26 out of 45
+0.000223
+Computing Block=fayette medical center 27 out of 45
+Pruned:  df = swap(df,'ProviderNumber','10045',('ProviderNumber', {'10045***'}))
+Pruned:  df = swap(df,'ProviderNumber','10045***',('ProviderNumber', {'10045'}))
+0.000289
+Computing Block=university of alabama hospital 28 out of 45
+0.000261
+Computing Block=alaska regional hospital 29 out of 45
+0.000271
+Computing Block=univ of south alabama medical center 30 out of 45
+0.000239
+Computing Block=stringfellow memorial hospital 31 out of 45
+0.000271
+Computing Block=baptist medical center south 32 out of 45
+0.00029
+Computing Block=wedowee hospital 33 out of 45
+0.000291
+Computing Block=st vincents hospital 34 out of 45
+0.000255
+Computing Block=coosa valley medical center 35 out of 45
+0.00046
+Computing Block=gadsden regional medical center 36 out of 45
+0.000285
+Computing Block=northwest medical center 37 out of 45
+0.000283
+Computing Block=elba general hospital 38 out of 45
+0.000397
+Computing Block=marshall medical center south 39 out of 45
+0.000333
+Computing Block=helen keller memorial hospital 40 out of 45
+0.000243
+Computing Block=mizell memorial hospital 41 out of 45
+0.000244
+Computing Block=flowers hospital 42 out of 45
+0.000221
+Computing Block=g h lanier memorial hospital 43 out of 45
+0.000219
+Computing Block=east alabama medical center and snf 44 out of 45
+0.000214
+Computing Block=shelby baptist medical center 45 out of 45
+0.000275
+Computing Block=callahan eye foundation hospital 1 out of 45
+0.000229
+Computing Block=st vincents blount 2 out of 45
+0.000213
+Computing Block=chilton medical center 3 out of 45
+0.000213
+Computing Block=southeast alabama medical center 4 out of 45
+0.000235
+Computing Block=russellville hospital 5 out of 45
+0.00021
+Computing Block=jackson hospital & clinic inc 6 out of 45
+0.000215
+Computing Block=georgiana hospital 7 out of 45
+0.000212
+Computing Block=marshall medical center north 8 out of 45
+0.000226
+Computing Block=cullman regional medical center 9 out of 45
+0.000231
+Computing Block=st vincents east 10 out of 45
+0.000229
+Computing Block=cherokee medical center 11 out of 45
+0.000255
+Computing Block=dale medical center 12 out of 45
+0.000253
+Computing Block=riverview regional medical center 13 out of 45
+0.000242
+Computing Block=hartselle medical center 14 out of 45
+0.000236
+Computing Block=yukon kuskokwim delta reg hospital 15 out of 45
+0.000201
+Computing Block=marion regional medical center 16 out of 45
+0.00024
+Computing Block=medical center enterprise 17 out of 45
+0.000236
+Computing Block=andalusia regional hospital 18 out of 45
+0.000239
+Computing Block=eliza coffee memorial hospital 19 out of 45
+0.000259
+Computing Block=southwest alabama medical center 20 out of 45
+0.000251
+Computing Block=prattville baptist hospital 21 out of 45
+0.000238
+Computing Block=dekalb regional medical center 22 out of 45
+0.00022
+Computing Block=community hospital inc 23 out of 45
+0.000247
+Computing Block=decatur general hospital 24 out of 45
+0.000212
+Computing Block=huntsville hospital 25 out of 45
+0.000244
+Computing Block=crenshaw community hospital 26 out of 45
+0.000226
+Computing Block=fayette medical center 27 out of 45
+Pruned:  df = swap(df,'Address1','1653 temple avenue north',('Address1', {'1653 templen avenue north'}))
+Pruned:  df = swap(df,'Address1','1653 templen avenue north',('Address1', {'1653 temple avenue north'}))
+0.000222
+Computing Block=university of alabama hospital 28 out of 45
+0.000234
+Computing Block=alaska regional hospital 29 out of 45
+0.000217
+Computing Block=univ of south alabama medical center 30 out of 45
+0.000212
+Computing Block=stringfellow memorial hospital 31 out of 45
+0.000237
+Computing Block=baptist medical center south 32 out of 45
+0.000223
+Computing Block=wedowee hospital 33 out of 45
+0.000254
+Computing Block=st vincents hospital 34 out of 45
+0.00021
+Computing Block=coosa valley medical center 35 out of 45
+Pruned:  df = swap(df,'HospitalName','coosa valley medical center',('Address1', {'315 w hickory st'}))
+Pruned:  df = swap(df,'HospitalName','coosa valley medical center',('Address1', {'315 w hickory ts'}))
+Pruned:  df = swap(df,'Address1','315 w hickory ts',('Address1', {'315 w hickory st'}))
+Pruned:  df = swap(df,'Address1','315 w hickory st',('Address1', {'315 w hickory ts'}))
+0.00022
+Computing Block=gadsden regional medical center 36 out of 45
+0.000254
+Computing Block=northwest medical center 37 out of 45
+0.000294
+Computing Block=elba general hospital 38 out of 45
+0.000297
+Computing Block=marshall medical center south 39 out of 45
+0.000292
+Computing Block=helen keller memorial hospital 40 out of 45
+Pruned:  df = swap(df,'HospitalName','helen keller memorial hospital',('Address1', {'1300 sout hmontgomery avenue'}))
+Pruned:  df = swap(df,'HospitalName','helen keller memorial hospital',('Address1', {'1300 south montgomeryh avenue'}))
+Pruned:  df = swap(df,'HospitalName','helen keller memorial hospital',('Address1', {'1300 south montgomery avenue'}))
+Pruned:  df = swap(df,'Address1','1300 south montgomery avenue',('Address1', {'1300 south montgomeryh avenue'}))
+Pruned:  df = swap(df,'Address1','1300 south montgomeryh avenue',('Address1', {'1300 south montgomery avenue'}))
+0.000251
+Computing Block=mizell memorial hospital 41 out of 45
+0.000241
+Computing Block=flowers hospital 42 out of 45
+0.000348
+Computing Block=g h lanier memorial hospital 43 out of 45
+0.000364
+Computing Block=east alabama medical center and snf 44 out of 45
+0.00031
+Computing Block=shelby baptist medical center 45 out of 45
+0.000248
+Computing Block=callahan eye foundation hospital 1 out of 45
+0.000237
+Computing Block=st vincents blount 2 out of 45
+0.000212
+Computing Block=chilton medical center 3 out of 45
+0.000281
+Computing Block=southeast alabama medical center 4 out of 45
+0.000253
+Computing Block=russellville hospital 5 out of 45
+0.000216
+Computing Block=jackson hospital & clinic inc 6 out of 45
+0.000288
+Computing Block=georgiana hospital 7 out of 45
+0.000289
+Computing Block=marshall medical center north 8 out of 45
+0.00025
+Computing Block=cullman regional medical center 9 out of 45
+0.000353
+Computing Block=st vincents east 10 out of 45
+0.000334
+Computing Block=cherokee medical center 11 out of 45
+Pruned:  df = swap(df,'HospitalName','cherokee medical center',('PhoneNumber', {'2569275531'}))
+Pruned:  df = swap(df,'HospitalName','cherokee medical center',('PhoneNumber', {'k2569275531'}))
+0.000276
+Computing Block=dale medical center 12 out of 45
+0.000292
+Computing Block=riverview regional medical center 13 out of 45
+0.000288
+Computing Block=hartselle medical center 14 out of 45
+0.000307
+Computing Block=yukon kuskokwim delta reg hospital 15 out of 45
+0.00022
+Computing Block=marion regional medical center 16 out of 45
+0.000262
+Computing Block=medical center enterprise 17 out of 45
+0.000239
+Computing Block=andalusia regional hospital 18 out of 45
+0.000251
+Computing Block=eliza coffee memorial hospital 19 out of 45
+0.000274
+Computing Block=southwest alabama medical center 20 out of 45
+0.000246
+Computing Block=prattville baptist hospital 21 out of 45
+0.000222
+Computing Block=dekalb regional medical center 22 out of 45
+0.000218
+Computing Block=community hospital inc 23 out of 45
+0.000237
+Computing Block=decatur general hospital 24 out of 45
+0.000211
+Computing Block=huntsville hospital 25 out of 45
+0.000235
+Computing Block=crenshaw community hospital 26 out of 45
+0.000223
+Computing Block=fayette medical center 27 out of 45
+0.000219
+Computing Block=university of alabama hospital 28 out of 45
+0.000242
+Computing Block=alaska regional hospital 29 out of 45
+0.000295
+Computing Block=univ of south alabama medical center 30 out of 45
+0.000269
+Computing Block=stringfellow memorial hospital 31 out of 45
+0.000264
+Computing Block=baptist medical center south 32 out of 45
+0.000284
+Computing Block=wedowee hospital 33 out of 45
+0.000283
+Computing Block=st vincents hospital 34 out of 45
+0.000247
+Computing Block=coosa valley medical center 35 out of 45
+0.000251
+Computing Block=gadsden regional medical center 36 out of 45
+0.000301
+Computing Block=northwest medical center 37 out of 45
+0.000293
+Computing Block=elba general hospital 38 out of 45
+0.000241
+Computing Block=marshall medical center south 39 out of 45
+0.000277
+Computing Block=helen keller memorial hospital 40 out of 45
+Pruned:  df = swap(df,'HospitalName','helen keller memorial hospital',('PhoneNumber', {'2563846556'}))
+Pruned:  df = swap(df,'HospitalName','helen keller memorial hospital',('PhoneNumber', {'2563864556***'}))
+Pruned:  df = swap(df,'HospitalName','helen keller memorial hospital',('PhoneNumber', {'2563864556'}))
+Pruned:  df = swap(df,'PhoneNumber','2563864556',('PhoneNumber', {'2563846556'}))
+Pruned:  df = swap(df,'PhoneNumber','2563864556',('PhoneNumber', {'2563864556***'}))
+Pruned:  df = swap(df,'PhoneNumber','2563846556',('PhoneNumber', {'2563864556'}))
+Pruned:  df = swap(df,'PhoneNumber','2563864556***',('PhoneNumber', {'2563864556'}))
+0.000267
+Computing Block=mizell memorial hospital 41 out of 45
+0.000287
+Computing Block=flowers hospital 42 out of 45
+0.000276
+Computing Block=g h lanier memorial hospital 43 out of 45
+0.000291
+Computing Block=east alabama medical center and snf 44 out of 45
+0.000305
+Computing Block=shelby baptist medical center 45 out of 45
+0.000275
+Computing Block=dothan 1 out of 43
+0.000292
+Computing Block=mobile 2 out of 43
+0.000302
+Computing Block=winfield 3 out of 43
+0.000287
+Computing Block=centre 4 out of 43
+0.000282
+Computing Block=bimingham 5 out of 43
+0.000216
+Computing Block=andalusia 6 out of 43
+0.000262
+Computing Block=birmingham 7 out of 43
+0.00031
+Computing Block=anchorage 8 out of 43
+0.000263
+Computing Block=tallassee 9 out of 43
+0.000262
+Computing Block=birminghvam 10 out of 43
+0.000214
+Computing Block=guntersville 11 out of 43
+0.0003
+Computing Block=sylacauga 12 out of 43
+0.000275
+Computing Block=cullman 13 out of 43
+0.000254
+Computing Block=clanton 14 out of 43
+0.000278
+Computing Block=sheffield 15 out of 43
+0.000291
+Computing Block=fort payne 16 out of 43
+0.000298
+Computing Block=elba 17 out of 43
+0.000274
+Computing Block=huntsville 18 out of 43
+0.000267
+Computing Block=opp 19 out of 43
+0.000279
+Computing Block=luverne 20 out of 43
+0.000237
+Computing Block=hamilton 21 out of 43
+0.000243
+Computing Block=opelika 22 out of 43
+0.000245
+Computing Block=ozark 23 out of 43
+0.00024
+Computing Block=oneonta 24 out of 43
+0.000244
+Computing Block=anniston 25 out of 43
+0.000263
+Computing Block=boaz 26 out of 43
+0.000226
+Computing Block=decatur 27 out of 43
+0.000208
+Computing Block=thomasville 28 out of 43
+0.000238
+Computing Block=russellville 29 out of 43
+0.000213
+Computing Block=montgomery 30 out of 43
+0.000264
+Computing Block=fayette 31 out of 43
+0.000255
+Computing Block=prattville 32 out of 43
+0.000243
+Computing Block=bethel 33 out of 43
+0.000214
+Computing Block=clnton 34 out of 43
+0.000207
+Computing Block=wedowee 35 out of 43
+0.000248
+Computing Block=enterprise 36 out of 43
+0.00023
+Computing Block=hmailton 37 out of 43
+0.000209
+Computing Block=gadsden 38 out of 43
+0.000264
+Computing Block=georgiana 39 out of 43
+0.000248
+Computing Block=alabaster 40 out of 43
+0.000234
+Computing Block=valley 41 out of 43
+0.000255
+Computing Block=florence 42 out of 43
+0.000293
+Computing Block=hartselle 43 out of 43
+0.000253
+Computing Block=10158 1 out of 46
+0.000225
+Computing Block=10006 2 out of 46
+0.000255
+Computing Block=10085 3 out of 46
+0.000214
+Computing Block=10023 4 out of 46
+0.000242
+Computing Block=10108 5 out of 46
+0.000281
+Computing Block=10029 6 out of 46
+0.000246
+Computing Block=10001 7 out of 46
+0.000237
+Computing Block=10039 8 out of 46
+0.000237
+Computing Block=10033 9 out of 46
+0.000243
+Computing Block=10045 10 out of 46
+0.000259
+Computing Block=10040 11 out of 46
+0.000226
+Computing Block=10019 12 out of 46
+0.000243
+Computing Block=10055 13 out of 46
+0.000221
+Computing Block=10011 14 out of 46
+0.000215
+Computing Block=10036 15 out of 46
+0.000231
+Computing Block=10035 16 out of 46
+0.000221
+Computing Block=10044 17 out of 46
+0.000253
+Computing Block=10018 18 out of 46
+0.000238
+Computing Block=10012 19 out of 46
+0.000245
+Computing Block=10038 20 out of 46
+0.000229
+Computing Block=10043 21 out of 46
+0.000226
+Computing Block=10047 22 out of 46
+0.000238
+Computing Block=10009 23 out of 46
+0.000232
+Computing Block=10034 24 out of 46
+0.000229
+Computing Block=10056 25 out of 46
+0.000249
+Computing Block=10086 26 out of 46
+0.000284
+Computing Block=10007 27 out of 46
+0.000226
+Computing Block=10016 28 out of 46
+0.000239
+Computing Block=10032 29 out of 46
+0.000227
+Computing Block=10050 30 out of 46
+0.000215
+Computing Block=1j0044 31 out of 46
+0.000199
+Computing Block=10008 32 out of 46
+0.000236
+Computing Block=10025 33 out of 46
+0.000242
+Computing Block=10046 34 out of 46
+0.000233
+Computing Block=10087 35 out of 46
+0.000214
+Computing Block=10005 36 out of 46
+0.000246
+Computing Block=10049 37 out of 46
+0.000248
+Computing Block=20018 38 out of 46
+0.00024
+Computing Block=10024 39 out of 46
+0.00024
+Computing Block=10010 40 out of 46
+0.000225
+Computing Block=20017 41 out of 46
+0.000225
+Computing Block=10021 42 out of 46
+0.000237
+Computing Block=10164 43 out of 46
+0.000229
+Computing Block=10022 44 out of 46
+0.000237
+Computing Block=10027 45 out of 46
+0.000226
+Computing Block=10015 46 out of 46
+0.000218
+Computing Block=callahan eye foundation hospital 1 out of 45
+0.000249
+Computing Block=st vincents blount 2 out of 45
+0.000237
+Computing Block=chilton medical center 3 out of 45
+0.000223
+Computing Block=southeast alabama medical center 4 out of 45
+0.000277
+Computing Block=russellville hospital 5 out of 45
+0.000217
+Computing Block=jackson hospital & clinic inc 6 out of 45
+0.000251
+Computing Block=georgiana hospital 7 out of 45
+0.000238
+Computing Block=marshall medical center north 8 out of 45
+0.000243
+Computing Block=cullman regional medical center 9 out of 45
+0.000257
+Computing Block=st vincents east 10 out of 45
+0.000279
+Computing Block=cherokee medical center 11 out of 45
+0.000293
+Computing Block=dale medical center 12 out of 45
+0.000281
+Computing Block=riverview regional medical center 13 out of 45
+0.000274
+Computing Block=hartselle medical center 14 out of 45
+0.000289
+Computing Block=yukon kuskokwim delta reg hospital 15 out of 45
+0.000216
+Computing Block=marion regional medical center 16 out of 45
+0.000244
+Computing Block=medical center enterprise 17 out of 45
+0.000289
+Computing Block=andalusia regional hospital 18 out of 45
+0.000385
+Computing Block=eliza coffee memorial hospital 19 out of 45
+0.000263
+Computing Block=southwest alabama medical center 20 out of 45
+Pruned:  df = swap(df,'HospitalOwner','government - federal',('State', {'ayl'}))
+Pruned:  df = swap(df,'HospitalOwner','government - federal',('State', {'al'}))
+Pruned:  df = swap(df,'HospitalOwner','government - federal',('HospitalName', {'southwest alabama medical center'}))
+Pruned:  df = swap(df,'HospitalOwner','government - federal',('PhoneNumber', {'3346366221'}))
+Pruned:  df = swap(df,'HospitalName','southwest alabama medical center',('State', {'ayl'}))
+Pruned:  df = swap(df,'HospitalName','southwest alabama medical center',('State', {'al'}))
+Pruned:  df = swap(df,'HospitalName','southwest alabama medical center',('HospitalOwner', {'government - federal'}))
+Pruned:  df = swap(df,'HospitalName','southwest alabama medical center',('PhoneNumber', {'3346366221'}))
+Pruned:  df = swap(df,'PhoneNumber','3346366221',('State', {'ayl'}))
+Pruned:  df = swap(df,'PhoneNumber','3346366221',('State', {'al'}))
+Pruned:  df = swap(df,'PhoneNumber','3346366221',('HospitalOwner', {'government - federal'}))
+Pruned:  df = swap(df,'PhoneNumber','3346366221',('HospitalName', {'southwest alabama medical center'}))
+0.000234
+Computing Block=prattville baptist hospital 21 out of 45
+0.000252
+Computing Block=dekalb regional medical center 22 out of 45
+0.000273
+Computing Block=community hospital inc 23 out of 45
+0.000276
+Computing Block=decatur general hospital 24 out of 45
+0.000217
+Computing Block=huntsville hospital 25 out of 45
+0.000272
+Computing Block=crenshaw community hospital 26 out of 45
+0.000259
+Computing Block=fayette medical center 27 out of 45
+0.000284
+Computing Block=university of alabama hospital 28 out of 45
+0.000274
+Computing Block=alaska regional hospital 29 out of 45
+0.000262
+Computing Block=univ of south alabama medical center 30 out of 45
+0.000277
+Computing Block=stringfellow memorial hospital 31 out of 45
+0.000284
+Computing Block=baptist medical center south 32 out of 45
+0.000241
+Computing Block=wedowee hospital 33 out of 45
+0.000265
+Computing Block=st vincents hospital 34 out of 45
+0.000215
+Computing Block=coosa valley medical center 35 out of 45
+0.000301
+Computing Block=gadsden regional medical center 36 out of 45
+0.000279
+Computing Block=northwest medical center 37 out of 45
+0.000252
+Computing Block=elba general hospital 38 out of 45
+0.000251
+Computing Block=marshall medical center south 39 out of 45
+0.000229
+Computing Block=helen keller memorial hospital 40 out of 45
+0.000226
+Computing Block=mizell memorial hospital 41 out of 45
+0.000262
+Computing Block=flowers hospital 42 out of 45
+0.000229
+Computing Block=g h lanier memorial hospital 43 out of 45
+0.000263
+Computing Block=east alabama medical center and snf 44 out of 45
+0.000281
+Computing Block=shelby baptist medical center 45 out of 45
+0.000273
+Computing Block=callahan eye foundation hospital 1 out of 45
+0.000255
+Computing Block=st vincents blount 2 out of 45
+0.000247
+Computing Block=chilton medical center 3 out of 45
+Pruned:  df = swap(df,'City','clanton',('City', {'clnton'}))
+Pruned:  df = swap(df,'City','clnton',('City', {'clanton'}))
+0.000237
+Computing Block=southeast alabama medical center 4 out of 45
+0.000286
+Computing Block=russellville hospital 5 out of 45
+0.000246
+Computing Block=jackson hospital & clinic inc 6 out of 45
+0.000298
+Computing Block=georgiana hospital 7 out of 45
+0.000277
+Computing Block=marshall medical center north 8 out of 45
+0.000236
+Computing Block=cullman regional medical center 9 out of 45
+0.000228
+Computing Block=st vincents east 10 out of 45
+0.000288
+Computing Block=cherokee medical center 11 out of 45
+0.000291
+Computing Block=dale medical center 12 out of 45
+0.000264
+Computing Block=riverview regional medical center 13 out of 45
+0.000265
+Computing Block=hartselle medical center 14 out of 45
+0.000274
+Computing Block=yukon kuskokwim delta reg hospital 15 out of 45
+0.000216
+Computing Block=marion regional medical center 16 out of 45
+Pruned:  df = swap(df,'HospitalName','marion regional medical center',('City', {'hmailton'}))
+Pruned:  df = swap(df,'HospitalName','marion regional medical center',('City', {'hamilton'}))
+Pruned:  df = swap(df,'City','hmailton',('HospitalName', {'marion regional medical center'}))
+0.000237
+Computing Block=medical center enterprise 17 out of 45
+0.000235
+Computing Block=andalusia regional hospital 18 out of 45
+0.000265
+Computing Block=eliza coffee memorial hospital 19 out of 45
+0.000238
+Computing Block=southwest alabama medical center 20 out of 45
+0.000217
+Computing Block=prattville baptist hospital 21 out of 45
+0.000215
+Computing Block=dekalb regional medical center 22 out of 45
+0.000238
+Computing Block=community hospital inc 23 out of 45
+0.000238
+Computing Block=decatur general hospital 24 out of 45
+0.000212
+Computing Block=huntsville hospital 25 out of 45
+0.000273
+Computing Block=crenshaw community hospital 26 out of 45
+0.000253
+Computing Block=fayette medical center 27 out of 45
+0.000235
+Computing Block=university of alabama hospital 28 out of 45
+0.000275
+Computing Block=alaska regional hospital 29 out of 45
+0.000244
+Computing Block=univ of south alabama medical center 30 out of 45
+0.000236
+Computing Block=stringfellow memorial hospital 31 out of 45
+0.000239
+Computing Block=baptist medical center south 32 out of 45
+0.000227
+Computing Block=wedowee hospital 33 out of 45
+0.000215
+Computing Block=st vincents hospital 34 out of 45
+0.000208
+Computing Block=coosa valley medical center 35 out of 45
+0.000209
+Computing Block=gadsden regional medical center 36 out of 45
+0.000211
+Computing Block=northwest medical center 37 out of 45
+0.000211
+Computing Block=elba general hospital 38 out of 45
+0.000207
+Computing Block=marshall medical center south 39 out of 45
+0.000231
+Computing Block=helen keller memorial hospital 40 out of 45
+0.000219
+Computing Block=mizell memorial hospital 41 out of 45
+0.00023
+Computing Block=flowers hospital 42 out of 45
+0.000217
+Computing Block=g h lanier memorial hospital 43 out of 45
+0.000214
+Computing Block=east alabama medical center and snf 44 out of 45
+0.00024
+Computing Block=shelby baptist medical center 45 out of 45
+0.000217
+Computing Block=hf-3 1 out of 32
+0.000227
+Computing Block=ami-2 2 out of 32
+0.000257
+Computing Block=pn-4 3 out of 32
+0.000238
+Computing Block=am-7a 4 out of 32
+0.00021
+Computing Block=pn-3b 5 out of 32
+0.000245
+Computing Block=cac-2 6 out of 32
+0.000216
+Computing Block=scip-inf-1 7 out of 32
+0.000236
+Computing Block=scip-inf-2 8 out of 32
+0.000221
+Computing Block=ami-1 9 out of 32
+Pruned:  df = swap(df,'Condition','hearbt attack',('Condition', {'heart attack'}))
+Pruned:  df = swap(df,'Condition','heart attack',('Condition', {'hearbt attack'}))
+0.000254
+Computing Block=pn-6 10 out of 32
+0.000279
+Computing Block=scip-inf-4 11 out of 32
+0.000257
+Computing Block=scimp-inf-4 12 out of 32
+0.00021
+Computing Block=cac-3 13 out of 32
+0.000212
+Computing Block=hf-1 14 out of 32
+0.000256
+Computing Block=pn-7 15 out of 32
+0.000262
+Computing Block=scip-inf-6 16 out of 32
+0.000262
+Computing Block=cac-1 17 out of 32
+0.000215
+Computing Block=scip-card-2 18 out of 32
+Pruned:  df = swap(df,'MeasureCode','scip-card-2',('Condition', {'heart failure'}))
+Pruned:  df = swap(df,'MeasureCode','scip-card-2',('Condition', {'pneumonia'}))
+Pruned:  df = swap(df,'MeasureCode','scip-card-2',('Condition', {'surgical infection prevention'}))
+0.000249
+Computing Block=ami-8a 19 out of 32
+0.000264
+Computing Block=ami-5 20 out of 32
+0.000266
+Computing Block=hf-4 21 out of 32
+0.000266
+Computing Block=ami-7a 22 out of 32
+0.00024
+Computing Block=ami-3 23 out of 32
+0.000264
+Computing Block=scip-vte-1 24 out of 32
+Pruned:  df = swap(df,'Condition','surgical infection prevention',('MeasureCode', {'scip-vte-1'}))
+Pruned:  df = swap(df,'Condition','sugical infection prevention',('MeasureCode', {'scip-vte-1'}))
+Pruned:  df = swap(df,'MeasureCode','scip-vte-1',('Condition', {'surgical infection prevention'}))
+Pruned:  df = swap(df,'MeasureCode','scip-vte-1',('Condition', {'sugical infection prevention'}))
+0.000249
+Computing Block=scip-nif-4 25 out of 32
+0.00021
+Computing Block=ami-4 26 out of 32
+Pruned:  df = swap(df,'MeasureCode','ami-4',('Condition', {'heart attack'}))
+Pruned:  df = swap(df,'MeasureCode','ami-4',('Condition', {'heart attack***'}))
+0.00032
+Computing Block=p-6 27 out of 32
+0.000219
+Computing Block=hf-2 28 out of 32
+0.000276
+Computing Block=pn-5c 29 out of 32
+0.000299
+Computing Block=scip-vte-2 30 out of 32
+Pruned:  df = swap(df,'Condition','surgical infection prevenion',('MeasureCode', {'scip-vte-2'}))
+Pruned:  df = swap(df,'Condition','surgical infection prevention',('MeasureCode', {'scip-vte-2'}))
+Pruned:  df = swap(df,'MeasureCode','scip-vte-2',('Condition', {'surgical infection prevenion'}))
+Pruned:  df = swap(df,'MeasureCode','scip-vte-2',('Condition', {'surgical infection prevention'}))
+0.000287
+Computing Block=scip-inf-3 31 out of 32
+0.000299
+Computing Block=pn-2 32 out of 32
+0.000304
+Computing Block=heart attack patients given beta blocker at discharge 1 out of 30
+0.000312
+Computing Block=heart failure patients given smoking cessation advice/counseling 2 out of 30
+0.000249
+Computing Block=heart attack patients given pci within 90 minutes of arrival 3 out of 30
+0.000258
+Computing Block=surgery patients who were given the  right kind  of antibiotic to help prevent infection 4 out of 30
+0.000244
+Computing Block=patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery 5 out of 30
+0.000301
+Computing Block=all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery 6 out of 30
+Pruned:  df = swap(df,'MeasureName','all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery',('MeasureCode', {'scimp-inf-4'}))
+Pruned:  df = swap(df,'MeasureName','all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery',('MeasureCode', {'scip-inf-4'}))
+Pruned:  df = swap(df,'MeasureName','all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery',('MeasureCode', {'scip-nif-4'}))
+0.000309
+Computing Block=heart attack patients given aspirin at arrival 7 out of 30
+0.000296
+Computing Block=heart failure patients given discharge instructions 8 out of 30
+Pruned:  df = swap(df,'MeasureName','heart failure patients given discharge instructions',('MeasureCode', {'scip-card-2'}))
+Pruned:  df = swap(df,'MeasureName','heart failure patients given discharge instructions',('MeasureCode', {'hf-1'}))
+0.000264
+Computing Block=heart failure patients given an evaluation of left ventricular systolic (lvs) function 9 out of 30
+Pruned:  df = swap(df,'MeasureName','heart failure patients given an evaluation of left ventricular systolic (lvs) function',('MeasureCode', {'hf-2'}))
+Pruned:  df = swap(df,'MeasureName','heart failure patients given an evaluation of left ventricular systolic (lvs) function',('MeasureCode', {'scip-card-2'}))
+0.000266
+Computing Block=pneumonia patients assessed and given pneumococcal vaccination 10 out of 30
+0.000301
+Computing Block=heart attack patients given fibrinolytic medication within 30 minutes of arrival 11 out of 30
+Pruned:  df = swap(df,'MeasureName','heart attack patients given fibrinolytic medication within 30 minutes of arrival',('MeasureCode', {'am-7a'}))
+Pruned:  df = swap(df,'MeasureName','heart attack patients given fibrinolytic medication within 30 minutes of arrival',('MeasureCode', {'ami-7a'}))
+0.000267
+Computing Block=pneumonia patients given initial antibiotic(s) within 6 hours after arrival 12 out of 30
+0.000265
+Computing Block=hear attack patients given aspirin at arrival 13 out of 30
+0.000213
+Computing Block=heart attack patients given aspirin at discharge 14 out of 30
+0.000227
+Computing Block=surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection 15 out of 30
+Pruned:  df = swap(df,'MeasureName','surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection',('MeasureCode', {'scip-card-2'}))
+Pruned:  df = swap(df,'MeasureName','surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection',('MeasureCode', {'scip-inf-1'}))
+0.000348
+Computing Block=pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics 16 out of 30
+Pruned:  df = swap(df,'MeasureName','pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics',('MeasureCode', {'scip-card-2'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics',('MeasureCode', {'pn-3b'}))
+0.000286
+Computing Block=pneumonia patients assessed and given influenza vaccination 17 out of 30
+0.000287
+Computing Block=children and their caregivers who received a home management plan of care document while hospitalized for asthma 18 out of 30
+0.000217
+Computing Block=heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd) 19 out of 30
+0.000266
+Computing Block=pneumonia patients given the most appropriate initial antibiotic(s) 20 out of 30
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given the most appropriate initial antibiotic(s)',('MeasureCode', {'p-6'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given the most appropriate initial antibiotic(s)',('MeasureCode', {'pn-6'}))
+0.00037
+Computing Block=heart attack patients given smoking cessation advice/counseling 21 out of 30
+0.000299
+Computing Block=pneumonia patients given smoking cessation advice/counseling 22 out of 30
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given smoking cessation advice/counseling',('MeasureCode', {'scip-card-2'}))
+Pruned:  df = swap(df,'MeasureName','pneumonia patients given smoking cessation advice/counseling',('MeasureCode', {'pn-4'}))
+0.000278
+Computing Block=surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor) 23 out of 30
+0.000421
+Computing Block=surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery) 24 out of 30
+0.000298
+Computing Block=surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery 25 out of 30
+Pruned:  df = swap(df,'MeasureName','surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery',('MeasureCode', {'hf-2'}))
+Pruned:  df = swap(df,'MeasureName','surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery',('MeasureCode', {'scip-card-2'}))
+Pruned:  df = swap(df,'MeasureName','surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery',('MeasureCode', {'hf-3'}))
+0.000305
+Computing Block=children who received reliever medication while hospitalized for asthma 26 out of 30
+0.000248
+Computing Block=heart attack patients given sapirin at arrival 27 out of 30
+0.000254
+Computing Block=children who received systemic corticosteroid medication (oral and iv medication that reduces inflammation and controls symptoms) while hospitalized for asthma 28 out of 30
+0.000216
+Computing Block=heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd) 29 out of 30
+0.000288
+Computing Block=surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries 30 out of 30
+0.000302
+Computing Block=hf-3 1 out of 28
+0.000309
+Computing Block=ami-2 2 out of 28
+0.000299
+Computing Block=pn-4 3 out of 28
+0.000286
+Computing Block=pn-3b 4 out of 28
+0.000532
+Computing Block=cac-2 5 out of 28
+0.000254
+Computing Block=scip-inf-1 6 out of 28
+0.000288
+Computing Block=scip-inf-2 7 out of 28
+0.000546
+Computing Block=ami-1 8 out of 28
+0.00029
+Computing Block=pn-6 9 out of 28
+0.000259
+Computing Block=scip-inf-4 10 out of 28
+0.00027
+Computing Block=cac-3 11 out of 28
+0.00024
+Computing Block=hf-1 12 out of 28
+0.000291
+Computing Block=pn-7 13 out of 28
+0.000291
+Computing Block=scip-inf-6 14 out of 28
+0.000297
+Computing Block=cac-1 15 out of 28
+0.000224
+Computing Block=scip-card-2 16 out of 28
+0.000303
+Computing Block=ami-8a 17 out of 28
+0.00031
+Computing Block=ami-5 18 out of 28
+0.000299
+Computing Block=hf-4 19 out of 28
+0.000301
+Computing Block=ami-7a 20 out of 28
+0.000363
+Computing Block=ami-3 21 out of 28
+0.000297
+Computing Block=scip-vte-1 22 out of 28
+0.000272
+Computing Block=ami-4 23 out of 28
+0.000292
+Computing Block=hf-2 24 out of 28
+0.000285
+Computing Block=pn-5c 25 out of 28
+0.000299
+Computing Block=scip-vte-2 26 out of 28
+0.000544
+Computing Block=scip-inf-3 27 out of 28
+0.000297
+Computing Block=pn-2 28 out of 28
+0.000307
+Computing Block=callahan eye foundation hospital 1 out of 45
+0.000296
+Computing Block=st vincents blount 2 out of 45
+0.000305
+Computing Block=chilton medical center 3 out of 45
+0.000313
+Computing Block=southeast alabama medical center 4 out of 45
+0.000315
+Computing Block=russellville hospital 5 out of 45
+0.000646
+Computing Block=jackson hospital & clinic inc 6 out of 45
+0.000323
+Computing Block=georgiana hospital 7 out of 45
+0.000304
+Computing Block=marshall medical center north 8 out of 45
+0.000293
+Computing Block=cullman regional medical center 9 out of 45
+0.000284
+Computing Block=st vincents east 10 out of 45
+0.000266
+Computing Block=cherokee medical center 11 out of 45
+0.00024
+Computing Block=dale medical center 12 out of 45
+0.000239
+Computing Block=riverview regional medical center 13 out of 45
+0.00029
+Computing Block=hartselle medical center 14 out of 45
+0.000286
+Computing Block=yukon kuskokwim delta reg hospital 15 out of 45
+0.000249
+Computing Block=marion regional medical center 16 out of 45
+0.000326
+Computing Block=medical center enterprise 17 out of 45
+0.000285
+Computing Block=andalusia regional hospital 18 out of 45
+0.000306
+Computing Block=eliza coffee memorial hospital 19 out of 45
+0.000307
+Computing Block=southwest alabama medical center 20 out of 45
+0.000273
+Computing Block=prattville baptist hospital 21 out of 45
+0.000249
+Computing Block=dekalb regional medical center 22 out of 45
+0.000266
+Computing Block=community hospital inc 23 out of 45
+0.000267
+Computing Block=decatur general hospital 24 out of 45
+0.000214
+Computing Block=huntsville hospital 25 out of 45
+0.000271
+Computing Block=crenshaw community hospital 26 out of 45
+0.000299
+Computing Block=fayette medical center 27 out of 45
+0.000247
+Computing Block=university of alabama hospital 28 out of 45
+0.000285
+Computing Block=alaska regional hospital 29 out of 45
+0.000285
+Computing Block=univ of south alabama medical center 30 out of 45
+0.000281
+Computing Block=stringfellow memorial hospital 31 out of 45
+0.000284
+Computing Block=baptist medical center south 32 out of 45
+0.000248
+Computing Block=wedowee hospital 33 out of 45
+0.000245
+Computing Block=st vincents hospital 34 out of 45
+0.000221
+Computing Block=coosa valley medical center 35 out of 45
+0.000252
+Computing Block=gadsden regional medical center 36 out of 45
+0.000362
+Computing Block=northwest medical center 37 out of 45
+0.000306
+Computing Block=elba general hospital 38 out of 45
+0.000298
+Computing Block=marshall medical center south 39 out of 45
+0.000294
+Computing Block=helen keller memorial hospital 40 out of 45
+0.000275
+Computing Block=mizell memorial hospital 41 out of 45
+0.000243
+Computing Block=flowers hospital 42 out of 45
+0.000243
+Computing Block=g h lanier memorial hospital 43 out of 45
+0.00026
+Computing Block=east alabama medical center and snf 44 out of 45
+0.000267
+Computing Block=shelby baptist medical center 45 out of 45
+0.000253
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+18     1300 south montgomeryh avenue
+430                 315 w hickory ts
+452     1300 sout hmontgomery avenue
+685           619 south 19th streemt
+745    849 south thraee notch street
+897        1653 templen avenue north
+Name: Address1, dtype: object
+Clean Values at mismatched indices:
+18     1300 south montgomery avenue
+430                315 w hickory st
+452    1300 south montgomery avenue
+685           619 south 19th street
+745    849 south three notch street
+897        1653 temple avenue north
+Name: Address1, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+Series([], Name: Address1, dtype: object)
+Clean Values at false positive indices:
+Series([], Name: Address1, dtype: object)
+Cleaned Values at false positive indices:
+Series([], Name: Address1, dtype: object)
+========================================
+Attribute: Address1 修复正确的数据: 6 修复错误的数据: 0 应该修复的数据: 6
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+0      birminghvam
+19      birmingham
+20      birmingham
+310      bimingham
+844         clnton
+854       hmailton
+Name: City, dtype: object
+Clean Values at mismatched indices:
+0      birmingham
+19         dothan
+20         dothan
+310    birmingham
+844       clanton
+854      hamilton
+Name: City, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+Series([], Name: City, dtype: object)
+Clean Values at false positive indices:
+Series([], Name: City, dtype: object)
+Cleaned Values at false positive indices:
+Series([], Name: City, dtype: object)
+========================================
+Attribute: City 修复正确的数据: 6 修复错误的数据: 0 应该修复的数据: 6
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+326                       penumonia
+394                 heart attack***
+642                   heart atjtack
+666                   hearbt attack
+667                    heart tatack
+764    sugical infection prevention
+851    surgical infection prevenion
+Name: Condition, dtype: object
+Clean Values at mismatched indices:
+326                        pneumonia
+394                     heart attack
+642                     heart attack
+666                     heart attack
+667                     heart attack
+764    surgical infection prevention
+851    surgical infection prevention
+Name: Condition, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+Series([], Name: Condition, dtype: object)
+Clean Values at false positive indices:
+Series([], Name: Condition, dtype: object)
+Cleaned Values at false positive indices:
+Series([], Name: Condition, dtype: object)
+========================================
+Attribute: Condition 修复正确的数据: 7 修复错误的数据: 4 应该修复的数据: 7
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+63     NaN
+283    NaN
+286    NaN
+687    NaN
+Name: CountyName, dtype: object
+Clean Values at mismatched indices:
+63      marshall
+283       shelby
+286       shelby
+687    jefferson
+Name: CountyName, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+Series([], Name: CountyName, dtype: object)
+Clean Values at false positive indices:
+Series([], Name: CountyName, dtype: object)
+Cleaned Values at false positive indices:
+Series([], Name: CountyName, dtype: object)
+========================================
+Attribute: CountyName 修复正确的数据: 4 修复错误的数据: 2 应该修复的数据: 4
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+521     es
+679    yse
+680     es
+710    mno
+Name: EmergencyService, dtype: object
+Clean Values at mismatched indices:
+521    yes
+679    yes
+680    yes
+710     no
+Name: EmergencyService, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+Series([], Name: EmergencyService, dtype: object)
+Clean Values at false positive indices:
+Series([], Name: EmergencyService, dtype: object)
+Cleaned Values at false positive indices:
+Series([], Name: EmergencyService, dtype: object)
+========================================
+Attribute: EmergencyService 修复正确的数据: 4 修复错误的数据: 0 应该修复的数据: 4
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+Series([], Name: HospitalName, dtype: object)
+Clean Values at mismatched indices:
+Series([], Name: HospitalName, dtype: object)
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+Series([], Name: HospitalName, dtype: object)
+Clean Values at false positive indices:
+Series([], Name: HospitalName, dtype: object)
+Cleaned Values at false positive indices:
+Series([], Name: HospitalName, dtype: object)
+========================================
+Attribute: HospitalName 修复正确的数据: 0 修复错误的数据: 0 应该修复的数据: 0
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+461    government - hospitla district or authority
+462     government - hospital district or autority
+578                   voluntary non-prfoit - other
+660                            government t- local
+713                  voluntary non-profit- private
+857                voluntary non-profit - privarte
+Name: HospitalOwner, dtype: object
+Clean Values at mismatched indices:
+461    government - hospital district or authority
+462    government - hospital district or authority
+578                   voluntary non-profit - other
+660                             government - local
+713                 voluntary non-profit - private
+857                 voluntary non-profit - private
+Name: HospitalOwner, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+461    government - hospitla district or authority
+Name: HospitalOwner, dtype: object
+Clean Values at false positive indices:
+461    government - hospital district or authority
+Name: HospitalOwner, dtype: object
+Cleaned Values at false positive indices:
+461    government - hospitla district or authority
+Name: HospitalOwner, dtype: object
+========================================
+Attribute: HospitalOwner 修复正确的数据: 5 修复错误的数据: 0 应该修复的数据: 6
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+46     acutee care hospitals
+350      acue care hospitals
+416    acute care hospitales
+653    aqcute care hospitals
+898     acute car ehospitals
+955    acute care hospidtals
+Name: HospitalType, dtype: object
+Clean Values at mismatched indices:
+46     acute care hospitals
+350    acute care hospitals
+416    acute care hospitals
+653    acute care hospitals
+898    acute care hospitals
+955    acute care hospitals
+Name: HospitalType, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+Series([], Name: HospitalType, dtype: object)
+Clean Values at false positive indices:
+Series([], Name: HospitalType, dtype: object)
+Cleaned Values at false positive indices:
+Series([], Name: HospitalType, dtype: object)
+========================================
+Attribute: HospitalType 修复正确的数据: 6 修复错误的数据: 0 应该修复的数据: 6
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+40     scimp-inf-4
+49           am-7a
+59             p-6
+256    scip-card-2
+257    scip-card-2
+276    scip-card-2
+277    scip-card-2
+287    scip-card-2
+288    scip-card-2
+487     scip-nif-4
+Name: MeasureCode, dtype: object
+Clean Values at mismatched indices:
+40     scip-inf-4
+49         ami-7a
+59           pn-6
+256         pn-3b
+257          pn-4
+276          hf-1
+277          hf-2
+287    scip-inf-1
+288    scip-inf-2
+487    scip-inf-4
+Name: MeasureCode, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+Series([], Name: MeasureCode, dtype: object)
+Clean Values at false positive indices:
+Series([], Name: MeasureCode, dtype: object)
+Cleaned Values at false positive indices:
+Series([], Name: MeasureCode, dtype: object)
+========================================
+Attribute: MeasureCode 修复正确的数据: 10 修复错误的数据: 2 应该修复的数据: 10
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+16     surgery patients who were taking heart drugs c...
+17     surgery patients who were taking heart drugs c...
+414        hear attack patients given aspirin at arrival
+616       heart attack patients given sapirin at arrival
+Name: MeasureName, dtype: object
+Clean Values at mismatched indices:
+16     heart failure patients given an evaluation of ...
+17     heart failure patients given ace inhibitor or ...
+414       heart attack patients given aspirin at arrival
+616       heart attack patients given aspirin at arrival
+Name: MeasureName, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+16    surgery patients who were taking heart drugs c...
+17    surgery patients who were taking heart drugs c...
+Name: MeasureName, dtype: object
+Clean Values at false positive indices:
+16    heart failure patients given an evaluation of ...
+17    heart failure patients given ace inhibitor or ...
+Name: MeasureName, dtype: object
+Cleaned Values at false positive indices:
+16    surgery patients who were taking heart drugs c...
+17    surgery patients who were taking heart drugs c...
+Name: MeasureName, dtype: object
+========================================
+Attribute: MeasureName 修复正确的数据: 2 修复错误的数据: 0 应该修复的数据: 4
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+455       2563846556
+456    2563864556***
+503      k2569275531
+839       2057555200
+Name: PhoneNumber, dtype: object
+Clean Values at mismatched indices:
+455    2563864556
+456    2563864556
+503    2569275531
+839    2057552500
+Name: PhoneNumber, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+Series([], Name: PhoneNumber, dtype: object)
+Clean Values at false positive indices:
+Series([], Name: PhoneNumber, dtype: object)
+Cleaned Values at false positive indices:
+Series([], Name: PhoneNumber, dtype: object)
+========================================
+Attribute: PhoneNumber 修复正确的数据: 4 修复错误的数据: 0 应该修复的数据: 4
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+155       10018
+156       01009
+454        1019
+455       01019
+872      1j0044
+878    10045***
+Name: ProviderNumber, dtype: object
+Clean Values at mismatched indices:
+155    10009
+156    10009
+454    10019
+455    10019
+872    10044
+878    10045
+Name: ProviderNumber, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+Series([], Name: ProviderNumber, dtype: object)
+Clean Values at false positive indices:
+Series([], Name: ProviderNumber, dtype: object)
+Cleaned Values at false positive indices:
+Series([], Name: ProviderNumber, dtype: object)
+========================================
+Attribute: ProviderNumber 修复正确的数据: 6 修复错误的数据: 0 应该修复的数据: 6
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+261    ayl
+855    fal
+Name: State, dtype: object
+Clean Values at mismatched indices:
+261    al
+855    al
+Name: State, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+Series([], Name: State, dtype: object)
+Clean Values at false positive indices:
+Series([], Name: State, dtype: object)
+Cleaned Values at false positive indices:
+Series([], Name: State, dtype: object)
+========================================
+Attribute: State 修复正确的数据: 2 修复错误的数据: 0 应该修复的数据: 2
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+59        a_pn-6
+415    afl_ami-2
+467    al_ambi-2
+Name: Stateavg, dtype: object
+Clean Values at mismatched indices:
+59      al_pn-6
+415    al_ami-2
+467    al_ami-2
+Name: Stateavg, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+59    a_pn-6
+Name: Stateavg, dtype: object
+Clean Values at false positive indices:
+59    al_pn-6
+Name: Stateavg, dtype: object
+Cleaned Values at false positive indices:
+59    a_pn-6
+Name: Stateavg, dtype: object
+========================================
+Attribute: Stateavg 修复正确的数据: 2 修复错误的数据: 26 应该修复的数据: 3
+打印 dirty_values 和 clean_values 不同的那些行
+Dirty Values at mismatched indices:
+68        53957
+277        3507
+297        5233
+298    35233***
+864        3550
+Name: ZipCode, dtype: object
+Clean Values at mismatched indices:
+68     35957
+277    35007
+297    35233
+298    35233
+864    35570
+Name: ZipCode, dtype: object
+========================================
+打印没修复的数据
+Dirty Values at false positive indices:
+Series([], Name: ZipCode, dtype: object)
+Clean Values at false positive indices:
+Series([], Name: ZipCode, dtype: object)
+Cleaned Values at false positive indices:
+Series([], Name: ZipCode, dtype: object)
+========================================
+Attribute: ZipCode 修复正确的数据: 5 修复错误的数据: 0 应该修复的数据: 5
+F1 值: 0.7840909090909092
+总准确率: 0.6699029126213593 总召回率: 0.9452054794520548
+time cost 167.60638308525085 s
+
+进程已结束，退出代码为 0

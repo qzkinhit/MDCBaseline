@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import queue
 import csv
-import re
 import pandas as pd
 import time
 import sys
