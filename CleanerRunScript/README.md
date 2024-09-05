@@ -15,7 +15,13 @@
 
 ### Horizon
 **论文**: [Horizon: scalable dependency-driven data cleaning](https://www.vldb.org/pvldb/vol14/p25)  
-**运行命令**: 
+**运行命令1**: 
+```bash
+python run_horizon.py --input data/input.csv --output data/output.csv
+```
+**说明**: 此脚本将读取`data/input.csv`中的数据，进行依赖驱动的数据清洗，并将结果保存到`data/output.csv`中。
+
+**运行命令2**: 
 ```bash
 python run_horizon.py --input data/input.csv --output data/output.csv
 ```
@@ -81,5 +87,3 @@ python run_holoclean.py --input data/input.csv --output data/output.csv
 **说明**: 此脚本将读取`data/input.csv`中的数据，使用Holoclean进行整体数据修复，并将结果保存到`data/output.csv`中。
 
 ---
-
-确保每个脚本 (`run_horizon.py`, `run_activeclean.py`, `run_raha.py`, `run_baran.py`, `run_boostclean.py`, `run_cpclean.py`, `run_bigdansing_holistic.py`, `run_scared.py`, `run_holoclean.py`) 已经正确实现，并且可以处理所需的输入输出参数。
