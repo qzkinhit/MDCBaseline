@@ -23,7 +23,7 @@ python run_horizon.py --input data/input.csv --output data/output.csv
 
 **运行命令2**: 
 ```bash
-python run_horizon.py --input data/input.csv --output data/output.csv
+python run_horizon.py --input data/input.csv --output data/output1.csv
 ```
 **说明**: 此脚本将读取`data/input.csv`中的数据，进行依赖驱动的数据清洗，并将结果保存到`data/output.csv`中。
 
