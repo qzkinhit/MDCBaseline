@@ -24,47 +24,47 @@ def calF1(precision, recall):
     :return: F1值
     """
     return 2 * precision * recall / (precision + recall + 1e-10)
-def calDetPrecRec(pattern_expressions, dirty_path, clean_path,dirty_c):
-    """
-    计算检测的准确率和召回率
-
-    :param pattern_expressions: 模式表达式
-    :param dirty_path: 脏数据文件路径
-    :param clean_path: 干净数据文件路径
-    :return: 检测的准确率和召回率
-    """
-    attrList = []
-    dirty_dict = []
-
-    # 读取脏数据文件
-    with open(dirty_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, restval='nan')
-        for line in reader:
-            dirty_dict.append(line)
-            attrList = list(line.keys())
-
-    # 读取干净数据文件
-    clean_df = pd.read_csv(clean_path, header=0)
-    clean_df.columns = attrList
-
-    tot = 0
-    correct_rec = 0
-
-    # 计算正确检测的数量和总检测数量
-    with open(dirty_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, restval='nan')
-        cnt = 0
-        for line in reader:
-            for v in pattern_expressions[cnt]:
-                if pattern_expressions[cnt][v] != dirty_dict[cnt][v]:
-                    if (cnt, list(clean_df.columns).index(v)) in dirty_c:
-                        correct_rec += 1
-                tot += 1
-            cnt += 1
-
-    precision = correct_rec / tot
-    recall = correct_rec / len(dirty_c)
-    return precision, recall
+# def calDetPrecRec(pattern_expressions, dirty_path, clean_path,dirty_c):
+#     """
+#     计算检测的准确率和召回率
+#
+#     :param pattern_expressions: 模式表达式
+#     :param dirty_path: 脏数据文件路径
+#     :param clean_path: 干净数据文件路径
+#     :return: 检测的准确率和召回率
+#     """
+#     attrList = []
+#     dirty_dict = []
+#
+#     # 读取脏数据文件
+#     with open(dirty_path, 'r', encoding='utf-8') as f:
+#         reader = csv.DictReader(f, restval='nan')
+#         for line in reader:
+#             dirty_dict.append(line)
+#             attrList = list(line.keys())
+#
+#     # 读取干净数据文件
+#     clean_df = pd.read_csv(clean_path, header=0)
+#     clean_df.columns = attrList
+#
+#     tot = 0
+#     correct_rec = 0
+#
+#     # 计算正确检测的数量和总检测数量
+#     with open(dirty_path, 'r', encoding='utf-8') as f:
+#         reader = csv.DictReader(f, restval='nan')
+#         cnt = 0
+#         for line in reader:
+#             for v in pattern_expressions[cnt]:
+#                 if pattern_expressions[cnt][v] != dirty_dict[cnt][v]:
+#                     if (cnt, list(clean_df.columns).index(v)) in dirty_c:
+#                         correct_rec += 1
+#                 tot += 1
+#             cnt += 1
+#
+#     precision = correct_rec / tot
+#     recall = correct_rec / len(dirty_c)
+#     return precision, recall
 
 
 

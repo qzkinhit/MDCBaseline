@@ -3,11 +3,9 @@ import queue
 import csv
 import pandas as pd
 import time
-import sys
-import os
+
 
 from Cleaner.Horizon.graph import Graph, topoSort, walk, tr
-from Cleaner.Horizon.util import calDetPrecRec, calRepPrec, calRepRec, calF1, check_string
 
 
 def BuildFDPatternGraph(D_path, constrains_path):
@@ -270,23 +268,23 @@ def OrderFDs(constrains_path, order, tar, scc, G):
     return OrderedFDs  # 返回排序后的功能依赖列表
 
 
-def export_res(pattern_expressions, dirty_path):
-    """
-    将修复后的结果导出为 CSV 文件。
-
-    :param pattern_expressions: 修复后的模式表达式（每个元组的修复结果）。
-    :param dirty_path: 脏数据文件路径。
-    """
-    res_df = pd.read_csv(dirty_path)  # 读取脏数据文件
-
-    # 更新修复结果
-    for i in range(len(res_df)):
-        for v in pattern_expressions[i]:  # 遍历模式表达式中的每个修复结果
-            res_df.iloc[i, list(res_df.columns).index(v)] = pattern_expressions[i][v]  # 更新相应的单元格
-
-    # 保存修复结果文件
-    res_path = "./Repaired_res/horizon/" + task_name[:-1] + "/repaired_" + task_name + dirty_path[-25:-4] + ".csv"
-    res_df.to_csv(res_path, index=False)  # 导出修复后的数据到 CSV 文件
+# def export_res(pattern_expressions, dirty_path):
+#     """
+#     将修复后的结果导出为 CSV 文件。
+#
+#     :param pattern_expressions: 修复后的模式表达式（每个元组的修复结果）。
+#     :param dirty_path: 脏数据文件路径。
+#     """
+#     res_df = pd.read_csv(dirty_path)  # 读取脏数据文件
+#
+#     # 更新修复结果
+#     for i in range(len(res_df)):
+#         for v in pattern_expressions[i]:  # 遍历模式表达式中的每个修复结果
+#             res_df.iloc[i, list(res_df.columns).index(v)] = pattern_expressions[i][v]  # 更新相应的单元格
+#
+#     # 保存修复结果文件
+#     res_path = "./Repaired_res/horizon/" + task_name[:-1] + "/repaired_" + task_name + dirty_path[-25:-4] + ".csv"
+#     res_df.to_csv(res_path, index=False)  # 导出修复后的数据到 CSV 文件
 
 
 def GeneratePatternPreservingRepairs(dirty_path, constraints_path, gt_wrong_cells, clean_df):

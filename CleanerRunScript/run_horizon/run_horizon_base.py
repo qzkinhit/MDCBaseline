@@ -7,7 +7,7 @@ import pandas as pd
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 
 from Cleaner.Horizon.horizon import Horizon
-from Cleaner.Horizon.util import calDetPrecRec, calRepPrec, calRepRec, calF1
+from Cleaner.Horizon.util import calRepPrec, calRepRec, calF1
 
 
 def main():
@@ -36,15 +36,15 @@ def main():
     )
 
     # 计算检测的精度和召回率
-    det_prec, det_rec = calDetPrecRec(pattern_expressions, args.dirty_path, args.clean_path, dirty_c)
+    # det_prec, det_rec = calDetPrecRec(pattern_expressions, args.dirty_path, args.clean_path, dirty_c)
     # 计算修复的精度、召回率和 F1 值
     rep_precision = calRepPrec(pattern_expressions, args.dirty_path, args.clean_path)
     rep_recall = calRepRec(pattern_expressions, args.dirty_path, args.clean_path)
     rep_f1 = calF1(rep_precision, rep_recall)
 
     # 打印评估结果
-    print(f"Detection precision: {det_prec}")
-    print(f"Detection recall: {det_rec}")
+    # print(f"Detection precision: {det_prec}")
+    # print(f"Detection recall: {det_rec}")
     print(f"Repair precision: {rep_precision}")
     print(f"Repair recall: {rep_recall}")
     print(f"Repair F1 score: {rep_f1}")
@@ -60,8 +60,8 @@ def main():
     # 重定向输出到文件
     with open(out_path, 'w') as f:
         sys.stdout = f  # 将 sys.stdout 重定向到文件
-        print(f"Detection precision: {det_prec}")
-        print(f"Detection recall: {det_rec}")
+        # print(f"Detection precision: {det_prec}")
+        # print(f"Detection recall: {det_rec}")
         print(f"Repair precision: {rep_precision}")
         print(f"Repair recall: {rep_recall}")
         print(f"Repair F1 score: {rep_f1}")

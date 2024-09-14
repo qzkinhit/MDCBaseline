@@ -13,41 +13,18 @@
 ### Dataset 1
 **属性**: [用户ID、姓名、年龄、地址、电子邮件]    
 **是否有干净版本**: 有  
-**是否有原生脏版本及对应错误**: 有，包含以下错误类型：拼写错误、缺失值、重复记录  
+**对应错误种类和数目**: 包含以下错误类型：拼写错误、缺失值、重复记录，分别xx个
 **数据规则集、标签、知识**: 提供了一组数据规则用于检测和修复错误，包含数据完整性和一致性规则  
 **数据集下载链接**: [下载链接](https://example.com/dataset1)  
-**论文出处**: [Horizon: scalable dependency-driven data cleaning](https://www.vldb.org/pvldb/vol14/p25)  
+**论文出处**: 数据集最原始的论文出处
 
-### Dataset 2
-**属性**: [用户ID、姓名、年龄、地址、电子邮件]   
-**是否有干净版本**: 有  
-**是否有原生脏版本及对应错误**: 有，包含以下错误类型：价格错误、库存数量负值、供应商信息不完整  
-**数据规则集、标签、知识**: 提供了错误检测的规则和标签，包含数据范围和一致性检查  
-**数据集下载链接**: [下载链接](https://example.com/dataset2)  
-**论文出处**: [Activeclean: An interactive data cleaning framework for modern machine learning](https://arxiv.org/pdf/1601.03797.pdf)  
 
-### Dataset 3
-**属性**: [用户ID、姓名、年龄、地址、电子邮件]   
-**是否有干净版本**: 有  
-**是否有原生脏版本及对应错误**: 有，包含以下错误类型：日期格式错误、订单重复、客户ID不存在  
-**数据规则集、标签、知识**: 提供了错误检测和修复的规则，包含日期格式验证和唯一性检查  
-**数据集下载链接**: [下载链接](https://example.com/dataset3)  
-**论文出处**: 
-- **Raha**: [A configuration-free error detection system](https://example.com/raha)
-- **Baran**: [Effective error correction via a unified context representation and transfer learning](https://example.com/baran)
-
-### Dataset 4
-**属性**: [用户ID、姓名、年龄、地址、电子邮件]   
-**是否有干净版本**: 有  
-**是否有原生脏版本及对应错误**: 有，包含以下错误类型：成绩超出范围、姓名拼写错误、重复学生记录  
-**数据规则集、标签、知识**: 提供了检测和修复规则，包含数据范围验证和重复记录检查  
-**数据集下载链接**: [下载链接](https://example.com/dataset4)  
-**论文出处**: [BoostClean: Automated Error Detection and Repair for Machine Learning](https://example.com/boostclean)  
-
-### Dataset 5
-**属性**: [用户ID、姓名、年龄、地址、电子邮件]   
-**是否有干净版本**: 有  
-**是否有原生脏版本及对应错误**: 有，包含以下错误类型：诊断信息错误、治疗方案缺失、重复记录  
-**数据规则集、标签、知识**: 提供了数据规则和标签，包含数据一致性和完整性检查  
-**数据集下载链接**: [下载链接](https://example.com/dataset5)  
-**论文出处**: [Holistic data cleaning: Putting violations into context](https://example.com/holistic)
+| 错误类型     | bart脚本代码（如果有）       | 数据存放路径（太大了则附网盘链接即可）      | 本地输出路径             | 实际输出存放路径                  | 备注      |
+|----------|---------------------|--------------------------|--------------------------|---------------------------|-----------|
+| 异常值      | `local/input/path1` | `github/baidupan/input1` | `local/output/path1`      | `github/baidupan/output1` | `备注内容1` |
+|          | `local/input/path2` | `github/baidupan/input2` | `local/output/path2`      | `github/baidupan/output2` | `备注内容2` |
+| 空缺值      | `local/input/path3` | `github/baidupan/input3` | `local/output/path3`      | `github/baidupan/output3` | `备注内容3` |
+|          | `local/input/path4` | `github/baidupan/input4` | `local/output/path4`      | `github/baidupan/output4` | `备注内容4` |
+|          | `local/input/path5` | `github/baidupan/input5` | `local/output/path5`      | `github/baidupan/output5` | `备注内容5` |
+| xxx规则的违反 | `local/input/path6` | `github/baidupan/input6` | `local/output/path6`      | `github/baidupan/output6` | `备注内容6` |
+|          | `local/input/path7` | `github/baidupan/input7` | `local/output/path7`      | `github/baidupan/output7` | `备注内容7` |
