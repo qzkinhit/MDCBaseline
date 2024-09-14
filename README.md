@@ -8,7 +8,8 @@
 3. [Raha & Baran](#raha--baran)
 4. [BoostClean](#boostclean)
 5. [CPClean](#cpclean)
-6. [BigDansing_Holistic](#bigdansing_holistic)
+6. [Holistic](#holistic)
+7. [BigDansing](#bigdansing)
 7. [Scared](#scared)
 8. [Holoclean](#holoclean)
 
@@ -19,9 +20,9 @@
 **主讲人**: zekai  
 **状态**: 进行中  
 **摘要**: 该论文描述了一种可扩展的依赖驱动数据清洗方法。复现工作集中在实现文中描述的方法，并对提供的数据集进行验证。  
-**错误处理方法（清洗信号）**: 依赖关系  
-**处理的错误类型**: 依赖冲突、数据不一致  
-**前置配置**: 依赖规则集  
+**错误处理方法（清洗信号）**: 最优FD模式选择  
+**处理的错误类型**: 依赖冲突、数据分布异常  
+**前置配置**: FD依赖规则集  
 **下游反馈内容**: 通用的系统，无特定下游  
 **面向任务**: 通用任务的检测  
 **清洗判别指标**: 准确率、召回率
@@ -78,7 +79,7 @@
 **面向任务**: 错误检测和修复  
 **清洗判别指标**: 准确率、填充正确率
 
-### BigDansing & Holistic
+### Holistic
 **论文**: Holistic data cleaning: Putting violations into context  
 **主讲人**: zekai & siying  
 **状态**: 计划中  
@@ -89,6 +90,9 @@
 **下游反馈内容**: 无特定下游  
 **面向任务**: 错误检测  
 **清洗判别指标**: 准确率、召回率
+
+### BigDansing
+
 
 ### Scared
 **论文**: Don't be scared: Use scalable automatic repairing with maximal likelihood and bounded changes  

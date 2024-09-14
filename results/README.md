@@ -8,7 +8,8 @@
 3. [Raha & Baran](./raha_baran/raha_baran_report.md)
 4. [BoostClean](./boostclean/boostclean_report.md)
 5. [CPClean](./cpclean/cpclean_report.md)
-6. [BigDansing_Holistic](./bigdansing_holistic/bigdansing_holistic_report.md)
+6. [Holistic](./holistic/holistic_report.md)
+7. [BigDansing](./bigdansing/bigdansing_report.md)
 7. [Scared](./scared/scared_report.md)
 8. [Holoclean](./holoclean/holoclean_report.md)
 

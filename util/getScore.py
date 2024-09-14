@@ -1,28 +1,3 @@
-def getErrorNum(df_1, df_2, set):
-    error_num0 = 0
-    for i in set:
-        try:
-            error_num0 += max(df_1.compare(df_2).iloc[:][i]["self"].notnull().sum(),
-                          df_1.compare(df_2).iloc[:][i]["other"].notnull().sum())
-
-        except:
-            print(i+" is same or dont hava_"+i)
-            continue;
-    return error_num0
-def getCorrectRepairs(dfclean,dfrepair,dforigin, set):
-    repair = dfrepair.compare(dforigin, keep_equal=True, keep_shape=True)#真正的修复
-    origin = dfclean.compare(dforigin, keep_equal=True, keep_shape=True)#理想的修复
-    error_num0=getErrorNum(dfclean, dforigin, set)#所有正确的修复个数
-    graph=repair.compare(origin, keep_shape=True)#找到每个属性下面的self，非null部分，就是没修出来的
-    error_num1 = 0
-    for i in set:
-        try:
-            error_num1 += graph[:][i]["self"]["other"].notnull().sum()
-        except:
-            continue;
-    return error_num0-error_num1;
-
-
 def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes):
     """
     计算指定属性集合下的修复准确率和召回率
@@ -70,28 +45,15 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes):
         print(f"Dirty Values at false positive indices:\n{dirty_values.loc[false_positives_indices]}")
         print(f"Clean Values at false positive indices:\n{clean_values.loc[false_positives_indices]}")
         print(f"Cleaned Values at false positive indices:\n{cleaned_values.loc[false_positives_indices]}")
-        print("=" * 40)
         total_true_positives += true_positives
         total_false_positives += false_positives
         total_true_negatives += true_negatives
         print("Attribute:", attribute, "修复正确的数据:", true_positives, "修复错误的数据:", false_positives,
               "应该修复的数据:", true_negatives)
-
+        print("=" * 40)
     # 总体修复的准确率
     accuracy = total_true_positives / (total_true_positives + total_false_positives)
     # 总体修复的召回率
     recall = total_true_positives / total_true_negatives
-    # 计算 F1 值
-    if accuracy + recall == 0:
-        f1 = 0  # 防止除以零
-    else:
-        f1 = 2 * (accuracy * recall) / (accuracy + recall)
 
-    print(f"F1 值: {f1}")
-    print("总准确率:", accuracy, "总召回率:", recall)
     return accuracy, recall
-
-# a,b = input().split(",")
-# a = float(a)
-# b = float(b)
-# print(2*a*b/(a+b))
