@@ -11,36 +11,35 @@
 ## 2. 数据集上的实验设置
 `备注：本地路径的文件如果大于5M，请使用百度网盘进行上传，在本地输入路径位置留下链接；否则直接存在本地输入路径上传github即可`
 
-### 数据集: `数据集名称1`
+### 数据集: `parking` [下载链接](https://pan.baidu.com/s/1-0epjUUe4SDlT6oNyqF9YA?pwd=2njy)
 
 #### 实验1-3 设置
 
 | 实验编号 | 本地输入路径             | 实际输入存放路径                 | 本地输出路径             | 实际输出存放路径                  | 备注      |
 |----------|--------------------------|--------------------------|--------------------------|---------------------------|-----------|
-| 实验1    | `local/input/path1`       | `github/baidupan/input1` | `local/output/path1`      | `github/baidupan/output1` | `备注内容1` |
-|          | `local/input/path2`       | `github/baidupan/input2` | `local/output/path2`      | `github/baidupan/output2` | `备注内容2` |
-| 实验2    | `local/input/path3`       | `github/baidupan/input3` | `local/output/path3`      | `github/baidupan/output3` | `备注内容3` |
-|          | `local/input/path4`       | `github/baidupan/input4` | `local/output/path4`      | `github/baidupan/output4` | `备注内容4` |
-|          | `local/input/path5`       | `github/baidupan/input5` | `local/output/path5`      | `github/baidupan/output5` | `备注内容5` |
-| 实验3    | `local/input/path6`       | `github/baidupan/input6` | `local/output/path6`      | `github/baidupan/output6` | `备注内容6` |
-|          | `local/input/path7`       | `github/baidupan/input7` | `local/output/path7`      | `github/baidupan/output7` | `备注内容7` |
+| 实验1    | `./Data/parking/input_parking_horizon.csv` | `baidupan/MDCBaseline-horizon/parking/input_parking_horizon.csv` | `./results/horizon/output_parking_horizon.csv`      | `/` | `备注内容1` |
 
 ---
 
-### 数据集: `数据集名称2`
+### 数据集: `hospital`[下载链接](https://pan.baidu.com/s/1-0epjUUe4SDlT6oNyqF9YA?pwd=2njy)
 
 #### 实验4-6 设置
 
 | 实验编号 | 本地输入路径             | 实际输入存放路径                         | 本地输出路径             | 实际输出存放路径                        | 备注      |
 |----------|--------------------------|----------------------------------|--------------------------|----------------------------------|-----------|
-| 实验4    | `local/input/path1`       | `github/baidupan/input1`         | `local/output/path1`      | `github/baidupan/output1`        | `备注内容1` |
-|          | `local/input/path2`       | `github/baidupan/input2`         | `local/output/path2`      | `github/baidupan/output2`        | `备注内容2` |
-| 实验5    | `local/input/path3`       | `github/baidupan/input3`         | `local/output/path3`      | `github/baidupan/output3`        | `备注内容3` |
-|          | `local/input/path4`       | `github/baidupan/input4`         | `local/output/path4`      | `github/baidupan/output4`        | `备注内容4` |
-|          | `local/input/path5`       | `github/baidupan/input5`         | `local/output/path5`      | `github/baidupan/output5`        | `备注内容5` |
-| 实验6    | `local/input/path6`       | `github/baidupan/input6`         | `local/output/path6`      | `github/baidupan/output6`        | `备注内容6` |
-|          | `local/input/path7`       | `github/baidupan/input7`         | `local/output/path7`      | `github/baidupan/output7`        | `备注内容7` |
+| 实验2    | `./Data/hospital/input_hospital_horizon_E1.csv` | `baidupan/MDCBaseline-horizon/hospital/E1/input_hospital_horizon_E1.csv`         | `./results/horizon/output_hospital_horizon_E1.csv`      | `/`        | `备注内容` |
+| 实验3    | `./Data/hospital/input_hospital_horizon_E2.csv` | `baidupan/MDCBaseline-horizon/hospital/E2/input_hospital_horizon_E2.csv`         | `./results/horizon/output_hospital_horizon_E2.csv`      | `/`        | `备注内容` |
 
+---
+
+### 数据集: `tax`[下载链接](https://pan.baidu.com/s/1-0epjUUe4SDlT6oNyqF9YA?pwd=2njy)
+
+#### 实验4-6 设置
+
+| 实验编号 | 本地输入路径             | 实际输入存放路径                         | 本地输出路径             | 实际输出存放路径                        | 备注      |
+|----------|--------------------------|----------------------------------|--------------------------|----------------------------------|-----------|
+| 实验4    | `./Data/tax/input_tax_horizon_E1.csv` | `baidupan/MDCBaseline-horizon/tax/E1/input_tax_horizon_E1.csv`         | `./results/horizon/output_tax_horizon_E1.csv`      | `/`        | `备注内容` |
+| 实验5    | `./Data/tax/input_tax_horizon_E2.csv` | `baidupan/MDCBaseline-horizon/tax/E2/input_tax_horizon_E2.csv`         | `./results/horizon/output_tax_horizon_E2.csv`      | `/`        | `备注内容` |
 ---
 
 ## 3. 实验结果汇总

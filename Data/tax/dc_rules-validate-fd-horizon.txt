@@ -1,8 +1,12 @@
 zip ⇒ city
 zip ⇒ state
-zip,has_child ⇒ child_exemp
-zip,marital_status ⇒ single_exemp
-zip,marital_status ⇒ married_exemp
-f_name ⇒ gender
-area_code ⇒ state
-phone, zip ⇒ area_code
+haschild ⇒ childexemp
+zip ⇒ childexemp
+maritalstatus ⇒ singleexemp
+zip ⇒ singleexemp
+zip ⇒ marriedexemp
+maritalstatus ⇒ marriedexemp
+fname ⇒ gender
+areacode ⇒ state
+phone ⇒ areacode
+zip ⇒ areacode
