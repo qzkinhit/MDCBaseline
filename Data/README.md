@@ -12,6 +12,10 @@
 7. [Dataset 7](#dataset-7)
 8. [Dataset 8](#dataset-8)
 9. [Dataset 9](#dataset-9)
+10. [Dataset 10](#dataset-10)
+11. [Dataset 11](#dataset-11)
+12. [Dataset 12](#dataset-12)
+13. [Dataset 13](#dataset-13)
 
 ## 数据集说明
 
@@ -179,7 +183,7 @@ phone, zip ⇒ areacode
 
 
 
-### Dataset 4
+### Dataset 10
 ### Titanic
 **属性**: [PassengerId, Survived, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked]    
 **是否有干净版本**: 无  
@@ -196,7 +200,7 @@ phone, zip ⇒ areacode
 | 原始数据集 | `./Data/Titanic/Titanic.csv` | `/`| `891条` | `/`  | `错误为数据集自然错误` |
 
 
-### Dataset 5
+### Dataset 11
 ### Emergency
 **属性**: [lat, lng, desc, zip, title, timeStamp, twp, addr, e]    
 **是否有干净版本**: 无  
@@ -208,7 +212,7 @@ phone, zip ⇒ areacode
 **论文出处**: BoostClean: Automated Error Detection and Repair for Machine Learning
 
 
-### Dataset 6
+### Dataset 12
 ### USCensus
 **属性**: [age, workclass, fnlwgt, education, education.num, marital.status, occupation, relationship, race, sex, capital.gain, capital.loss, hours.per.week, native.country, income]    
 **是否有干净版本**: 无  
@@ -219,7 +223,7 @@ phone, zip ⇒ areacode
   
 **论文出处**: BoostClean: Automated Error Detection and Repair for Machine Learning
 
-### Dataset 7
+### Dataset 13
 ### Retail
 **属性**: [InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country]    
 **是否有干净版本**: 无  
