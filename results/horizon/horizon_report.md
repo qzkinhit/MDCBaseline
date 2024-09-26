@@ -18,7 +18,10 @@
 | 实验编号 | 本地输入路径             | 实际输入存放路径                 | 本地输出路径             | 实际输出存放路径                  | 备注      |
 |----------|--------------------------|--------------------------|--------------------------|---------------------------|-----------|
 | 实验1    | `./Data/parking/input_parking_horizon.csv` | `baidupan/MDCBaseline-horizon/parking/input_parking_horizon.csv` | `./results/horizon/output_parking_horizon.csv`      | `/` | `备注内容1` |
-
+### 实验 x 运行命令：
+```bash
+python run_horizon_base.py --dirty_path ../../Data/hospital/input_hospital_horizon_E2.csv --rule_path ../../Data/hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/hospital/input_hospital_horizon.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
+```
 ---
 
 ### 数据集: `hospital`[下载链接](https://pan.baidu.com/s/1-0epjUUe4SDlT6oNyqF9YA?pwd=2njy)
@@ -29,7 +32,10 @@
 |----------|--------------------------|----------------------------------|--------------------------|----------------------------------|-----------|
 | 实验2    | `./Data/hospital/input_hospital_horizon_E1.csv` | `baidupan/MDCBaseline-horizon/hospital/E1/input_hospital_horizon_E1.csv`         | `./results/horizon/output_hospital_horizon_E1.csv`      | `/`        | `备注内容` |
 | 实验3    | `./Data/hospital/input_hospital_horizon_E2.csv` | `baidupan/MDCBaseline-horizon/hospital/E2/input_hospital_horizon_E2.csv`         | `./results/horizon/output_hospital_horizon_E2.csv`      | `/`        | `备注内容` |
-
+### 实验 x 运行命令：
+```bash
+python run_horizon_base.py --dirty_path ../../Data/hospital/input_hospital_horizon_E2.csv --rule_path ../../Data/hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/hospital/input_hospital_horizon.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
+```
 ---
 
 ### 数据集: `tax`[下载链接](https://pan.baidu.com/s/1-0epjUUe4SDlT6oNyqF9YA?pwd=2njy)
@@ -40,6 +46,10 @@
 |----------|--------------------------|----------------------------------|--------------------------|----------------------------------|-----------|
 | 实验4    | `./Data/tax/input_tax_horizon_E1.csv` | `baidupan/MDCBaseline-horizon/tax/E1/input_tax_horizon_E1.csv`         | `./results/horizon/output_tax_horizon_E1.csv`      | `/`        | `备注内容` |
 | 实验5    | `./Data/tax/input_tax_horizon_E2.csv` | `baidupan/MDCBaseline-horizon/tax/E2/input_tax_horizon_E2.csv`         | `./results/horizon/output_tax_horizon_E2.csv`      | `/`        | `备注内容` |
+### 实验 x 运行命令：
+```bash
+python run_horizon_base.py --dirty_path ../../Data/hospital/input_hospital_horizon_E2.csv --rule_path ../../Data/hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/hospital/input_hospital_horizon.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
+```
 ---
 
 ## 3. 实验结果汇总
