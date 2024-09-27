@@ -28,7 +28,6 @@
 ```bash
 python run_horizon_base.py --dirty_path ../../Data/hospital/input_hospital_horizon_E2.csv --rule_path ../../Data/hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/hospital/input_hospital_horizon.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
 ```
----
 
 ### 数据集: `数据集名称2`
 

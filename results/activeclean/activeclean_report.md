@@ -37,7 +37,10 @@
 | 1.10 | `Adult/adult_systematic_25.p` | `github/baidupan/input7` | `Adult/adult_systematic_25.txt` | `github/baidupan/output7` | `备注内容7` |
 
 ---
-
+### 实验 x 运行命令：
+```bash
+python run_horizon_base.py --dirty_path ../../Data/hospital/input_hospital_horizon_E2.csv --rule_path ../../Data/hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/hospital/input_hospital_horizon.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
+```
 ### 数据集: `EEG`[下载链接](https://archive.ics.uci.edu/dataset/121/eeg+database)
 
 #### 实验2
@@ -56,7 +59,10 @@
 | 2.10 | `EEG/EEG_systematic_25.p` | `github/baidupan/input7` | `EEG/EEG_systematic_25.txt` | `github/baidupan/output7` | `备注内容7` |
 
 ---
-
+### 实验 x 运行命令：
+```bash
+python run_horizon_base.py --dirty_path ../../Data/hospital/input_hospital_horizon_E2.csv --rule_path ../../Data/hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/hospital/input_hospital_horizon.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
+```
 ## 3. 实验结果汇总
 
 | 实验编号 | 数据集                           | 初始准确率 | 清洗后准确率 |

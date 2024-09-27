@@ -1,12 +1,1001 @@
-ProviderNumber,HospitalName,Address1,Address2,Address3,City,State,ZipCode,CountyName,PhoneNumber,HospitalType,HospitalOwner,EmergencyService,Condition,MeasureCode,MeasureName,Score,Sample,Stateavg
-10018,callahan eye foundation hospital,1720 university blvd,empty,empty,birmingham,al,35233,jefferson,2053258100,acute care hospitals,voluntary non-profit - private,yes,surgical infection prevention,scip-card-2,surgery patients who were taking heart drugs caxxed beta bxockers before coming to the hospitax who were kept on the beta bxockers during the period just before and after their surgery,empty,empty,al_scip-card-2
-10001,southeast alabama medical center,1108 ross clark circle,empty,empty,dothan,al,36302,houston,3347938701,acute care hospitals,government - hospital district or authority,yes,heart attack,ami-4,heart attack patients given smoking cessation advice/counseling,100%,244 patients,al_ami-4
-10001,southeast alabama medical center,1108 ross clark circle,empty,empty,dothan,al,36302,houston,3347938701,acute care hospitals,government - hospital district or authority,yes,heart attack,ami-5,heart attack patients given beta blocker at discharge,99%,441 patients,al_ami-5
-10018,callahan eye foundation hospital,1720 university blvd,empty,empty,birmingham,al,35233,jefferson,2053258100,acute care hospitals,voluntary non-profit - private,yes,surgical infection prevention,scip-inf-1,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,empty,empty,al_scip-inf-1
-10018,callahan eye foundation hospital,1720 university blvd,empty,empty,birmingham,al,35233,jefferson,2053258100,acute care hospitals,voluntary non-profit - private,yes,surgical infection prevention,scip-inf-2,surgery patients who were given the  right kind  of antibiotic to help prevent infection,empty,empty,al_scip-inf-2
-10001,southeast alabama medical center,1108 ross clark circle,empty,empty,dothan,al,36302,houston,3347938701,acute care hospitals,government - hospital district or authority,yes,pneumonia,pn-5c,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,92%,196 patients,al_pn-5c
-10018,callahan eye foundation hospital,1720 university blvd,empty,empty,birminghxm,al,35233,jefferson,2053258100,acute care hospitals,voluntary non-profit - private,yes,surgical infection prevention,scip-inf-3,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),empty,empty,al_scip-inf-3
-10018,callahan eye foundation hospital,1720 university blvd,empty,empty,birmingham,al,35233,jefferson,2053258100,acute care hospitals,voluntary non-profit - private,yes,surgical infection prevention,scip-inf-4,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,empty,empty,al_scip-inf-4
-10018,callahan eye foundation hospital,1720 university blvd,empty,empty,birmingham,al,35233,jefferson,2053258100,acute care hospitals,voluntary non-profit - private,yes,surgical infection prevention,scip-inf-6,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),empty,empty,al_scip-inf-6
-10018,callahan eye foundation hospital,1720 university blvd,empty,empty,birmingham,al,35233,jefferson,2053258100,acute care hospitals,voluntary non-profit - private,yes,surgical infection prevention,scip-vte-1,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,empty,empty,al_scip-vte-1
-10018,callahan eye foundation hospital,1720 university blvd,empty,empty,birmingxam,al,35233,jefferson,2053258100,acute care hospitals,voluntary non-profit - private,yes,surgical infection prevention,scip-vte-2,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,empty,empty,al_scip-vte-2
+ProviderNumber,HospitalName
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10001,southeast alabama medical center
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10005,marshall medical center south
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10006,eliza coffee memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10007,mizell memorial hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10008,crenshaw community hospital
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10009,hartselle medical center
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10010,marshall medical center north
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10011,st vincents east
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10012,dekalb regional medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10015,southwest alabama medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10016,shelby baptist medical center
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10018,callahan eye foundation hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10055,flowers hospital
+10056,st vincents hospital
+10056,st vincents hospital
+10056,st vincents hospital
+10056,st vincents hospital
+10056,st vincents hospital
+10085,decatur general hospital
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10086,northwest medical center
+10087,univ of south alabama medical center
+10087,univ of south alabama medical center
+10087,univ of south alabama medical center
+10087,univ of south alabama medical center
+10087,univ of south alabama medical center
+10087,univ of south alabama medical center
+10087,univ of south alabama medical center
+10087,univ of south alabama medical center
+10087,univ of south alabama medical center
+10087,univ of south alabama medical center
+10087,univ of south alabama medical center
+10087,univ of south alabama medical center
+10087,univ of south alabama medical center
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10108,prattville baptist hospital
+10158,russellville hospital
+10158,russellville hospital
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+10164,coosa valley medical center
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20017,alaska regional hospital
+20018,yukon kuskokwim delta reg hospital
+20018,yukon kuskokwim delta reg hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10019,helen keller memorial hospital
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10021,dale medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10022,cherokee medical center
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10023,baptist medical center south
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10024,jackson hospital & clinic inc
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10025,g h lanier memorial hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10027,elba general hospital
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10029,east alabama medical center and snf
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10032,wedowee hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10033,university of alabama hospital
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10034,community hospital inc
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10035,cullman regional medical center
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10036,andalusia regional hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10038,stringfellow memorial hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10039,huntsville hospital
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10040,gadsden regional medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10043,chilton medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10044,marion regional medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10045,fayette medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10046,riverview regional medical center
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10047,georgiana hospital
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10049,medical center enterprise
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
+10050,st vincents blount
