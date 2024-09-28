@@ -36,11 +36,22 @@ python run_horizon_base.py --dirty_path data/input.csv --rule_path data/rules.tx
 
 ### 运行示例：
 ```bash
-python run_horizon_base.py --dirty_path ../../Data/hospital/dirty_hospital_E1.csv --rule_path ../../Data/hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/hospital/clean.csv --task_name hospital_horizon_E1 --output_path ../../results/horizon/hospital_horizon_E1
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/hospital/dirty_hospital_E1.csv --rule_path ../../Data/hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/hospital/clean.csv --task_name hospital_horizon_E1 --output_path ../../results/horizon/hospital_horizon_E1
 ```
-
 ```bash
-python run_horizon_base.py --dirty_path ../../Data/hospital/dirty_hospital_E2.csv --rule_path ../../Data/hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/hospital/clean.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/hospital/dirty_hospital_E2.csv --rule_path ../../Data/hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/hospital/clean.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
+```
+```bash
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/hospital/dirty.csv --rule_path ../../Data/hospital/dc_rules_test.txt --clean_path ../../Data/hospital/hospital_clean.csv --task_name hospital_test --output_path ../../results/horizon/hospital_test
+```
+```bash
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/tax/split_data/tax-dirty-original_error-0010k.csv --rule_path ../../Data/tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/tax/split-clean-clean_data_ori-0010k.csv --task_name tax_horizon_ori --output_path ../../results/horizon/tax_horizon_ori
+```
+```bash
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/tax/dirty_tax_E1.csv --rule_path ../../Data/tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/tax/clean.csv --task_name tax_horizon_E1 --output_path ../../results/horizon/tax_horizon_E1
+```
+```bash
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/tax/dirty_tax_E2.csv --rule_path ../../Data/tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/tax/clean.csv --task_name tax_horizon_E2 --output_path ../../results/horizon/tax_horizon_E2
 ```
 
 ## 运行命令2:
@@ -52,10 +63,3 @@ xx
 ### 命令将执行以下操作：
 xx
 ### 运行示例：
-```bash
-python run_horizon_base.py --dirty_path ../../Data/tax/dirty_tax_E1.csv --rule_path ../../Data/tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/tax/clean.csv --task_name tax_horizon_E1 --output_path ../../results/horizon/tax_horizon_E1
-```
-
-```bash
-python run_horizon_base.py --dirty_path ../../Data/tax/dirty_tax_E2.csv --rule_path ../../Data/tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/tax/clean.csv --task_name tax_horizon_E2 --output_path ../../results/horizon/tax_horizon_E2
-```

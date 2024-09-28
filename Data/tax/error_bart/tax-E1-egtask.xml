@@ -16,7 +16,7 @@
             <password>pguser</password>
         </access-configuration>
         <import>
-            <input type="csv" separator="," table="md">clean.csv</input>
+            <input type="csv" separator="," table="md">tax-data-0010k.csv</input>
         </import>
     </source>
 
@@ -30,7 +30,7 @@
             <password>pguser</password>
         </access-configuration>
         <import>
-            <input type="csv" separator="," table="tax">clean.csv</input>
+            <input type="csv" separator="," table="tax">tax-data-0010k.csv</input>
         </import>
     </target>
 
@@ -135,23 +135,23 @@ fd12: tax(fname: $fname1,lname: $lname1 ,gender: $gender1 ,areacode: $areacode1 
             <vioGenQueries>
                 <vioGenQuery id="fd1">
                     <comparison>(city1 != city2)</comparison>
-                    <percentage>0.5</percentage>
+                    <percentage>10.0</percentage>
                 </vioGenQuery>
                 <vioGenQuery id="fd2">
                     <comparison>(state1 != state2)</comparison>
-                    <percentage>0.5</percentage>
+                    <percentage>0.0</percentage>
                 </vioGenQuery>
                 <vioGenQuery id="fd3">
                     <comparison>(childexemp1 != childexemp2)</comparison>
-                    <percentage>0.5</percentage>
+                    <percentage>10.0</percentage>
                 </vioGenQuery>
                 <vioGenQuery id="fd4">
                     <comparison>(childexemp1 != childexemp2)</comparison>
-                    <percentage>0.0</percentage>
+                    <percentage>10.0</percentage>
                 </vioGenQuery>
                 <vioGenQuery id="fd5">
                     <comparison>(singleexemp1 != singleexemp2)</comparison>
-                    <percentage>1.0</percentage>
+                    <percentage>0.0</percentage>
                 </vioGenQuery>
                 <vioGenQuery id="fd6">
                     <comparison>(singleexemp1 != singleexemp2)</comparison>

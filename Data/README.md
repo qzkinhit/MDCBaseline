@@ -60,20 +60,16 @@ Issuing Agency ⇒ Issuer Precinct
 Issuing Agency ⇒ Issuer Code    
 Violation Code ⇒ Violation Description  
 Violation Code ⇒ Violation Legal Code   
-**数据集下载链接**: [下载链接](https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2021/kvfd-bves/about_data)   
-**与论文中相同大小的数据集(100k)(input_parking_horizon.csv)下载链接**: [下载链接](https://pan.baidu.com/s/1-0epjUUe4SDlT6oNyqF9YA?pwd=2njy)     
+**数据集下载链接**: [下载链接](https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2021/kvfd-bves/about_data)  
+                  [下载链接](https://pan.baidu.com/s/1-0epjUUe4SDlT6oNyqF9YA?pwd=2njy)       
 **论文出处**: Horizon: Scalable Dependency-driven Data Cleaning
-
-| 错误类型     | 数据存放路径（输入路径）          | 数据存放路径（输出路径）          | 数据量        | 错误量        | 备注        |
-|----------|----------------------------------|----------------------------------|------------|------------|-----------|
-| 原始数据集 | `./Data/parking/input_parking_horizon.csv` | `./results/horizon/output_parking_horizon.csv`| `100k条` | `/`  | `错误为数据集自然错误` |
 
 
 ### Dataset 2
 ### hospital
 **属性**: [ProviderNumber, HospitalName, Address1, Address2, Address3, City, State, ZipCode, CountyName, PhoneNumber, HospitalType, HospitalOwner, EmergencyService, Condition, MeasureCode, MeasureName, Score, Sample, Stateavg]    
 **是否有干净版本**: 有  
-**对应错误种类和数目**: 包含以下错误类型：异常值、规则违反，分别8936个、500条     
+**对应错误种类和数目**: 包含以下错误类型：原生错误、规则违反、随机错误，分别3%、4.5%（45条）、91条   
 **数据规则集、标签、知识**:存放路径：../../Data/hospital/dc_rules-validate-fd-horizon.txt     
 HospitalName ⇒ ZipCode  
 HospitalName ⇒ PhoneNumber  
@@ -88,15 +84,14 @@ HospitalName ⇒ ProviderNumber
 City ⇒ CountyName   
 ZipCode ⇒ EmergencyService  
 HospitalName ⇒ City   
-**数据集下载链接**: [下载链接](https://db.unibas.it/projects/bart/)    
-**与论文中相同大小的数据集(100k)(input_hospital_horizon.csv)下载链接**:[下载链接](https://pan.baidu.com/s/1-0epjUUe4SDlT6oNyqF9YA?pwd=2njy)  
+**数据集下载链接**: 无
 **论文出处**: Holistic Data Cleaning: Putting Violations Into Context
 
-| 错误类型     | 数据存放路径（输入路径）          | 数据存放路径（输出路径）          | 数据量        | 错误量        | 备注        |
-|----------|----------------------------------|----------------------------------|------------|------------|-----------|
-| 异常值  | `./Data/hospital/input_hospital_horizon_E2.csv` | `./results/horizon/output_hospital_horizon_E2.csv` | `100k条` | `8936个单元格`      | `向不同属性注入随机错误` |
-| ProviderNumber⇒HospitalName规则违反 | `./Data/hospital/input_hospital_horizion_E1.csv`  | `./results/horizon/output_hospital_horizon_E1.csv`| `100k条`     | `500条` | `由于bart运行时间过长，目前只对一条规则进行处理` |
-
+| 错误类型     | bart脚本代码（如果有）       | 数据存放路径（太大了则附网盘链接即可）      | 本地输出路径             | 实际输出存放路径                  | 备注      |
+|----------|---------------------|--------------------------|--------------------------|---------------------------|-----------|
+| 规则违反MeasureCode ⇒ Stateavg,HospitalName ⇒ Address1,HospitalName ⇒ PhoneNumber,MeasureCode ⇒ Condition    | `../../Data/hospital/error_bart/hospital-E1-egtask.xml` | `../Data/hospital/dirty_hospital_E1.csv` | `../../result/horizon/hospital_horizon_E1` | `../../result/horizon/hospital_horizon_E1` | `/` |
+| 随机错误   | `../../Data/hospital/error_bart/hospital-E2-egtask.xml` | `../../Data/hospital/dirty_hospital_E2.csv` | `../../result/horizon/hospital_horizon_E2`      | `../../result/horizon/hospital_horizon_E2` | `/` |
+| 原生错误 | `/` | `../../Data/hospital/dirty.csv` | `../../rusult/horizon/hospital_test`      | `../../rusult/horizon/hospital_test` | `/` |
 
 ### Dataset 3
 ### tax
@@ -104,22 +99,27 @@ HospitalName ⇒ City
 **是否有干净版本**: 有  
 **对应错误种类和数目**: 包含以下错误类型：异常值、规则违反，分别6041个、500条   
 **数据规则集、标签、知识**:存放路径：../../Data/tax/dc_rules-validate-fd-horizon.txt     
-zip ⇒ city  
-zip ⇒ state     
-zip,haschild ⇒ childexemp 
-zip,maritalstatus ⇒ singleexemp   
-zip,maritalstatus ⇒ marriedexemp  
-fname ⇒ gender 
-areacode ⇒ state   
-phone, zip ⇒ areacode  
-**数据集下载链接**: [下载链接](https://db.unibas.it/projects/bart/)    
+zip ⇒ city
+zip ⇒ state
+has_child ⇒ child_exemp
+zip ⇒ child_exemp
+marital_status ⇒ single_exemp
+zip ⇒ single_exemp
+zip ⇒ married_exemp
+marital_status ⇒ married_exemp
+f_name ⇒ gender
+area_code ⇒ state
+phone ⇒ area_code
+zip ⇒ area_code 
+**数据集下载链接**: 无   
 **与论文中相同大小的数据集(100k)(input_tax_horizon.csv)下载链接**：[下载链接](https://pan.baidu.com/s/1-0epjUUe4SDlT6oNyqF9YA?pwd=2njy)    
 **论文出处**: Conditional functional dependencies for capturing data inconsistencies    
 
-| 错误类型     | 数据存放路径（输入路径）          | 数据存放路径（输出路径）          | 数据量        | 错误量        | 备注        |
-|----------|----------------------------------|----------------------------------|------------|------------|-----------|
-| 异常值  | `./Data/hospital/input_tax_horizon_E2.csv` | `./results/horizon/output_tax_horizon_E2.csv` | `100k条` | `6041个单元格` | `向不同属性注入随机错误` |
-| zip ⇒ city规则违反 | `./Data/hospital/input_tax_horizon_E1.csv`  | `./results/horizon/output_tax_horizon_E1.csv`| `100k条` | `500条` | `由于bart运行时间过长，目前只对一条规则进行处理` |
+| 错误类型     | bart脚本代码（如果有）       | 数据存放路径（太大了则附网盘链接即可）      | 本地输出路径             | 实际输出存放路径                  | 备注      |
+|----------|---------------------|--------------------------|--------------------------|---------------------------|-----------|
+| 规则违反zip ⇒ city,has_child ⇒ child_exemp, zip ⇒ child_exemp      | `../../Data/tax/error_bart/tax-E1-egtask.xml` | `../../Data/tax/dirty_tax-E1.csv` | `../../result/horizon/tax_horizon_E1`      | `../../result/horizon/tax_horizon_E1` | `/` |
+| 随机错误      | `../../Data/tax/error_bart/tax-E2-egtask.xml` | `../../Data/tax/dirty_tax-E2.csv` | `../../result/horizon/tax_horizon_E2`      | `../../result/horizon/tax_horizon_E2` | `/` |
+| 原生错误 | `/` | `../../Data/tax/split_data/tax-dirty-original_error-0010k.csv` | `../../result/horizon/tax_horizon_ori`      | `../../result/horizon/tax_horizon_ori` | `/` |
 
 
 ### Dataset 4

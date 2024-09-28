@@ -16,7 +16,7 @@
             <password>pguser</password>
         </access-configuration>
         <import>
-            <input type="csv" separator="," table="md">clean.csv</input>
+            <input type="csv" separator="," table="md">tax-data-0010k.csv</input>
         </import>
     </source>
 
@@ -30,7 +30,7 @@
             <password>pguser</password>
         </access-configuration>
         <import>
-            <input type="csv" separator="," table="tax">clean.csv</input>
+            <input type="csv" separator="," table="tax">tax-data-0010k.csv</input>
         </import>
     </target>
 
