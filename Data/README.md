@@ -17,6 +17,8 @@
 12. [Dataset 12](#dataset-12)
 13. [Dataset 13](#dataset-13)
 14. [Dataset 14](#dataset-14)
+15. [Dataset 15](#dataset-15)
+16. [Dataset 16](#dataset-16)
 
 ## 数据集说明
 
@@ -253,4 +255,35 @@ zip ⇒ area_code
 **论文出处**: Raha: A Configuration-Free Error Detection System
 
 
+
+### Dataset 15
+
+### adult
+
+**属性**: [age, workclass, fnlwgt, education, education-num, marital-status, occupation, relationship, race, sex, capital-gain, capital-loss, hours-per-week, native-country, income]    
+**是否有干净版本**: 有  
+**数据规则集、标签、知识**:
+
+**论文出处**:ActiveClean: Interactive Data Cleaning For Statistical Modeling
+
+| 错误类型   | 数据存放路径（输入路径）         | 数据存放路径（输出路径） | 数据量    | 错误量 | 备注 |
+| ---------- | -------------------------------- | ------------------------ | --------- | ------ | ---- |
+| 原始数据集 | `./Data/adult/adult_cleaned.csv` | `/`                      | `45222条` | `/`    | `/`  |
+
+
+
+
+### Dataset 16
+
+### eeg
+
+**属性**: 每个时间步包含14个不同的通道和一个标签（表示眼睛的开闭状态）   
+**是否有干净版本**: 有  
+**数据规则集、标签、知识**:
+
+**论文出处**:ActiveClean: Interactive Data Cleaning For Statistical Modeling
+
+| 错误类型   | 数据存放路径（输入路径）        | 数据存放路径（输出路径） | 数据量    | 错误量 | 备注 |
+| ---------- | ------------------------------- | ------------------------ | --------- | ------ | ---- |
+| 原始数据集 | `./Data/eeg/EEG Eye State.arff` | `/`                      | `14980条` | `/`    | `/`  |
 
