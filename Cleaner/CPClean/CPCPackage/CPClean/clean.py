@@ -121,8 +121,8 @@ class CPClean(object):
 
         percent_cc = q1_results_pruned.mean()
 
-        if not restore:
-            debugger.init_log(percent_cc)
+        # if not restore:
+        #     debugger.init_log(percent_cc)
 
         while True:
             tic = time.time()
@@ -162,7 +162,7 @@ class CPClean(object):
             # logging
             percent_cc = (len(S_val) - len(S_val_pruned) + sum(q1_results_pruned)) / len(S_val)
             print("Iteration {}, time {}, selection {}, percent_cc {}".format(n_iter, sel_time, sel, percent_cc))
-            debugger.log(n_iter, sel, sel_time, percent_cc)
+            # debugger.log(n_iter, sel, sel_time, percent_cc)
 
             n_iter += 1
 

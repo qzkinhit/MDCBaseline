@@ -37,5 +37,5 @@ print("Preprocess Finished")
 results = run_boost_clean(data, model)
 print("boostclean : ", results)
 
-# results = run_cp_clean(data, model, n_jobs=1)
-# print("cpclean : ", results)
+results = run_cp_clean(data, model, n_jobs=1)
+print("cpclean : ", results)

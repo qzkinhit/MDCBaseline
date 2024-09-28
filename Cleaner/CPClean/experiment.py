@@ -51,7 +51,7 @@ def run_cp_clean(data, model, n_jobs=4, debug_dir=None, restore=False, method="c
 
     val_acc = cleaner.score(data["X_val"], data["y_val"])
     test_acc = cleaner.score(data["X_test"], data["y_test"])
-    cp_result = {"test_acc_cp": test_acc, "val_acc_cp": val_acc, "percent_clean": debugger.percent_clean}
+    cp_result = {"test_acc_cp": test_acc, "val_acc_cp": val_acc}
     return cp_result
 
 def run_random(data, model, n_jobs=4, debug_dir=None, seed=1):

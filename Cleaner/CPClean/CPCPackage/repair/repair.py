@@ -71,19 +71,23 @@ def repair(X_train_mv, save_dir=None):
         domain = set(X_train_mv[c].dropna().values)
         for i in range(len(domain) - 1):
             all_imputers["{}_frequent".format(i+2)] = CatGridImputer(i+2)
-    else:
-        raise Exception("no missing values")
+    # else:
+    #     raise Exception("no missing values")
+
+    # X_train_repairs = {}
+    #
+    # for name, imputer in all_imputers.items():
+    #     X_imp = imputer.fit_transform(X_train_mv)
+    #
+    #     for c in X_imp.columns:
+    #         nonnull = np.argwhere(X_train_mv[c].notnull().values).ravel()
+    #         X_imp[c].iloc[nonnull] = X_train_mv[c].iloc[nonnull]
+    #
+    #     X_train_repairs[name] = X_imp
 
     X_train_repairs = {}
-
-    for name, imputer in all_imputers.items():
-        X_imp = imputer.fit_transform(X_train_mv)
-        
-        for c in X_imp.columns:
-            nonnull = np.argwhere(X_train_mv[c].notnull().values).ravel()
-            X_imp[c].iloc[nonnull] = X_train_mv[c].iloc[nonnull]
-
-        X_train_repairs[name] = X_imp
+    for name, imputer in cat_imputers.items():
+        X_train_repairs[name] = X_train_mv
 
     if save_dir is not None:
         for name, X_imp in X_train_repairs.items():
