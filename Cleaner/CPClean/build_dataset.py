@@ -15,7 +15,7 @@ import time
 from sklearn.model_selection import cross_val_score
 from sklearn.neighbors import KNeighborsClassifier
 from copy import deepcopy
-from training.preprocess import Preprocessor
+from CPCPackage.training.preprocess import Preprocessor
 from scipy.stats import mode
 
 def split(X, y, val_size, test_size=None, max_size=None, random_state=1):

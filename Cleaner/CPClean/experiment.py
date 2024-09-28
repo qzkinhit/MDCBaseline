@@ -1,10 +1,10 @@
-from training.train import train_evaluate
-from cleaner.boost_clean import boost_clean
+from CPCPackage.training.train import train_evaluate
+from CPCPackage.boost_clean import boost_clean
 import pandas as pd
 import numpy as np
 import os
-from cleaner.CPClean.clean import CPClean
-from cleaner.CPClean.debugger import Debugger
+from CPCPackage.CPClean.clean import CPClean
+from CPCPackage.CPClean.debugger import Debugger
 import utils
 
 def run_classic_clean(data, model):
