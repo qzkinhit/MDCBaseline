@@ -64,7 +64,17 @@ class Holistic:
         # 设置显示选项
         pd.set_option('display.max_columns', None)
         pd.set_option('display.max_rows', None)
-
+    '''
+        scope操作符：从数据集中删除不相关的数据单元
+        Parameters
+        ----------
+        sco :
+            要从数据集中取出的列名，是一个list
+        Returns
+        -------
+        data :
+            返回从数据集中取回的data
+    '''
     def scope(self, sco):
         df = pd.read_csv(self.dirty_path, header=0).astype(str).fillna("nan")
         data = np.array(df[sco]).tolist()
@@ -77,6 +87,22 @@ class Holistic:
         df = pd.read_csv(self.clean_path, header=0).astype(str).fillna("nan")
         data = np.array(df[sco]).tolist()
         return data
+
+    '''
+           block操作符：将共享了相同的blocking key的数据进行分组
+           Parameters
+           ----------
+           data :
+               数据集
+           blo :
+               blocking key,block操作符根据blo进行分组
+           Returns
+           -------
+           blocked_list :
+               返回根据blo分好块的data,为一个二层list，list[i]表示第i组blo一样的tuple
+               example:
+                   [[0, 1],[2, 3]]中表示有2组值，其中0，1的blo值相同且2，3的blo值相同
+       '''
 
     def block(self, data, blo):
         blodic = {}
@@ -110,6 +136,21 @@ class Holistic:
         self.blocked_list.append([])
         return self.blocked_list
 
+    '''
+         iterate操作符：根据block操作中分完组的各个组生成其潜在可能违规的组,返回pair，生成候选冲突
+         Parameters
+         ----------
+         data :
+             数据集
+         blocked_list :
+             存放分好组的list列表
+         Returns
+         -------
+         pair :
+             返回根据blocked_list生成的候选冲突对,是一个三层的列表，pair[i]表示中blo中值相等，pair[i][j]表示潜在的违规对
+             example :
+                 [1, 2]表示1，2条数据为潜在的冲突对
+     '''
     def iterate(self, blocked_list):
         pair = [[]]
         for i in range(len(blocked_list)):
@@ -118,6 +159,21 @@ class Holistic:
                     pair[i].append([blocked_list[i][j], blocked_list[i][k]])
             pair.append([])
         return pair
+    '''
+        generate：根据一个列表和一个字典生成一个表达式
+        Parameters
+        ----------
+        newtemdic :
+            列表，表示这条中规则要用到的列
+        temdic :
+            字典，指向每个列名对应违反的操作符
+        Returns
+        -------
+        bds :
+            返回生成的判断表达式
+            example :
+                ['str(li[l][attr_index["ounces"]])!=str(li[r][attr_index["ounces"]]) and int(li[l][attr_index["brewery_id"]])>int(li[r][attr_index["brewery_id"]])'
+    '''
 
     def generate(self, index):
         biaodashi = []
@@ -146,7 +202,25 @@ class Holistic:
             else:
                 bds = bds + " and " + biaodashi[i]
         return bds
-
+    '''
+            detect：根据maypair和生成的表达式从潜在的违规maypair中生成真正的违规list：vio
+            Parameters
+            ----------
+            maypair :
+                iterate中生成的潜在违规对
+            data :
+                数据集
+            Returns
+            -------
+            vio :
+                返回生成的违规超边
+                example :
+                    <class 'list'>: [0, 1, (0, 1), (50, 1)]
+                        其中vio[i]即为第i条超边
+                        其中第1个数字，0表示违反了第0条规则，之后1个数字和2个元组指示了一组违规
+                        3个数字中的第一个表示他们的操作符，如1表示"!=",后两个元组，表示违规的2个cell
+                        如(0, 1)表示第0行第1列的cell
+        '''
     def detect(self, maypair, data):
         print("Detecting Errors")
         for i in tqdm(range(len(maypair)-1), ncols=90):
@@ -186,6 +260,36 @@ class Holistic:
                                 self.vio[self.cnt].append((r, self.attr_index[predicate.components[1]]))
                         self.cnt += 1
         return self.vio
+
+    # 参数为cell：违规的单元，edge：关联的边，oper：cell和edge违反的操作符，rc即repaircontext，存放表达式
+    # diccop是一个字典字典中例如157：[1,2,3,4,5]表示第15行第7列的cell存在于第1，2，3，4，5条超边中，
+    # mvcdic即为mvc得出的list，vio即为超边与上述的vio相同
+    # 返回的是rc，rc中存放了所有的潜在的修复表达式
+    '''
+        lookup ：找到违规单元cell所有相关联的边，生成表达式
+        Parameters ：
+        ----------
+        cell :
+            违规的单元
+        edge ;
+            关联的边
+        oper ;
+            cell和edge违反的操作符
+        rc :
+            repaircontext,修复上下文，存放了表达式
+        diccop :
+            是一个字典，存放了整个超图
+            example:
+                {(1, 1): [2, 3, 4]}表示第1行第1列的cell存在于2，3，4三条超边中
+        mvcdic :
+            判断该值是否存在于mvc中
+        vio :
+            detect中生成的违规对的集合
+        Returns
+        -------
+        rc :
+            生成的修复上下文，里面存放了表达式
+    '''
 
     def lookup(self, cell, edge, oper, diccop, mvcdic, vio, firstcell):
         if (firstcell != cell):
@@ -230,6 +334,24 @@ class Holistic:
                 self.exps.extend(self.lookup(vio[i][index2], vio[j][index22], vio[j][index00], diccop, mvcdic, vio, cell))
         return self.exps
 
+    # determination
+    # 对rc中的表达式寻找最合适的修复，返回值为对于cell最终的修复
+    '''
+        determination ：对rc中的表达式寻找最合适的修复，返回值为对于cell最终的修复
+        Parameters
+        ----------
+        cell :
+            违规的单元
+        exps :
+            修复表达式
+        data :
+            数据集
+        Returns
+        -------
+        finalthing or ll[0] :
+            均为对于cell最终的修复
+    '''
+
     def determination(self, exps, data):
         opt_dict = ["==", "!=", "<", ">", "<=", ">="]
         rep_dict = {}
@@ -265,6 +387,27 @@ class Holistic:
             return rep_final
         except:
             return [0]
+    '''
+        repair：跟据data和detect中生成的vio进行修复，是holistic算法中的algorithm1
+                生成超图，对超图进行mvc算法，mvc得出错误cell，之后用lookup进行frontier的寻找，并得出表达式
+                最后用determination得出最终修复，无法修复的根据postprocess进行修复
+        Parameters
+        ----------
+        vio :
+            detect中生成的违规对的集合
+        data :
+            数据集
+        Returns
+        -------
+        data :
+            完成修复的数据
+        all_clean :
+            进行的全部修复的总次数
+        clean_right :
+            进行的修复中的修复正确的次数
+        clean_right_pre :
+            进行的修复中的修复正确的次数,用来计算prec
+    '''
 
     def repair(self, data, vio):
         sizebefore = 0
@@ -302,6 +445,13 @@ class Holistic:
                 while edges:
                     edge = edges.pop()
                     index1 = vio[edge].index(cell)
+                    '''
+                        examples: 
+                        对于[0, 1, (0, 1), (50, 1)]这个超边来说，如果你现在的cell是（0，1），
+                        则其属于index1 % 3 == 2，index2表示他的另一个对应的cell，这里为（50，1），index为 index2 = 2 + 1
+                        index0为其对应的操作符，index0 = 2 - 1。
+                        假如对应的是（50，1）则index1 % 3 ==0 
+                    '''
                     if (index1 % 3 == 2):
                         index2 = index1 + 1
                         index0 = index1 - 1
@@ -346,7 +496,29 @@ class Holistic:
             sizeafter = len(processedcell)
         self.all_clean, self.clean_right, self.clean_right_pre = self.postprocess(self.mvc, dicc, self.all_clean, self.clean_right, self.clean_right_pre)
         return data, self.all_clean, self.clean_right, self.clean_right_pre
-
+    '''
+        postprocess：跟对repair的内循环无法修复的mvc中的单元进行粗修复
+        Parameters
+        ----------
+        mvc :
+            mvc算法得出的cell
+        dicc :
+            是一个字典，存放了整个超图
+            example:
+                {(1, 1): [2, 3, 4]}表示第1行第1列的cell存在于2，3，4三条超边中
+        data :
+            数据集
+        all_clean :
+            进行的全部修复的总次数
+        clean_righ :
+            进行的修复中的修复正确的次数
+        Returns
+        -------
+        all_clean :
+            进行的全部修复的总次数
+        clean_righ :
+            进行的修复中的修复正确的次数
+    '''
     def postprocess(self, mvc, dicc, all_clean, clean_right, clean_right_pre):
         while mvc:
             cell = mvc.pop()

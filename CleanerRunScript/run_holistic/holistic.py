@@ -131,21 +131,7 @@ class Holistic():
         self.blocked_list.append([])
         # print(blocked_list)
         return self.blocked_list
-    '''
-        iterate操作符：根据block操作中分完组的各个组生成其潜在可能违规的组,返回pair，生成候选冲突
-        Parameters
-        ----------
-        data :
-            数据集
-        blocked_list :
-            存放分好组的list列表
-        Returns
-        -------
-        pair :
-            返回根据blocked_list生成的候选冲突对,是一个三层的列表，pair[i]表示中blo中值相等，pair[i][j]表示潜在的违规对
-            example :
-                [1, 2]表示1，2条数据为潜在的冲突对
-    '''
+
 
     def iterate(self, blocked_list):
         pair = [[]]
@@ -157,21 +143,6 @@ class Holistic():
         # print(pair)
         return pair
 
-    '''
-        generate：根据一个列表和一个字典生成一个表达式
-        Parameters
-        ----------
-        newtemdic :
-            列表，表示这条中规则要用到的列
-        temdic :
-            字典，指向每个列名对应违反的操作符
-        Returns
-        -------
-        bds :
-            返回生成的判断表达式
-            example :
-                ['str(li[l][attr_index["ounces"]])!=str(li[r][attr_index["ounces"]]) and int(li[l][attr_index["brewery_id"]])>int(li[r][attr_index["brewery_id"]])'
-    '''
 
     def generate(self, index):
         biaodashi = []
@@ -309,25 +280,7 @@ class Holistic():
                         self.vio[self.cnt].append((r, self.attr_index[predicate.components[1]]))
                 self.cnt += 1
 
-    '''
-            detect：根据maypair和生成的表达式从潜在的违规maypair中生成真正的违规list：vio
-            Parameters
-            ----------
-            maypair :
-                iterate中生成的潜在违规对
-            data :
-                数据集
-            Returns
-            -------
-            vio :
-                返回生成的违规超边
-                example :
-                    <class 'list'>: [0, 1, (0, 1), (50, 1)]
-                        其中vio[i]即为第i条超边
-                        其中第1个数字，0表示违反了第0条规则，之后1个数字和2个元组指示了一组违规
-                        3个数字中的第一个表示他们的操作符，如1表示"!=",后两个元组，表示违规的2个cell
-                        如(0, 1)表示第0行第1列的cell
-        '''
+
     def detect(self, maypair, data):
         # 第一层循环表示现在是在使用第i个规则，第二层循环是分好的每个block块，第3层循环中的k为潜在违规对
         print("Detecting Errors")

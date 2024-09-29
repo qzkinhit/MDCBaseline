@@ -1,7 +1,7 @@
 # run_holistic.py
 import sys
 import argparse
-from Cleaner.Holistic_BigDansing.Holistic import Holistic
+from Cleaner.Holistic_BigDansing.holistic import Holistic
 import multiprocessing
 import time
 from datetime import datetime
@@ -12,13 +12,13 @@ def run_holistic(task_name, PERFECTED, ONLYED, rule_path, dirty_path, clean_path
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--clean_path', type=str, default="./Data/hospital/clean.csv")
-    parser.add_argument('--dirty_path', type=str, default="./Data/hospital/noise/hospital-inner_outer_error-30.csv")
-    parser.add_argument('--rule_path', type=str, default="./Data/hospital/dc_rules_holoclean.txt")
+    parser.add_argument('--clean_path', type=str, default="../../Data/hospital/clean.csv")
+    parser.add_argument('--dirty_path', type=str, default="../../Data/hospital/noise/hospital-inner_outer_error-30.csv")
+    parser.add_argument('--rule_path', type=str, default="../../Data/hospital/dc_rules_holoclean.txt")
     parser.add_argument('--task_name', type=str, default="holistic_hospital3")
     parser.add_argument('--onlyed', type=int, default=0)
     parser.add_argument('--perfected', type=int, default=0)
-    parser.add_argument('--output_path', type=str, default="./results/holistic/")
+    parser.add_argument('--output_path', type=str, default="../../results/holistic/")
     args = parser.parse_args()
 
     dirty_path = args.dirty_path
