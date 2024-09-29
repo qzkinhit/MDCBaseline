@@ -1,12 +1,18 @@
 import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import sys
+
 sys.path.append('../../Cleaner/Holoclean/')
-import holoclean
-from detect import ErrorsLoaderDetector
-from repair.featurize import *
+import Cleaner.Holoclean as holoclean
+from Cleaner.Holoclean.detect import NullDetector, ViolationDetector, ErrorsLoaderDetector
+from Cleaner.Holoclean.repair.featurize import *
 
 
 # 1. Setup a HoloClean session.
 hc = holoclean.HoloClean(
+    db_user='datacleanuser',
     db_name='holo',
     domain_thresh_1=0,
     domain_thresh_2=0,
@@ -27,8 +33,9 @@ hc = holoclean.HoloClean(
 ).session
 
 # 2. Load training data and denial constraints.
-hc.load_data('hospital', '../testdata/hospital.csv')
-hc.load_dcs('../testdata/hospital_constraints.txt')
+hc.load_data('hospital', '..\..\Data\hospital\dirty.csv')
+
+hc.load_dcs('..\..\Data\hospital\multi_rules\dc_rules_holoclean_15.txt')
 hc.ds.set_constraints(hc.get_dcs())
 
 # 3. Detect erroneous cells.
@@ -50,7 +57,7 @@ featurizers = [
 hc.repair_errors(featurizers)
 
 # 5. Evaluate the correctness of the results.
-hc.evaluate(fpath='../testdata/hospital_clean.csv',
+hc.evaluate(fpath='..\..\Data\hospital\hospital_clean_holoclean.csv',
             tid_col='tid',
             attr_col='attribute',
             val_col='correct_val')

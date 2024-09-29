@@ -1,4 +1,4 @@
-from tes import greedy_min_vertex_cover
+from Cleaner.Holistic_BigDansing.tes import greedy_min_vertex_cover
 import re
 def read_graph_dc(graph):
     v = {}
