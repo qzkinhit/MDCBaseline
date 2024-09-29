@@ -51,9 +51,13 @@ class MinimumVertexCoverSolver:
         return min_vertex
 
     @staticmethod
-    def min_vertex_cover_circle(graph: Graph):
+    def min_vertex_cover_circle(graph):
         flag = False
-        min_vertex = set(n for n in graph.nodes if (flag := not flag))
+        min_vertex = set()
+        for n in graph.nodes:
+            flag = not flag
+            if flag:
+                min_vertex.add(n)
         return min_vertex
 
     @staticmethod
