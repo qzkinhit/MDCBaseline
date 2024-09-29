@@ -33,7 +33,7 @@ hc = holoclean.HoloClean(
 ).session
 
 # 2. Load training data and denial constraints.
-hc.load_data('hospital', '..\..\Data\hospital\dirty.csv')
+hc.load_data('1_hospital', '..\..\Data\hospital\dirty.csv')
 
 hc.load_dcs('..\..\Data\hospital\multi_rules\dc_rules_holoclean_15.txt')
 hc.ds.set_constraints(hc.get_dcs())
@@ -41,7 +41,7 @@ hc.ds.set_constraints(hc.get_dcs())
 # 3. Detect erroneous cells.
 error_loader = ErrorsLoaderDetector(
         db_engine=hc.ds.engine,
-        schema_name='hospital',
+        schema_name='1_hospital',
         table_name='dk_cells'
 )
 hc.detect_errors([error_loader])

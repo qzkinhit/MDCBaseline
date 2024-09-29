@@ -33,7 +33,7 @@ def test_hospital_with_init():
         ).session
 
         # 2. Load training data and denial constraints.
-        hc.load_data('hospital', '../testdata/hospital.csv')
+        hc.load_data('1_hospital', '../testdata/1_hospital.csv')
         hc.load_dcs('../testdata/hospital_constraints.txt')
         hc.ds.set_constraints(hc.get_dcs())
 
@@ -58,7 +58,7 @@ def test_hospital_with_init():
                     attr_col='attribute',
                     val_col='correct_val')
 
-        # We assert that our key metrics are exactly as tested for hospital.
+        # We assert that our key metrics are exactly as tested for 1_hospital.
         # If these assertions ever fail in a new change, the results should
         # be comparable if not better than before, unless a clear and correct
         # reason can be given.
@@ -97,7 +97,7 @@ def test_hospital_without_init():
         ).session
 
         # 2. Load training data and denial constraints.
-        hc.load_data('hospital', '../testdata/hospital.csv')
+        hc.load_data('1_hospital', '../testdata/1_hospital.csv')
         hc.load_dcs('../testdata/hospital_constraints.txt')
         hc.ds.set_constraints(hc.get_dcs())
 
@@ -121,7 +121,7 @@ def test_hospital_without_init():
                     attr_col='attribute',
                     val_col='correct_val')
 
-        # We assert that our key metrics are exactly as tested for hospital.
+        # We assert that our key metrics are exactly as tested for 1_hospital.
         # If these assertions ever fail in a new change, the results should
         # be comparable if not better than before, unless a clear and correct
         # reason can be given.

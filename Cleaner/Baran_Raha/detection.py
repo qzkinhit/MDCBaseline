@@ -452,7 +452,7 @@ if __name__ == "__main__":
     clean_path = args.clean_path
     task_name = args.task_name
 
-    task_name = "hospital"
+    task_name = "1_hospital"
     clean_path = f"./data_with_rules/{task_name}/clean.csv"
     dirty_path = "./data_with_rules/{task_name}/noise/{task_name}-inner_error-01.csv"
     
@@ -481,14 +481,14 @@ if __name__ == "__main__":
     # app.STRATEGY_FILTERING = True
     # app.HISTORICAL_DATASETS = [
     #     {
-    #     "name": "hospital",
-    #     "path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/hospital/dirty.csv",
-    #     "clean_path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/hospital/clean.csv"
+    #     "name": "1_hospital",
+    #     "path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/1_hospital/dirty.csv",
+    #     "clean_path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/1_hospital/clean.csv"
     #     },
     #     {
-    #     "name": "beers",
-    #     "path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/beers/dirty.csv",
-    #     "clean_path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/beers/clean.csv"
+    #     "name": "3_beers",
+    #     "path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/3_beers/dirty.csv",
+    #     "clean_path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/3_beers/clean.csv"
     #     }
     # ]
     # detection_dictionary = app.run(dataset_dictionary)

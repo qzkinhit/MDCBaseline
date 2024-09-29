@@ -98,8 +98,8 @@ if __name__ == "__main__":
     ONLYED = args.onlyed
     PERFECTED = args.perfected
 
-    # dirty_path = "./data_with_rules/hospital/noise/hospital-outer_error-90.csv"
-    # clean_path = "./data_with_rules/hospital/clean.csv"
+    # dirty_path = "./data_with_rules/1_hospital/noise/1_hospital-outer_error-90.csv"
+    # clean_path = "./data_with_rules/1_hospital/clean.csv"
     # task_name = "hospital1"
     # ONLYED = 0
     # PERFECTED = 0

@@ -39,7 +39,7 @@
 ---
 ### 实验 x 运行命令：
 ```bash
-python run_horizon_base.py --dirty_path ../../Data/hospital/input_hospital_horizon_E2.csv --rule_path ../../Data/hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/hospital/input_hospital_horizon.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
+python run_horizon_base.py --dirty_path ../../Data/1_hospital/input_hospital_horizon_E2.csv --rule_path ../../Data/1_hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/1_hospital/input_hospital_horizon.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
 ```
 ### 数据集: `EEG`[下载链接](https://archive.ics.uci.edu/dataset/121/eeg+database)
 
@@ -61,7 +61,7 @@ python run_horizon_base.py --dirty_path ../../Data/hospital/input_hospital_horiz
 ---
 ### 实验 x 运行命令：
 ```bash
-python run_horizon_base.py --dirty_path ../../Data/hospital/input_hospital_horizon_E2.csv --rule_path ../../Data/hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/hospital/input_hospital_horizon.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
+python run_horizon_base.py --dirty_path ../../Data/1_hospital/input_hospital_horizon_E2.csv --rule_path ../../Data/1_hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/1_hospital/input_hospital_horizon.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
 ```
 ## 3. 实验结果汇总
 

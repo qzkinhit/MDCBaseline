@@ -14,11 +14,11 @@ def main():
     parser = argparse.ArgumentParser(description='Run Horizon data cleaning script.')
 
     # 定义命令行参数，default 设为你之前的默认路径
-    parser.add_argument('--dirty_path', type=str, default='../../Data/hospital/noise_with_correct_primary_key/dirty_mix_0.5/dirty_hospitals.csv',
+    parser.add_argument('--dirty_path', type=str, default='../../Data/1_hospital/noise_with_correct_primary_key/dirty_mix_0.5/dirty_hospitals.csv',
                         help='Path to the input dirty CSV file.')
-    parser.add_argument('--rule_path', type=str, default='../../Data/hospital/dc_rules-validate-fd-horizon.txt',
+    parser.add_argument('--rule_path', type=str, default='../../Data/1_hospital/dc_rules-validate-fd-horizon.txt',
                         help='Path to the input rule file.')
-    parser.add_argument('--clean_path', type=str, default='../../Data/hospital/hosptial_clean_index.csv',
+    parser.add_argument('--clean_path', type=str, default='../../Data/1_hospital/hosptial_clean_index.csv',
                         help='Path to the input clean CSV file.')
     parser.add_argument('--task_name', type=str, default='hospital_test',
                         help='Task name for the cleaning process.')

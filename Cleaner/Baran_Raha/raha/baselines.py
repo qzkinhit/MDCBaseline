@@ -39,12 +39,12 @@ class Baselines:
         """
         self.VERBOSE = False
         self.DATASET_CONSTRAINTS = {
-            "hospital": {
+            "1_hospital": {
                 "functions": [["HospitalName", "ZipCode"], ["HospitalName", "PhoneNumber"], ["MeasureCode", "MeasureName"], ["MeasureCode", "Stateavg"], ["ProviderNumber", "HospitalName"],
                               ["MeasureCode", "Condition"],["HospitalName", "Address1"],["HospitalName", "HospitalOwner"],["HospitalName", "ProviderNumber"],["City", "CountyName"],["ZipCode", "EmergencyService"],["HospitalName", "City"],["MeasureName", "MeasureName"]],
                 "patterns": []
             },
-            "flights": {
+            "2_flights": {
                 "functions": [["flight", "act_dep_time"], ["flight", "sched_arr_time"], ["flight", "act_arr_time"],
                               ["flight", "sched_dep_time"],["sched_arr_time", "act_arr_time"],["sched_dep_time", "act_dep_time"]],
                 "patterns": []
@@ -53,11 +53,11 @@ class Baselines:
                 "functions": [["address", "state"], ["address", "zip"], ["zip", "state"]],
                 "patterns": []
             },
-            "beers": {
+            "3_beers": {
                 "functions": [["brewery_name", "brewery_id"], ["brewery_id", "brewery_name"], ["brewery_id", "city"], ["brewery_id", "state"], ["beer_name", "brewery_name"]],
                 "patterns": []
             },
-            "rayyan": {
+            "4_rayyan": {
                 "functions": [["article_jvolumn", "article_pagination"], ["article_language", "article_jcreated_at"],
                               ["journal_issn", "journal_title"],["journal_issn", "journal_title"],["journal_issn", "journal_title"],["journal_issn", "journal_title"]],
                 "patterns": []
@@ -355,7 +355,7 @@ class Baselines:
 
 ########################################
 if __name__ == "__main__":
-    dataset_name = ["hospital", "beers", "flights", "rayyan"]
+    dataset_name = ["1_hospital", "3_beers", "2_flights", "4_rayyan"]
     for data in dataset_name:
         dataset_dictionary = {
             "name": data,

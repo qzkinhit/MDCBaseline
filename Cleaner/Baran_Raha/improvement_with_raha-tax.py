@@ -447,7 +447,7 @@ class Detection:
 ########################################
 def process_method(method_name, task_name, i, j, error_type, detection_dictionary):
     
-    clean_path = "./data_with_rules/" + task_name + "/split_data/tax-clean-clean_data_ori-0010k.csv"
+    clean_path = "./data_with_rules/" + task_name + "/split_data/5_tax-clean-clean_data_ori-0010k.csv"
     dirty_path = "./data_with_rules/" + task_name + "/split_data/" + task_name + '-dirty-original_error-' + str(j) + ".csv"
     method_res_dir = "./Repaired_res/" + method_name + "/" + task_name + "/repaired_" + task_name + str(i) + error_type + str(j) + ".csv"
 
@@ -477,7 +477,7 @@ def process_method(method_name, task_name, i, j, error_type, detection_dictionar
 ########################################
 def process_boostclean(method_name, task_name, i, j, error_type, detection_dictionary):
     
-    clean_path = "./data_with_rules/" + task_name + "/split_data/tax-clean-clean_data_ori-0010k.csv"
+    clean_path = "./data_with_rules/" + task_name + "/split_data/5_tax-clean-clean_data_ori-0010k.csv"
     # dirty_path = "./data_with_rules/" + task_name + "/noise/" + task_name + error_type + str(j) + ".csv"
     dirty_path = "./data_with_rules/" + task_name + "/split_data/" + task_name + '-dirty-original_error-' + str(j) + ".csv"
     method_res_dir = "./Repaired_res/" + method_name + "/" + task_name + "/repaired_" + task_name + str(i) + error_type + str(j) + ".csv"
@@ -524,9 +524,9 @@ if __name__ == "__main__":
     # error_types = ["-inner_outer_error-"]
     error_types = ["-original_error-"]
 
-    # task_names = ['hospital', 'flights', 'beers', 'rayyan']
-    # task_names = ['hospital', 'beers', 'rayyan']
-    task_names = ['tax']
+    # task_names = ['1_hospital', '2_flights', '3_beers', '4_rayyan']
+    # task_names = ['1_hospital', '3_beers', '4_rayyan']
+    task_names = ['5_tax']
     
     method_names = ['holoclean']
     # method_names = ['bigdansing', 'holistic', 'nadeef', 'mlnclean', 'horizon', 'raha_baran', 'scared', 'holoclean', 'Unified','boostclean']
@@ -548,7 +548,7 @@ if __name__ == "__main__":
                     dirty_path = "./data_with_rules/" + task_name + "/split_data/" + task_name + '-dirty-original_error-' + str(j) + ".csv"
                     
                     # clean_path = "./data_with_rules/" + task_name + "/clean.csv"
-                    clean_path = "./data_with_rules/" + task_name + "/split_data/tax-clean-clean_data_ori-0010k.csv"
+                    clean_path = "./data_with_rules/" + task_name + "/split_data/5_tax-clean-clean_data_ori-0010k.csv"
                     dataset_dictionary = {
                         "name": dataset_name,
                         "path": dirty_path,

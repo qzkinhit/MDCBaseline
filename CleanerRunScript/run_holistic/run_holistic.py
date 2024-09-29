@@ -12,9 +12,9 @@ def run_holistic(task_name, PERFECTED, ONLYED, rule_path, dirty_path, clean_path
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--clean_path', type=str, default="../../Data/hospital/clean.csv")
-    parser.add_argument('--dirty_path', type=str, default="../../Data/hospital/noise/hospital-inner_outer_error-30.csv")
-    parser.add_argument('--rule_path', type=str, default="../../Data/hospital/dc_rules_holoclean.txt")
+    parser.add_argument('--clean_path', type=str, default="../../Data/1_hospital/clean.csv")
+    parser.add_argument('--dirty_path', type=str, default="../../Data/1_hospital/noise/1_hospital-inner_outer_error-30.csv")
+    parser.add_argument('--rule_path', type=str, default="../../Data/1_hospital/dc_rules_dc_holoclean.txt")
     parser.add_argument('--task_name', type=str, default="holistic_hospital3")
     parser.add_argument('--onlyed', type=int, default=0)
     parser.add_argument('--perfected', type=int, default=0)

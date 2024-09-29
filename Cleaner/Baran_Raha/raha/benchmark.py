@@ -34,7 +34,7 @@ class Benchmark:
         The constructor.
         """
         self.RUN_COUNT = 10
-        self.DATASETS = ["hospital", "flights", "beers", "rayyan", "movies_1"]
+        self.DATASETS = ["1_hospital", "2_flights", "3_beers", "4_rayyan", "movies_1"]
 
     def experiment_1(self):
         """
@@ -264,7 +264,7 @@ class Benchmark:
         print("------------------------------------------------------------------------\n"
               "------------Experiment 4: Strategy Filtering Impact Analysis------------\n"
               "------------------------------------------------------------------------")
-        historical_datasets = ["hospital", "flights", "beers", "rayyan", "movies_1"]
+        historical_datasets = ["1_hospital", "2_flights", "3_beers", "4_rayyan", "movies_1"]
         strategy_filtering_approaches = ["No Strategy Filtering",
                                          "Strategy Filtering via Historical Data",
                                          "Strategy Filtering via Least Effective Selection",
@@ -421,9 +421,9 @@ class Benchmark:
         rows_counts = [50000, 100000, 150000, 200000]
         results = {rc: [] for rc in rows_counts}
         dataset_dictionary = {
-            "name": "tax",
-            "path": os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, "datasets", "tax", "dirty.csv")),
-            "clean_path": os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, "datasets", "tax", "clean.csv"))
+            "name": "5_tax",
+            "path": os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, "datasets", "5_tax", "dirty.csv")),
+            "clean_path": os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, "datasets", "5_tax", "clean.csv"))
         }
         d_tax = raha.dataset.Dataset(dataset_dictionary)
         for r in range(self.RUN_COUNT):
@@ -453,7 +453,7 @@ class Benchmark:
             aggregated_list = numpy.mean(numpy.array(results[rows_count]), axis=0)
             row = [rows_count, "{:.2f}".format(aggregated_list[2]), "{:.0f}".format(aggregated_list[3])]
             table_1.add_row(row)
-        print("System scalability with respect to the number of rows in tax dataset.")
+        print("System scalability with respect to the number of rows in 5_tax dataset.")
         print(table_1)
 
     def experiment_7(self):

@@ -32,7 +32,7 @@ hc = holoclean.HoloClean(
 ).session
 
 # 2. Load training data and denial constraints.
-hc.load_data('hospital', '..\..\Data\hospital\dirty.csv')
+hc.load_data('1_hospital', '..\..\Data\hospital\dirty.csv')
 
 hc.load_dcs('..\..\Data\hospital\multi_rules\dc_rules_holoclean_15.txt')
 hc.ds.set_constraints(hc.get_dcs())

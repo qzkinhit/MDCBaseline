@@ -452,8 +452,8 @@ if __name__ == "__main__":
     task_name = args.task_name
 
     # task_name = "flights_mode_delete"
-    # clean_path = "./data_with_rules/flights/clean.csv"
-    # dirty_path = "./data_with_rules/flights/noise/flights-inner_error-10.csv"
+    # clean_path = "./data_with_rules/2_flights/clean.csv"
+    # dirty_path = "./data_with_rules/2_flights/noise/2_flights-inner_error-10.csv"
 
     rep_df = pd.read_csv(dirty_path)
     clean_df = pd.read_csv(clean_path)

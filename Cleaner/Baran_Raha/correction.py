@@ -615,8 +615,8 @@ if __name__ == "__main__":
     task_name = args.task_name
 
     # task_name = "tax1"
-    # clean_path = "./data_with_rules/tax/clean.csv"
-    # dirty_path = "./data_with_rules/tax/split_data/tax-dirty-original_error-0001k.csv"
+    # clean_path = "./data_with_rules/5_tax/clean.csv"
+    # dirty_path = "./data_with_rules/5_tax/split_data/5_tax-dirty-original_error-0001k.csv"
 
     repaired_df = pd.read_csv(dirty_path)
 
@@ -626,10 +626,10 @@ if __name__ == "__main__":
     stra_path = "./data_with_rules/" + task_name[:-1] + "/noise/raha-baran-results-" + task_name
     if os.path.exists(stra_path):
         shutil.rmtree(stra_path)
-    stra_path = "./data_with_rules/tax/split_data/raha-baran-results-" + task_name
+    stra_path = "./data_with_rules/5_tax/split_data/raha-baran-results-" + task_name
     if os.path.exists(stra_path):
         shutil.rmtree(stra_path)
-    stra_path = "./data_with_rules/tax/split_data/raha-baran-results-" + task_name
+    stra_path = "./data_with_rules/5_tax/split_data/raha-baran-results-" + task_name
     if os.path.exists(stra_path):
         shutil.rmtree(stra_path)
     

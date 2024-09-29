@@ -66,7 +66,7 @@ class Dataset:
         to each row to uniquely identify an 'entity', and generates unique
         index numbers for each attribute/column.
 
-        Creates a table with the user supplied 'name' parameter (e.g. 'hospital').
+        Creates a table with the user supplied 'name' parameter (e.g. '1_hospital').
 
         :param name: (str) name to initialize dataset with.
         :param fpath: (str) filepath to CSV file.

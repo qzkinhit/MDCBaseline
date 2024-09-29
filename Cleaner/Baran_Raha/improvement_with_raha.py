@@ -522,8 +522,8 @@ if __name__ == "__main__":
     error_types = ["-outer_error-", "-inner_error-"]
     error_types = ["-inner_outer_error-"]
 
-    # task_names = ['hospital', 'flights', 'beers', 'rayyan']
-    task_names = ['hospital', 'flights', 'beers', 'rayyan']
+    # task_names = ['1_hospital', '2_flights', '3_beers', '4_rayyan']
+    task_names = ['1_hospital', '2_flights', '3_beers', '4_rayyan']
     
     
     method_names = ['bigdansing', 'holistic', 'nadeef', 'mlnclean', 'horizon', 'raha_baran', 'scared', 'holoclean', 'Unified','boostclean']
@@ -545,7 +545,7 @@ if __name__ == "__main__":
                     # dirty_path = "./data_with_rules/" + task_name + "/split_data/" + task_name + '-dirty-original_error-' + str(j) + ".csv"
                     
                     clean_path = "./data_with_rules/" + task_name + "/clean.csv"
-                    # clean_path = "./data_with_rules/" + task_name + "/split_data/tax-clean-clean_data_ori-0010k.csv"
+                    # clean_path = "./data_with_rules/" + task_name + "/split_data/5_tax-clean-clean_data_ori-0010k.csv"
                     dataset_dictionary = {
                         "name": dataset_name,
                         "path": dirty_path,

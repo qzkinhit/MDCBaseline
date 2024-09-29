@@ -25,8 +25,8 @@ def transform_csv_file(input_csv: str, output_csv: str):
 
 
 # 模拟测试
-test_input_csv = '../Data/hospital/hospital_clean.csv'
-test_output_csv = '../Data/hospital/hospital_clean_holoclean.csv'
+test_input_csv = '../Data/1_hospital/hospital_clean.csv'
+test_output_csv = '../Data/1_hospital/hospital_clean_holoclean.csv'
 
 # 运行函数以处理CSV文件
 transform_csv_file(test_input_csv, test_output_csv)

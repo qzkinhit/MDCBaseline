@@ -52,13 +52,13 @@ app_1 = raha.Detection()
 app_1.LABELING_BUDGET = 30
 
 app_1.VERBOSE = True
-clean_filepath = "./raha-master/datasets/hospital/clean.csv"
-dirty_filepath = "./raha-master/datasets/hospital/dirty.csv"
+clean_filepath = "./raha-master/datasets/1_hospital/clean.csv"
+dirty_filepath = "./raha-master/datasets/1_hospital/dirty.csv"
 
 
 
 dataset_dictionary = {
-    "name": "rayyan",
+    "name": "4_rayyan",
     "path": dirty_filepath,
     "clean_path": clean_filepath
 }

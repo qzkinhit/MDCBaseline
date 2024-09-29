@@ -19,7 +19,7 @@
 | 实验1    | `../../Data/hospital/dirty_hospital_E1.csv`, `../../Data/hospital/dc-rules-validate-fd-horizon.txt`, `../../Data/hospital/clean.csv`| `/` | `../../results/horizon/hospital_horizon_E1.csv`      | `/`   | 规则违反MeasureCode ⇒ Stateavg比例为2%, 规则违反HospitalName ⇒ Address1比例为1%, 规则违反HospitalName ⇒ PhoneNumber比例为0.5%, 规则违反MeasureCode ⇒ Condition比例为1%|
 ### 实验1 运行命令：
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/hospital/dirty_hospital_E1.csv --rule_path ../../Data/hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/hospital/clean.csv --task_name hospital_horizon_E1 --output_path ../../results/horizon/hospital_horizon_E1
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty_hospital_E1.csv --rule_path ../../Data/1_hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean.csv --task_name hospital_horizon_E1 --output_path ../../results/horizon/hospital_horizon_E1
 ```
 ####实验2 设置
 | 实验编号 | 本地输入路径             | 实际输入存放路径                         | 本地输出路径             | 实际输出存放路径                        | 备注      |
@@ -28,7 +28,7 @@ python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../..
 
 ### 实验2 运行命令：
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/hospital/dirty_hospital_E2.csv --rule_path ../../Data/hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/hospital/clean.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty_hospital_E2.csv --rule_path ../../Data/1_hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
 ```
 ####实验3 设置
 | 实验编号 | 本地输入路径                                                                                                                                                             | 实际输入存放路径                                                                                                                      | 本地输出路径                                       | 实际输出存放路径 | 备注                                  |
@@ -37,7 +37,7 @@ python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../..
 
 ### 实验 3 运行命令：
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/hospital/dirty.csv --rule_path ../../Data/hospital/dc_rules_test.txt --clean_path ../../Data/hospital/hospital_clean.csv --task_name hospital_test --output_path ../../results/horizon/hospital_test
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty.csv --rule_path ../../Data/1_hospital/dc_rules_test.txt --clean_path ../../Data/1_hospital/hospital_clean.csv --task_name hospital_test --output_path ../../results/horizon/hospital_test
 ```
 ---
 
@@ -50,7 +50,7 @@ python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../..
 | 实验4    | `../../Data/tax/split_data/tax-dirty-original_error-0010k.csv`, `../../Data/tax/dc_rulrs-validate-fd-horizon.txt`, `../../Data/tax/split_data/tax-clean-clean_data_ori-0010k.csv` | `/`  | `../../results/horizon/tax_horizon_ori.csv`      | `/`        | 这个数据集是原生的错误，错误率4% |
 ### 实验4 运行命令：
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/tax/split_data/tax-dirty-original_error-0010k.csv --rule_path ../../Data/tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/tax/split-clean-clean_data_ori-0010k.csv --task_name tax_horizon_ori --output_path ../../results/horizon/tax_horizon_ori
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/5_tax/split_data/5_tax-dirty-original_error-0010k.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/split-clean-clean_data_ori-0010k.csv --task_name tax_horizon_ori --output_path ../../results/horizon/tax_horizon_ori
 ```
 
 #### 实验5 设置
@@ -59,7 +59,7 @@ python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../..
 |----------|--------------------------|----------------------------------|--------------------------|----------------------------------|-----------|
 | 实验5    | `../../Data/tax/dirty_tax_E1.csv`, `../../Data/tax/dc_rules-validate-fd-horizon.txt`, `../../Data/tax/clean.csv`  | `/` | `../../results/horizon/tax_horizon_E1.csv`      | `/`        | 规则违反zip ⇒ city比例为10%, 规则违反has_child ⇒ child_exemp比例为10%, 规则违反zip ⇒ child_exemp比例为10%|
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/tax/dirty_tax_E1.csv --rule_path ../../Data/tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/tax/clean.csv --task_name tax_horizon_E1 --output_path ../../results/horizon/tax_horizon_E1
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/5_tax/dirty_tax_E1.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/clean.csv --task_name tax_horizon_E1 --output_path ../../results/horizon/tax_horizon_E1
 ```
 
 #### 实验6 设置
@@ -68,7 +68,7 @@ python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../..
 |----------|--------------------------|----------------------------------|--------------------------|----------------------------------|-----------|
 | 实验6    | `../../Data/tax/dirty_tax_E2.csv`, `../../Data/tax/dc_rules-validate-fd-horizon.txt`, `../../Data/tax/clean.csv`  | `/` | `../../results/horizon/tax_horizon_E2.csv`      | `/`        | `注入随机错误` |
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/tax/dirty_tax_E2.csv --rule_path ../../Data/tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/tax/clean.csv --task_name tax_horizon_E2 --output_path ../../results/horizon/tax_horizon_E2
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/5_tax/dirty_tax_E2.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/clean.csv --task_name tax_horizon_E2 --output_path ../../results/horizon/tax_horizon_E2
 ```
 ---
 
