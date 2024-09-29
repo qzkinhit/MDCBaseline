@@ -3,12 +3,12 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import sys
 sys.path.append('../../Cleaner/Holoclean/')
-import holoclean
-from detect import NullDetector, ViolationDetector
-from repair.featurize import *
+import Cleaner.Holoclean as holoclean
+from Cleaner.Holoclean.detect import NullDetector, ViolationDetector
+from Cleaner.Holoclean.repair.featurize import *
 
 
-# 1. Setup a HoloClean session.
+# 1. Set up a HoloClean session.
 hc = holoclean.HoloClean(
     db_name='holo',
     domain_thresh_1=0,
