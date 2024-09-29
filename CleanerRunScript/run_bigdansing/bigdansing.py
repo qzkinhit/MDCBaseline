@@ -5,6 +5,7 @@ import csv
 import sys
 import copy
 import argparse
+sys.path.append('../../Cleaner/Holistic&BigDansing/')
 from mvc import  read_graph,min_vertex_cover,read_graph_dc
 from tes import greedy_min_vertex_cover,greedy_min_vertex_cover_dc
 from tqdm import tqdm
@@ -881,7 +882,7 @@ class BigDansing():
             self.wrong_cells = list(set(self.wrong_cells))
             if not PERFECTED:
                 det_right = 0
-                out_path = "./Exp_result/bigdansing/" + task_name[:-1] +"/onlyED_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
+                out_path = "../../results/bigdansing/Exp_result/" + task_name[:-1] +"/onlyED_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
                 f = open(out_path, 'w')
                 sys.stdout = f
                 end_time = time.time()
@@ -906,8 +907,8 @@ class BigDansing():
                 pre = rep_right / (rep_total+1e-10)
                 rec = rec_right / (wrong_cells+1e-10)
                 f1 = 2*pre*rec / (rec+pre+1e-10)
-                out_path = "./Exp_result/bigdansing/" + task_name[:-1] +"/oriED+EC_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
-                res_path = "./Repaired_res/bigdansing/" + task_name[:-1] +"/repaired_" + task_name + check_string(dirty_path.split("/")[-1]) + ".csv"
+                out_path = "../../results/bigdansing/Exp_result/" + task_name[:-1] +"/oriED+EC_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
+                res_path = "../../results/bigdansing/Repaired_res/" + task_name[:-1] +"/repaired_" + task_name + check_string(dirty_path.split("/")[-1]) + ".csv"
                 dirty_df = pd.read_csv(dirty_path).astype(str).fillna("nan")
                 for cell, value in self.repaired_cells_value.items():
                     dirty_df.iloc[cell[0], cell[1]] = value
@@ -918,7 +919,7 @@ class BigDansing():
                 f.close()
 
                 sys.stdout = sys.__stdout__
-                out_path = "./Exp_result/bigdansing/" + task_name[:-1] +"/all_computed_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
+                out_path = "../../results/bigdansing/Exp_result/" + task_name[:-1] +"/all_computed_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
                 f = open(out_path, 'w')
                 sys.stdout = f
                 right2wrong = 0
@@ -967,8 +968,8 @@ class BigDansing():
                 pre = rec_right / (rep_t+1e-10)
                 rec = rec_right / (wrong_cells+1e-10)
                 f1 = 2*pre*rec / (rec+pre+1e-10)
-                out_path = "./Exp_result/bigdansing/" + task_name[:-1] +"/perfectED+EC_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
-                res_path = "./Repaired_res/bigdansing/" + task_name[:-1] +"/perfect_repaired_" + task_name + check_string(dirty_path.split("/")[-1]) + ".csv"
+                out_path = "../../results/bigdansing/Exp_result/" + task_name[:-1] +"/perfectED+EC_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
+                res_path = "../../results/bigdansing/Repaired_res/" + task_name[:-1] +"/perfect_repaired_" + task_name + check_string(dirty_path.split("/")[-1]) + ".csv"
                 dirty_df = pd.read_csv(dirty_path).astype(str).fillna("nan")
                 for cell, value in self.repaired_cells_value.items():
                     dirty_df.iloc[cell[0], cell[1]] = value
@@ -1051,10 +1052,12 @@ if __name__ == "__main__":
     print(dirty_path)
     print(clean_path)
     print(rule_path)
+    print(ONLYED)
+    print(PERFECTED)
 
-    # dirty_path = "./data_with_rules/hospital/noise/hospital-inner_outer_error-01.csv"
-    # rule_path = "./data_with_rules/hospital/dc_rules_holoclean.txt"
-    # clean_path = "./data_with_rules/hospital/clean.csv"
+    # dirty_path = "../../Data/hospital/noise/hospital-inner_outer_error-01.csv"
+    # rule_path = "../../Data/hospital/dc_rules_holoclean.txt"
+    # clean_path = "../../Data/hospital/clean.csv"
     # task_name = "flights1"
     # ONLYED = 0
     # PERFECTED = 0
