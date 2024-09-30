@@ -21,7 +21,7 @@
 ```bash
 python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty_hospital_E1.csv --rule_path ../../Data/1_hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean.csv --task_name hospital_horizon_E1 --output_path ../../results/horizon/hospital_horizon_E1
 ```
-####实验2 设置
+#### 实验2 设置
 | 实验编号 | 本地输入路径             | 实际输入存放路径                         | 本地输出路径             | 实际输出存放路径                        | 备注      |
 |----------|--------------------------|----------------------------------|--------------------------|----------------------------------|-----------|
 | 实验2    | `../../Data/hospital/dirty_hospital_E1.csv`, `../../Data/hospital/dc-rules-validate-fd-horizon.txt`, `../../Data/hospital/clean.csv` | `/` | `../../results/horizon/hospital_horizon_E2.csv`      | `/` | 注入随机错误 |
@@ -30,7 +30,7 @@ python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../..
 ```bash
 python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty_hospital_E2.csv --rule_path ../../Data/1_hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
 ```
-####实验3 设置
+#### 实验3 设置
 | 实验编号 | 本地输入路径                                                                                                                                                             | 实际输入存放路径                                                                                                                      | 本地输出路径                                       | 实际输出存放路径 | 备注                                  |
 |------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|------------------|-----------------------------------|
 | 实验3  | `../../Data/hospital/dirty.csv`, `../../Data/hospital/dc_rules_test.txt`, `../../Data/hospital/hospital_clean.csv`                                                     | `/`   | `../../results/horizon/hospital_test`          | `/`              | 这个数据集是原生的错误，错误率3%    |
