@@ -644,7 +644,7 @@ if __name__ == "__main__":
 
     # task_name = "tax1"
     # clean_path = "./data_with_rules/5_tax/clean.csv"
-    # dirty_path = "./data_with_rules/5_tax/split_data/5_tax-dirty-original_error-0001k.csv"
+    # dirty_path = "./data_with_rules/5_tax/tax_50k/5_tax-dirty-original_error-0001k.csv"
 
     stra_path = "./data_with_rules/" + task_name[:-1] + "/noise/raha-baran-results-" + task_name + check_string(dirty_path)
     if os.path.exists(stra_path):
@@ -652,10 +652,10 @@ if __name__ == "__main__":
     stra_path = "./DATASET/data_with_rules/" + task_name[:-1] + "/noise/raha-baran-results-" + task_name + check_string(dirty_path)
     if os.path.exists(stra_path):
         shutil.rmtree(stra_path)
-    stra_path = "./data_with_rules/5_tax/split_data/raha-baran-results-" + task_name + check_string(dirty_path)
+    stra_path = "./data_with_rules/5_tax/tax_50k/raha-baran-results-" + task_name + check_string(dirty_path)
     if os.path.exists(stra_path):
         shutil.rmtree(stra_path)
-    stra_path = "./data_with_rules/5_tax/split_data/raha-baran-results-" + task_name + check_string(dirty_path)
+    stra_path = "./data_with_rules/5_tax/tax_50k/raha-baran-results-" + task_name + check_string(dirty_path)
     if os.path.exists(stra_path):
         shutil.rmtree(stra_path)
     dataset_name = task_name

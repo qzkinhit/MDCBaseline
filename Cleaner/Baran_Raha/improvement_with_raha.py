@@ -542,10 +542,10 @@ if __name__ == "__main__":
                     dataset_name = task_name + error_type + str(i) + "-" + str(j)
 
                     dirty_path = "./data_with_rules/" + task_name + "/noise/" + task_name + error_type + str(j) + ".csv"
-                    # dirty_path = "./data_with_rules/" + task_name + "/split_data/" + task_name + '-dirty-original_error-' + str(j) + ".csv"
+                    # dirty_path = "./data_with_rules/" + task_name + "/tax_50k/" + task_name + '-dirty-original_error-' + str(j) + ".csv"
                     
                     clean_path = "./data_with_rules/" + task_name + "/clean.csv"
-                    # clean_path = "./data_with_rules/" + task_name + "/split_data/5_tax-clean-clean_data_ori-0010k.csv"
+                    # clean_path = "./data_with_rules/" + task_name + "/tax_50k/5_tax-clean-clean_data_ori-0010k.csv"
                     dataset_dictionary = {
                         "name": dataset_name,
                         "path": dirty_path,

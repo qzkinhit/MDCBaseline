@@ -45,7 +45,7 @@ python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../..
 python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty.csv --rule_path ../../Data/1_hospital/dc_rules_test.txt --clean_path ../../Data/1_hospital/hospital_clean.csv --task_name hospital_test --output_path ../../results/horizon/hospital_test
 ```
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/5_tax/split_data/5_tax-dirty-original_error-0010k.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/split-clean-clean_data_ori-0010k.csv --task_name tax_horizon_ori --output_path ../../results/horizon/tax_horizon_ori
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/5_tax/tax_50k/5_tax-dirty-original_error-0010k.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/split-clean-clean_data_ori-0010k.csv --task_name tax_horizon_ori --output_path ../../results/horizon/tax_horizon_ori
 ```
 ```bash
 python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/5_tax/dirty_tax_E1.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/clean.csv --task_name tax_horizon_E1 --output_path ../../results/horizon/tax_horizon_E1

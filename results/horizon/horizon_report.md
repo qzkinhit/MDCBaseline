@@ -50,7 +50,7 @@ python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../..
 | 实验4    | `../../Data/tax/split_data/tax-dirty-original_error-0010k.csv`, `../../Data/tax/dc_rulrs-validate-fd-horizon.txt`, `../../Data/tax/split_data/tax-clean-clean_data_ori-0010k.csv` | `/`  | `../../results/horizon/tax_horizon_ori.csv`      | `/`        | 这个数据集是原生的错误，错误率4% |
 ### 实验4 运行命令：
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/5_tax/split_data/5_tax-dirty-original_error-0010k.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/split-clean-clean_data_ori-0010k.csv --task_name tax_horizon_ori --output_path ../../results/horizon/tax_horizon_ori
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/5_tax/tax_50k/5_tax-dirty-original_error-0010k.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/split-clean-clean_data_ori-0010k.csv --task_name tax_horizon_ori --output_path ../../results/horizon/tax_horizon_ori
 ```
 
 #### 实验5 设置
