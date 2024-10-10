@@ -1,12 +1,10 @@
 import os
 import sys
-
 import pandas as pd
-
 
 def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path, task_name):
     """
-    计算指定属性集合下的修复准确率和召回率，并将结果输出到文件中
+    计算指定属性集合下的修复准确率和召回率，并将结果输出到文件中，同时生成差异 CSV 文件。
 
     :param clean: 干净数据 DataFrame
     :param dirty: 脏数据 DataFrame
@@ -22,6 +20,11 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
     # 定义输出文件路径
     out_path = os.path.join(output_path, f"{task_name}_evaluation.txt")
 
+    # 差异 CSV 文件路径
+    clean_dirty_diff_path = os.path.join(output_path, f"{task_name}_clean_vs_dirty.csv")
+    dirty_cleaned_diff_path = os.path.join(output_path, f"{task_name}_dirty_vs_cleaned.csv")
+    clean_cleaned_diff_path = os.path.join(output_path, f"{task_name}_clean_vs_cleaned.csv")
+
     # 备份原始的标准输出
     original_stdout = sys.stdout
 
@@ -32,6 +35,11 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
         total_true_positives = 0
         total_false_positives = 0
         total_true_negatives = 0
+
+        # 创建差异 DataFrame 来保存不同的数据项
+        clean_dirty_diff = pd.DataFrame(columns=['Attribute', 'Index', 'Clean Value', 'Dirty Value'])
+        dirty_cleaned_diff = pd.DataFrame(columns=['Attribute', 'Index', 'Dirty Value', 'Cleaned Value'])
+        clean_cleaned_diff = pd.DataFrame(columns=['Attribute', 'Index', 'Clean Value', 'Cleaned Value'])
 
         for attribute in attributes:
             # 确保所有属性的数据类型为字符串
@@ -52,20 +60,32 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
             # 所有应该需要修复的数据
             true_negatives = (dirty_values != clean_values).sum()
 
-            # 打印 dirty_values 和 clean_values 不同的那些行及其索引
+            # 记录干净数据和脏数据之间的差异
             mismatched_indices = dirty_values[dirty_values != clean_values].index
-            print("打印 dirty_values 和 clean_values 不同的那些行")
-            print(f"Dirty Values at mismatched indices:\n{dirty_values.loc[mismatched_indices]}")
-            print(f"Clean Values at mismatched indices:\n{clean_values.loc[mismatched_indices]}")
-            print("=" * 40)
+            clean_dirty_diff = pd.concat([clean_dirty_diff, pd.DataFrame({
+                'Attribute': attribute,
+                'Index': mismatched_indices,
+                'Clean Value': clean_values.loc[mismatched_indices],
+                'Dirty Value': dirty_values.loc[mismatched_indices]
+            })])
 
-            # 打印修复错误的数据
-            print("打印没修复的数据")
-            false_positives_indices = cleaned_values[
-                (cleaned_values != clean_values) & (dirty_values == cleaned_values)].index
-            print(f"Dirty Values at false positive indices:\n{dirty_values.loc[false_positives_indices]}")
-            print(f"Clean Values at false positive indices:\n{clean_values.loc[false_positives_indices]}")
-            print(f"Cleaned Values at false positive indices:\n{cleaned_values.loc[false_positives_indices]}")
+            # 记录脏数据和清洗后数据之间的差异
+            cleaned_indices = cleaned_values[cleaned_values != dirty_values].index
+            dirty_cleaned_diff = pd.concat([dirty_cleaned_diff, pd.DataFrame({
+                'Attribute': attribute,
+                'Index': cleaned_indices,
+                'Dirty Value': dirty_values.loc[cleaned_indices],
+                'Cleaned Value': cleaned_values.loc[cleaned_indices]
+            })])
+
+            # 记录干净数据和清洗后数据之间的差异
+            clean_cleaned_indices = cleaned_values[cleaned_values != clean_values].index
+            clean_cleaned_diff = pd.concat([clean_cleaned_diff, pd.DataFrame({
+                'Attribute': attribute,
+                'Index': clean_cleaned_indices,
+                'Clean Value': clean_values.loc[clean_cleaned_indices],
+                'Cleaned Value': cleaned_values.loc[clean_cleaned_indices]
+            })])
 
             total_true_positives += true_positives
             total_false_positives += false_positives
@@ -86,25 +106,11 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
     # 恢复标准输出
     sys.stdout = original_stdout
 
+    # 保存差异数据到 CSV 文件
+    clean_dirty_diff.to_csv(clean_dirty_diff_path, index=False)
+    dirty_cleaned_diff.to_csv(dirty_cleaned_diff_path, index=False)
+    clean_cleaned_diff.to_csv(clean_cleaned_diff_path, index=False)
+
+    print(f"差异文件已保存到:\n{clean_dirty_diff_path}\n{dirty_cleaned_diff_path}\n{clean_cleaned_diff_path}")
+
     return accuracy, recall
-
-
-# 使用示例
-# dirty_data = pd.read_csv('../Data/1_hospital/noise_with_correct_primary_key/dirty_mix_0.5/dirty_hospitals_index.csv')
-# clean_data = pd.read_csv('../Data/1_hospital/hospital_clean_index.csv')
-# cleaned_data = pd.read_csv('../results/horizon/hospital_horizon_test/hospital_horizon_test_repaired.csv')
-#
-# # 根据规则定义的属性集合
-# attributes = clean_data.columns.tolist()
-#
-# # 调用函数计算修复准确率和召回率
-# accuracy, recall = calculate_accuracy_and_recall(clean_data, dirty_data, cleaned_data, attributes, "./",
-#                                                  'test')
-#
-# # 输出修复的准确率和召回率
-# print(f"修复准确率: {accuracy}")
-# print(f"修复召回率: {recall}")
-# # 定义输出文件路径
-# out_path = os.path.join('./', f"test_evaluation.txt")
-#
-# print("测评结束，详细测评日志见：" + str(out_path))
