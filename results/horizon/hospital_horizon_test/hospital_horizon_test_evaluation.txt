@@ -1,31 +1,31 @@
 打印 dirty_values 和 clean_values 不同的那些行
 Dirty Values at mismatched indices:
-Series([], Name: index, dtype: int64)
+Series([], Name: index, dtype: object)
 Clean Values at mismatched indices:
-Series([], Name: index, dtype: int64)
+Series([], Name: index, dtype: object)
 ========================================
 打印没修复的数据
 Dirty Values at false positive indices:
-Series([], Name: index, dtype: int64)
+Series([], Name: index, dtype: object)
 Clean Values at false positive indices:
-Series([], Name: index, dtype: int64)
+Series([], Name: index, dtype: object)
 Cleaned Values at false positive indices:
-Series([], Name: index, dtype: int64)
+Series([], Name: index, dtype: object)
 Attribute: index 修复正确的数据: 0 修复错误的数据: 0 应该修复的数据: 0
 ========================================
 打印 dirty_values 和 clean_values 不同的那些行
 Dirty Values at mismatched indices:
-Series([], Name: ProviderNumber, dtype: int64)
+Series([], Name: ProviderNumber, dtype: object)
 Clean Values at mismatched indices:
-Series([], Name: ProviderNumber, dtype: int64)
+Series([], Name: ProviderNumber, dtype: object)
 ========================================
 打印没修复的数据
 Dirty Values at false positive indices:
-Series([], Name: ProviderNumber, dtype: int64)
+Series([], Name: ProviderNumber, dtype: object)
 Clean Values at false positive indices:
-Series([], Name: ProviderNumber, dtype: int64)
+Series([], Name: ProviderNumber, dtype: object)
 Cleaned Values at false positive indices:
-Series([], Name: ProviderNumber, dtype: int64)
+Series([], Name: ProviderNumber, dtype: object)
 Attribute: ProviderNumber 修复正确的数据: 0 修复错误的数据: 13 应该修复的数据: 0
 ========================================
 打印 dirty_values 和 clean_values 不同的那些行
@@ -264,40 +264,46 @@ Attribute: State 修复正确的数据: 0 修复错误的数据: 0 应该修复�
 ========================================
 打印 dirty_values 和 clean_values 不同的那些行
 Dirty Values at mismatched indices:
-0      35233
-1      35233
-2      35233
-3      35233
-4      35233
-       ...  
-995    35121
-996    35121
-997    35121
-998    35121
-999    35121
-Name: ZipCode, Length: 1000, dtype: object
+80         3561
+94        35233
+95        35233
+187      3k5976
+364       35549
+378        5594
+464      3566f0
+465    35660***
+676       35323
+837       35054
+937        3033
+Name: ZipCode, dtype: object
 Clean Values at mismatched indices:
-0      35233
-1      35233
-2      35233
-3      35233
-4      35233
-       ...  
-995    35121
-996    35121
-997    35121
-998    35121
-999    35121
-Name: ZipCode, Length: 1000, dtype: int64
+80     35631
+94     36467
+95     36467
+187    35976
+364    35594
+378    35594
+464    35660
+465    35660
+676    35233
+837    35045
+937    36033
+Name: ZipCode, dtype: object
 ========================================
 打印没修复的数据
 Dirty Values at false positive indices:
-Series([], Name: ZipCode, dtype: object)
+94    35233
+95    35233
+Name: ZipCode, dtype: object
 Clean Values at false positive indices:
-Series([], Name: ZipCode, dtype: int64)
+94    36467
+95    36467
+Name: ZipCode, dtype: object
 Cleaned Values at false positive indices:
-Series([], Name: ZipCode, dtype: int64)
-Attribute: ZipCode 修复正确的数据: 962 修复错误的数据: 38 应该修复的数据: 1000
+94    35233
+95    35233
+Name: ZipCode, dtype: object
+Attribute: ZipCode 修复正确的数据: 9 修复错误的数据: 36 应该修复的数据: 11
 ========================================
 打印 dirty_values 和 clean_values 不同的那些行
 Dirty Values at mismatched indices:
@@ -345,71 +351,42 @@ Attribute: CountyName 修复正确的数据: 6 修复错误的数据: 127 应该
 Dirty Values at mismatched indices:
 0        2e053258100
 1      2053258100***
-2         2053258100
-3         2053258100
-4         2053258100
-           ...      
-995       2052743000
-996       2052743000
-997       2052743000
-998       2052743000
-999       2052743000
-Name: PhoneNumber, Length: 1000, dtype: object
+65       25659383e10
+89        2567868400
+119        334335374
+199      20583y83122
+462       2563864565
+479       3347724601
+882      20593259r66
+981        202743000
+Name: PhoneNumber, dtype: object
 Clean Values at mismatched indices:
 0      2053258100
 1      2053258100
-2      2053258100
-3      2053258100
-4      2053258100
-          ...    
-995    2052743000
-996    2052743000
-997    2052743000
-998    2052743000
-999    2052743000
-Name: PhoneNumber, Length: 1000, dtype: int64
+65     2565938310
+89     2567688400
+119    3343353374
+199    2058383122
+462    2563864556
+479    3347742601
+882    2059325966
+981    2052743000
+Name: PhoneNumber, dtype: object
 ========================================
 打印没修复的数据
 Dirty Values at false positive indices:
 0      2e053258100
-8       2563864556
-9       2563864556
-10      2563864556
-11      2563864556
-          ...     
-995     2052743000
-996     2052743000
-997     2052743000
-998     2052743000
-999     2052743000
-Name: PhoneNumber, Length: 932, dtype: object
+119      334335374
+Name: PhoneNumber, dtype: object
 Clean Values at false positive indices:
 0      2053258100
-8      2563864556
-9      2563864556
-10     2563864556
-11     2563864556
-          ...    
-995    2052743000
-996    2052743000
-997    2052743000
-998    2052743000
-999    2052743000
-Name: PhoneNumber, Length: 932, dtype: int64
+119    3343353374
+Name: PhoneNumber, dtype: object
 Cleaned Values at false positive indices:
 0      2e053258100
-8       2563864556
-9       2563864556
-10      2563864556
-11      2563864556
-          ...     
-995     2052743000
-996     2052743000
-997     2052743000
-998     2052743000
-999     2052743000
-Name: PhoneNumber, Length: 932, dtype: object
-Attribute: PhoneNumber 修复正确的数据: 0 修复错误的数据: 68 应该修复的数据: 1000
+119      334335374
+Name: PhoneNumber, dtype: object
+Attribute: PhoneNumber 修复正确的数据: 7 修复错误的数据: 61 应该修复的数据: 10
 ========================================
 打印 dirty_values 和 clean_values 不同的那些行
 Dirty Values at mismatched indices:
@@ -614,5 +591,5 @@ Cleaned Values at false positive indices:
 Series([], Name: Stateavg, dtype: object)
 Attribute: Stateavg 修复正确的数据: 7 修复错误的数据: 20 应该修复的数据: 7
 ========================================
-修复准确率: 0.7443389335281227
-修复召回率: 0.489433237271854
+修复准确率: 0.17632850241545894
+修复召回率: 0.7087378640776699
