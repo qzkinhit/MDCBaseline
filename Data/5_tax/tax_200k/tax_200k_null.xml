@@ -50,20 +50,14 @@
         <randomErrors>
             <tables>
                 <table name="tax">
-                    <percentage>1</percentage>
+                    <percentage>0.25</percentage>
                     <attributes>
-                        <attribute>gender</attribute>
                         <attribute>city</attribute>
+                        <attribute>state</attribute>
                         <attribute>childexemp</attribute>
-                        <attribute>salary</attribute>
-                        <attribute>lname</attribute>
                         <attribute>singleexemp</attribute>
                         <attribute>marriedexemp</attribute>
-                        <attribute>phone</attribute>
-                        <attribute>maritalstatus</attribute>
-                        <attribute>haschild</attribute>
-                        <attribute>rate</attribute>
-                        <attribute>state</attribute>
+                        <attribute>gender</attribute>
                     </attributes>
                 </table>
             </tables>
