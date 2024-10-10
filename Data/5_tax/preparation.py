@@ -27,7 +27,7 @@ def countTupleDifference(clean_path, dirty_path):
     print(differences.sum())
 
 
-# indexData("tax_50k/tax-clean-clean_data_ori-0050k.csv", "tax_50k/tax-clean-clean_data_ori-0050k_id.csv")
+# indexData("tax_20k/tax_20k_clean.csv", "tax_20k/tax_20k_clean_id.csv")
 # separateCellChange("tax_200k/dirty_mix_0.5/cellChanges.csv", "tax_200k/dirty_mix_0.5/cell_changes.csv")
-countCellDifference("tax_50k/tax-clean-clean_data_ori-0050k_id.csv", "tax_50k/dirty_mix_0.25/dirty_tax_null.csv")
-countTupleDifference("tax_50k/tax-clean-clean_data_ori-0050k_id.csv", "tax_50k/dirty_mix_0.25/dirty_tax_null.csv")
+countCellDifference("tax_20k/tax_20k_clean_id.csv", "tax_20k/dirty_mix_2/dirty_tax_null.csv")
+countTupleDifference("tax_20k/tax_20k_clean_id.csv", "tax_20k/dirty_mix_2/dirty_tax_null.csv")

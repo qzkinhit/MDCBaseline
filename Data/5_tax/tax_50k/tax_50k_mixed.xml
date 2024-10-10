@@ -5,7 +5,7 @@
     <access-configuration>
       <driver>org.postgresql.Driver</driver>
       <uri>jdbc:postgresql://localhost:5432/alpha</uri>
-      <schema>tax200k_dependencies_source</schema>
+      <schema>tax50k_dependencies_source</schema>
       <login>postgres</login>
       <password>postgre666</password>
     </access-configuration>
