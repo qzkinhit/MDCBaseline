@@ -1,25 +1,3 @@
-# import pandas as pd
-#
-# df1 = pd.read_csv('dirty_hospitals.csv')
-# df2 = pd.read_csv('hospital_clean_index.csv')
-#
-# # 将所有列转换为字符串
-# for col in df1.columns:
-#     df1[col] = df1[col].astype(str)
-#
-# for col in df2.columns:
-#     df2[col] = df2[col].astype(str)
-#
-# # 计算不同的条目数
-# num_different_rows = 0
-# for index, row1 in df1.iterrows():
-#     row2 = df2.loc[index]
-#     if not row1.equals(row2):
-#         num_different_rows += 1
-# total_rows = df1.shape[0]
-# print(f"错误条目数：{num_different_rows}")
-# print(f"错误条目比例：{num_different_rows/total_rows}")
-
 import pandas as pd
 
 def count_inconsistent_entries(dirty_df, clean_df, index_column):
@@ -87,12 +65,12 @@ def generate_change_report(dirty_df, clean_df, index_column):
     # 返回不一致的单元格总数
     return len(change_df)
 
-# 使用示例
-dirty_df = pd.read_csv('../Data/1_hospital/noise_with_correct_primary_key/dirty_mix_0.5/dirty_hospitals_index.csv')
-clean_df = pd.read_csv('../Data/1_hospital/hosptial_clean_index.csv')
-
-inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, 'index')
-print(f'脏数据和干净数据之间有 {inconsistent_entries_count} 个条目不一致。')
-
-inconsistent_cells = generate_change_report(dirty_df, clean_df, 'index')
-print(f'脏数据和干净数据之间有 {inconsistent_cells} 个单元格不一致。')
+# # 使用示例
+# dirty_df = pd.read_csv('../Data/1_hospital/noise_with_correct_primary_key/dirty_mix_0.5/dirty_hospitals_index.csv')
+# clean_df = pd.read_csv('../Data/1_hospital/hospital_clean_index.csv')
+#
+# inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, 'index')
+# print(f'脏数据和干净数据之间有 {inconsistent_entries_count} 个条目不一致。')
+#
+# inconsistent_cells = generate_change_report(dirty_df, clean_df, 'index')
+# print(f'脏数据和干净数据之间有 {inconsistent_cells} 个单元格不一致。')
