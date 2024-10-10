@@ -1,6 +1,22 @@
 import os
 import sys
 import pandas as pd
+def normalize_value(value):
+    """
+    将数值规范化为字符串格式，去掉小数点及其后的零
+    :param value: 要规范化的值
+    :return: 规范化后的字符串
+    """
+    try:
+        # 尝试将值转换为浮点数，再转换为整数，然后转换为字符串
+        float_value = float(value)
+        if float_value.is_integer():
+            return str(int(float_value))  # 去掉小数点及其后的零
+        else:
+            return str(float_value)
+    except ValueError:
+        # 如果值无法转换为浮点数，则返回原始值的字符串形式
+        return str(value)
 
 def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path, task_name):
     """
@@ -14,7 +30,7 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
     :param task_name: 任务名称，用于命名输出文件
     :return: 修复准确率和召回率
     """
-    # 创建结果存储目录
+
     os.makedirs(output_path, exist_ok=True)
 
     # 定义输出文件路径
@@ -43,9 +59,10 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
 
         for attribute in attributes:
             # 确保所有属性的数据类型为字符串
-            clean_values = clean[attribute].astype(str)
-            dirty_values = dirty[attribute].astype(str)
-            cleaned_values = cleaned[attribute].astype(str)
+            # 确保所有属性的数据类型为字符串并进行规范化
+            clean_values = clean[attribute].apply(normalize_value)
+            dirty_values = dirty[attribute].apply(normalize_value)
+            cleaned_values = cleaned[attribute].apply(normalize_value)
 
             # 对齐索引
             common_indices = clean_values.index.intersection(cleaned_values.index).intersection(dirty_values.index)

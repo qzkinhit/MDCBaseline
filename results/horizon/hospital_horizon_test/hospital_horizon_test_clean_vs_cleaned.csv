@@ -1,354 +1,187 @@
 Attribute,Index,Clean Value,Cleaned Value
-ProviderNumber,18,10019,10018
-ProviderNumber,19,10001,10018
-ProviderNumber,33,10001,10018
 ProviderNumber,34,10001,10018
-ProviderNumber,58,10005,10018
-ProviderNumber,59,10005,10018
-ProviderNumber,60,10005,10018
-ProviderNumber,61,10005,10018
-ProviderNumber,62,10005,10018
-ProviderNumber,82,10006,10018
-ProviderNumber,83,10006,10018
-ProviderNumber,192,10010,10018
-ProviderNumber,193,10010,10018
-HospitalName,18,helen keller memorial hospital,callahan eye foundation hospital
-HospitalName,19,southeast alabama medical center,callahan eye foundation hospital
-HospitalName,33,southeast alabama medical center,callahan eye foundation hospital
+ProviderNumber,35,10001,10018
+ProviderNumber,39,10001,10018
+ProviderNumber,40,10001,10018
+ProviderNumber,70,10006,10018
+ProviderNumber,71,10006,10018
+ProviderNumber,72,10006,10018
+ProviderNumber,73,10006,10018
+ProviderNumber,74,10006,10018
+ProviderNumber,88,10006,10018
+ProviderNumber,90,10006,10018
+ProviderNumber,231,10012,10018
+ProviderNumber,232,10012,10018
+ProviderNumber,253,10015,10018
+ProviderNumber,254,10015,10018
+HospitalName,9,helen keller memorial hospital,helen keller memorial hosital
+HospitalName,10,helen keller memorial hospital,hlen keller memorial hospital
+HospitalName,11,helen keller memorial hospital,helen kelluer memorial hospital
+HospitalName,12,helen keller memorial hospital,helen keller memorial hosptal
+HospitalName,13,helen keller memorial hospital,helen keller memorial hospiatl
 HospitalName,34,southeast alabama medical center,callahan eye foundation hospital
-HospitalName,58,marshall medical center south,callahan eye foundation hospital
-HospitalName,59,marshall medical center south,callahan eye foundation hospital
-HospitalName,60,marshall medical center south,callahan eye foundation hospital
-HospitalName,61,marshall medical center south,callahan eye foundation hospital
-HospitalName,62,marshall medical center south,callahan eye foundation hospital
-HospitalName,82,eliza coffee memorial hospital,callahan eye foundation hospital
-HospitalName,83,eliza coffee memorial hospital,callahan eye foundation hospital
-HospitalName,192,marshall medical center north,callahan eye foundation hospital
-HospitalName,193,marshall medical center north,callahan eye foundation hospital
-HospitalName,452,helen keller memorial hospital,helenk eller memorial hospital
-HospitalName,453,helen keller memorial hospital,helen keller emorial hospital
-HospitalName,454,helen keller memorial hospital,helen keller memorialhospital
-HospitalName,455,helen keller memorial hospital,helen keller memoridal hospital
-HospitalName,456,helen keller memorial hospital,helen keller memorial hospitla
-HospitalName,659,wedowee hospital,edowee hospital
-HospitalName,993,st vincents blount,st vincents bclount
-Address1,18,1300 south montgomery avenue,1720 university blvd
-Address1,19,1108 ross clark circle,1720 university blvd
-Address1,33,1108 ross clark circle,1720 university blvd
+HospitalName,35,southeast alabama medical center,callahan eye foundation hospital
+HospitalName,39,southeast alabama medical center,callahan eye foundation hospital
+HospitalName,40,southeast alabama medical center,callahan eye foundation hospital
+HospitalName,70,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,71,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,72,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,73,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,74,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,88,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,90,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,144,hartselle medical center,hartselle medical centre
+HospitalName,231,dekalb regional medical center,callahan eye foundation hospital
+HospitalName,232,dekalb regional medical center,callahan eye foundation hospital
+HospitalName,253,southwest alabama medical center,callahan eye foundation hospital
+HospitalName,254,southwest alabama medical center,callahan eye foundation hospital
+HospitalName,520,baptist medical center south,baptist medcial center south
+HospitalName,740,cullman regional medical center,cullman regional medical cenater
+HospitalName,831,chilton medical center,chilton medcial center
+HospitalName,982,st vincents blount,st vincentbs blount
+HospitalName,989,st vincents blount,st vincents bount
 Address1,34,1108 ross clark circle,1720 university blvd
-Address1,58,2505 u s highway 431 north,1720 university blvd
-Address1,59,2505 u s highway 431 north,1720 university blvd
-Address1,60,2505 u s highway 431 north,1720 university blvd
-Address1,61,2505 u s highway 431 north,1720 university blvd
-Address1,62,2505 u s highway 431 north,1720 university blvd
-Address1,82,205 marengo street,1720 university blvd
-Address1,83,205 marengo street,1720 university blvd
-Address1,192,8000 alabama highway 69,1720 university blvd
-Address1,193,8000 alabama highway 69,1720 university blvd
-City,18,sheffield,birmingham
-City,19,dothan,birmingham
-City,20,dothan,birmingham
-City,21,dothan,birmingham
-City,22,dothan,birmingham
-City,23,dothan,birmingham
-City,24,dothan,birmingham
-City,25,dothan,birmingham
-City,26,dothan,birmingham
-City,27,dothan,birmingham
-City,28,dothan,birmingham
-City,29,dothan,birmingham
-City,30,dothan,birmingham
-City,31,dothan,birmingham
-City,32,dothan,birmingham
-City,33,dothan,birmingham
+Address1,35,1108 ross clark circle,1720 university blvd
+Address1,39,1108 ross clark circle,1720 university blvd
+Address1,40,1108 ross clark circle,1720 university blvd
+Address1,70,205 marengo street,1720 university blvd
+Address1,71,205 marengo street,1720 university blvd
+Address1,72,205 marengo street,1720 university blvd
+Address1,73,205 marengo street,1720 university blvd
+Address1,74,205 marengo street,1720 university blvd
+Address1,88,205 marengo street,1720 university blvd
+Address1,90,205 marengo street,1720 university blvd
+Address1,231,200 med center drive,1720 university blvd
+Address1,232,200 med center drive,1720 university blvd
+Address1,253,33700 highway 43,1720 university blvd
+Address1,254,33700 highway 43,1720 university blvd
+Address1,379,2451 fillingim street,2451 filelingim street
+Address1,380,2451 fillingim street,2451 filelingim street
+Address1,381,2451 fillingim street,2451 filelingim street
+Address1,382,2451 fillingim street,2451 filelingim street
+Address1,383,2451 fillingim street,2451 filelingim street
+Address1,384,2451 fillingim street,2451 filelingim street
+Address1,385,2451 fillingim street,2451 filelingim street
+Address1,386,2451 fillingim street,2451 filelingim street
+Address1,387,2451 fillingim street,2451 filelingim street
+Address1,388,2451 fillingim street,2451 filelingim street
+Address1,389,2451 fillingim street,2451 filelingim street
+Address1,390,2451 fillingim street,2451 filelingim street
+Address1,391,2451 fillingim street,2451 filelingim street
 City,34,dothan,birmingham
 City,35,dothan,birmingham
-City,36,dothan,birmingham
-City,37,dothan,birmingham
-City,38,dothan,birmingham
 City,39,dothan,birmingham
 City,40,dothan,birmingham
-City,41,dothan,birmingham
-City,42,dothan,birmingham
-City,43,dothan,birmingham
-City,58,boaz,birmingham
-City,59,boaz,birmingham
-City,60,boaz,birmingham
-City,61,boaz,birmingham
-City,62,boaz,birmingham
-City,82,florence,birmingham
-City,83,florence,birmingham
-City,192,guntersville,birmingham
-City,193,guntersville,birmingham
-ZipCode,18,35660,35233
-ZipCode,19,36302,35233
-ZipCode,33,36302,35233
+City,70,florence,birmingham
+City,71,florence,birmingham
+City,72,florence,birmingham
+City,73,florence,birmingham
+City,74,florence,birmingham
+City,88,florence,birmingham
+City,90,florence,birmingham
+City,231,fort payne,birmingham
+City,232,fort payne,birmingham
+City,253,thomasville,birmingham
+City,254,thomasville,birmingham
 ZipCode,34,36302,35233
-ZipCode,58,35957,35233
-ZipCode,59,35957,35233
-ZipCode,60,35957,35233
-ZipCode,61,35957,35233
-ZipCode,62,35957,35233
-ZipCode,82,35631,35233
-ZipCode,83,35631,35233
-ZipCode,94,36467,35233
-ZipCode,95,36467,35233
-ZipCode,96,36467,35233
-ZipCode,97,36467,35233
-ZipCode,98,36467,35233
-ZipCode,99,36467,35233
-ZipCode,100,36467,35233
-ZipCode,101,36467,35233
-ZipCode,102,36467,35233
-ZipCode,103,36467,35233
-ZipCode,104,36467,35233
-ZipCode,105,36467,35233
-ZipCode,106,36467,35233
-ZipCode,107,36467,35233
-ZipCode,108,36467,35233
-ZipCode,109,36467,35233
-ZipCode,110,36467,35233
-ZipCode,111,36467,35233
-ZipCode,112,36467,35233
-ZipCode,113,36467,35233
-ZipCode,114,36467,35233
-ZipCode,115,36467,35233
-ZipCode,116,36467,35233
-ZipCode,117,36467,35233
-ZipCode,118,36467,35233
-ZipCode,192,35976,35233
-ZipCode,193,35976,35233
-CountyName,19,houston,jefferson
-CountyName,20,houston,jefferson
-CountyName,21,houston,jefferson
-CountyName,22,houston,jefferson
-CountyName,23,houston,jefferson
-CountyName,24,houston,jefferson
-CountyName,25,houston,jefferson
-CountyName,26,houston,jefferson
-CountyName,27,houston,jefferson
-CountyName,28,houston,jefferson
-CountyName,29,houston,jefferson
-CountyName,30,houston,jefferson
-CountyName,31,houston,jefferson
-CountyName,32,houston,jefferson
-CountyName,33,houston,jefferson
+ZipCode,35,36302,35233
+ZipCode,39,36302,35233
+ZipCode,40,36302,35233
+ZipCode,70,35631,35233
+ZipCode,71,35631,35233
+ZipCode,72,35631,35233
+ZipCode,73,35631,35233
+ZipCode,74,35631,35233
+ZipCode,88,35631,35233
+ZipCode,90,35631,35233
+ZipCode,231,35968,35233
+ZipCode,232,35968,35233
+ZipCode,253,36784,35233
+ZipCode,254,36784,35233
+CountyName,8,jefferson,jeferson
+CountyName,9,jefferson,jeferson
+CountyName,10,jefferson,jeferson
+CountyName,11,jefferson,jeferson
+CountyName,12,jefferson,jeferson
+CountyName,13,jefferson,jeferson
+CountyName,14,jefferson,jeferson
+CountyName,15,jefferson,jeferson
+CountyName,16,jefferson,jeferson
+CountyName,17,jefferson,jeferson
+CountyName,18,jefferson,jeferson
 CountyName,34,houston,jefferson
 CountyName,35,houston,jefferson
-CountyName,36,houston,jefferson
-CountyName,37,houston,jefferson
-CountyName,38,houston,jefferson
 CountyName,39,houston,jefferson
 CountyName,40,houston,jefferson
-CountyName,41,houston,jefferson
-CountyName,42,houston,jefferson
-CountyName,43,houston,jefferson
-CountyName,58,marshall,jefferson
-CountyName,59,marshall,jefferson
-CountyName,60,marshall,jefferson
-CountyName,61,marshall,jefferson
-CountyName,62,marshall,jefferson
-CountyName,82,lauderdale,jefferson
-CountyName,83,lauderdale,jefferson
-CountyName,192,marshall,jefferson
-CountyName,193,marshall,jefferson
-CountyName,311,calhoun,calhon
-CountyName,312,calhoun,calhon
-CountyName,313,calhoun,calhon
-CountyName,314,calhoun,calhon
-CountyName,315,calhoun,calhon
-CountyName,316,calhoun,calhon
-CountyName,317,calhoun,calhon
-CountyName,318,calhoun,calhon
-CountyName,319,calhoun,calhon
-CountyName,320,calhoun,calhon
-CountyName,321,calhoun,calhon
-CountyName,322,calhoun,calhon
-CountyName,323,calhoun,calhon
-CountyName,324,calhoun,calhon
-CountyName,325,calhoun,calhon
-CountyName,326,calhoun,calhon
-CountyName,327,calhoun,calhon
-CountyName,328,calhoun,calhon
-CountyName,329,calhoun,calhon
-CountyName,330,calhoun,calhon
-CountyName,432,anchorage,anhcorage
-CountyName,433,anchorage,anhcorage
-CountyName,434,anchorage,anhcorage
-CountyName,435,anchorage,anhcorage
-CountyName,436,anchorage,anhcorage
-CountyName,437,anchorage,anhcorage
-CountyName,438,anchorage,anhcorage
-CountyName,439,anchorage,anhcorage
-CountyName,440,anchorage,anhcorage
-CountyName,441,anchorage,anhcorage
-CountyName,442,anchorage,anhcorage
-CountyName,443,anchorage,anhcorage
-CountyName,444,anchorage,anhcorage
-CountyName,445,anchorage,anhcorage
-CountyName,446,anchorage,anhcorage
-CountyName,447,anchorage,anhcorage
-CountyName,448,anchorage,anhcorage
-CountyName,449,anchorage,anhcorage
-CountyName,516,montgomery,mongtomery
-CountyName,517,montgomery,mongtomery
-CountyName,518,montgomery,mongtomery
-CountyName,519,montgomery,mongtomery
-CountyName,520,montgomery,mongtomery
-CountyName,521,montgomery,mongtomery
-CountyName,522,montgomery,mongtomery
-CountyName,523,montgomery,mongtomery
-CountyName,524,montgomery,mongtomery
-CountyName,525,montgomery,mongtomery
-CountyName,526,montgomery,mongtomery
-CountyName,527,montgomery,mongtomery
-CountyName,528,montgomery,mongtomery
-CountyName,529,montgomery,mongtomery
-CountyName,530,montgomery,mongtomery
-CountyName,531,montgomery,mongtomery
-CountyName,532,montgomery,mongtomery
-CountyName,533,montgomery,mongtomery
-CountyName,534,montgomery,mongtomery
-CountyName,535,montgomery,mongtomery
-CountyName,536,montgomery,mongtomery
-CountyName,537,montgomery,mongtomery
-CountyName,538,montgomery,mongtomery
-CountyName,539,montgomery,mongtomery
-CountyName,540,montgomery,mongtomery
-CountyName,541,montgomery,mongtomery
-CountyName,542,montgomery,mongtomery
-CountyName,543,montgomery,mongtomery
-CountyName,544,montgomery,mongtomery
-CountyName,545,montgomery,mongtomery
-CountyName,546,montgomery,mongtomery
-CountyName,547,montgomery,mongtomery
-CountyName,548,montgomery,mongtomery
-CountyName,549,montgomery,mongtomery
-CountyName,550,montgomery,mongtomery
-CountyName,551,montgomery,mongtomery
-CountyName,552,montgomery,mongtomery
-CountyName,553,montgomery,mongtomery
-CountyName,554,montgomery,mongtomery
-CountyName,555,montgomery,mongtomery
-CountyName,556,montgomery,mongtomery
-CountyName,557,montgomery,mongtomery
-CountyName,558,montgomery,mongtomery
-CountyName,559,montgomery,mongtomery
-CountyName,560,montgomery,mongtomery
-CountyName,561,montgomery,mongtomery
-CountyName,562,montgomery,mongtomery
-CountyName,563,montgomery,mongtomery
-CountyName,564,montgomery,mongtomery
-CountyName,565,montgomery,mongtomery
-CountyName,766,calhoun,calhon
-CountyName,767,calhoun,calhon
-CountyName,768,calhoun,calhon
-CountyName,769,calhoun,calhon
-CountyName,770,calhoun,calhon
-CountyName,771,calhoun,calhon
-CountyName,772,calhoun,calhon
-CountyName,773,calhoun,calhon
-PhoneNumber,0,2053258100,2e053258100
-PhoneNumber,1,2053258100,2e053258100
-PhoneNumber,2,2053258100,2e053258100
-PhoneNumber,3,2053258100,2e053258100
-PhoneNumber,4,2053258100,2e053258100
-PhoneNumber,5,2053258100,2e053258100
-PhoneNumber,6,2053258100,2e053258100
-PhoneNumber,7,2053258100,2e053258100
-PhoneNumber,18,2563864556,2e053258100
-PhoneNumber,19,3347938701,2e053258100
-PhoneNumber,33,3347938701,2e053258100
-PhoneNumber,34,3347938701,2e053258100
-PhoneNumber,58,2565938310,2e053258100
-PhoneNumber,59,2565938310,2e053258100
-PhoneNumber,60,2565938310,2e053258100
-PhoneNumber,61,2565938310,2e053258100
-PhoneNumber,62,2565938310,2e053258100
-PhoneNumber,82,2567688400,2e053258100
-PhoneNumber,83,2567688400,2e053258100
-PhoneNumber,119,3343353374,334335374
-PhoneNumber,120,3343353374,334335374
-PhoneNumber,121,3343353374,334335374
-PhoneNumber,122,3343353374,334335374
-PhoneNumber,123,3343353374,334335374
-PhoneNumber,124,3343353374,334335374
-PhoneNumber,125,3343353374,334335374
-PhoneNumber,126,3343353374,334335374
-PhoneNumber,127,3343353374,334335374
-PhoneNumber,128,3343353374,334335374
-PhoneNumber,129,3343353374,334335374
-PhoneNumber,130,3343353374,334335374
-PhoneNumber,131,3343353374,334335374
-PhoneNumber,132,3343353374,334335374
-PhoneNumber,133,3343353374,334335374
-PhoneNumber,134,3343353374,334335374
-PhoneNumber,135,3343353374,334335374
-PhoneNumber,136,3343353374,334335374
-PhoneNumber,137,3343353374,334335374
-PhoneNumber,138,3343353374,334335374
-PhoneNumber,139,3343353374,334335374
-PhoneNumber,140,3343353374,334335374
-PhoneNumber,141,3343353374,334335374
-PhoneNumber,142,3343353374,334335374
-PhoneNumber,143,3343353374,334335374
-PhoneNumber,192,2565718000,2e053258100
-PhoneNumber,193,2565718000,2e053258100
-PhoneNumber,294,2053258100,2e053258100
-PhoneNumber,295,2053258100,2e053258100
-PhoneNumber,296,2053258100,2e053258100
-PhoneNumber,297,2053258100,2e053258100
-PhoneNumber,298,2053258100,2e053258100
-PhoneNumber,299,2053258100,2e053258100
-PhoneNumber,300,2053258100,2e053258100
-PhoneNumber,301,2053258100,2e053258100
-PhoneNumber,302,2053258100,2e053258100
-PhoneNumber,303,2053258100,2e053258100
-PhoneNumber,304,2053258100,2e053258100
-PhoneNumber,305,2053258100,2e053258100
-PhoneNumber,306,2053258100,2e053258100
-PhoneNumber,307,2053258100,2e053258100
-PhoneNumber,308,2053258100,2e053258100
-PhoneNumber,309,2053258100,2e053258100
-PhoneNumber,310,2053258100,2e053258100
-HospitalOwner,18,government - hospital district or authority,voluntary non-profit - private
-HospitalOwner,19,government - hospital district or authority,voluntary non-profit - private
-HospitalOwner,33,government - hospital district or authority,voluntary non-profit - private
+CountyName,70,lauderdale,jefferson
+CountyName,71,lauderdale,jefferson
+CountyName,72,lauderdale,jefferson
+CountyName,73,lauderdale,jefferson
+CountyName,74,lauderdale,jefferson
+CountyName,88,lauderdale,jefferson
+CountyName,90,lauderdale,jefferson
+CountyName,231,de kalb,jefferson
+CountyName,232,de kalb,jefferson
+CountyName,253,clarke,jefferson
+CountyName,254,clarke,jefferson
+CountyName,353,morgan,mrogan
+CountyName,379,mobile,moblie
+CountyName,380,mobile,moblie
+CountyName,381,mobile,moblie
+CountyName,382,mobile,moblie
+CountyName,383,mobile,moblie
+CountyName,384,mobile,moblie
+CountyName,385,mobile,moblie
+CountyName,386,mobile,moblie
+CountyName,387,mobile,moblie
+CountyName,388,mobile,moblie
+CountyName,389,mobile,moblie
+CountyName,390,mobile,moblie
+CountyName,391,mobile,moblie
+CountyName,452,jefferson,jeferson
+CountyName,453,jefferson,jeferson
+CountyName,454,jefferson,jeferson
+CountyName,455,jefferson,jeferson
+CountyName,456,jefferson,jeferson
+CountyName,457,jefferson,jeferson
+CountyName,458,jefferson,jeferson
+CountyName,459,jefferson,jeferson
+CountyName,460,jefferson,jeferson
+CountyName,461,jefferson,jeferson
+CountyName,462,jefferson,jeferson
+CountyName,463,jefferson,jeferson
+CountyName,464,jefferson,jeferson
+CountyName,465,jefferson,jeferson
+PhoneNumber,34,3347938701,2053258100
+PhoneNumber,35,3347938701,2053258100
+PhoneNumber,39,3347938701,2053258100
+PhoneNumber,40,3347938701,2053258100
+PhoneNumber,70,2567688400,2053258100
+PhoneNumber,71,2567688400,2053258100
+PhoneNumber,72,2567688400,2053258100
+PhoneNumber,73,2567688400,2053258100
+PhoneNumber,74,2567688400,2053258100
+PhoneNumber,88,2567688400,2053258100
+PhoneNumber,90,2567688400,2053258100
+PhoneNumber,231,2568453150,2053258100
+PhoneNumber,232,2568453150,2053258100
+PhoneNumber,253,3346366221,2053258100
+PhoneNumber,254,3346366221,2053258100
 HospitalOwner,34,government - hospital district or authority,voluntary non-profit - private
-HospitalOwner,58,government - hospital district or authority,voluntary non-profit - private
-HospitalOwner,59,government - hospital district or authority,voluntary non-profit - private
-HospitalOwner,60,government - hospital district or authority,voluntary non-profit - private
-HospitalOwner,61,government - hospital district or authority,voluntary non-profit - private
-HospitalOwner,62,government - hospital district or authority,voluntary non-profit - private
-HospitalOwner,82,voluntary non-profit - other,voluntary non-profit - private
-HospitalOwner,83,voluntary non-profit - other,voluntary non-profit - private
-HospitalOwner,192,government - hospital district or authority,voluntary non-profit - private
-HospitalOwner,193,government - hospital district or authority,voluntary non-profit - private
-EmergencyService,94,no,yes
-EmergencyService,95,no,yes
-EmergencyService,96,no,yes
-EmergencyService,97,no,yes
-EmergencyService,98,no,yes
-EmergencyService,99,no,yes
-EmergencyService,100,no,yes
-EmergencyService,101,no,yes
-EmergencyService,102,no,yes
-EmergencyService,103,no,yes
-EmergencyService,104,no,yes
-EmergencyService,105,no,yes
-EmergencyService,106,no,yes
-EmergencyService,107,no,yes
-EmergencyService,108,no,yes
-EmergencyService,109,no,yes
-EmergencyService,110,no,yes
-EmergencyService,111,no,yes
-EmergencyService,112,no,yes
-EmergencyService,113,no,yes
-EmergencyService,114,no,yes
-EmergencyService,115,no,yes
-EmergencyService,116,no,yes
-EmergencyService,117,no,yes
-EmergencyService,118,no,yes
+HospitalOwner,35,government - hospital district or authority,voluntary non-profit - private
+HospitalOwner,39,government - hospital district or authority,voluntary non-profit - private
+HospitalOwner,40,government - hospital district or authority,voluntary non-profit - private
+HospitalOwner,70,voluntary non-profit - other,voluntary non-profit - private
+HospitalOwner,71,voluntary non-profit - other,voluntary non-profit - private
+HospitalOwner,72,voluntary non-profit - other,voluntary non-profit - private
+HospitalOwner,73,voluntary non-profit - other,voluntary non-profit - private
+HospitalOwner,74,voluntary non-profit - other,voluntary non-profit - private
+HospitalOwner,88,voluntary non-profit - other,voluntary non-profit - private
+HospitalOwner,90,voluntary non-profit - other,voluntary non-profit - private
+HospitalOwner,231,voluntary non-profit - church,voluntary non-profit - private
+HospitalOwner,232,voluntary non-profit - church,voluntary non-profit - private
+HospitalOwner,253,government - federal,voluntary non-profit - private
+HospitalOwner,254,government - federal,voluntary non-profit - private
 Stateavg,432,ak_hf-1,al_hf-1
 Stateavg,433,ak_hf-2,al_hf-2
 Stateavg,434,ak_hf-3,al_hf-3

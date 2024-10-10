@@ -97,7 +97,7 @@ def calRepPrec(pattern_expressions, dirty_path, clean_path):
 
     # 计算修复的正确数量和总数量
     with open(clean_path, 'r') as f:
-        reader = csv.DictReader(f, restval='nan')
+        reader = csv.DictReader(f, restval='empty')
         cnt = 0
         for line in reader:
             for v in pattern_expressions[cnt]:
@@ -122,7 +122,7 @@ def calRepRec(pattern_expressions, dirty_path, clean_path):
 
     # 读取脏数据文件，获取属性列表
     with open(dirty_path, 'r') as f:
-        reader = csv.DictReader(f, restval='nan')
+        reader = csv.DictReader(f, restval='empty')
         for line in reader:
             attrList = list(line.keys())
             break
@@ -137,13 +137,13 @@ def calRepRec(pattern_expressions, dirty_path, clean_path):
 
     # 读取脏数据文件，存储为字典列表
     with open(dirty_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, restval='nan')
+        reader = csv.DictReader(f, restval='empty')
         for line in reader:
             dirty_dict.append(line)
 
     # 计算修复的正确数量和总数量
     with open(clean_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, restval='nan')
+        reader = csv.DictReader(f, restval='empty')
         cnt = 0
         for line in reader:
             for v in dirty_dict[cnt]:

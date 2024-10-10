@@ -1,5 +1,20 @@
 import pandas as pd
-
+def normalize_value(value):
+    """
+    将数值规范化为字符串格式，去掉小数点及其后的零
+    :param value: 要规范化的值
+    :return: 规范化后的字符串
+    """
+    try:
+        # 尝试将值转换为浮点数，再转换为整数，然后转换为字符串
+        float_value = float(value)
+        if float_value.is_integer():
+            return str(int(float_value))  # 去掉小数点及其后的零
+        else:
+            return str(float_value)
+    except ValueError:
+        # 如果值无法转换为浮点数，则返回原始值的字符串形式
+        return str(value)
 def count_inconsistent_entries(dirty_df, clean_df, index_column):
     """
     计算脏数据和干净数据中不一致的条目数量
@@ -9,9 +24,9 @@ def count_inconsistent_entries(dirty_df, clean_df, index_column):
     :param index_column: 用于对齐的索引列名称
     :return: 不一致条目数
     """
-    # 确保脏数据和干净数据以相同的索引进行对齐，并将所有列转换为字符串类型
-    dirty_df = dirty_df.set_index(index_column).astype(str)
-    clean_df = clean_df.set_index(index_column).astype(str)
+    # 确保脏数据和干净数据以相同的索引进行对齐
+    dirty_df = dirty_df.set_index(index_column).applymap(normalize_value)
+    clean_df = clean_df.set_index(index_column).applymap(normalize_value)
 
     # 初始化不一致条目的集合
     inconsistent_entry_indices = set()
@@ -37,9 +52,9 @@ def generate_change_report(dirty_df, clean_df, index_column):
     :param index_column: 用于对齐的索引列名称
     :return: 不一致单元格数目，并生成 change.CSV 文件
     """
-    # 确保脏数据和干净数据以相同的索引进行对齐，并将所有列转换为字符串类型
-    dirty_df = dirty_df.set_index(index_column).astype(str)
-    clean_df = clean_df.set_index(index_column).astype(str)
+    # 确保脏数据和干净数据以相同的索引进行对齐
+    dirty_df = dirty_df.set_index(index_column).applymap(normalize_value)
+    clean_df = clean_df.set_index(index_column).applymap(normalize_value)
     # 初始化列表，用于存储变化信息
     changes = []
 

@@ -1,104 +1,121 @@
 Attribute,Index,Clean Value,Dirty Value
-HospitalName,18,helen keller memorial hospital,callahan eye foundation hospital
-HospitalName,19,southeast alabama medical center,callahan eye foundation hospital
-HospitalName,33,southeast alabama medical center,callahan eye foundation hospital
+HospitalName,9,helen keller memorial hospital,helen keller memorial hosital
+HospitalName,10,helen keller memorial hospital,hlen keller memorial hospital
+HospitalName,11,helen keller memorial hospital,helen kelluer memorial hospital
+HospitalName,12,helen keller memorial hospital,helen keller memorial hosptal
+HospitalName,13,helen keller memorial hospital,helen keller memorial hospiatl
 HospitalName,34,southeast alabama medical center,callahan eye foundation hospital
-HospitalName,58,marshall medical center south,callahan eye foundation hospital
-HospitalName,59,marshall medical center south,callahan eye foundation hospital
-HospitalName,60,marshall medical center south,callahan eye foundation hospital
-HospitalName,61,marshall medical center south,callahan eye foundation hospital
-HospitalName,62,marshall medical center south,callahan eye foundation hospital
-HospitalName,82,eliza coffee memorial hospital,callahan eye foundation hospital
-HospitalName,83,eliza coffee memorial hospital,callahan eye foundation hospital
-HospitalName,192,marshall medical center north,callahan eye foundation hospital
-HospitalName,193,marshall medical center north,callahan eye foundation hospital
-HospitalName,452,helen keller memorial hospital,helenk eller memorial hospital
-HospitalName,453,helen keller memorial hospital,helen keller emorial hospital
-HospitalName,454,helen keller memorial hospital,helen keller memorialhospital
-HospitalName,455,helen keller memorial hospital,helen keller memoridal hospital
-HospitalName,456,helen keller memorial hospital,helen keller memorial hospitla
-HospitalName,659,wedowee hospital,edowee hospital
-HospitalName,993,st vincents blount,st vincents bclount
-Address1,302,1720 university blvd,1720 nuiversity blvd
-Address1,463,1300 south montgomery avenue,1300s outh montgomery avenue
-Address1,464,1300 south montgomery avenue,1300 south montgomery avene
-Address1,556,1725 pine street,1725 pie street
-Address1,558,1725 pine street,1725 pinne street
-Address1,638,2000 pepperell parkway,2000 ppepperell parkway
-Address1,673,619 south 19th street,619 south 19th treet
-City,13,sheffield,shefield
-City,14,sheffield,sheffiled
-City,19,dothan,birmingham
-City,20,dothan,birmingham
-City,125,luverne,luvere
-City,221,fort payne,fortp ayne
-City,256,thomasville,thomasvile
-City,260,thomasville,thomasviille
-City,262,thomasville,tohmasville
-City,320,anniston,anniston***
-City,508,centre,cenre
-City,662,wedowee,ewdowee
-ZipCode,80,35631,3561
-ZipCode,94,36467,35233
-ZipCode,95,36467,35233
-ZipCode,187,35976,3k5976
-ZipCode,364,35594,35549
-ZipCode,378,35594,5594
-ZipCode,464,35660,3566f0
-ZipCode,465,35660,35660***
-ZipCode,676,35233,35323
-ZipCode,837,35045,35054
-ZipCode,937,36033,3033
-CountyName,113,covington,ocvington
-CountyName,289,shelby,helby
-CountyName,290,shelby,sheby
-CountyName,311,calhoun,calhon
-CountyName,348,jefferson,jeffersojn
-CountyName,433,anchorage,anhcorage
-CountyName,518,montgomery,mongtomery
-CountyName,809,etowah,etwowah
-CountyName,865,marion,marlion
-PhoneNumber,0,2053258100,2e053258100
-PhoneNumber,1,2053258100,2053258100***
-PhoneNumber,65,2565938310,25659383e10
-PhoneNumber,89,2567688400,2567868400
-PhoneNumber,119,3343353374,334335374
-PhoneNumber,199,2058383122,20583y83122
-PhoneNumber,462,2563864556,2563864565
-PhoneNumber,479,3347742601,3347724601
-PhoneNumber,882,2059325966,20593259r66
-PhoneNumber,981,2052743000,202743000
-HospitalOwner,461,government - hospital district or authority,government - hospital disltrict or authority
-HospitalOwner,462,government - hospital district or authority,government - hospitald istrict or authority
-EmergencyService,28,yes,ys
-EmergencyService,363,yes,yse
-EmergencyService,673,yes,ypes
-EmergencyService,674,yes,yse
-EmergencyService,825,yes,zyes
-EmergencyService,937,no,o
-Condition,418,heart attack,eart attack
-Condition,666,heart attack,heartattack
-Condition,691,heart attack,heart attakc
-Condition,716,heart attack,hebart attack
-Condition,741,heart attack,iheart attack
-Condition,777,heart attack,heart acttack
-MeasureName,85,pneumonia patients assessed and given influenza vaccination,pneumonia patients assessed and given influenza vaccnation
-MeasureName,119,heart attack patients given aspirin at arrival,heart attack patients give aspirin at arrival
-MeasureName,290,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,all heart surgeryc patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
-MeasureName,317,heart attack patients given beta blocker at discharge,heart attack patients given beta blocker at discharge***
-MeasureName,348,heart attack patients given aspirin at arrival,heart attack patients givena spirin at arrival
-MeasureName,449,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,padtients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery
-MeasureName,450,heart attack patients given aspirin at arrival,heart attacgk patients given aspirin at arrival
-MeasureName,516,heart attack patients given aspirin at arrival,heart atack patients given aspirin at arrival
-MeasureName,635,surgery patients who were given the  right kind  of antibiotic to help prevent infection,surgery patients who were given te  right kind  of antibiotic to help prevent infection
-MeasureName,650,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),heart failure patients given ace nhibitor or arb for left ventricular systolic dysfunction (lvsd)
-MeasureName,786,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),heart failure ptaients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
-MeasureName,877,heart attack patients given aspirin at arrival,heart attack patients given yaspirin at arrival
-MeasureName,919,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,pneumonia patients given initial antibiotic(s) witfhin 6 hours after arrival
-Stateavg,804,al_ami-3,al_ai-3
-Stateavg,829,al_ami-3,al_mai-3
-Stateavg,854,al_ami-3,al_am-3
-Stateavg,879,al_ami-3,al_ami3-
-Stateavg,907,al_ami-3,al_amiz-3
-Stateavg,930,al_ami-1,al_ami1-
-Stateavg,994,al_pn-5c,la_pn-5c
+HospitalName,35,southeast alabama medical center,callahan eye foundation hospital
+HospitalName,39,southeast alabama medical center,callahan eye foundation hospital
+HospitalName,40,southeast alabama medical center,callahan eye foundation hospital
+HospitalName,70,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,71,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,72,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,73,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,74,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,88,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,90,eliza coffee memorial hospital,callahan eye foundation hospital
+HospitalName,144,hartselle medical center,hartselle medical centre
+HospitalName,231,dekalb regional medical center,callahan eye foundation hospital
+HospitalName,232,dekalb regional medical center,callahan eye foundation hospital
+HospitalName,253,southwest alabama medical center,callahan eye foundation hospital
+HospitalName,254,southwest alabama medical center,callahan eye foundation hospital
+HospitalName,520,baptist medical center south,baptist medcial center south
+HospitalName,740,cullman regional medical center,cullman regional medical cenater
+HospitalName,831,chilton medical center,chilton medcial center
+HospitalName,982,st vincents blount,st vincentbs blount
+HospitalName,989,st vincents blount,st vincents bount
+Address1,46,2505 u s highway 431 north,2505 u s highwa y431 north
+Address1,181,8000 alabama highway 69,8000 alabamahighway 69
+Address1,239,200 med center drive,2r00 med center drive
+Address1,277,1000 first street north,1000 firsts treet north
+Address1,303,1720 university blvd,1720 univetrsity blvd
+Address1,304,1720 university blvd,1720 university blvud
+Address1,379,2451 fillingim street,2451 filelingim street
+Address1,519,2105 east south boulevard,2105 east south boulevrad
+Address1,534,2105 east south boulevard,2105 east south obulevard
+Address1,761,849 south three notch street,849 south three notch sreet
+Address1,871,1256 military street south,1256 milixtary street south
+City,59,boaz,baz
+City,80,florence,birmingham
+City,81,florence,birmingham
+City,138,luverne,luerne
+City,268,thomasville,thomaville
+City,464,sheffield,sheffielyd
+City,465,sheffield,heffield
+City,470,ozark,oczark
+City,967,enterprise,enteprise
+ZipCode,254,36784,3u6784
+ZipCode,395,36067,30667
+ZipCode,462,35660,53660
+ZipCode,463,35660,3566w0
+ZipCode,527,36116,x36116
+ZipCode,618,36801,3681
+ZipCode,626,36801,36810
+ZipCode,675,35233,z35233
+CountyName,8,jefferson,jeferson
+CountyName,11,jefferson,jefkferson
+CountyName,148,morgan,morgn
+CountyName,252,clarke,wclarke
+CountyName,271,shelby,shelyb
+CountyName,283,shelby,lshelby
+CountyName,286,shelby,sheby
+CountyName,353,morgan,mrogan
+CountyName,383,mobile,moblie
+CountyName,643,randolph,randloph
+CountyName,793,madison,ymadison
+CountyName,918,etowah,eftowah
+PhoneNumber,207,2058383122,2058383122***
+PhoneNumber,299,2053258100,53258100
+PhoneNumber,309,2053258100,205325810c0
+PhoneNumber,310,2053258100,205358100
+HospitalOwner,14,government - hospital district or authority,government - hospital distric or authority
+HospitalOwner,16,government - hospital district or authority,government - hospitl district or authority
+HospitalOwner,207,voluntary non-profit - private,voluntary non-profit - nprivate
+HospitalOwner,533,voluntary non-profit - church,voluntary non-profit - churhc
+HospitalOwner,622,government - hospital district or authority,governmenft - hospital district or authority
+HospitalOwner,926,proprietary,proprietayr
+EmergencyService,7,yes,es
+EmergencyService,223,yes,eys
+EmergencyService,549,yes,yoes
+EmergencyService,625,yes,es
+EmergencyService,668,yes,yezs
+EmergencyService,669,yes,yse
+EmergencyService,972,yes,eys
+Condition,19,heart attack,heartt attack
+Condition,492,heart attack,ehart attack
+Condition,667,heart attack,heart attlack
+Condition,874,surgical infection prevention,surgical infection prevdention
+Condition,894,surgical infection prevention,surgcal infection prevention
+Condition,899,surgical infection prevention,surgial infection prevention
+Condition,916,pneumonia,pneumoina
+Condition,927,surgical infection prevention,surgical nfection prevention
+Condition,952,surgical infection prevention,surgical infection prevezntion
+Condition,969,pneumonia,pneumoia
+Condition,977,surgical infection prevention,surgical infecton prevention
+MeasureName,119,heart attack patients given aspirin at arrival,heart attacdk patients given aspirin at arrival
+MeasureName,132,pneumonia patients given smoking cessation advice/counseling,pneumonia patients gievn smoking cessation advice/counseling
+MeasureName,219,heart attack patients given aspirin at arrival,heart attack patients given aspirn at arrival
+MeasureName,244,heart attack patients given aspirin at arrival,heart attack patients given aspirin at arrval
+MeasureName,401,heart failure patients given smoking cessation advice/counseling,hteart failure patients given smoking cessation advice/counseling
+MeasureName,566,heart attack patients given aspirin at arrival,heart attack patients given apsirin at arrival
+MeasureName,604,pneumonia patients given smoking cessation advice/counseling,pneumonia patients given smoking cessation advce/counseling
+MeasureName,686,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),surgery patiens whose preventive antibiotics were stopped at the right time (within 24 hours after surgery)
+MeasureName,807,heart attack patients given fibrinolytic medication within 30 minutes of arrival,hearpt attack patients given fibrinolytic medication within 30 minutes of arrival
+MeasureName,837,heart failure patients given smoking cessation advice/counseling,hfeart failure patients given smoking cessation advice/counseling
+MeasureName,852,heart attack patients given aspirin at arrival,heart attack patients given aspirin at arrvial
+MeasureName,955,heart attack patients given aspirin at arrival,heart attack patients given aspirin at arrivl
+Stateavg,5,al_scip-inf-6,al_sicp-inf-6
+Stateavg,73,al_ami-5,al_amui-5
+Stateavg,480,al_pn-5c,a_lpn-5c
+Stateavg,500,al_hf-3,a_hf-3
+Stateavg,623,al_hf-1,l_hf-1
+Stateavg,652,al_pn-2,al_p-n2
+Stateavg,714,al_scip-vte-1,al_scipv-te-1
+Stateavg,739,al_scip-vte-1,al_scip-vet-1
+Stateavg,748,al_hf-1,al_f-1
+Stateavg,764,al_scip-vte-1,al_csip-vte-1
+Stateavg,772,al_scip-vte-1,la_scip-vte-1
+Stateavg,800,al_scip-vte-1,al_scip-tve-1
+Stateavg,823,al_scip-inf-4,al_scipi-nf-4
+Stateavg,827,al_ami-1,al_ami1-

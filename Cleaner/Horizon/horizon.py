@@ -19,7 +19,7 @@ def BuildFDPatternGraph(D_path, constrains_path):
     g = Graph()  # 创建图对象
     my_dict = {}
     data = pd.read_csv(D_path)  # 读取数据文件
-    data = data.fillna("nan")  # 填充缺失值
+    data = data.fillna("empty")  # 填充缺失值
     data = data.astype(str)  # 将数据转换为字符串类型，方便处理
     tot = len(data)  # 记录总数据条数
 
@@ -314,7 +314,7 @@ def GeneratePatternPreservingRepairs(dirty_path, constraints_path, gt_wrong_cell
     with open(dirty_path, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f, restval='nan')
         data = pd.read_csv(dirty_path)
-        data = data.fillna("nan")  # 用 'nan' 填充空缺值
+        data = data.fillna("empty")  # 用 'empty' 填充空缺值
         data = data.astype(str)  # 确保数据都是字符串格式
 
         for i in range(len(data)):
@@ -339,8 +339,8 @@ def GeneratePatternPreservingRepairs(dirty_path, constraints_path, gt_wrong_cell
                 if OrderedFDs[j].right in Rtable:
                     continue
 
-                if Lval == '':  # 如果左侧属性为空值，则设为 'nan'
-                    Lval = 'nan'
+                if Lval == '':  # 如果左侧属性为空值，则设为 'empty'
+                    Lval = 'empty'
 
                 # 根据图中的连接质量选择最佳修复值
                 maxedge = -1
@@ -402,8 +402,8 @@ def Horizon(dirty_path, rule_path, clean_path):
     # 读取脏数据和干净数据
     dirty_df = pd.read_csv(dirty_path).astype(str)  # 读取脏数据，并将所有数据转为字符串
     clean_df = pd.read_csv(clean_path).astype(str)  # 读取干净数据，并将所有数据转为字符串
-    dirty_df = dirty_df.fillna("empty")  # 将脏数据中的缺失值填充为 "nan"
-    clean_df = clean_df.fillna("empty")  # 将干净数据中的缺失值填充为 "nan"
+    dirty_df = dirty_df.fillna("empty")  # 将脏数据中的缺失值填充为 "empty"
+    clean_df = clean_df.fillna("empty")  # 将干净数据中的缺失值填充为 "empty"
 
     # 识别脏单元格
     dirty_c = dirty_cells(dirty_df, clean_df)  # 调用 dirty_cells 函数，识别哪些单元格是脏的
