@@ -2,11 +2,12 @@ import os
 import sys
 import argparse
 import pandas as pd
+
 # 获取当前脚本所在目录的上级目录路径
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 
 from Cleaner.Horizon.horizon import Horizon
-from Cleaner.Horizon.util import calRepPrec, calRepRec, calF1
+from util.getScore import calculate_accuracy_and_recall
 
 
 def main():
@@ -33,42 +34,6 @@ def main():
     pattern_expressions, dirty_c, elapsed_time = Horizon(
         args.dirty_path, args.rule_path, args.clean_path
     )
-
-    # 计算检测的精度和召回率
-    # det_prec, det_rec = calDetPrecRec(pattern_expressions, args.dirty_path, args.clean_path, dirty_c)
-    # 计算修复的精度、召回率和 F1 值
-    rep_precision = calRepPrec(pattern_expressions, args.dirty_path, args.clean_path)
-    rep_recall = calRepRec(pattern_expressions, args.dirty_path, args.clean_path)
-    rep_f1 = calF1(rep_precision, rep_recall)
-
-    # 打印评估结果
-    # print(f"Detection precision: {det_prec}")
-    # print(f"Detection recall: {det_rec}")
-    print(f"Repair precision: {rep_precision}")
-    print(f"Repair recall: {rep_recall}")
-    print(f"Repair F1 score: {rep_f1}")
-    print(f"Elapsed time: {elapsed_time} seconds")
-
-    # 创建结果存储目录
-    os.makedirs(args.output_path, exist_ok=True)
-
-    # 保存评估结果到文件
-    out_path = os.path.join(args.output_path, f"{args.task_name}_evaluation.txt")
-    original_stdout = sys.stdout  # 备份原始的标准输出
-
-    # 重定向输出到文件
-    with open(out_path, 'w') as f:
-        sys.stdout = f  # 将 sys.stdout 重定向到文件
-        # print(f"Detection precision: {det_prec}")
-        # print(f"Detection recall: {det_rec}")
-        print(f"Repair precision: {rep_precision}")
-        print(f"Repair recall: {rep_recall}")
-        print(f"Repair F1 score: {rep_f1}")
-        print(f"Elapsed time: {elapsed_time} seconds")
-
-    # 恢复标准输出
-    sys.stdout = original_stdout
-
     # 保存修复后的数据
     res_path = os.path.join(args.output_path, f"{args.task_name}_repaired.csv")
     res_df = pd.read_csv(args.dirty_path)
@@ -82,7 +47,28 @@ def main():
             res_df.loc[i, v] = value_to_assign
 
     res_df.to_csv(res_path, index=False)
+    print("===============================================")
     print(f"Results saved to {res_path}")
+    print(f"Horizon finished in {elapsed_time} seconds.")
+    print("测评性能开始：")
+    # 读取干净数据、脏数据和修复后的数据
+    clean_data = pd.read_csv(args.clean_path)
+    dirty_data = pd.read_csv(args.dirty_path)
+    cleaned_data = pd.read_csv(args.output_path+'/'+args.task_name+'_repaired.csv')
+
+    # 根据规则定义的属性集合
+    attributes = clean_data.columns.tolist()
+
+    # 调用函数计算修复准确率和召回率
+    accuracy, recall = calculate_accuracy_and_recall(clean_data, dirty_data, cleaned_data, attributes, args.output_path, args.task_name)
+
+    # 输出修复的准确率和召回率
+    print(f"修复准确率: {accuracy}")
+    print(f"修复召回率: {recall}")
+    # 定义输出文件路径
+    out_path = os.path.join(args.output_path, f"{args.task_name}_evaluation.txt")
+
+    print("测评结束，详细测评日志见："+str(out_path))
 
 
 if __name__ == "__main__":

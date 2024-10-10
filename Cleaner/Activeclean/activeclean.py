@@ -8,6 +8,7 @@ from sklearn.svm import SVC
 from sklearn.linear_model import SGDClassifier
 from sklearn.metrics import classification_report, accuracy_score
 from scipy.sparse import hstack, vstack
+import pandas as pd
 import random
 import pickle
 
@@ -139,26 +140,81 @@ def ec_filter(dirtyex, full_data, clf, t=0.90):
 
 	return dirtyex
 
+#这部分是运行IMDB数据集的run函数，由于imdb数据集的数据处理逻辑不明确，之后的数据读入方法与imdb不太一致
+# def run(filepath):
+# 	# data是字典的形式，一共有8个元素，即下面访问的8个"../../Data/IMDB/"+filepat
+# 	data = pickle.load(open("../../Data/"+filepath,'rb'), encoding='latin1')
+# 	# X是以稀疏矩阵的形式存储，每个元素标记了坐标和取值
+# 	# y为array，标签为0 1
+# 	# indice表示clean和dirty在full中的下标
+# 	# size是int，表示full的大小
+# 	X_clean = data['X_clean']
+# 	y_clean = data['y_clean']
+# 	X_dirty = data['X_dirty']
+# 	y_dirty = data['y_dirty']
+# 	X_full = data['X_full']
+# 	indices_dirty = data['indices_dirty']
+# 	indices_clean = data['indices_clean']
+# 	size = data['shape']
+# 	examples = np.arange(0,size,1)
+# 	# 抽取训练集和测试集的下标；找到测试集索引中clean的索引和索引的索引（这里实现的好乱）
+# 	# 注意是找到了测试集中干净的
+# 	train_indices, test_indices = train_test_split(examples, test_size=0.20)
+# 	clean_test_indices = translate_indices(test_indices,indices_clean)
+# 	txt = activeclean((X_dirty, y_dirty),(X_clean, y_clean),(X_clean[clean_test_indices,:], y_clean[clean_test_indices]),X_full,(train_indices,indices_dirty,indices_clean))
+# 	return txt
 
-def run(filepath):
-	# data是字典的形式，一共有8个元素，即下面访问的8个"../../Data/IMDB/"+filepat
-	data = pickle.load(open("../../Data/"+filepath,'rb'), encoding='latin1')
-	# X是以稀疏矩阵的形式存储，每个元素标记了坐标和取值
-	# y为array，标签为0 1
-	# indice表示clean和dirty在full中的下标
-	# size是int，表示full的大小
-	X_clean = data['X_clean']
-	y_clean = data['y_clean']
-	X_dirty = data['X_dirty']
-	y_dirty = data['y_dirty']
-	X_full = data['X_full']
-	indices_dirty = data['indices_dirty']
-	indices_clean = data['indices_clean']
-	size = data['shape']
-	examples = np.arange(0,size,1)
-	# 抽取训练集和测试集的下标；找到测试集索引中clean的索引和索引的索引（这里实现的好乱）
-	# 注意是找到了测试集中干净的
-	train_indices, test_indices = train_test_split(examples, test_size=0.20)
-	clean_test_indices = translate_indices(test_indices,indices_clean)
-	txt = activeclean((X_dirty, y_dirty),(X_clean, y_clean),(X_clean[clean_test_indices,:], y_clean[clean_test_indices]),X_full,(train_indices,indices_dirty,indices_clean))
-	return txt
+def run(correct_data_path, injected_data_path):
+    """
+    运行 Activeclean 的主逻辑，读取两个数据集，一个是完全正确的，另一个是注入错误的。
+    Args:
+        correct_data_path (str): 完全正确的数据集路径
+        injected_data_path (str): 注入错误的数据集路径
+    Returns:
+        txt: 运行 activeclean 后返回的结果文本
+    """
+
+    # 读取完全正确的数据集 (作为对比数据)
+    correct_data = pd.read_csv(correct_data_path)
+    X_correct = correct_data.iloc[:, :-1].values  # 完全正确的数据集特征
+    y_correct = correct_data.iloc[:, -1].values   # 完全正确的数据集标签
+
+    # 读取注入错误的数据集
+    injected_data = pd.read_csv(injected_data_path)
+    X_full = injected_data.iloc[:, :-1].values  # 包含错误的完整数据集特征
+    y_full = injected_data.iloc[:, -1].values   # 包含错误的完整数据集标签
+
+    # 获取数据集大小
+    size = len(X_full)
+
+    # 通过对比两个数据集，确定哪些是干净数据，哪些是错误数据
+    indices_clean = np.where((X_full == X_correct).all(axis=1))[0]  # 找到干净数据的索引
+    indices_dirty = np.where((X_full != X_correct).any(axis=1))[0]  # 找到错误数据的索引
+
+    # 提取干净的数据部分
+    X_clean = X_full[indices_clean]  # 注入错误数据集中的干净特征数据
+    y_clean = y_full[indices_clean]  # 注入错误数据集中的干净标签数据
+
+    # 提取注入错误的数据部分
+    X_dirty = X_full[indices_dirty]  # 注入错误的数据特征
+    y_dirty = y_full[indices_dirty]  # 注入错误的数据标签
+
+    # 生成完整数据集的索引
+    examples = np.arange(0, size, 1)
+
+    # 分割训练集和测试集
+    train_indices, test_indices = train_test_split(examples, test_size=0.20)
+
+    # 将测试集中干净数据的索引转换为clean数据中的索引
+    clean_test_indices = translate_indices(test_indices, indices_clean)
+
+    # 调用 activeclean 函数进行数据清洗处理
+    txt = activeclean(
+        (X_dirty, y_dirty),  # 注入错误的数据
+        (X_clean, y_clean),  # 干净的数据
+        (X_clean[clean_test_indices], y_clean[clean_test_indices]),  # 干净的测试集
+        X_full,  # 完整的数据集
+        (train_indices, indices_dirty, indices_clean)  # 训练集和索引
+    )
+
+    return txt
