@@ -2,7 +2,7 @@ import pandas as pd
 import random
 
 
-def inject_missing_values(csv_file, output_file, attributes_error_ratio, missing_value_representation='empty'):
+def inject_missing_values(csv_file, output_file, attributes_error_ratio, missing_value_in_ori_data='empty',missing_value_representation='empty'):
     """
     注入空值的错误注入方法，并在注入之前将已有的空值统一替换为指定的表达方式。
 
@@ -19,8 +19,8 @@ def inject_missing_values(csv_file, output_file, attributes_error_ratio, missing
     df = pd.read_csv(csv_file)
 
     # 预处理：将已有的空值（NaN 或 空字符串）替换为 missing_value_representation
-    df = df.fillna(missing_value_representation)
-    df.replace('', missing_value_representation, inplace=True)
+    df = df.fillna(missing_value_in_ori_data)
+    df.replace('', missing_value_in_ori_data, inplace=True)
 
     # 遍历每个属性，注入空值
     for attribute, error_ratio in attributes_error_ratio.items():
@@ -59,5 +59,6 @@ inject_missing_values(
     csv_file='../Data/1_hospital/test/dirty_hospitals.csv',
     output_file='../Data/1_hospital/test/dirty_hospitals_null.csv',
     attributes_error_ratio=attributes_error_ratio,
+    missing_value_in_ori_data='empty',
     missing_value_representation='empty'
 )
