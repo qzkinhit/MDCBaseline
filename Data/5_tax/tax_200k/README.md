@@ -3,13 +3,13 @@
 
 ## 属性集
 ```text
-[ProviderNumber, HospitalName, Address1, Address2, Address3, City, State, ZipCode, CountyName, 
-PhoneNumber, HospitalType, HospitalOwner, EmergencyService, Condition, MeasureCode, MeasureName, 
-Score, Sample, Stateavg]
+[fname, lname, gender, areacode, phone, city, 
+state, zip, maritalstatus, haschild, salary, 
+rate, singleexemp, marriedexemp, childexemp]
 ```
 
 ## 数据规模
-**属性个数 × 条目数**：19 × 1000
+**属性个数 × 条目数**：15 × 200000
 
 ## 干净版本
 存在
@@ -19,8 +19,8 @@ Score, Sample, Stateavg]
 ### 错误数量：待填写
 
 ## 数据规则集、标签、知识存放路径
-- **FD 规则**：`../../Data/hospital/dc_rules-validate-fd-horizon.txt`
-- **DC 规则**：`../../Data/hospital/dc_rules_dc_holoclean.txt`
+- **FD 规则**：`../../Data/5_tax/dc_rules-validate-fd-horizon.txt`
+- **DC 规则**：`../../Data/5_tax/dc_rules_dc_holoclean.txt`
 
 
 ## 数据集出处
@@ -41,62 +41,62 @@ ProviderNumber、MeasureCode
        - 每个规则(不涉及主键属性)，每个规则涉及的属性总体 0.25% 的违反
        - 非主键属性0.25%的空缺值
        - 非主键属性0.25%的异常值
-       - **Original Error Count (OEC)** = 总错误单元格数 = 6494
-       - **错误条目数** = 待填写
+       - **Original Error Count (OEC)** = 总错误单元格数 = 9667
+       - **错误条目数** = 9253
        
     - **b. 0.5%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体0.5% 的违反
       - 非主键属性 0.5% 的空缺值
       - 非主键属性 0.5% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 12978
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 19099
+      - **错误条目数** = 18407
     
     - **c. 0.75%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 0.75% 的违反
       - 非主键属性 0.75% 的空缺值
       - 非主键属性 0.75% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 19333
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 28371
+      - **错误条目数** = 26723
     
     - **d. 1%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 1% 的违反
       - 非主键属性 1% 的空缺值
       - 非主键属性 1% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 25791
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 37746
+      - **错误条目数** = 34349
     
     - **e. 1.25%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 1.25% 的违反
       - 非主键属性 1.25% 的空缺值
       - 非主键属性 1.25% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 32480
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 47225
+      - **错误条目数** = 41674
     
     - **f. 1.5%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 1.5% 的违反
       - 非主键属性 1.5% 的空缺值
       - 非主键属性 1.5% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 38495
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 56089
+      - **错误条目数** = 48615
     
     - **g. 1.75%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 1.75% 的违反
       - 非主键属性 1.75% 的空缺值
       - 非主键属性 1.75% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 44975
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 65401
+      - **错误条目数** = 55096
     
     - **h. 2%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 2% 的违反
       - 非主键属性 2% 的空缺值
       - 非主键属性 2% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 51099
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 74203
+      - **错误条目数** = 62176
 
 
 ### 数据存放路径
-- **BART 脚本路径**：`待填写`
-- **数据存放路径**：`待填写`
+- **BART 脚本路径**：`../../Data/5_tax/tax_200k/tax_200k_mixed.xml`
+- **数据存放路径**：`../../Data/5_tax/tax_200k/dirty_mix_ratio/`
 
 ---
 

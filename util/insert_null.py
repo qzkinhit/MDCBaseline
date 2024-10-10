@@ -44,25 +44,20 @@ def inject_missing_values(csv_file, output_file, attributes_error_ratio, missing
 #使用方法
 # 属性列表
 attributes = [
-    "hospitalname",
     "city",
-    "address1",
-    "phonenumber",
-    "countyname",
-    "hospitalowner",
-    "zipcode",
-    "condition",
-    "stateavg",
-    "emergencyservice",
-    "measurename"
+    "state",
+    "childexemp",
+    "singleexemp",
+    "marriedexemp",
+    "gender",
 ]
 
-# 每个属性注入0.25%的错误比例
-attributes_error_ratio = {attribute: 0.25 for attribute in attributes}
+# 每个属性注入2%的错误比例
+attributes_error_ratio = {attribute: 2 for attribute in attributes}
 
 inject_missing_values(
-    csv_file='../Data/1_hospital/test/dirty_hospitals.csv',
-    output_file='../Data/1_hospital/test/dirty_hospitals_null.csv',
+    csv_file='../Data/5_tax/tax_200k/dirty_mix_2/dirty_tax.csv',
+    output_file='../Data/5_tax/tax_200k/dirty_mix_2/dirty_tax_null.csv',
     attributes_error_ratio=attributes_error_ratio,
     missing_value_in_ori_data='NULL',
     missing_value_representation='empty'
