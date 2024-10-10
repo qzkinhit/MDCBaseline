@@ -1,0 +1,41 @@
+import os
+import sys
+
+# 获取当前脚本所在目录的上级目录路径
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../../../')
+
+from util.insert_null import inject_missing_values
+
+# 属性列表
+attributes = [
+    "HospitalName",
+    "City",
+    "Address1",
+    "PhoneNumber",
+    "CountyName",
+    "HospitalOwner",
+    "ZipCode",
+    "Zondition",
+    "Stateavg",
+    "EmergencyService",
+    "MeasureName"
+]
+
+# 每个属性注入1.25%的错误比例
+attributes_error_ratio = {attribute: 1.25 for attribute in attributes}
+
+inject_missing_values(
+    csv_file='dirty_hospitals.csv',
+    output_file='dirty_hospitals_null.csv',
+    attributes_error_ratio=attributes_error_ratio,
+    missing_value_in_ori_data='NULL',
+    missing_value_representation='empty'
+)
+
+inject_missing_values(
+    csv_file='../../../1_hospital/hospital_clean_index.csv',
+    output_file='../../../1_hospital/hospital_clean_index.csv',
+    attributes_error_ratio=None,
+    missing_value_in_ori_data='NULL',
+    missing_value_representation='empty'
+)
