@@ -32,9 +32,10 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
         total_true_negatives = 0
 
         for attribute in attributes:
-            clean_values = clean[attribute]
-            dirty_values = dirty[attribute]
-            cleaned_values = cleaned[attribute]
+            # 确保所有属性的数据类型为字符串
+            clean_values = clean[attribute].astype(str)
+            dirty_values = dirty[attribute].astype(str)
+            cleaned_values = cleaned[attribute].astype(str)
 
             # 对齐索引
             common_indices = clean_values.index.intersection(cleaned_values.index).intersection(dirty_values.index)
