@@ -402,8 +402,8 @@ def Horizon(dirty_path, rule_path, clean_path):
     # 读取脏数据和干净数据
     dirty_df = pd.read_csv(dirty_path).astype(str)  # 读取脏数据，并将所有数据转为字符串
     clean_df = pd.read_csv(clean_path).astype(str)  # 读取干净数据，并将所有数据转为字符串
-    dirty_df = dirty_df.fillna("nan")  # 将脏数据中的缺失值填充为 "nan"
-    clean_df = clean_df.fillna("nan")  # 将干净数据中的缺失值填充为 "nan"
+    dirty_df = dirty_df.fillna("empty")  # 将脏数据中的缺失值填充为 "nan"
+    clean_df = clean_df.fillna("empty")  # 将干净数据中的缺失值填充为 "nan"
 
     # 识别脏单元格
     dirty_c = dirty_cells(dirty_df, clean_df)  # 调用 dirty_cells 函数，识别哪些单元格是脏的

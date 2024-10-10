@@ -90,21 +90,21 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
 
 
 # 使用示例
-dirty_data = pd.read_csv('../Data/1_hospital/noise_with_correct_primary_key/dirty_mix_0.5/dirty_hospitals_index.csv')
-clean_data = pd.read_csv('../Data/1_hospital/hospital_clean_index.csv')
-cleaned_data = pd.read_csv('../results/horizon/hospital_horizon_test/hospital_horizon_test_repaired.csv')
-
-# 根据规则定义的属性集合
-attributes = clean_data.columns.tolist()
-
-# 调用函数计算修复准确率和召回率
-accuracy, recall = calculate_accuracy_and_recall(clean_data, dirty_data, cleaned_data, attributes, "./",
-                                                 'test')
-
-# 输出修复的准确率和召回率
-print(f"修复准确率: {accuracy}")
-print(f"修复召回率: {recall}")
-# 定义输出文件路径
-out_path = os.path.join('./', f"test_evaluation.txt")
-
-print("测评结束，详细测评日志见：" + str(out_path))
+# dirty_data = pd.read_csv('../Data/1_hospital/noise_with_correct_primary_key/dirty_mix_0.5/dirty_hospitals_index.csv')
+# clean_data = pd.read_csv('../Data/1_hospital/hospital_clean_index.csv')
+# cleaned_data = pd.read_csv('../results/horizon/hospital_horizon_test/hospital_horizon_test_repaired.csv')
+#
+# # 根据规则定义的属性集合
+# attributes = clean_data.columns.tolist()
+#
+# # 调用函数计算修复准确率和召回率
+# accuracy, recall = calculate_accuracy_and_recall(clean_data, dirty_data, cleaned_data, attributes, "./",
+#                                                  'test')
+#
+# # 输出修复的准确率和召回率
+# print(f"修复准确率: {accuracy}")
+# print(f"修复召回率: {recall}")
+# # 定义输出文件路径
+# out_path = os.path.join('./', f"test_evaluation.txt")
+#
+# print("测评结束，详细测评日志见：" + str(out_path))
