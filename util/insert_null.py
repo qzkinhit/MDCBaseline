@@ -10,6 +10,7 @@ def inject_missing_values(csv_file, output_file, attributes_error_ratio, missing
         csv_file (str): 输入的CSV文件路径。
         output_file (str): 输出的CSV文件路径。
         attributes_error_ratio (dict): 字典，键为属性名，值为错误比例（百分比）。
+        missing_value_in_ori_data (str): 原始数据中空值的表达方式（默认值为"empty"）。
         missing_value_representation (str): 空值的表达方式（默认值为"empty"）。
 
     输出:
