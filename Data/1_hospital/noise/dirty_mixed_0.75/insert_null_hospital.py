@@ -41,8 +41,8 @@ inject_missing_values(
 )
 
 inject_missing_values(
-    csv_file='../../../1_hospital/hospital_clean_index.csv',
-    output_file='../../../1_hospital/hospital_clean_index.csv',
+    csv_file='../../clean_index.csv',
+    output_file='../../clean_index.csv',
     attributes_error_ratio=None,
     missing_value_in_ori_data='NULL',
     missing_value_representation='empty'

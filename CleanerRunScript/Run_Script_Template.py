@@ -74,4 +74,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# python run_horizon_base.py --dirty_path ../../Data/1_hospital/test/dirty_hospitals.csv --rule_path ../../Data/1_hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/1_hospital/hospital_clean_index.csv --task_name hospital_horizon_test --output_path ../../results/horizon/hospital_horizon_test
+# python run_horizon_base.py --dirty_path ../../Data/1_hospital/test/dirty_hospitals.csv --rule_path ../../Data/1_hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean_index.csv --task_name hospital_horizon_test --output_path ../../results/horizon/hospital_horizon_test

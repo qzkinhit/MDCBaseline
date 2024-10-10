@@ -8,7 +8,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../../../')
 from util.get_error_num import count_inconsistent_entries,generate_change_report
 
 dirty_df = pd.read_csv('dirty_hospitals_null.csv')
-clean_df = pd.read_csv('../../../1_hospital/hospital_clean_index.csv')
+clean_df = pd.read_csv('../../clean_index.csv')
 
 num_entry = count_inconsistent_entries(
     dirty_df=dirty_df,
