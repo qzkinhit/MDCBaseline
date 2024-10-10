@@ -131,3 +131,14 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
     print(f"差异文件已保存到:\n{clean_dirty_diff_path}\n{dirty_cleaned_diff_path}\n{clean_cleaned_diff_path}")
 
     return accuracy, recall
+
+
+def calF1(precision, recall):
+    """
+    计算F1值
+
+    :param precision: 精度
+    :param recall: 召回率
+    :return: F1值
+    """
+    return 2 * precision * recall / (precision + recall + 1e-10)

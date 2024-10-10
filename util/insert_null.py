@@ -24,6 +24,7 @@ def inject_missing_values(csv_file, output_file, attributes_error_ratio, missing
     df.replace('', missing_value_representation, inplace=True)
     df.replace('nan', missing_value_representation, inplace=True)
     df.replace('null', missing_value_representation, inplace=True)
+    df.replace('__NULL__', missing_value_representation, inplace=True)
     df.replace(missing_value_in_ori_data, missing_value_representation, inplace=True)
 
     # 遍历每个属性，注入空值
@@ -63,6 +64,6 @@ inject_missing_values(
     csv_file='../Data/1_hospital/test/dirty_hospitals.csv',
     output_file='../Data/1_hospital/test/dirty_hospitals_null.csv',
     attributes_error_ratio=attributes_error_ratio,
-    missing_value_in_ori_data='empty',
+    missing_value_in_ori_data='NULL',
     missing_value_representation='empty'
 )

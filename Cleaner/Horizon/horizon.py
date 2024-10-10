@@ -312,7 +312,7 @@ def GeneratePatternPreservingRepairs(dirty_path, constraints_path, gt_wrong_cell
 
     # 4. 读取脏数据文件
     with open(dirty_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, restval='nan')
+        reader = csv.DictReader(f, restval='empty')
         data = pd.read_csv(dirty_path)
         data = data.fillna("empty")  # 用 'empty' 填充空缺值
         data = data.astype(str)  # 确保数据都是字符串格式
