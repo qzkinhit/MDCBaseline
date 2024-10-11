@@ -1,6 +1,7 @@
-brewery_name ⇒ brewery_id
 brewery_id ⇒ brewery_name
 brewery_id ⇒ city
 brewery_id ⇒ state
-beer_name ⇒ brewery_id
-brewery_name ⇒ brewery_id
+beer_name ⇒ ibu
+abv ⇒ ibu
+brewery_name ⇒ state
+style ⇒ state
