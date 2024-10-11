@@ -73,9 +73,9 @@ fd7: tax(tno: $tno1, fname: $fname1, lname: $lname1, gender: $gender1, areacode:
     <applyCellChanges>true</applyCellChanges>
     <estimateRepairability>true</estimateRepairability>
     <exportCellChanges>true</exportCellChanges>
-    <exportCellChangesPath>dirty_mix_2/cellChanges.csv</exportCellChangesPath>
+    <exportCellChangesPath>noise_with_correct_primary_key/dirty_mix_2/cellChanges.csv</exportCellChangesPath>
     <exportDirtyDB>true</exportDirtyDB>
-    <exportDirtyDBPath>dirty_mix_2/</exportDirtyDBPath>
+    <exportDirtyDBPath>noise_with_correct_primary_key/dirty_mix_2/</exportDirtyDBPath>
     <exportDirtyDBType>CSV</exportDirtyDBType>
     <useDeltaDBForChanges>true</useDeltaDBForChanges>
     <cloneTargetSchema>true</cloneTargetSchema>
