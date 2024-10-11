@@ -36,7 +36,7 @@ def main():
     )
     # 保存修复后的数据
     res_path = os.path.join(args.output_path, f"{args.task_name}_repaired.csv")
-    res_df = pd.read_csv(args.dirty_path)
+    res_df = pd.read_csv(args.dirty_path,dtype={'ZipCode': str,'PhoneNumber':str})
     for i in range(len(res_df)):
         for v in pattern_expressions[i]:
             value_to_assign = pattern_expressions[i][v]

@@ -1,0 +1,100 @@
+index,attribute,dirty_value,clean_value
+287,ProviderNumber,10018,10016
+417,ProviderNumber,1016i4,10164
+457,ProviderNumber,100j19,10019
+668,ProviderNumber,empty,10033
+792,ProviderNumber,empty,10039
+86,HospitalName,callahan eye foundation hospital,eliza coffee memorial hospital
+152,HospitalName,callahan eye foundation hospital,hartselle medical center
+205,HospitalName,callahan eye foundation hospital,st vincents east
+228,HospitalName,callahan eye foundation hospital,dekalb regional medical center
+248,HospitalName,callahan eye foundation hospital,southwest alabama medical center
+274,HospitalName,callahan eye foundation hospital,shelby baptist medical center
+461,HospitalName,helen keller memorial hospiwtal,helen keller memorial hospital
+509,HospitalName,empty,cherokee medical center
+926,HospitalName,empty,riverview regional medical center
+18,Address1,g1300 south montgomery avenue,1300 south montgomery avenue
+214,Address1,empty,50 medical park east drive
+223,Address1,200 med center rive,200 med center drive
+723,Address1,empty,1912 alabama highway 157
+807,Address1,1007 godyear avenue,1007 goodyear avenue
+835,Address1,1010 laydam road,1010 lay dam road
+167,Address2,mpty,empty
+183,Address2,emptjy,empty
+636,Address2,qempty,empty
+734,Address2,emtpy,empty
+781,Address2,mpty,empty
+876,Address2,mpty,empty
+527,Address3,mepty,empty
+641,Address3,empyt,empty
+677,Address3,mpty,empty
+156,City,birmingham,hartselle
+303,City,birmingahm,birmingham
+372,City,wnfield,winfield
+496,City,empty,centre
+611,City,empty,elba
+147,State,empty,al
+180,State,empty,al
+579,State,agl,al
+815,State,bal,al
+11,ZipCode,empty,35660
+14,ZipCode,53660,35660
+97,ZipCode,35233,36467
+295,ZipCode,35323,35233
+745,ZipCode,364b20,36420
+843,ZipCode,empty,35045
+872,ZipCode,3570,35570
+290,CountyName,helby,shelby
+947,CountyName,empty,butler
+982,CountyName,empty,blount
+112,PhoneNumber,empty,3344933541
+402,PhoneNumber,334314267,3343614267
+453,PhoneNumber,2563864565,2563864556
+586,PhoneNumber,334756a1400,3347561400
+799,PhoneNumber,empty,2562651000
+95,HospitalType,empty,acute care hospitals
+301,HospitalType,acute car ehospitals,acute care hospitals
+504,HospitalType,aucte care hospitals,acute care hospitals
+728,HospitalType,empty,acute care hospitals
+5,HospitalOwner,voluntary onn-profit - private,voluntary non-profit - private
+97,HospitalOwner,voluntary non-prbofit - private,voluntary non-profit - private
+651,HospitalOwner,empty,government - local
+731,HospitalOwner,empty,government - hospital district or authority
+823,HospitalOwner,proprieary,proprietary
+173,EmergencyService,empty,yes
+459,EmergencyService,eys,yes
+679,EmergencyService,eys,yes
+719,EmergencyService,empty,yes
+989,EmergencyService,yse,yes
+37,Condition,surgical infectionr prevention,surgical infection prevention
+187,Condition,surgical infection pervention,surgical infection prevention
+235,Condition,apneumonia,pneumonia
+411,Condition,empty,surgical infection prevention
+655,Condition,pneumjonia,pneumonia
+923,Condition,empty,surgical infection prevention
+957,Condition,heart attagck,heart attack
+14,MeasureCode,scip-card-2,ami-7a
+16,MeasureCode,scip-card-2,hf-1
+102,MeasureCode,empty,hf-1
+270,MeasureCode,scip-card-2,ami-1
+336,MeasureCode,pkn-3b,pn-3b
+347,MeasureCode,empty,scip-vte-1
+575,MeasureCode,fh-2,hf-2
+223,MeasureName,heart attack patients givensmoking cessation advice/counseling,heart attack patients given smoking cessation advice/counseling
+520,MeasureName,empty,heart attack patients given smoking cessation advice/counseling
+592,MeasureName,heart attack patients gdiven aspirin at arrival,heart attack patients given aspirin at arrival
+661,MeasureName,empty,surgery patients who were given the  right kind  of antibiotic to help prevent infection
+968,MeasureName,pneumonia patients whos initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
+646,Score,empty,67%
+48,Sample,0 psatients,0 patients
+112,Sample,11 patienst,11 patients
+508,Sample,empty,31 patients
+869,Sample,empty,85 patients
+883,Sample,0 wpatients,0 patients
+5,Stateavg,a_lscip-inf-4,al_scip-inf-4
+126,Stateavg,l_ami-8a,al_ami-8a
+297,Stateavg,empty,al_ami-3
+311,Stateavg,wal_pn-7,al_pn-7
+595,Stateavg,al_amii-4,al_ami-4
+655,Stateavg,al_pn-n4,al_pn-4
+784,Stateavg,empty,al_ami-8a

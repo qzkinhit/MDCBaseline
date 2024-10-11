@@ -13,6 +13,13 @@ def separateCellChange(input_path, output_path):
     df.to_csv(output_path, index=False, header=False)
 
 
+def countCellDifference(clean_path, dirty_path):
+    df_dirty = pd.read_csv(dirty_path, dtype=str)
+    df_clean = pd.read_csv(clean_path, dtype=str)
+    differences = df_dirty.ne(df_clean)
+    print(differences.sum().sum())
+
+
 def countTupleDifference(clean_path, dirty_path):
     df_dirty = pd.read_csv(dirty_path, dtype=str)
     df_clean = pd.read_csv(clean_path, dtype=str)
@@ -20,6 +27,7 @@ def countTupleDifference(clean_path, dirty_path):
     print(differences.sum())
 
 
-# indexData("tax_200k/tax_200k_clean.csv", "tax_200k/tax_200k_clean_id.csv")
+# indexData("tax_20k/tax_20k_clean.csv", "tax_20k/tax_20k_clean_id.csv")
 # separateCellChange("tax_200k/dirty_mix_0.5/cellChanges.csv", "tax_200k/dirty_mix_0.5/cell_changes.csv")
-countTupleDifference("tax_200k/tax_200k_clean_id.csv", "tax_200k/dirty_mix_0.5/dirty_tax.csv")
+countCellDifference("tax_20k/tax_20k_clean_id.csv", "tax_20k/dirty_mix_2/dirty_tax_null.csv")
+countTupleDifference("tax_20k/tax_20k_clean_id.csv", "tax_20k/dirty_mix_2/dirty_tax_null.csv")

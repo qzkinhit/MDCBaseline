@@ -1,0 +1,74 @@
+index,attribute,dirty_value,clean_value
+6,HospitalName,callahane ye foundation hospital,callahan eye foundation hospital
+18,HospitalName,callahan eye foundation hospital,helen keller memorial hospital
+126,HospitalName,callahan eye foundation hospital,crenshaw community hospital
+138,HospitalName,crenshawcommunity hospital,crenshaw community hospital
+145,HospitalName,callahan eye foundation hospital,hartselle medical center
+146,HospitalName,callahan eye foundation hospital,hartselle medical center
+153,HospitalName,callahan eye foundation hospital,hartselle medical center
+216,HospitalName,callahan eye foundation hospital,st vincents east
+258,HospitalName,callahan eye foundation hospital,southwest alabama medical center
+353,HospitalName,empty,st vincents hospital
+460,HospitalName,helen keller memorialhospital,helen keller memorial hospital
+461,HospitalName,helen keller memorial hosptial,helen keller memorial hospital
+608,HospitalName,empty,elba general hospital
+981,HospitalName,st vincents bolount,st vincents blount
+64,Address1,2505 u sh ighway 431 north,2505 u s highway 431 north
+423,Address1,315 w hickory ts,315 w hickory st
+459,Address1,1300 south montgomfery avenue,1300 south montgomery avenue
+525,Address1,empty,2105 east south boulevard
+724,Address1,empty,1912 alabama highway 157
+881,Address1,1653 temple avenue nomrth,1653 temple avenue north
+15,City,shefifeld,sheffield
+106,City,birmingham,opp
+197,City,birmindgham,birmingham
+304,City,birminghma,birmingham
+326,City,empty,anniston
+410,City,empty,prattville
+697,City,talassee,tallassee
+95,ZipCode,35233,36467
+153,ZipCode,5640,35640
+296,ZipCode,3523g3,35233
+567,ZipCode,368t54,36854
+699,ZipCode,3607h8,36078
+777,ZipCode,empty,35801
+784,ZipCode,3801,35801
+963,ZipCode,empty,36330
+171,CountyName,marsall,marshall
+189,CountyName,marsall,marshall
+278,CountyName,shebly,shelby
+936,CountyName,empty,butler
+975,CountyName,empty,coffee
+293,PhoneNumber,2056280100,2056208100
+295,PhoneNumber,205325810,2053258100
+309,PhoneNumber,2503258100,2053258100
+764,PhoneNumber,empty,3342228466
+769,PhoneNumber,empty,2562358900
+9,HospitalOwner,government - hospital district or authoristy,government - hospital district or authority
+232,HospitalOwner,voluntary non-profit-  church,voluntary non-profit - church
+469,HospitalOwner,govrenment - hospital district or authority,government - hospital district or authority
+486,HospitalOwner,empty,government - hospital district or authority
+628,HospitalOwner,government - hospitald istrict or authority,government - hospital district or authority
+813,HospitalOwner,empty,proprietary
+943,HospitalOwner,volutary non-profit - private,voluntary non-profit - private
+4,EmergencyService,eys,yes
+267,EmergencyService,ydes,yes
+278,EmergencyService,fyes,yes
+536,EmergencyService,empty,yes
+951,EmergencyService,empty,no
+379,Condition,srgical infection prevention,surgical infection prevention
+414,Condition,surgical infectio nprevention,surgical infection prevention
+9,MeasureName,heart attack patients given aspirn at arrival,heart attack patients given aspirin at arrival
+31,MeasureName,pneumonia patients assessed and given pneumococcal vaccwination,pneumonia patients assessed and given pneumococcal vaccination
+186,MeasureName,empty,pneumonia patients assessed and given influenza vaccination
+454,MeasureName,empty,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
+692,MeasureName,heart attack patientsi given aspirin at arrival,heart attack patients given aspirin at arrival
+983,MeasureName,heart attack patients givenace inhibitor or arb for left ventricular systolic dysfunction (lvsd),heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
+186,Stateavg,empty,al_pn-7
+242,Stateavg,al_scip-nif-6,al_scip-inf-6
+281,Stateavg,al_apn-2,al_pn-2
+292,Stateavg,al_scip-if-6,al_scip-inf-6
+346,Stateavg,al_scipinf-6,al_scip-inf-6
+735,Stateavg,al_sci-pinf-1,al_scip-inf-1
+758,Stateavg,al_pnf-7,al_pn-7
+787,Stateavg,empty,al_hf-3

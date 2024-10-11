@@ -1,0 +1,295 @@
+Attribute,Index,Dirty Value,Cleaned Value
+ProviderNumber,53,10005,10018
+ProviderNumber,54,10005,10018
+ProviderNumber,55,10005,10018
+ProviderNumber,56,10005,10018
+ProviderNumber,57,10005,10018
+ProviderNumber,58,10005,10018
+ProviderNumber,59,10005,10018
+ProviderNumber,83,10006,10018
+ProviderNumber,84,10006,10018
+ProviderNumber,162,10009,10018
+ProviderNumber,163,10009,10018
+ProviderNumber,179,10010,10018
+ProviderNumber,180,10010,10018
+ProviderNumber,288,10016,10018
+ProviderNumber,289,10016,10018
+Address1,17,1300 soth montgomery avenue,1300 south montgomery avenue
+Address1,18,130v0 south montgomery avenue,1300 south montgomery avenue
+Address1,53,2505 u s highway 431 north,1720 university blvd
+Address1,54,2505 u s highway 431 north,1720 university blvd
+Address1,55,2505 u s highway 431 north,1720 university blvd
+Address1,56,2505 u s highway 431 north,1720 university blvd
+Address1,57,2505 u s highway 431 north,1720 university blvd
+Address1,58,2505 u s highway 431 north,1720 university blvd
+Address1,59,2505 u s highway 431 north,1720 university blvd
+Address1,83,205 marengo street,1720 university blvd
+Address1,84,205 marengo street,1720 university blvd
+Address1,162,201 pine street northwest,1720 university blvd
+Address1,163,201 pine street northwest,1720 university blvd
+Address1,179,8000 alabama highway 69,1720 university blvd
+Address1,180,8000 alabama highway 69,1720 university blvd
+Address1,288,1000 first street north,1720 university blvd
+Address1,289,1000 first street north,1720 university blvd
+Address1,339,4370w est main street,4370 west main street
+Address1,497,400 northwood dr***,400 northwood dr
+Address1,552,175 pine street,1725 pine street
+Address1,706,805 friendship rvoad,805 friendship road
+City,53,boaz,birmingham
+City,54,boaz,birmingham
+City,55,boaz,birmingham
+City,56,boaz,birmingham
+City,57,boaz,birmingham
+City,58,boaz,birmingham
+City,59,boaz,birmingham
+City,83,florence,birmingham
+City,84,florence,birmingham
+City,162,hartselle,birmingham
+City,163,hartselle,birmingham
+City,179,guntersville,birmingham
+City,180,guntersville,birmingham
+City,265,birmingham,thomasville
+City,266,birmingham,thomasville
+City,288,alabaster,birmingham
+City,289,alabaster,birmingham
+City,295,birmingahm,birmingham
+City,296,birminham,birmingham
+City,497,entre,centre
+City,698,atllassee,tallassee
+City,900,faeytte,fayette
+ZipCode,7,3523,35233
+ZipCode,53,35957,35233
+ZipCode,54,35957,35233
+ZipCode,55,35957,35233
+ZipCode,56,35957,35233
+ZipCode,57,35957,35233
+ZipCode,58,35957,35233
+ZipCode,59,35957,35233
+ZipCode,83,35631,35233
+ZipCode,84,35631,35233
+ZipCode,162,35640,35233
+ZipCode,163,35640,35233
+ZipCode,175,5976,35976
+ZipCode,179,35976,35233
+ZipCode,180,35976,35233
+ZipCode,215,l35235,35235
+ZipCode,288,35007,35233
+ZipCode,289,35007,35233
+ZipCode,294,32533,35233
+ZipCode,418,3p5150,35150
+ZipCode,439,99508***,99508
+ZipCode,627,3601,36801
+ZipCode,686,35233***,35233
+ZipCode,809,h35903,35903
+CountyName,53,marshall,jefferson
+CountyName,54,marshall,jefferson
+CountyName,55,marshall,jefferson
+CountyName,56,marshall,jefferson
+CountyName,57,marshall,jefferson
+CountyName,58,marshall,jefferson
+CountyName,59,marshall,jefferson
+CountyName,83,lauderdale,jefferson
+CountyName,84,lauderdale,jefferson
+CountyName,162,morgan,jefferson
+CountyName,163,morgan,jefferson
+CountyName,179,marshall,jefferson
+CountyName,180,marshall,jefferson
+CountyName,278,shlby,shelby
+CountyName,279,helby,shelby
+CountyName,288,shelby,jefferson
+CountyName,289,shelby,jefferson
+CountyName,393,autauga,autaugza
+CountyName,394,autauga,autaugza
+CountyName,395,autauga,autaugza
+CountyName,396,autauga,autaugza
+CountyName,397,autauga,autaugza
+CountyName,398,autauga,autaugza
+CountyName,399,autauga,autaugza
+CountyName,400,autauga,autaugza
+CountyName,401,autauga,autaugza
+CountyName,402,autauga,autaugza
+CountyName,403,autauga,autaugza
+CountyName,404,autauga,autaugza
+CountyName,405,autauga,autaugza
+CountyName,406,autauga,autaugza
+CountyName,407,autauga,autaugza
+CountyName,408,autauga,autaugza
+CountyName,409,autauga,autaugza
+CountyName,410,autauga,autaugza
+CountyName,411,autauga,autaugza
+CountyName,432,anchorage,anchrage
+CountyName,433,anchorage,anchrage
+CountyName,434,anchorage,anchrage
+CountyName,435,anchorage,anchrage
+CountyName,436,anchorage,anchrage
+CountyName,437,anchorage,anchrage
+CountyName,438,anchorage,anchrage
+CountyName,439,anchorage,anchrage
+CountyName,441,anchorage,anchrage
+CountyName,442,anchorage,anchrage
+CountyName,443,anchorage,anchrage
+CountyName,444,anchorage,anchrage
+CountyName,445,anchorage,anchrage
+CountyName,446,anchorage,anchrage
+CountyName,447,anchorage,anchrage
+CountyName,448,anchorage,anchrage
+CountyName,449,anchorage,anchrage
+CountyName,516,montgomery,montgoery
+CountyName,517,montgomery,montgoery
+CountyName,518,montgomery,montgoery
+CountyName,519,montgomery,montgoery
+CountyName,521,montgomery,montgoery
+CountyName,522,montgomery,montgoery
+CountyName,523,montgomery,montgoery
+CountyName,524,montgomery,montgoery
+CountyName,525,montgomery,montgoery
+CountyName,526,montgomery,montgoery
+CountyName,527,montgomery,montgoery
+CountyName,528,montgomery,montgoery
+CountyName,529,montgomery,montgoery
+CountyName,530,montgomery,montgoery
+CountyName,531,montgomery,montgoery
+CountyName,532,montgomery,montgoery
+CountyName,533,montgomery,montgoery
+CountyName,534,montgomery,montgoery
+CountyName,535,montgomery,montgoery
+CountyName,536,montgomery,montgoery
+CountyName,537,montgomery,montgoery
+CountyName,538,montgomery,montgoery
+CountyName,539,montgomery,montgoery
+CountyName,540,montgomery,montgoery
+CountyName,541,montgomery,montgoery
+CountyName,542,montgomery,montgoery
+CountyName,543,montgomery,montgoery
+CountyName,544,montgomery,montgoery
+CountyName,545,montgomery,montgoery
+CountyName,546,montgomery,montgoery
+CountyName,547,montgomery,montgoery
+CountyName,548,montgomery,montgoery
+CountyName,549,montgomery,montgoery
+CountyName,550,montgomery,montgoery
+CountyName,551,montgomery,montgoery
+CountyName,552,montgomery,montgoery
+CountyName,553,montgomery,montgoery
+CountyName,554,montgomery,montgoery
+CountyName,555,montgomery,montgoery
+CountyName,556,montgomery,montgoery
+CountyName,557,montgomery,montgoery
+CountyName,558,montgomery,montgoery
+CountyName,559,montgomery,montgoery
+CountyName,560,montgomery,montgoery
+CountyName,561,montgomery,montgoery
+CountyName,562,montgomery,montgoery
+CountyName,563,montgomery,montgoery
+CountyName,564,montgomery,montgoery
+CountyName,565,montgomery,montgoery
+CountyName,575,chambres,chambers
+CountyName,590,chmbers,chambers
+CountyName,622,ele,lee
+CountyName,873,mrarion,marion
+PhoneNumber,53,2565938310,2053258100
+PhoneNumber,54,2565938310,2053258100
+PhoneNumber,55,2565938310,2053258100
+PhoneNumber,56,2565938310,2053258100
+PhoneNumber,57,2565938310,2053258100
+PhoneNumber,58,2565938310,2053258100
+PhoneNumber,59,2565938310,2053258100
+PhoneNumber,83,2567688400,2053258100
+PhoneNumber,84,2567688400,2053258100
+PhoneNumber,124,334335374,3343353374
+PhoneNumber,155,r2567736511,2567736511
+PhoneNumber,162,2567736511,2053258100
+PhoneNumber,163,2567736511,2053258100
+PhoneNumber,179,2565718000,2053258100
+PhoneNumber,180,2565718000,2053258100
+PhoneNumber,268,346366221,3346366221
+PhoneNumber,288,2056208100,2053258100
+PhoneNumber,289,2056208100,2053258100
+PhoneNumber,431,25624o95000,2562495000
+PhoneNumber,456,25638o64556,2563864556
+PhoneNumber,457,2568364556,2563864556
+PhoneNumber,528,342882100,3342882100
+PhoneNumber,722,256732000,2567372000
+PhoneNumber,960,33434705d84,3343470584
+HospitalOwner,53,government - hospital district or authority,voluntary non-profit - private
+HospitalOwner,54,government - hospital district or authority,voluntary non-profit - private
+HospitalOwner,55,government - hospital district or authority,voluntary non-profit - private
+HospitalOwner,56,government - hospital district or authority,voluntary non-profit - private
+HospitalOwner,57,government - hospital district or authority,voluntary non-profit - private
+HospitalOwner,58,government - hospital district or authority,voluntary non-profit - private
+HospitalOwner,59,government - hospital district or authority,voluntary non-profit - private
+HospitalOwner,63,governmetn - hospital district or authority,government - hospital district or authority
+HospitalOwner,83,voluntary non-profit - other,voluntary non-profit - private
+HospitalOwner,84,voluntary non-profit - other,voluntary non-profit - private
+HospitalOwner,162,proprietary,voluntary non-profit - private
+HospitalOwner,163,proprietary,voluntary non-profit - private
+HospitalOwner,179,government - hospital district or authority,voluntary non-profit - private
+HospitalOwner,180,government - hospital district or authority,voluntary non-profit - private
+HospitalOwner,288,voluntary non-profit - church,voluntary non-profit - private
+HospitalOwner,289,voluntary non-profit - church,voluntary non-profit - private
+HospitalOwner,307,voluntary noan-profit - private,voluntary non-profit - private
+HospitalOwner,308,voluntary non-profit - privte,voluntary non-profit - private
+HospitalOwner,341,proprietry,proprietary
+HospitalOwner,391,government - stalte,government - state
+HospitalOwner,503,voluntary non-porfit - private,voluntary non-profit - private
+HospitalOwner,711,vlountary non-profit - private,voluntary non-profit - private
+HospitalOwner,726,government - qhospital district or authority,government - hospital district or authority
+EmergencyService,114,nyo,no
+EmergencyService,285,yse,yes
+EmergencyService,297,es,yes
+EmergencyService,298,es,yes
+EmergencyService,546,yefs,yes
+EmergencyService,648,o,no
+EmergencyService,948,rno,no
+Condition,449,surgical infection preveyntion,surgical infection prevention
+Condition,479,pneuomnia,pneumonia
+Condition,544,heart attakc,heart attack
+Condition,569,hearat attack,heart attack
+Condition,594,heart attactk,heart attack
+Condition,619,heart tatack,heart attack
+Condition,644,herat attack,heart attack
+MeasureName,76,herat failure patients given discharge instructions,heart failure patients given discharge instructions
+MeasureName,229,heart failure patients given smokng cessation advice/counseling,heart failure patients given smoking cessation advice/counseling
+MeasureName,244,heart attack patients given aspirin a tarrival,heart attack patients given aspirin at arrival
+MeasureName,313,heart attack patients given aspirin atl arrival,heart attack patients given aspirin at arrival
+MeasureName,357,heart attack patients given smoking cessatoin advice/counseling,heart attack patients given smoking cessation advice/counseling
+MeasureName,446,all heart surgery patient swhose blood sugar (blood glucose) is kept under good control in the days right after surgery,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
+MeasureName,455,pneumonia patients given initial antibiotic(ms) within 6 hours after arrival,pneumonia patients given initial antibiotic(s) within 6 hours after arrival
+MeasureName,566,heart attack patients given aspirin at arrikval,heart attack patients given aspirin at arrival
+MeasureName,783,heart attack patients given pci within 90 minutes of rarival,heart attack patients given pci within 90 minutes of arrival
+MeasureName,802,hert attack patients given aspirin at arrival,heart attack patients given aspirin at arrival
+MeasureName,852,heart attack patients given aspirin at arirval,heart attack patients given aspirin at arrival
+Stateavg,26,la_hf-1,al_hf-1
+Stateavg,65,al_scip-inf4,al_scip-inf-4
+Stateavg,128,l_hf-3,al_hf-3
+Stateavg,151,al_hf1-,al_hf-1
+Stateavg,432,ak_hf-1,al_hf-1
+Stateavg,433,ak_hf-2,al_hf-2
+Stateavg,434,ak_hf-3,al_hf-3
+Stateavg,435,ak_hf-4,al_hf-4
+Stateavg,436,ak_pn-2,al_pn-2
+Stateavg,437,ak_pn-3b,al_pn-3b
+Stateavg,438,ak_pn-4,al_pn-4
+Stateavg,439,ak_pn-5c,al_pn-5c
+Stateavg,440,ak_pn-6,al_pn-6
+Stateavg,441,ak_pn-7,al_pn-7
+Stateavg,442,ak_scip-card-2,al_scip-card-2
+Stateavg,443,ak_scip-inf-1,al_scip-inf-1
+Stateavg,444,ak_scip-inf-2,al_scip-inf-2
+Stateavg,445,ak_scip-inf-3,al_scip-inf-3
+Stateavg,446,ak_scip-inf-4,al_scip-inf-4
+Stateavg,447,ak_scip-inf-6,al_scip-inf-6
+Stateavg,448,ak_scip-vte-1,al_scip-vte-1
+Stateavg,449,ak_scip-vte-2,al_scip-vte-2
+Stateavg,450,ak_ami-1,al_ami-1
+Stateavg,451,ak_ami-2,al_ami-2
+Stateavg,474,al_h-2,al_hf-2
+Stateavg,581,al_pn-g6,al_pn-6
+Stateavg,608,als_cip-card-2,al_scip-card-2
+Stateavg,686,al_scipinf-3,al_scip-inf-3
+Stateavg,711,al_sci-inf-3,al_scip-inf-3
+Stateavg,736,a_lscip-inf-3,al_scip-inf-3
+Stateavg,761,lal_scip-inf-3,al_scip-inf-3
+Stateavg,769,al_scip-if-3,al_scip-inf-3
+Stateavg,813,al_pn-s2,al_pn-2
+Stateavg,827,al_ami1-,al_ami-1
