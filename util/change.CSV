@@ -1,0 +1,85 @@
+attribute,clean_value,dirty_value,index
+ProviderNumber,10009,10018,156
+ProviderNumber,10009,01009,157
+ProviderNumber,10019,1019,455
+ProviderNumber,10019,01019,456
+ProviderNumber,10044,1j0044,873
+ProviderNumber,10045,10045***,879
+Address1,1300 south montgomery avenue,1300 south montgomeryh avenue,19
+Address1,315 w hickory st,315 w hickory ts,431
+Address1,1300 south montgomery avenue,1300 sout hmontgomery avenue,453
+Address1,619 south 19th street,619 south 19th streemt,686
+Address1,849 south three notch street,849 south thraee notch street,746
+Address1,1653 temple avenue north,1653 templen avenue north,898
+Address2,empty,epmty,101
+Address3,empty,empyt,125
+Address3,empty,emty,497
+Address3,empty,nempty,963
+Address3,empty,ehmpty,966
+City,birmingham,birminghvam,1
+City,dothan,birmingham,20
+City,dothan,birmingham,21
+City,birmingham,bimingham,311
+City,clanton,clnton,845
+City,hamilton,hmailton,855
+State,al,ayl,262
+State,al,fal,856
+ZipCode,35957,53957,69
+ZipCode,35007,3507,278
+ZipCode,35233,5233,298
+ZipCode,35233,35233***,299
+ZipCode,35570,3550,865
+CountyName,marshall,nan,64
+CountyName,shelby,nan,284
+CountyName,shelby,nan,287
+CountyName,jefferson,nan,688
+PhoneNumber,2563864556,2563846556,456
+PhoneNumber,2563864556,2563864556***,457
+PhoneNumber,2569275531,k2569275531,504
+PhoneNumber,2057552500,2057555200,840
+HospitalType,acute care hospitals,acutee care hospitals,47
+HospitalType,acute care hospitals,acue care hospitals,351
+HospitalType,acute care hospitals,acute care hospitales,417
+HospitalType,acute care hospitals,aqcute care hospitals,654
+HospitalType,acute care hospitals,acute car ehospitals,899
+HospitalType,acute care hospitals,acute care hospidtals,956
+HospitalOwner,government - hospital district or authority,government - hospitla district or authority,462
+HospitalOwner,government - hospital district or authority,government - hospital district or autority,463
+HospitalOwner,voluntary non-profit - other,voluntary non-prfoit - other,579
+HospitalOwner,government - local,government t- local,661
+HospitalOwner,voluntary non-profit - private,voluntary non-profit- private,714
+HospitalOwner,voluntary non-profit - private,voluntary non-profit - privarte,858
+EmergencyService,yes,es,522
+EmergencyService,yes,yse,680
+EmergencyService,yes,es,681
+EmergencyService,no,mno,711
+Condition,pneumonia,penumonia,327
+Condition,heart attack,heart attack***,395
+Condition,heart attack,heart atjtack,643
+Condition,heart attack,hearbt attack,667
+Condition,heart attack,heart tatack,668
+Condition,surgical infection prevention,sugical infection prevention,765
+Condition,surgical infection prevention,surgical infection prevenion,852
+MeasureCode,scip-inf-4,scimp-inf-4,41
+MeasureCode,ami-7a,am-7a,50
+MeasureCode,pn-6,p-6,60
+MeasureCode,pn-3b,scip-card-2,257
+MeasureCode,pn-4,scip-card-2,258
+MeasureCode,hf-1,scip-card-2,277
+MeasureCode,hf-2,scip-card-2,278
+MeasureCode,scip-inf-1,scip-card-2,288
+MeasureCode,scip-inf-2,scip-card-2,289
+MeasureCode,scip-inf-4,scip-nif-4,488
+MeasureName,heart failure patients given an evaluation of left ventricular systolic (lvs) function,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,17
+MeasureName,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,18
+MeasureName,heart attack patients given aspirin at arrival,hear attack patients given aspirin at arrival,415
+MeasureName,heart attack patients given aspirin at arrival,heart attack patients given sapirin at arrival,617
+Score,100%,00%,228
+Score,82%,8%2,458
+Score,empty,emty,763
+Sample,30 patients,30 patents,607
+Sample,1 patients,1 vpatients,828
+Sample,0 patients,0 paients,851
+Stateavg,al_pn-6,a_pn-6,60
+Stateavg,al_ami-2,afl_ami-2,416
+Stateavg,al_ami-2,al_ambi-2,468
