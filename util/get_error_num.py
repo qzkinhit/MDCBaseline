@@ -81,7 +81,7 @@ def generate_change_report(dirty_df, clean_df, index_column):
     return len(change_df)
 
 # 使用示例
-dirty_df = pd.read_csv('../Data/4_rayyan/dirty_rayyan.csv')
+dirty_df = pd.read_csv('../Data/4_rayyan/dirty.csv')
 clean_df = pd.read_csv('../Data/4_rayyan/clean_rayyan.csv')
 
 inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, 'id')

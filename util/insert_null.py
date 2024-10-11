@@ -19,7 +19,15 @@ def inject_missing_values(csv_file, output_file, attributes_error_ratio, missing
     """
     # 读取CSV文件
     df = pd.read_csv(csv_file)
+    # 遍历每一列，将可以转换为整数的浮点数转换成整数
+    for col in df.columns:
+        # 检查列中的数据类型是否为浮点数
+        if pd.api.types.is_float_dtype(df[col]):
+            # 使用 apply 函数将可以转换成整数的浮点数转换成整数
+            df[col] = df[col].apply(lambda x: int(x) if pd.notna(x) and x == int(x) else x)
 
+        # 最后，将列中的所有数据类型都转换为字符串类型
+        df[col] = df[col].astype(str)
     # 预处理：将已有的空值（NaN 或 空字符串）替换为 missing_value_representation
     df = df.fillna(missing_value_representation)
     df.replace('', missing_value_representation, inplace=True)

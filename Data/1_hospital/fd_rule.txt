@@ -12,4 +12,3 @@ ZipCode ⇒ EmergencyService
 HospitalName ⇒ City
 MeasureName ⇒ MeasureCode
 HospitalName ⇒ State
-Condition, MeasureName ⇒ HospitalType
