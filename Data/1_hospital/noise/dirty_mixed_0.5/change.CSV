@@ -1,0 +1,245 @@
+index,attribute,dirty_value,clean_value
+12,ProviderNumber,1019,10019
+13,ProviderNumber,1009,10019
+37,ProviderNumber,empty,10001
+132,ProviderNumber,10018,10008
+133,ProviderNumber,10018,10008
+316,ProviderNumber,empty,10038
+446,ProviderNumber,empty,20017
+486,ProviderNumber,10p021,10021
+533,ProviderNumber,1002n3,10023
+793,ProviderNumber,empty,10039
+814,ProviderNumber,empty,10040
+943,ProviderNumber,100z47,10047
+944,ProviderNumber,1004p7,10047
+17,HospitalName,helen kellre memorial hospital,helen keller memorial hospital
+18,HospitalName,helen keller memoril hospital,helen keller memorial hospital
+47,HospitalName,callahan eye foundation hospital,marshall medical center south
+48,HospitalName,callahan eye foundation hospital,marshall medical center south
+75,HospitalName,callahan eye foundation hospital,eliza coffee memorial hospital
+76,HospitalName,callahan eye foundation hospital,eliza coffee memorial hospital
+145,HospitalName,callahan eye foundation hospital,hartselle medical center
+146,HospitalName,callahan eye foundation hospital,hartselle medical center
+161,HospitalName,callahan eye foundation hospital,hartselle medical center
+162,HospitalName,callahan eye foundation hospital,hartselle medical center
+187,HospitalName,marshmall medical center north,marshall medical center north
+287,HospitalName,callahan eye foundation hospital,shelby baptist medical center
+288,HospitalName,callahan eye foundation hospital,shelby baptist medical center
+293,HospitalName,callahan eye foundation hospital,shelby baptist medical center
+294,HospitalName,callahan eye foundation hospital,shelby baptist medical center
+426,HospitalName,coosa valley medical centr,coosa valley medical center
+429,HospitalName,empty,coosa valley medical center
+476,HospitalName,dale medicakl center,dale medical center
+613,HospitalName,elbab general hospital,elba general hospital
+700,HospitalName,empty,community hospital inc
+735,HospitalName,empty,cullman regional medical center
+789,HospitalName,huntsville hospitla,huntsville hospital
+800,HospitalName,huntsville hospitla,huntsville hospital
+836,HospitalName,chilton medicanl center,chilton medical center
+903,HospitalName,empty,riverview regional medical center
+961,HospitalName,empty,medical center enterprise
+30,Address1,empty,1108 ross clark circle
+82,Address1,empty,205 marengo street
+310,Address1,1720 university bvd,1720 university blvd
+311,Address1,1720 university bld,1720 university blvd
+401,Address1,124 s memorihal dr,124 s memorial dr
+405,Address1,empty,124 s memorial dr
+503,Address1,400 northwood rd,400 northwood dr
+561,Address1,172g5 pine street,1725 pine street
+601,Address1,987 dryton street,987 drayton street
+606,Address1,987 drayon street,987 drayton street
+615,Address1,empty,987 drayton street
+769,Address1,301 east 1t8h st,301 east 18th st
+839,Address1,empty,1010 lay dam road
+902,Address1,1653 temple avenue noth,1653 temple avenue north
+362,Address2,mepty,empty
+406,Address2,epmty,empty
+439,Address2,mpty,empty
+710,Address2,empyt,empty
+760,Address2,emty,empty
+807,Address2,empxty,empty
+261,Address3,exmpty,empty
+312,Address3,emptpy,empty
+441,Address3,empy,empty
+512,Address3,emty,empty
+706,Address3,emtpy,empty
+713,Address3,mepty,empty
+890,Address3,emtpy,empty
+86,City,birmingham,florence
+87,City,birmingham,florence
+103,City,okpp,opp
+143,City,luvnerne,luverne
+251,City,thomasviltle,thomasville
+306,City,biirmingham,birmingham
+307,City,birmkingham,birmingham
+381,City,moobile,mobile
+536,City,montogmery,montgomery
+676,City,empty,birmingham
+691,City,empty,birmingham
+778,City,hutnsville,huntsville
+855,City,hamlton,hamilton
+885,City,empty,fayette
+891,City,empty,fayette
+938,City,empty,georgiana
+6,State,la,al
+39,State,empty,al
+195,State,empty,al
+243,State,la,al
+393,State,empty,al
+838,State,awl,al
+863,State,empty,al
+930,State,empty,al
+22,ZipCode,empty,36302
+139,ZipCode,empty,36049
+141,ZipCode,36094,36049
+233,ZipCode,3568,35968
+297,ZipCode,3233,35233
+298,ZipCode,35233***,35233
+330,ZipCode,3620l1,36201
+368,ZipCode,empty,35594
+399,ZipCode,empty,36067
+570,ZipCode,3654,36854
+643,ZipCode,36728,36278
+656,ZipCode,36287,36278
+707,ZipCode,empty,36078
+748,ZipCode,36240,36420
+913,ZipCode,3590x1,35901
+943,ZipCode,6033,36033
+26,CountyName,huston,houston
+124,CountyName,empty,crenshaw
+242,CountyName,empty,de kalb
+272,CountyName,shelrby,shelby
+273,CountyName,sehlby,shelby
+537,CountyName,montgomrey,montgomery
+593,CountyName,cofofee,coffee
+633,CountyName,empty,lee
+683,CountyName,empty,jefferson
+757,CountyName,empty,covington
+880,CountyName,faytte,fayette
+884,CountyName,ayette,fayette
+267,PhoneNumber,33f46366221,3346366221
+308,PhoneNumber,205358100,2053258100
+309,PhoneNumber,2053258100***,2053258100
+352,PhoneNumber,empty,2059397000
+561,PhoneNumber,empty,3342938000
+661,PhoneNumber,inf,2563572111
+742,PhoneNumber,empty,3342228466
+796,PhoneNumber,2562561000,2562651000
+884,PhoneNumber,empty,2059325966
+949,PhoneNumber,empty,3343762205
+75,HospitalType,facute care hospitals,acute care hospitals
+86,HospitalType,empty,acute care hospitals
+193,HospitalType,acute care hozspitals,acute care hospitals
+246,HospitalType,empty,acute care hospitals
+328,HospitalType,empty,acute care hospitals
+415,HospitalType,acute care hospiotals,acute care hospitals
+493,HospitalType,acute care ospitals,acute care hospitals
+573,HospitalType,empty,acute care hospitals
+628,HospitalType,empty,acute care hospitals
+668,HospitalType,acute carehospitals,acute care hospitals
+795,HospitalType,acute care hsopitals,acute care hospitals
+813,HospitalType,acute care hopitals,acute care hospitals
+984,HospitalType,acutes care hospitals,acute care hospitals
+153,HospitalOwner,empty,proprietary
+249,HospitalOwner,empty,government - federal
+297,HospitalOwner,vtoluntary non-profit - private,voluntary non-profit - private
+298,HospitalOwner,voluntary non-profit- private,voluntary non-profit - private
+441,HospitalOwner,empty,proprietary
+846,HospitalOwner,voluntary non-profit - privyate,voluntary non-profit - private
+912,HospitalOwner,empty,proprietary
+915,HospitalOwner,empty,proprietary
+7,EmergencyService,yse,yes
+8,EmergencyService,ys,yes
+13,EmergencyService,yees,yes
+34,EmergencyService,ys,yes
+122,EmergencyService,es,yes
+220,EmergencyService,ryes,yes
+402,EmergencyService,empty,yes
+448,EmergencyService,empty,yes
+466,EmergencyService,ytes,yes
+497,EmergencyService,ybes,yes
+528,EmergencyService,yeds,yes
+547,EmergencyService,empty,yes
+637,EmergencyService,eys,yes
+759,EmergencyService,empty,no
+844,EmergencyService,yehs,yes
+934,EmergencyService,empty,no
+109,Condition,pneumondia,pneumonia
+195,Condition,empty,heart attack
+227,Condition,ehart failure,heart failure
+343,Condition,surgical infection prqevention,surgical infection prevention
+373,Condition,surgical infectionprevention,surgical infection prevention
+374,Condition,sugrical infection prevention,surgical infection prevention
+413,Condition,surgical infection pervention,surgical infection prevention
+483,Condition,empty,pneumonia
+486,Condition,empty,surgical infection prevention
+512,Condition,surgical infection preventino,surgical infection prevention
+521,Condition,cheart attack,heart attack
+529,Condition,empty,pneumonia
+556,Condition,pneumoniia,pneumonia
+636,Condition,surgical ifection prevention,surgical infection prevention
+671,Condition,heart attakc,heart attack
+905,Condition,empty,children s asthma care
+934,Condition,heart attack***,heart attack
+7,MeasureCode,scip-card-2,scip-vte-1
+8,MeasureCode,scip-card-2,scip-vte-2
+30,MeasureCode,hf4-,hf-4
+36,MeasureCode,empty,pn-7
+48,MeasureCode,scip-card-2,ami-4
+49,MeasureCode,scip-card-2,ami-5
+51,MeasureCode,ami-8ja,ami-8a
+196,MeasureCode,scip-card-2,ami-2
+197,MeasureCode,scip-card-2,ami-3
+217,MeasureCode,sci-inf-6,scip-inf-6
+380,MeasureCode,empty,ami-1
+414,MeasureCode,empty,scip-vte-2
+417,MeasureCode,empty,ami-3
+516,MeasureCode,sicp-vte-2,scip-vte-2
+818,MeasureCode,empty,pn-6
+919,MeasureCode,pn-i4,pn-4
+6,MeasureName,surgery patients needing hair removed from the surgical area before surgery who ha hair removed using a safer method (electric clippers or hair removal cream c not a razor),surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)
+177,MeasureName,empty,heart failure patients given discharge instructions
+195,MeasureName,heart attack patients given aspirin at rarival,heart attack patients given aspirin at arrival
+231,MeasureName,pneumoia patients assessed and given pneumococcal vaccination,pneumonia patients assessed and given pneumococcal vaccination
+311,MeasureName,empty,pneumonia patients assessed and given influenza vaccination
+373,MeasureName,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to hlelp prevent infection,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection
+380,MeasureName,hueart attack patients given aspirin at arrival,heart attack patients given aspirin at arrival
+568,MeasureName,empty,heart attack patients given aspirin at discharge
+595,MeasureName,empty,heart attack patients given smoking cessation advice/counseling
+713,MeasureName,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after urgery,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
+723,MeasureName,empty,heart attack patients given pci within 90 minutes of arrival
+134,Score,5%,95%
+218,Score,9%,89%
+268,Score,9%,90%
+348,Score,10o0%,100%
+380,Score,empty,99%
+475,Score,9%,96%
+534,Score,9%,97%
+766,Score,empty,80%
+823,Score,f90%,90%
+854,Score,empty,67%
+35,Sample,14q7 patients,147 patients
+49,Sample,empty,5 patients
+64,Sample,empty,167 patients
+335,Sample,empty,166 patients
+380,Sample,empty,86 patients
+685,Sample,324patients,324 patients
+750,Sample,139patients,139 patients
+843,Sample,empty,38 patients
+19,Stateavg,empty,al_hf-4
+132,Stateavg,empty,al_pn-3b
+142,Stateavg,la_scip-inf-6,al_scip-inf-6
+220,Stateavg,al_amib-1,al_ami-1
+320,Stateavg,al_am-8a,al_ami-8a
+592,Stateavg,al_ami1-,al_ami-1
+648,Stateavg,ial_ami-8a,al_ami-8a
+656,Stateavg,avl_pn-5c,al_pn-5c
+685,Stateavg,alk_scip-inf-1,al_scip-inf-1
+735,Stateavg,al_scip-if-1,al_scip-inf-1
+736,Stateavg,empty,al_scip-inf-2
+760,Stateavg,al_scip-in-f1,al_scip-inf-1
+857,Stateavg,al_aim-5,al_ami-5
+923,Stateavg,empty,al_scip-card-2
+931,Stateavg,al_amib-1,al_ami-1
+932,Stateavg,al_am-i2,al_ami-2
+951,Stateavg,empty,al_scip-inf-3

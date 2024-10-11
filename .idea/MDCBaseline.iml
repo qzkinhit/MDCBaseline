@@ -8,8 +8,9 @@
       <excludeFolder url="file://$MODULE_DIR$/envir_bigdansing" />
       <excludeFolder url="file://$MODULE_DIR$/env_holistic" />
       <excludeFolder url="file://$MODULE_DIR$/env_baran" />
+      <excludeFolder url="file://$MODULE_DIR$/envir_raha" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (MDCBaseline)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

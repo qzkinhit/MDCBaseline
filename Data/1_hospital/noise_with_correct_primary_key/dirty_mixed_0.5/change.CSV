@@ -1,0 +1,160 @@
+index,attribute,dirty_value,clean_value
+2,HospitalName,cllahan eye foundation hospital,callahan eye foundation hospital
+3,HospitalName,cllahan eye foundation hospital,callahan eye foundation hospital
+6,HospitalName,callrahan eye foundation hospital,callahan eye foundation hospital
+54,HospitalName,callahan eye foundation hospital,marshall medical center south
+55,HospitalName,callahan eye foundation hospital,marshall medical center south
+56,HospitalName,callahan eye foundation hospital,marshall medical center south
+57,HospitalName,callahan eye foundation hospital,marshall medical center south
+58,HospitalName,callahan eye foundation hospital,marshall medical center south
+59,HospitalName,callahan eye foundation hospital,marshall medical center south
+60,HospitalName,callahan eye foundation hospital,marshall medical center south
+84,HospitalName,callahan eye foundation hospital,eliza coffee memorial hospital
+85,HospitalName,callahan eye foundation hospital,eliza coffee memorial hospital
+130,HospitalName,empty,crenshaw community hospital
+163,HospitalName,callahan eye foundation hospital,hartselle medical center
+164,HospitalName,callahan eye foundation hospital,hartselle medical center
+180,HospitalName,callahan eye foundation hospital,marshall medical center north
+181,HospitalName,callahan eye foundation hospital,marshall medical center north
+289,HospitalName,callahan eye foundation hospital,shelby baptist medical center
+290,HospitalName,callahan eye foundation hospital,shelby baptist medical center
+310,HospitalName,callaha neye foundation hospital,callahan eye foundation hospital
+311,HospitalName,callahan eye foundation hospitial,callahan eye foundation hospital
+456,HospitalName,empty,helen keller memorial hospital
+661,HospitalName,wedoee hospital,wedowee hospital
+708,HospitalName,empty,community hospital inc
+833,HospitalName,empty,chilton medical center
+839,HospitalName,chielton medical center,chilton medical center
+988,HospitalName,empty,st vincents blount
+18,Address1,1300 soth montgomery avenue,1300 south montgomery avenue
+19,Address1,130v0 south montgomery avenue,1300 south montgomery avenue
+132,Address1,empty,101 hospital circle
+136,Address1,empty,101 hospital circle
+162,Address1,empty,201 pine street northwest
+340,Address1,4370w est main street,4370 west main street
+343,Address1,empty,4370 west main street
+498,Address1,400 northwood dr***,400 northwood dr
+550,Address1,empty,1725 pine street
+553,Address1,175 pine street,1725 pine street
+707,Address1,805 friendship rvoad,805 friendship road
+171,City,empty,guntersville
+266,City,birmingham,thomasville
+267,City,birmingham,thomasville
+276,City,empty,alabaster
+296,City,birmingahm,birmingham
+297,City,birminham,birmingham
+319,City,empty,anniston
+361,City,empty,winfield
+371,City,empty,winfield
+498,City,entre,centre
+699,City,atllassee,tallassee
+901,City,faeytte,fayette
+8,ZipCode,3523,35233
+146,ZipCode,empty,35640
+176,ZipCode,5976,35976
+216,ZipCode,l35235,35235
+295,ZipCode,32533,35233
+419,ZipCode,3p5150,35150
+440,ZipCode,99508***,99508
+463,ZipCode,empty,35660
+558,ZipCode,empty,36106
+628,ZipCode,3601,36801
+652,ZipCode,empty,36278
+687,ZipCode,35233***,35233
+810,ZipCode,h35903,35903
+898,ZipCode,empty,35555
+92,CountyName,empty,lauderdale
+103,CountyName,empty,covington
+201,CountyName,empty,jefferson
+279,CountyName,shlby,shelby
+280,CountyName,helby,shelby
+380,CountyName,empty,mobile
+393,CountyName,autaugza,autauga
+441,CountyName,anchrage,anchorage
+521,CountyName,montgoery,montgomery
+576,CountyName,chambres,chambers
+591,CountyName,chmbers,chambers
+623,CountyName,ele,lee
+833,CountyName,empty,chilton
+874,CountyName,mrarion,marion
+125,PhoneNumber,334335374,3343353374
+156,PhoneNumber,r2567736511,2567736511
+218,PhoneNumber,empty,2058383122
+269,PhoneNumber,346366221,3346366221
+432,PhoneNumber,25624o95000,2562495000
+457,PhoneNumber,25638o64556,2563864556
+458,PhoneNumber,2568364556,2563864556
+529,PhoneNumber,342882100,3342882100
+621,PhoneNumber,empty,3347493411
+677,PhoneNumber,empty,2059344011
+723,PhoneNumber,256732000,2567372000
+797,PhoneNumber,empty,2562651000
+951,PhoneNumber,empty,3343762205
+961,PhoneNumber,33434705d84,3343470584
+62,HospitalOwner,empty,government - hospital district or authority
+64,HospitalOwner,governmetn - hospital district or authority,government - hospital district or authority
+308,HospitalOwner,voluntary noan-profit - private,voluntary non-profit - private
+309,HospitalOwner,voluntary non-profit - privte,voluntary non-profit - private
+342,HospitalOwner,proprietry,proprietary
+372,HospitalOwner,empty,proprietary
+392,HospitalOwner,government - stalte,government - state
+504,HospitalOwner,voluntary non-porfit - private,voluntary non-profit - private
+606,HospitalOwner,empty,voluntary non-profit - other
+712,HospitalOwner,vlountary non-profit - private,voluntary non-profit - private
+727,HospitalOwner,government - qhospital district or authority,government - hospital district or authority
+833,HospitalOwner,empty,voluntary non-profit - private
+870,HospitalOwner,empty,voluntary non-profit - private
+100,EmergencyService,empty,no
+115,EmergencyService,nyo,no
+286,EmergencyService,yse,yes
+297,EmergencyService,empty,yes
+298,EmergencyService,es,yes
+299,EmergencyService,es,yes
+398,EmergencyService,empty,yes
+547,EmergencyService,yefs,yes
+649,EmergencyService,o,no
+902,EmergencyService,empty,yes
+932,EmergencyService,empty,no
+949,EmergencyService,rno,no
+450,Condition,surgical infection preveyntion,surgical infection prevention
+480,Condition,pneuomnia,pneumonia
+545,Condition,heart attakc,heart attack
+570,Condition,hearat attack,heart attack
+595,Condition,heart attactk,heart attack
+620,Condition,heart tatack,heart attack
+645,Condition,herat attack,heart attack
+5,MeasureName,empty,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
+77,MeasureName,herat failure patients given discharge instructions,heart failure patients given discharge instructions
+230,MeasureName,heart failure patients given smokng cessation advice/counseling,heart failure patients given smoking cessation advice/counseling
+245,MeasureName,heart attack patients given aspirin a tarrival,heart attack patients given aspirin at arrival
+252,MeasureName,empty,heart failure patients given discharge instructions
+314,MeasureName,heart attack patients given aspirin atl arrival,heart attack patients given aspirin at arrival
+358,MeasureName,heart attack patients given smoking cessatoin advice/counseling,heart attack patients given smoking cessation advice/counseling
+447,MeasureName,all heart surgery patient swhose blood sugar (blood glucose) is kept under good control in the days right after surgery,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
+456,MeasureName,pneumonia patients given initial antibiotic(ms) within 6 hours after arrival,pneumonia patients given initial antibiotic(s) within 6 hours after arrival
+472,MeasureName,empty,heart attack patients given fibrinolytic medication within 30 minutes of arrival
+567,MeasureName,heart attack patients given aspirin at arrikval,heart attack patients given aspirin at arrival
+784,MeasureName,heart attack patients given pci within 90 minutes of rarival,heart attack patients given pci within 90 minutes of arrival
+803,MeasureName,hert attack patients given aspirin at arrival,heart attack patients given aspirin at arrival
+853,MeasureName,heart attack patients given aspirin at arirval,heart attack patients given aspirin at arrival
+873,MeasureName,empty,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery)
+973,MeasureName,empty,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery
+17,Stateavg,empty,al_hf-2
+27,Stateavg,la_hf-1,al_hf-1
+66,Stateavg,al_scip-inf4,al_scip-inf-4
+129,Stateavg,l_hf-3,al_hf-3
+152,Stateavg,al_hf1-,al_hf-1
+182,Stateavg,empty,al_pn-3b
+202,Stateavg,empty,al_hf-1
+321,Stateavg,empty,al_hf-1
+475,Stateavg,al_h-2,al_hf-2
+582,Stateavg,al_pn-g6,al_pn-6
+609,Stateavg,als_cip-card-2,al_scip-card-2
+687,Stateavg,al_scipinf-3,al_scip-inf-3
+712,Stateavg,al_sci-inf-3,al_scip-inf-3
+737,Stateavg,a_lscip-inf-3,al_scip-inf-3
+762,Stateavg,lal_scip-inf-3,al_scip-inf-3
+770,Stateavg,al_scip-if-3,al_scip-inf-3
+814,Stateavg,al_pn-s2,al_pn-2
+828,Stateavg,al_ami1-,al_ami-1
+992,Stateavg,empty,al_pn-2

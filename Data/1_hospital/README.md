@@ -15,8 +15,8 @@ Score, Sample, Stateavg]
 存在
 
 ## 原生错误种类及数量
-### 错误种类：待填写
-### 错误数量：待填写
+### 错误种类：typo(拼写错误),violated attribute dependency(规则违反)
+### 错误数量：1000*0.3%
 
 ## 数据规则集、标签、知识存放路径
 - **FD 规则**：`../../Data/hospital/dc_rules-validate-fd-horizon.txt`
@@ -24,14 +24,14 @@ Score, Sample, Stateavg]
 
 
 ## 数据集出处
-### 待填写（是数据集的出处，可能源于论文或者网站，不是系统论文的出处）
+### Holistic Data Cleaning: Putting Violations Into Context
 
 ## 人工错误注入记录
 
 ## 主键属性集合：
-```text
+```
 ProviderNumber、MeasureCode
-[待填写，通过fd的最小蕴含计算主键属性有哪些，涉及数据库的知识，注入错误之前找我确认主键对不对]
+注：ProviderNumber和HospitalName构成循环依赖，这里选择ProviderNumber作为主键
 ```
 1. **规则涉及**的属性中，保证**主键属性集合干净**的情况下，注入不同比例的混合错误。
    - 每个规则违反、非主键属性空缺值、非主键属性异常值的混合错误。
@@ -41,62 +41,77 @@ ProviderNumber、MeasureCode
        - 每个规则(不涉及主键属性)，每个规则涉及的属性总体 0.25% 的违反
        - 非主键属性0.25%的空缺值
        - 非主键属性0.25%的异常值
-       - **Original Error Count (OEC)** = 总错误单元格数=待填写
-       - **错误条目数** = 待填写
+       - **Original Error Count (OEC)** = 总错误单元格数 = 73
+       - **错误条目数** = 69
        
     - **b. 0.5%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体0.5% 的违反
       - 非主键属性 0.5% 的空缺值
       - 非主键属性 0.5% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 159
+      - **错误条目数** = 152
     
     - **c. 0.75%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 0.75% 的违反
       - 非主键属性 0.75% 的空缺值
       - 非主键属性 0.75% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 228
+      - **错误条目数** = 213
     
     - **d. 1%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 1% 的违反
       - 非主键属性 1% 的空缺值
       - 非主键属性 1% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 308
+      - **错误条目数** = 273
     
     - **e. 1.25%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 1.25% 的违反
       - 非主键属性 1.25% 的空缺值
       - 非主键属性 1.25% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 407
+      - **错误条目数** = 341
     
     - **f. 1.5%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 1.5% 的违反
       - 非主键属性 1.5% 的空缺值
       - 非主键属性 1.5% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 467
+      - **错误条目数** = 393
     
     - **g. 1.75%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 1.75% 的违反
       - 非主键属性 1.75% 的空缺值
       - 非主键属性 1.75% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 540
+      - **错误条目数** = 418
     
     - **h. 2%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 2% 的违反
       - 非主键属性 2% 的空缺值
       - 非主键属性 2% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 622
+      - **错误条目数** = 452
 
 
 ### 数据存放路径
-- **BART 脚本路径**：`待填写`
-- **数据存放路径**：`待填写`
+- **BART 脚本路径**：**0.25%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_0.25/hospitals_mixed_correct_primary_key.xml`
+                   **0.5%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_0.5/hospitals_mixed_correct_primary_key.xml`
+                   **0.75%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_0.75/hospitals_mixed_correct_primary_key.xml`
+                   **1%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_1/hospitals_mixed_correct_primary_key.xml`
+                   **1.25%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_1.25/hospitals_mixed_correct_primary_key.xml`
+                   **1.5%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_1.5/hospitals_mixed_correct_primary_key.xml`
+                   **1.75%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_1.75/hospitals_mixed_correct_primary_key.xml`
+                   **2%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_2/hospitals_mixed_correct_primary_key.xml`
+- **数据存放路径**：**0.25%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_hospitals_null.csv`
+                  **0.5%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_0.5/dirty_hospitals_null.csv`
+                  **0.75%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_0.75/dirty_hospitals_null.csv`
+                  **1%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_1/dirty_hospitals_null.csv`
+                  **1.25%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_1.25/dirty_hospitals_null.csv`
+                  **1.5%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_1.5/dirty_hospitals_null.csv`
+                  **1.75%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_1.75/dirty_hospitals_null.csv`
+                  **2%**:`../1_hospital/noise_with_correct_primary_key/dirty_mixed_2/dirty_hospitals_null.csv`
+                  
 
 ---
 
@@ -107,61 +122,76 @@ ProviderNumber、MeasureCode
        - 每个规则涉及的属性总体 0.25% 的违反
        - 每个属性0.25%的空缺值
        - 每个属性0.25%的异常值
-       - **Original Error Count (OEC)** = 总错误单元格数=待填写
-       - **错误条目数** = 待填写
+       - **Original Error Count (OEC)** = 总错误单元格数=99
+       - **错误条目数** = 93
 
       - **b. 0.5%**  
         - 每个规则涉及的属性总体 0.5% 的违反
         - 每个属性 0.5% 的空缺值
         - 每个属性 0.5% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 244
+        - **错误条目数** = 212
       
       - **c. 0.75%**  
         - 每个规则涉及的属性总体 0.75% 的违反
         - 每个属性 0.75% 的空缺值
         - 每个属性 0.75% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 319
+        - **错误条目数** = 264
       
       - **d. 1%**  
         - 每个规则涉及的属性总体 1% 的违反
         - 每个属性 1% 的空缺值
         - 每个属性 1% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 448
+        - **错误条目数** = 353
       
       - **e. 1.25%**  
         - 每个规则涉及的属性总体 1.25% 的违反
         - 每个属性 1.25% 的空缺值
         - 每个属性 1.25% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 572
+        - **错误条目数** = 425
       
       - **f. 1.5%**  
         - 每个规则涉及的属性总体 1.5% 的违反
         - 每个属性 1.5% 的空缺值
         - 每个属性 1.5% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 701
+        - **错误条目数** = 516
       
       - **g. 1.75%**  
         - 每个规则涉及的属性总体 1.75% 的违反
         - 每个属性 1.75% 的空缺值
         - 每个属性 1.75% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 784
+        - **错误条目数** = 547
       
       - **h. 2%**  
         - 每个规则涉及的属性总体 2% 的违反
         - 每个属性 2% 的空缺值
         - 每个属性 2% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 951
+        - **错误条目数** = 611
 
 ### 数据存放路径
-- **BART 脚本路径**：`待填写`
-- **数据存放路径**：`待填写`
+- **BART 脚本路径**：**0.25%**:`../1_hospital/noise/dirty_mixed_0.25/hospitals_mixed_all.xml`
+                   **0.5%**:`../1_hospital/noise/dirty_mixed_0.5/hospitals_mixed_all.xml`
+                   **0.75%**:`../1_hospital/noise/dirty_mixed_0.75/hospitals_mixed_all.xml`
+                   **1%**:`../1_hospital/noise/dirty_mixed_1/hospitals_mixed_all.xml`
+                   **1.25%**:`../1_hospital/noise/dirty_mixed_1.25/hospitals_mixed_all.xml`
+                   **1.5%**:`../1_hospital/noise/dirty_mixed_1.5/hospitals_mixed_all.xml`
+                   **1.75%**:`../1_hospital/noise/dirty_mixed_1.75/hospitals_mixed_all.xml`
+                   **2%**:`../1_hospital/noise/dirty_mixed_2/hospitals_mixed_all.xml`
+- **数据存放路径**：**0.25%**:`../1_hospital/noise/dirty_mixed_0.25/hospitals_mixed_all.xml`
+                  **0.5%**:`../1_hospital/noise/dirty_mixed_0.5/hospitals_mixed_all.xml`
+                  **0.75%**:`../1_hospital/noise/dirty_mixed_0.75/hospitals_mixed_all.xml`
+                  **1%**:`../1_hospital/noise/dirty_mixed_1/hospitals_mixed_all.xml`
+                  **1.25%**:`../1_hospital/noise/dirty_mixed_1.25/hospitals_mixed_all.xml`
+                  **1.5%**:`../1_hospital/noise/dirty_mixed_1.5/hospitals_mixed_all.xml`
+                  **1.75%**:`../1_hospital/noise/dirty_mixed_1.75/hospitals_mixed_all.xml`
+                  **2%**:`../1_hospital/noise/dirty_mixed_2/hospitals_mixed_all.xml`
+                  
 
 ### hospital 下目录结构说明
 noise：存放纯随机噪声注入
