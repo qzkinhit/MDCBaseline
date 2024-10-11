@@ -81,7 +81,7 @@ def generate_change_report(dirty_df, clean_df, index_column):
     return len(change_df)
 
 # 使用示例
-dirty_df = pd.read_csv('../Data/5_tax/tax_200k/dirty_mix_2/dirty_tax_null.csv')
+dirty_df = pd.read_csv('../Data/5_tax/tax_200k/noise_with_correct_primary_key/dirty_mix_2/dirty_tax_null.csv')
 clean_df = pd.read_csv('../Data/5_tax/tax_200k/tax_200k_clean_id.csv')
 
 inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, 'tno')
