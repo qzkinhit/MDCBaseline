@@ -55,11 +55,11 @@ attributes = [
 ]
 
 # 每个属性注入2%的错误比例
-attributes_error_ratio = {attribute: 2 for attribute in attributes}
+attributes_error_ratio = {attribute: 1.75 for attribute in attributes}
 
 inject_missing_values(
-    csv_file=r"C:\Users\lzfd\Desktop\work\MDCBaseline\Data\2_flights\noise\dirty_mixed_2\dirty_flights.csv",
-    output_file=r"C:\Users\lzfd\Desktop\work\MDCBaseline\Data\2_flights\noise\dirty_mixed_2\dirty_flights_null.csv",
+    csv_file=r"C:\Users\lzfd\Desktop\work\MDCBaseline\Data\2_flights\noise\dirty_mixed_1.75\dirty_flights.csv",
+    output_file=r"C:\Users\lzfd\Desktop\work\MDCBaseline\Data\2_flights\noise\dirty_mixed_1.75\dirty_flights_null.csv",
     attributes_error_ratio=attributes_error_ratio,
     missing_value_in_ori_data='NULL',
     missing_value_representation='empty'

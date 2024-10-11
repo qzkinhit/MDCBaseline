@@ -1,0 +1,72 @@
+attribute,clean_value,dirty_value,index
+flight,AA-1664-MIA-ATL,AA-1664-MsIA-ATL,13
+flight,AA-4344-ORD-DTW,AA-3859-IAH-ORD,185
+flight,UA-257-JFK-SFO,AA-3859-IAH-ORD,186
+flight,CO-16-LAX-EWR,empty,298
+flight,AA-4198-ORD-CLE,AA4-198-ORD-CLE,332
+flight,CO-1586-IAH-MCO,AA-3859-IAH-ORD,439
+flight,AA-518-MIA-JFK,AA-3859-IAH-ORD,440
+flight,CO-4888-IAH-DAL,AA-3859-IAH-ORD,609
+flight,UA-2704-DTW-PHX,AA-3859-IAH-ORD,610
+flight,AA-4330-CVG-ORD,AA-3859-IAH-ORD,671
+flight,AA-1434-DFW-MCO,AA-3859-IAH-ORD,672
+flight,UA-664-ORD-PHL,UA-664-OR-DPHL,687
+flight,AA-789-ORD-DEN,AAv-789-ORD-DEN,714
+flight,AA-400-DFW-JFK,empty,940
+flight,UA-858-PVG-SFO,empty,1047
+flight,CO-50-CLE-EWR,C-O50-CLE-EWR,1580
+flight,AA-3756-ORD-SLC,empty,1817
+flight,AA-2268-PHX-ORD,AA-2268-PHX-OcRD,1839
+flight,AA-616-DFW-DTW,AA-616D-FW-DTW,1967
+flight,UA-664-ORD-PHL,empty,2298
+flight,UA-2906-PHL-MCO,UA-2906P-HL-MCO,2353
+sched_dep_time,02:53 PM,02e:53 PM,311
+sched_dep_time,09:15 AM,0:915 AM,585
+sched_dep_time,07:25 AM,empty,766
+sched_dep_time,04:25 PM,empty,784
+sched_dep_time,04:55 PM,04:55P M,862
+sched_dep_time,10:45 AM,empty,1091
+sched_dep_time,04:55 PM,04:55 MP,1121
+sched_dep_time,11:08 PM,11:08 MP,1141
+sched_dep_time,08:20 PM,empty,1474
+sched_dep_time,07:05 AM,empty,1616
+sched_dep_time,07:25 AM,0:25 AM,2247
+act_dep_time,02:26 PM,0:26 PM,86
+act_dep_time,07:15 PM,empty,290
+act_dep_time,02:04 PM,empty,369
+act_dep_time,01:32 PM,0132 PM,378
+act_dep_time,04:28 PM,0428 PM,489
+act_dep_time,11:56 AM,115:6 AM,746
+act_dep_time,03:36 PM,empty,758
+act_dep_time,08:25 PM,empty,944
+act_dep_time,07:05 AM,0g7:05 AM,1033
+act_dep_time,01:32 PM,0u1:32 PM,1190
+act_dep_time,05:08 PM,05:08PM,1539
+act_dep_time,05:08 PM,05:08 MP,1613
+act_dep_time,11:05 AM,110:5 AM,1657
+act_dep_time,07:30 AM,07:30 MA,1699
+act_dep_time,06:08 AM,empty,1883
+act_dep_time,07:58 PM,07:58PM,2161
+sched_arr_time,11:10 AM,empty,1162
+sched_arr_time,02:45 PM,02:54 PM,1363
+sched_arr_time,11:05 AM,empty,1405
+sched_arr_time,02:45 PM,empty,1457
+sched_arr_time,01:16 PM,0q1:16 PM,1874
+sched_arr_time,11:10 AM,11:10A M,1910
+sched_arr_time,01:16 PM,01:1 6PM,1966
+sched_arr_time,10:20 AM,empty,1979
+sched_arr_time,05:50 AM,empty,2111
+act_arr_time,01:15 PM,empty,87
+act_arr_time,05:50 AM,055:0 AM,113
+act_arr_time,07:58 PM,07:5 PM,291
+act_arr_time,09:31 AM,empty,294
+act_arr_time,12:29 AM,empty,1037
+act_arr_time,07:58 PM,7:58 PM,1271
+act_arr_time,07:40 AM,0:740 AM,1583
+act_arr_time,04:59 PM,04:59 PbM,1625
+act_arr_time,03:43 PM,empty,1641
+act_arr_time,04:23 PM,empty,1648
+act_arr_time,10:04 AM,10:0 4AM,1924
+act_arr_time,04:09 PM,40:09 PM,1975
+act_arr_time,10:04 AM,1:004 AM,2015
+act_arr_time,04:23 PM,04w:23 PM,2213

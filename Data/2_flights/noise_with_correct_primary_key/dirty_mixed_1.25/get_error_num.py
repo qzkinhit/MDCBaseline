@@ -75,13 +75,13 @@ def generate_change_report(dirty_df, clean_df, index_column):
     change_df = pd.DataFrame(changes)
 
     # 将结果保存为CSV文件
-    change_df.to_csv(r"C:\Users\lzfd\Desktop\work\MDCBaseline\Data\2_flights\noise\dirty_mixed_2\change.CSV", index=False)
+    change_df.to_csv(r"C:\Users\lzfd\Desktop\work\MDCBaseline\Data\2_flights\noise_with_correct_primary_key\dirty_mix_1.25\change.CSV", index=False)
     print("不同单元的数据保存到 change.CSV")
     # 返回不一致的单元格总数
     return len(change_df)
 
 # 使用示例
-dirty_df = pd.read_csv(r"C:\Users\lzfd\Desktop\work\MDCBaseline\Data\2_flights\noise\dirty_mixed_2\dirty_flights_null.csv")
+dirty_df = pd.read_csv(r"C:\Users\lzfd\Desktop\work\MDCBaseline\Data\2_flights\noise_with_correct_primary_key\dirty_mix_1.25\dirty_flights_null.csv")
 clean_df = pd.read_csv(r"C:\Users\lzfd\Desktop\work\MDCBaseline\Data\2_flights\clean_index.csv")
 
 inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, 'index')
