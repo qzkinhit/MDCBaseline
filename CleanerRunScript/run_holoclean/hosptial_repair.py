@@ -32,9 +32,9 @@ hc = holoclean.HoloClean(
 ).session
 
 # 2. Load training data and denial constraints.
-hc.load_data('1_hospital', '..\..\Data\hospital\dirty.csv')
+hc.load_data('rayyan', r'..\..\Data\4_rayyan\dirty.csv')
 
-hc.load_dcs('..\..\Data\hospital\multi_rules\dc_rules_holoclean_15.txt')
+hc.load_dcs(r'..\..\Data\4_rayyan\dc_rules_holoclean.txt')
 hc.ds.set_constraints(hc.get_dcs())
 
 # 3. Detect erroneous cells using these two detectors.
@@ -53,7 +53,7 @@ featurizers = [
 hc.repair_errors(featurizers)
 
 # 5. Evaluate the correctness of the results.
-hc.evaluate(fpath='..\..\Data\hospital\hospital_clean_holoclean.csv',
+hc.evaluate(fpath=r'..\..\Data\4_rayyan\rayyan_clean_holoclean.csv',
             tid_col='tid',
             attr_col='attribute',
             val_col='correct_val')

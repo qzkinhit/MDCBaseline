@@ -19,7 +19,15 @@ def inject_missing_values(csv_file, output_file, attributes_error_ratio, missing
     """
     # 读取CSV文件
     df = pd.read_csv(csv_file)
+    # 遍历每一列，将可以转换为整数的浮点数转换成整数
+    for col in df.columns:
+        # 检查列中的数据类型是否为浮点数
+        if pd.api.types.is_float_dtype(df[col]):
+            # 使用 apply 函数将可以转换成整数的浮点数转换成整数
+            df[col] = df[col].apply(lambda x: int(x) if pd.notna(x) and x == int(x) else x)
 
+        # 最后，将列中的所有数据类型都转换为字符串类型
+        df[col] = df[col].astype(str)
     # 预处理：将已有的空值（NaN 或 空字符串）替换为 missing_value_representation
     df = df.fillna(missing_value_representation)
     df.replace('', missing_value_representation, inplace=True)
@@ -57,18 +65,18 @@ attributes = [
 # 每个属性注入2%的错误比例
 attributes_error_ratio = {attribute: 2 for attribute in attributes}
 
-inject_missing_values(
-    csv_file=r"C:\Users\lzfd\Desktop\work\MDCBaseline\Data\2_flights\noise\dirty_mixed_2\dirty_flights.csv",
-    output_file=r"C:\Users\lzfd\Desktop\work\MDCBaseline\Data\2_flights\noise\dirty_mixed_2\dirty_flights_null.csv",
-    attributes_error_ratio=attributes_error_ratio,
-    missing_value_in_ori_data='NULL',
-    missing_value_representation='empty'
-)
-# 如果干净数据存在空值，记得替换clean数据中的空值，统一转换为empty
 # inject_missing_values(
-#     csv_file='../Data/5_tax/tax_20k/tax_20k_clean.csv',
-#     output_file='../Data/5_tax/tax_20k/tax_20k_clean.csv',
-#     attributes_error_ratio=None,
+#     csv_file='../Data/4_rayyan/dirty.csv',
+#     output_file='../Data/4_rayyan/dirty.csv',
+#     attributes_error_ratio=attributes_error_ratio,
 #     missing_value_in_ori_data='NULL',
 #     missing_value_representation='empty'
 # )
+# 如果干净数据存在空值，记得替换clean数据中的空值，统一转换为empty
+inject_missing_values(
+    csv_file='../Data/4_rayyan/dirty.csv',
+    output_file='../Data/4_rayyan/dirty.csv',
+    attributes_error_ratio=None,
+    missing_value_in_ori_data='NULL',
+    missing_value_representation='empty'
+)
