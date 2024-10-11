@@ -25,7 +25,7 @@ def transform_csv_file(input_csv: str, output_csv: str):
 
 
 # 模拟测试
-test_input_csv = r'../Data/4_rayyan/clean.csv'
+test_input_csv = r'../Data/4_rayyan/clean_rayyan.csv'
 test_output_csv = r'../Data/4_rayyan/rayyan_clean_holoclean.csv'
 
 # 运行函数以处理CSV文件
