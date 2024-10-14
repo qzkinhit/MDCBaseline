@@ -18,7 +18,8 @@ attributes = [
     "Zondition",
     "Stateavg",
     "EmergencyService",
-    "MeasureName"
+    "MeasureName",
+    "State"
 ]
 
 # 每个属性注入2%的错误比例
