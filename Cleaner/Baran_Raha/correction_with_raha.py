@@ -39,7 +39,7 @@ import raha
 import warnings
 warnings.filterwarnings("ignore")
 
-from detection import Detection
+from Cleaner.Baran_Raha.detection import Detection
 import signal
 from datetime import datetime
 
@@ -519,7 +519,7 @@ class Correction:
         if self.VERBOSE:
             print("{} pairs of (a data error, a potential correction) are featurized.".format(pairs_counter))
 
-    def predict_corrections(self, d):
+    def predict_corrections(self, d,clean_in_cands):
         """
         This method predicts
         """
@@ -590,7 +590,7 @@ class Correction:
         if self.VERBOSE:
             print("The results are stored in {}.".format(os.path.join(ec_folder_path, "correction.dataset")))
 
-    def run(self, d):
+    def run(self, d,clean_in_cands):
         """
         This method runs Baran on an input dataset to correct data errors.
         """
@@ -618,7 +618,7 @@ class Correction:
             d.sampled_tuple = si
             self.update_models(d)
             self.generate_features(d)
-            self.predict_corrections(d)
+            self.predict_corrections(d,clean_in_cands)
             if self.VERBOSE:
                 print("------------------------------------------------------------------------")
         if self.SAVE_RESULTS:
