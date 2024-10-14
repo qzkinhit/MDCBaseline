@@ -92,7 +92,8 @@ class Detection:
         elif algorithm == "PVD":
             attribute, ch = configuration
             j = d.dataframe.columns.get_loc(attribute)
-            for i, value in d.dataframe[attribute].iteritems():
+            for i, value in d.dataframe[attribute].items():
+            # for i, value in d.dataframe[attribute].iteritems():
                 try:
                     if len(re.findall("[" + ch + "]", value, re.UNICODE)) > 0:
                         outputted_cells[(i, j)] = ""
@@ -437,40 +438,40 @@ class Detection:
                       "------------------------------------------------------------------------")
             self.store_results(d)
         return d.detected_cells
-########################################
-
-
-########################################
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--clean_path', type=str, default=None)
-    parser.add_argument('--dirty_path', type=str, default=None)
-    parser.add_argument('--task_name', type=str, default=None)
-    args = parser.parse_args()
-    dirty_path = args.dirty_path
-    clean_path = args.clean_path
-    task_name = args.task_name
-
-    task_name = "flights_mode"
-    clean_path = "./data_with_rules/2_flights/clean.csv"
-    dirty_path = "./data_with_rules/2_flights/noise/2_flights-inner_error-10.csv"
-
-    rep_df = pd.read_csv(dirty_path)
-    clean_df = pd.read_csv(clean_path)
-    
-    stra_path = "./data_with_rules/" + task_name[:-5] + "/noise/raha-baran-results-" + task_name
-    if os.path.exists(stra_path):
-        shutil.rmtree(stra_path)
-    dataset_name = task_name
-    res_path = "./Repaired_res/mode_repair/" + task_name[:-5] + "/repaired_" + task_name + dirty_path[-25:-4] + ".csv"
-    dataset_dictionary = {
-        "name": dataset_name,
-        "path": dirty_path,
-        "clean_path": clean_path
-    }
-    start_time = time.time()
-    app = Detection()
-    detection_dictionary = app.run(dataset_dictionary)
-    for cell, val in detection_dictionary.items():
-        rep_df.iloc[cell[0], cell[1]] = rep_df[rep_df.columns[cell[1]]].mode()[0]
-    rep_df.to_csv(res_path, index=False)
+# ########################################
+#
+#
+# ########################################
+# if __name__ == "__main__":
+#     parser = argparse.ArgumentParser()
+#     parser.add_argument('--clean_path', type=str, default=None)
+#     parser.add_argument('--dirty_path', type=str, default=None)
+#     parser.add_argument('--task_name', type=str, default=None)
+#     args = parser.parse_args()
+#     dirty_path = args.dirty_path
+#     clean_path = args.clean_path
+#     task_name = args.task_name
+#
+#     task_name = "2_flights_mode"
+#     clean_path = "../../Data/2_flights/clean.csv"
+#     dirty_path = "../../Data/2_flights/dirty.csv"
+#
+#     rep_df = pd.read_csv(dirty_path)
+#     clean_df = pd.read_csv(clean_path)
+#
+#     stra_path = "../../Data/" + task_name[:-5] + "/noise/raha-baran-results-" + task_name
+#     if os.path.exists(stra_path):
+#         shutil.rmtree(stra_path)
+#     dataset_name = task_name
+#     res_path = "../../Repaired_res/mode_repair/" + task_name[:-5] + "/repaired_" + task_name + dirty_path[-25:-4] + ".csv"
+#     dataset_dictionary = {
+#         "name": dataset_name,
+#         "path": dirty_path,
+#         "clean_path": clean_path
+#     }
+#     start_time = time.time()
+#     app = Detection()
+#     detection_dictionary = app.run(dataset_dictionary)
+#     for cell, val in detection_dictionary.items():
+#         rep_df.iloc[cell[0], cell[1]] = rep_df[rep_df.columns[cell[1]]].mode()[0]
+#     rep_df.to_csv(res_path, index=False)

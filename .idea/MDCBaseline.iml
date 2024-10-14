@@ -9,8 +9,11 @@
       <excludeFolder url="file://$MODULE_DIR$/env_holistic" />
       <excludeFolder url="file://$MODULE_DIR$/env_baran" />
       <excludeFolder url="file://$MODULE_DIR$/envir_raha" />
+      <excludeFolder url="file://$MODULE_DIR$/raha_env" />
+      <excludeFolder url="file://$MODULE_DIR$/raha_env2" />
+      <excludeFolder url="file://$MODULE_DIR$/raha_env3" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.9" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.9 (MDCBaseline) (3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
