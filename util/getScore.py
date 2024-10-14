@@ -427,6 +427,6 @@ def test_calculate_all_metrics():
 
     print("测试通过！")
 
-
-# 调用测试函数
-test_calculate_all_metrics()
+if __name__ == "__main__":
+    # 调用测试函数
+    test_calculate_all_metrics()

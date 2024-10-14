@@ -15,6 +15,8 @@ import io
 import sys
 import math
 import argparse
+import threading
+
 import pandas as pd
 import json
 import time
@@ -673,8 +675,8 @@ if __name__ == "__main__":
         "clean_path": clean_path
     }
     time_limit = 24 * 3600  # 24 小时时间限制
-    signal.signal(signal.SIGALRM, handler)
-    signal.alarm(time_limit)
+    timer = threading.Timer(time_limit, handler)
+    timer.start()
 
     clean_in_cands = []
 
