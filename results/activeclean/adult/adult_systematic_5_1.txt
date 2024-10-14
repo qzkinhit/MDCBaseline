@@ -1,0 +1,35 @@
+[ActiveClean Real] Initialization
+[ActiveClean Real] Number Cleaned So Far : 5
+[ActiveClean Real] Prediction Freqs : 257.0
+              precision    recall  f1-score   support
+
+         0.0       0.39      0.83      0.53       575
+         1.0       0.62      0.17      0.27       912
+
+    accuracy                           0.43      1487
+   macro avg       0.50      0.50      0.40      1487
+weighted avg       0.53      0.43      0.37      1487
+[ActiveClean Real] Accuracy 50 : 0.4277067921990585
+[ActiveClean Real] Number Cleaned So Far : 15
+[ActiveClean Real] Prediction Freqs : 679.0
+              precision    recall  f1-score   support
+
+         0.0       0.36      0.51      0.42       575
+         1.0       0.58      0.43      0.50       912
+
+    accuracy                           0.46      1487
+   macro avg       0.47      0.47      0.46      1487
+weighted avg       0.50      0.46      0.47      1487
+[ActiveClean Real] Accuracy 100 : 0.46267652992602554
+[ActiveClean Real] Number Cleaned So Far : 32
+[ActiveClean Real] Prediction Freqs : 1416.0
+              precision    recall  f1-score   support
+
+         0.0       0.28      0.03      0.06       575
+         1.0       0.61      0.94      0.74       912
+
+    accuracy                           0.59      1487
+   macro avg       0.44      0.49      0.40      1487
+weighted avg       0.48      0.59      0.48      1487
+[ActiveClean Real] Accuracy 150 : 0.5924680564895763
+[ActiveClean Real] No More Dirty Data Detected

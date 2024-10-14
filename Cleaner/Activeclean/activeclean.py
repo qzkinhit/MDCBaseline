@@ -52,7 +52,10 @@ def activeclean(dirty_data, clean_data, test_data, full_data, indextuple, batchs
 	#Apply Cleaning to the Initial Batch
 	cleanex.extend(examples_map)
 	for j in examples_real:
-		dirtyex.remove(j)
+			try:
+				dirtyex.remove(j)
+			except ValueError:
+				pass
 
 
 	clf = SGDClassifier(loss="hinge", alpha=0.000001, max_iter=200, fit_intercept=True, warm_start=True)
@@ -119,7 +122,7 @@ def error_classifier(total_labels, full_data):
 	labels = [int(i[1]) for i in total_labels]
 	# 判断是否所有的label都是clean
 	if np.sum(labels) < len(labels):
-		clf = SGDClassifier(loss="log_loss", alpha=1e-6, max_iter=200, fit_intercept=True)
+		clf = SGDClassifier(loss="log", alpha=1e-6, max_iter=200, fit_intercept=True)
 		clf.fit(full_data[indices,:],labels)
 		#print labels
 	#print clf.score(full_data[indices,:],labels)
