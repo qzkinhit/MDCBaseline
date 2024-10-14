@@ -1,5 +1,5 @@
 ########################################
-# Script for repairing with delete and mode
+# Script for repairing by deleting rows with too many errors
 ########################################
 import argparse
 import os
@@ -7,8 +7,10 @@ import shutil
 import sys
 import time
 import pandas as pd
+# 获取当前脚本所在目录的上级目录路径
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 
-from Cleaner.Baran_Raha.repairing_with_delete_and_mode import Detection
+from Cleaner.Baran_Raha.repairing_with_delete import Detection
 from util.getScore import calculate_accuracy_and_recall
 
 if __name__ == "__main__":
@@ -18,7 +20,7 @@ if __name__ == "__main__":
                         help='Path to the input dirty CSV file.')
     parser.add_argument('--clean_path', type=str, default='../../Data/1_hospital/clean_index.csv',
                         help='Path to the input clean CSV file.')
-    parser.add_argument('--task_name', type=str, help="Task name (dataset name)", default='test_MODE')
+    parser.add_argument('--task_name', type=str, help="Task name (dataset name)", default='test_DELETE')
     parser.add_argument('--output_path', type=str, default='../../results/raha_baran',
                         help='Path to save the output results.')
 
@@ -53,26 +55,24 @@ if __name__ == "__main__":
         "path": dirty_path,
         "clean_path": clean_path
     }
-
     # Run the detection algorithm
     start_time = time.time()
     app = Detection()
     detection_dictionary = app.run(dataset_dictionary)
 
-    # Apply corrections
+    # Track the number of errors per row
     error_dict = {}
     for cell, val in detection_dictionary.items():
-        rep_df.iloc[cell[0], cell[1]] = rep_df[rep_df.columns[cell[1]]].mode()[0]
-        if cell[0] in error_dict.keys():
+        if cell[0] in error_dict:
             error_dict[cell[0]] += 1
         else:
-            error_dict[cell[0]] = 0
+            error_dict[cell[0]] = 1
 
-    # Identify rows to drop
+    # Identify rows to drop based on error count (more than 50% errors)
     drop_list = []
-    for t, val in error_dict.items():
-        if val > len(clean_df.columns) * 0.5:
-            drop_list.append(t)
+    for row, error_count in error_dict.items():
+        if error_count > len(clean_df.columns) * 0.5:
+            drop_list.append(row)
 
     # Drop rows with too many errors
     rep_df = rep_df.drop(drop_list, axis=0)

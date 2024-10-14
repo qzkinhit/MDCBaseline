@@ -36,6 +36,8 @@ import raha
 import warnings
 import signal
 from datetime import datetime
+# 获取当前脚本所在目录的上级目录路径
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 
 # from Cleaner.Baran_Raha.correction_with_raha import Correction
 from Cleaner.Baran_Raha.repairing_with_delete_and_mode import Detection
