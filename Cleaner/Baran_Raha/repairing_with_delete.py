@@ -58,7 +58,7 @@ class Detection:
         self.LABELING_BUDGET = 20
         self.USER_LABELING_ACCURACY = 1.0
         self.VERBOSE = False
-        self.SAVE_RESULTS = True
+        self.SAVE_RESULTS = False
         self.CLUSTERING_BASED_SAMPLING = True
         self.STRATEGY_FILTERING = False
         self.CLASSIFICATION_MODEL = "GBC"  # ["ABC", "DTC", "GBC", "GNB", "SGDC", "SVC"]

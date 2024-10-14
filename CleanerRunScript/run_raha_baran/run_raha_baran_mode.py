@@ -19,7 +19,7 @@ if __name__ == "__main__":
                         help='Path to the input dirty CSV file.')
     parser.add_argument('--clean_path', type=str, default='../../Data/1_hospital/clean_index.csv',
                         help='Path to the input clean CSV file.')
-    parser.add_argument('--task_name', type=str, help="Task name (dataset name)",default='test')
+    parser.add_argument('--task_name', type=str, help="Task name (dataset name)",default='del_and_mode')
     parser.add_argument('--output_path', type=str, default='../../results/raha_baran',
                         help='Path to save the output results.')
 
