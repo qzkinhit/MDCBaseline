@@ -89,3 +89,4 @@ print(f'脏数据和干净数据之间有 {inconsistent_entries_count} 个条目
 
 inconsistent_cells = generate_change_report(dirty_df, clean_df, 'id')
 print(f'脏数据和干净数据之间有 {inconsistent_cells} 个单元格不一致。')
+

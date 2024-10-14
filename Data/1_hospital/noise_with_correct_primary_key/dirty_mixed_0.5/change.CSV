@@ -1,160 +1,177 @@
 index,attribute,dirty_value,clean_value
-2,HospitalName,cllahan eye foundation hospital,callahan eye foundation hospital
-3,HospitalName,cllahan eye foundation hospital,callahan eye foundation hospital
-6,HospitalName,callrahan eye foundation hospital,callahan eye foundation hospital
-54,HospitalName,callahan eye foundation hospital,marshall medical center south
-55,HospitalName,callahan eye foundation hospital,marshall medical center south
-56,HospitalName,callahan eye foundation hospital,marshall medical center south
-57,HospitalName,callahan eye foundation hospital,marshall medical center south
-58,HospitalName,callahan eye foundation hospital,marshall medical center south
-59,HospitalName,callahan eye foundation hospital,marshall medical center south
+9,HospitalName,callahan eye foundation hospital,helen keller memorial hospital
+10,HospitalName,callahan eye foundation hospital,helen keller memorial hospital
+11,HospitalName,callahan eye foundation hospital,helen keller memorial hospital
+12,HospitalName,callahan eye foundation hospital,helen keller memorial hospital
+26,HospitalName,southeast alabama emdical center,southeast alabama medical center
+46,HospitalName,callahan eye foundation hospital,marshall medical center south
+47,HospitalName,callahan eye foundation hospital,marshall medical center south
+59,HospitalName,empty,marshall medical center south
 60,HospitalName,callahan eye foundation hospital,marshall medical center south
-84,HospitalName,callahan eye foundation hospital,eliza coffee memorial hospital
-85,HospitalName,callahan eye foundation hospital,eliza coffee memorial hospital
-130,HospitalName,empty,crenshaw community hospital
-163,HospitalName,callahan eye foundation hospital,hartselle medical center
-164,HospitalName,callahan eye foundation hospital,hartselle medical center
-180,HospitalName,callahan eye foundation hospital,marshall medical center north
-181,HospitalName,callahan eye foundation hospital,marshall medical center north
-289,HospitalName,callahan eye foundation hospital,shelby baptist medical center
-290,HospitalName,callahan eye foundation hospital,shelby baptist medical center
-310,HospitalName,callaha neye foundation hospital,callahan eye foundation hospital
-311,HospitalName,callahan eye foundation hospitial,callahan eye foundation hospital
-456,HospitalName,empty,helen keller memorial hospital
-661,HospitalName,wedoee hospital,wedowee hospital
-708,HospitalName,empty,community hospital inc
-833,HospitalName,empty,chilton medical center
-839,HospitalName,chielton medical center,chilton medical center
-988,HospitalName,empty,st vincents blount
-18,Address1,1300 soth montgomery avenue,1300 south montgomery avenue
-19,Address1,130v0 south montgomery avenue,1300 south montgomery avenue
-132,Address1,empty,101 hospital circle
-136,Address1,empty,101 hospital circle
-162,Address1,empty,201 pine street northwest
-340,Address1,4370w est main street,4370 west main street
-343,Address1,empty,4370 west main street
-498,Address1,400 northwood dr***,400 northwood dr
-550,Address1,empty,1725 pine street
-553,Address1,175 pine street,1725 pine street
-707,Address1,805 friendship rvoad,805 friendship road
-171,City,empty,guntersville
-266,City,birmingham,thomasville
-267,City,birmingham,thomasville
-276,City,empty,alabaster
-296,City,birmingahm,birmingham
-297,City,birminham,birmingham
-319,City,empty,anniston
-361,City,empty,winfield
-371,City,empty,winfield
-498,City,entre,centre
-699,City,atllassee,tallassee
-901,City,faeytte,fayette
-8,ZipCode,3523,35233
-146,ZipCode,empty,35640
-176,ZipCode,5976,35976
-216,ZipCode,l35235,35235
-295,ZipCode,32533,35233
-419,ZipCode,3p5150,35150
-440,ZipCode,99508***,99508
-463,ZipCode,empty,35660
-558,ZipCode,empty,36106
-628,ZipCode,3601,36801
-652,ZipCode,empty,36278
-687,ZipCode,35233***,35233
-810,ZipCode,h35903,35903
-898,ZipCode,empty,35555
-92,CountyName,empty,lauderdale
-103,CountyName,empty,covington
-201,CountyName,empty,jefferson
-279,CountyName,shlby,shelby
-280,CountyName,helby,shelby
-380,CountyName,empty,mobile
-393,CountyName,autaugza,autauga
-441,CountyName,anchrage,anchorage
-521,CountyName,montgoery,montgomery
-576,CountyName,chambres,chambers
-591,CountyName,chmbers,chambers
-623,CountyName,ele,lee
-833,CountyName,empty,chilton
-874,CountyName,mrarion,marion
-125,PhoneNumber,334335374,3343353374
-156,PhoneNumber,r2567736511,2567736511
-218,PhoneNumber,empty,2058383122
-269,PhoneNumber,346366221,3346366221
-432,PhoneNumber,25624o95000,2562495000
-457,PhoneNumber,25638o64556,2563864556
-458,PhoneNumber,2568364556,2563864556
-529,PhoneNumber,342882100,3342882100
-621,PhoneNumber,empty,3347493411
-677,PhoneNumber,empty,2059344011
-723,PhoneNumber,256732000,2567372000
-797,PhoneNumber,empty,2562651000
-951,PhoneNumber,empty,3343762205
-961,PhoneNumber,33434705d84,3343470584
-62,HospitalOwner,empty,government - hospital district or authority
-64,HospitalOwner,governmetn - hospital district or authority,government - hospital district or authority
-308,HospitalOwner,voluntary noan-profit - private,voluntary non-profit - private
-309,HospitalOwner,voluntary non-profit - privte,voluntary non-profit - private
-342,HospitalOwner,proprietry,proprietary
-372,HospitalOwner,empty,proprietary
-392,HospitalOwner,government - stalte,government - state
-504,HospitalOwner,voluntary non-porfit - private,voluntary non-profit - private
-606,HospitalOwner,empty,voluntary non-profit - other
-712,HospitalOwner,vlountary non-profit - private,voluntary non-profit - private
-727,HospitalOwner,government - qhospital district or authority,government - hospital district or authority
-833,HospitalOwner,empty,voluntary non-profit - private
-870,HospitalOwner,empty,voluntary non-profit - private
-100,EmergencyService,empty,no
-115,EmergencyService,nyo,no
-286,EmergencyService,yse,yes
-297,EmergencyService,empty,yes
-298,EmergencyService,es,yes
-299,EmergencyService,es,yes
-398,EmergencyService,empty,yes
-547,EmergencyService,yefs,yes
-649,EmergencyService,o,no
-902,EmergencyService,empty,yes
-932,EmergencyService,empty,no
-949,EmergencyService,rno,no
-450,Condition,surgical infection preveyntion,surgical infection prevention
-480,Condition,pneuomnia,pneumonia
-545,Condition,heart attakc,heart attack
-570,Condition,hearat attack,heart attack
-595,Condition,heart attactk,heart attack
-620,Condition,heart tatack,heart attack
-645,Condition,herat attack,heart attack
-5,MeasureName,empty,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
-77,MeasureName,herat failure patients given discharge instructions,heart failure patients given discharge instructions
-230,MeasureName,heart failure patients given smokng cessation advice/counseling,heart failure patients given smoking cessation advice/counseling
-245,MeasureName,heart attack patients given aspirin a tarrival,heart attack patients given aspirin at arrival
-252,MeasureName,empty,heart failure patients given discharge instructions
-314,MeasureName,heart attack patients given aspirin atl arrival,heart attack patients given aspirin at arrival
-358,MeasureName,heart attack patients given smoking cessatoin advice/counseling,heart attack patients given smoking cessation advice/counseling
-447,MeasureName,all heart surgery patient swhose blood sugar (blood glucose) is kept under good control in the days right after surgery,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
-456,MeasureName,pneumonia patients given initial antibiotic(ms) within 6 hours after arrival,pneumonia patients given initial antibiotic(s) within 6 hours after arrival
-472,MeasureName,empty,heart attack patients given fibrinolytic medication within 30 minutes of arrival
-567,MeasureName,heart attack patients given aspirin at arrikval,heart attack patients given aspirin at arrival
-784,MeasureName,heart attack patients given pci within 90 minutes of rarival,heart attack patients given pci within 90 minutes of arrival
-803,MeasureName,hert attack patients given aspirin at arrival,heart attack patients given aspirin at arrival
-853,MeasureName,heart attack patients given aspirin at arirval,heart attack patients given aspirin at arrival
-873,MeasureName,empty,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery)
-973,MeasureName,empty,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery
-17,Stateavg,empty,al_hf-2
-27,Stateavg,la_hf-1,al_hf-1
-66,Stateavg,al_scip-inf4,al_scip-inf-4
-129,Stateavg,l_hf-3,al_hf-3
-152,Stateavg,al_hf1-,al_hf-1
-182,Stateavg,empty,al_pn-3b
-202,Stateavg,empty,al_hf-1
-321,Stateavg,empty,al_hf-1
-475,Stateavg,al_h-2,al_hf-2
-582,Stateavg,al_pn-g6,al_pn-6
-609,Stateavg,als_cip-card-2,al_scip-card-2
-687,Stateavg,al_scipinf-3,al_scip-inf-3
-712,Stateavg,al_sci-inf-3,al_scip-inf-3
-737,Stateavg,a_lscip-inf-3,al_scip-inf-3
-762,Stateavg,lal_scip-inf-3,al_scip-inf-3
-770,Stateavg,al_scip-if-3,al_scip-inf-3
-814,Stateavg,al_pn-s2,al_pn-2
-828,Stateavg,al_ami1-,al_ami-1
-992,Stateavg,empty,al_pn-2
+107,HospitalName,mizell mmeorial hospital,mizell memorial hospital
+187,HospitalName,marshall medical centernorth,marshall medical center north
+189,HospitalName,empty,marshall medical center north
+212,HospitalName,callahan eye foundation hospital,st vincents east
+213,HospitalName,callahan eye foundation hospital,st vincents east
+214,HospitalName,callahan eye foundation hospital,st vincents east
+215,HospitalName,callahan eye foundation hospital,st vincents east
+216,HospitalName,callahan eye foundation hospital,st vincents east
+257,HospitalName,callahan eye foundation hospital,southwest alabama medical center
+258,HospitalName,callahan eye foundation hospital,southwest alabama medical center
+295,HospitalName,callahan eyhe foundation hospital,callahan eye foundation hospital
+296,HospitalName,callahan eye founadtion hospital,callahan eye foundation hospital
+297,HospitalName,callahan eye foutndation hospital,callahan eye foundation hospital
+298,HospitalName,callaha eye foundation hospital,callahan eye foundation hospital
+299,HospitalName,cllahan eye foundation hospital,callahan eye foundation hospital
+357,HospitalName,nothwest medical center,northwest medical center
+482,HospitalName,empty,dale medical center
+665,HospitalName,empty,wedowee hospital
+799,HospitalName,xhuntsville hospital,huntsville hospital
+857,HospitalName,marion regional medical centre,marion regional medical center
+890,HospitalName,empty,fayette medical center
+180,Address1,empty,8000 alabama highway 69
+251,Address1,33m700 highway 43,33700 highway 43
+300,Address1,1720 universityj blvd,1720 university blvd
+301,Address1,720 university blvd,1720 university blvd
+368,Address1,1530k u s highway 43,1530 u s highway 43
+399,Address1,124 s memoprial dr,124 s memorial dr
+408,Address1,124 sh memorial dr,124 s memorial dr
+440,Address1,2081 debarr road,2801 debarr road
+502,Address1,empty,400 northwood dr
+526,Address1,empty,2105 east south boulevard
+765,Address1,849 south three notch treet,849 south three notch street
+774,Address1,301 east1 8th st,301 east 18th st
+778,Address1,empty,101 sivley rd
+819,Address1,empty,1007 goodyear avenue
+981,Address1,150 gilbreathd rive,150 gilbreath drive
+35,City,dyothan,dothan
+169,City,empty,hartselle
+185,City,birmingham,guntersville
+187,City,birmingham,guntersville
+208,City,empty,birmingham
+298,City,birmingam,birmingham
+426,City,sylaacuga,sylacauga
+465,City,shefftield,sheffield
+466,City,shefield,sheffield
+488,City,empty,ozark
+693,City,empty,tallassee
+958,City,empty,enterprise
+132,State,empty,al
+152,State,l,al
+284,State,empty,al
+310,State,l,al
+311,State,abl,al
+350,State,la,al
+384,State,l,al
+559,State,la,al
+569,State,empty,al
+587,State,empty,al
+737,State,la,al
+762,State,l,al
+772,State,empty,al
+16,ZipCode,35660***,35660
+17,ZipCode,35x660,35660
+92,ZipCode,empty,35631
+95,ZipCode,35233,36467
+96,ZipCode,35233,36467
+184,ZipCode,3597t6,35976
+226,ZipCode,empty,35968
+347,ZipCode,3630g5,36305
+609,ZipCode,empty,36323
+626,ZipCode,36081,36801
+680,ZipCode,3233,35233
+803,ZipCode,3a5903,35903
+871,ZipCode,empty,35570
+942,ZipCode,6033,36033
+958,ZipCode,3630,36330
+985,ZipCode,empty,35121
+70,CountyName,luderdale,lauderdale
+197,CountyName,jefferrson,jefferson
+273,CountyName,shelbzy,shelby
+276,CountyName,empty,shelby
+292,CountyName,shejlby,shelby
+355,CountyName,mlarion,marion
+474,CountyName,empty,dale
+484,CountyName,empty,dale
+556,CountyName,mongomery,montgomery
+558,CountyName,empty,montgomery
+727,CountyName,empty,cullman
+39,PhoneNumber,334793n8701,3347938701
+107,PhoneNumber,empty,3344933541
+465,PhoneNumber,2563864565,2563864556
+466,PhoneNumber,5263864556,2563864556
+502,PhoneNumber,empty,2569275531
+536,PhoneNumber,334882100,3342882100
+597,PhoneNumber,empty,3348972257
+754,PhoneNumber,empty,3342228466
+900,PhoneNumber,20593v25966,2059325966
+977,PhoneNumber,empty,3343470584
+5,HospitalOwner,empty,voluntary non-profit - private
+337,HospitalOwner,empty,proprietary
+339,HospitalOwner,prorpietary,proprietary
+356,HospitalOwner,proprietray,proprietary
+392,HospitalOwner,empty,government - state
+465,HospitalOwner,government - hospital district or auhtority,government - hospital district or authority
+466,HospitalOwner,government - hospital district or authoritsy,government - hospital district or authority
+485,HospitalOwner,empty,government - hospital district or authority
+493,HospitalOwner,voluntary non-profit  private,voluntary non-profit - private
+557,HospitalOwner,empty,voluntary non-profit - private
+909,HospitalOwner,poprietary,proprietary
+954,HospitalOwner,voluntary noon-profit - private,voluntary non-profit - private
+133,EmergencyService,empty,yes
+135,EmergencyService,empty,yes
+180,EmergencyService,eys,yes
+249,EmergencyService,empty,yes
+285,EmergencyService,eys,yes
+335,EmergencyService,eys,yes
+339,EmergencyService,es,yes
+459,EmergencyService,yses,yes
+460,EmergencyService,ryes,yes
+697,EmergencyService,empty,no
+920,EmergencyService,empty,yes
+926,EmergencyService,yse,yes
+77,Condition,heartfailure,heart failure
+94,Condition,surgical infection preveniton,surgical infection prevention
+290,Condition,surgical infection prevntion,surgical infection prevention
+376,Condition,surgical infection prevetnion,surgical infection prevention
+410,Condition,surgical infexction prevention,surgical infection prevention
+444,Condition,surgical infection prjevention,surgical infection prevention
+460,Condition,surgical infection prevntion,surgical infection prevention
+485,Condition,surgical infection preventino,surgical infection prevention
+510,Condition,surgical infection preventionn,surgical infection prevention
+45,MeasureName,heart attack aptients given aspirin at arrival,heart attack patients given aspirin at arrival
+109,MeasureName,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,pneumonia patients given initial antibiotic(s) within 6 hours after arrival
+110,MeasureName,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,pneumonia patients given the most appropriate initial antibiotic(s)
+111,MeasureName,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,pneumonia patients assessed and given influenza vaccination
+113,MeasureName,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection
+114,MeasureName,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,surgery patients who were given the  right kind  of antibiotic to help prevent infection
+120,MeasureName,empty,heart attack patients given aspirin at arrival
+125,MeasureName,empty,heart attack patients given fibrinolytic medication within 30 minutes of arrival
+173,MeasureName,empty,heart attack patients given smoking cessation advice/counseling
+256,MeasureName,pneumonia patients assessed and give pneumococcal vaccination,pneumonia patients assessed and given pneumococcal vaccination
+275,MeasureName,heart attack patisents given fibrinolytic medication within 30 minutes of arrival,heart attack patients given fibrinolytic medication within 30 minutes of arrival
+322,MeasureName,heart failure patients given anr evaluation of left ventricular systolic (lvs) function,heart failure patients given an evaluation of left ventricular systolic (lvs) function
+327,MeasureName,empty,pneumonia patients given smoking cessation advice/counseling
+380,MeasureName,heart attack patietns given aspirin at arrival,heart attack patients given aspirin at arrival
+391,MeasureName,pneumonia patients assessedand given pneumococcal vaccination,pneumonia patients assessed and given pneumococcal vaccination
+399,MeasureName,heart failure patients given discharge instructiovns,heart failure patients given discharge instructions
+451,MeasureName,hart attack patients given aspirin at arrival,heart attack patients given aspirin at arrival
+517,MeasureName,heart attack patients fgiven aspirin at arrival,heart attack patients given aspirin at arrival
+592,MeasureName,hart attack patients given aspirin at arrival,heart attack patients given aspirin at arrival
+619,MeasureName,empty,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
+995,MeasureName,pneumonia patients given initial antibiotic(s) within 6 hours after rarival,pneumonia patients given initial antibiotic(s) within 6 hours after arrival
+191,Stateavg,empty,al_scip-inf-4
+344,Stateavg,al_scoip-inf-3,al_scip-inf-3
+352,Stateavg,empty,al_ami-4
+375,Stateavg,al_scip-inf-k3,al_scip-inf-3
+412,Stateavg,alh_scip-inf-3,al_scip-inf-3
+422,Stateavg,alhf-1,al_hf-1
+462,Stateavg,al_scip-infz-3,al_scip-inf-3
+487,Stateavg,al_scip-inf3-,al_scip-inf-3
+522,Stateavg,empty,al_ami-7a
+739,Stateavg,al_sciap-inf-6,al_scip-inf-6
+740,Stateavg,al_sci-pvte-1,al_scip-vte-1
+818,Stateavg,empty,al_pn-6
+833,Stateavg,hal_ami-7a,al_ami-7a
+893,Stateavg,al_p-6,al_pn-6
+974,Stateavg,empty,al_scip-inf-1

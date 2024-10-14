@@ -76,6 +76,12 @@ fd11: hospitals(providernumber : $providernumber1, hospitalname : $hospitalname1
 
 fd12: hospitals(providernumber : $providernumber1, hospitalname : $hospitalname1, address1 : $address1_first, address2 : $address2_first, address3 : $address3_first, city : $city1, state : $state1, zipcode : $zipcode1, countyname : $countyname1, phonenumber : $phonenumber1, hospitaltype : $hospitaltype1, hospitalowner : $hospitalowner1, emergencyservice : $emergencyservice1, condition : $condition1, measurecode : $measurecode1, measurename : $measurename1, score : $score1, sample: $sample1, stateavg: $stateavg1), hospitals(providernumber : $providernumber2, hospitalname : $hospitalname2, address1 : $address1_second, address2 : $address2_second, address3 : $address3_second, city : $city2, state : $state2, zipcode : $zipcode2, countyname : $countyname2, phonenumber : $phonenumber2, hospitaltype : $hospitaltype2, hospitalowner : $hospitalowner2, emergencyservice : $emergencyservice2, condition : $condition2, measurecode : $measurecode2, measurename : $measurename2, score : $score2, sample: $sample2, stateavg: $stateavg2),
 	$hospitalname1 == $hospitalname2, $city1 != $city2 -> #fail. 
+
+fd13: hospitals(providernumber : $providernumber1, hospitalname : $hospitalname1, address1 : $address1_first, address2 : $address2_first, address3 : $address3_first, city : $city1, state : $state1, zipcode : $zipcode1, countyname : $countyname1, phonenumber : $phonenumber1, hospitaltype : $hospitaltype1, hospitalowner : $hospitalowner1, emergencyservice : $emergencyservice1, condition : $condition1, measurecode : $measurecode1, measurename : $measurename1, score : $score1, sample: $sample1, stateavg: $stateavg1), hospitals(providernumber : $providernumber2, hospitalname : $hospitalname2, address1 : $address1_second, address2 : $address2_second, address3 : $address3_second, city : $city2, state : $state2, zipcode : $zipcode2, countyname : $countyname2, phonenumber : $phonenumber2, hospitaltype : $hospitaltype2, hospitalowner : $hospitalowner2, emergencyservice : $emergencyservice2, condition : $condition2, measurecode : $measurecode2, measurename : $measurename2, score : $score2, sample: $sample2, stateavg: $stateavg2),
+        $measurename1 == $measurename2, $measurecode1 != $measurecode2 -> #fail.
+        
+fd14: hospitals(providernumber : $providernumber1, hospitalname : $hospitalname1, address1 : $address1_first, address2 : $address2_first, address3 : $address3_first, city : $city1, state : $state1, zipcode : $zipcode1, countyname : $countyname1, phonenumber : $phonenumber1, hospitaltype : $hospitaltype1, hospitalowner : $hospitalowner1, emergencyservice : $emergencyservice1, condition : $condition1, measurecode : $measurecode1, measurename : $measurename1, score : $score1, sample: $sample1, stateavg: $stateavg1), hospitals(providernumber : $providernumber2, hospitalname : $hospitalname2, address1 : $address1_second, address2 : $address2_second, address3 : $address3_second, city : $city2, state : $state2, zipcode : $zipcode2, countyname : $countyname2, phonenumber : $phonenumber2, hospitaltype : $hospitaltype2, hospitalowner : $hospitalowner2, emergencyservice : $emergencyservice2, condition : $condition2, measurecode : $measurecode2, measurename : $measurename2, score : $score2, sample: $sample2, stateavg: $stateavg2),
+        $hospitalname1 == $hospitalname2, $state1 != $state2 -> #fail.
 ]]>
     </dependencies>
 
@@ -176,6 +182,18 @@ fd12: hospitals(providernumber : $providernumber1, hospitalname : $hospitalname1
                     <comparison>(hospitalname1 == hospitalname2)</comparison>
                     <percentage>0.625</percentage>
                 </vioGenQuery>
+                <vioGenQuery id="fd13">
+                    <comparison>(measurename1 == measurename2)</comparison>
+                    <percentage>1.25</percentage>
+                </vioGenQuery>
+                <vioGenQuery id="fd14">
+                    <comparison>(hospitalname1 == hospitalname2)</comparison>
+                    <percentage>0.625</percentage>
+                </vioGenQuery>
+                <vioGenQuery id="fd14">
+                    <comparison>(state1 != state2)</comparison>
+                    <percentage>0.625</percentage>
+                </vioGenQuery>
             </vioGenQueries>
         </errorPercentages>
 
@@ -201,6 +219,7 @@ fd12: hospitals(providernumber : $providernumber1, hospitalname : $hospitalname1
                         <attribute>stateavg</attribute>
                         <attribute>emergencyservice</attribute>
                         <attribute>measurename</attribute>
+                        <attribute>state</attribute>
                     </attributes>
                 </table>
             </tables>
