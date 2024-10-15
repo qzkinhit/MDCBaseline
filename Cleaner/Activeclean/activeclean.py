@@ -11,6 +11,8 @@ from scipy.sparse import hstack, vstack
 import pandas as pd
 import random
 import pickle
+# import warnings
+# warnings.filterwarnings("ignore")
 
 
 # test data只包括clean的
@@ -35,7 +37,6 @@ def activeclean(dirty_data, clean_data, test_data, full_data, indextuple, batchs
 	cleanex = []
 
 	total_labels = []
-
 
 
 	##Not in the paper but this initialization seems to work better, do a smarter initialization than
@@ -122,7 +123,7 @@ def error_classifier(total_labels, full_data):
 	labels = [int(i[1]) for i in total_labels]
 	# 判断是否所有的label都是clean
 	if np.sum(labels) < len(labels):
-		clf = SGDClassifier(loss="log", alpha=1e-6, max_iter=200, fit_intercept=True)
+		clf = SGDClassifier(loss="log_loss", alpha=1e-6, max_iter=200, fit_intercept=True)
 		clf.fit(full_data[indices,:],labels)
 		#print labels
 	#print clf.score(full_data[indices,:],labels)
@@ -206,7 +207,7 @@ def run(correct_data_path, injected_data_path):
     examples = np.arange(0, size, 1)
 
     # 分割训练集和测试集
-    train_indices, test_indices = train_test_split(examples, test_size=0.20)
+    train_indices, test_indices = train_test_split(examples, test_size=0.20,stratify=y_full)
 
     # 将测试集中干净数据的索引转换为clean数据中的索引
     clean_test_indices = translate_indices(test_indices, indices_clean)

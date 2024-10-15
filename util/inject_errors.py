@@ -7,8 +7,8 @@ from sklearn.model_selection import train_test_split
 
 # 解析命令行参数
 def parse_arguments():
-    parser = argparse.ArgumentParser(description='在Adult数据集中注入错误。')
-    parser.add_argument('--input', type=str, required=True, help='输入CSV文件的路径（向量化后的Adult数据集）。')
+    parser = argparse.ArgumentParser(description='在数据集中注入错误。')
+    parser.add_argument('--input', type=str, required=True, help='输入CSV文件的路径（向量化后的数据集）。')
     parser.add_argument('--output', type=str, required=True, help='保存带有注入错误的输出CSV文件的路径。')
     parser.add_argument('--error_type', type=str, required=True, choices=['random', 'system'], help='要注入的错误类型：随机错误或系统错误。')
     parser.add_argument('--percent', type=float, required=True, help='要注入错误的数据百分比。')
@@ -16,9 +16,9 @@ def parse_arguments():
     return args
 
 # 注入随机错误（对整行注入错误）
-def inject_random_error(df, percent):
+def inject_random_error(df, percent, target_column):
     """
-    在指定比例的行中注入随机错误，将这些行的数值特征替换为最大值的3倍。
+    在指定比例的行中注入随机错误，将这些行的数值特征替换为最大值的3倍，标签列除外。
     """
     # 根据百分比计算要注入错误的行数
     num_samples = int(len(df) * percent / 100)
@@ -26,8 +26,10 @@ def inject_random_error(df, percent):
     # 随机选择行
     random_indices = np.random.choice(df.index, size=num_samples, replace=False)
     
-    # 对这些行中的每一个数值型特征列，替换值为最大值的3倍
+    # 对这些行中的每一个数值型特征列，排除标签列，替换值为最大值的3倍
     for col in df.select_dtypes(include=[np.number]).columns:
+        if col == target_column:
+            continue  # 跳过标签列
         max_value = df[col].max()  # 获取列的最大值
         df.loc[random_indices, col] = max_value * 3  # 将随机选择的行替换为最大值的3倍
     
@@ -36,7 +38,7 @@ def inject_random_error(df, percent):
 # 注入系统错误（对整行注入错误）
 def inject_system_error(df, percent, target_column):
     """
-    在指定比例的行中注入系统错误，基于模型权重调整特征值。
+    在指定比例的行中注入系统错误，基于模型权重调整特征值，标签列除外。
     """
     # 分离特征和标签
     X = df.drop(columns=[target_column])
@@ -80,7 +82,7 @@ def main():
     # 进行错误注入
     if args.error_type == 'random':
         print(f'Injecting random errors into {args.percent}% of the dataset...')
-        df_with_errors = inject_random_error(df, args.percent)
+        df_with_errors = inject_random_error(df, args.percent, target_column)
     elif args.error_type == 'system':
         print(f'Injecting system errors into {args.percent}% of the dataset...')
         df_with_errors = inject_system_error(df, args.percent, target_column)
