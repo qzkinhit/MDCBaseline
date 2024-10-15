@@ -93,115 +93,115 @@
        - **错误条目数** = 457
      
      
-     ### 数据存放路径
+### 数据存放路径
      
-     - **BART 脚本路径**：
-     
-       ​	**0.25%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_0.25/flights__with_correct_primary_key.xml`
-       ​    **0.5%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_0.5/flights__with_correct_primary_key.xml`
-       ​    **0.75%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_0.75/flights__with_correct_primary_key.xml`
-       ​    **1%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1/flights__with_correct_primary_key.xml`
-       ​    **1.25%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1.25/flights__with_correct_primary_key.xml`
-       ​    **1.5%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1.5/flights__with_correct_primary_key.xml`
-       ​    **1.75%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1.75/flights__with_correct_primary_key.xml`
-          **2%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_2/flights__with_correct_primary_key.xml`
-     
-     - **数据存放路径**：`
-     
-       ​	**0.25%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_flights_null.csv`
-       ​    **0.5%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_0.5/dirty_flights_null.csv`
-       ​    **0.75%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_0.75/dirty_flights_null.csv`
-       ​    **1%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1/dirty_flights_null.csv`
-       ​    **1.25%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1.25/dirty_flights_null.csv`
-       ​    **1.5%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1.5/dirty_flights_null.csv`
-       ​    **1.75%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1.75/dirty_flights_null.csv`
-       ​    **2%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_2/dirty_flights_null.csv`
-     
+   - **BART 脚本路径**：
+   
+     ​	**0.25%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_0.25/flights__with_correct_primary_key.xml`
+     ​    **0.5%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_0.5/flights__with_correct_primary_key.xml`
+     ​    **0.75%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_0.75/flights__with_correct_primary_key.xml`
+     ​    **1%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1/flights__with_correct_primary_key.xml`
+     ​    **1.25%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1.25/flights__with_correct_primary_key.xml`
+     ​    **1.5%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1.5/flights__with_correct_primary_key.xml`
+     ​    **1.75%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1.75/flights__with_correct_primary_key.xml`
+        **2%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_2/flights__with_correct_primary_key.xml`
+   
+   - **数据存放路径**：`
+   
+     ​	**0.25%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_flights_null.csv`
+     ​    **0.5%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_0.5/dirty_flights_null.csv`
+     ​    **0.75%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_0.75/dirty_flights_null.csv`
+     ​    **1%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1/dirty_flights_null.csv`
+     ​    **1.25%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1.25/dirty_flights_null.csv`
+     ​    **1.5%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1.5/dirty_flights_null.csv`
+     ​    **1.75%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_1.75/dirty_flights_null.csv`
+     ​    **2%**:`../2_flights/noise_with_correct_primary_key/dirty_mixed_2/dirty_flights_null.csv`
+   
      ---
      
-     2. **无条件**注入不同比例的错误。
-        - 每个规则违反、每个属性空缺值、每个属性异常值的混合错误。
-        - **错误注入比例**：
-          - **a. 0.25%**  
-            - 每个规则涉及的属性总体 0.25% 的违反
-            - 每个属性0.25%的空缺值
-            - 每个属性0.25%的异常值
-            - **Original Error Count (OEC)** = 总错误单元格数=71
-            - **错误条目数** = 71
+2. **无条件**注入不同比例的错误。
+   - 每个规则违反、每个属性空缺值、每个属性异常值的混合错误。
+   - **错误注入比例**：
+     - **a. 0.25%**  
+       - 每个规则涉及的属性总体 0.25% 的违反
+       - 每个属性0.25%的空缺值
+       - 每个属性0.25%的异常值
+       - **Original Error Count (OEC)** = 总错误单元格数=71
+       - **错误条目数** = 71
      
-           - **b. 0.5%**  
-             - 每个规则涉及的属性总体 0.5% 的违反
-             - 每个属性 0.5% 的空缺值
-             - 每个属性 0.5% 的异常值
-             - **Original Error Count (OEC)** = 总错误单元格数 = 155
-             - **错误条目数** = 149
+      - **b. 0.5%**  
+        - 每个规则涉及的属性总体 0.5% 的违反
+        - 每个属性 0.5% 的空缺值
+        - 每个属性 0.5% 的异常值
+        - **Original Error Count (OEC)** = 总错误单元格数 = 155
+        - **错误条目数** = 149
      
-           - **c. 0.75%**  
-             - 每个规则涉及的属性总体 0.75% 的违反
-             - 每个属性 0.75% 的空缺值
-             - 每个属性 0.75% 的异常值
-             - **Original Error Count (OEC)** = 总错误单元格数 = 247
-             - **错误条目数** = 233
+      - **c. 0.75%**  
+        - 每个规则涉及的属性总体 0.75% 的违反
+        - 每个属性 0.75% 的空缺值
+        - 每个属性 0.75% 的异常值
+        - **Original Error Count (OEC)** = 总错误单元格数 = 247
+        - **错误条目数** = 233
      
-           - **d. 1%**  
-             - 每个规则涉及的属性总体 1% 的违反
-             - 每个属性 1% 的空缺值
-             - 每个属性 1% 的异常值
-             - **Original Error Count (OEC)** = 总错误单元格数 = 321
-             - **错误条目数** = 298
+      - **d. 1%**  
+        - 每个规则涉及的属性总体 1% 的违反
+        - 每个属性 1% 的空缺值
+        - 每个属性 1% 的异常值
+        - **Original Error Count (OEC)** = 总错误单元格数 = 321
+        - **错误条目数** = 298
      
-           - **e. 1.25%**  
-             - 每个规则涉及的属性总体 1.25% 的违反
-             - 每个属性 1.25% 的空缺值
-             - 每个属性 1.25% 的异常值
-             - **Original Error Count (OEC)** = 总错误单元格数 = 399
-             - **错误条目数** = 362
+      - **e. 1.25%**  
+        - 每个规则涉及的属性总体 1.25% 的违反
+        - 每个属性 1.25% 的空缺值
+        - 每个属性 1.25% 的异常值
+        - **Original Error Count (OEC)** = 总错误单元格数 = 399
+        - **错误条目数** = 362
      
-           - **f. 1.5%**  
-             - 每个规则涉及的属性总体 1.5% 的违反
-             - 每个属性 1.5% 的空缺值
-             - 每个属性 1.5% 的异常值
-             - **Original Error Count (OEC)** = 总错误单元格数 = 488
-             - **错误条目数** = 445
+      - **f. 1.5%**  
+        - 每个规则涉及的属性总体 1.5% 的违反
+        - 每个属性 1.5% 的空缺值
+        - 每个属性 1.5% 的异常值
+        - **Original Error Count (OEC)** = 总错误单元格数 = 488
+        - **错误条目数** = 445
           
-           - **g. 1.75%**  
-             - 每个规则涉及的属性总体 1.75% 的违反
-             - 每个属性 1.75% 的空缺值
-             - 每个属性 1.75% 的异常值
-             - **Original Error Count (OEC)** = 总错误单元格数 = 564
-             - **错误条目数** = 515
+      - **g. 1.75%**  
+        - 每个规则涉及的属性总体 1.75% 的违反
+        - 每个属性 1.75% 的空缺值
+        - 每个属性 1.75% 的异常值
+        - **Original Error Count (OEC)** = 总错误单元格数 = 564
+        - **错误条目数** = 515
           
-           - **h. 2%**  
-             - 每个规则涉及的属性总体 2% 的违反
-             - 每个属性 2% 的空缺值
-             - 每个属性 2% 的异常值
-             - **Original Error Count (OEC)** = 总错误单元格数 = 652
-             - **错误条目数** = 575
+      - **h. 2%**  
+        - 每个规则涉及的属性总体 2% 的违反
+        - 每个属性 2% 的空缺值
+        - 每个属性 2% 的异常值
+        - **Original Error Count (OEC)** = 总错误单元格数 = 652
+        - **错误条目数** = 575
      
-     ### 数据存放路径
+   ### 数据存放路径
      
-     - **BART 脚本路径**：
+   - **BART 脚本路径**：
      
-       ​	**0.25%**:`../2_flights/noise/dirty_mixed_0.25/flights_mixed_all.xml`
-       ​    **0.5%**:`../2_flights/noise/dirty_mixed_0.5/flights_mixed_all.xml`
-       ​    **0.75%**:`../2_flights/noise/dirty_mixed_0.75/flights_mixed_all.xml`
-       ​    **1%**:`../2_flights/noise/dirty_mixed_1/flights_mixed_all.xml`
-       ​    **1.25%**:`../2_flights/noise/dirty_mixed_1.25/flights_mixed_all.xml`
-       ​    **1.5%**:`../2_flights/noise/dirty_mixed_1.5/flights_mixed_all.xml`
-       ​    **1.75%**:`../2_flights/noise/dirty_mixed_1.75/flights_mixed_all.xml`
-          **2%**:`../2_flights/noise/dirty_mixed_2/flights_mixed_all.xml`
-     - **数据存放路径**：`
+     ​	**0.25%**:`../2_flights/noise/dirty_mixed_0.25/flights_mixed_all.xml`
+     ​    **0.5%**:`../2_flights/noise/dirty_mixed_0.5/flights_mixed_all.xml`
+     ​    **0.75%**:`../2_flights/noise/dirty_mixed_0.75/flights_mixed_all.xml`
+     ​    **1%**:`../2_flights/noise/dirty_mixed_1/flights_mixed_all.xml`
+     ​    **1.25%**:`../2_flights/noise/dirty_mixed_1.25/flights_mixed_all.xml`
+     ​    **1.5%**:`../2_flights/noise/dirty_mixed_1.5/flights_mixed_all.xml`
+     ​    **1.75%**:`../2_flights/noise/dirty_mixed_1.75/flights_mixed_all.xml`
+        **2%**:`../2_flights/noise/dirty_mixed_2/flights_mixed_all.xml`
+   - **数据存放路径**：`
      
-       ​	**0.25%**:`../2_flights/noise/dirty_mixed_0.25/dirty_flights_null.csv`
-       ​    **0.5%**:`../2_flights/noise/dirty_mixed_0.5/dirty_flights_null.csv`
-       ​    **0.75%**:`../2_flights/noise/dirty_mixed_0.75/dirty_flights_null.csv`
-       ​    **1%**:`../2_flights/noise/dirty_mixed_1/dirty_flights_null.csv`
-       ​    **1.25%**:`../2_flights/noise/dirty_mixed_1.25/dirty_flights_null.csv`
-       ​    **1.5%**:`../2_flights/noise/dirty_mixed_1.5/dirty_flights_null.csv`
-       ​    **1.75%**:`../2_flights/noise/dirty_mixed_1.75/dirty_flights_null.csv`
-       ​    **2%**:`../2_flights/noise/dirty_mixed_2/dirty_flights_null.csv`
+     ​	**0.25%**:`../2_flights/noise/dirty_mixed_0.25/dirty_flights_null.csv`
+     ​    **0.5%**:`../2_flights/noise/dirty_mixed_0.5/dirty_flights_null.csv`
+     ​    **0.75%**:`../2_flights/noise/dirty_mixed_0.75/dirty_flights_null.csv`
+     ​    **1%**:`../2_flights/noise/dirty_mixed_1/dirty_flights_null.csv`
+     ​    **1.25%**:`../2_flights/noise/dirty_mixed_1.25/dirty_flights_null.csv`
+     ​    **1.5%**:`../2_flights/noise/dirty_mixed_1.5/dirty_flights_null.csv`
+     ​    **1.75%**:`../2_flights/noise/dirty_mixed_1.75/dirty_flights_null.csv`
+     ​    **2%**:`../2_flights/noise/dirty_mixed_2/dirty_flights_null.csv`
      
-     ### hospital 下目录结构说明
+   ### hospital 下目录结构说明
      
-     noise：存放无条件噪声注入
-     noise with correct primary key：存放主键干净的噪声注入
+   noise：存放无条件噪声注入
+   noise with correct primary key：存放主键干净的噪声注入
