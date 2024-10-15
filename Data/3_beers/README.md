@@ -3,35 +3,32 @@
 
 ## 属性集
 ```text
-[ProviderNumber, HospitalName, Address1, Address2, Address3, City, State, ZipCode, CountyName, 
-PhoneNumber, HospitalType, HospitalOwner, EmergencyService, Condition, MeasureCode, MeasureName, 
-Score, Sample, Stateavg]
+[id,brewery_id,brewery_name,beer_name,style,ounces,abv,ibu,city,state]
 ```
 
 ## 数据规模
-**属性个数 × 条目数**：9 × 2410
+**属性个数 × 条目数**：11 × 2410
 
 ## 干净版本
 存在
 
 ## 原生错误种类及数量
-### 错误种类：待填写
-### 错误数量：待填写
+### 错误种类：MV,FI,VAD
+### 错误数量：16%
 
 ## 数据规则集、标签、知识存放路径
-- **FD 规则**：`../../Data/hospital/dc_rules-validate-fd-horizon.txt`
-- **DC 规则**：`../../Data/hospital/dc_rules_dc_holoclean.txt`
+- **FD 规则**：`../../Data/3_beers/dc_rules-validate-fd-horizon.txt`
+- **DC 规则**：`../../Data/3_beers/dc_rules_dc_holoclean.txt`
 
 
 ## 数据集出处
-### 待填写（是数据集的出处，可能源于论文或者网站，不是系统论文的出处）
+### J.-N. Hould. Craft beers dataset. https://www.kaggle.com/nickhould/craft-cans, 2017. Version 1.
 
 ## 人工错误注入记录
 
 ## 主键属性集合：
 ```text
-ProviderNumber、MeasureCode
-[待填写，通过fd的最小蕴含计算主键属性有哪些，涉及数据库的知识，注入错误之前找我确认主键对不对]
+brewery_id
 ```
 1. **规则涉及**的属性中，保证**主键属性集合干净**的情况下，注入不同比例的混合错误。
    - 每个规则违反、非主键属性空缺值、非主键属性异常值的混合错误。
@@ -166,4 +163,3 @@ ProviderNumber、MeasureCode
 ### beer 下目录结构说明
 noise：存放纯随机噪声注入
 noise with correct primary key：存放主键干净的噪声注入
-xxxx待填写
