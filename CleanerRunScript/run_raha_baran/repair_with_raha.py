@@ -43,7 +43,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 
 # from Cleaner.Baran_Raha.correction_with_raha import Correction
 from Cleaner.Baran_Raha.repairing_with_delete_and_mode import Detection
-from util.getScore import calculate_accuracy_and_recall
+from util.getScore import calculate_accuracy_and_recall, calculate_all_metrics
 
 warnings.filterwarnings("ignore")
 
@@ -771,16 +771,17 @@ if __name__ == "__main__":
         # 根据规则定义的属性集合
         attributes = clean_data.columns.tolist()
 
-        # 调用函数计算修复准确率和召回率
-        accuracy, recall = calculate_accuracy_and_recall(clean_data, dirty_data, cleaned_data, attributes,
-                                                         stra_path, args.task_name)
+        # 调用函数并计算所有指标
+        results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, task_name)
 
-        # 输出修复的准确率和召回率
-        print(f"修复准确率: {accuracy}")
-        print(f"修复召回率: {recall}")
-        # 定义输出文件路径
-        out_path = os.path.join(stra_path, f"{args.task_name}_evaluation.txt")
-
+        # 打印结果
+        print("测试结果:")
+        print(f"Accuracy: {results.get('accuracy')}")
+        print(f"Recall: {results.get('recall')}")
+        print(f"F1 Score: {results.get('f1_score')}")
+        print(f"EDR: {results.get('edr')}")
+        print(f"Hybrid Distance: {results.get('hybrid_distance')}")
+        print(f"R-EDR: {results.get('r_edr')}")
         print("测评结束，详细测评日志见：" + str(out_path))
 
     except TimeoutError as e:
