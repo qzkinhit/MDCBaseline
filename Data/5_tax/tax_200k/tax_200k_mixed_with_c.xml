@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task>
+  <source>
+    <type>DBMS</type>
+    <access-configuration>
+      <driver>org.postgresql.Driver</driver>
+      <uri>jdbc:postgresql://localhost:5432/alpha</uri>
+      <schema>tax200k_dependencies_source</schema>
+      <login>postgres</login>
+      <password>postgre666</password>
+    </access-configuration>
+    <import createTables="true">
+      <input table="consttablecf1" type="XML">xml/consttablecf1.xml</input>
+      <input table="consttablecf2" type="XML">xml/consttablecf2.xml</input>
+    </import>
+  </source>
+  <target>
+    <type>DBMS</type>
+    <access-configuration>
+      <driver>org.postgresql.Driver</driver>
+      <uri>jdbc:postgresql://localhost:5432/alpha</uri>
+      <schema>tax200k_dependencies4</schema>
+      <login>postgres</login>
+      <password>postgre666</password>
+    </access-configuration>
+    <import createTables="true">
+      <input table="tax" type="csv" separator=",">tax_200k_clean_id.csv</input>
+    </import>
+  </target>
+  <dependencies><![CDATA[DCs:
+//FD: not(t1.Zip=t2.Zip&t1.City!=t2.City)
+fd1: tax(tno: $tno1, fname: $fname1, lname: $lname1, gender: $gender1, areacode: $areacode1, phone: $phone1, city: $city1, state: $state1, zip: $zip1, maritalstatus: $maritalstatus1, haschild: $haschild1, salary: $salary1, rate: $rate1, singleexemp: $singleexemp1, marriedexemp: $marriedexemp1, childexemp: $childexemp1),
+    tax(tno: $tno2, fname: $fname2, lname: $lname2, gender: $gender2, areacode: $areacode2, phone: $phone2, city: $city2, state: $state2, zip: $zip2, maritalstatus: $maritalstatus2, haschild: $haschild2, salary: $salary2, rate: $rate2, singleexemp: $singleexemp2, marriedexemp: $marriedexemp2, childexemp: $childexemp2),
+    $zip1 == $zip2, $city1 != $city2 -> #fail.
+
+//FD: not(t1.Zip=t2.Zip&t1.State!=t2.State)
+fd2: tax(tno: $tno1, fname: $fname1, lname: $lname1, gender: $gender1, areacode: $areacode1, phone: $phone1, city: $city1, state: $state1, zip: $zip1, maritalstatus: $maritalstatus1, haschild: $haschild1, salary: $salary1, rate: $rate1, singleexemp: $singleexemp1, marriedexemp: $marriedexemp1, childexemp: $childexemp1),
+    tax(tno: $tno2, fname: $fname2, lname: $lname2, gender: $gender2, areacode: $areacode2, phone: $phone2, city: $city2, state: $state2, zip: $zip2, maritalstatus: $maritalstatus2, haschild: $haschild2, salary: $salary2, rate: $rate2, singleexemp: $singleexemp2, marriedexemp: $marriedexemp2, childexemp: $childexemp2),
+    $zip1 == $zip2, $state1 != $state2 -> #fail.
+
+//FD: not(t1.Zip=t2.Zip&t1.HasChild=t2.HasChild&t1.ChildExemp!=t2.ChildExemp)
+fd3: tax(tno: $tno1, fname: $fname1, lname: $lname1, gender: $gender1, areacode: $areacode1, phone: $phone1, city: $city1, state: $state1, zip: $zip1, maritalstatus: $maritalstatus1, haschild: $haschild1, salary: $salary1, rate: $rate1, singleexemp: $singleexemp1, marriedexemp: $marriedexemp1, childexemp: $childexemp1),
+    tax(tno: $tno2, fname: $fname2, lname: $lname2, gender: $gender2, areacode: $areacode2, phone: $phone2, city: $city2, state: $state2, zip: $zip2, maritalstatus: $maritalstatus2, haschild: $haschild2, salary: $salary2, rate: $rate2, singleexemp: $singleexemp2, marriedexemp: $marriedexemp2, childexemp: $childexemp2),
+    $zip1 == $zip2, $haschild1 == $haschild2, $childexemp1 != $childexemp2 -> #fail.
+
+//FD: not(t1.Zip=t2.Zip&t1.MaritalStatus=t2.MaritalStatus&t1.SingleExemp!=t2.SingleExemp)
+fd4: tax(tno: $tno1, fname: $fname1, lname: $lname1, gender: $gender1, areacode: $areacode1, phone: $phone1, city: $city1, state: $state1, zip: $zip1, maritalstatus: $maritalstatus1, haschild: $haschild1, salary: $salary1, rate: $rate1, singleexemp: $singleexemp1, marriedexemp: $marriedexemp1, childexemp: $childexemp1),
+    tax(tno: $tno2, fname: $fname2, lname: $lname2, gender: $gender2, areacode: $areacode2, phone: $phone2, city: $city2, state: $state2, zip: $zip2, maritalstatus: $maritalstatus2, haschild: $haschild2, salary: $salary2, rate: $rate2, singleexemp: $singleexemp2, marriedexemp: $marriedexemp2, childexemp: $childexemp2),
+    $zip1 == $zip2, $maritalstatus1 == $maritalstatus2, $singleexemp1 != $singleexemp2 -> #fail.
+
+//FD: not(t1.Zip=t2.Zip&t1.MaritalStatus=t2.MaritalStatus&t1.MarriedExemp!=t2.MarriedExemp)
+fd5: tax(tno: $tno1, fname: $fname1, lname: $lname1, gender: $gender1, areacode: $areacode1, phone: $phone1, city: $city1, state: $state1, zip: $zip1, maritalstatus: $maritalstatus1, haschild: $haschild1, salary: $salary1, rate: $rate1, singleexemp: $singleexemp1, marriedexemp: $marriedexemp1, childexemp: $childexemp1),
+    tax(tno: $tno2, fname: $fname2, lname: $lname2, gender: $gender2, areacode: $areacode2, phone: $phone2, city: $city2, state: $state2, zip: $zip2, maritalstatus: $maritalstatus2, haschild: $haschild2, salary: $salary2, rate: $rate2, singleexemp: $singleexemp2, marriedexemp: $marriedexemp2, childexemp: $childexemp2),
+    $zip1 == $zip2, $maritalstatus1 == $maritalstatus2, $marriedexemp1 != $marriedexemp2 -> #fail.
+
+//FD: not(t1.FName=t2.FName&t1.Gender!=t2.Gender)
+fd6: tax(tno: $tno1, fname: $fname1, lname: $lname1, gender: $gender1, areacode: $areacode1, phone: $phone1, city: $city1, state: $state1, zip: $zip1, maritalstatus: $maritalstatus1, haschild: $haschild1, salary: $salary1, rate: $rate1, singleexemp: $singleexemp1, marriedexemp: $marriedexemp1, childexemp: $childexemp1),
+    tax(tno: $tno2, fname: $fname2, lname: $lname2, gender: $gender2, areacode: $areacode2, phone: $phone2, city: $city2, state: $state2, zip: $zip2, maritalstatus: $maritalstatus2, haschild: $haschild2, salary: $salary2, rate: $rate2, singleexemp: $singleexemp2, marriedexemp: $marriedexemp2, childexemp: $childexemp2),
+    $fname1 == $fname2, $gender1 != $gender2 -> #fail.
+
+//FD: not(t1.AreaCode=t2.AreaCode&t1.State!=t2.State)
+fd7: tax(tno: $tno1, fname: $fname1, lname: $lname1, gender: $gender1, areacode: $areacode1, phone: $phone1, city: $city1, state: $state1, zip: $zip1, maritalstatus: $maritalstatus1, haschild: $haschild1, salary: $salary1, rate: $rate1, singleexemp: $singleexemp1, marriedexemp: $marriedexemp1, childexemp: $childexemp1),
+    tax(tno: $tno2, fname: $fname2, lname: $lname2, gender: $gender2, areacode: $areacode2, phone: $phone2, city: $city2, state: $state2, zip: $zip2, maritalstatus: $maritalstatus2, haschild: $haschild2, salary: $salary2, rate: $rate2, singleexemp: $singleexemp2, marriedexemp: $marriedexemp2, childexemp: $childexemp2),
+    $areacode1 == $areacode2, $state1 != $state2 -> #fail.]]></dependencies>
+  <authoritativeSources>
+    <source>consttablecf1</source>
+    <source>consttablecf2</source>
+  </authoritativeSources>
+  <configuration>
+    <printLog>true</printLog>
+    <checkChanges>true</checkChanges>
+    <recreateDBOnStart>false</recreateDBOnStart>
+    <applyCellChanges>true</applyCellChanges>
+    <estimateRepairability>true</estimateRepairability>
+    <exportCellChanges>true</exportCellChanges>
+    <exportCellChangesPath>dirty_mix_2/cellChanges.csv</exportCellChangesPath>
+    <exportDirtyDB>true</exportDirtyDB>
+    <exportDirtyDBPath>dirty_mix_2/</exportDirtyDBPath>
+    <exportDirtyDBType>CSV</exportDirtyDBType>
+    <useDeltaDBForChanges>true</useDeltaDBForChanges>
+    <cloneTargetSchema>true</cloneTargetSchema>
+    <cloneSuffix>_dirty</cloneSuffix>
+    <avoidInteractions>true</avoidInteractions>
+    <errorPercentages>
+      <defaultPercentage>0.0</defaultPercentage>
+      <vioGenQueries>
+        <vioGenQuery id="fd3">
+          <comparison>(haschild1 == haschild2)</comparison>
+          <percentage>0.0</percentage>
+        </vioGenQuery>
+        <vioGenQuery id="fd3">
+          <comparison>(childexemp1 != childexemp2)</comparison>
+          <percentage>2</percentage>
+        </vioGenQuery>
+        <vioGenQuery id="fd1">
+          <comparison>(city1 != city2)</comparison>
+          <percentage>2</percentage>
+        </vioGenQuery>
+        <vioGenQuery id="fd6">
+          <comparison>(gender1 != gender2)</comparison>
+          <percentage>2</percentage>
+        </vioGenQuery>
+        <vioGenQuery id="fd5">
+          <comparison>(marriedexemp1 != marriedexemp2)</comparison>
+          <percentage>2</percentage>
+        </vioGenQuery>
+        <vioGenQuery id="fd4">
+          <comparison>(singleexemp1 != singleexemp2)</comparison>
+          <percentage>2</percentage>
+        </vioGenQuery>
+        <vioGenQuery id="fd2">
+          <comparison>(state1 != state2)</comparison>
+          <percentage>2</percentage>
+        </vioGenQuery>
+        <vioGenQuery id="fd7">
+          <comparison>(state1 != state2)</comparison>
+          <percentage>2</percentage>
+        </vioGenQuery>
+      </vioGenQueries>
+    </errorPercentages>
+    <dirtyStrategies>
+      <defaultStrategy>
+        <strategy>TypoRandom</strategy>
+        <!--<strategy charsToRemove="9999">TypoRemoveString</strategy>-->
+      </defaultStrategy>
+    </dirtyStrategies>
+    <randomErrors>
+      <tables>
+        <table name="tax">
+          <percentage>2</percentage>
+          <attributes>
+            <attribute>city</attribute>
+            <attribute>state</attribute>
+            <attribute>childexemp</attribute>
+            <attribute>singleexemp</attribute>
+            <attribute>marriedexemp</attribute>
+            <attribute>gender</attribute>
+          </attributes>
+        </table>
+      </tables>
+    </randomErrors>
+  </configuration>
+</task>
+
