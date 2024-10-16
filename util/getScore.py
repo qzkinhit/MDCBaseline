@@ -468,64 +468,64 @@ def get_record_based_edr(clean, dirty, cleaned, output_path, task_name, index_at
 
     return r_edr
 
-# def test_calculate_all_metrics():
-#     # 准备测试数据
-#     data = {
-#         'index': [1, 2, 3, 4, 5],
-#         'Attribute1': [1, 2, 3, 4, 5],
-#         'Attribute2': ['A', 'B', 'C', 'D', 'E'],
-#         'Attribute3': [1.1, 2.2, 3.3, 4.4, 5.5]
-#     }
-#
-#     # 创建干净数据 DataFrame
-#     clean_df = pd.DataFrame(data)
-#
-#     # 创建脏数据 DataFrame （引入了一些错误）
-#     dirty_data = {
-#         'index': [1, 2, 3, 4, 5],
-#         'Attribute1': [1, 9, 3, 4, 5],  # 第二行是错误的
-#         'Attribute2': ['A', 'B', 'X', 'D', 'E'],  # 第三行是错误的
-#         'Attribute3': [1.1, 2.2, 3.3, 4.4, 5.5]  # 没有错误
-#     }
-#     dirty_df = pd.DataFrame(dirty_data)
-#
-#     # 创建清洗后的数据 DataFrame （修复了一些错误）
-#     cleaned_data = {
-#         'index': [1, 2, 3, 4, 5],
-#         'Attribute1': [1, 9, 3, 4, 5],  # 已修复 Attribute1 中的错误
-#         'Attribute2': ['A', 'X', 'C', 'D', 'E'],  # 修复错误
-#         'Attribute3': [1.1, 2.2, 3.3, 4.4, 5.5]  # 没有错误
-#     }
-#     cleaned_df = pd.DataFrame(cleaned_data)
-#
-#     # 属性列表
-#     attributes = ['Attribute1', 'Attribute2', 'Attribute3']
-#
-#     # 输出路径和任务名称（这里可以使用临时目录）
-#     output_path = './temp_test_output'
-#     task_name = 'test_task'
-#
-#     # 调用函数并计算所有指标
-#     results = calculate_all_metrics(clean_df, dirty_df, cleaned_df, attributes, output_path, task_name)
-#
-#     # 打印结果
-#     print("测试结果:")
-#     print(f"Accuracy: {results.get('accuracy')}")
-#     print(f"Recall: {results.get('recall')}")
-#     print(f"F1 Score: {results.get('f1_score')}")
-#     print(f"EDR: {results.get('edr')}")
-#     print(f"Hybrid Distance: {results.get('hybrid_distance')}")
-#     print(f"R-EDR: {results.get('r_edr')}")
-#
-#     # # 验证结果是否符合预期
-#     # assert results['accuracy'] > 0, "Accuracy should be greater than 0"
-#     # assert results['recall'] > 0, "Recall should be greater than 0"
-#     # assert results['f1_score'] > 0, "F1 score should be greater than 0"
-#     # assert results['edr'] > 0, "EDR should be greater than 0"
-#     # assert results['r_edr'] > 0, "R-EDR should be greater than 0"
-#
-#     print("测试通过！")
-#
-# if __name__ == "__main__":
-#     # 调用测试函数
-#     test_calculate_all_metrics()
+def test_calculate_all_metrics():
+    # 准备测试数据
+    data = {
+        'index1': [1, 2, 3, 4, 5],
+        'Attribute1': [1, 2, 3, 4, 5],
+        'Attribute2': ['A', 'B', 'C', 'D', 'E'],
+        'Attribute3': [1.1, 2.2, 3.3, 4.4, 5.5]
+    }
+
+    # 创建干净数据 DataFrame
+    clean_df = pd.DataFrame(data)
+
+    # 创建脏数据 DataFrame （引入了一些错误）
+    dirty_data = {
+        'index1': [1, 2, 3, 4, 5],
+        'Attribute1': [1, 9, 3, 4, 5],  # 第二行是错误的
+        'Attribute2': ['A', 'B', 'X', 'D', 'E'],  # 第三行是错误的
+        'Attribute3': [1.1, 2.2, 3.3, 4.4, 5.5]  # 没有错误
+    }
+    dirty_df = pd.DataFrame(dirty_data)
+
+    # 创建清洗后的数据 DataFrame （修复了一些错误）
+    cleaned_data = {
+        'index1': [1, 2, 3, 4, 5],
+        'Attribute1': [1, 9, 3, 4, 5],  # 已修复 Attribute1 中的错误
+        'Attribute2': ['A', 'X', 'C', 'D', 'E'],  # 修复错误
+        'Attribute3': [1.1, 2.2, 3.3, 4.4, 5.7]  # 没有错误
+    }
+    cleaned_df = pd.DataFrame(cleaned_data)
+
+    # 属性列表
+    attributes = ['Attribute1', 'Attribute2', 'Attribute3']
+
+    # 输出路径和任务名称（这里可以使用临时目录）
+    output_path = './temp_test_output'
+    task_name = 'test_task'
+
+    # 调用函数并计算所有指标
+    results = calculate_all_metrics(clean_df, dirty_df, cleaned_df, attributes, output_path, task_name,index_attribute='index1',mse_attributes=['Attribute3'])
+
+    # 打印结果
+    print("测试结果:")
+    print(f"Accuracy: {results.get('accuracy')}")
+    print(f"Recall: {results.get('recall')}")
+    print(f"F1 Score: {results.get('f1_score')}")
+    print(f"EDR: {results.get('edr')}")
+    print(f"Hybrid Distance: {results.get('hybrid_distance')}")
+    print(f"R-EDR: {results.get('r_edr')}")
+
+    # # 验证结果是否符合预期
+    # assert results['accuracy'] > 0, "Accuracy should be greater than 0"
+    # assert results['recall'] > 0, "Recall should be greater than 0"
+    # assert results['f1_score'] > 0, "F1 score should be greater than 0"
+    # assert results['edr'] > 0, "EDR should be greater than 0"
+    # assert results['r_edr'] > 0, "R-EDR should be greater than 0"
+
+    print("测试通过！")
+
+if __name__ == "__main__":
+    # 调用测试函数
+    test_calculate_all_metrics()
