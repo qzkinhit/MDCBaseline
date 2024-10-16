@@ -34,7 +34,7 @@ attributes_error_ratio = {attribute: 0.5 for attribute in attributes}
 
 inject_missing_values(
     csv_file='dirty_hospitals.csv',
-    output_file='dirty_hospitals_null.csv',
+    output_file='dirty_hospitals_mix_0.5.csv',
     attributes_error_ratio=attributes_error_ratio,
     missing_value_in_ori_data='NULL',
     missing_value_representation='empty'
