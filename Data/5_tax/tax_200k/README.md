@@ -30,8 +30,7 @@ rate, singleexemp, marriedexemp, childexemp]
 
 ## 主键属性集合：
 ```text
-ProviderNumber、MeasureCode
-[待填写，通过fd的最小蕴含计算主键属性有哪些，涉及数据库的知识，注入错误之前找我确认主键对不对]
+[fname, lname, areacode, phone, zip, maritalstatus, haschild, salary, rate]
 ```
 1. **规则涉及**的属性中，保证**主键属性集合干净**的情况下，注入不同比例的混合错误。
    - 每个规则违反、非主键属性空缺值、非主键属性异常值的混合错误。
@@ -95,8 +94,8 @@ ProviderNumber、MeasureCode
 
 
 ### 数据存放路径
-- **BART 脚本路径**：`../../Data/5_tax/tax_200k/tax_200k_mixed.xml`
-- **数据存放路径**：`../../Data/5_tax/tax_200k/dirty_mix_ratio/`
+- **BART 脚本路径**：`../../Data/5_tax/tax_200k/tax_200k_mixed_with_c.xml`
+- **数据存放路径**：`../../Data/5_tax/tax_200k/noise_with_correct_primary_key/dirty_mix_ratio/`
 
 ---
 
@@ -107,63 +106,63 @@ ProviderNumber、MeasureCode
        - 每个规则涉及的属性总体 0.25% 的违反
        - 每个属性0.25%的空缺值
        - 每个属性0.25%的异常值
-       - **Original Error Count (OEC)** = 总错误单元格数=待填写
-       - **错误条目数** = 待填写
+       - **Original Error Count (OEC)** = 总错误单元格数 = 18365
+       - **错误条目数** = 17674
 
       - **b. 0.5%**  
         - 每个规则涉及的属性总体 0.5% 的违反
         - 每个属性 0.5% 的空缺值
         - 每个属性 0.5% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 36785
+        - **错误条目数** = 33847
       
       - **c. 0.75%**  
         - 每个规则涉及的属性总体 0.75% 的违反
         - 每个属性 0.75% 的空缺值
         - 每个属性 0.75% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 54853
+        - **错误条目数** = 48083
       
       - **d. 1%**  
         - 每个规则涉及的属性总体 1% 的违反
         - 每个属性 1% 的空缺值
         - 每个属性 1% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 73279
+        - **错误条目数** = 61492
       
       - **e. 1.25%**  
         - 每个规则涉及的属性总体 1.25% 的违反
         - 每个属性 1.25% 的空缺值
         - 每个属性 1.25% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 91248
+        - **错误条目数** = 73617
       
       - **f. 1.5%**  
         - 每个规则涉及的属性总体 1.5% 的违反
         - 每个属性 1.5% 的空缺值
         - 每个属性 1.5% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 109342
+        - **错误条目数** = 85444
       
       - **g. 1.75%**  
         - 每个规则涉及的属性总体 1.75% 的违反
         - 每个属性 1.75% 的空缺值
         - 每个属性 1.75% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 127004
+        - **错误条目数** = 95131
       
       - **h. 2%**  
         - 每个规则涉及的属性总体 2% 的违反
         - 每个属性 2% 的空缺值
         - 每个属性 2% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 144591
+        - **错误条目数** = 104563
 
 ### 数据存放路径
-- **BART 脚本路径**：`待填写`
-- **数据存放路径**：`待填写`
+- **BART 脚本路径**：`../../Data/5_tax/tax_200k/tax_200k_mixed_all.xml`
+- **数据存放路径**：`../../Data/5_tax/tax_200k/noise/dirty_mix_ratio/`
 
-### hospital 下目录结构说明
+### tax_200k 目录结构说明
 noise：存放纯随机噪声注入
 noise with correct primary key：存放主键干净的噪声注入
 xxxx待填写

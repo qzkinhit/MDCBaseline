@@ -22,7 +22,8 @@ def check_string(string: str):
         return "-inner_outer_error-" + string[-6:-4]
     elif re.search(r"-dirty-original_error-", string):
         return "-original_error-" + string[-9:-4]
-
+    else:
+        return ""
 class BigDansing:
     def __init__(self,task_name,output_path,PERFECTED,ONLYED):
         self.task_name = task_name
