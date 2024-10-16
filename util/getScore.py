@@ -304,7 +304,7 @@ def get_edr(clean, dirty, cleaned, attributes, output_path, task_name, index_att
 
     return edr
 
-def get_hybrid_distance(clean, cleaned, attributes, output_path, task_name, index_attribute='index',mse_attributes=[],w1=0.5, w2=0.5):
+def get_hybrid_distance(clean, cleaned, attributes, output_path, task_name, index_attribute='index', mse_attributes=[], w1=0.5, w2=0.5):
     """
     计算混合距离指标，包括MSE和Jaccard距离，并将结果输出到文件中。
 
@@ -316,6 +316,7 @@ def get_hybrid_distance(clean, cleaned, attributes, output_path, task_name, inde
     :param index_attribute: 指定作为索引的属性
     :param w1: MSE的权重
     :param w2: Jaccard距离的权重
+    :param mse_attributes: 需要进行MSE计算的属性集合
     :return: 加权混合距离
     """
 
@@ -345,20 +346,28 @@ def get_hybrid_distance(clean, cleaned, attributes, output_path, task_name, inde
             clean_values = clean[attribute].apply(normalize_value)
             cleaned_values = cleaned[attribute].apply(normalize_value)
 
+            # 跳过空值 'empty'
+            clean_values = clean_values.replace('empty', np.nan)
+            cleaned_values = cleaned_values.replace('empty', np.nan)
+
+            # 如果该属性在MSE计算列表中
             if attribute in mse_attributes:
                 # 计算MSE
                 try:
-                    mse = mean_squared_error(clean_values.astype(float), cleaned_values.astype(float))
+                    mse = mean_squared_error(clean_values.dropna().astype(float), cleaned_values.dropna().astype(float))
                 except ValueError:
-                    print('检查你指定的属性是否为数值型！')
+                    print(f"检查你指定的属性 {attribute} 是否为数值型！")
                     mse = np.nan  # 如果值不是数值型，无法计算MSE，返回NaN
             else:
                 mse = np.nan
+
             # 计算Jaccard距离，需确保类别型或二进制类型
             try:
-                jaccard = 1 - jaccard_score(clean_values, cleaned_values, average='macro')
+                # 过滤空值后计算Jaccard距离
+                common_indices = clean_values.dropna().index.intersection(cleaned_values.dropna().index)
+                jaccard = 1 - jaccard_score(clean_values.loc[common_indices], cleaned_values.loc[common_indices], average='macro')
             except ValueError:
-                print(f"无法计算Jaccard距离，因为{attribute}不是类别型数据")
+                print(f"无法计算Jaccard距离，因为 {attribute} 不是类别型数据")
                 jaccard = np.nan  # 如果值不能计算Jaccard，返回NaN
 
             # 排除NaN值的影响
@@ -373,7 +382,7 @@ def get_hybrid_distance(clean, cleaned, attributes, output_path, task_name, inde
                 total_jaccard += jaccard
                 attribute_count += 1
             else:
-                print(f"无法计算距离，因为{attribute}的值无法处理")
+                print(f"无法计算距离，因为 {attribute} 的值无法处理")
 
             print(f"Attribute: {attribute}, MSE: {mse}, Jaccard: {jaccard}")
 
@@ -394,7 +403,6 @@ def get_hybrid_distance(clean, cleaned, attributes, output_path, task_name, inde
     print(f"混合距离结果已保存到: {out_path}")
 
     return hybrid_distance
-
 
 def get_record_based_edr(clean, dirty, cleaned, output_path, task_name, index_attribute='index'):
     """
