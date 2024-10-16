@@ -5,6 +5,8 @@ import time
 
 import pandas as pd
 
+from util.insert_null import inject_missing_values
+
 # 获取当前脚本所在目录的上级目录路径
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 
@@ -28,14 +30,31 @@ def main():
                         help='Task name for the cleaning process.')
     parser.add_argument('--output_path', type=str, default='../../results/horizon/',
                         help='Path to save the output results.')
-
+    parser.add_argument('--index_attribute', type=str, default='index',
+                        help='index_attribute of data')
     # 解析命令行参数
     args = parser.parse_args()
     stra_path = os.path.join(args.output_path, f"{args.task_name}")
+    index_attribute = args.index_attribute
     # 检查目录是否存在，如果不存在则创建
     if not os.path.exists(stra_path):
         os.makedirs(stra_path)
     # 执行数据清洗操作，获取修复结果和脏单元格
+    # 替换数据中的空值，统一转换为empty
+    inject_missing_values(
+        csv_file=args.clean_path,
+        output_file=args.clean_path,
+        attributes_error_ratio=None,
+        missing_value_in_ori_data='NULL',
+        missing_value_representation='empty'
+    )
+    inject_missing_values(
+        csv_file=args.dirty_path,
+        output_file=args.dirty_path,
+        attributes_error_ratio=None,
+        missing_value_in_ori_data='NULL',
+        missing_value_representation='empty'
+    )
     # 记录开始时间
     start_time = time.time()
     print(f"Running Horizon with dirty file: {args.dirty_path}")
@@ -63,6 +82,13 @@ def main():
     print(f"Horizon finished in {elapsed_time} seconds.")
     print("测评性能开始：")
     # 读取干净数据、脏数据和修复后的数据
+    inject_missing_values(
+        csv_file=res_path,
+        output_file=res_path,
+        attributes_error_ratio=None,
+        missing_value_in_ori_data='NULL',
+        missing_value_representation='empty'
+    )
     clean_data = pd.read_csv(args.clean_path)
     dirty_data = pd.read_csv(args.dirty_path)
     cleaned_data = pd.read_csv(res_path)
@@ -71,7 +97,8 @@ def main():
     attributes = clean_data.columns.tolist()
 
     # 调用函数并计算所有指标
-    results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name)
+    results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
+                                    index_attribute)
 
     # 打印结果
     print("测试结果:")

@@ -69,7 +69,7 @@ attributes_error_ratio = {attribute: 1.75 for attribute in attributes}
 
 inject_missing_values(
     csv_file='tax_200k/noise/dirty_mix_1.75/dirty_tax.csv',
-    output_file='tax_200k/noise/dirty_mix_1.75/dirty_tax_null.csv',
+    output_file='tax_200k/noise/dirty_mix_1.75/dirty_tax_mix_1.75.csv',
     attributes_error_ratio=attributes_error_ratio,
     missing_value_in_ori_data='NULL',
     missing_value_representation='empty'

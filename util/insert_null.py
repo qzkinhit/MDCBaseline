@@ -63,13 +63,13 @@ attributes = [
 # 每个属性注入2%的错误比例
 attributes_error_ratio = {attribute: 0 for attribute in attributes}
 
-inject_missing_values(
-    csv_file='../Data/4_rayyan/dirty_rayyan.csv',
-    output_file='../Data/4_rayyan/dirty_rayyan.csv',
-    attributes_error_ratio=attributes_error_ratio,
-    missing_value_in_ori_data='empty',
-    missing_value_representation='empty'
-)
+# inject_missing_values(
+#     csv_file='../Data/4_rayyan/dirty_rayyan.csv',
+#     output_file='../Data/4_rayyan/dirty_rayyan.csv',
+#     attributes_error_ratio=attributes_error_ratio,
+#     missing_value_in_ori_data='empty',
+#     missing_value_representation='empty'
+# )
 # 如果干净数据存在空值，记得替换clean数据中的空值，统一转换为empty
 # inject_missing_values(
 #     csv_file='../Data/4_rayyan/dirty.csv',
@@ -80,8 +80,8 @@ inject_missing_values(
 # )
 # 如果干净数据存在空值，记得替换clean数据中的空值，统一转换为empty
 inject_missing_values(
-    csv_file='../Data/4_rayyan/dirty.csv',
-    output_file='../Data/4_rayyan/dirty.csv',
+    csv_file='../Data/1_hospital/clean_index.csv',
+    output_file='../Data/1_hospital/clean_index.csv',
     attributes_error_ratio=None,
     missing_value_in_ori_data='NULL',
     missing_value_representation='empty'

@@ -27,7 +27,7 @@ def calculate_all_metrics(clean, dirty, cleaned, attributes, output_path, task_n
 
     # 计算准确率和召回率
     if calculate_precision_recall:
-        accuracy, recall = calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path, task_name,index_attribute='index')
+        accuracy, recall = calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path, task_name,index_attribute)
         results['accuracy'] = accuracy
         results['recall'] = recall
         f1_score = calF1(accuracy, recall)
@@ -37,21 +37,21 @@ def calculate_all_metrics(clean, dirty, cleaned, attributes, output_path, task_n
 
     # 计算EDR
     if calculate_edr:
-        edr = get_edr(clean, dirty, cleaned, attributes,output_path, task_name,index_attribute='index')
+        edr = get_edr(clean, dirty, cleaned, attributes,output_path, task_name,index_attribute)
         results['edr'] = edr
         print(f"错误减少率 (EDR): {edr}")
         print("=" * 40)
 
     # 计算混合距离
     if calculate_hybrid:
-        hybrid_distance = get_hybrid_distance(clean, cleaned, attributes,output_path, task_name,index_attribute='index')
+        hybrid_distance = get_hybrid_distance(clean, cleaned, attributes,output_path, task_name,index_attribute)
         results['hybrid_distance'] = hybrid_distance
         print(f"混合距离 (Hybrid Distance): {hybrid_distance}")
         print("=" * 40)
 
     # 计算基于条目的 R-EDR
     if calculate_r_edr:
-        r_edr = get_record_based_edr(clean, dirty, cleaned,output_path, task_name,index_attribute='index')
+        r_edr = get_record_based_edr(clean, dirty, cleaned,output_path, task_name,index_attribute)
         results['r_edr'] = r_edr
         print(f"基于条目的错误减少率 (R-EDR): {r_edr}")
         print("=" * 40)
