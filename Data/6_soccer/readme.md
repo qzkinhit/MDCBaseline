@@ -13,16 +13,16 @@
 存在
 
 ## 原生错误种类及数量
-### 错误种类：待填写
-### 错误数量：待填写
+### 错误种类：T, value swaps
+### 错误数量：1.56%
 
 ## 数据规则集、标签、知识存放路径
-- **FD 规则**：`../../Data/hospital/dc_rules-validate-fd-horizon.txt`
-- **DC 规则**：`../../Data/hospital/dc_rules_dc_holoclean.txt`
+- **FD 规则**：`../../Data/6_soccer/dc_rules-validate-fd-horizon.txt`
+- **DC 规则**：`../../Data/6_soccer/dc_rules_dc_holoclean.txt`
 
 
 ## 数据集出处
-### 待填写（是数据集的出处，可能源于论文或者网站，不是系统论文的出处）
+### ED2: A Case for Active Learning in Error Detection
 
 ## 人工错误注入记录
 

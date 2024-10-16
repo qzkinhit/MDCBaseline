@@ -1,37 +1,34 @@
 
-# 数据集：Hospital
+# 数据集：rayyan
 
 ## 属性集
 ```text
-[ProviderNumber, HospitalName, Address1, Address2, Address3, City, State, ZipCode, CountyName, 
-PhoneNumber, HospitalType, HospitalOwner, EmergencyService, Condition, MeasureCode, MeasureName, 
-Score, Sample, Stateavg]
+[id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list]
 ```
 
 ## 数据规模
-**属性个数 × 条目数**：19 × 1000
+**属性个数 × 条目数**：11 × 1000
 
 ## 干净版本
 存在
 
 ## 原生错误种类及数量
-### 错误种类：待填写
-### 错误数量：待填写
+### 错误种类：缺失值错误，类型错误，格式错误，值域范围错误
+### 错误数量：9%
 
 ## 数据规则集、标签、知识存放路径
-- **FD 规则**：`../../Data/hospital/dc_rules-validate-fd-horizon.txt`
-- **DC 规则**：`../../Data/hospital/dc_rules_dc_holoclean.txt`
+- **FD 规则**：`../../Data/rayyan/dc_rules-validate-fd-horizon.txt`
+- **DC 规则**：`../../Data/rayyan/dc_rules_dc_holoclean.txt`
 
 
-## 数据集出处
-### 待填写（是数据集的出处，可能源于论文或者网站，不是系统论文的出处）
+## 数据集出处 :
+[Rayyan](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-016-0384-4)
 
 ## 人工错误注入记录
 
 ## 主键属性集合：
-```text
-ProviderNumber、MeasureCode
-[待填写，通过fd的最小蕴含计算主键属性有哪些，涉及数据库的知识，注入错误之前找我确认主键对不对]
+```
+jounral_abbreviation
 ```
 1. **规则涉及**的属性中，保证**主键属性集合干净**的情况下，注入不同比例的混合错误。
    - 每个规则违反、非主键属性空缺值、非主键属性异常值的混合错误。
@@ -41,62 +38,62 @@ ProviderNumber、MeasureCode
        - 每个规则(不涉及主键属性)，每个规则涉及的属性总体 0.25% 的违反
        - 非主键属性0.25%的空缺值
        - 非主键属性0.25%的异常值
-       - **Original Error Count (OEC)** = 总错误单元格数=待填写
-       - **错误条目数** = 待填写
+       - **Original Error Count (OEC)** = 总错误单元格数=15
+       - **错误条目数** = 15
        
     - **b. 0.5%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体0.5% 的违反
       - 非主键属性 0.5% 的空缺值
       - 非主键属性 0.5% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 35
+      - **错误条目数** = 35
     
     - **c. 0.75%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 0.75% 的违反
       - 非主键属性 0.75% 的空缺值
       - 非主键属性 0.75% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 47
+      - **错误条目数** = 46
     
     - **d. 1%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 1% 的违反
       - 非主键属性 1% 的空缺值
       - 非主键属性 1% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 67
+      - **错误条目数** = 62
     
     - **e. 1.25%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 1.25% 的违反
       - 非主键属性 1.25% 的空缺值
       - 非主键属性 1.25% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 80
+      - **错误条目数** = 75
     
     - **f. 1.5%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 1.5% 的违反
       - 非主键属性 1.5% 的空缺值
       - 非主键属性 1.5% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 95
+      - **错误条目数** = 85
     
     - **g. 1.75%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 1.75% 的违反
       - 非主键属性 1.75% 的空缺值
       - 非主键属性 1.75% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 113
+      - **错误条目数** = 106
     
     - **h. 2%**  
       - 每个规则（不涉及主键属性），每个规则涉及的属性总体 2% 的违反
       - 非主键属性 2% 的空缺值
       - 非主键属性 2% 的异常值
-      - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-      - **错误条目数** = 待填写
+      - **Original Error Count (OEC)** = 总错误单元格数 = 130
+      - **错误条目数** = 117
 
 
 ### 数据存放路径
-- **BART 脚本路径**：`待填写`
-- **数据存放路径**：`待填写`
+- **BART 脚本路径**：`Data/4_rayyan/noise_with_correct_primary_key/script`
+- **数据存放路径**：`Data/4_rayyan/noise_with_correct_primary_key`
 
 ---
 
@@ -107,61 +104,61 @@ ProviderNumber、MeasureCode
        - 每个规则涉及的属性总体 0.25% 的违反
        - 每个属性0.25%的空缺值
        - 每个属性0.25%的异常值
-       - **Original Error Count (OEC)** = 总错误单元格数=待填写
-       - **错误条目数** = 待填写
+       - **Original Error Count (OEC)** = 总错误单元格数=19
+       - **错误条目数** = 19
 
       - **b. 0.5%**  
         - 每个规则涉及的属性总体 0.5% 的违反
         - 每个属性 0.5% 的空缺值
         - 每个属性 0.5% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 40
+        - **错误条目数** = 38
       
       - **c. 0.75%**  
         - 每个规则涉及的属性总体 0.75% 的违反
         - 每个属性 0.75% 的空缺值
         - 每个属性 0.75% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 58
+        - **错误条目数** = 57
       
       - **d. 1%**  
         - 每个规则涉及的属性总体 1% 的违反
         - 每个属性 1% 的空缺值
         - 每个属性 1% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 80
+        - **错误条目数** = 76
       
       - **e. 1.25%**  
         - 每个规则涉及的属性总体 1.25% 的违反
         - 每个属性 1.25% 的空缺值
         - 每个属性 1.25% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 100
+        - **错误条目数** = 98
       
       - **f. 1.5%**  
         - 每个规则涉及的属性总体 1.5% 的违反
         - 每个属性 1.5% 的空缺值
         - 每个属性 1.5% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 120
+        - **错误条目数** = 116
       
       - **g. 1.75%**  
         - 每个规则涉及的属性总体 1.75% 的违反
         - 每个属性 1.75% 的空缺值
         - 每个属性 1.75% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 142
+        - **错误条目数** = 135
       
       - **h. 2%**  
         - 每个规则涉及的属性总体 2% 的违反
         - 每个属性 2% 的空缺值
         - 每个属性 2% 的异常值
-        - **Original Error Count (OEC)** = 总错误单元格数 = 待填写
-        - **错误条目数** = 待填写
+        - **Original Error Count (OEC)** = 总错误单元格数 = 162
+        - **错误条目数** = 152
 
 ### 数据存放路径
-- **BART 脚本路径**：`待填写`
-- **数据存放路径**：`待填写`
+- **BART 脚本路径**：`Data/4_rayyan/noise/script`
+- **数据存放路径**：`Data/4_rayyan/noise`
 
 ### hospital 下目录结构说明
 noise：存放纯随机噪声注入
