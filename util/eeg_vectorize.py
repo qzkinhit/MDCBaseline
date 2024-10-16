@@ -1,54 +1,62 @@
-import numpy as np
 import pandas as pd
-from scipy.stats import kurtosis, skew
 from scipy.io import arff
+from sklearn.preprocessing import StandardScaler
 import argparse
 
-# 定义解析命令行参数的函数
-def parse_args():
-    parser = argparse.ArgumentParser(description="EEG 数据统计特征提取工具（按时间步处理，保留标签）")
-    parser.add_argument('--input', type=str, required=True, help="输入的 .arff 文件路径")
-    parser.add_argument('--output', type=str, required=True, help="保存提取特征的 CSV 文件路径")
-    return parser.parse_args()
-
-# 提取按时间步的统计特征，并保留标签
-def extract_statistical_features_by_time_step(df, label_column):
-    features = pd.DataFrame()
-
-    # 对每一行（每个时间步）进行统计特征提取
-    for index, row in df.iterrows():
-        features.loc[index, 'mean'] = np.mean(row.drop(label_column))  # 排除标签列
-        features.loc[index, 'variance'] = np.var(row.drop(label_column))
-        features.loc[index, 'max'] = np.max(row.drop(label_column))
-        features.loc[index, 'min'] = np.min(row.drop(label_column))
-        features.loc[index, 'median'] = np.median(row.drop(label_column))
-        features.loc[index, 'kurtosis'] = kurtosis(row.drop(label_column))
-        features.loc[index, 'skewness'] = skew(row.drop(label_column))
-
-        # 保留标签信息
-        features.loc[index, 'label'] = row[label_column]
-
-    return features
-
-# 主程序
-if __name__ == "__main__":
-    # 解析命令行参数
-    args = parse_args()
-
-    # 读取 EEG Eye State 数据集
-    data, meta = arff.loadarff(args.input)
+# 1. 读取 ARFF 文件
+def load_arff_data(file_path):
+    data, meta = arff.loadarff(file_path)
     df = pd.DataFrame(data)
+    return df
 
-    # 如果需要将字符串数据转换为数值型
-    df = df.apply(pd.to_numeric, errors='ignore')
+# 2. 提取 EEG 特征和处理标签列
+def extract_features_and_labels(df):
+    # 直接将前14列EEG数据通道作为特征
+    eeg_features = df.iloc[:, :14]  # 前14列为EEG信号数据
+    
+    # 标签列 eyeDetection，转换为整数
+    eeg_labels = df['eyeDetection'].apply(lambda x: int(x.decode('utf-8')))
+    
+    return eeg_features, eeg_labels
 
-    # 假设标签列为最后一列，可以根据具体的标签列名或位置修改
-    label_column = df.columns[-1]
+# 3. 对特征进行标准化
+def standardize_features(eeg_features):
+    scaler = StandardScaler()
+    standardized_features = scaler.fit_transform(eeg_features)
+    return pd.DataFrame(standardized_features, columns=eeg_features.columns)
 
-    # 提取统计特征，保留标签
-    features = extract_statistical_features_by_time_step(df, label_column)
+# 4. 保存为CSV文件
+def save_to_csv(features, labels, output_path):
+    standardized_data = features.copy()
+    standardized_data['eyeDetection'] = labels  # 将标签加入标准化后的数据
+    standardized_data.to_csv(output_path, index=False)
+    print(f"标准化后的数据已保存到: {output_path}")
 
-    # 保存提取的特征到CSV文件
-    features.to_csv(args.output, index=False)
+# 主函数：加载ARFF数据、标准化并保存
+def main(input_file, output_file):
+    # 加载ARFF数据
+    df = load_arff_data(input_file)
+    
+    # 提取特征和标签
+    eeg_features, eeg_labels = extract_features_and_labels(df)
+    
+    # 对特征进行标准化
+    standardized_features = standardize_features(eeg_features)
+    
+    # 保存为CSV文件
+    save_to_csv(standardized_features, eeg_labels, output_file)
 
-    print(f"统计特征提取完成，已保存至 {args.output}")
+# 命令行接口
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Process EEG ARFF file, standardize features, and save as CSV.')
+    
+    # 输入文件和输出文件的命令行参数
+    parser.add_argument('--input_file', type=str, required=True, help='Path to the input ARFF file.')
+    parser.add_argument('--output_file', type=str, required=True, help='Path to the output CSV file.')
+    
+    # 解析命令行参数
+    args = parser.parse_args()
+    
+    # 执行主函数
+    main(args.input_file, args.output_file)
+

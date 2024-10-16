@@ -68,7 +68,7 @@ python inject_error.py --input adult_vectorized.csv --output adult_with_system_e
 #### 主要函数说明
 
 1. **`extract_statistical_features_by_time_step(df, label_column)`**:
-   - **作用**：对 EEG 数据集中每个时间步的 14 个通道进行统计特征提取，并保留标签。
+   - **作用**：对 EEG 数据集中每个时间步的 14 个通道进行特征提取，并保留标签。
 
 #### 命令行参数说明
 
@@ -95,14 +95,7 @@ python inject_error.py --input adult_vectorized.csv --output adult_with_system_e
 
 #### 特征提取示例
 
-该程序会将每个时间步的数据（14 个通道）提取成如下特征向量：
-- **均值** (`mean`)：每个时间步的 14 个通道数据的平均值。
-- **方差** (`variance`)：每个时间步的 14 个通道数据的方差，反映数值波动的幅度。
-- **最大值** (`max`) 和 **最小值** (`min`)：每个时间步的 14 个通道数据中的最大值和最小值。
-- **中位数** (`median`)：每个时间步的 14 个通道数据的中位数，用来平滑异常值的影响。
-- **峰度** (`kurtosis`)：描述数据分布的尖峰程度，能够检测高幅度异常值。
-- **偏度** (`skewness`)：描述数据分布的不对称性，检测信号的偏移。
-
+该程序会将每个时间步的数据（14 个通道）进行标准化后提取成为特征向量：
 这些特征将与最后的**标签列**（眼睛状态）一同被保留并输出到 CSV 文件中。
 
 
