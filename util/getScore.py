@@ -6,7 +6,7 @@ import numpy as np
 
 
 def calculate_all_metrics(clean, dirty, cleaned, attributes, output_path, task_name, index_attribute='index',calculate_precision_recall=True,
-                          calculate_edr=True, calculate_hybrid=True, calculate_r_edr=True):
+                          calculate_edr=True, calculate_hybrid=True, calculate_r_edr=True, mse_attributes=[]):
     """
     计算多个指标的统一函数，包括修复准确率和召回率、EDR、混合距离以及基于条目的 R-EDR。
 
@@ -27,7 +27,7 @@ def calculate_all_metrics(clean, dirty, cleaned, attributes, output_path, task_n
 
     # 计算准确率和召回率
     if calculate_precision_recall:
-        accuracy, recall = calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path, task_name,index_attribute)
+        accuracy, recall = calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path, task_name,index_attribute=index_attribute)
         results['accuracy'] = accuracy
         results['recall'] = recall
         f1_score = calF1(accuracy, recall)
@@ -37,21 +37,21 @@ def calculate_all_metrics(clean, dirty, cleaned, attributes, output_path, task_n
 
     # 计算EDR
     if calculate_edr:
-        edr = get_edr(clean, dirty, cleaned, attributes,output_path, task_name,index_attribute)
+        edr = get_edr(clean, dirty, cleaned, attributes,output_path, task_name,index_attribute=index_attribute)
         results['edr'] = edr
         print(f"错误减少率 (EDR): {edr}")
         print("=" * 40)
 
     # 计算混合距离
     if calculate_hybrid:
-        hybrid_distance = get_hybrid_distance(clean, cleaned, attributes,output_path, task_name,index_attribute)
+        hybrid_distance = get_hybrid_distance(clean, cleaned, attributes,output_path, task_name,index_attribute=index_attribute,mse_attributes=mse_attributes)
         results['hybrid_distance'] = hybrid_distance
         print(f"混合距离 (Hybrid Distance): {hybrid_distance}")
         print("=" * 40)
 
     # 计算基于条目的 R-EDR
     if calculate_r_edr:
-        r_edr = get_record_based_edr(clean, dirty, cleaned,output_path, task_name,index_attribute)
+        r_edr = get_record_based_edr(clean, dirty, cleaned,output_path, task_name,index_attribute=index_attribute)
         results['r_edr'] = r_edr
         print(f"基于条目的错误减少率 (R-EDR): {r_edr}")
         print("=" * 40)
@@ -304,7 +304,7 @@ def get_edr(clean, dirty, cleaned, attributes, output_path, task_name, index_att
 
     return edr
 
-def get_hybrid_distance(clean, cleaned, attributes, output_path, task_name, index_attribute='index', w1=0.5, w2=0.5):
+def get_hybrid_distance(clean, cleaned, attributes, output_path, task_name, index_attribute='index', mse_attributes=[], w1=0.5, w2=0.5):
     """
     计算混合距离指标，包括MSE和Jaccard距离，并将结果输出到文件中。
 
@@ -316,6 +316,7 @@ def get_hybrid_distance(clean, cleaned, attributes, output_path, task_name, inde
     :param index_attribute: 指定作为索引的属性
     :param w1: MSE的权重
     :param w2: Jaccard距离的权重
+    :param mse_attributes: 需要进行MSE计算的属性集合
     :return: 加权混合距离
     """
 
@@ -345,18 +346,28 @@ def get_hybrid_distance(clean, cleaned, attributes, output_path, task_name, inde
             clean_values = clean[attribute].apply(normalize_value)
             cleaned_values = cleaned[attribute].apply(normalize_value)
 
-            # 计算MSE
-            try:
-                mse = mean_squared_error(clean_values.astype(float), cleaned_values.astype(float))
-            except ValueError:
-                print(f"无法计算MSE，因为{attribute}不是数值型数据")
-                mse = np.nan  # 如果值不是数值型，无法计算MSE，返回NaN
+            # 跳过空值 'empty'
+            clean_values = clean_values.replace('empty', np.nan)
+            cleaned_values = cleaned_values.replace('empty', np.nan)
+
+            # 如果该属性在MSE计算列表中
+            if attribute in mse_attributes:
+                # 计算MSE
+                try:
+                    mse = mean_squared_error(clean_values.dropna().astype(float), cleaned_values.dropna().astype(float))
+                except ValueError:
+                    print(f"检查你指定的属性 {attribute} 是否为数值型！")
+                    mse = np.nan  # 如果值不是数值型，无法计算MSE，返回NaN
+            else:
+                mse = np.nan
 
             # 计算Jaccard距离，需确保类别型或二进制类型
             try:
-                jaccard = 1 - jaccard_score(clean_values, cleaned_values, average='macro')
+                # 过滤空值后计算Jaccard距离
+                common_indices = clean_values.dropna().index.intersection(cleaned_values.dropna().index)
+                jaccard = 1 - jaccard_score(clean_values.loc[common_indices], cleaned_values.loc[common_indices], average='macro')
             except ValueError:
-                print(f"无法计算Jaccard距离，因为{attribute}不是类别型数据")
+                print(f"无法计算Jaccard距离，因为 {attribute} 不是类别型数据")
                 jaccard = np.nan  # 如果值不能计算Jaccard，返回NaN
 
             # 排除NaN值的影响
@@ -371,7 +382,7 @@ def get_hybrid_distance(clean, cleaned, attributes, output_path, task_name, inde
                 total_jaccard += jaccard
                 attribute_count += 1
             else:
-                print(f"无法计算距离，因为{attribute}的值无法处理")
+                print(f"无法计算距离，因为 {attribute} 的值无法处理")
 
             print(f"Attribute: {attribute}, MSE: {mse}, Jaccard: {jaccard}")
 
@@ -392,6 +403,7 @@ def get_hybrid_distance(clean, cleaned, attributes, output_path, task_name, inde
     print(f"混合距离结果已保存到: {out_path}")
 
     return hybrid_distance
+
 def get_record_based_edr(clean, dirty, cleaned, output_path, task_name, index_attribute='index'):
     """
     计算基于条目的错误减少率 (R-EDR)，并将每条记录的距离和最终的 R-EDR 输出到文件中。
@@ -464,64 +476,64 @@ def get_record_based_edr(clean, dirty, cleaned, output_path, task_name, index_at
 
     return r_edr
 
-# def test_calculate_all_metrics():
-#     # 准备测试数据
-#     data = {
-#         'index': [1, 2, 3, 4, 5],
-#         'Attribute1': [1, 2, 3, 4, 5],
-#         'Attribute2': ['A', 'B', 'C', 'D', 'E'],
-#         'Attribute3': [1.1, 2.2, 3.3, 4.4, 5.5]
-#     }
-#
-#     # 创建干净数据 DataFrame
-#     clean_df = pd.DataFrame(data)
-#
-#     # 创建脏数据 DataFrame （引入了一些错误）
-#     dirty_data = {
-#         'index': [1, 2, 3, 4, 5],
-#         'Attribute1': [1, 9, 3, 4, 5],  # 第二行是错误的
-#         'Attribute2': ['A', 'B', 'X', 'D', 'E'],  # 第三行是错误的
-#         'Attribute3': [1.1, 2.2, 3.3, 4.4, 5.5]  # 没有错误
-#     }
-#     dirty_df = pd.DataFrame(dirty_data)
-#
-#     # 创建清洗后的数据 DataFrame （修复了一些错误）
-#     cleaned_data = {
-#         'index': [1, 2, 3, 4, 5],
-#         'Attribute1': [1, 9, 3, 4, 5],  # 已修复 Attribute1 中的错误
-#         'Attribute2': ['A', 'X', 'C', 'D', 'E'],  # 修复错误
-#         'Attribute3': [1.1, 2.2, 3.3, 4.4, 5.5]  # 没有错误
-#     }
-#     cleaned_df = pd.DataFrame(cleaned_data)
-#
-#     # 属性列表
-#     attributes = ['Attribute1', 'Attribute2', 'Attribute3']
-#
-#     # 输出路径和任务名称（这里可以使用临时目录）
-#     output_path = './temp_test_output'
-#     task_name = 'test_task'
-#
-#     # 调用函数并计算所有指标
-#     results = calculate_all_metrics(clean_df, dirty_df, cleaned_df, attributes, output_path, task_name)
-#
-#     # 打印结果
-#     print("测试结果:")
-#     print(f"Accuracy: {results.get('accuracy')}")
-#     print(f"Recall: {results.get('recall')}")
-#     print(f"F1 Score: {results.get('f1_score')}")
-#     print(f"EDR: {results.get('edr')}")
-#     print(f"Hybrid Distance: {results.get('hybrid_distance')}")
-#     print(f"R-EDR: {results.get('r_edr')}")
-#
-#     # # 验证结果是否符合预期
-#     # assert results['accuracy'] > 0, "Accuracy should be greater than 0"
-#     # assert results['recall'] > 0, "Recall should be greater than 0"
-#     # assert results['f1_score'] > 0, "F1 score should be greater than 0"
-#     # assert results['edr'] > 0, "EDR should be greater than 0"
-#     # assert results['r_edr'] > 0, "R-EDR should be greater than 0"
-#
-#     print("测试通过！")
-#
-# if __name__ == "__main__":
-#     # 调用测试函数
-#     test_calculate_all_metrics()
+def test_calculate_all_metrics():
+    # 准备测试数据
+    data = {
+        'index1': [1, 2, 3, 4, 5],
+        'Attribute1': [1, 2, 3, 4, 5],
+        'Attribute2': ['A', 'B', 'C', 'D', 'E'],
+        'Attribute3': [1.1, 2.2, 3.3, 4.4, 5.5]
+    }
+
+    # 创建干净数据 DataFrame
+    clean_df = pd.DataFrame(data)
+
+    # 创建脏数据 DataFrame （引入了一些错误）
+    dirty_data = {
+        'index1': [1, 2, 3, 4, 5],
+        'Attribute1': [1, 9, 3, 4, 5],  # 第二行是错误的
+        'Attribute2': ['A', 'B', 'X', 'D', 'E'],  # 第三行是错误的
+        'Attribute3': [1.1, 2.2, 3.3, 4.4, 5.5]  # 没有错误
+    }
+    dirty_df = pd.DataFrame(dirty_data)
+
+    # 创建清洗后的数据 DataFrame （修复了一些错误）
+    cleaned_data = {
+        'index1': [1, 2, 3, 4, 5],
+        'Attribute1': [1, 9, 3, 4, 5],  # 已修复 Attribute1 中的错误
+        'Attribute2': ['A', 'X', 'C', 'D', 'E'],  # 修复错误
+        'Attribute3': [1.1, 2.2, 3.3, 4.4, 5.7]  # 没有错误
+    }
+    cleaned_df = pd.DataFrame(cleaned_data)
+
+    # 属性列表
+    attributes = ['Attribute1', 'Attribute2', 'Attribute3']
+
+    # 输出路径和任务名称（这里可以使用临时目录）
+    output_path = './temp_test_output'
+    task_name = 'test_task'
+
+    # 调用函数并计算所有指标
+    results = calculate_all_metrics(clean_df, dirty_df, cleaned_df, attributes, output_path, task_name,index_attribute='index1',mse_attributes=['Attribute3'])
+
+    # 打印结果
+    print("测试结果:")
+    print(f"Accuracy: {results.get('accuracy')}")
+    print(f"Recall: {results.get('recall')}")
+    print(f"F1 Score: {results.get('f1_score')}")
+    print(f"EDR: {results.get('edr')}")
+    print(f"Hybrid Distance: {results.get('hybrid_distance')}")
+    print(f"R-EDR: {results.get('r_edr')}")
+
+    # # 验证结果是否符合预期
+    # assert results['accuracy'] > 0, "Accuracy should be greater than 0"
+    # assert results['recall'] > 0, "Recall should be greater than 0"
+    # assert results['f1_score'] > 0, "F1 score should be greater than 0"
+    # assert results['edr'] > 0, "EDR should be greater than 0"
+    # assert results['r_edr'] > 0, "R-EDR should be greater than 0"
+
+    print("测试通过！")
+
+if __name__ == "__main__":
+    # 调用测试函数
+    test_calculate_all_metrics()
