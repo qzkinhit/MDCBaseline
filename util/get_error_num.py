@@ -75,18 +75,19 @@ def generate_change_report(dirty_df, clean_df, index_column):
     change_df = pd.DataFrame(changes)
 
     # 将结果保存为CSV文件
-    change_df.to_csv(r"C:\Users\lzfd\Desktop\work\MDCBaseline\Data\2_flights\noise\dirty_mixed_2\change.CSV", index=False)
+    change_df.to_csv(r"./change.CSV", index=False)
     print("不同单元的数据保存到 change.CSV")
     # 返回不一致的单元格总数
     return len(change_df)
 
-# 使用示例
-dirty_df = pd.read_csv('../Data/4_rayyan/dirty.csv')
-clean_df = pd.read_csv('../Data/4_rayyan/clean_rayyan.csv')
+# 使用示例,上面的代码不要改动
+if __name__ == '__main__':
+    dirty_df = pd.read_csv('../Data/2_flights/dirty_index.csv')
+    clean_df = pd.read_csv('../Data/2_flights/clean_index.csv')
 
-inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, 'id')
-print(f'脏数据和干净数据之间有 {inconsistent_entries_count} 个条目不一致。')
+    inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, 'index')
+    print(f'脏数据和干净数据之间有 {inconsistent_entries_count} 个条目不一致。')
 
-inconsistent_cells = generate_change_report(dirty_df, clean_df, 'id')
-print(f'脏数据和干净数据之间有 {inconsistent_cells} 个单元格不一致。')
+    inconsistent_cells = generate_change_report(dirty_df, clean_df, 'index')
+    print(f'脏数据和干净数据之间有 {inconsistent_cells} 个单元格不一致。')
 

@@ -789,7 +789,6 @@ if __name__ == "__main__":
         print(f"Hybrid Distance: {results.get('hybrid_distance')}")
         print(f"R-EDR: {results.get('r_edr')}")
         print("测评结束，详细测评日志见：" + str(out_path))
-
     except TimeoutError as e:
         print(f"Time exceeded: {e}, {task_name}, {dirty_path}")
         with open(f"{stra_path}/timeout_log.txt", "a") as out_file:
