@@ -654,6 +654,10 @@ if __name__ == "__main__":
     parser.add_argument('--task_name', type=str, help="Task name (dataset name)", default='Baran_repair')
     parser.add_argument('--output_path', type=str, default='../../results/raha_baran',
                         help='Path to save the output results.')
+    parser.add_argument('--index_attribute', type=str, default='index',
+                        help='index_attribute of data')
+    parser.add_argument('--mse_attributes', type=str, nargs='*', default=[],
+                        help='List of attributes to calculate MSE, separated by space. Example: --mse_attributes Attribute1 Attribute3')
     args = parser.parse_args()
 
     # 生成输出目录路径
@@ -661,6 +665,8 @@ if __name__ == "__main__":
     clean_path = args.clean_path
     task_name = args.task_name
     output_path = args.output_path
+    index_attribute = args.index_attribute
+    mse_attributes = args.mse_attributes
 
     stra_path = f"{output_path}/results-{task_name}"
 
@@ -772,7 +778,7 @@ if __name__ == "__main__":
         attributes = clean_data.columns.tolist()
 
         # 调用函数并计算所有指标
-        results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, task_name)
+        results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, task_name,index_attribute=index_attribute, mse_attributes=mse_attributes)
 
         # 打印结果
         print("测试结果:")
