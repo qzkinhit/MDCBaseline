@@ -51,7 +51,7 @@ def inject_missing_values(csv_file, output_file, attributes_error_ratio, missing
     # 保存注入错误后的CSV文件
     df.to_csv(output_file, index=False)
     print(f"已将注入错误的文件保存到: {output_file}")
-
+'''''
 #使用方法
 # 属性列表
 attributes = [
@@ -86,3 +86,4 @@ inject_missing_values(
     missing_value_in_ori_data='NULL',
     missing_value_representation='empty'
 )
+'''''
