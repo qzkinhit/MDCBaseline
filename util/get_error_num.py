@@ -147,9 +147,9 @@ if __name__ == '__main__':
     dirty_df = pd.read_csv('../Data/4_rayyan/dirty_index.csv')
     clean_df = pd.read_csv('../Data/4_rayyan/clean_index.csv')
     # replace_half_with_clean_value(dirty_df, clean_df, 'id')
-    inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, 'id')
+    inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, 'index')
     print(f'脏数据和干净数据之间有 {inconsistent_entries_count} 个条目不一致。')
 
-    inconsistent_cells = generate_change_report(dirty_df, clean_df, 'id')
+    inconsistent_cells = generate_change_report(dirty_df, clean_df, 'index')
     print(f'脏数据和干净数据之间有 {inconsistent_cells} 个单元格不一致。')
 

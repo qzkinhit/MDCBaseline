@@ -43,6 +43,8 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 
 # from Cleaner.Baran_Raha.correction_with_raha import Correction
 from Cleaner.Baran_Raha.repairing_with_delete_and_mode import Detection
+# from Cleaner.Baran_Raha.repairing_with_delete import Detection
+# from Cleaner.Baran_Raha.detection import Detection
 from util.getScore import calculate_accuracy_and_recall, calculate_all_metrics
 
 warnings.filterwarnings("ignore")
@@ -647,14 +649,14 @@ class Correction:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dirty_path', type=str, default='../../Data/3_beers/dirty_index.csv',
+    parser.add_argument('--dirty_path', type=str, default='../../Data/4_rayyan/dirty_index.csv',
                         help='Path to the input dirty CSV file.')
-    parser.add_argument('--clean_path', type=str, default='../../Data/3_beers/clean_index.csv',
+    parser.add_argument('--clean_path', type=str, default='../../Data/4_rayyan/clean_index.csv',
                         help='Path to the input clean CSV file.')
-    parser.add_argument('--task_name', type=str, help="Task name (dataset name)", default='Baran_repair_beers')
+    parser.add_argument('--task_name', type=str, help="Task name (dataset name)", default='Baran_repair_rayyan')
     parser.add_argument('--output_path', type=str, default='../../results/raha_baran',
                         help='Path to save the output results.')
-    parser.add_argument('--index_attribute', type=str, default='id',
+    parser.add_argument('--index_attribute', type=str, default='index',
                         help='index_attribute of data')
     parser.add_argument('--mse_attributes', type=str, nargs='*', default=[],
                         help='List of attributes to calculate MSE, separated by space. Example: --mse_attributes Attribute1 Attribute3')

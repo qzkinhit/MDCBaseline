@@ -40,8 +40,11 @@ import sklearn.kernel_ridge
 import sklearn.neural_network
 import sklearn.feature_extraction
 import sys
+
 sys.path.append('Baseline/raha-master')
 import raha
+
+
 ########################################
 
 
@@ -62,8 +65,8 @@ class Detection:
         self.CLUSTERING_BASED_SAMPLING = True
         self.STRATEGY_FILTERING = False
         self.CLASSIFICATION_MODEL = "GBC"  # ["ABC", "DTC", "GBC", "GNB", "SGDC", "SVC"]
-        self.LABEL_PROPAGATION_METHOD = "homogeneity"   # ["homogeneity", "majority"]
-        self.ERROR_DETECTION_ALGORITHMS = ["OD", "PVD", "RVD", "KBVD"]   # ["OD", "PVD", "RVD", "KBVD", "TFIDF"]
+        self.LABEL_PROPAGATION_METHOD = "homogeneity"  # ["homogeneity", "majority"]
+        self.ERROR_DETECTION_ALGORITHMS = ["OD", "PVD", "RVD", "KBVD"]  # ["OD", "PVD", "RVD", "KBVD", "TFIDF"]
         self.HISTORICAL_DATASETS = []
 
     def _strategy_runner_process(self, args):
@@ -78,7 +81,8 @@ class Detection:
         if algorithm == "OD":
             dataset_path = os.path.join(tempfile.gettempdir(), d.name + "-" + strategy_name_hash + ".csv")
             d.write_csv_dataset(dataset_path, d.dataframe)
-            params = ["-F", ",", "--statistical", "0.5"] + ["--" + configuration[0]] + configuration[1:] + [dataset_path]
+            params = ["-F", ",", "--statistical", "0.5"] + ["--" + configuration[0]] + configuration[1:] + [
+                dataset_path]
             raha.tools.dBoost.dboost.imported_dboost.run(params)
             algorithm_results_path = dataset_path + "-dboost_output.csv"
             if os.path.exists(algorithm_results_path):
@@ -186,7 +190,8 @@ class Detection:
                     elif algorithm_name == "KBVD":
                         configuration_list = [
                             os.path.join(os.path.dirname(__file__), "tools", "KATARA", "knowledge-base", pat)
-                            for pat in os.listdir(os.path.join(os.path.dirname(__file__), "tools", "KATARA", "knowledge-base"))]
+                            for pat in
+                            os.listdir(os.path.join(os.path.dirname(__file__), "tools", "KATARA", "knowledge-base"))]
                         algorithm_and_configurations.extend(
                             [[d, algorithm_name, configuration] for configuration in configuration_list])
                 random.shuffle(algorithm_and_configurations)
@@ -198,7 +203,8 @@ class Detection:
             for dd in self.HISTORICAL_DATASETS + [d.dictionary]:
                 raha.utilities.dataset_profiler(dd)
                 raha.utilities.evaluation_profiler(dd)
-            strategy_profiles_list = raha.utilities.get_selected_strategies_via_historical_data(d.dictionary, self.HISTORICAL_DATASETS)
+            strategy_profiles_list = raha.utilities.get_selected_strategies_via_historical_data(d.dictionary,
+                                                                                                self.HISTORICAL_DATASETS)
         d.strategy_profiles = strategy_profiles_list
         if self.VERBOSE:
             print("{} strategy profiles are collected.".format(len(d.strategy_profiles)))
@@ -269,7 +275,8 @@ class Detection:
         k = len(d.labeled_tuples) + 2
         for j in range(d.dataframe.shape[1]):
             for c in d.clusters_k_j_c_ce[k][j]:
-                d.labels_per_cluster[(j, c)] = {cell: d.labeled_cells[cell][0] for cell in d.clusters_k_j_c_ce[k][j][c] if
+                d.labels_per_cluster[(j, c)] = {cell: d.labeled_cells[cell][0] for cell in d.clusters_k_j_c_ce[k][j][c]
+                                                if
                                                 cell[0] in d.labeled_tuples}
         # --------------------Sampling a Tuple--------------------
         if self.CLUSTERING_BASED_SAMPLING:
@@ -333,7 +340,8 @@ class Detection:
                             for cell in d.clusters_k_j_c_ce[k][j][c]:
                                 d.extended_labeled_cells[cell] = cluster_label
         if self.VERBOSE:
-            print("The number of labeled data cells increased from {} to {}.".format(len(d.labeled_cells), len(d.extended_labeled_cells)))
+            print("The number of labeled data cells increased from {} to {}.".format(len(d.labeled_cells),
+                                                                                     len(d.extended_labeled_cells)))
 
     def predict_labels(self, d):
         """
@@ -439,6 +447,8 @@ class Detection:
                       "------------------------------------------------------------------------")
             self.store_results(d)
         return d.detected_cells
+
+
 ########################################
 
 
@@ -453,10 +463,10 @@ if __name__ == "__main__":
     clean_path = args.clean_path
     task_name = args.task_name
 
-    task_name = "1_hospital"
+    task_name = "hospital"
     clean_path = f"./data_with_rules/{task_name}/clean.csv"
     dirty_path = "./data_with_rules/{task_name}/noise/{task_name}-inner_error-01.csv"
-    
+
     stra_path = "./data_with_rules/" + task_name[:-1] + "/noise/raha-baran-results-" + task_name
     if os.path.exists(stra_path):
         shutil.rmtree(stra_path)
@@ -476,20 +486,20 @@ if __name__ == "__main__":
     f = open(res_path, 'w')
     sys.stdout = f
     print("{}\n{}\n{}".format(p, r, f))
-    print(end_time-start_time)
-    
+    print(end_time - start_time)
+
     # --------------------
     # app.STRATEGY_FILTERING = True
     # app.HISTORICAL_DATASETS = [
     #     {
-    #     "name": "1_hospital",
-    #     "path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/1_hospital/dirty.csv",
-    #     "clean_path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/1_hospital/clean.csv"
+    #     "name": "hospital",
+    #     "path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/hospital/dirty.csv",
+    #     "clean_path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/hospital/clean.csv"
     #     },
     #     {
-    #     "name": "3_beers",
-    #     "path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/3_beers/dirty.csv",
-    #     "clean_path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/3_beers/clean.csv"
+    #     "name": "beers",
+    #     "path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/beers/dirty.csv",
+    #     "clean_path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/beers/clean.csv"
     #     }
     # ]
     # detection_dictionary = app.run(dataset_dictionary)

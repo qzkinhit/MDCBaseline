@@ -1,47 +1,51 @@
+Attribute: index
+Distance (Dirty to Clean): 0
+Distance (Repaired to Clean): 0
+========================================
 Attribute: id
 Distance (Dirty to Clean): 0
 Distance (Repaired to Clean): 0
 ========================================
-Attribute: jounral_abbreviation
-Distance (Dirty to Clean): 12
-Distance (Repaired to Clean): 12
-========================================
 Attribute: article_title
-Distance (Dirty to Clean): 136
-Distance (Repaired to Clean): 136
-========================================
-Attribute: journal_title
-Distance (Dirty to Clean): 55
-Distance (Repaired to Clean): 568
+Distance (Dirty to Clean): 14
+Distance (Repaired to Clean): 14
 ========================================
 Attribute: article_language
-Distance (Dirty to Clean): 2
-Distance (Repaired to Clean): 2
+Distance (Dirty to Clean): 0
+Distance (Repaired to Clean): 0
 ========================================
-Attribute: article_jcreated_at
-Distance (Dirty to Clean): 722
-Distance (Repaired to Clean): 722
+Attribute: journal_title
+Distance (Dirty to Clean): 9
+Distance (Repaired to Clean): 9
+========================================
+Attribute: jounral_abbreviation
+Distance (Dirty to Clean): 0
+Distance (Repaired to Clean): 0
 ========================================
 Attribute: journal_issn
-Distance (Dirty to Clean): 23
-Distance (Repaired to Clean): 538
+Distance (Dirty to Clean): 35
+Distance (Repaired to Clean): 552
 ========================================
 Attribute: article_jvolumn
 Distance (Dirty to Clean): 22
 Distance (Repaired to Clean): 22
 ========================================
-Attribute: article_pagination
-Distance (Dirty to Clean): 45
-Distance (Repaired to Clean): 45
-========================================
 Attribute: article_jissue
 Distance (Dirty to Clean): 53
 Distance (Repaired to Clean): 53
 ========================================
-Attribute: author_list
-Distance (Dirty to Clean): 820
-Distance (Repaired to Clean): 820
+Attribute: article_jcreated_at
+Distance (Dirty to Clean): 722
+Distance (Repaired to Clean): 722
 ========================================
-×ÜµÄÔàÊı¾İµ½¸É¾»Êı¾İ¾àÀë: 1890
-×ÜµÄĞŞ¸´ºóÊı¾İµ½¸É¾»Êı¾İ¾àÀë: 2918
-´íÎó¼õÉÙÂÊ (EDR): -0.5439153439153439
+Attribute: article_pagination
+Distance (Dirty to Clean): 33
+Distance (Repaired to Clean): 33
+========================================
+Attribute: author_list
+Distance (Dirty to Clean): 91
+Distance (Repaired to Clean): 91
+========================================
+æ€»çš„è„æ•°æ®åˆ°å¹²å‡€æ•°æ®è·ç¦»: 979
+æ€»çš„ä¿®å¤åæ•°æ®åˆ°å¹²å‡€æ•°æ®è·ç¦»: 1496
+é”™è¯¯å‡å°‘ç‡ (EDR): -0.5280898876404494
