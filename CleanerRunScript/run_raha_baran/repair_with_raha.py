@@ -647,14 +647,14 @@ class Correction:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dirty_path', type=str, default='../../Data/1_hospital/dirty.csv',
+    parser.add_argument('--dirty_path', type=str, default='../../Data/3_beers/dirty_index.csv',
                         help='Path to the input dirty CSV file.')
-    parser.add_argument('--clean_path', type=str, default='../../Data/1_hospital/clean_index.csv',
+    parser.add_argument('--clean_path', type=str, default='../../Data/3_beers/clean_index.csv',
                         help='Path to the input clean CSV file.')
-    parser.add_argument('--task_name', type=str, help="Task name (dataset name)", default='Baran_repair')
+    parser.add_argument('--task_name', type=str, help="Task name (dataset name)", default='Baran_repair_beers')
     parser.add_argument('--output_path', type=str, default='../../results/raha_baran',
                         help='Path to save the output results.')
-    parser.add_argument('--index_attribute', type=str, default='index',
+    parser.add_argument('--index_attribute', type=str, default='id',
                         help='index_attribute of data')
     parser.add_argument('--mse_attributes', type=str, nargs='*', default=[],
                         help='List of attributes to calculate MSE, separated by space. Example: --mse_attributes Attribute1 Attribute3')
