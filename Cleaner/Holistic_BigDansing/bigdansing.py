@@ -400,103 +400,99 @@ class BigDansing:
         sizebefore = 0
         sizeafter = 0
         processedcell = []
-        # read_graph_dc算法以vio作为输入，输出一个字典
-        # 字典中例如(15, 7)：[1,2,3,4,5]表示第15行第7列的cell存在于第1，2，3，4，5条超边中，
-        # 这个超边的编号与vio中的编号对应
+        # 读取输入数据
         input_data = read_graph_dc(vio)
-        dicc = input_data.copy()
-        for i in dicc:
-            dicc[i] = list(set(dicc[i]))
-        for i in dicc.items():
-            processedcell.append(i[0])
+        dicc = {i: list(set(v)) for i, v in input_data.items()}
+
+        processedcell.extend(dicc.keys())
         sizebefore = len(processedcell)
+
         self.repaired_cells = []
         self.clean_in_cands = []
         self.clean_in_cands_repair_right = []
         self.repair_right_cells = []
         self.repaired_cells_value = {}
-        while (sizebefore > sizeafter):
+
+        print(f"Initial cells to repair: {sizebefore}")
+
+        while sizebefore > sizeafter:
+            print(f"Processing loop - sizebefore: {sizebefore}, sizeafter: {sizeafter}")
             sizebefore = len(processedcell)
             input_data = read_graph_dc(vio)
-            # dicc和diccop中放的都是第i条vio，vio中是超边
-            dicc = input_data.copy()
-
-            for i in dicc:
-                dicc[i] = list(set(dicc[i]))
-
+            dicc = {i: list(set(v)) for i, v in input_data.items()}
             diccop = copy.deepcopy(dicc)
-            # 2近似mvc算法，输出为mvc找到的cell的list
+
+            # 计算 MVC
             self.mvc = greedy_min_vertex_cover_dc(dicc, vio)
             mvcdic = copy.deepcopy(self.mvc)
+
+            print(f"Current MVC size: {len(self.mvc)}")
+
             while self.mvc:
                 cell = self.mvc.pop()
                 if self.PERFECTED and not self.ONLYED:
                     if (cell[0], self.schema.index(list(self.attr_index.keys())[cell[1]])) not in self.wrong_cells:
                         continue
-                # print("cell:",cell)
+
                 edges = dicc[cell]
                 while edges:
                     edge = edges.pop()
                     index1 = vio[edge].index(cell)
-                    '''
-                        examples: 
-                        对于[0, 1, (0, 1), (50, 1)]这个超边来说，如果你现在的cell是（0，1），
-                        则其属于index1 % 3 == 2，index2表示他的另一个对应的cell，这里为（50，1），index为 index2 = 2 + 1
-                        index0为其对应的操作符，index0 = 2 - 1。
-                        假如对应的是（50，1）则index1 % 3 ==0 
-                    '''
-                    if (index1 % 3 == 2):
+
+                    if index1 % 3 == 2:
                         index2 = index1 + 1
                         index0 = index1 - 1
-                    if (index1 % 3 == 0):
+                    elif index1 % 3 == 0:
                         index2 = index1 - 1
                         index0 = index1 - 2
-                    if (index1 % 3 == 1):
+                    else:
                         continue
+
                     self.visdic.clear()
                     self.edgedic.clear()
-                    # lookup算法，作用是找出cell所有相关联的边
-                    exps = []
                     exps = self.lookup(cell, vio[edge][index2], vio[edge][index0], diccop, mvcdic, vio, cell)
-                l = cell[0]
-                rr = cell[1]
+
+                l, rr = cell
                 repair_cands = self.determination(exps, data)
                 try:
                     truerepair = repair_cands[0]
                     if str(self.data_cl[l][rr]) in repair_cands:
                         self.clean_in_cands.append((l, self.schema.index(list(self.attr_index.keys())[rr])))
-                        if ((str(truerepair) == str(self.data_cl[l][rr]))):
+                        if str(truerepair) == str(self.data_cl[l][rr]):
                             self.clean_in_cands_repair_right.append(
                                 (l, self.schema.index(list(self.attr_index.keys())[rr])))
                 except:
                     truerepair = 0
+
                 self.exps.clear()
-                # 计算了总的修复次数
-                self.all_clean = self.all_clean + 1
+                self.all_clean += 1
                 self.repaired_cells.append((l, self.schema.index(list(self.attr_index.keys())[rr])))
                 self.repaired_cells_value[(l, self.schema.index(list(self.attr_index.keys())[rr]))] = truerepair
-                # 计算了总的改对的个数
-                if ((str(truerepair) == str(self.data_cl[l][rr]))):
-                    self.clean_right_pre = self.clean_right_pre + 1
+
+                if str(truerepair) == str(self.data_cl[l][rr]):
+                    self.clean_right_pre += 1
                     self.repair_right_cells.append((l, self.schema.index(list(self.attr_index.keys())[rr])))
-                if ((str(truerepair) == str(self.data_cl[l][rr])) and (data[l][rr] != self.data_cl[l][rr])):
-                    self.clean_right = self.clean_right + 1
+                if str(truerepair) == str(self.data_cl[l][rr]) and data[l][rr] != self.data_cl[l][rr]:
+                    self.clean_right += 1
                 data[l][rr] = truerepair
-            print("Finish Repairing")
+
+            print("Finished one iteration of repairing.")
             vio = self.detect(self.maypair, data)
             input_data = read_graph_dc(vio)
-            # dicc和diccop中放的都是第i条vio，vio中是超边
-            dicc = input_data.copy()
-            if (len(list(dicc)) == 0):
+            dicc = {i: list(set(v)) for i, v in input_data.items()}
+
+            if not dicc:
                 return data, self.all_clean, self.clean_right
-            for i in dicc.items():
-                processedcell.append(i[0])
+
+            processedcell.extend(dicc.keys())
             sizeafter = len(processedcell)
+            print(f"End of loop - sizebefore: {sizebefore}, sizeafter: {sizeafter}")
+
+        print("Final post-processing")
         self.all_clean, self.clean_right, self.clean_right_pre = self.postprocess(self.mvc, dicc, self.all_clean,
                                                                                   self.clean_right,
                                                                                   self.clean_right_pre)
         return data, self.all_clean, self.clean_right, self.clean_right_pre
-
     '''
         postprocess：跟对repair的内循环无法修复的mvc中的单元进行粗修复
         Parameters
