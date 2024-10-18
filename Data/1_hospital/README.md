@@ -19,7 +19,7 @@ Score, Sample, Stateavg]
 ### 错误数量：1000*0.3%
 
 ## 数据规则集、标签、知识存放路径
-- **FD 规则**：`../../Data/hospital/fd-rule.txt`
+- **FD 规则**：`../../Data/hospital/fd_rules-validate-fd-horizon.txt`
 - **DC 规则**：`../../Data/hospital/dc_rules_dc_holoclean.txt`
 
 
@@ -31,7 +31,8 @@ Score, Sample, Stateavg]
 ## 主键属性集合：
 ```
 ProviderNumber、MeasureCode
-注：ProviderNumber和HospitalName构成循环依赖，这里选择ProviderNumber作为主键
+注：ProviderNumber和HospitalName构成循环依赖，这里选择ProviderNumber作为主键  
+MeasureCode和MeasureName构成循环依赖，这里选择MeasureCode作为主键
 ```
 1. **规则涉及**的属性中，保证**主键属性集合干净**的情况下，注入不同比例的混合错误。
    - 每个规则违反、非主键属性空缺值、非主键属性异常值的混合错误。

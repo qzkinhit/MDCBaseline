@@ -5,13 +5,12 @@ import time
 
 import pandas as pd
 
-from util.insert_null import inject_missing_values
-
 # 获取当前脚本所在目录的上级目录路径
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 
 from Cleaner.Horizon.horizon import Horizon
 from util.getScore import calculate_accuracy_and_recall, calculate_all_metrics
+from util.insert_null import inject_missing_values
 
 
 def main():
@@ -63,7 +62,12 @@ def main():
     )
     # 保存修复后的数据
     res_path = os.path.join(stra_path, f"{args.task_name}_repaired.csv")
-    res_df = pd.read_csv(args.dirty_path, dtype={'ZipCode': str, 'PhoneNumber': str})
+    #res_df = pd.read_csv(args.dirty_path, dtype={'ZipCode': str, 'PhoneNumber': str})
+    #res_df = pd.read_csv(args.dirty_path,dtype={'src':str,'flight':str,'sched_dep_time':str,'act_dep_time':str,'sched_arr_time':str,'act_arr_time':str})
+    #res_df = pd.read_csv(args.dirty_path, dtype={'brewery_id': str})
+    #res_df = pd.read_csv(args.dirty_path, dtype={'article_jvolumn':str,'article_jissue':str})
+    #res_df = pd.read_csv(args.dirty_path,dtype={'zip':str})
+    res_df = pd.read_csv(args.dirty_path, dtype={'season': str})
     for i in range(len(res_df)):
         for v in pattern_expressions[i]:
             value_to_assign = pattern_expressions[i][v]
@@ -97,6 +101,22 @@ def main():
     attributes = clean_data.columns.tolist()
 
     # 调用函数并计算所有指标
+    #hospital
+    #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
+    #                                index_attribute,mse_attributes=['Score'])
+    #flights
+    #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
+    #                               index_attribute)
+    #beers
+    #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
+    #                                index_attribute,mse_attributes=['abv','ibu'])
+    #rayyan
+    #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
+    #                               index_attribute)
+    #tax
+    #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
+    #                                index_attribute,mse_attributes=['salary','rate','singleexemp','marriedexemp','childexemp'])
+    #soccer
     results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
                                     index_attribute)
 

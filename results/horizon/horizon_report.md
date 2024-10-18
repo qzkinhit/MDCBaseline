@@ -96,6 +96,13 @@ python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../..
 |          |                  | Recall     | `0.24702476680604696` | `/` |
 ---
 
+hospital
+python run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty_index.csv --rule_path ../../Data/1_hospital/dc_ru
+les-validate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean_index.csv --task_name hospital_ori --output_path ../../results/horizon/ --index_attribute index
+
+
+
 ## 4. 结论
+
 
 在此部分总结实验的总体结果，并讨论实验结果相比于论文描述的优劣。根据实验结果，可以讨论该系统的优势、不足之处，以及未来可能的改进方向。
