@@ -1,2462 +1,961 @@
 index,attribute,dirty_value,clean_value
-51,sched_dep_time,empty,07:10 AM
-53,sched_dep_time,empty,06:40 AM
-55,sched_dep_time,empty,08:41 AM
-57,sched_dep_time,empty,03:27 PM
-60,sched_dep_time,empty,10:39 AM
-70,sched_dep_time,empty,04:15 PM
-71,sched_dep_time,empty,10:45 AM
-75,sched_dep_time,empty,11:50 AM
-77,sched_dep_time,empty,06:00 AM
-78,sched_dep_time,empty,11:05 AM
-82,sched_dep_time,empty,01:00 PM
-83,sched_dep_time,empty,07:53 AM
-84,sched_dep_time,empty,12:30 PM
-86,sched_dep_time,empty,02:30 PM
-90,sched_dep_time,empty,10:40 AM
-91,sched_dep_time,empty,12:57 PM
-93,sched_dep_time,empty,07:15 AM
-94,sched_dep_time,empty,06:30 PM
-95,sched_dep_time,empty,06:45 PM
-98,sched_dep_time,empty,01:55 PM
-101,sched_dep_time,empty,07:10 AM
-102,sched_dep_time,empty,04:55 PM
-103,sched_dep_time,empty,07:25 AM
-104,sched_dep_time,empty,03:50 PM
-105,sched_dep_time,empty,04:16 PM
-108,sched_dep_time,empty,07:05 AM
-111,sched_dep_time,empty,12:15 PM
-114,sched_dep_time,empty,04:25 PM
-117,sched_dep_time,empty,06:59 AM
-118,sched_dep_time,empty,08:35 AM
-122,sched_dep_time,empty,07:35 AM
-125,sched_dep_time,empty,01:45 PM
-126,sched_dep_time,empty,11:15 AM
-127,sched_dep_time,empty,08:20 PM
-131,sched_dep_time,empty,02:35 PM
-133,sched_dep_time,empty,07:15 AM
-134,sched_dep_time,empty,12:10 PM
-135,sched_dep_time,empty,07:55 AM
-136,sched_dep_time,empty,09:05 AM
-137,sched_dep_time,empty,01:05 PM
-138,sched_dep_time,empty,08:35 AM
-142,sched_dep_time,empty,11:35 AM
-145,sched_dep_time,empty,10:40 AM
-149,sched_dep_time,empty,07:10 AM
-155,sched_dep_time,empty,08:41 AM
-159,sched_dep_time,empty,11:25 AM
-160,sched_dep_time,empty,10:39 AM
-162,sched_dep_time,empty,06:00 AM
-165,sched_dep_time,empty,07:35 AM
-166,sched_dep_time,empty,09:45 AM
-168,sched_dep_time,empty,08:15 AM
-172,sched_dep_time,empty,02:30 PM
-176,sched_dep_time,empty,11:40 AM
-180,sched_dep_time,empty,08:40 AM
-183,sched_dep_time,empty,07:53 AM
-192,sched_dep_time,empty,03:35 PM
-197,sched_dep_time,empty,01:55 PM
-205,sched_dep_time,empty,10:25 AM
-210,sched_dep_time,empty,01:29 PM
-219,sched_dep_time,empty,02:53 PM
-220,sched_dep_time,empty,07:35 AM
-226,sched_dep_time,empty,02:55 PM
-227,sched_dep_time,empty,02:30 PM
-239,sched_dep_time,empty,11:25 AM
-340,sched_dep_time,empty,06:40 AM
-342,sched_dep_time,empty,08:41 AM
-343,sched_dep_time,empty,07:45 PM
-347,sched_dep_time,empty,10:39 AM
-348,sched_dep_time,empty,11:25 PM
-351,sched_dep_time,empty,04:00 PM
-356,sched_dep_time,empty,07:00 AM
-358,sched_dep_time,empty,10:45 AM
-365,sched_dep_time,empty,11:05 AM
-368,sched_dep_time,empty,10:15 AM
-372,sched_dep_time,empty,11:45 AM
-373,sched_dep_time,empty,02:30 PM
-374,sched_dep_time,empty,12:00 AM
-377,sched_dep_time,empty,10:40 AM
-380,sched_dep_time,empty,07:15 AM
-383,sched_dep_time,empty,12:00 PM
-385,sched_dep_time,empty,01:55 PM
-387,sched_dep_time,empty,06:00 AM
-390,sched_dep_time,empty,07:25 AM
-391,sched_dep_time,empty,03:50 PM
-392,sched_dep_time,empty,04:16 PM
-393,sched_dep_time,empty,08:00 PM
-396,sched_dep_time,empty,10:40 AM
-397,sched_dep_time,empty,01:33 PM
-398,sched_dep_time,empty,12:15 PM
-402,sched_dep_time,empty,09:00 PM
-403,sched_dep_time,empty,08:25 PM
-407,sched_dep_time,empty,01:30 PM
-412,sched_dep_time,empty,01:45 PM
-414,sched_dep_time,empty,08:20 PM
-418,sched_dep_time,empty,02:35 PM
-421,sched_dep_time,empty,12:10 PM
-423,sched_dep_time,empty,09:05 AM
-424,sched_dep_time,empty,01:05 PM
-428,sched_dep_time,empty,04:00 PM
-429,sched_dep_time,empty,11:35 AM
-431,sched_dep_time,empty,11:55 AM
-446,sched_dep_time,empty,11:25 AM
-452,sched_dep_time,empty,07:35 AM
-453,sched_dep_time,empty,09:45 AM
-458,sched_dep_time,empty,10:45 AM
-459,sched_dep_time,empty,02:30 PM
-460,sched_dep_time,empty,08:05 AM
-461,sched_dep_time,empty,02:55 PM
-466,sched_dep_time,empty,06:00 AM
-470,sched_dep_time,empty,07:53 AM
-474,sched_dep_time,empty,12:00 AM
-478,sched_dep_time,empty,12:57 PM
-479,sched_dep_time,empty,03:35 PM
-484,sched_dep_time,empty,01:55 PM
-493,sched_dep_time,empty,07:05 AM
-497,sched_dep_time,empty,01:29 PM
-504,sched_dep_time,empty,08:29 AM
-507,sched_dep_time,empty,07:35 AM
-512,sched_dep_time,empty,08:20 PM
-513,sched_dep_time,empty,02:55 PM
-515,sched_dep_time,empty,08:55 AM
-521,sched_dep_time,empty,09:05 AM
-530,sched_dep_time,empty,02:55 PM
-573,sched_dep_time,empty,12:00 AM
-634,sched_dep_time,empty,08:41 AM
-638,sched_dep_time,empty,11:25 AM
-639,sched_dep_time,empty,10:39 AM
-641,sched_dep_time,empty,06:00 AM
-645,sched_dep_time,empty,09:45 AM
-651,sched_dep_time,empty,02:30 PM
-658,sched_dep_time,empty,06:00 AM
-659,sched_dep_time,empty,08:40 AM
-664,sched_dep_time,empty,11:45 AM
-670,sched_dep_time,empty,12:57 PM
-680,sched_dep_time,empty,04:55 PM
-682,sched_dep_time,empty,04:16 PM
-684,sched_dep_time,empty,10:25 AM
-689,sched_dep_time,empty,01:29 PM
-696,sched_dep_time,empty,08:29 AM
-704,sched_dep_time,empty,08:20 PM
-707,sched_dep_time,empty,08:55 AM
-722,sched_dep_time,empty,02:55 PM
-730,sched_dep_time,empty,07:10 AM
-736,sched_dep_time,empty,11:25 AM
-739,sched_dep_time,empty,06:00 AM
-743,sched_dep_time,empty,04:15 PM
-745,sched_dep_time,empty,11:50 AM
-746,sched_dep_time,empty,11:40 AM
-747,sched_dep_time,empty,06:00 AM
-748,sched_dep_time,empty,07:55 AM
-751,sched_dep_time,empty,01:00 PM
-752,sched_dep_time,empty,12:30 PM
-756,sched_dep_time,empty,10:40 AM
-757,sched_dep_time,empty,12:57 PM
-762,sched_dep_time,empty,09:15 AM
-764,sched_dep_time,empty,07:10 AM
-765,sched_dep_time,empty,04:55 PM
-766,sched_dep_time,empty,07:25 AM
-767,sched_dep_time,empty,04:16 PM
-770,sched_dep_time,empty,01:33 PM
-771,sched_dep_time,empty,01:29 PM
-777,sched_dep_time,empty,08:29 AM
-781,sched_dep_time,empty,08:05 AM
-785,sched_dep_time,empty,07:35 AM
-787,sched_dep_time,empty,01:05 PM
-789,sched_dep_time,empty,10:40 AM
-791,sched_dep_time,empty,06:00 AM
-793,sched_dep_time,empty,10:40 AM
-795,sched_dep_time,empty,04:15 PM
-796,sched_dep_time,empty,06:00 AM
-805,sched_dep_time,empty,02:55 PM
-806,sched_dep_time,empty,06:30 PM
-809,sched_dep_time,empty,08:00 PM
-811,sched_dep_time,empty,09:15 AM
-813,sched_dep_time,empty,07:00 PM
-816,sched_dep_time,empty,08:41 AM
-820,sched_dep_time,empty,11:25 AM
-821,sched_dep_time,empty,10:39 AM
-824,sched_dep_time,empty,12:30 AM
-832,sched_dep_time,empty,10:45 AM
-833,sched_dep_time,empty,02:30 PM
-834,sched_dep_time,empty,08:05 AM
-841,sched_dep_time,empty,08:40 AM
-844,sched_dep_time,empty,07:53 AM
-845,sched_dep_time,empty,12:30 PM
-850,sched_dep_time,empty,07:10 PM
-853,sched_dep_time,empty,03:35 PM
-858,sched_dep_time,empty,01:55 PM
-862,sched_dep_time,empty,04:55 PM
-866,sched_dep_time,empty,10:25 AM
-871,sched_dep_time,empty,01:29 PM
-878,sched_dep_time,empty,08:29 AM
-880,sched_dep_time,empty,02:53 PM
-881,sched_dep_time,empty,07:35 AM
-900,sched_dep_time,empty,11:25 AM
-918,sched_dep_time,empty,07:35 AM
-939,sched_dep_time,empty,07:05 AM
-953,sched_dep_time,empty,08:55 AM
-954,sched_dep_time,empty,08:05 AM
-965,sched_dep_time,empty,08:40 AM
-1004,sched_dep_time,empty,08:15 AM
-1019,sched_dep_time,empty,12:00 AM
-1035,sched_dep_time,empty,01:33 PM
-1046,sched_dep_time,empty,07:35 AM
-1047,sched_dep_time,empty,01:45 PM
-1059,sched_dep_time,empty,07:53 AM
-1085,sched_dep_time,empty,07:35 AM
-1086,sched_dep_time,empty,09:45 AM
-1091,sched_dep_time,empty,10:45 AM
-1094,sched_dep_time,empty,02:55 PM
-1096,sched_dep_time,empty,11:40 AM
-1099,sched_dep_time,empty,06:00 AM
-1100,sched_dep_time,empty,08:40 AM
-1107,sched_dep_time,empty,12:00 AM
-1109,sched_dep_time,empty,07:10 PM
-1111,sched_dep_time,empty,12:57 PM
-1117,sched_dep_time,empty,01:55 PM
-1123,sched_dep_time,empty,04:16 PM
-1125,sched_dep_time,empty,10:25 AM
-1139,sched_dep_time,empty,02:53 PM
-1140,sched_dep_time,empty,07:35 AM
-1148,sched_dep_time,empty,08:55 AM
-1156,sched_dep_time,empty,08:35 AM
-1180,sched_dep_time,empty,05:25 PM
-1187,sched_dep_time,empty,12:30 PM
-1188,sched_dep_time,empty,12:00 AM
-1194,sched_dep_time,empty,01:55 PM
-1207,sched_dep_time,empty,11:15 AM
-1209,sched_dep_time,empty,08:55 AM
-1224,sched_dep_time,empty,07:10 AM
-1227,sched_dep_time,empty,08:00 AM
-1229,sched_dep_time,empty,07:45 PM
-1234,sched_dep_time,empty,11:25 PM
-1235,sched_dep_time,empty,06:00 AM
-1241,sched_dep_time,empty,08:15 AM
-1242,sched_dep_time,empty,07:00 AM
-1243,sched_dep_time,empty,04:15 PM
-1250,sched_dep_time,empty,06:00 AM
-1254,sched_dep_time,empty,10:15 AM
-1255,sched_dep_time,empty,01:00 PM
-1257,sched_dep_time,empty,12:30 PM
-1258,sched_dep_time,empty,11:45 AM
-1260,sched_dep_time,empty,12:00 AM
-1266,sched_dep_time,empty,07:15 AM
-1271,sched_dep_time,empty,01:55 PM
-1274,sched_dep_time,empty,07:10 AM
-1276,sched_dep_time,empty,07:25 AM
-1277,sched_dep_time,empty,03:50 PM
-1278,sched_dep_time,empty,04:16 PM
-1281,sched_dep_time,empty,07:05 AM
-1283,sched_dep_time,empty,01:33 PM
-1284,sched_dep_time,empty,12:15 PM
-1286,sched_dep_time,empty,11:55 PM
-1287,sched_dep_time,empty,04:25 PM
-1288,sched_dep_time,empty,09:00 PM
-1290,sched_dep_time,empty,06:59 AM
-1291,sched_dep_time,empty,08:35 AM
-1292,sched_dep_time,empty,08:29 AM
-1295,sched_dep_time,empty,07:35 AM
-1298,sched_dep_time,empty,01:45 PM
-1300,sched_dep_time,empty,08:20 PM
-1301,sched_dep_time,empty,02:55 PM
-1304,sched_dep_time,empty,02:35 PM
-1305,sched_dep_time,empty,02:55 PM
-1307,sched_dep_time,empty,12:10 PM
-1309,sched_dep_time,empty,09:05 AM
-1311,sched_dep_time,empty,08:35 AM
-1312,sched_dep_time,empty,03:05 PM
-1313,sched_dep_time,empty,07:30 AM
-1314,sched_dep_time,empty,04:00 PM
-1315,sched_dep_time,empty,11:35 AM
-1317,sched_dep_time,empty,11:55 AM
-1318,sched_dep_time,empty,10:40 AM
-1319,sched_dep_time,empty,06:45 AM
-1321,sched_dep_time,empty,06:00 AM
-1323,sched_dep_time,empty,07:10 AM
-1324,sched_dep_time,empty,07:10 AM
-1327,sched_dep_time,empty,08:00 AM
-1328,sched_dep_time,empty,08:41 AM
-1335,sched_dep_time,empty,06:00 AM
-1336,sched_dep_time,empty,12:30 AM
-1342,sched_dep_time,empty,07:00 AM
-1346,sched_dep_time,empty,08:05 AM
-1348,sched_dep_time,empty,11:50 AM
-1349,sched_dep_time,empty,11:40 AM
-1351,sched_dep_time,empty,11:05 AM
-1354,sched_dep_time,empty,10:15 AM
-1356,sched_dep_time,empty,07:53 AM
-1359,sched_dep_time,empty,02:30 PM
-1371,sched_dep_time,empty,09:15 AM
-1372,sched_dep_time,empty,06:00 AM
-1373,sched_dep_time,empty,07:10 AM
-1388,sched_dep_time,empty,06:59 AM
-1392,sched_dep_time,empty,07:35 AM
-1396,sched_dep_time,empty,11:15 AM
-1410,sched_dep_time,empty,07:30 AM
-1411,sched_dep_time,empty,11:25 AM
-1413,sched_dep_time,empty,11:35 AM
-1414,sched_dep_time,empty,07:25 AM
-1416,sched_dep_time,empty,11:55 AM
-1421,sched_dep_time,empty,07:10 AM
-1426,sched_dep_time,empty,01:33 PM
-1482,sched_dep_time,empty,08:00 AM
-1486,sched_dep_time,empty,02:30 PM
-1490,sched_dep_time,empty,06:40 AM
-1496,sched_dep_time,empty,11:25 AM
-1497,sched_dep_time,empty,10:39 AM
-1501,sched_dep_time,empty,04:00 PM
-1504,sched_dep_time,empty,09:05 AM
-1505,sched_dep_time,empty,08:15 AM
-1507,sched_dep_time,empty,04:15 PM
-1508,sched_dep_time,empty,10:45 AM
-1512,sched_dep_time,empty,11:50 AM
-1514,sched_dep_time,empty,06:00 AM
-1519,sched_dep_time,empty,01:00 PM
-1521,sched_dep_time,empty,12:30 PM
-1524,sched_dep_time,empty,12:00 AM
-1528,sched_dep_time,empty,12:57 PM
-1530,sched_dep_time,empty,07:15 AM
-1539,sched_dep_time,empty,04:55 PM
-1540,sched_dep_time,empty,07:25 AM
-1541,sched_dep_time,empty,03:50 PM
-1542,sched_dep_time,empty,04:16 PM
-1543,sched_dep_time,empty,08:00 PM
-1550,sched_dep_time,empty,11:55 PM
-1551,sched_dep_time,empty,04:25 PM
-1553,sched_dep_time,empty,08:25 PM
-1554,sched_dep_time,empty,06:59 AM
-1556,sched_dep_time,empty,08:29 AM
-1557,sched_dep_time,empty,01:30 PM
-1559,sched_dep_time,empty,07:35 AM
-1561,sched_dep_time,empty,05:30 PM
-1562,sched_dep_time,empty,01:45 PM
-1563,sched_dep_time,empty,11:15 AM
-1564,sched_dep_time,empty,08:20 PM
-1565,sched_dep_time,empty,02:55 PM
-1571,sched_dep_time,empty,12:10 PM
-1572,sched_dep_time,empty,07:55 AM
-1573,sched_dep_time,empty,09:05 AM
-1576,sched_dep_time,empty,03:05 PM
-1581,sched_dep_time,empty,11:55 AM
-1585,sched_dep_time,empty,06:00 AM
-1586,sched_dep_time,empty,07:10 AM
-1587,sched_dep_time,empty,07:10 AM
-1590,sched_dep_time,empty,08:41 AM
-1593,sched_dep_time,empty,10:39 AM
-1597,sched_dep_time,empty,09:45 AM
-1598,sched_dep_time,empty,07:00 AM
-1602,sched_dep_time,empty,11:05 AM
-1604,sched_dep_time,empty,07:30 AM
-1607,sched_dep_time,empty,11:45 AM
-1608,sched_dep_time,empty,12:00 AM
-1611,sched_dep_time,empty,06:00 AM
-1621,sched_dep_time,empty,06:59 AM
-1629,sched_dep_time,empty,07:35 AM
-1632,sched_dep_time,empty,07:10 AM
-1634,sched_dep_time,empty,11:25 AM
-1637,sched_dep_time,empty,06:45 AM
-1644,sched_dep_time,empty,04:16 PM
-1651,sched_dep_time,empty,11:55 PM
-1654,sched_dep_time,empty,07:45 PM
-1656,sched_dep_time,empty,11:08 PM
-1685,sched_dep_time,empty,12:00 AM
-1688,sched_dep_time,empty,07:10 PM
-1770,sched_dep_time,empty,06:00 AM
-1771,sched_dep_time,empty,12:30 AM
-1776,sched_dep_time,empty,08:15 AM
-1781,sched_dep_time,empty,08:05 AM
-1782,sched_dep_time,empty,02:55 PM
-1784,sched_dep_time,empty,11:40 AM
-1787,sched_dep_time,empty,06:00 AM
-1788,sched_dep_time,empty,08:40 AM
-1791,sched_dep_time,empty,07:53 AM
-1792,sched_dep_time,empty,12:30 PM
-1793,sched_dep_time,empty,11:45 AM
-1796,sched_dep_time,empty,05:25 PM
-1805,sched_dep_time,empty,01:55 PM
-1809,sched_dep_time,empty,04:55 PM
-1811,sched_dep_time,empty,04:16 PM
-1814,sched_dep_time,empty,07:05 AM
-1815,sched_dep_time,empty,10:40 AM
-1818,sched_dep_time,empty,01:29 PM
-1827,sched_dep_time,empty,02:53 PM
-1832,sched_dep_time,empty,11:15 AM
-1835,sched_dep_time,empty,02:30 PM
-1836,sched_dep_time,empty,08:55 AM
-1851,sched_dep_time,empty,02:55 PM
-1894,sched_dep_time,empty,12:00 AM
-1952,sched_dep_time,empty,07:00 PM
-1955,sched_dep_time,empty,08:41 AM
-1959,sched_dep_time,empty,11:25 AM
-1960,sched_dep_time,empty,10:39 AM
-1963,sched_dep_time,empty,12:30 AM
-1971,sched_dep_time,empty,10:45 AM
-1979,sched_dep_time,empty,06:00 AM
-1983,sched_dep_time,empty,07:53 AM
-1992,sched_dep_time,empty,03:35 PM
-1997,sched_dep_time,empty,01:55 PM
-2001,sched_dep_time,empty,04:55 PM
-2003,sched_dep_time,empty,04:16 PM
-2010,sched_dep_time,empty,01:29 PM
-2020,sched_dep_time,empty,07:35 AM
-2024,sched_dep_time,empty,11:15 AM
-2028,sched_dep_time,empty,08:55 AM
-2034,sched_dep_time,empty,09:05 AM
-2043,sched_dep_time,empty,02:55 PM
-2052,sched_dep_time,empty,07:00 PM
-2060,sched_dep_time,empty,10:39 AM
-2062,sched_dep_time,empty,06:00 AM
-2063,sched_dep_time,empty,12:30 AM
-2066,sched_dep_time,empty,09:45 AM
-2068,sched_dep_time,empty,08:15 AM
-2071,sched_dep_time,empty,10:45 AM
-2076,sched_dep_time,empty,11:40 AM
-2079,sched_dep_time,empty,06:00 AM
-2080,sched_dep_time,empty,08:40 AM
-2084,sched_dep_time,empty,12:30 PM
-2087,sched_dep_time,empty,12:00 AM
-2088,sched_dep_time,empty,05:25 PM
-2091,sched_dep_time,empty,12:57 PM
-2101,sched_dep_time,empty,04:55 PM
-2103,sched_dep_time,empty,04:16 PM
-2105,sched_dep_time,empty,10:25 AM
-2107,sched_dep_time,empty,10:40 AM
-2117,sched_dep_time,empty,08:29 AM
-2120,sched_dep_time,empty,07:35 AM
-2123,sched_dep_time,empty,01:45 PM
-2127,sched_dep_time,empty,02:30 PM
-2153,sched_dep_time,empty,09:00 PM
-2155,sched_dep_time,empty,01:05 PM
-2160,sched_dep_time,empty,08:41 AM
-2168,sched_dep_time,empty,12:30 AM
-2170,sched_dep_time,empty,07:35 AM
-2173,sched_dep_time,empty,08:15 AM
-2179,sched_dep_time,empty,02:55 PM
-2181,sched_dep_time,empty,11:40 AM
-2190,sched_dep_time,empty,11:45 AM
-2192,sched_dep_time,empty,12:00 AM
-2193,sched_dep_time,empty,05:25 PM
-2194,sched_dep_time,empty,07:10 PM
-2196,sched_dep_time,empty,12:57 PM
-2197,sched_dep_time,empty,03:35 PM
-2208,sched_dep_time,empty,04:16 PM
-2210,sched_dep_time,empty,10:25 AM
-2211,sched_dep_time,empty,07:05 AM
-2215,sched_dep_time,empty,01:29 PM
-2224,sched_dep_time,empty,02:53 PM
-2225,sched_dep_time,empty,07:35 AM
-2230,sched_dep_time,empty,08:20 PM
-2231,sched_dep_time,empty,02:55 PM
-2232,sched_dep_time,empty,02:30 PM
-2233,sched_dep_time,empty,08:55 AM
-2239,sched_dep_time,empty,09:05 AM
-2241,sched_dep_time,empty,08:35 AM
-2248,sched_dep_time,empty,02:55 PM
-2343,sched_dep_time,empty,12:00 AM
-6,act_dep_time,empty,11:25 PM
-32,act_dep_time,empty,11:55 PM
-52,act_dep_time,empty,07:14 PM
-54,act_dep_time,empty,08:29 AM
-58,act_dep_time,empty,11:32 AM
-60,act_dep_time,empty,10:33 AM
-61,act_dep_time,empty,11:25 PM
-64,act_dep_time,empty,04:00 PM
-65,act_dep_time,empty,07:29 AM
-71,act_dep_time,empty,10:55 AM
-72,act_dep_time,empty,02:48 PM
-75,act_dep_time,empty,12:12 PM
-76,act_dep_time,empty,11:56 AM
-77,act_dep_time,empty,06:08 AM
-78,act_dep_time,empty,11:30 AM
-81,act_dep_time,empty,10:18 AM
-86,act_dep_time,empty,02:26 PM
-89,act_dep_time,empty,08:25 PM
-90,act_dep_time,empty,11:05 AM
-94,act_dep_time,empty,06:30 PM
-96,act_dep_time,empty,12:11 PM
-97,act_dep_time,empty,07:15 PM
-98,act_dep_time,empty,02:10 PM
-100,act_dep_time,empty,06:56 AM
-102,act_dep_time,empty,05:08 PM
-104,act_dep_time,empty,04:28 PM
-105,act_dep_time,empty,04:15 PM
-109,act_dep_time,empty,11:01 AM
-110,act_dep_time,empty,01:31 PM
-112,act_dep_time,empty,01:48 PM
-113,act_dep_time,empty,11:55 PM
-115,act_dep_time,empty,09:00 PM
-117,act_dep_time,empty,07:22 AM
-118,act_dep_time,empty,08:51 AM
-120,act_dep_time,empty,01:30 PM
-121,act_dep_time,empty,03:01 PM
-124,act_dep_time,empty,05:30 PM
-126,act_dep_time,empty,11:15 AM
-127,act_dep_time,empty,08:39 PM
-132,act_dep_time,empty,03:27 PM
-134,act_dep_time,empty,12:10 PM
-138,act_dep_time,empty,08:56 AM
-148,act_dep_time,empty,06:10 AM
-150,act_dep_time,empty,07:31 AM
-152,act_dep_time,empty,07:14 PM
-154,act_dep_time,empty,08:29 AM
-157,act_dep_time,empty,12:11 PM
-158,act_dep_time,empty,03:27 PM
-159,act_dep_time,empty,11:32 AM
-160,act_dep_time,empty,10:33 AM
-163,act_dep_time,empty,12:41 AM
-164,act_dep_time,empty,04:00 PM
-166,act_dep_time,empty,10:19 AM
-167,act_dep_time,empty,10:10 AM
-172,act_dep_time,empty,02:48 PM
-174,act_dep_time,empty,02:55 PM
-177,act_dep_time,empty,06:08 AM
-178,act_dep_time,empty,11:30 AM
-180,act_dep_time,empty,08:40 AM
-184,act_dep_time,empty,12:35 PM
-185,act_dep_time,empty,12:13 PM
-186,act_dep_time,empty,02:26 PM
-187,act_dep_time,empty,03:11 AM
-199,act_dep_time,empty,06:56 AM
-202,act_dep_time,empty,04:28 PM
-205,act_dep_time,empty,10:20 AM
-209,act_dep_time,empty,12:41 PM
-212,act_dep_time,empty,04:25 PM
-213,act_dep_time,empty,09:00 PM
-215,act_dep_time,empty,07:22 AM
-219,act_dep_time,empty,03:01 PM
-220,act_dep_time,empty,07:27 AM
-222,act_dep_time,empty,05:30 PM
-223,act_dep_time,empty,01:32 PM
-225,act_dep_time,empty,08:39 PM
-227,act_dep_time,empty,02:48 PM
-228,act_dep_time,empty,09:16 AM
-232,act_dep_time,empty,12:10 PM
-234,act_dep_time,empty,08:52 AM
-235,act_dep_time,empty,01:19 PM
-239,act_dep_time,empty,11:40 AM
-243,act_dep_time,empty,03:31 PM
-245,act_dep_time,empty,10:54 AM
-246,act_dep_time,empty,06:57 AM
-249,act_dep_time,empty,07:39 AM
-251,act_dep_time,empty,07:16 AM
-253,act_dep_time,empty,08:29 AM
-254,act_dep_time,empty,08:42 AM
-257,act_dep_time,empty,03:27 PM
-258,act_dep_time,empty,11:32 AM
-259,act_dep_time,empty,11:40 AM
-261,act_dep_time,empty,11:25 PM
-262,act_dep_time,empty,05:56 AM
-263,act_dep_time,empty,12:41 PM
-265,act_dep_time,empty,10:19 AM
-266,act_dep_time,empty,07:25 AM
-268,act_dep_time,empty,04:29 PM
-269,act_dep_time,empty,02:48 PM
-271,act_dep_time,empty,06:08 AM
-273,act_dep_time,empty,06:02 AM
-279,act_dep_time,empty,12:41 AM
-281,act_dep_time,empty,12:13 PM
-283,act_dep_time,empty,07:39 AM
-286,act_dep_time,empty,07:21 AM
-287,act_dep_time,empty,08:00 AM
-288,act_dep_time,empty,06:55 PM
-289,act_dep_time,empty,12:11 PM
-291,act_dep_time,empty,02:10 PM
-294,act_dep_time,empty,07:30 AM
-297,act_dep_time,empty,08:23 PM
-298,act_dep_time,empty,10:20 AM
-300,act_dep_time,empty,11:01 AM
-301,act_dep_time,empty,01:31 PM
-302,act_dep_time,empty,11:55 PM
-303,act_dep_time,empty,04:25 PM
-304,act_dep_time,empty,09:00 PM
-307,act_dep_time,empty,08:51 AM
-309,act_dep_time,empty,08:26 AM
-311,act_dep_time,empty,03:01 PM
-312,act_dep_time,empty,07:27 AM
-313,act_dep_time,empty,01:32 PM
-319,act_dep_time,empty,03:27 PM
-320,act_dep_time,empty,07:22 AM
-321,act_dep_time,empty,02:55 PM
-322,act_dep_time,empty,12:10 PM
-326,act_dep_time,empty,07:49 AM
-327,act_dep_time,empty,08:56 AM
-328,act_dep_time,empty,03:36 PM
-330,act_dep_time,empty,03:31 PM
-331,act_dep_time,empty,11:55 AM
-333,act_dep_time,empty,06:57 AM
-334,act_dep_time,empty,03:58 PM
-335,act_dep_time,empty,06:10 AM
-336,act_dep_time,empty,07:39 AM
-341,act_dep_time,empty,08:29 AM
-344,act_dep_time,empty,03:27 PM
-347,act_dep_time,empty,10:33 AM
-354,act_dep_time,empty,10:10 AM
-358,act_dep_time,empty,10:55 AM
-359,act_dep_time,empty,02:48 PM
-361,act_dep_time,empty,02:55 PM
-362,act_dep_time,empty,12:12 PM
-364,act_dep_time,empty,06:08 AM
-370,act_dep_time,empty,07:49 AM
-371,act_dep_time,empty,12:35 PM
-374,act_dep_time,empty,03:11 AM
-377,act_dep_time,empty,11:05 AM
-379,act_dep_time,empty,03:36 PM
-382,act_dep_time,empty,06:55 PM
-383,act_dep_time,empty,12:11 PM
-384,act_dep_time,empty,07:15 PM
-388,act_dep_time,empty,07:30 AM
-389,act_dep_time,empty,05:08 PM
-394,act_dep_time,empty,10:20 AM
-395,act_dep_time,empty,07:05 AM
-399,act_dep_time,empty,01:48 PM
-400,act_dep_time,empty,11:55 PM
-405,act_dep_time,empty,08:51 AM
-406,act_dep_time,empty,08:26 AM
-407,act_dep_time,empty,01:30 PM
-409,act_dep_time,empty,07:27 AM
-410,act_dep_time,empty,11:08 PM
-411,act_dep_time,empty,05:30 PM
-413,act_dep_time,empty,11:15 AM
-414,act_dep_time,empty,08:39 PM
-416,act_dep_time,empty,02:48 PM
-417,act_dep_time,empty,09:16 AM
-419,act_dep_time,empty,03:27 PM
-424,act_dep_time,empty,01:19 PM
-425,act_dep_time,empty,08:56 AM
-426,act_dep_time,empty,03:36 PM
-433,act_dep_time,empty,06:57 AM
-437,act_dep_time,empty,07:31 AM
-439,act_dep_time,empty,07:14 PM
-441,act_dep_time,empty,08:29 AM
-442,act_dep_time,empty,08:42 AM
-443,act_dep_time,empty,07:58 PM
-446,act_dep_time,empty,11:32 AM
-447,act_dep_time,empty,10:33 AM
-448,act_dep_time,empty,11:25 PM
-451,act_dep_time,empty,04:00 PM
-460,act_dep_time,empty,08:00 AM
-461,act_dep_time,empty,02:55 PM
-462,act_dep_time,empty,12:12 PM
-463,act_dep_time,empty,11:56 AM
-464,act_dep_time,empty,06:08 AM
-468,act_dep_time,empty,10:18 AM
-470,act_dep_time,empty,07:49 AM
-471,act_dep_time,empty,12:35 PM
-472,act_dep_time,empty,12:13 PM
-473,act_dep_time,empty,02:26 PM
-474,act_dep_time,empty,03:11 AM
-476,act_dep_time,empty,08:25 PM
-477,act_dep_time,empty,11:05 AM
-480,act_dep_time,empty,07:21 AM
-481,act_dep_time,empty,06:30 PM
-484,act_dep_time,empty,02:10 PM
-486,act_dep_time,empty,06:56 AM
-487,act_dep_time,empty,07:30 AM
-493,act_dep_time,empty,07:05 AM
-497,act_dep_time,empty,01:48 PM
-499,act_dep_time,empty,04:25 PM
-500,act_dep_time,empty,09:00 PM
-502,act_dep_time,empty,07:22 AM
-503,act_dep_time,empty,08:51 AM
-505,act_dep_time,empty,01:30 PM
-508,act_dep_time,empty,11:08 PM
-510,act_dep_time,empty,01:32 PM
-511,act_dep_time,empty,11:15 AM
-514,act_dep_time,empty,02:48 PM
-515,act_dep_time,empty,09:16 AM
-517,act_dep_time,empty,03:27 PM
-521,act_dep_time,empty,08:52 AM
-524,act_dep_time,empty,03:36 PM
-526,act_dep_time,empty,11:40 AM
-533,act_dep_time,empty,06:57 AM
-534,act_dep_time,empty,03:58 PM
-535,act_dep_time,empty,06:10 AM
-536,act_dep_time,empty,07:39 AM
-545,act_dep_time,empty,06:30 PM
-551,act_dep_time,empty,04:00 PM
-608,act_dep_time,empty,11:08 PM
-609,act_dep_time,empty,05:30 PM
-612,act_dep_time,empty,02:55 PM
-625,act_dep_time,empty,11:55 AM
-631,act_dep_time,empty,07:14 PM
-635,act_dep_time,empty,07:58 PM
-636,act_dep_time,empty,12:11 PM
-638,act_dep_time,empty,11:32 AM
-639,act_dep_time,empty,10:33 AM
-641,act_dep_time,empty,05:56 AM
-642,act_dep_time,empty,12:41 AM
-643,act_dep_time,empty,04:00 PM
-644,act_dep_time,empty,07:29 AM
-649,act_dep_time,empty,04:29 PM
-651,act_dep_time,empty,02:48 PM
-653,act_dep_time,empty,02:55 PM
-654,act_dep_time,empty,12:12 PM
-658,act_dep_time,empty,06:02 AM
-659,act_dep_time,empty,08:40 AM
-662,act_dep_time,empty,07:49 AM
-665,act_dep_time,empty,02:26 PM
-667,act_dep_time,empty,05:22 PM
-668,act_dep_time,empty,08:25 PM
-672,act_dep_time,empty,07:21 AM
-673,act_dep_time,empty,06:30 PM
-674,act_dep_time,empty,06:55 PM
-675,act_dep_time,empty,07:15 PM
-676,act_dep_time,empty,02:10 PM
-677,act_dep_time,empty,09:14 AM
-678,act_dep_time,empty,06:56 AM
-680,act_dep_time,empty,05:08 PM
-682,act_dep_time,empty,04:15 PM
-685,act_dep_time,empty,07:05 AM
-687,act_dep_time,empty,01:31 PM
-696,act_dep_time,empty,08:26 AM
-697,act_dep_time,empty,01:30 PM
-698,act_dep_time,empty,03:01 PM
-700,act_dep_time,empty,11:08 PM
-702,act_dep_time,empty,01:32 PM
-703,act_dep_time,empty,11:15 AM
-705,act_dep_time,empty,02:55 PM
-706,act_dep_time,empty,02:48 PM
-711,act_dep_time,empty,12:10 PM
-714,act_dep_time,empty,01:19 PM
-721,act_dep_time,empty,07:39 AM
-724,act_dep_time,empty,10:54 AM
-726,act_dep_time,empty,03:58 PM
-728,act_dep_time,empty,07:39 AM
-733,act_dep_time,empty,08:29 AM
-734,act_dep_time,empty,08:42 AM
-737,act_dep_time,empty,10:33 AM
-738,act_dep_time,empty,11:25 PM
-741,act_dep_time,empty,12:41 PM
-743,act_dep_time,empty,04:29 PM
-744,act_dep_time,empty,10:10 AM
-745,act_dep_time,empty,12:12 PM
-746,act_dep_time,empty,11:56 AM
-747,act_dep_time,empty,06:08 AM
-748,act_dep_time,empty,08:04 AM
-752,act_dep_time,empty,12:35 PM
-754,act_dep_time,empty,02:26 PM
-759,act_dep_time,empty,07:21 AM
-760,act_dep_time,empty,06:55 PM
-761,act_dep_time,empty,12:11 PM
-762,act_dep_time,empty,09:14 AM
-771,act_dep_time,empty,01:48 PM
-772,act_dep_time,empty,11:55 PM
-773,act_dep_time,empty,09:00 PM
-775,act_dep_time,empty,07:22 AM
-777,act_dep_time,empty,08:26 AM
-779,act_dep_time,empty,11:08 PM
-780,act_dep_time,empty,05:30 PM
-785,act_dep_time,empty,07:27 AM
-787,act_dep_time,empty,01:19 PM
-788,act_dep_time,empty,07:31 AM
-789,act_dep_time,empty,10:54 AM
-791,act_dep_time,empty,06:10 AM
-792,act_dep_time,empty,07:39 AM
-795,act_dep_time,empty,04:29 PM
-796,act_dep_time,empty,06:08 AM
-799,act_dep_time,empty,02:04 PM
-801,act_dep_time,empty,12:12 PM
-803,act_dep_time,empty,04:29 PM
-805,act_dep_time,empty,03:27 PM
-806,act_dep_time,empty,06:30 PM
-807,act_dep_time,empty,06:57 AM
-808,act_dep_time,empty,11:25 PM
-810,act_dep_time,empty,07:21 AM
-817,act_dep_time,empty,07:58 PM
-819,act_dep_time,empty,03:27 PM
-822,act_dep_time,empty,11:25 PM
-825,act_dep_time,empty,04:00 PM
-855,act_dep_time,empty,06:30 PM
-857,act_dep_time,empty,07:15 PM
-867,act_dep_time,empty,07:05 AM
-874,act_dep_time,empty,09:00 PM
-879,act_dep_time,empty,01:30 PM
-882,act_dep_time,empty,11:08 PM
-883,act_dep_time,empty,05:30 PM
-913,act_dep_time,empty,06:30 PM
-915,act_dep_time,empty,12:13 PM
-917,act_dep_time,empty,12:41 AM
-919,act_dep_time,empty,10:19 AM
-920,act_dep_time,empty,07:25 AM
-923,act_dep_time,empty,10:18 AM
-927,act_dep_time,empty,03:31 PM
-928,act_dep_time,empty,10:10 AM
-933,act_dep_time,empty,07:15 PM
-934,act_dep_time,empty,09:14 AM
-935,act_dep_time,empty,04:28 PM
-936,act_dep_time,empty,04:15 PM
-937,act_dep_time,empty,08:23 PM
-938,act_dep_time,empty,10:20 AM
-939,act_dep_time,empty,07:05 AM
-941,act_dep_time,empty,01:31 PM
-953,act_dep_time,empty,09:16 AM
-954,act_dep_time,empty,08:00 AM
-955,act_dep_time,empty,07:22 AM
-957,act_dep_time,empty,07:27 AM
-959,act_dep_time,empty,08:04 AM
-961,act_dep_time,empty,07:49 AM
-962,act_dep_time,empty,03:36 PM
-964,act_dep_time,empty,04:12 PM
-968,act_dep_time,empty,07:39 AM
-969,act_dep_time,empty,07:31 AM
-972,act_dep_time,empty,07:30 AM
-976,act_dep_time,empty,08:42 AM
-977,act_dep_time,empty,01:31 PM
-991,act_dep_time,empty,06:54 AM
-993,act_dep_time,empty,08:42 AM
-994,act_dep_time,empty,07:58 PM
-997,act_dep_time,empty,03:27 PM
-1002,act_dep_time,empty,04:00 PM
-1003,act_dep_time,empty,07:25 AM
-1004,act_dep_time,empty,08:12 AM
-1005,act_dep_time,empty,04:29 PM
-1007,act_dep_time,empty,12:12 PM
-1013,act_dep_time,empty,08:04 AM
-1015,act_dep_time,empty,08:04 AM
-1016,act_dep_time,empty,02:04 PM
-1018,act_dep_time,empty,12:13 PM
-1020,act_dep_time,empty,07:39 AM
-1022,act_dep_time,empty,11:05 AM
-1023,act_dep_time,empty,07:21 AM
-1027,act_dep_time,empty,02:10 PM
-1030,act_dep_time,empty,07:30 AM
-1033,act_dep_time,empty,07:05 AM
-1037,act_dep_time,empty,04:25 PM
-1038,act_dep_time,empty,09:00 PM
-1040,act_dep_time,empty,07:22 AM
-1043,act_dep_time,empty,08:26 AM
-1044,act_dep_time,empty,01:30 PM
-1047,act_dep_time,empty,01:32 PM
-1048,act_dep_time,empty,11:15 AM
-1052,act_dep_time,empty,02:44 PM
-1055,act_dep_time,empty,02:55 PM
-1056,act_dep_time,empty,12:10 PM
-1058,act_dep_time,empty,01:19 PM
-1059,act_dep_time,empty,07:49 AM
-1060,act_dep_time,empty,08:56 AM
-1061,act_dep_time,empty,03:36 PM
-1062,act_dep_time,empty,04:12 PM
-1065,act_dep_time,empty,10:54 AM
-1067,act_dep_time,empty,06:57 AM
-1069,act_dep_time,empty,06:10 AM
-1072,act_dep_time,empty,07:14 PM
-1075,act_dep_time,empty,08:42 AM
-1076,act_dep_time,empty,07:58 PM
-1077,act_dep_time,empty,12:11 PM
-1079,act_dep_time,empty,11:32 AM
-1084,act_dep_time,empty,04:00 PM
-1085,act_dep_time,empty,07:29 AM
-1086,act_dep_time,empty,10:19 AM
-1087,act_dep_time,empty,10:10 AM
-1090,act_dep_time,empty,04:29 PM
-1092,act_dep_time,empty,02:48 PM
-1093,act_dep_time,empty,08:00 AM
-1096,act_dep_time,empty,11:56 AM
-1101,act_dep_time,empty,10:18 AM
-1106,act_dep_time,empty,02:26 PM
-1108,act_dep_time,empty,05:22 PM
-1111,act_dep_time,empty,01:32 PM
-1119,act_dep_time,empty,06:56 AM
-1121,act_dep_time,empty,05:08 PM
-1122,act_dep_time,empty,04:28 PM
-1126,act_dep_time,empty,07:05 AM
-1127,act_dep_time,empty,11:01 AM
-1129,act_dep_time,empty,12:41 PM
-1130,act_dep_time,empty,01:48 PM
-1131,act_dep_time,empty,11:55 PM
-1132,act_dep_time,empty,04:25 PM
-1133,act_dep_time,empty,09:00 PM
-1134,act_dep_time,empty,08:25 PM
-1137,act_dep_time,empty,08:26 AM
-1138,act_dep_time,empty,01:30 PM
-1139,act_dep_time,empty,03:01 PM
-1140,act_dep_time,empty,07:27 AM
-1142,act_dep_time,empty,05:30 PM
-1144,act_dep_time,empty,11:15 AM
-1146,act_dep_time,empty,02:55 PM
-1147,act_dep_time,empty,02:48 PM
-1150,act_dep_time,empty,03:27 PM
-1151,act_dep_time,empty,07:22 AM
-1152,act_dep_time,empty,12:10 PM
-1154,act_dep_time,empty,08:52 AM
-1157,act_dep_time,empty,03:36 PM
-1162,act_dep_time,empty,07:39 AM
-1167,act_dep_time,empty,03:58 PM
-1170,act_dep_time,empty,07:31 AM
-1171,act_dep_time,empty,07:16 AM
-1173,act_dep_time,empty,07:14 PM
-1177,act_dep_time,empty,08:12 AM
-1179,act_dep_time,empty,04:29 PM
-1181,act_dep_time,empty,06:08 AM
-1183,act_dep_time,empty,10:55 AM
-1184,act_dep_time,empty,10:18 AM
-1186,act_dep_time,empty,12:41 PM
-1187,act_dep_time,empty,12:35 PM
-1190,act_dep_time,empty,01:32 PM
-1192,act_dep_time,empty,06:55 PM
-1194,act_dep_time,empty,02:10 PM
-1197,act_dep_time,empty,10:20 AM
-1199,act_dep_time,empty,01:31 PM
-1203,act_dep_time,empty,03:01 PM
-1204,act_dep_time,empty,07:27 AM
-1209,act_dep_time,empty,09:16 AM
-1211,act_dep_time,empty,07:22 AM
-1212,act_dep_time,empty,04:25 PM
-1213,act_dep_time,empty,12:10 PM
-1218,act_dep_time,empty,03:36 PM
-1220,act_dep_time,empty,11:40 AM
-1221,act_dep_time,empty,04:12 PM
-1222,act_dep_time,empty,06:10 AM
-1225,act_dep_time,empty,07:14 PM
-1227,act_dep_time,empty,08:29 AM
-1228,act_dep_time,empty,08:42 AM
-1230,act_dep_time,empty,03:27 PM
-1232,act_dep_time,empty,11:40 AM
-1233,act_dep_time,empty,10:33 AM
-1235,act_dep_time,empty,05:56 AM
-1236,act_dep_time,empty,12:41 AM
-1237,act_dep_time,empty,04:00 PM
-1238,act_dep_time,empty,07:29 AM
-1244,act_dep_time,empty,10:55 AM
-1248,act_dep_time,empty,12:12 PM
-1249,act_dep_time,empty,11:56 AM
-1250,act_dep_time,empty,06:08 AM
-1253,act_dep_time,empty,08:40 AM
-1254,act_dep_time,empty,10:18 AM
-1255,act_dep_time,empty,02:04 PM
-1258,act_dep_time,empty,12:13 PM
-1264,act_dep_time,empty,01:32 PM
-1266,act_dep_time,empty,07:21 AM
-1267,act_dep_time,empty,06:30 PM
-1270,act_dep_time,empty,07:15 PM
-1273,act_dep_time,empty,06:56 AM
-1275,act_dep_time,empty,05:08 PM
-1280,act_dep_time,empty,10:20 AM
-1282,act_dep_time,empty,11:01 AM
-1284,act_dep_time,empty,12:41 PM
-1287,act_dep_time,empty,04:25 PM
-1289,act_dep_time,empty,08:25 PM
-1290,act_dep_time,empty,07:22 AM
-1292,act_dep_time,empty,08:26 AM
-1293,act_dep_time,empty,01:30 PM
-1296,act_dep_time,empty,11:08 PM
-1297,act_dep_time,empty,05:30 PM
-1302,act_dep_time,empty,02:48 PM
-1309,act_dep_time,empty,08:52 AM
-1310,act_dep_time,empty,01:19 PM
-1320,act_dep_time,empty,03:58 PM
-1321,act_dep_time,empty,06:10 AM
-1322,act_dep_time,empty,07:39 AM
-1324,act_dep_time,empty,07:16 AM
-1327,act_dep_time,empty,08:29 AM
-1330,act_dep_time,empty,12:11 PM
-1331,act_dep_time,empty,03:27 PM
-1332,act_dep_time,empty,11:32 AM
-1334,act_dep_time,empty,11:25 PM
-1336,act_dep_time,empty,12:41 AM
-1337,act_dep_time,empty,04:00 PM
-1339,act_dep_time,empty,10:19 AM
-1341,act_dep_time,empty,08:12 AM
-1343,act_dep_time,empty,04:29 PM
-1349,act_dep_time,empty,11:56 AM
-1350,act_dep_time,empty,06:08 AM
-1351,act_dep_time,empty,11:30 AM
-1360,act_dep_time,empty,03:11 AM
-1363,act_dep_time,empty,11:05 AM
-1367,act_dep_time,empty,06:30 PM
-1369,act_dep_time,empty,07:15 PM
-1370,act_dep_time,empty,02:10 PM
-1371,act_dep_time,empty,09:14 AM
-1372,act_dep_time,empty,06:56 AM
-1377,act_dep_time,empty,08:23 PM
-1380,act_dep_time,empty,11:01 AM
-1384,act_dep_time,empty,11:55 PM
-1387,act_dep_time,empty,08:25 PM
-1388,act_dep_time,empty,07:22 AM
-1389,act_dep_time,empty,08:51 AM
-1394,act_dep_time,empty,05:30 PM
-1397,act_dep_time,empty,08:39 PM
-1401,act_dep_time,empty,02:44 PM
-1402,act_dep_time,empty,03:27 PM
-1403,act_dep_time,empty,07:22 AM
-1404,act_dep_time,empty,12:10 PM
-1405,act_dep_time,empty,08:04 AM
-1406,act_dep_time,empty,08:52 AM
-1407,act_dep_time,empty,01:19 PM
-1408,act_dep_time,empty,08:56 AM
-1412,act_dep_time,empty,04:12 PM
-1413,act_dep_time,empty,11:52 AM
-1416,act_dep_time,empty,11:55 AM
-1418,act_dep_time,empty,06:57 AM
-1421,act_dep_time,empty,07:39 AM
-1423,act_dep_time,empty,12:12 PM
-1424,act_dep_time,empty,08:26 AM
-1460,act_dep_time,empty,04:25 PM
-1462,act_dep_time,empty,09:00 PM
-1468,act_dep_time,empty,02:55 PM
-1482,act_dep_time,empty,08:29 AM
-1483,act_dep_time,empty,03:36 PM
-1487,act_dep_time,empty,05:56 AM
-1491,act_dep_time,empty,08:29 AM
-1492,act_dep_time,empty,08:42 AM
-1496,act_dep_time,empty,11:40 AM
-1497,act_dep_time,empty,10:33 AM
-1499,act_dep_time,empty,05:56 AM
-1500,act_dep_time,empty,12:41 AM
-1502,act_dep_time,empty,07:29 AM
-1503,act_dep_time,empty,10:19 AM
-1505,act_dep_time,empty,08:12 AM
-1508,act_dep_time,empty,10:55 AM
-1511,act_dep_time,empty,02:55 PM
-1512,act_dep_time,empty,12:12 PM
-1514,act_dep_time,empty,06:08 AM
-1517,act_dep_time,empty,08:40 AM
-1518,act_dep_time,empty,10:18 AM
-1522,act_dep_time,empty,12:13 PM
-1523,act_dep_time,empty,02:26 PM
-1524,act_dep_time,empty,03:11 AM
-1525,act_dep_time,empty,05:22 PM
-1526,act_dep_time,empty,08:25 PM
-1529,act_dep_time,empty,03:36 PM
-1532,act_dep_time,empty,06:55 PM
-1533,act_dep_time,empty,12:11 PM
-1536,act_dep_time,empty,09:14 AM
-1539,act_dep_time,empty,05:08 PM
-1544,act_dep_time,empty,10:20 AM
-1545,act_dep_time,empty,07:05 AM
-1548,act_dep_time,empty,12:41 PM
-1549,act_dep_time,empty,01:48 PM
-1550,act_dep_time,empty,11:55 PM
-1552,act_dep_time,empty,09:00 PM
-1553,act_dep_time,empty,08:25 PM
-1554,act_dep_time,empty,07:22 AM
-1555,act_dep_time,empty,08:51 AM
-1556,act_dep_time,empty,08:26 AM
-1557,act_dep_time,empty,01:30 PM
-1558,act_dep_time,empty,03:01 PM
-1561,act_dep_time,empty,05:30 PM
-1563,act_dep_time,empty,11:15 AM
-1564,act_dep_time,empty,08:39 PM
-1566,act_dep_time,empty,02:48 PM
-1590,act_dep_time,empty,08:42 AM
-1593,act_dep_time,empty,10:33 AM
-1594,act_dep_time,empty,11:25 PM
-1595,act_dep_time,empty,12:41 AM
-1596,act_dep_time,empty,04:00 PM
-1597,act_dep_time,empty,10:19 AM
-1598,act_dep_time,empty,07:25 AM
-1600,act_dep_time,empty,11:56 AM
-1601,act_dep_time,empty,06:08 AM
-1602,act_dep_time,empty,11:30 AM
-1603,act_dep_time,empty,10:18 AM
-1610,act_dep_time,empty,11:52 AM
-1611,act_dep_time,empty,06:56 AM
-1612,act_dep_time,empty,07:30 AM
-1613,act_dep_time,empty,05:08 PM
-1614,act_dep_time,empty,07:39 AM
-1616,act_dep_time,empty,07:05 AM
-1619,act_dep_time,empty,09:00 PM
-1622,act_dep_time,empty,08:51 AM
-1624,act_dep_time,empty,01:30 PM
-1629,act_dep_time,empty,07:27 AM
-1633,act_dep_time,empty,08:56 AM
-1635,act_dep_time,empty,04:12 PM
-1638,act_dep_time,empty,07:16 AM
-1639,act_dep_time,empty,06:56 AM
-1640,act_dep_time,empty,07:30 AM
-1642,act_dep_time,empty,07:22 AM
-1643,act_dep_time,empty,08:23 PM
-1648,act_dep_time,empty,01:31 PM
-1651,act_dep_time,empty,11:55 PM
-1654,act_dep_time,empty,07:58 PM
-1655,act_dep_time,empty,10:54 AM
-1657,act_dep_time,empty,11:05 AM
-1658,act_dep_time,empty,01:32 PM
-1661,act_dep_time,empty,02:10 PM
-1664,act_dep_time,empty,07:14 PM
-1665,act_dep_time,empty,08:42 AM
-1666,act_dep_time,empty,07:58 PM
-1676,act_dep_time,empty,11:30 AM
-1678,act_dep_time,empty,10:18 AM
-1684,act_dep_time,empty,02:26 PM
-1685,act_dep_time,empty,03:11 AM
-1688,act_dep_time,empty,08:25 PM
-1694,act_dep_time,empty,06:55 PM
-1695,act_dep_time,empty,12:11 PM
-1699,act_dep_time,empty,07:30 AM
-1706,act_dep_time,empty,04:25 PM
-1708,act_dep_time,empty,08:25 PM
-1711,act_dep_time,empty,01:30 PM
-1714,act_dep_time,empty,08:39 PM
-1722,act_dep_time,empty,07:31 AM
-1724,act_dep_time,empty,10:54 AM
-1738,act_dep_time,empty,01:32 PM
-1744,act_dep_time,empty,01:48 PM
-1772,act_dep_time,empty,04:00 PM
-1782,act_dep_time,empty,02:55 PM
-1795,act_dep_time,empty,03:11 AM
-1802,act_dep_time,empty,06:30 PM
-1804,act_dep_time,empty,07:15 PM
-1819,act_dep_time,empty,11:55 PM
-1822,act_dep_time,empty,08:25 PM
-1826,act_dep_time,empty,01:30 PM
-1866,act_dep_time,empty,06:30 PM
-1869,act_dep_time,empty,11:25 PM
-1872,act_dep_time,empty,04:00 PM
-1894,act_dep_time,empty,03:11 AM
-1904,act_dep_time,empty,07:15 PM
-1920,act_dep_time,empty,04:25 PM
-1921,act_dep_time,empty,09:00 PM
-1922,act_dep_time,empty,08:25 PM
-1930,act_dep_time,empty,05:30 PM
-1956,act_dep_time,empty,07:58 PM
-1957,act_dep_time,empty,12:11 PM
-1958,act_dep_time,empty,03:27 PM
-1959,act_dep_time,empty,11:32 AM
-1960,act_dep_time,empty,10:33 AM
-1961,act_dep_time,empty,11:25 PM
-1963,act_dep_time,empty,12:41 AM
-1964,act_dep_time,empty,04:00 PM
-1966,act_dep_time,empty,10:19 AM
-1968,act_dep_time,empty,08:12 AM
-1970,act_dep_time,empty,04:29 PM
-1972,act_dep_time,empty,02:48 PM
-1973,act_dep_time,empty,08:00 AM
-1974,act_dep_time,empty,02:55 PM
-1975,act_dep_time,empty,12:12 PM
-1977,act_dep_time,empty,06:08 AM
-1981,act_dep_time,empty,10:18 AM
-1987,act_dep_time,empty,03:11 AM
-1988,act_dep_time,empty,05:22 PM
-1989,act_dep_time,empty,08:25 PM
-1993,act_dep_time,empty,07:21 AM
-1994,act_dep_time,empty,06:30 PM
-1996,act_dep_time,empty,07:15 PM
-1997,act_dep_time,empty,02:10 PM
-1999,act_dep_time,empty,06:56 AM
-2001,act_dep_time,empty,05:08 PM
-2002,act_dep_time,empty,04:28 PM
-2005,act_dep_time,empty,10:20 AM
-2006,act_dep_time,empty,07:05 AM
-2007,act_dep_time,empty,11:01 AM
-2009,act_dep_time,empty,12:41 PM
-2010,act_dep_time,empty,01:48 PM
-2011,act_dep_time,empty,11:55 PM
-2013,act_dep_time,empty,09:00 PM
-2014,act_dep_time,empty,08:25 PM
-2023,act_dep_time,empty,01:32 PM
-2024,act_dep_time,empty,11:15 AM
-2026,act_dep_time,empty,02:55 PM
-2027,act_dep_time,empty,02:48 PM
-2028,act_dep_time,empty,09:16 AM
-2030,act_dep_time,empty,03:27 PM
-2034,act_dep_time,empty,08:52 AM
-2045,act_dep_time,empty,10:54 AM
-2046,act_dep_time,empty,06:57 AM
-2048,act_dep_time,empty,06:10 AM
-2056,act_dep_time,empty,07:58 PM
-2061,act_dep_time,empty,11:25 PM
-2064,act_dep_time,empty,04:00 PM
-2074,act_dep_time,empty,02:55 PM
-2087,act_dep_time,empty,03:11 AM
-2096,act_dep_time,empty,07:15 PM
-2106,act_dep_time,empty,07:05 AM
-2111,act_dep_time,empty,11:55 PM
-2113,act_dep_time,empty,09:00 PM
-2121,act_dep_time,empty,11:08 PM
-2122,act_dep_time,empty,05:30 PM
-2151,act_dep_time,empty,11:32 AM
-2152,act_dep_time,empty,11:56 AM
-2153,act_dep_time,empty,09:00 PM
-2154,act_dep_time,empty,04:15 PM
-2157,act_dep_time,empty,07:14 PM
-2159,act_dep_time,empty,08:29 AM
-2162,act_dep_time,empty,12:11 PM
-2163,act_dep_time,empty,03:27 PM
-2165,act_dep_time,empty,10:33 AM
-2169,act_dep_time,empty,04:00 PM
-2170,act_dep_time,empty,07:29 AM
-2171,act_dep_time,empty,10:19 AM
-2172,act_dep_time,empty,10:10 AM
-2173,act_dep_time,empty,08:12 AM
-2177,act_dep_time,empty,02:48 PM
-2178,act_dep_time,empty,08:00 AM
-2179,act_dep_time,empty,02:55 PM
-2180,act_dep_time,empty,12:12 PM
-2181,act_dep_time,empty,11:56 AM
-2184,act_dep_time,empty,06:02 AM
-2185,act_dep_time,empty,08:40 AM
-2193,act_dep_time,empty,05:22 PM
-2194,act_dep_time,empty,08:25 PM
-2196,act_dep_time,empty,01:32 PM
-2199,act_dep_time,empty,06:30 PM
-2203,act_dep_time,empty,09:14 AM
-2207,act_dep_time,empty,04:28 PM
-2208,act_dep_time,empty,04:15 PM
-2211,act_dep_time,empty,07:05 AM
-2213,act_dep_time,empty,01:31 PM
-2215,act_dep_time,empty,01:48 PM
-2218,act_dep_time,empty,09:00 PM
-2219,act_dep_time,empty,08:25 PM
-2220,act_dep_time,empty,07:22 AM
-2221,act_dep_time,empty,08:51 AM
-2223,act_dep_time,empty,01:30 PM
-2224,act_dep_time,empty,03:01 PM
-2227,act_dep_time,empty,05:30 PM
-2230,act_dep_time,empty,08:39 PM
-2232,act_dep_time,empty,02:48 PM
-2236,act_dep_time,empty,07:22 AM
-2237,act_dep_time,empty,12:10 PM
-2239,act_dep_time,empty,08:52 AM
-2242,act_dep_time,empty,03:36 PM
-2244,act_dep_time,empty,11:40 AM
-2255,act_dep_time,empty,07:31 AM
-2262,act_dep_time,empty,04:00 PM
-2267,act_dep_time,empty,12:12 PM
-2268,act_dep_time,empty,11:56 AM
-2271,act_dep_time,empty,08:04 AM
-2272,act_dep_time,empty,10:18 AM
-2278,act_dep_time,empty,02:26 PM
-2279,act_dep_time,empty,03:11 AM
-2282,act_dep_time,empty,08:25 PM
-2287,act_dep_time,empty,06:30 PM
-2289,act_dep_time,empty,12:11 PM
-2295,act_dep_time,empty,04:28 PM
-2301,act_dep_time,empty,09:00 PM
-2305,act_dep_time,empty,01:30 PM
-2318,act_dep_time,empty,10:54 AM
-2319,act_dep_time,empty,03:58 PM
-2326,act_dep_time,empty,06:30 PM
-2330,act_dep_time,empty,04:00 PM
-2343,act_dep_time,empty,03:11 AM
-2357,act_dep_time,empty,04:25 PM
-2358,act_dep_time,empty,09:00 PM
-2363,act_dep_time,empty,01:30 PM
-32,sched_arr_time,empty,05:50 AM
-33,sched_arr_time,empty,12:15 AM
-51,sched_arr_time,empty,09:40 AM
-53,sched_arr_time,empty,09:25 AM
-67,sched_arr_time,empty,12:35 PM
-70,sched_arr_time,empty,07:55 PM
-71,sched_arr_time,empty,02:20 PM
-74,sched_arr_time,empty,05:00 PM
-75,sched_arr_time,empty,03:50 PM
-81,sched_arr_time,empty,12:10 PM
-82,sched_arr_time,empty,02:35 PM
-83,sched_arr_time,empty,01:39 PM
-85,sched_arr_time,empty,02:00 PM
-86,sched_arr_time,empty,06:15 PM
-90,sched_arr_time,empty,02:45 PM
-91,sched_arr_time,empty,05:15 PM
-95,sched_arr_time,empty,09:10 PM
-96,sched_arr_time,empty,03:15 PM
-106,sched_arr_time,empty,09:45 PM
-108,sched_arr_time,empty,10:31 AM
-111,sched_arr_time,empty,02:45 PM
-113,sched_arr_time,empty,05:50 AM
-122,sched_arr_time,empty,09:43 AM
-123,sched_arr_time,empty,05:11 AM
-126,sched_arr_time,empty,01:40 PM
-127,sched_arr_time,empty,09:20 PM
-137,sched_arr_time,empty,02:35 PM
-138,sched_arr_time,empty,10:40 AM
-139,sched_arr_time,empty,06:30 PM
-141,sched_arr_time,empty,06:40 PM
-144,sched_arr_time,empty,06:17 PM
-145,sched_arr_time,empty,12:55 PM
-146,sched_arr_time,empty,07:45 AM
-149,sched_arr_time,empty,10:45 AM
-150,sched_arr_time,empty,03:30 PM
-152,sched_arr_time,empty,10:15 PM
-155,sched_arr_time,empty,09:54 AM
-161,sched_arr_time,empty,06:55 AM
-162,sched_arr_time,empty,07:23 AM
-166,sched_arr_time,empty,01:16 PM
-172,sched_arr_time,empty,07:03 PM
-173,sched_arr_time,empty,11:35 AM
-174,sched_arr_time,empty,05:00 PM
-176,sched_arr_time,empty,01:17 PM
-180,sched_arr_time,empty,10:54 AM
-183,sched_arr_time,empty,01:39 PM
-188,sched_arr_time,empty,08:22 PM
-189,sched_arr_time,empty,08:56 PM
-192,sched_arr_time,empty,04:00 PM
-196,sched_arr_time,empty,12:21 AM
-197,sched_arr_time,empty,07:53 PM
-205,sched_arr_time,empty,06:44 PM
-210,sched_arr_time,empty,04:17 PM
-211,sched_arr_time,empty,05:50 AM
-213,sched_arr_time,empty,12:15 AM
-217,sched_arr_time,empty,09:24 AM
-219,sched_arr_time,empty,04:48 PM
-220,sched_arr_time,empty,09:43 AM
-221,sched_arr_time,empty,05:11 AM
-222,sched_arr_time,empty,06:40 PM
-223,sched_arr_time,empty,08:27 AM
-224,sched_arr_time,empty,01:40 PM
-226,sched_arr_time,empty,04:53 PM
-227,sched_arr_time,empty,07:03 PM
-228,sched_arr_time,empty,11:45 AM
-236,sched_arr_time,empty,10:40 AM
-340,sched_arr_time,empty,09:25 AM
-343,sched_arr_time,empty,10:30 PM
-346,sched_arr_time,empty,05:25 PM
-349,sched_arr_time,empty,07:23 AM
-351,sched_arr_time,empty,06:46 PM
-355,sched_arr_time,empty,10:06 AM
-357,sched_arr_time,empty,07:55 PM
-358,sched_arr_time,empty,02:20 PM
-361,sched_arr_time,empty,05:00 PM
-362,sched_arr_time,empty,03:50 PM
-364,sched_arr_time,empty,09:20 AM
-368,sched_arr_time,empty,12:10 PM
-372,sched_arr_time,empty,02:00 PM
-373,sched_arr_time,empty,06:15 PM
-374,sched_arr_time,empty,01:45 PM
-378,sched_arr_time,empty,05:15 PM
-380,sched_arr_time,empty,10:35 AM
-382,sched_arr_time,empty,09:10 PM
-387,sched_arr_time,empty,07:30 AM
-388,sched_arr_time,empty,09:35 AM
-389,sched_arr_time,empty,08:05 PM
-391,sched_arr_time,empty,06:23 PM
-395,sched_arr_time,empty,10:31 AM
-396,sched_arr_time,empty,02:59 PM
-400,sched_arr_time,empty,05:50 AM
-401,sched_arr_time,empty,12:29 AM
-402,sched_arr_time,empty,12:15 AM
-403,sched_arr_time,empty,11:50 PM
-406,sched_arr_time,empty,09:24 AM
-407,sched_arr_time,empty,03:50 PM
-411,sched_arr_time,empty,06:40 PM
-413,sched_arr_time,empty,01:40 PM
-419,sched_arr_time,empty,05:55 PM
-420,sched_arr_time,empty,11:35 AM
-421,sched_arr_time,empty,02:15 PM
-425,sched_arr_time,empty,10:40 AM
-428,sched_arr_time,empty,06:40 PM
-429,sched_arr_time,empty,02:25 PM
-432,sched_arr_time,empty,12:55 PM
-436,sched_arr_time,empty,10:45 AM
-437,sched_arr_time,empty,03:30 PM
-439,sched_arr_time,empty,10:15 PM
-442,sched_arr_time,empty,09:54 AM
-446,sched_arr_time,empty,02:50 PM
-452,sched_arr_time,empty,09:21 AM
-453,sched_arr_time,empty,01:16 PM
-460,sched_arr_time,empty,11:35 AM
-470,sched_arr_time,empty,01:39 PM
-472,sched_arr_time,empty,02:00 PM
-475,sched_arr_time,empty,08:22 PM
-488,sched_arr_time,empty,08:05 PM
-490,sched_arr_time,empty,07:35 PM
-493,sched_arr_time,empty,10:31 AM
-506,sched_arr_time,empty,04:48 PM
-507,sched_arr_time,empty,09:43 AM
-512,sched_arr_time,empty,09:20 PM
-513,sched_arr_time,empty,04:53 PM
-514,sched_arr_time,empty,07:03 PM
-523,sched_arr_time,empty,10:40 AM
-526,sched_arr_time,empty,05:25 PM
-638,sched_arr_time,empty,02:50 PM
-639,sched_arr_time,empty,11:19 AM
-641,sched_arr_time,empty,07:23 AM
-642,sched_arr_time,empty,05:35 AM
-647,sched_arr_time,empty,10:06 AM
-650,sched_arr_time,empty,02:20 PM
-652,sched_arr_time,empty,11:35 AM
-653,sched_arr_time,empty,05:00 PM
-658,sched_arr_time,empty,10:20 AM
-659,sched_arr_time,empty,10:54 AM
-662,sched_arr_time,empty,01:39 PM
-664,sched_arr_time,empty,02:00 PM
-675,sched_arr_time,empty,12:21 AM
-682,sched_arr_time,empty,07:35 PM
-685,sched_arr_time,empty,10:31 AM
-689,sched_arr_time,empty,04:17 PM
-690,sched_arr_time,empty,05:50 AM
-691,sched_arr_time,empty,12:29 AM
-692,sched_arr_time,empty,12:15 AM
-700,sched_arr_time,empty,05:11 AM
-703,sched_arr_time,empty,01:40 PM
-704,sched_arr_time,empty,09:20 PM
-713,sched_arr_time,empty,11:53 AM
-715,sched_arr_time,empty,10:40 AM
-718,sched_arr_time,empty,05:25 PM
-730,sched_arr_time,empty,09:40 AM
-731,sched_arr_time,empty,10:30 PM
-732,sched_arr_time,empty,10:15 PM
-733,sched_arr_time,empty,11:55 AM
-736,sched_arr_time,empty,05:25 PM
-737,sched_arr_time,empty,11:19 AM
-738,sched_arr_time,empty,06:55 AM
-740,sched_arr_time,empty,05:35 AM
-741,sched_arr_time,empty,02:45 PM
-751,sched_arr_time,empty,02:35 PM
-752,sched_arr_time,empty,03:19 PM
-755,sched_arr_time,empty,02:25 PM
-757,sched_arr_time,empty,05:15 PM
-759,sched_arr_time,empty,10:35 AM
-762,sched_arr_time,empty,12:18 PM
-763,sched_arr_time,empty,07:30 AM
-764,sched_arr_time,empty,09:35 AM
-765,sched_arr_time,empty,08:05 PM
-766,sched_arr_time,empty,11:10 AM
-770,sched_arr_time,empty,04:31 PM
-771,sched_arr_time,empty,04:17 PM
-772,sched_arr_time,empty,05:50 AM
-773,sched_arr_time,empty,12:15 AM
-775,sched_arr_time,empty,10:34 AM
-777,sched_arr_time,empty,09:24 AM
-781,sched_arr_time,empty,11:35 AM
-783,sched_arr_time,empty,11:35 AM
-786,sched_arr_time,empty,02:15 PM
-790,sched_arr_time,empty,07:45 AM
-791,sched_arr_time,empty,06:40 AM
-794,sched_arr_time,empty,10:34 AM
-795,sched_arr_time,empty,07:55 PM
-797,sched_arr_time,empty,11:10 AM
-801,sched_arr_time,empty,03:50 PM
-804,sched_arr_time,empty,10:15 PM
-805,sched_arr_time,empty,05:55 PM
-806,sched_arr_time,empty,07:25 PM
-808,sched_arr_time,empty,06:55 AM
-810,sched_arr_time,empty,10:35 AM
-811,sched_arr_time,empty,12:18 PM
-813,sched_arr_time,empty,10:15 PM
-816,sched_arr_time,empty,09:54 AM
-827,sched_arr_time,empty,01:16 PM
-835,sched_arr_time,empty,05:00 PM
-837,sched_arr_time,empty,01:17 PM
-852,sched_arr_time,empty,05:15 PM
-857,sched_arr_time,empty,12:21 AM
-862,sched_arr_time,empty,08:05 PM
-864,sched_arr_time,empty,07:35 PM
-867,sched_arr_time,empty,10:31 AM
-868,sched_arr_time,empty,02:59 PM
-871,sched_arr_time,empty,04:17 PM
-880,sched_arr_time,empty,04:48 PM
-881,sched_arr_time,empty,09:43 AM
-884,sched_arr_time,empty,08:27 AM
-886,sched_arr_time,empty,09:20 PM
-887,sched_arr_time,empty,04:53 PM
-889,sched_arr_time,empty,11:45 AM
-897,sched_arr_time,empty,10:40 AM
-927,sched_arr_time,empty,04:49 PM
-936,sched_arr_time,empty,07:35 PM
-954,sched_arr_time,empty,11:35 AM
-961,sched_arr_time,empty,01:39 PM
-965,sched_arr_time,empty,10:54 AM
-970,sched_arr_time,empty,09:40 AM
-971,sched_arr_time,empty,07:30 AM
-973,sched_arr_time,empty,07:25 PM
-974,sched_arr_time,empty,11:10 AM
-975,sched_arr_time,empty,04:57 PM
-977,sched_arr_time,empty,04:31 PM
-981,sched_arr_time,empty,08:22 PM
-985,sched_arr_time,empty,04:00 PM
-986,sched_arr_time,empty,06:40 AM
-987,sched_arr_time,empty,10:45 AM
-992,sched_arr_time,empty,11:55 AM
-999,sched_arr_time,empty,06:55 AM
-1004,sched_arr_time,empty,10:06 AM
-1026,sched_arr_time,empty,12:21 AM
-1035,sched_arr_time,empty,04:31 PM
-1036,sched_arr_time,empty,05:50 AM
-1038,sched_arr_time,empty,12:15 AM
-1042,sched_arr_time,empty,06:15 PM
-1046,sched_arr_time,empty,09:43 AM
-1075,sched_arr_time,empty,09:54 AM
-1082,sched_arr_time,empty,07:23 AM
-1086,sched_arr_time,empty,01:16 PM
-1088,sched_arr_time,empty,10:06 AM
-1091,sched_arr_time,empty,02:20 PM
-1093,sched_arr_time,empty,11:35 AM
-1094,sched_arr_time,empty,05:00 PM
-1099,sched_arr_time,empty,10:20 AM
-1100,sched_arr_time,empty,10:54 AM
-1103,sched_arr_time,empty,01:39 PM
-1104,sched_arr_time,empty,03:19 PM
-1109,sched_arr_time,empty,08:56 PM
-1117,sched_arr_time,empty,07:53 PM
-1121,sched_arr_time,empty,08:05 PM
-1130,sched_arr_time,empty,04:17 PM
-1131,sched_arr_time,empty,05:50 AM
-1132,sched_arr_time,empty,12:29 AM
-1133,sched_arr_time,empty,12:15 AM
-1139,sched_arr_time,empty,04:48 PM
-1143,sched_arr_time,empty,08:27 AM
-1144,sched_arr_time,empty,01:40 PM
-1146,sched_arr_time,empty,04:53 PM
-1147,sched_arr_time,empty,07:03 PM
-1148,sched_arr_time,empty,11:45 AM
-1154,sched_arr_time,empty,11:53 AM
-1156,sched_arr_time,empty,10:40 AM
-1159,sched_arr_time,empty,05:25 PM
-1173,sched_arr_time,empty,10:15 PM
-1177,sched_arr_time,empty,10:06 AM
-1187,sched_arr_time,empty,03:19 PM
-1190,sched_arr_time,empty,05:15 PM
-1193,sched_arr_time,empty,12:21 AM
-1194,sched_arr_time,empty,07:53 PM
-1203,sched_arr_time,empty,04:48 PM
-1208,sched_arr_time,empty,04:53 PM
-1209,sched_arr_time,empty,11:45 AM
-1212,sched_arr_time,empty,12:29 AM
-1226,sched_arr_time,empty,09:25 AM
-1227,sched_arr_time,empty,11:55 AM
-1230,sched_arr_time,empty,05:05 PM
-1234,sched_arr_time,empty,06:55 AM
-1237,sched_arr_time,empty,06:46 PM
-1240,sched_arr_time,empty,12:35 PM
-1242,sched_arr_time,empty,09:55 AM
-1243,sched_arr_time,empty,07:55 PM
-1247,sched_arr_time,empty,05:00 PM
-1250,sched_arr_time,empty,09:20 AM
-1251,sched_arr_time,empty,04:57 PM
-1255,sched_arr_time,empty,02:35 PM
-1256,sched_arr_time,empty,01:39 PM
-1258,sched_arr_time,empty,02:00 PM
-1260,sched_arr_time,empty,01:45 PM
-1263,sched_arr_time,empty,02:45 PM
-1268,sched_arr_time,empty,09:10 PM
-1269,sched_arr_time,empty,03:15 PM
-1271,sched_arr_time,empty,07:53 PM
-1273,sched_arr_time,empty,07:30 AM
-1274,sched_arr_time,empty,09:35 AM
-1275,sched_arr_time,empty,08:05 PM
-1276,sched_arr_time,empty,11:10 AM
-1277,sched_arr_time,empty,06:23 PM
-1279,sched_arr_time,empty,09:45 PM
-1281,sched_arr_time,empty,10:31 AM
-1282,sched_arr_time,empty,02:59 PM
-1283,sched_arr_time,empty,04:31 PM
-1284,sched_arr_time,empty,02:45 PM
-1286,sched_arr_time,empty,05:50 AM
-1287,sched_arr_time,empty,12:29 AM
-1288,sched_arr_time,empty,12:15 AM
-1291,sched_arr_time,empty,11:50 AM
-1293,sched_arr_time,empty,03:50 PM
-1295,sched_arr_time,empty,09:43 AM
-1305,sched_arr_time,empty,05:55 PM
-1306,sched_arr_time,empty,11:35 AM
-1307,sched_arr_time,empty,02:15 PM
-1308,sched_arr_time,empty,11:05 AM
-1310,sched_arr_time,empty,02:35 PM
-1318,sched_arr_time,empty,12:55 PM
-1319,sched_arr_time,empty,07:45 AM
-1321,sched_arr_time,empty,06:40 AM
-1322,sched_arr_time,empty,10:45 AM
-1324,sched_arr_time,empty,09:40 AM
-1335,sched_arr_time,empty,07:23 AM
-1338,sched_arr_time,empty,09:21 AM
-1341,sched_arr_time,empty,10:06 AM
-1342,sched_arr_time,empty,09:55 AM
-1350,sched_arr_time,empty,09:20 AM
-1352,sched_arr_time,empty,10:20 AM
-1357,sched_arr_time,empty,03:19 PM
-1362,sched_arr_time,empty,08:56 PM
-1366,sched_arr_time,empty,10:35 AM
-1379,sched_arr_time,empty,10:31 AM
-1385,sched_arr_time,empty,12:29 AM
-1386,sched_arr_time,empty,12:15 AM
-1388,sched_arr_time,empty,10:34 AM
-1393,sched_arr_time,empty,05:11 AM
-1395,sched_arr_time,empty,08:27 AM
-1400,sched_arr_time,empty,11:45 AM
-1405,sched_arr_time,empty,11:05 AM
-1406,sched_arr_time,empty,11:53 AM
-1408,sched_arr_time,empty,10:40 AM
-1410,sched_arr_time,empty,08:00 AM
-1418,sched_arr_time,empty,07:45 AM
-1420,sched_arr_time,empty,06:40 AM
-1488,sched_arr_time,empty,09:40 AM
-1490,sched_arr_time,empty,09:25 AM
-1491,sched_arr_time,empty,11:55 AM
-1494,sched_arr_time,empty,05:05 PM
-1496,sched_arr_time,empty,05:25 PM
-1499,sched_arr_time,empty,07:23 AM
-1507,sched_arr_time,empty,07:55 PM
-1508,sched_arr_time,empty,02:20 PM
-1515,sched_arr_time,empty,04:57 PM
-1518,sched_arr_time,empty,12:10 PM
-1519,sched_arr_time,empty,02:35 PM
-1523,sched_arr_time,empty,06:15 PM
-1524,sched_arr_time,empty,01:45 PM
-1527,sched_arr_time,empty,02:45 PM
-1530,sched_arr_time,empty,10:35 AM
-1532,sched_arr_time,empty,09:10 PM
-1534,sched_arr_time,empty,12:21 AM
-1537,sched_arr_time,empty,07:30 AM
-1538,sched_arr_time,empty,09:35 AM
-1541,sched_arr_time,empty,06:23 PM
-1542,sched_arr_time,empty,07:35 PM
-1545,sched_arr_time,empty,10:31 AM
-1550,sched_arr_time,empty,05:50 AM
-1559,sched_arr_time,empty,09:43 AM
-1560,sched_arr_time,empty,05:11 AM
-1561,sched_arr_time,empty,06:40 PM
-1565,sched_arr_time,empty,04:53 PM
-1568,sched_arr_time,empty,04:05 PM
-1569,sched_arr_time,empty,05:55 PM
-1572,sched_arr_time,empty,11:05 AM
-1575,sched_arr_time,empty,10:40 AM
-1576,sched_arr_time,empty,06:30 PM
-1578,sched_arr_time,empty,06:40 PM
-1579,sched_arr_time,empty,02:25 PM
-1582,sched_arr_time,empty,12:55 PM
-1583,sched_arr_time,empty,07:45 AM
-1585,sched_arr_time,empty,06:40 AM
-1586,sched_arr_time,empty,10:45 AM
-1587,sched_arr_time,empty,03:30 PM
-1595,sched_arr_time,empty,05:35 AM
-1598,sched_arr_time,empty,09:55 AM
-1609,sched_arr_time,empty,08:56 PM
-1611,sched_arr_time,empty,07:30 AM
-1612,sched_arr_time,empty,09:35 AM
-1614,sched_arr_time,empty,11:10 AM
-1621,sched_arr_time,empty,10:34 AM
-1622,sched_arr_time,empty,11:50 AM
-1623,sched_arr_time,empty,06:15 PM
-1626,sched_arr_time,empty,05:11 AM
-1629,sched_arr_time,empty,09:43 AM
-1633,sched_arr_time,empty,10:40 AM
-1643,sched_arr_time,empty,09:45 PM
-1644,sched_arr_time,empty,07:35 PM
-1650,sched_arr_time,empty,06:40 PM
-1661,sched_arr_time,empty,07:53 PM
-1662,sched_arr_time,empty,09:40 AM
-1667,sched_arr_time,empty,06:55 AM
-1670,sched_arr_time,empty,09:55 AM
-1672,sched_arr_time,empty,12:35 PM
-1673,sched_arr_time,empty,03:50 PM
-1674,sched_arr_time,empty,01:17 PM
-1675,sched_arr_time,empty,09:20 AM
-1677,sched_arr_time,empty,11:05 AM
-1683,sched_arr_time,empty,03:19 PM
-1684,sched_arr_time,empty,06:15 PM
-1685,sched_arr_time,empty,01:45 PM
-1686,sched_arr_time,empty,08:22 PM
-1687,sched_arr_time,empty,11:10 AM
-1696,sched_arr_time,empty,12:21 AM
-1697,sched_arr_time,empty,12:18 PM
-1698,sched_arr_time,empty,07:30 AM
-1699,sched_arr_time,empty,09:35 AM
-1702,sched_arr_time,empty,09:45 PM
-1706,sched_arr_time,empty,12:29 AM
-1707,sched_arr_time,empty,12:15 AM
-1708,sched_arr_time,empty,11:50 PM
-1711,sched_arr_time,empty,03:50 PM
-1712,sched_arr_time,empty,05:11 AM
-1715,sched_arr_time,empty,04:05 PM
-1719,sched_arr_time,empty,02:35 PM
-1724,sched_arr_time,empty,12:55 PM
-1725,sched_arr_time,empty,07:05 PM
-1726,sched_arr_time,empty,06:40 AM
-1763,sched_arr_time,empty,09:54 AM
-1767,sched_arr_time,empty,02:50 PM
-1768,sched_arr_time,empty,11:19 AM
-1769,sched_arr_time,empty,06:55 AM
-1773,sched_arr_time,empty,09:21 AM
-1774,sched_arr_time,empty,01:16 PM
-1779,sched_arr_time,empty,02:20 PM
-1784,sched_arr_time,empty,01:17 PM
-1791,sched_arr_time,empty,01:39 PM
-1793,sched_arr_time,empty,02:00 PM
-1796,sched_arr_time,empty,08:22 PM
-1797,sched_arr_time,empty,08:56 PM
-1799,sched_arr_time,empty,05:15 PM
-1805,sched_arr_time,empty,07:53 PM
-1809,sched_arr_time,empty,08:05 PM
-1811,sched_arr_time,empty,07:35 PM
-1813,sched_arr_time,empty,06:44 PM
-1821,sched_arr_time,empty,12:15 AM
-1827,sched_arr_time,empty,04:48 PM
-1828,sched_arr_time,empty,09:43 AM
-1831,sched_arr_time,empty,08:27 AM
-1832,sched_arr_time,empty,01:40 PM
-1833,sched_arr_time,empty,09:20 PM
-1842,sched_arr_time,empty,11:53 AM
-1844,sched_arr_time,empty,10:40 AM
-1955,sched_arr_time,empty,09:54 AM
-1961,sched_arr_time,empty,06:55 AM
-1966,sched_arr_time,empty,01:16 PM
-1971,sched_arr_time,empty,02:20 PM
-1974,sched_arr_time,empty,05:00 PM
-1976,sched_arr_time,empty,01:17 PM
-1980,sched_arr_time,empty,10:54 AM
-1984,sched_arr_time,empty,03:19 PM
-1985,sched_arr_time,empty,02:00 PM
-1988,sched_arr_time,empty,08:22 PM
-2003,sched_arr_time,empty,07:35 PM
-2005,sched_arr_time,empty,06:44 PM
-2011,sched_arr_time,empty,05:50 AM
-2012,sched_arr_time,empty,12:29 AM
-2013,sched_arr_time,empty,12:15 AM
-2019,sched_arr_time,empty,04:48 PM
-2020,sched_arr_time,empty,09:43 AM
-2021,sched_arr_time,empty,05:11 AM
-2023,sched_arr_time,empty,08:27 AM
-2039,sched_arr_time,empty,05:25 PM
-2055,sched_arr_time,empty,09:54 AM
-2062,sched_arr_time,empty,07:23 AM
-2068,sched_arr_time,empty,10:06 AM
-2071,sched_arr_time,empty,02:20 PM
-2073,sched_arr_time,empty,11:35 AM
-2079,sched_arr_time,empty,10:20 AM
-2080,sched_arr_time,empty,10:54 AM
-2084,sched_arr_time,empty,03:19 PM
-2091,sched_arr_time,empty,05:15 PM
-2096,sched_arr_time,empty,12:21 AM
-2097,sched_arr_time,empty,07:53 PM
-2103,sched_arr_time,empty,07:35 PM
-2105,sched_arr_time,empty,06:44 PM
-2106,sched_arr_time,empty,10:31 AM
-2107,sched_arr_time,empty,02:59 PM
-2111,sched_arr_time,empty,05:50 AM
-2112,sched_arr_time,empty,12:29 AM
-2113,sched_arr_time,empty,12:15 AM
-2117,sched_arr_time,empty,09:24 AM
-2119,sched_arr_time,empty,04:48 PM
-2120,sched_arr_time,empty,09:43 AM
-2123,sched_arr_time,empty,08:27 AM
-2125,sched_arr_time,empty,09:20 PM
-2126,sched_arr_time,empty,04:53 PM
-2134,sched_arr_time,empty,11:53 AM
-2139,sched_arr_time,empty,05:25 PM
-2151,sched_arr_time,empty,02:50 PM
-2160,sched_arr_time,empty,09:54 AM
-2164,sched_arr_time,empty,02:50 PM
-2165,sched_arr_time,empty,11:19 AM
-2167,sched_arr_time,empty,07:23 AM
-2177,sched_arr_time,empty,07:03 PM
-2178,sched_arr_time,empty,11:35 AM
-2181,sched_arr_time,empty,01:17 PM
-2184,sched_arr_time,empty,10:20 AM
-2185,sched_arr_time,empty,10:54 AM
-2188,sched_arr_time,empty,01:39 PM
-2194,sched_arr_time,empty,08:56 PM
-2197,sched_arr_time,empty,04:00 PM
-2201,sched_arr_time,empty,12:21 AM
-2206,sched_arr_time,empty,08:05 PM
-2210,sched_arr_time,empty,06:44 PM
-2217,sched_arr_time,empty,12:29 AM
-2222,sched_arr_time,empty,09:24 AM
-2225,sched_arr_time,empty,09:43 AM
-2226,sched_arr_time,empty,05:11 AM
-2229,sched_arr_time,empty,01:40 PM
-2230,sched_arr_time,empty,09:20 PM
-2231,sched_arr_time,empty,04:53 PM
-2241,sched_arr_time,empty,10:40 AM
-2248,sched_arr_time,empty,04:49 PM
-2257,sched_arr_time,empty,09:25 AM
-2259,sched_arr_time,empty,09:54 AM
-2261,sched_arr_time,empty,06:55 AM
-2262,sched_arr_time,empty,06:46 PM
-2264,sched_arr_time,empty,09:55 AM
-2266,sched_arr_time,empty,12:35 PM
-2269,sched_arr_time,empty,09:20 AM
-2270,sched_arr_time,empty,04:57 PM
-2271,sched_arr_time,empty,11:05 AM
-2272,sched_arr_time,empty,12:10 PM
-2274,sched_arr_time,empty,02:35 PM
-2277,sched_arr_time,empty,03:19 PM
-2278,sched_arr_time,empty,06:15 PM
-2280,sched_arr_time,empty,08:22 PM
-2281,sched_arr_time,empty,11:10 AM
-2282,sched_arr_time,empty,08:56 PM
-2283,sched_arr_time,empty,02:25 PM
-2284,sched_arr_time,empty,02:45 PM
-2289,sched_arr_time,empty,03:15 PM
-2291,sched_arr_time,empty,12:18 PM
-2296,sched_arr_time,empty,09:45 PM
-2298,sched_arr_time,empty,04:31 PM
-2299,sched_arr_time,empty,04:17 PM
-2302,sched_arr_time,empty,11:50 PM
-2305,sched_arr_time,empty,03:50 PM
-2309,sched_arr_time,empty,04:05 PM
-2310,sched_arr_time,empty,05:55 PM
-2312,sched_arr_time,empty,02:15 PM
-2313,sched_arr_time,empty,02:35 PM
-2317,sched_arr_time,empty,06:17 PM
-2318,sched_arr_time,empty,12:55 PM
-2320,sched_arr_time,empty,06:40 AM
-2321,sched_arr_time,empty,10:45 AM
-3,act_arr_time,empty,07:25 PM
-32,act_arr_time,empty,05:50 AM
-33,act_arr_time,empty,12:15 AM
-51,act_arr_time,empty,09:32 AM
-53,act_arr_time,empty,09:28 AM
-54,act_arr_time,empty,11:58 AM
-55,act_arr_time,empty,09:43 AM
-57,act_arr_time,empty,05:17 PM
-60,act_arr_time,empty,11:21 AM
-63,act_arr_time,empty,05:26 AM
-64,act_arr_time,empty,06:28 PM
-65,act_arr_time,empty,09:14 AM
-66,act_arr_time,empty,01:19 PM
-69,act_arr_time,empty,09:45 AM
-72,act_arr_time,empty,07:10 PM
-73,act_arr_time,empty,11:32 AM
-76,act_arr_time,empty,01:14 PM
-77,act_arr_time,empty,09:05 AM
-81,act_arr_time,empty,11:56 AM
-83,act_arr_time,empty,01:30 PM
-87,act_arr_time,empty,01:15 PM
-89,act_arr_time,empty,09:52 PM
-90,act_arr_time,empty,02:46 PM
-96,act_arr_time,empty,03:16 PM
-98,act_arr_time,empty,07:58 PM
-99,act_arr_time,empty,12:09 PM
-100,act_arr_time,empty,07:51 AM
-101,act_arr_time,empty,09:31 AM
-102,act_arr_time,empty,07:55 PM
-105,act_arr_time,empty,07:36 PM
-107,act_arr_time,empty,06:34 PM
-108,act_arr_time,empty,10:47 AM
-109,act_arr_time,empty,03:04 PM
-112,act_arr_time,empty,04:17 PM
-115,act_arr_time,empty,12:15 AM
-120,act_arr_time,empty,03:50 PM
-121,act_arr_time,empty,04:59 PM
-122,act_arr_time,empty,08:45 AM
-126,act_arr_time,empty,02:00 PM
-127,act_arr_time,empty,09:20 PM
-128,act_arr_time,empty,04:44 PM
-130,act_arr_time,empty,11:56 AM
-131,act_arr_time,empty,03:43 PM
-134,act_arr_time,empty,01:43 PM
-135,act_arr_time,empty,11:01 AM
-139,act_arr_time,empty,06:43 PM
-140,act_arr_time,empty,08:06 AM
-142,act_arr_time,empty,02:27 PM
-146,act_arr_time,empty,07:40 AM
-149,act_arr_time,empty,11:12 AM
-150,act_arr_time,empty,03:14 PM
-157,act_arr_time,empty,03:16 PM
-160,act_arr_time,empty,11:21 AM
-162,act_arr_time,empty,07:17 AM
-164,act_arr_time,empty,06:28 PM
-166,act_arr_time,empty,01:19 PM
-167,act_arr_time,empty,01:27 PM
-168,act_arr_time,empty,09:56 AM
-169,act_arr_time,empty,09:45 AM
-170,act_arr_time,empty,07:39 PM
-171,act_arr_time,empty,01:40 PM
-173,act_arr_time,empty,11:32 AM
-174,act_arr_time,empty,04:47 PM
-176,act_arr_time,empty,01:14 PM
-177,act_arr_time,empty,09:05 AM
-178,act_arr_time,empty,05:05 PM
-180,act_arr_time,empty,10:56 AM
-182,act_arr_time,empty,03:30 PM
-185,act_arr_time,empty,02:10 PM
-188,act_arr_time,empty,08:03 PM
-190,act_arr_time,empty,02:46 PM
-192,act_arr_time,empty,03:33 PM
-195,act_arr_time,empty,08:53 PM
-196,act_arr_time,empty,12:21 AM
-198,act_arr_time,empty,12:09 PM
-200,act_arr_time,empty,09:31 AM
-203,act_arr_time,empty,07:36 PM
-205,act_arr_time,empty,06:34 PM
-207,act_arr_time,empty,03:04 PM
-208,act_arr_time,empty,04:23 PM
-209,act_arr_time,empty,02:50 PM
-210,act_arr_time,empty,04:17 PM
-217,act_arr_time,empty,09:13 AM
-218,act_arr_time,empty,03:50 PM
-219,act_arr_time,empty,04:59 PM
-220,act_arr_time,empty,08:45 AM
-221,act_arr_time,empty,05:11 AM
-224,act_arr_time,empty,02:00 PM
-225,act_arr_time,empty,09:20 PM
-231,act_arr_time,empty,11:06 AM
-232,act_arr_time,empty,01:43 PM
-233,act_arr_time,empty,11:01 AM
-236,act_arr_time,empty,10:16 AM
-237,act_arr_time,empty,06:43 PM
-238,act_arr_time,empty,08:06 AM
-239,act_arr_time,empty,04:56 PM
-242,act_arr_time,empty,11:06 AM
-246,act_arr_time,empty,07:40 AM
-247,act_arr_time,empty,06:36 PM
-250,act_arr_time,empty,03:14 PM
-252,act_arr_time,empty,09:28 AM
-254,act_arr_time,empty,09:43 AM
-256,act_arr_time,empty,07:25 PM
-257,act_arr_time,empty,05:17 PM
-260,act_arr_time,empty,11:21 AM
-262,act_arr_time,empty,07:17 AM
-264,act_arr_time,empty,06:28 PM
-266,act_arr_time,empty,09:45 AM
-267,act_arr_time,empty,09:56 AM
-272,act_arr_time,empty,05:05 PM
-274,act_arr_time,empty,10:56 AM
-276,act_arr_time,empty,11:56 AM
-281,act_arr_time,empty,02:10 PM
-282,act_arr_time,empty,01:15 PM
-285,act_arr_time,empty,02:46 PM
-286,act_arr_time,empty,10:36 AM
-288,act_arr_time,empty,08:53 PM
-289,act_arr_time,empty,03:16 PM
-290,act_arr_time,empty,12:21 AM
-296,act_arr_time,empty,07:36 PM
-299,act_arr_time,empty,10:47 AM
-300,act_arr_time,empty,03:04 PM
-301,act_arr_time,empty,04:23 PM
-302,act_arr_time,empty,05:50 AM
-307,act_arr_time,empty,11:44 AM
-308,act_arr_time,empty,05:42 PM
-309,act_arr_time,empty,09:13 AM
-310,act_arr_time,empty,03:50 PM
-312,act_arr_time,empty,08:45 AM
-314,act_arr_time,empty,02:00 PM
-317,act_arr_time,empty,07:10 PM
-318,act_arr_time,empty,03:43 PM
-319,act_arr_time,empty,05:43 PM
-321,act_arr_time,empty,04:47 PM
-322,act_arr_time,empty,01:43 PM
-326,act_arr_time,empty,01:30 PM
-328,act_arr_time,empty,06:43 PM
-332,act_arr_time,empty,12:50 PM
-337,act_arr_time,empty,03:14 PM
-338,act_arr_time,empty,09:32 AM
-339,act_arr_time,empty,10:29 PM
-340,act_arr_time,empty,09:28 AM
-341,act_arr_time,empty,11:58 AM
-344,act_arr_time,empty,05:17 PM
-347,act_arr_time,empty,11:21 AM
-352,act_arr_time,empty,09:14 AM
-357,act_arr_time,empty,07:39 PM
-359,act_arr_time,empty,07:10 PM
-362,act_arr_time,empty,04:09 PM
-363,act_arr_time,empty,01:14 PM
-368,act_arr_time,empty,11:56 AM
-369,act_arr_time,empty,03:30 PM
-371,act_arr_time,empty,03:21 PM
-372,act_arr_time,empty,02:10 PM
-374,act_arr_time,empty,01:15 PM
-375,act_arr_time,empty,08:03 PM
-378,act_arr_time,empty,05:34 PM
-379,act_arr_time,empty,03:33 PM
-380,act_arr_time,empty,10:36 AM
-384,act_arr_time,empty,12:21 AM
-385,act_arr_time,empty,07:58 PM
-386,act_arr_time,empty,12:09 PM
-388,act_arr_time,empty,09:31 AM
-389,act_arr_time,empty,07:55 PM
-391,act_arr_time,empty,06:38 PM
-393,act_arr_time,empty,09:53 PM
-395,act_arr_time,empty,10:47 AM
-396,act_arr_time,empty,03:04 PM
-399,act_arr_time,empty,04:17 PM
-401,act_arr_time,empty,12:29 AM
-404,act_arr_time,empty,10:04 AM
-405,act_arr_time,empty,11:44 AM
-407,act_arr_time,empty,03:50 PM
-408,act_arr_time,empty,04:59 PM
-410,act_arr_time,empty,05:11 AM
-411,act_arr_time,empty,06:40 PM
-412,act_arr_time,empty,08:02 AM
-413,act_arr_time,empty,02:00 PM
-414,act_arr_time,empty,09:20 PM
-415,act_arr_time,empty,04:44 PM
-416,act_arr_time,empty,07:10 PM
-419,act_arr_time,empty,05:43 PM
-423,act_arr_time,empty,12:09 PM
-424,act_arr_time,empty,03:13 PM
-425,act_arr_time,empty,10:16 AM
-426,act_arr_time,empty,06:43 PM
-427,act_arr_time,empty,08:06 AM
-428,act_arr_time,empty,06:15 PM
-429,act_arr_time,empty,02:27 PM
-430,act_arr_time,empty,05:26 PM
-432,act_arr_time,empty,12:50 PM
-433,act_arr_time,empty,07:40 AM
-435,act_arr_time,empty,06:19 AM
-436,act_arr_time,empty,11:12 AM
-437,act_arr_time,empty,03:14 PM
-438,act_arr_time,empty,09:32 AM
-451,act_arr_time,empty,06:28 PM
-452,act_arr_time,empty,09:14 AM
-454,act_arr_time,empty,01:27 PM
-461,act_arr_time,empty,04:47 PM
-469,act_arr_time,empty,03:30 PM
-472,act_arr_time,empty,02:10 PM
-479,act_arr_time,empty,03:33 PM
-480,act_arr_time,empty,10:36 AM
-481,act_arr_time,empty,07:25 PM
-487,act_arr_time,empty,09:31 AM
-489,act_arr_time,empty,06:38 PM
-491,act_arr_time,empty,09:53 PM
-496,act_arr_time,empty,02:50 PM
-500,act_arr_time,empty,12:15 AM
-501,act_arr_time,empty,11:50 PM
-505,act_arr_time,empty,03:50 PM
-509,act_arr_time,empty,06:40 PM
-512,act_arr_time,empty,09:20 PM
-513,act_arr_time,empty,04:44 PM
-515,act_arr_time,empty,11:56 AM
-516,act_arr_time,empty,03:43 PM
-517,act_arr_time,empty,05:43 PM
-522,act_arr_time,empty,03:13 PM
-525,act_arr_time,empty,08:06 AM
-531,act_arr_time,empty,05:38 PM
-569,act_arr_time,empty,03:30 PM
-601,act_arr_time,empty,11:50 PM
-609,act_arr_time,empty,06:40 PM
-630,act_arr_time,empty,09:32 AM
-640,act_arr_time,empty,06:55 AM
-643,act_arr_time,empty,06:28 PM
-644,act_arr_time,empty,09:14 AM
-646,act_arr_time,empty,01:27 PM
-653,act_arr_time,empty,04:47 PM
-657,act_arr_time,empty,05:05 PM
-660,act_arr_time,empty,11:56 AM
-664,act_arr_time,empty,02:10 PM
-668,act_arr_time,empty,09:52 PM
-671,act_arr_time,empty,03:33 PM
-679,act_arr_time,empty,09:31 AM
-681,act_arr_time,empty,06:38 PM
-688,act_arr_time,empty,02:50 PM
-691,act_arr_time,empty,12:29 AM
-697,act_arr_time,empty,03:50 PM
-700,act_arr_time,empty,05:11 AM
-703,act_arr_time,empty,02:00 PM
-704,act_arr_time,empty,09:20 PM
-708,act_arr_time,empty,03:43 PM
-710,act_arr_time,empty,11:06 AM
-715,act_arr_time,empty,10:16 AM
-724,act_arr_time,empty,12:50 PM
-725,act_arr_time,empty,07:40 AM
-730,act_arr_time,empty,09:32 AM
-731,act_arr_time,empty,10:30 PM
-732,act_arr_time,empty,10:29 PM
-734,act_arr_time,empty,09:43 AM
-738,act_arr_time,empty,06:55 AM
-739,act_arr_time,empty,07:17 AM
-740,act_arr_time,empty,05:26 AM
-743,act_arr_time,empty,07:39 PM
-747,act_arr_time,empty,09:05 AM
-749,act_arr_time,empty,11:56 AM
-752,act_arr_time,empty,03:21 PM
-756,act_arr_time,empty,02:46 PM
-760,act_arr_time,empty,08:53 PM
-762,act_arr_time,empty,12:09 PM
-763,act_arr_time,empty,07:51 AM
-765,act_arr_time,empty,07:55 PM
-768,act_arr_time,empty,09:53 PM
-770,act_arr_time,empty,04:23 PM
-771,act_arr_time,empty,04:17 PM
-774,act_arr_time,empty,11:50 PM
-776,act_arr_time,empty,11:44 AM
-778,act_arr_time,empty,03:50 PM
-779,act_arr_time,empty,05:11 AM
-780,act_arr_time,empty,06:40 PM
-784,act_arr_time,empty,12:29 AM
-787,act_arr_time,empty,03:13 PM
-788,act_arr_time,empty,03:14 PM
-789,act_arr_time,empty,12:50 PM
-790,act_arr_time,empty,07:40 AM
-791,act_arr_time,empty,06:19 AM
-792,act_arr_time,empty,11:12 AM
-793,act_arr_time,empty,02:46 PM
-794,act_arr_time,empty,10:04 AM
-795,act_arr_time,empty,07:39 PM
-796,act_arr_time,empty,09:05 AM
-797,act_arr_time,empty,11:06 AM
-799,act_arr_time,empty,03:30 PM
-801,act_arr_time,empty,04:09 PM
-803,act_arr_time,empty,07:39 PM
-804,act_arr_time,empty,10:29 PM
-805,act_arr_time,empty,05:43 PM
-807,act_arr_time,empty,07:40 AM
-808,act_arr_time,empty,06:55 AM
-809,act_arr_time,empty,09:53 PM
-810,act_arr_time,empty,10:36 AM
-811,act_arr_time,empty,12:09 PM
-817,act_arr_time,empty,10:30 PM
-822,act_arr_time,empty,06:55 AM
-843,act_arr_time,empty,03:30 PM
-857,act_arr_time,empty,12:21 AM
-872,act_arr_time,empty,05:50 AM
-873,act_arr_time,empty,12:29 AM
-874,act_arr_time,empty,12:15 AM
-889,act_arr_time,empty,11:56 AM
-913,act_arr_time,empty,07:25 PM
-915,act_arr_time,empty,02:10 PM
-916,act_arr_time,empty,07:17 AM
-920,act_arr_time,empty,09:45 AM
-922,act_arr_time,empty,09:05 AM
-924,act_arr_time,empty,03:30 PM
-929,act_arr_time,empty,02:27 PM
-935,act_arr_time,empty,06:38 PM
-936,act_arr_time,empty,07:36 PM
-937,act_arr_time,empty,09:53 PM
-939,act_arr_time,empty,10:47 AM
-940,act_arr_time,empty,03:04 PM
-941,act_arr_time,empty,04:23 PM
-944,act_arr_time,empty,11:50 PM
-947,act_arr_time,empty,09:13 AM
-948,act_arr_time,empty,05:11 AM
-952,act_arr_time,empty,09:20 PM
-955,act_arr_time,empty,11:06 AM
-956,act_arr_time,empty,04:47 PM
-957,act_arr_time,empty,08:45 AM
-958,act_arr_time,empty,01:43 PM
-959,act_arr_time,empty,11:01 AM
-961,act_arr_time,empty,01:30 PM
-962,act_arr_time,empty,06:43 PM
-964,act_arr_time,empty,06:15 PM
-965,act_arr_time,empty,10:56 AM
-966,act_arr_time,empty,12:50 PM
-968,act_arr_time,empty,11:12 AM
-971,act_arr_time,empty,07:51 AM
-974,act_arr_time,empty,11:06 AM
-975,act_arr_time,empty,05:05 PM
-976,act_arr_time,empty,09:43 AM
-979,act_arr_time,empty,11:50 PM
-982,act_arr_time,empty,06:15 PM
-986,act_arr_time,empty,06:19 AM
-987,act_arr_time,empty,11:12 AM
-995,act_arr_time,empty,07:25 PM
-997,act_arr_time,empty,05:17 PM
-999,act_arr_time,empty,06:55 AM
-1031,act_arr_time,empty,06:38 PM
-1033,act_arr_time,empty,10:47 AM
-1038,act_arr_time,empty,12:15 AM
-1039,act_arr_time,empty,11:50 PM
-1048,act_arr_time,empty,02:00 PM
-1051,act_arr_time,empty,07:10 PM
-1055,act_arr_time,empty,04:47 PM
-1057,act_arr_time,empty,12:09 PM
-1071,act_arr_time,empty,09:32 AM
-1081,act_arr_time,empty,06:55 AM
-1084,act_arr_time,empty,06:28 PM
-1087,act_arr_time,empty,01:27 PM
-1105,act_arr_time,empty,02:10 PM
-1107,act_arr_time,empty,01:15 PM
-1112,act_arr_time,empty,03:33 PM
-1120,act_arr_time,empty,09:31 AM
-1121,act_arr_time,empty,07:55 PM
-1132,act_arr_time,empty,12:29 AM
-1145,act_arr_time,empty,09:20 PM
-1150,act_arr_time,empty,05:43 PM
-1151,act_arr_time,empty,11:06 AM
-1153,act_arr_time,empty,11:01 AM
-1156,act_arr_time,empty,10:16 AM
-1164,act_arr_time,empty,05:38 PM
-1166,act_arr_time,empty,07:40 AM
-1174,act_arr_time,empty,09:43 AM
-1176,act_arr_time,empty,07:17 AM
-1177,act_arr_time,empty,09:56 AM
-1181,act_arr_time,empty,09:05 AM
-1183,act_arr_time,empty,01:40 PM
-1184,act_arr_time,empty,11:56 AM
-1186,act_arr_time,empty,02:50 PM
-1188,act_arr_time,empty,01:15 PM
-1192,act_arr_time,empty,08:53 PM
-1193,act_arr_time,empty,12:21 AM
-1196,act_arr_time,empty,09:53 PM
-1197,act_arr_time,empty,06:34 PM
-1200,act_arr_time,empty,05:50 AM
-1201,act_arr_time,empty,05:42 PM
-1206,act_arr_time,empty,06:40 PM
-1207,act_arr_time,empty,02:00 PM
-1208,act_arr_time,empty,04:44 PM
-1212,act_arr_time,empty,12:29 AM
-1214,act_arr_time,empty,11:01 AM
-1215,act_arr_time,empty,12:09 PM
-1218,act_arr_time,empty,06:43 PM
-1219,act_arr_time,empty,07:25 PM
-1220,act_arr_time,empty,04:56 PM
-1223,act_arr_time,empty,11:12 AM
-1225,act_arr_time,empty,10:29 PM
-1226,act_arr_time,empty,09:28 AM
-1228,act_arr_time,empty,09:43 AM
-1230,act_arr_time,empty,05:17 PM
-1232,act_arr_time,empty,04:56 PM
-1233,act_arr_time,empty,11:21 AM
-1235,act_arr_time,empty,07:17 AM
-1240,act_arr_time,empty,01:27 PM
-1242,act_arr_time,empty,09:45 AM
-1243,act_arr_time,empty,07:39 PM
-1244,act_arr_time,empty,01:40 PM
-1246,act_arr_time,empty,11:32 AM
-1247,act_arr_time,empty,04:47 PM
-1249,act_arr_time,empty,01:14 PM
-1250,act_arr_time,empty,09:05 AM
-1254,act_arr_time,empty,11:56 AM
-1256,act_arr_time,empty,01:30 PM
-1259,act_arr_time,empty,05:42 PM
-1260,act_arr_time,empty,01:15 PM
-1261,act_arr_time,empty,08:03 PM
-1262,act_arr_time,empty,09:52 PM
-1268,act_arr_time,empty,08:53 PM
-1269,act_arr_time,empty,03:16 PM
-1271,act_arr_time,empty,07:58 PM
-1274,act_arr_time,empty,09:31 AM
-1277,act_arr_time,empty,06:38 PM
-1278,act_arr_time,empty,07:36 PM
-1281,act_arr_time,empty,10:47 AM
-1282,act_arr_time,empty,03:04 PM
-1283,act_arr_time,empty,04:23 PM
-1286,act_arr_time,empty,05:50 AM
-1293,act_arr_time,empty,03:50 PM
-1297,act_arr_time,empty,06:40 PM
-1300,act_arr_time,empty,09:20 PM
-1301,act_arr_time,empty,04:44 PM
-1303,act_arr_time,empty,11:56 AM
-1305,act_arr_time,empty,05:43 PM
-1307,act_arr_time,empty,01:43 PM
-1308,act_arr_time,empty,11:01 AM
-1313,act_arr_time,empty,08:06 AM
-1314,act_arr_time,empty,06:15 PM
-1318,act_arr_time,empty,12:50 PM
-1320,act_arr_time,empty,06:36 PM
-1321,act_arr_time,empty,06:19 AM
-1323,act_arr_time,empty,03:14 PM
-1325,act_arr_time,empty,10:29 PM
-1327,act_arr_time,empty,11:58 AM
-1333,act_arr_time,empty,11:21 AM
-1334,act_arr_time,empty,06:55 AM
-1336,act_arr_time,empty,05:26 AM
-1346,act_arr_time,empty,11:32 AM
-1350,act_arr_time,empty,09:05 AM
-1353,act_arr_time,empty,10:56 AM
-1366,act_arr_time,empty,10:36 AM
-1369,act_arr_time,empty,12:21 AM
-1372,act_arr_time,empty,07:51 AM
-1373,act_arr_time,empty,09:31 AM
-1379,act_arr_time,empty,10:47 AM
-1384,act_arr_time,empty,05:50 AM
-1387,act_arr_time,empty,11:50 PM
-1388,act_arr_time,empty,10:04 AM
-1390,act_arr_time,empty,03:50 PM
-1392,act_arr_time,empty,08:45 AM
-1393,act_arr_time,empty,05:11 AM
-1397,act_arr_time,empty,09:20 PM
-1403,act_arr_time,empty,11:06 AM
-1405,act_arr_time,empty,11:01 AM
-1408,act_arr_time,empty,10:16 AM
-1414,act_arr_time,empty,11:06 AM
-1418,act_arr_time,empty,07:40 AM
-1421,act_arr_time,empty,11:12 AM
-1425,act_arr_time,empty,03:43 PM
-1426,act_arr_time,empty,04:23 PM
-1462,act_arr_time,empty,12:15 AM
-1482,act_arr_time,empty,11:58 AM
-1483,act_arr_time,empty,06:43 PM
-1485,act_arr_time,empty,11:12 AM
-1487,act_arr_time,empty,07:17 AM
-1489,act_arr_time,empty,10:29 PM
-1494,act_arr_time,empty,05:17 PM
-1495,act_arr_time,empty,03:31 PM
-1498,act_arr_time,empty,06:55 AM
-1507,act_arr_time,empty,07:39 PM
-1509,act_arr_time,empty,07:10 PM
-1511,act_arr_time,empty,04:47 PM
-1512,act_arr_time,empty,04:09 PM
-1513,act_arr_time,empty,01:14 PM
-1514,act_arr_time,empty,09:05 AM
-1517,act_arr_time,empty,10:56 AM
-1518,act_arr_time,empty,11:56 AM
-1520,act_arr_time,empty,01:30 PM
-1526,act_arr_time,empty,09:52 PM
-1527,act_arr_time,empty,02:46 PM
-1529,act_arr_time,empty,03:33 PM
-1536,act_arr_time,empty,12:09 PM
-1542,act_arr_time,empty,07:36 PM
-1545,act_arr_time,empty,10:47 AM
-1547,act_arr_time,empty,04:23 PM
-1549,act_arr_time,empty,04:17 PM
-1551,act_arr_time,empty,12:29 AM
-1552,act_arr_time,empty,12:15 AM
-1555,act_arr_time,empty,11:44 AM
-1558,act_arr_time,empty,04:59 PM
-1562,act_arr_time,empty,08:02 AM
-1566,act_arr_time,empty,07:10 PM
-1568,act_arr_time,empty,03:43 PM
-1569,act_arr_time,empty,05:43 PM
-1571,act_arr_time,empty,01:43 PM
-1572,act_arr_time,empty,11:01 AM
-1576,act_arr_time,empty,06:43 PM
-1578,act_arr_time,empty,06:15 PM
-1579,act_arr_time,empty,02:27 PM
-1583,act_arr_time,empty,07:40 AM
-1586,act_arr_time,empty,11:12 AM
-1589,act_arr_time,empty,10:29 PM
-1591,act_arr_time,empty,07:25 PM
-1594,act_arr_time,empty,06:55 AM
-1595,act_arr_time,empty,05:26 AM
-1598,act_arr_time,empty,09:45 AM
-1601,act_arr_time,empty,09:05 AM
-1604,act_arr_time,empty,08:06 AM
-1609,act_arr_time,empty,09:52 PM
-1611,act_arr_time,empty,07:51 AM
-1614,act_arr_time,empty,11:06 AM
-1616,act_arr_time,empty,10:47 AM
-1618,act_arr_time,empty,12:29 AM
-1620,act_arr_time,empty,11:50 PM
-1621,act_arr_time,empty,10:04 AM
-1622,act_arr_time,empty,11:44 AM
-1624,act_arr_time,empty,03:50 PM
-1627,act_arr_time,empty,09:20 PM
-1632,act_arr_time,empty,11:12 AM
-1633,act_arr_time,empty,10:16 AM
-1637,act_arr_time,empty,07:40 AM
-1639,act_arr_time,empty,07:51 AM
-1641,act_arr_time,empty,03:43 PM
-1642,act_arr_time,empty,11:06 AM
-1646,act_arr_time,empty,08:53 PM
-1647,act_arr_time,empty,08:06 AM
-1649,act_arr_time,empty,02:50 PM
-1651,act_arr_time,empty,05:50 AM
-1654,act_arr_time,empty,10:30 PM
-1656,act_arr_time,empty,05:11 AM
-1658,act_arr_time,empty,05:34 PM
-1661,act_arr_time,empty,07:58 PM
-1665,act_arr_time,empty,09:43 AM
-1671,act_arr_time,empty,07:39 PM
-1672,act_arr_time,empty,01:27 PM
-1673,act_arr_time,empty,04:09 PM
-1678,act_arr_time,empty,11:56 AM
-1680,act_arr_time,empty,03:30 PM
-1681,act_arr_time,empty,07:40 AM
-1682,act_arr_time,empty,02:50 PM
-1687,act_arr_time,empty,11:06 AM
-1688,act_arr_time,empty,09:52 PM
-1689,act_arr_time,empty,02:27 PM
-1690,act_arr_time,empty,02:46 PM
-1691,act_arr_time,empty,03:33 PM
-1692,act_arr_time,empty,10:36 AM
-1694,act_arr_time,empty,08:53 PM
-1695,act_arr_time,empty,03:16 PM
-1697,act_arr_time,empty,12:09 PM
-1699,act_arr_time,empty,09:31 AM
-1700,act_arr_time,empty,07:55 PM
-1703,act_arr_time,empty,03:04 PM
-1706,act_arr_time,empty,12:29 AM
-1709,act_arr_time,empty,10:04 AM
-1710,act_arr_time,empty,11:44 AM
-1711,act_arr_time,empty,03:50 PM
-1713,act_arr_time,empty,06:40 PM
-1714,act_arr_time,empty,09:20 PM
-1715,act_arr_time,empty,03:43 PM
-1716,act_arr_time,empty,05:43 PM
-1717,act_arr_time,empty,11:06 AM
-1718,act_arr_time,empty,01:43 PM
-1720,act_arr_time,empty,06:43 PM
-1726,act_arr_time,empty,06:19 AM
-1745,act_arr_time,empty,12:29 AM
-1764,act_arr_time,empty,10:30 PM
-1790,act_arr_time,empty,03:30 PM
-1802,act_arr_time,empty,07:25 PM
-1819,act_arr_time,empty,05:50 AM
-1821,act_arr_time,empty,12:15 AM
-1829,act_arr_time,empty,05:11 AM
-1830,act_arr_time,empty,06:40 PM
-1864,act_arr_time,empty,10:30 PM
-1895,act_arr_time,empty,09:52 PM
-1904,act_arr_time,empty,12:21 AM
-1920,act_arr_time,empty,12:29 AM
-1922,act_arr_time,empty,11:50 PM
-1932,act_arr_time,empty,09:20 PM
-1951,act_arr_time,empty,09:32 AM
-1961,act_arr_time,empty,06:55 AM
-1964,act_arr_time,empty,06:28 PM
-1965,act_arr_time,empty,09:14 AM
-1978,act_arr_time,empty,05:05 PM
-1985,act_arr_time,empty,02:10 PM
-1992,act_arr_time,empty,03:33 PM
-1993,act_arr_time,empty,10:36 AM
-1994,act_arr_time,empty,07:25 PM
-1996,act_arr_time,empty,12:21 AM
-2009,act_arr_time,empty,02:50 PM
-2013,act_arr_time,empty,12:15 AM
-2014,act_arr_time,empty,11:50 PM
-2021,act_arr_time,empty,05:11 AM
-2025,act_arr_time,empty,09:20 PM
-2028,act_arr_time,empty,11:56 AM
-2029,act_arr_time,empty,03:43 PM
-2030,act_arr_time,empty,05:43 PM
-2045,act_arr_time,empty,12:50 PM
-2089,act_arr_time,empty,09:52 PM
-2114,act_arr_time,empty,11:50 PM
-2118,act_arr_time,empty,03:50 PM
-2128,act_arr_time,empty,11:56 AM
-2152,act_arr_time,empty,01:14 PM
-2156,act_arr_time,empty,09:32 AM
-2166,act_arr_time,empty,06:55 AM
-2169,act_arr_time,empty,06:28 PM
-2172,act_arr_time,empty,01:27 PM
-2179,act_arr_time,empty,04:47 PM
-2187,act_arr_time,empty,03:30 PM
-2192,act_arr_time,empty,01:15 PM
-2194,act_arr_time,empty,09:52 PM
-2198,act_arr_time,empty,10:36 AM
-2200,act_arr_time,empty,08:53 PM
-2207,act_arr_time,empty,06:38 PM
-2211,act_arr_time,empty,10:47 AM
-2214,act_arr_time,empty,02:50 PM
-2216,act_arr_time,empty,05:50 AM
-2223,act_arr_time,empty,03:50 PM
-2229,act_arr_time,empty,02:00 PM
-2233,act_arr_time,empty,11:56 AM
-2234,act_arr_time,empty,03:43 PM
-2235,act_arr_time,empty,05:43 PM
-2238,act_arr_time,empty,11:01 AM
-2240,act_arr_time,empty,03:13 PM
-2243,act_arr_time,empty,08:06 AM
-2245,act_arr_time,empty,06:15 PM
-2249,act_arr_time,empty,05:38 PM
-2251,act_arr_time,empty,07:40 AM
-2259,act_arr_time,empty,09:43 AM
-2260,act_arr_time,empty,10:30 PM
-2262,act_arr_time,empty,06:28 PM
-2263,act_arr_time,empty,09:14 AM
-2265,act_arr_time,empty,07:39 PM
-2267,act_arr_time,empty,04:09 PM
-2268,act_arr_time,empty,01:14 PM
-2270,act_arr_time,empty,05:05 PM
-2271,act_arr_time,empty,11:01 AM
-2274,act_arr_time,empty,03:30 PM
-2276,act_arr_time,empty,02:50 PM
-2278,act_arr_time,empty,05:42 PM
-2279,act_arr_time,empty,01:15 PM
-2280,act_arr_time,empty,08:03 PM
-2281,act_arr_time,empty,11:06 AM
-2282,act_arr_time,empty,09:52 PM
-2285,act_arr_time,empty,03:33 PM
-2291,act_arr_time,empty,12:09 PM
-2292,act_arr_time,empty,07:51 AM
-2293,act_arr_time,empty,09:31 AM
-2294,act_arr_time,empty,07:55 PM
-2295,act_arr_time,empty,06:38 PM
-2297,act_arr_time,empty,03:04 PM
-2299,act_arr_time,empty,04:17 PM
-2300,act_arr_time,empty,12:29 AM
-2301,act_arr_time,empty,12:15 AM
-2302,act_arr_time,empty,11:50 PM
-2305,act_arr_time,empty,03:50 PM
-2309,act_arr_time,empty,03:43 PM
-2310,act_arr_time,empty,05:43 PM
-2311,act_arr_time,empty,11:06 AM
-2312,act_arr_time,empty,01:43 PM
-2314,act_arr_time,empty,06:43 PM
-2315,act_arr_time,empty,06:15 PM
-2317,act_arr_time,empty,05:38 PM
-2318,act_arr_time,empty,12:50 PM
-2319,act_arr_time,empty,06:36 PM
-2320,act_arr_time,empty,06:19 AM
-2321,act_arr_time,empty,11:12 AM
-2325,act_arr_time,empty,10:30 PM
-2327,act_arr_time,empty,12:21 AM
-2340,act_arr_time,empty,03:30 PM
-2356,act_arr_time,empty,05:50 AM
-2357,act_arr_time,empty,12:29 AM
-2358,act_arr_time,empty,12:15 AM
-2363,act_arr_time,empty,03:50 PM
+886237,article_title,Effet d'une intervention non m̩dicamenteuse Voix d'Or� sur les troubles du comportement dans la maladie d'Alzheimer ou une maladie apparent̩e. [Effect of a non-pharmacological intervention Voix d'Or� on behavior disturbances in Alzheimer disease and associated disorders.],Effet d'une intervention non mdicamenteuse Voix d'Or sur les troubles du comportement dans la maladie d'Alzheimer ou une maladie apparente. [Effect of a non-pharmacological intervention Voix d'Or on behavior disturbances in Alzheimer disease and associated disorders.]
+690938,article_title,Association of transforming growth factor-�_1���T869C G915C and C509T gene polymorphisms with rheumatoid arthritis risk.,Association of transforming growth factor-_1__T869C G915C and C509T gene polymorphisms with rheumatoid arthritis risk.
+556116,article_title,A controlled trial of anterior spinal fusion and d̩bridement in the surgical management of tuberculosis of the spine in patients on standard chemotherapy: a study in two centres in South Africa. Seventh Report of the Medical Research Council Working Party on tuberculosis of the spine,A controlled trial of anterior spinal fusion and dbridement in the surgical management of tuberculosis of the spine in patients on standard chemotherapy: a study in two centres in South Africa. Seventh Report of the Medical Research Council Working Party on tuberculosis of the spine
+852213,article_title,Safety and efficacy of weekly nab���-paclitaxel in combination with carboplatin as first-line therapy in elderly patients with advanced non-small-cell lung cancer.,Safety and efficacy of weekly nab_-paclitaxel in combination with carboplatin as first-line therapy in elderly patients with advanced non-small-cell lung cancer.
+408198,article_title,The parvalbumin-positive interneurons in the mouse dentate gyrus express GABAA receptor subunits �1 �_2 and � along their extrasynaptic cell membrane.,The parvalbumin-positive interneurons in the mouse dentate gyrus express GABAA receptor subunits 1 _2 and  along their extrasynaptic cell membrane.
+208824,article_title,Optical turbulence: weak turbulence condensates and collapsing filaments in the nonlinear Schr̦dinger equation,Optical turbulence: weak turbulence condensates and collapsing filaments in the nonlinear Schr_dinger equation
+303571,article_title,Constructing differences: A qualitative analysis of teachers�۪ perspectives on linguistic and cultural diversity,Constructing differences: A qualitative analysis of teachers__ perspectives on linguistic and cultural diversity
+556090,article_title,Lung function efficacy of olodaterol qd delivered via respimat� vs placebo and formoterol bid in patients with COPD: two 48-week studies [Abstract],Lung function efficacy of olodaterol qd delivered via respimat vs placebo and formoterol bid in patients with COPD: two 48-week studies [Abstract]
+215650,article_title,Bruxismo em crian̤as Bruxism in children,Bruxismo em crian_as Bruxism in children
+727134,article_title,The Antiseptic Efficacy and Tolerability of Lavasept� 04% on Acute Traumatic Wounds,The Antiseptic Efficacy and Tolerability of Lavasept 0.04% on Acute Traumatic Wounds
+252990,article_title,Effects on prolongation of Bazett�۪s corrected QT interval of seven second-generation antipsychotics in the treatment of schizophrenia: A meta-analysis,Effects on prolongation of Bazett__s corrected QT interval of seven second-generation antipsychotics in the treatment of schizophrenia: A meta-analysis
+215820,article_title,Preval̻ncia de bruxismo e dist̼rbio do sono em deficientes visuais Prevalence of bruxism and sleep disorders in the visually impaired individuals,Preval_ncia de bruxismo e dist_rbio do sono em deficientes visuais Prevalence of bruxism and sleep disorders in the visually impaired individuals
+35875,article_title,18F-flumazenil: a �_-aminobutyric acid A-specific PET radiotracer for the localization of drug-resistant temporal lobe epilepsy.,18F-flumazenil: a _-aminobutyric acid A-specific PET radiotracer for the localization of drug-resistant temporal lobe epilepsy.
+84783,article_title,Mild endoplasmic reticulum stress augments the proinflammatory effect of IL-1�_ in pancreatic rat �_-cells via the IRE1�/XBP1s pathway.,Mild endoplasmic reticulum stress augments the proinflammatory effect of IL-1_ in pancreatic rat _-cells via the IRE1/XBP1s pathway.
+886237,journal_title,G̩riatrie et Psychologie Neuropsychiatrie du Vieillissement,Griatrie et Psychologie Neuropsychiatrie du Vieillissement
+704093,journal_title,Paliativn�_ Schanzova osteotomie p��i nereponibiln�_ luxaci ky��eln�_ho kloubu u pacient�� s d��tskou mozkovou obrnou v adolescentn�_m v��u,Paliativn_ Schanzova osteotomie p_i nereponibiln_ luxaci kyeln_ho kloubu u pacient s d_tskou mozkovou obrnou v adolescentn_m v_u
+922795,journal_title,Schlafsțrungen bei kritisch kranken patienten,Schlafst_rungen bei kritisch kranken patienten
+674623,journal_title,Actas espa̱olas de psiquiatr�_a,Actas espaolas de psiquiatr_a
+881020,journal_title,Cirug�_a Pedi��trica: Organo Oficial De La Sociedad Espa̱ola De Cirug�_a Pedi��trica,Cirug_a Peditrica: Organo Oficial De La Sociedad Espaola De Cirug_a Peditrica
+855099,journal_title,Nowoczesne biomateria��y jako opatrunki hemostatyczne w chirurgii oszczedzajacej miazsz nerki--model zwierzecy. Doniesienie wstepne.,Nowoczesne biomateria_y jako opatrunki hemostatyczne w chirurgii oszczedzajacej miazsz nerki--model zwierzecy. Doniesienie wstepne.
+759501,journal_title,Zeitschrift f��r Erkrankungen der Atmungsorgane mit Folia bronchologica,Zeitschrift fr Erkrankungen der Atmungsorgane mit Folia bronchologica
+625306,journal_title,Pr̩vention de l'insuffisance r̩nale induite par les produits de contrnste iodes,Prvention de l'insuffisance rnale induite par les produits de contrnste iodes
+63738,journal_title,Stomatologii��a,Stomatologiia
+894596,journal_issn,9788480000000,9790000000000
+922646,journal_issn,Mar-22,22-Mar
+334681,journal_issn,Feb-14,14-Feb
+704093,journal_issn,Jan-15,15-Jan
+967781,journal_issn,0033-8389 DO  - http://dx.doi.org/10.1016/j.rcl.2010715,0033-8389 DO  - http://dx.doi.org/10.1016/j.rcl.2010.07.015
+922795,journal_issn,Mar-17,17-Mar
+743989,journal_issn,Feb-14,14-Feb
+209138,journal_issn,0268-0033 DO  - http://dx.doi.org/10.1016/j.clinbiomech.2015309,0268-0033 DO  - http://dx.doi.org/10.1016/j.clinbiomech.2015.03.009
+208824,journal_issn,0167-2789 DO  - http://dx.doi.org/10.1016/j.physd.2013712,0167-2789 DO  - http://dx.doi.org/10.1016/j.physd.2013.07.012
+619668,journal_issn,Jan-14,14-Jan
+964184,journal_issn,Sep-22,22-Sep
+711975,journal_issn,Sep-22,22-Sep
+356635,journal_issn,Sep-22,22-Sep
+6786,journal_issn,Mar-22,22-Mar
+304082,journal_issn,Mar-09,9-Mar
+209012,journal_issn,0966-6362 DO  - http://dx.doi.org/10.1016/j.gaitpost.2010402,0966-6362 DO  - http://dx.doi.org/10.1016/j.gaitpost.2010.04.002
+498345,article_jvolumn,empty,-1
+255432,article_jvolumn,empty,-1
+657210,article_jvolumn,empty,-1
+143029,article_jvolumn,empty,-1
+979059,article_jvolumn,empty,-1
+735083,article_jvolumn,empty,-1
+226419,article_jvolumn,empty,-1
+734870,article_jvolumn,empty,1
+232896,article_jvolumn,empty,1
+81959,article_jvolumn,empty,-1
+98562,article_jvolumn,empty,-1
+600827,article_jvolumn,empty,-1
+30272,article_jvolumn,empty,-1
+26475,article_jvolumn,empty,-1
+476191,article_jvolumn,empty,-1
+847600,article_jvolumn,empty,-1
+18298,article_jvolumn,empty,-1
+100986,article_jvolumn,empty,-1
+71351,article_jvolumn,empty,-1
+603381,article_jvolumn,empty,-1
+98479,article_jvolumn,empty,-1
+226417,article_jvolumn,empty,-1
+498345,article_jissue,empty,-1
+668310,article_jissue,empty,-1
+379737,article_jissue,empty,-1
+530323,article_jissue,empty,-1
+158672,article_jissue,empty,-1
+852927,article_jissue,empty,-1
+237623,article_jissue,empty,1
+668845,article_jissue,empty,-1
+131820,article_jissue,empty,-1
+42135,article_jissue,empty,-1
+657210,article_jissue,empty,-1
+143029,article_jissue,empty,-1
+667611,article_jissue,empty,-1
+55412,article_jissue,empty,-1
+979059,article_jissue,empty,1
+922795,article_jissue,empty,-1
+519287,article_jissue,empty,-1
+188890,article_jissue,empty,-1
+735083,article_jissue,empty,-1
+226419,article_jissue,empty,-1
+887131,article_jissue,empty,-1
+734870,article_jissue,empty,-1
+689666,article_jissue,empty,-1
+232896,article_jissue,empty,-1
+81959,article_jissue,empty,-1
+563505,article_jissue,empty,-1
+119186,article_jissue,empty,-1
+687404,article_jissue,empty,1
+98562,article_jissue,empty,-1
+56014,article_jissue,empty,-1
+385772,article_jissue,empty,-1
+405141,article_jissue,empty,-1
+408198,article_jissue,empty,-1
+30272,article_jissue,empty,-1
+26475,article_jissue,empty,-1
+476191,article_jissue,empty,-1
+743394,article_jissue,empty,-1
+847600,article_jissue,empty,-1
+157566,article_jissue,empty,-1
+84941,article_jissue,empty,-1
+758629,article_jissue,empty,-1
+18298,article_jissue,empty,-1
+572343,article_jissue,empty,-1
+100986,article_jissue,empty,-1
+71351,article_jissue,empty,-1
+793299,article_jissue,empty,-1
+98479,article_jissue,empty,-1
+197174,article_jissue,empty,-1
+109843,article_jissue,empty,-1
+643856,article_jissue,empty,-1
+575935,article_jissue,empty,-1
+160121,article_jissue,empty,-1
+226417,article_jissue,empty,-1
+498345,article_jcreated_at,4/2/15,2/15/04
+789958,article_jcreated_at,12/1/06,1/6/12
+169865,article_jcreated_at,1/1/13,1/13/01
+803653,article_jcreated_at,10/1/15,1/15/10
+98234,article_jcreated_at,1/1/09,1/9/01
+729712,article_jcreated_at,7/1/01,1/1/07
+396821,article_jcreated_at,1/1/11,1/11/01
+340222,article_jcreated_at,1/1/06,1/6/01
+184417,article_jcreated_at,1/1/09,1/9/01
+729686,article_jcreated_at,1/1/15,1/15/01
+278396,article_jcreated_at,1/1/13,1/13/01
+965082,article_jcreated_at,1/1/11,1/11/01
+53321,article_jcreated_at,1/1/11,1/11/01
+668310,article_jcreated_at,1/1/12,1/12/01
+282987,article_jcreated_at,1/1/05,1/5/01
+43736,article_jcreated_at,6/1/07,1/7/06
+82614,article_jcreated_at,12/1/13,1/13/12
+163526,article_jcreated_at,1/1/11,1/11/01
+514411,article_jcreated_at,12/1/14,1/14/12
+6207,article_jcreated_at,1/1/12,1/12/01
+21910,article_jcreated_at,3/1/14,1/14/03
+378490,article_jcreated_at,12/1/08,1/8/12
+793918,article_jcreated_at,1/1/13,1/13/01
+819166,article_jcreated_at,1/1/09,1/9/01
+880881,article_jcreated_at,12/1/08,1/8/12
+629530,article_jcreated_at,9/1/07,1/7/09
+676042,article_jcreated_at,2/1/15,1/15/02
+353972,article_jcreated_at,1/1/08,1/8/01
+968125,article_jcreated_at,1/1/14,1/14/01
+660168,article_jcreated_at,2/1/09,1/9/02
+473026,article_jcreated_at,6/1/08,1/8/06
+110072,article_jcreated_at,10/1/14,1/14/10
+23215,article_jcreated_at,1/1/14,1/14/01
+719532,article_jcreated_at,1/1/10,1/10/01
+530323,article_jcreated_at,1/1/13,1/13/01
+102893,article_jcreated_at,11/1/10,1/10/11
+864817,article_jcreated_at,1/1/10,1/10/01
+659297,article_jcreated_at,11/1/12,1/12/11
+42247,article_jcreated_at,11/1/10,1/10/11
+302969,article_jcreated_at,1/1/07,1/7/01
+158672,article_jcreated_at,12/4/14,4/14/12
+616298,article_jcreated_at,9/1/06,1/6/09
+221086,article_jcreated_at,1/1/12,1/12/01
+548616,article_jcreated_at,10/1/10,1/10/10
+669596,article_jcreated_at,12/1/14,1/14/12
+474288,article_jcreated_at,1/1/15,1/15/01
+108424,article_jcreated_at,4/1/02,1/2/04
+841679,article_jcreated_at,1/1/11,1/11/01
+173830,article_jcreated_at,1/1/05,1/5/01
+852927,article_jcreated_at,1/1/09,1/9/01
+237623,article_jcreated_at,1/1/08,1/8/01
+912884,article_jcreated_at,1/1/08,1/8/01
+318931,article_jcreated_at,1/1/10,1/10/01
+93659,article_jcreated_at,6/1/12,1/12/06
+826030,article_jcreated_at,1/1/12,1/12/01
+574309,article_jcreated_at,1/1/15,1/15/01
+200077,article_jcreated_at,7/1/03,1/3/07
+421512,article_jcreated_at,1/1/13,1/13/01
+715052,article_jcreated_at,1/1/11,1/11/01
+172966,article_jcreated_at,1/1/06,1/6/01
+282039,article_jcreated_at,1/1/08,1/8/01
+835177,article_jcreated_at,1/1/10,1/10/01
+519732,article_jcreated_at,2/1/07,1/7/02
+761104,article_jcreated_at,1/1/05,1/5/01
+408062,article_jcreated_at,5/1/15,1/15/05
+889481,article_jcreated_at,1/1/14,1/14/01
+894596,article_jcreated_at,1/1/08,1/8/01
+604985,article_jcreated_at,12/1/06,1/6/12
+220950,article_jcreated_at,1/1/12,1/12/01
+914468,article_jcreated_at,1/1/08,1/8/01
+346326,article_jcreated_at,3/1/09,1/9/03
+612846,article_jcreated_at,1/1/10,1/10/01
+870257,article_jcreated_at,1/1/11,1/11/01
+417578,article_jcreated_at,1/1/13,1/13/01
+949067,article_jcreated_at,1/1/07,1/7/01
+931323,article_jcreated_at,1/1/09,1/9/01
+377284,article_jcreated_at,9/1/02,1/2/09
+816680,article_jcreated_at,1/1/14,1/14/01
+491006,article_jcreated_at,1/1/15,1/15/01
+628299,article_jcreated_at,8/1/09,1/9/08
+72089,article_jcreated_at,4/1/14,1/14/04
+847287,article_jcreated_at,3/1/06,1/6/03
+764224,article_jcreated_at,1/1/12,1/12/01
+591619,article_jcreated_at,1/1/12,1/12/01
+125072,article_jcreated_at,4/1/03,1/3/04
+689284,article_jcreated_at,9/1/14,1/14/09
+781141,article_jcreated_at,1/1/13,1/13/01
+148787,article_jcreated_at,1/1/07,1/7/01
+779281,article_jcreated_at,1/1/11,1/11/01
+684757,article_jcreated_at,4/1/01,1/1/04
+185291,article_jcreated_at,1/1/10,1/10/01
+843485,article_jcreated_at,2/1/12,1/12/02
+668845,article_jcreated_at,1/1/13,1/13/01
+863844,article_jcreated_at,1/1/13,1/13/01
+946006,article_jcreated_at,1/1/11,1/11/01
+36429,article_jcreated_at,5/1/12,1/12/05
+259367,article_jcreated_at,1/1/11,1/11/01
+977276,article_jcreated_at,1/1/08,1/8/01
+334681,article_jcreated_at,1/1/13,1/13/01
+757463,article_jcreated_at,6/1/03,1/3/06
+812893,article_jcreated_at,1/1/05,1/5/01
+513829,article_jcreated_at,11/1/14,1/14/11
+862798,article_jcreated_at,1/1/05,1/5/01
+316632,article_jcreated_at,1/1/14,1/14/01
+38413,article_jcreated_at,1/1/14,1/14/01
+595469,article_jcreated_at,1/1/11,1/11/01
+49698,article_jcreated_at,1/1/09,1/9/01
+900624,article_jcreated_at,1/1/11,1/11/01
+246528,article_jcreated_at,1/1/05,1/5/01
+347144,article_jcreated_at,3/1/07,1/7/03
+957059,article_jcreated_at,1/1/12,1/12/01
+267879,article_jcreated_at,1/1/14,1/14/01
+62306,article_jcreated_at,5/1/04,1/4/05
+182986,article_jcreated_at,1/1/07,1/7/01
+663994,article_jcreated_at,10/1/12,1/12/10
+963532,article_jcreated_at,1/1/09,1/9/01
+131820,article_jcreated_at,12/1/13,1/13/12
+704093,article_jcreated_at,1/1/13,1/13/01
+912377,article_jcreated_at,1/1/14,1/14/01
+68354,article_jcreated_at,5/1/14,1/14/05
+259916,article_jcreated_at,1/1/14,1/14/01
+199407,article_jcreated_at,1/1/11,1/11/01
+592893,article_jcreated_at,1/1/07,1/7/01
+232775,article_jcreated_at,1/1/10,1/10/01
+631610,article_jcreated_at,8/1/08,1/8/08
+901298,article_jcreated_at,1/1/13,1/13/01
+429995,article_jcreated_at,7/1/06,1/6/07
+709359,article_jcreated_at,1/1/05,1/5/01
+690938,article_jcreated_at,12/1/14,1/14/12
+730191,article_jcreated_at,1/1/02,1/2/01
+335521,article_jcreated_at,1/1/09,1/9/01
+22708,article_jcreated_at,1/1/14,1/14/01
+704111,article_jcreated_at,10/1/13,1/13/10
+804762,article_jcreated_at,1/1/14,1/14/01
+490584,article_jcreated_at,1/1/07,1/7/01
+929252,article_jcreated_at,1/1/12,1/12/01
+821382,article_jcreated_at,1/1/12,1/12/01
+925885,article_jcreated_at,1/1/10,1/10/01
+717315,article_jcreated_at,1/1/12,1/12/01
+928952,article_jcreated_at,1/1/13,1/13/01
+225002,article_jcreated_at,1/1/09,1/9/01
+550350,article_jcreated_at,3/1/06,1/6/03
+622979,article_jcreated_at,8/2/06,2/6/08
+501663,article_jcreated_at,1/1/12,1/12/01
+48738,article_jcreated_at,1/1/09,1/9/01
+667611,article_jcreated_at,1/1/12,1/12/01
+565079,article_jcreated_at,7/1/14,1/14/07
+348006,article_jcreated_at,4/1/04,1/4/04
+55412,article_jcreated_at,12/1/14,1/14/12
+546048,article_jcreated_at,1/1/13,1/13/01
+979292,article_jcreated_at,7/1/07,1/7/07
+971456,article_jcreated_at,1/1/06,1/6/01
+533193,article_jcreated_at,1/1/13,1/13/01
+970436,article_jcreated_at,1/1/13,1/13/01
+979059,article_jcreated_at,9/10/15,10/15/09
+661572,article_jcreated_at,3/1/11,1/11/03
+245822,article_jcreated_at,1/1/02,1/2/01
+77389,article_jcreated_at,10/1/12,1/12/10
+592817,article_jcreated_at,1/1/12,1/12/01
+288711,article_jcreated_at,1/1/08,1/8/01
+184949,article_jcreated_at,1/1/10,1/10/01
+833251,article_jcreated_at,1/1/06,1/6/01
+787529,article_jcreated_at,1/1/09,1/9/01
+481882,article_jcreated_at,9/1/13,1/13/09
+572425,article_jcreated_at,6/1/01,1/1/06
+581864,article_jcreated_at,1/1/06,1/6/01
+696362,article_jcreated_at,1/1/06,1/6/01
+504206,article_jcreated_at,7/1/14,1/14/07
+800900,article_jcreated_at,1/1/09,1/9/01
+235689,article_jcreated_at,1/1/12,1/12/01
+659896,article_jcreated_at,1/1/13,1/13/01
+84944,article_jcreated_at,1/1/12,1/12/01
+326944,article_jcreated_at,12/1/03,1/3/12
+768486,article_jcreated_at,1/1/14,1/14/01
+428363,article_jcreated_at,11/1/01,1/1/11
+519287,article_jcreated_at,1/1/07,1/7/01
+638918,article_jcreated_at,2/1/12,1/12/02
+111336,article_jcreated_at,1/1/14,1/14/01
+674696,article_jcreated_at,1/1/13,1/13/01
+258108,article_jcreated_at,1/1/13,1/13/01
+59308,article_jcreated_at,1/1/10,1/10/01
+610641,article_jcreated_at,12/1/08,1/8/12
+973076,article_jcreated_at,9/1/02,1/2/09
+931402,article_jcreated_at,1/1/09,1/9/01
+908690,article_jcreated_at,1/1/11,1/11/01
+386327,article_jcreated_at,10/1/13,1/13/10
+695010,article_jcreated_at,4/1/14,1/14/04
+191908,article_jcreated_at,1/1/14,1/14/01
+384767,article_jcreated_at,5/1/14,1/14/05
+855912,article_jcreated_at,1/1/12,1/12/01
+710727,article_jcreated_at,10/1/06,1/6/10
+625016,article_jcreated_at,7/1/05,1/5/07
+275675,article_jcreated_at,1/1/05,1/5/01
+967376,article_jcreated_at,1/1/07,1/7/01
+640230,article_jcreated_at,2/1/06,1/6/02
+625663,article_jcreated_at,7/1/04,1/4/07
+480649,article_jcreated_at,1/1/15,1/15/01
+782541,article_jcreated_at,1/1/14,1/14/01
+692358,article_jcreated_at,1/1/03,1/3/01
+867207,article_jcreated_at,1/1/10,1/10/01
+929971,article_jcreated_at,1/1/11,1/11/01
+731703,article_jcreated_at,1/1/11,1/11/01
+685178,article_jcreated_at,5/1/02,1/2/05
+653325,article_jcreated_at,11/1/11,1/11/11
+893573,article_jcreated_at,1/1/15,1/15/01
+737786,article_jcreated_at,1/1/11,1/11/01
+680306,article_jcreated_at,9/1/14,1/14/09
+53877,article_jcreated_at,1/1/14,1/14/01
+504928,article_jcreated_at,1/1/07,1/7/01
+671386,article_jcreated_at,10/1/13,1/13/10
+981412,article_jcreated_at,1/1/14,1/14/01
+785472,article_jcreated_at,1/1/12,1/12/01
+734077,article_jcreated_at,1/1/14,1/14/01
+743129,article_jcreated_at,1/1/15,1/15/01
+392246,article_jcreated_at,2/1/09,1/9/02
+360147,article_jcreated_at,1/1/11,1/11/01
+670289,article_jcreated_at,3/1/14,1/14/03
+821702,article_jcreated_at,1/1/06,1/6/01
+321660,article_jcreated_at,1/1/14,1/14/01
+427455,article_jcreated_at,11/1/13,1/13/11
+246204,article_jcreated_at,1/1/04,1/4/01
+857402,article_jcreated_at,1/1/07,1/7/01
+704357,article_jcreated_at,1/1/10,1/10/01
+716785,article_jcreated_at,1/1/02,1/2/01
+351534,article_jcreated_at,1/1/03,1/3/01
+872389,article_jcreated_at,12/1/01,1/1/12
+499983,article_jcreated_at,1/1/15,1/15/01
+320139,article_jcreated_at,1/1/12,1/12/01
+735083,article_jcreated_at,10/8/15,8/15/10
+978471,article_jcreated_at,1/1/03,1/3/01
+152626,article_jcreated_at,1/1/10,1/10/01
+90272,article_jcreated_at,2/1/14,1/14/02
+931361,article_jcreated_at,1/1/09,1/9/01
+623358,article_jcreated_at,6/1/04,1/4/06
+385940,article_jcreated_at,6/1/14,1/14/06
+951168,article_jcreated_at,1/1/03,1/3/01
+515254,article_jcreated_at,1/1/13,1/13/01
+674623,article_jcreated_at,5/1/13,1/13/05
+226419,article_jcreated_at,1/7/15,7/15/01
+178078,article_jcreated_at,1/1/06,1/6/01
+57483,article_jcreated_at,5/1/12,1/12/05
+338547,article_jcreated_at,1/1/10,1/10/01
+352040,article_jcreated_at,1/1/13,1/13/01
+887131,article_jcreated_at,12/1/09,1/9/12
+182296,article_jcreated_at,1/1/06,1/6/01
+49847,article_jcreated_at,1/1/07,1/7/01
+427933,article_jcreated_at,10/1/05,1/5/10
+6862,article_jcreated_at,1/1/12,1/12/01
+853676,article_jcreated_at,1/1/04,1/4/01
+734870,article_jcreated_at,10/9/15,9/15/10
+762269,article_jcreated_at,9/1/09,1/9/09
+950233,article_jcreated_at,1/1/05,1/5/01
+621415,article_jcreated_at,6/1/01,1/1/06
+633877,article_jcreated_at,3/1/09,1/9/03
+756208,article_jcreated_at,5/1/12,1/12/05
+97853,article_jcreated_at,1/1/09,1/9/01
+720775,article_jcreated_at,1/1/12,1/12/01
+375430,article_jcreated_at,1/1/15,1/15/01
+689666,article_jcreated_at,1/1/12,1/12/01
+896848,article_jcreated_at,8/1/15,1/15/08
+231182,article_jcreated_at,1/1/10,1/10/01
+232896,article_jcreated_at,3/7/15,7/15/03
+798716,article_jcreated_at,7/1/08,1/8/07
+235924,article_jcreated_at,1/1/06,1/6/01
+291020,article_jcreated_at,2/1/13,1/13/02
+283460,article_jcreated_at,1/1/12,1/12/01
+563505,article_jcreated_at,1/1/14,1/14/01
+761676,article_jcreated_at,1/1/09,1/9/01
+248075,article_jcreated_at,1/1/10,1/10/01
+313030,article_jcreated_at,1/1/11,1/11/01
+361906,article_jcreated_at,9/2/14,2/14/09
+180827,article_jcreated_at,1/1/12,1/12/01
+723057,article_jcreated_at,1/1/14,1/14/01
+894502,article_jcreated_at,1/1/05,1/5/01
+793410,article_jcreated_at,7/1/14,1/14/07
+816944,article_jcreated_at,1/1/15,1/15/01
+632040,article_jcreated_at,1/1/12,1/12/01
+716594,article_jcreated_at,1/1/04,1/4/01
+919751,article_jcreated_at,5/1/06,1/6/05
+757176,article_jcreated_at,8/1/05,1/5/08
+261329,article_jcreated_at,1/1/12,1/12/01
+615903,article_jcreated_at,1/1/09,1/9/01
+178424,article_jcreated_at,1/1/07,1/7/01
+716357,article_jcreated_at,1/1/05,1/5/01
+788729,article_jcreated_at,1/1/12,1/12/01
+881020,article_jcreated_at,7/1/08,1/8/07
+605643,article_jcreated_at,12/1/08,1/8/12
+5782,article_jcreated_at,1/1/12,1/12/01
+852332,article_jcreated_at,8/1/12,1/12/08
+343395,article_jcreated_at,4/1/14,1/14/04
+826830,article_jcreated_at,1/1/11,1/11/01
+34517,article_jcreated_at,3/1/14,1/14/03
+771377,article_jcreated_at,1/1/13,1/13/01
+32426,article_jcreated_at,2/1/14,1/14/02
+722451,article_jcreated_at,1/1/14,1/14/01
+318542,article_jcreated_at,1/1/12,1/12/01
+533425,article_jcreated_at,2/1/13,1/13/02
+2842,article_jcreated_at,4/1/09,1/9/04
+789057,article_jcreated_at,7/1/13,1/13/07
+205187,article_jcreated_at,1/1/04,1/4/01
+161630,article_jcreated_at,1/1/10,1/10/01
+583682,article_jcreated_at,3/1/06,1/6/03
+891722,article_jcreated_at,11/1/10,1/10/11
+852213,article_jcreated_at,2/1/13,1/13/02
+893664,article_jcreated_at,1/1/04,1/4/01
+838034,article_jcreated_at,1/1/08,1/8/01
+274083,article_jcreated_at,1/1/12,1/12/01
+784224,article_jcreated_at,1/1/15,1/15/01
+260769,article_jcreated_at,1/1/09,1/9/01
+369162,article_jcreated_at,12/1/09,1/9/12
+53319,article_jcreated_at,1/1/07,1/7/01
+962338,article_jcreated_at,1/1/11,1/11/01
+972821,article_jcreated_at,1/1/13,1/13/01
+49274,article_jcreated_at,1/1/08,1/8/01
+687404,article_jcreated_at,1/1/14,1/14/01
+858569,article_jcreated_at,1/1/11,1/11/01
+982590,article_jcreated_at,1/1/15,1/15/01
+71263,article_jcreated_at,4/1/14,1/14/04
+111970,article_jcreated_at,6/1/14,1/14/06
+941646,article_jcreated_at,1/1/07,1/7/01
+397190,article_jcreated_at,1/1/07,1/7/01
+56014,article_jcreated_at,1/1/13,1/13/01
+911271,article_jcreated_at,1/1/07,1/7/01
+565528,article_jcreated_at,5/1/14,1/14/05
+951143,article_jcreated_at,1/1/03,1/3/01
+658707,article_jcreated_at,5/1/09,1/9/05
+84905,article_jcreated_at,9/1/12,1/12/09
+891370,article_jcreated_at,1/1/10,1/10/01
+697286,article_jcreated_at,1/1/11,1/11/01
+819701,article_jcreated_at,1/1/04,1/4/01
+855099,article_jcreated_at,1/1/07,1/7/01
+123492,article_jcreated_at,1/1/09,1/9/01
+226966,article_jcreated_at,12/1/12,1/12/12
+850788,article_jcreated_at,1/1/09,1/9/01
+811354,article_jcreated_at,1/1/09,1/9/01
+323305,article_jcreated_at,1/1/12,1/12/01
+485934,article_jcreated_at,11/1/13,1/13/11
+743602,article_jcreated_at,12/1/14,1/14/12
+960371,article_jcreated_at,1/1/04,1/4/01
+944668,article_jcreated_at,1/1/13,1/13/01
+873987,article_jcreated_at,1/1/11,1/11/01
+968211,article_jcreated_at,1/1/15,1/15/01
+299635,article_jcreated_at,5/1/11,1/11/05
+263027,article_jcreated_at,1/1/13,1/13/01
+788168,article_jcreated_at,1/1/13,1/13/01
+146560,article_jcreated_at,5/1/09,1/9/05
+498344,article_jcreated_at,4/3/15,3/15/04
+385772,article_jcreated_at,1/1/13,1/13/01
+917417,article_jcreated_at,7/1/12,1/12/07
+72325,article_jcreated_at,3/1/14,1/14/03
+85920,article_jcreated_at,1/1/11,1/11/01
+145874,article_jcreated_at,4/1/09,1/9/04
+888553,article_jcreated_at,1/1/06,1/6/01
+732272,article_jcreated_at,4/1/11,1/11/04
+684476,article_jcreated_at,3/1/10,1/10/03
+179093,article_jcreated_at,1/1/14,1/14/01
+539034,article_jcreated_at,7/1/12,1/12/07
+208435,article_jcreated_at,9/1/10,1/10/09
+556624,article_jcreated_at,1/1/07,1/7/01
+422857,article_jcreated_at,8/1/13,1/13/08
+720372,article_jcreated_at,1/1/10,1/10/01
+863342,article_jcreated_at,1/1/05,1/5/01
+260745,article_jcreated_at,1/1/11,1/11/01
+941515,article_jcreated_at,1/1/04,1/4/01
+641972,article_jcreated_at,2/12/07,12/7/02
+946112,article_jcreated_at,1/1/11,1/11/01
+958639,article_jcreated_at,1/1/09,1/9/01
+125302,article_jcreated_at,3/1/08,1/8/03
+782211,article_jcreated_at,1/1/13,1/13/01
+473599,article_jcreated_at,1/1/13,1/13/01
+915463,article_jcreated_at,1/1/02,1/2/01
+476199,article_jcreated_at,6/1/15,1/15/06
+405141,article_jcreated_at,1/1/13,1/13/01
+89897,article_jcreated_at,4/1/14,1/14/04
+187552,article_jcreated_at,1/1/11,1/11/01
+144339,article_jcreated_at,8/1/13,1/13/08
+656518,article_jcreated_at,10/1/11,1/11/10
+237077,article_jcreated_at,1/1/13,1/13/01
+851773,article_jcreated_at,4/1/15,1/15/04
+67292,article_jcreated_at,10/3/14,3/14/10
+129698,article_jcreated_at,10/5/08,5/8/10
+254327,article_jcreated_at,3/1/08,1/8/03
+556803,article_jcreated_at,1/1/14,1/14/01
+73792,article_jcreated_at,1/1/14,1/14/01
+484593,article_jcreated_at,6/1/09,1/9/06
+105981,article_jcreated_at,5/11/07,11/7/05
+623367,article_jcreated_at,5/1/01,1/1/05
+299297,article_jcreated_at,10/1/11,1/11/10
+302268,article_jcreated_at,1/1/06,1/6/01
+592663,article_jcreated_at,1/1/04,1/4/01
+520843,article_jcreated_at,5/1/05,1/5/05
+751811,article_jcreated_at,1/1/04,1/4/01
+796900,article_jcreated_at,1/1/05,1/5/01
+491837,article_jcreated_at,1/1/06,1/6/01
+893227,article_jcreated_at,1/1/14,1/14/01
+719389,article_jcreated_at,1/1/09,1/9/01
+268361,article_jcreated_at,1/1/07,1/7/01
+664795,article_jcreated_at,9/1/12,1/12/09
+102180,article_jcreated_at,6/1/12,1/12/06
+258486,article_jcreated_at,1/1/10,1/10/01
+961081,article_jcreated_at,1/1/13,1/13/01
+812757,article_jcreated_at,1/1/11,1/11/01
+713518,article_jcreated_at,11/1/12,1/12/11
+180977,article_jcreated_at,1/1/04,1/4/01
+828214,article_jcreated_at,5/1/10,1/10/05
+176160,article_jcreated_at,1/1/11,1/11/01
+677752,article_jcreated_at,2/1/15,1/15/02
+107417,article_jcreated_at,1/1/05,1/5/01
+708911,article_jcreated_at,1/1/10,1/10/01
+647583,article_jcreated_at,7/1/11,1/11/07
+361080,article_jcreated_at,1/1/12,1/12/01
+283168,article_jcreated_at,1/1/12,1/12/01
+74821,article_jcreated_at,3/1/14,1/14/03
+373015,article_jcreated_at,1/1/05,1/5/01
+529562,article_jcreated_at,6/1/14,1/14/06
+574242,article_jcreated_at,1/1/14,1/14/01
+966388,article_jcreated_at,1/1/08,1/8/01
+919014,article_jcreated_at,7/1/07,1/7/07
+494428,article_jcreated_at,6/1/10,1/10/06
+55809,article_jcreated_at,4/1/14,1/14/04
+368651,article_jcreated_at,1/1/13,1/13/01
+423691,article_jcreated_at,1/1/11,1/11/01
+407245,article_jcreated_at,10/1/09,1/9/10
+918698,article_jcreated_at,9/1/09,1/9/09
+209138,article_jcreated_at,12/1/03,1/3/12
+862844,article_jcreated_at,1/1/13,1/13/01
+587683,article_jcreated_at,1/1/13,1/13/01
+927711,article_jcreated_at,1/1/14,1/14/01
+161847,article_jcreated_at,1/1/05,1/5/01
+543292,article_jcreated_at,4/1/05,1/5/04
+248064,article_jcreated_at,1/1/10,1/10/01
+887041,article_jcreated_at,10/1/10,1/10/10
+314737,article_jcreated_at,1/1/02,1/2/01
+709094,article_jcreated_at,1/1/11,1/11/01
+327157,article_jcreated_at,1/1/14,1/14/01
+793206,article_jcreated_at,9/1/15,1/15/09
+361682,article_jcreated_at,1/1/14,1/14/01
+732256,article_jcreated_at,8/1/07,1/7/08
+636937,article_jcreated_at,1/1/12,1/12/01
+743394,article_jcreated_at,10/1/14,1/14/10
+914007,article_jcreated_at,1/1/09,1/9/01
+506162,article_jcreated_at,12/1/03,1/3/12
+372697,article_jcreated_at,9/1/14,1/14/09
+609245,article_jcreated_at,10/1/03,1/3/10
+822897,article_jcreated_at,1/1/13,1/13/01
+145770,article_jcreated_at,4/1/11,1/11/04
+24026,article_jcreated_at,2/6/14,6/14/02
+44484,article_jcreated_at,9/1/04,1/4/09
+333862,article_jcreated_at,1/1/08,1/8/01
+779555,article_jcreated_at,1/1/14,1/14/01
+323860,article_jcreated_at,1/1/06,1/6/01
+646572,article_jcreated_at,8/1/10,1/10/08
+128182,article_jcreated_at,1/1/05,1/5/01
+252998,article_jcreated_at,1/1/13,1/13/01
+231933,article_jcreated_at,1/1/11,1/11/01
+683304,article_jcreated_at,9/1/08,1/8/09
+117678,article_jcreated_at,12/1/01,1/1/12
+795170,article_jcreated_at,12/1/13,1/13/12
+783722,article_jcreated_at,1/1/15,1/15/01
+376103,article_jcreated_at,1/1/11,1/11/01
+868618,article_jcreated_at,1/1/13,1/13/01
+503451,article_jcreated_at,1/1/12,1/12/01
+944558,article_jcreated_at,1/1/03,1/3/01
+875250,article_jcreated_at,1/1/09,1/9/01
+786108,article_jcreated_at,1/1/09,1/9/01
+233544,article_jcreated_at,8/1/14,1/14/08
+163093,article_jcreated_at,1/1/09,1/9/01
+949775,article_jcreated_at,1/1/06,1/6/01
+847600,article_jcreated_at,11/4/15,4/15/11
+638338,article_jcreated_at,11/1/11,1/11/11
+690793,article_jcreated_at,3/1/12,1/12/03
+718091,article_jcreated_at,1/1/07,1/7/01
+711472,article_jcreated_at,7/2/08,2/8/07
+660574,article_jcreated_at,6/1/11,1/11/06
+873322,article_jcreated_at,1/1/10,1/10/01
+774830,article_jcreated_at,1/1/15,1/15/01
+768192,article_jcreated_at,1/1/13,1/13/01
+950926,article_jcreated_at,1/1/04,1/4/01
+204215,article_jcreated_at,10/1/08,1/8/10
+129552,article_jcreated_at,10/1/10,1/10/10
+526825,article_jcreated_at,3/1/15,1/15/03
+56464,article_jcreated_at,10/1/13,1/13/10
+20641,article_jcreated_at,7/1/14,1/14/07
+706764,article_jcreated_at,1/1/11,1/11/01
+388872,article_jcreated_at,5/1/11,1/11/05
+681305,article_jcreated_at,1/1/14,1/14/01
+541739,article_jcreated_at,5/1/12,1/12/05
+558824,article_jcreated_at,1/1/15,1/15/01
+954980,article_jcreated_at,1/1/15,1/15/01
+896410,article_jcreated_at,2/1/13,1/13/02
+751168,article_jcreated_at,1/1/08,1/8/01
+303571,article_jcreated_at,1/1/07,1/7/01
+193059,article_jcreated_at,1/1/14,1/14/01
+416171,article_jcreated_at,1/1/11,1/11/01
+164085,article_jcreated_at,1/1/09,1/9/01
+619668,article_jcreated_at,10/1/04,1/4/10
+490750,article_jcreated_at,1/1/11,1/11/01
+198675,article_jcreated_at,1/1/07,1/7/01
+316114,article_jcreated_at,1/1/10,1/10/01
+626797,article_jcreated_at,8/1/08,1/8/08
+577842,article_jcreated_at,3/1/13,1/13/03
+811629,article_jcreated_at,1/1/13,1/13/01
+280418,article_jcreated_at,1/1/13,1/13/01
+757660,article_jcreated_at,9/1/01,1/1/09
+54163,article_jcreated_at,1/1/10,1/10/01
+65723,article_jcreated_at,1/1/14,1/14/01
+293974,article_jcreated_at,1/1/14,1/14/01
+247571,article_jcreated_at,1/1/09,1/9/01
+292980,article_jcreated_at,7/1/09,1/9/07
+160820,article_jcreated_at,11/1/06,1/6/11
+876536,article_jcreated_at,1/1/08,1/8/01
+776197,article_jcreated_at,1/1/14,1/14/01
+605277,article_jcreated_at,8/1/06,1/6/08
+749261,article_jcreated_at,1/1/14,1/14/01
+179196,article_jcreated_at,1/1/08,1/8/01
+150198,article_jcreated_at,1/1/07,1/7/01
+187769,article_jcreated_at,1/1/12,1/12/01
+556090,article_jcreated_at,1/1/14,1/14/01
+770589,article_jcreated_at,1/1/15,1/15/01
+157566,article_jcreated_at,1/1/14,1/14/01
+560120,article_jcreated_at,6/1/12,1/12/06
+107924,article_jcreated_at,7/1/02,1/2/07
+265969,article_jcreated_at,1/1/07,1/7/01
+84941,article_jcreated_at,1/1/12,1/12/01
+558766,article_jcreated_at,1/1/08,1/8/01
+428909,article_jcreated_at,10/1/13,1/13/10
+110453,article_jcreated_at,4/1/14,1/14/04
+837546,article_jcreated_at,1/1/02,1/2/01
+82695,article_jcreated_at,1/1/14,1/14/01
+820059,article_jcreated_at,1/1/04,1/4/01
+771288,article_jcreated_at,1/1/08,1/8/01
+54202,article_jcreated_at,1/1/12,1/12/01
+888477,article_jcreated_at,1/1/15,1/15/01
+741279,article_jcreated_at,1/1/07,1/7/01
+64430,article_jcreated_at,10/1/12,1/12/10
+696132,article_jcreated_at,10/1/11,1/11/10
+257990,article_jcreated_at,1/1/14,1/14/01
+332032,article_jcreated_at,1/1/08,1/8/01
+617801,article_jcreated_at,8/1/05,1/5/08
+480030,article_jcreated_at,1/1/14,1/14/01
+660499,article_jcreated_at,1/1/09,1/9/01
+355078,article_jcreated_at,1/1/02,1/2/01
+696985,article_jcreated_at,1/1/06,1/6/01
+826471,article_jcreated_at,1/1/10,1/10/01
+322953,article_jcreated_at,1/1/10,1/10/01
+180588,article_jcreated_at,1/1/05,1/5/01
+964184,article_jcreated_at,1/1/13,1/13/01
+265490,article_jcreated_at,1/1/14,1/14/01
+749844,article_jcreated_at,1/1/13,1/13/01
+300057,article_jcreated_at,5/1/11,1/11/05
+166521,article_jcreated_at,1/1/04,1/4/01
+292018,article_jcreated_at,8/1/02,1/2/08
+181456,article_jcreated_at,1/1/05,1/5/01
+668772,article_jcreated_at,5/1/13,1/13/05
+788507,article_jcreated_at,1/1/10,1/10/01
+620483,article_jcreated_at,6/1/01,1/1/06
+856471,article_jcreated_at,1/1/03,1/3/01
+570704,article_jcreated_at,7/1/07,1/7/07
+520153,article_jcreated_at,7/1/06,1/6/07
+259267,article_jcreated_at,1/1/12,1/12/01
+24381,article_jcreated_at,11/1/13,1/13/11
+827921,article_jcreated_at,4/1/09,1/9/04
+18298,article_jcreated_at,7/4/14,4/14/07
+365654,article_jcreated_at,1/1/14,1/14/01
+625306,article_jcreated_at,9/1/08,1/8/09
+88262,article_jcreated_at,7/1/14,1/14/07
+307302,article_jcreated_at,6/1/13,1/13/06
+413717,article_jcreated_at,1/1/06,1/6/01
+62246,article_jcreated_at,5/1/02,1/2/05
+649817,article_jcreated_at,6/1/10,1/10/06
+546484,article_jcreated_at,4/1/11,1/11/04
+917231,article_jcreated_at,7/1/12,1/12/07
+887418,article_jcreated_at,1/1/13,1/13/01
+724055,article_jcreated_at,1/1/14,1/14/01
+422739,article_jcreated_at,1/1/10,1/10/01
+155127,article_jcreated_at,12/1/14,1/14/12
+740811,article_jcreated_at,1/1/13,1/13/01
+658981,article_jcreated_at,12/1/12,1/12/12
+521132,article_jcreated_at,9/1/04,1/4/09
+366275,article_jcreated_at,8/1/12,1/12/08
+513630,article_jcreated_at,11/1/14,1/14/11
+605423,article_jcreated_at,1/1/03,1/3/01
+733752,article_jcreated_at,1/1/05,1/5/01
+80799,article_jcreated_at,2/10/14,10/14/02
+385163,article_jcreated_at,1/1/15,1/15/01
+645061,article_jcreated_at,3/1/08,1/8/03
+730721,article_jcreated_at,1/1/12,1/12/01
+410748,article_jcreated_at,1/1/14,1/14/01
+133777,article_jcreated_at,7/1/06,1/6/07
+775428,article_jcreated_at,1/1/14,1/14/01
+497593,article_jcreated_at,1/1/14,1/14/01
+899060,article_jcreated_at,1/1/13,1/13/01
+161290,article_jcreated_at,1/1/05,1/5/01
+191138,article_jcreated_at,1/1/14,1/14/01
+743819,article_jcreated_at,4/1/14,1/14/04
+193292,article_jcreated_at,1/1/04,1/4/01
+663526,article_jcreated_at,4/1/11,1/11/04
+382853,article_jcreated_at,4/1/15,1/15/04
+1266,article_jcreated_at,1/1/08,1/8/01
+407082,article_jcreated_at,11/1/10,1/10/11
+411673,article_jcreated_at,1/1/12,1/12/01
+382297,article_jcreated_at,4/1/15,1/15/04
+414396,article_jcreated_at,1/1/03,1/3/01
+376525,article_jcreated_at,10/1/07,1/7/10
+637323,article_jcreated_at,5/1/06,1/6/05
+153797,article_jcreated_at,1/1/13,1/13/01
+9325,article_jcreated_at,3/1/10,1/10/03
+294719,article_jcreated_at,11/1/13,1/13/11
+518335,article_jcreated_at,5/7/09,7/9/05
+503528,article_jcreated_at,1/1/14,1/14/01
+176844,article_jcreated_at,1/1/14,1/14/01
+820549,article_jcreated_at,1/1/10,1/10/01
+250975,article_jcreated_at,1/1/14,1/14/01
+37173,article_jcreated_at,1/1/11,1/11/01
+641251,article_jcreated_at,10/1/07,1/7/10
+302179,article_jcreated_at,1/1/11,1/11/01
+627882,article_jcreated_at,5/1/07,1/7/05
+264151,article_jcreated_at,1/1/14,1/14/01
+12554,article_jcreated_at,6/10/02,10/2/06
+564924,article_jcreated_at,1/1/14,1/14/01
+727134,article_jcreated_at,1/1/10,1/10/01
+356635,article_jcreated_at,1/1/06,1/6/01
+272721,article_jcreated_at,1/1/09,1/9/01
+979725,article_jcreated_at,1/1/15,1/15/01
+470615,article_jcreated_at,1/1/14,1/14/01
+793299,article_jcreated_at,1/1/15,1/15/01
+673560,article_jcreated_at,7/7/14,7/14/07
+258181,article_jcreated_at,1/1/10,1/10/01
+11709,article_jcreated_at,1/1/05,1/5/01
+603381,article_jcreated_at,1/1/06,1/6/01
+570263,article_jcreated_at,3/1/09,1/9/03
+395807,article_jcreated_at,1/1/10,1/10/01
+149836,article_jcreated_at,1/1/05,1/5/01
+813023,article_jcreated_at,1/1/02,1/2/01
+691035,article_jcreated_at,1/1/14,1/14/01
+121133,article_jcreated_at,1/1/05,1/5/01
+82486,article_jcreated_at,1/1/14,1/14/01
+136032,article_jcreated_at,1/1/04,1/4/01
+57286,article_jcreated_at,3/1/13,1/13/03
+622636,article_jcreated_at,5/1/01,1/1/05
+107979,article_jcreated_at,6/1/03,1/3/06
+252990,article_jcreated_at,1/1/11,1/11/01
+861475,article_jcreated_at,1/1/11,1/11/01
+399134,article_jcreated_at,1/1/15,1/15/01
+315951,article_jcreated_at,1/1/06,1/6/01
+673307,article_jcreated_at,1/1/13,1/13/01
+730754,article_jcreated_at,1/1/09,1/9/01
+246067,article_jcreated_at,1/1/03,1/3/01
+161814,article_jcreated_at,1/1/08,1/8/01
+8529,article_jcreated_at,6/1/12,1/12/06
+198813,article_jcreated_at,1/1/09,1/9/01
+162189,article_jcreated_at,1/1/05,1/5/01
+197174,article_jcreated_at,7/1/05,1/5/07
+6786,article_jcreated_at,1/1/10,1/10/01
+309274,article_jcreated_at,11/1/07,1/7/11
+672671,article_jcreated_at,9/1/13,1/13/09
+819735,article_jcreated_at,1/1/09,1/9/01
+21599,article_jcreated_at,3/1/14,1/14/03
+980682,article_jcreated_at,1/1/14,1/14/01
+547657,article_jcreated_at,1/1/12,1/12/01
+682676,article_jcreated_at,9/1/14,1/14/09
+820238,article_jcreated_at,1/1/05,1/5/01
+82540,article_jcreated_at,12/1/13,1/13/12
+776189,article_jcreated_at,1/1/07,1/7/01
+422951,article_jcreated_at,6/1/15,1/15/06
+514759,article_jcreated_at,11/1/13,1/13/11
+26216,article_jcreated_at,3/1/14,1/14/03
+164517,article_jcreated_at,1/1/02,1/2/01
+304082,article_jcreated_at,3/1/02,1/2/03
+33728,article_jcreated_at,1/1/14,1/14/01
+424870,article_jcreated_at,1/1/03,1/3/01
+916713,article_jcreated_at,4/1/15,1/15/04
+892141,article_jcreated_at,9/1/12,1/12/09
+513503,article_jcreated_at,2/1/15,1/15/02
+83012,article_jcreated_at,7/10/13,10/13/07
+261121,article_jcreated_at,1/1/05,1/5/01
+296269,article_jcreated_at,1/1/15,1/15/01
+960478,article_jcreated_at,1/1/03,1/3/01
+589265,article_jcreated_at,1/1/14,1/14/01
+931944,article_jcreated_at,1/1/08,1/8/01
+305933,article_jcreated_at,1/1/14,1/14/01
+360693,article_jcreated_at,1/1/10,1/10/01
+683893,article_jcreated_at,5/1/11,1/11/05
+168157,article_jcreated_at,1/1/09,1/9/01
+97775,article_jcreated_at,1/1/11,1/11/01
+134738,article_jcreated_at,1/1/12,1/12/01
+66579,article_jcreated_at,1/1/14,1/14/01
+557824,article_jcreated_at,1/1/14,1/14/01
+658982,article_jcreated_at,5/1/10,1/10/05
+272806,article_jcreated_at,1/1/10,1/10/01
+500618,article_jcreated_at,1/1/05,1/5/01
+385346,article_jcreated_at,10/1/13,1/13/10
+383183,article_jcreated_at,5/1/15,1/15/05
+889260,article_jcreated_at,1/1/15,1/15/01
+392576,article_jcreated_at,6/1/05,1/5/06
+209012,article_jcreated_at,1/1/14,1/14/01
+786558,article_jcreated_at,1/1/13,1/13/01
+35875,article_jcreated_at,8/1/13,1/13/08
+882786,article_jcreated_at,10/1/03,1/3/10
+332926,article_jcreated_at,1/1/13,1/13/01
+817811,article_jcreated_at,1/1/13,1/13/01
+855970,article_jcreated_at,1/1/13,1/13/01
+643856,article_jcreated_at,1/1/07,1/7/01
+482584,article_jcreated_at,6/1/14,1/14/06
+553088,article_jcreated_at,10/1/14,1/14/10
+575935,article_jcreated_at,9/1/15,1/15/09
+160121,article_jcreated_at,11/1/10,1/10/11
+84783,article_jcreated_at,7/1/12,1/12/07
+894794,article_jcreated_at,8/1/09,1/9/08
+946487,article_jcreated_at,1/1/10,1/10/01
+685456,article_jcreated_at,2/1/01,1/1/02
+6028,article_jcreated_at,1/1/13,1/13/01
+558738,article_jcreated_at,1/1/13,1/13/01
+260738,article_jcreated_at,1/1/05,1/5/01
+979155,article_jcreated_at,9/1/14,1/14/09
+670823,article_jcreated_at,11/1/13,1/13/11
+73289,article_jcreated_at,4/1/14,1/14/04
+426134,article_jcreated_at,1/1/14,1/14/01
+255382,article_jcreated_at,6/1/02,1/2/06
+814758,article_jcreated_at,1/1/07,1/7/01
+968815,article_jcreated_at,1/1/11,1/11/01
+734259,article_jcreated_at,1/1/12,1/12/01
+86421,article_pagination,3582-9,Sep-82
+669596,article_pagination,3191-7,Jul-91
+421512,article_pagination,17-8,17-Aug
+612846,article_pagination,93-7,Jul-93
+863844,article_pagination,2603-8,3-Aug
+232775,article_pagination,43-4,Apr-43
+245822,article_pagination,3541-4,Apr-41
+408188,article_pagination,2700-7,Jul-00
+615903,article_pagination,70-6,Jun-70
+475847,article_pagination,91-3,Mar-91
+784224,article_pagination,43-8,Aug-43
+855099,article_pagination,51-5,May-51
+743602,article_pagination,2692-9,Sep-92
+873987,article_pagination,1972-4,Apr-72
+145874,article_pagination,94-9,Sep-94
+925315,article_pagination,2815-7,15-Jul
+254327,article_pagination,83-7,Jul-83
+587683,article_pagination,81-3,Mar-81
+24026,article_pagination,93-6,Jun-93
+117678,article_pagination,2055-9,Sep-55
+204215,article_pagination,3111-9,11-Sep
+589465,article_pagination,36-9,Sep-36
+82695,article_pagination,64-7,Jul-64
+54202,article_pagination,13-21 DO  - 10.1016/j.brat.2011.1009,13-21 DO  - 10.1016/j.brat.2011.10.009
+355078,article_pagination,74-6,Jun-74
+945021,article_pagination,84-8,Aug-84
+215650,article_pagination,91-8,Aug-91
+407082,article_pagination,2063-8,Aug-63
+793299,article_pagination,72-7,Jul-72
+33728,article_pagination,41-7,Jul-41
+296269,article_pagination,25427000000000000000,2050000000000000
+575935,article_pagination,71-7,Jul-71
+558738,article_pagination,2371-8,Aug-71
+729712,author_list,"{""St��_ber F""""Mutz N""""Wrigge H""""Putensen C""""Zinserling J""""Zech S""""Von Spiegel T""}","{""St_ber F""""Mutz N""""Wrigge H""""Putensen C""""Zinserling J""""Zech S""""Von Spiegel T""}"
+163526,author_list,"{""V. E. CN  - medline DA  - Sep-Oct DB  - MEDLINE DO  - http://dx.doi.org/10.1111/j.1552-6909.20111275.x DP  - Ovid Technologies von Gruenigen""""A. M. Burkett""""J. Doyle""""T. H. Kenny""}","{""V. E. CN  - medline DA  - Sep-Oct DB  - MEDLINE DO  - http://dx.doi.org/10.1111/j.1552-6909.2011.01275.x DP  - Ovid Technologies von Gruenigen""""A. M. Burkett""""J. Doyle""""T. H. Kenny""}"
+660168,author_list,"{""R Loch Macdonald""""Farbod Asgarzadie-Gadim""""Yeon Gyoe Jang""""Daniel J Curry""""Rachel N Yanowitch""""Kim E Schultheiss""""Jocelyn Tolentino""""J�_rgen L�_ders""}","{""R Loch Macdonald""""Farbod Asgarzadie-Gadim""""Yeon Gyoe Jang""""Daniel J Curry""""Rachel N Yanowitch""""Kim E Schultheiss""""Jocelyn Tolentino""""J_rgen L_ders""}"
+318931,author_list,"{""M. Pujol""""P. Barrag��n""""J.M. Tiraboschi""""A. Imaz""""M.́. Dom�_nguez""""D. Podzamczer""}","{""M. Pujol""""P. Barragn""""J.M. Tiraboschi""""A. Imaz""""M.. Dom_nguez""""D. Podzamczer""}"
+349150,author_list,"{""O Ceki̤""""C Batman""}","{""O Ceki_""""C Batman""}"
+826030,author_list,"{""Cecilia Bj̦rkelund""""Margaretha Jerlock""}","{""Cecilia Bj_rkelund""""Margaretha Jerlock""}"
+408062,author_list,"{""E Huguet""""O Porta""""E Mart�_nez""""I Mora""""M Sim�_""""J Pubill""""J A Ortega""""M T Castillo""}","{""E Huguet""""O Porta""""E Mart_nez""""I Mora""""M Sim_""""J Pubill""""J A Ortega""""M T Castillo""}"
+894596,author_list,"{""Miquel S����nchez-Marr���""""Geoff Holmes""""Joaqu���_n Izquierdo""""Joaquim Comas""""Ioannis Athanasiadis""""Karina Gibert""}","{""Miquel S_nchez-Marr""""Geoff Holmes""""Joaqu_n Izquierdo""""Joaquim Comas""""Ioannis Athanasiadis""""Karina Gibert""}"
+931323,author_list,"{""N. Jakubik""""L. Trzpil""""F. Raciborski""""U. Samolinska-Zawisza""""L. Samoli̱ski""""D. Paczesny""""Z. Halat""""J. Marszalkowska""""B. Samolinski""""P. Samel-Kowalik""""A. Lusawa""""J. Gutowska""""A. Tomaszewska""""A. Walkiewicz""}","{""N. Jakubik""""L. Trzpil""""F. Raciborski""""U. Samolinska-Zawisza""""L. Samoliski""""D. Paczesny""""Z. Halat""""J. Marszalkowska""""B. Samolinski""""P. Samel-Kowalik""""A. Lusawa""""J. Gutowska""""A. Tomaszewska""""A. Walkiewicz""}"
+816680,author_list,"{""M. Tercedor S��nchez""""J.A. Prieto Velasco""}","{""M. Tercedor Snchez""""J.A. Prieto Velasco""}"
+148787,author_list,"{""J. L. Hastings""""G. Biolo""""B. D. Levine""""T. Tillery""""R. M. Peshock""""T. A. Dorfman""""B. R. Macias""""A. R. DA  - Jul DO  - 10.1152/japplphysiol1162.2006 DP  - NLM ET  - 2007/03/24 Hargens""""S. M. Schneider""}","{""J. L. Hastings""""G. Biolo""""B. D. Levine""""T. Tillery""""R. M. Peshock""""T. A. Dorfman""""B. R. Macias""""A. R. DA  - Jul DO  - 10.1152/japplphysiol.01162.2006 DP  - NLM ET  - 2007/03/24 Hargens""""S. M. Schneider""}"
+886237,author_list,"{""G̩raldine Martin-Gaujard""""Floriane Delphin-Combe""""Isabelle Rouch""""Solveig Relland""""Pierre Krolak-Salmon""}","{""Graldine Martin-Gaujard""""Floriane Delphin-Combe""""Isabelle Rouch""""Solveig Relland""""Pierre Krolak-Salmon""}"
+36429,author_list,"{""V Cus�_""""H Galvez""""M Iriondo""""J Campistol""""I M��laga""""A Garc�_a Cazorla""}","{""V Cus_""""H Galvez""""M Iriondo""""J Campistol""""I Mlaga""""A Garc_a Cazorla""}"
+772616,author_list,"{""di Raimondo D.""""Pinto A.""""Lucifora B.""""Tuttolomondo A.""""Licata G.""""Butt�� C.""}","{""di Raimondo D.""""Pinto A.""""Lucifora B.""""Tuttolomondo A.""""Licata G.""""Butt_ C.""}"
+49698,author_list,"{""C. C2  - Pmc2827243 C6  - Nihms132141 DA  - Oct DO  - 10.1053/j.gastro.2009660 DP  - NLM ET  - 2009/07/15 Di Lorenzo""""M. Saps""""S. Nurko""""P. Hyman""""N. Youssef""""A. Miranda""""J. Cocjin""}","{""C. C2  - Pmc2827243 C6  - Nihms132141 DA  - Oct DO  - 10.1053/j.gastro.2009.06.060 DP  - NLM ET  - 2009/07/15 Di Lorenzo""""M. Saps""""S. Nurko""""P. Hyman""""N. Youssef""""A. Miranda""""J. Cocjin""}"
+704093,author_list,"{""D Chochol���""""R Chaloupka""""B Kala""""J Gallo""""M Netval""}","{""D Chochol""""R Chaloupka""""B Kala""""J Gallo""""M Netval""}"
+429995,author_list,"{""A Philotheou""""S R Heller""""J Jendle""""M-A Gall""""K K��lendorf""""G P Ross""""G Perriello""""I Pavlic-Renar""}","{""A Philotheou""""S R Heller""""J Jendle""""M-A Gall""""K Klendorf""""G P Ross""""G Perriello""""I Pavlic-Renar""}"
+657210,author_list,"{""Michiel A J Kompier""""Etty G A Wielenga-Meijer""""Dani��l H J Wigboldus""""Toon W Taris""}","{""Michiel A J Kompier""""Etty G A Wielenga-Meijer""""Dani_l H J Wigboldus""""Toon W Taris""}"
+565079,author_list,"{""John M O�_Callaghan""""Robert D Morgan""""Peter J Morris""""Simon R Knight""}","{""John M O__Callaghan""""Robert D Morgan""""Peter J Morris""""Simon R Knight""}"
+326944,author_list,"{""Andreas M���_gge""""Christoph Hanefeld""""Rainer H B���ger""""[Collective Name] CARDIAC study investigators""}","{""Andreas M_gge""""Christoph Hanefeld""""Rainer H B_ger""""[Collective Name] CARDIAC study investigators""}"
+428363,author_list,"{""L Ramos""""S Mathur�_n""""A Mateo""""C L�_pez""""C G�_mez""}","{""L Ramos""""S Mathur_n""""A Mateo""""C L_pez""""C G_mez""}"
+111336,author_list,"{""Anders Halling""""H̴kan Odeberg""""Henrik Forssell""""Jacob Odeberg""""Marie-Louise Persson""""Lennart R̴stam""""Ivar Vaara""""Ulf Lindblad""""Michael Freitag""}","{""Anders Halling""""Hkan Odeberg""""Henrik Forssell""""Jacob Odeberg""""Marie-Louise Persson""""Lennart Rstam""""Ivar Vaara""""Ulf Lindblad""""Michael Freitag""}"
+610641,author_list,"{""Luiz Rog̩rio de Carvalho Oliveira""""Nilza Aparecida Almeida de Carvalho""""Fl��vio C L Cavalcanti Ara̼jo""""Izabela Menezes Pagotto""""Paulo Chiavone""}","{""Luiz Rogrio de Carvalho Oliveira""""Nilza Aparecida Almeida de Carvalho""""Flvio C L Cavalcanti Ara_jo""""Izabela Menezes Pagotto""""Paulo Chiavone""}"
+981412,author_list,"{""N. M. Pinheiro""""R. Almeida-Reis""""L. Oliva""""M. A. Martins""""M. L. V. Oliva""""O. A. Theodoro-Junior""""E. A. Leick""""I. F. L. C. Tib̩rio""""C. M. Prado""""R. F. Righetti""""B. T. M. Oliveira""}","{""N. M. Pinheiro""""R. Almeida-Reis""""L. Oliva""""M. A. Martins""""M. L. V. Oliva""""O. A. Theodoro-Junior""""E. A. Leick""""I. F. L. C. Tibrio""""C. M. Prado""""R. F. Righetti""""B. T. M. Oliveira""}"
+734077,author_list,"{""M. Niewada""""J. Pawe��ska""""A. Budaj""""T. Macioch""""P. Perkowski""}","{""M. Niewada""""J. Paweska""""A. Budaj""""T. Macioch""""P. Perkowski""}"
+904889,author_list,"{""Ge H.-Y.""""Fern��ndez-de-las-Pe̱as C.""""Yue S.-W.""}","{""Ge H.-Y.""""Fernndez-de-las-Peas C.""""Yue S.-W.""}"
+746065,author_list,"{""Costin M.""""Dumbrav�_ E.L.""""Postolache P.""""Cojocaru D.C.""}","{""Costin M.""""Dumbrav__ E.L.""""Postolache P.""""Cojocaru D.C.""}"
+385940,author_list,"{""Jesper I Reimers""""Sabrina G Elles��e""""Henrik �� Andersen""}","{""Jesper I Reimers""""Sabrina G Ellese""""Henrik  Andersen""}"
+515254,author_list,"{""S Murat""""H Avsever""""S Y�_ksel""""C S Paksoy""""B Onder""""K Kamburoglu""}","{""S Murat""""H Avsever""""S Y_ksel""""C S Paksoy""""B Onder""""K Kamburoglu""}"
+674623,author_list,"{""Angel Rosa-Alc����zar""""Ana I Rosa-Alc����zar""""Marina Iniesta-Sep���lveda""}","{""Angel Rosa-Alczar""""Ana I Rosa-Alczar""""Marina Iniesta-Sep_lveda""}"
+57483,author_list,"{""Diana Duro""""Augusto Gouḷo""""Gon̤alo Santos""""Nuno Mendon̤a""""Isabel Santana""""Eg�_dio Machado""}","{""Diana Duro""""Augusto Goulo""""Gon_alo Santos""""Nuno Mendon_a""""Isabel Santana""""Eg_dio Machado""}"
+348813,author_list,"{""G Vaksmann""""A Vincentelli""""C Francart""""M A Cajot""""G M Brevi̬re""""F Godart""""J M Coullet""""P Devos""""C Rey""}","{""G Vaksmann""""A Vincentelli""""C Francart""""M A Cajot""""G M Brevire""""F Godart""""J M Coullet""""P Devos""""C Rey""}"
+762269,author_list,"{""Renata Vrsalovi����""""Eva Verona""""Iva Mihatov-Stefanovi����""""Biserka Cicak""}","{""Renata Vrsalovi_""""Eva Verona""""Iva Mihatov-Stefanovi_""""Biserka Cicak""}"
+798716,author_list,"{""Akin Uz�_mc�_gil""""Meral Top̤u""""M Fani Bozkurt""""Sinem Akg�_l""}","{""Akin Uz_mc_gil""""Meral Top_u""""M Fani Bozkurt""""Sinem Akg_l""}"
+615903,author_list,"{""T Reinhold""""F M�_ller-Riemenschneider""""S N Willich""}","{""T Reinhold""""F M_ller-Riemenschneider""""S N Willich""}"
+881020,author_list,"{""J Arana""""E Rezola""""A Villanueva""""M I Intxaurrondo""""M Su̱ol""""I Eizaguirre""""J Garay""}","{""J Arana""""E Rezola""""A Villanueva""""M I Intxaurrondo""""M Suol""""I Eizaguirre""""J Garay""}"
+369162,author_list,"{""Serkan Durdu""""Ahmet R���_���han Akar""""G���_nseli Cubuk���uo����lu Deniz""}","{""Serkan Durdu""""Ahmet R__han Akar""""G_nseli Cubuk_uolu Deniz""}"
+217524,author_list,"{""K. Tamaki""""A. G. C��lar""""S. Beyrer""""H. Aoki""}","{""K. Tamaki""""A. G. C_lar""""S. Beyrer""""H. Aoki""}"
+49274,author_list,"{""J. Naesdal""""M. Danilewitz""""J. Adler""""D. G. DA  - Oct DO  - 10.1111/j.1572-0241.20082115.x DP  - NLM ET  - 2008/09/09 Silberg""""C. Hwang""""D. A. Drossman""}","{""J. Naesdal""""M. Danilewitz""""J. Adler""""D. G. DA  - Oct DO  - 10.1111/j.1572-0241.2008.02115.x DP  - NLM ET  - 2008/09/09 Silberg""""C. Hwang""""D. A. Drossman""}"
+687404,author_list,"{""Yi Wang""""Yu Zhou""""RongDang Hu""""XiuYing Wang""""Gerald Voli̬re""}","{""Yi Wang""""Yu Zhou""""RongDang Hu""""XiuYing Wang""""Gerald Volire""}"
+853882,author_list,"{""M Raderer""""C Gedlicka""""A Lenauer""""D Depisch""""W Scheithauer""""B Schneeweiss""""W Fiebiger""""F Lang""""G V Kornek""""B Sch���_ll""}","{""M Raderer""""C Gedlicka""""A Lenauer""""D Depisch""""W Scheithauer""""B Schneeweiss""""W Fiebiger""""F Lang""""G V Kornek""""B Sch_ll""}"
+565528,author_list,"{""Marie-Pierre Gagnon""""Claude Sicotte""""��dith-Romy Nsangou""""Sonya Grenier""""Julie Payne-Gagnon""}","{""Marie-Pierre Gagnon""""Claude Sicotte""""_dith-Romy Nsangou""""Sonya Grenier""""Julie Payne-Gagnon""}"
+855099,author_list,"{""Przemys��aw P Szyber""""Artur Pupka""""Piotr Szyber""""Jerzy Garcarek""}","{""Przemys_aw P Szyber""""Artur Pupka""""Piotr Szyber""""Jerzy Garcarek""}"
+846319,author_list,"{""Nielsen H.O.""""Edwin B.""""H�_nerbein M.""""Hovendal C.""""Liedman B.""""Mortensen M.B.""}","{""Nielsen H.O.""""Edwin B.""""H_nerbein M.""""Hovendal C.""""Liedman B.""""Mortensen M.B.""}"
+732272,author_list,"{""Linsenmaier U""""Geyer LL""""K���rner M""""Meisel CD""""Wirth S""""Reiser MF""}","{""Linsenmaier U""""Geyer LL""""K_rner M""""Meisel CD""""Wirth S""""Reiser MF""}"
+378289,author_list,"{""L Lenhardt""""S Mozes""""A Martinkov��""}","{""L Lenhardt""""S Mozes""""A Martinkov""}"
+641972,author_list,"{""S��ren Brostr��m""""Gunnar Lose""}","{""Sren Brostrm""""Gunnar Lose""}"
+125302,author_list,"{""E A M Janssen""""C Brodin""""P Ogreid""""K Kjellevold""""L G G��ransson""""L Vatten""""P R Romundstad""""R Omdal""""K Wildhagen""}","{""E A M Janssen""""C Brodin""""P Ogreid""""K Kjellevold""""L G Gransson""""L Vatten""""P R Romundstad""""R Omdal""""K Wildhagen""}"
+105981,author_list,"{""George Davey Smith""""Amanda J Bennett""""Eleftheria Zeggini""""Marjo-Riitta Jarvelin""""Nicholas J Wareham""""Lorna W Harries""""Colin N A Palmer""""Shah Ebrahim""""Timothy M Frayling""""Susan M Ring""""Bridget Knight""""Sian Ellard""""Katharine R Owen""""Rachel M Freathy""""Hana Lango""""Debbie A Lawlor""""Lon R Cardon""""John R B Perry""""Jeffrey C Barrett""""Andrew D Morris""""Graham A Hitman""""Katherine S Elliott""""Ulla Sovio""""Mark I McCarthy""""David Melzer""""Alex S F Doney""""Andrew R Ness""""Yoav Ben-Shlomo""""Andrew T Hattersley""""Ann-Marie Patch""""Nicholas J Timpson""""Nigel W Rayner""""Mark Walker""""Michael N Weedon""""Ruth J F Loos""""Fredrik Karpe""""In̻s Barroso""""Luigi Ferrucci""""Christopher J Groves""""Cecilia M Lindgren""""Beverley Shields""}","{""George Davey Smith""""Amanda J Bennett""""Eleftheria Zeggini""""Marjo-Riitta Jarvelin""""Nicholas J Wareham""""Lorna W Harries""""Colin N A Palmer""""Shah Ebrahim""""Timothy M Frayling""""Susan M Ring""""Bridget Knight""""Sian Ellard""""Katharine R Owen""""Rachel M Freathy""""Hana Lango""""Debbie A Lawlor""""Lon R Cardon""""John R B Perry""""Jeffrey C Barrett""""Andrew D Morris""""Graham A Hitman""""Katherine S Elliott""""Ulla Sovio""""Mark I McCarthy""""David Melzer""""Alex S F Doney""""Andrew R Ness""""Yoav Ben-Shlomo""""Andrew T Hattersley""""Ann-Marie Patch""""Nicholas J Timpson""""Nigel W Rayner""""Mark Walker""""Michael N Weedon""""Ruth J F Loos""""Fredrik Karpe""""In_s Barroso""""Luigi Ferrucci""""Christopher J Groves""""Cecilia M Lindgren""""Beverley Shields""}"
+408198,author_list,"{""H H̦ger""""W Sieghart""""T Klausberger""""I Milenkovic""""M Vasiljevic""""D Maurer""}","{""H H_ger""""W Sieghart""""T Klausberger""""I Milenkovic""""M Vasiljevic""""D Maurer""}"
+102180,author_list,"{""R Carraro""""M F Rasmussen""""L Niskanen""""A Harper""""N Finer""""S R̦ssner""""M Kunesova""""L Van Gaal""""M E J Lean""""A Astrup""""A Rissanen""""M J Savolainen""""[Collective Name] NN8022-1807 Investigators""}","{""R Carraro""""M F Rasmussen""""L Niskanen""""A Harper""""N Finer""""S R_ssner""""M Kunesova""""L Van Gaal""""M E J Lean""""A Astrup""""A Rissanen""""M J Savolainen""""[Collective Name] NN8022-1807 Investigators""}"
+713518,author_list,"{""Gerlane ��ngela da Costa Moreira""""Denyse Dutra Alencar Vasconcelos""""Amanda Costa de Freitas""""Carla Cristina Braga Maranh���o""""Danielle Figueiredo Patricio""}","{""Gerlane ngela da Costa Moreira""""Denyse Dutra Alencar Vasconcelos""""Amanda Costa de Freitas""""Carla Cristina Braga Maranho""""Danielle Figueiredo Patricio""}"
+828214,author_list,"{""Philipp Martius""""Anna Buchheim""""Peter Buchheim""""Susanne H���rz""""Michael Rentrop""""Cord Benecke""""Peter Schuster""""Melitta Fischer-Kern""""Stephan Doering""}","{""Philipp Martius""""Anna Buchheim""""Peter Buchheim""""Susanne H_rz""""Michael Rentrop""""Cord Benecke""""Peter Schuster""""Melitta Fischer-Kern""""Stephan Doering""}"
+647583,author_list,"{""Ana Maria Baptista Menezes""""David Alejandro Gonz��lez""""Elaine Cardozo Macedo""""Pedro Curi Hallal""""Maria de F��tima Maia""""Marli Knorst""""Samuel Carvalho Dumith""""Jeovany Mart�_nez-Mesa""""Ricardo Bica Noal""""Fernando C̩sar Wehrmeister""""Jos̩ Roberto Jardim""}","{""Ana Maria Baptista Menezes""""David Alejandro Gonzlez""""Elaine Cardozo Macedo""""Pedro Curi Hallal""""Maria de Ftima Maia""""Marli Knorst""""Samuel Carvalho Dumith""""Jeovany Mart_nez-Mesa""""Ricardo Bica Noal""""Fernando Csar Wehrmeister""""Jos Roberto Jardim""}"
+55809,author_list,"{""Anna Nidecker""""Siamak Ardekani""""E Mark Mahone""""Firouzeh Tannazi""""Jarunee Intrapiromkul""""Moody Wharam""""Larry J Brant""""Alena Horsk��""}","{""Anna Nidecker""""Siamak Ardekani""""E Mark Mahone""""Firouzeh Tannazi""""Jarunee Intrapiromkul""""Moody Wharam""""Larry J Brant""""Alena Horsk""}"
+145770,author_list,"{""Gilles Montalescot""""Gordon FitzGerald""""Kurt G Barringhaus""""[Collective Name] GRACE Investigators""""Frans Van de Werf""""Joel M Gore""""David D McManus""""Jos̩ L�_pez-Send�_n""""Philippe Gabriel Steg""""Kay Lee Park""}","{""Gilles Montalescot""""Gordon FitzGerald""""Kurt G Barringhaus""""[Collective Name] GRACE Investigators""""Frans Van de Werf""""Joel M Gore""""David D McManus""""Jos L_pez-Send_n""""Philippe Gabriel Steg""""Kay Lee Park""}"
+24026,author_list,"{""Marcus R Munaf�_""""Mike W Peacey""""In-Uck Park""}","{""Marcus R Munaf_""""Mike W Peacey""""In-Uck Park""}"
+646572,author_list,"{""R Schwarz""""J Ernst""""M Zenger""""E Br�_hler""""R Schmidt""}","{""R Schwarz""""J Ernst""""M Zenger""""E Br_hler""""R Schmidt""}"
+128182,author_list,"{""M. Rossignol""""F. A. Allaert""""B. Bannwarth""""J. P. C1  - Fr̴n RCT-șkningen CN  - Pubmed DA  - Jun DP  - NLM ET  - 2005/06/09 Valat""""S. Rozenberg""""B. Avouac""}","{""M. Rossignol""""F. A. Allaert""""B. Bannwarth""""J. P. C1  - Frn RCT-s_kningen CN  - Pubmed DA  - Jun DP  - NLM ET  - 2005/06/09 Valat""""S. Rozenberg""""B. Avouac""}"
+163093,author_list,"{""Robert L. Kriel""""Jennifer R. Riss""""Vijay D. Ivaturi""""James C. C2  - 19231138 DB  - MEDLINE DO  - http://dx.doi.org/10.1016/j.eplepsyres.2009101 Cloyd""""Ronald A. Siegel""}","{""Robert L. Kriel""""Jennifer R. Riss""""Vijay D. Ivaturi""""James C. C2  - 19231138 DB  - MEDLINE DO  - http://dx.doi.org/10.1016/j.eplepsyres.2009.01.001 Cloyd""""Ronald A. Siegel""}"
+31763,author_list,"{""Irene G Salado""""Ana Martinez""""Daniel I Perez""""Brian C Kraemer""""Murilo L Bello""""Concepci�_n Perez""""Nicole F Liachko""""Magalie Lecourtois""""Miriam Redondo""""Carmen Gil""""Laetitia Miguel""}","{""Irene G Salado""""Ana Martinez""""Daniel I Perez""""Brian C Kraemer""""Murilo L Bello""""Concepci_n Perez""""Nicole F Liachko""""Magalie Lecourtois""""Miriam Redondo""""Carmen Gil""""Laetitia Miguel""}"
+638338,author_list,"{""Sergio Raposeiras-Roub�_n""""Jos̩ Maria Garc�_a-Acu̱a""""Jos̩ Ram�_n Gonz��lez-Juanatey""}","{""Sergio Raposeiras-Roub_n""""Jos Maria Garc_a-Acua""""Jos Ram_n Gonzlez-Juanatey""}"
+14077,author_list,"{""C L̦liger""""K Neuber""""J Ring""""I K̦hler""}","{""C L_liger""""K Neuber""""J Ring""""I K_hler""}"
+204215,author_list,"{""N̼ria Lloberas""""Marcel la Franquesa""""Josep M Cruzado""""Josep M Griny�_""""In̩s Rama""""Gabriela Alperovich""""Immaculada Herrero-Fresneda""""Joan Torras""""Pepita Gim̩nez-Bonaf̩""}","{""N_ria Lloberas""""Marcel la Franquesa""""Josep M Cruzado""""Josep M Griny_""""Ins Rama""""Gabriela Alperovich""""Immaculada Herrero-Fresneda""""Joan Torras""""Pepita Gimnez-Bonaf""}"
+136068,author_list,"{""T. H. Michel""""W. C1  - Fr̴n RCT-șkningen CN  - Pubmed DA  - Jul 1 DP  - NLM ET  - 2000/06/28 Rogers""""A. Wagner""""H. Wittink""""R. Kulich""""A. Sukiennik""""R. Maciewicz""}","{""T. H. Michel""""W. C1  - Frn RCT-s_kningen CN  - Pubmed DA  - Jul 1 DP  - NLM ET  - 2000/06/28 Rogers""""A. Wagner""""H. Wittink""""R. Kulich""""A. Sukiennik""""R. Maciewicz""}"
+160820,author_list,"{""M Caliskan""""M Karab̦c�_oglu""""A Citak""""N Uzel""""K Aydin""""A Nayir""""D D Soysal""}","{""M Caliskan""""M Karab_c_oglu""""A Citak""""N Uzel""""K Aydin""""A Nayir""""D D Soysal""}"
+605277,author_list,"{""Andreas Beelmann""""Friedrich L̦sel""}","{""Andreas Beelmann""""Friedrich L_sel""}"
+150198,author_list,"{""S. K. Chaturvedi""""D. CN  - PubMed_140821 DA  - Jan DO  - 10.1097/YCOb013e328010ca65 DP  - NLM ET  - 2006/12/05 Bhugra""}","{""S. K. Chaturvedi""""D. CN  - PubMed_140821 DA  - Jan DO  - 10.1097/YCO.0b013e328010ca65 DP  - NLM ET  - 2006/12/05 Bhugra""}"
+157566,author_list,"{""Paolo Dell'Oglio""""Alessandro Larcher""""Nicola Fossati""""Nicol�_ Maria Buffi""""Alberto Abrate""""Giuliana Lista""""Francesco Montorsi""""Francesco Mistretta""""Massimo Lazzeri""""Giorgio Guazzoni""""Giovanni Lughezzani""}","{""Paolo Dell'Oglio""""Alessandro Larcher""""Nicola Fossati""""Nicol_ Maria Buffi""""Alberto Abrate""""Giuliana Lista""""Francesco Montorsi""""Francesco Mistretta""""Massimo Lazzeri""""Giorgio Guazzoni""""Giovanni Lughezzani""}"
+820508,author_list,"{""E.-B. Malmgren-Olsson""""K. Armelius""""B.-��. Armelius""}","{""E.-B. Malmgren-Olsson""""K. Armelius""""B.-. Armelius""}"
+54202,author_list,"{""O E Havik""""P Carlbring""""L G ��st""""T Nordgreen""""G Andersson""""T Furmark""}","{""O E Havik""""P Carlbring""""L G _st""""T Nordgreen""""G Andersson""""T Furmark""}"
+826471,author_list,"{""Sergio Garrido""""Angeles Pulgar""""Stefan Duschek""""Mar�_a Mart�_n-V��zquez""""Gustavo A Reyes Del Paso""}","{""Sergio Garrido""""Angeles Pulgar""""Stefan Duschek""""Mar_a Mart_n-Vzquez""""Gustavo A Reyes Del Paso""}"
+379577,author_list,"{""C Pithan""""M Mazariegos""""N W Solomons""""P F�_rst""}","{""C Pithan""""M Mazariegos""""N W Solomons""""P F_rst""}"
+215650,author_list,"{""Ronaldo Fazzi""""Ana Estela Haddad""""Maria Salete Nah��s Pires Corr̻a""}","{""Ronaldo Fazzi""""Ana Estela Haddad""""Maria Salete Nahs Pires Corr_a""}"
+605423,author_list,"{""J�_rgen Rehm""""Gerhard Gmel""""Maurizio Trevisan""""Christopher T Sempos""}","{""J_rgen Rehm""""Gerhard Gmel""""Maurizio Trevisan""""Christopher T Sempos""}"
+133777,author_list,"{""P G̩rard""""J Montesanti""""P Lepage""""M M Massin""}","{""P Grard""""J Montesanti""""P Lepage""""M M Massin""}"
+743819,author_list,"{""Eunice Molinar-Toribio""""Benjam�_n Pi̱a""""Livia G�_mez""""Jara P̩rez-Jim̩nez""""Marta Casado""""Sara Ramos-Romero""""Pere Clap̩s""""Josep Llu�_s Torres""}","{""Eunice Molinar-Toribio""""Benjam_n Pia""""Livia G_mez""""Jara Prez-Jimnez""""Marta Casado""""Sara Ramos-Romero""""Pere Claps""""Josep Llu_s Torres""}"
+470615,author_list,"{""Francitorra ME""""Sanchez GS""""Manrique CA""""Velasco TT""""Castany A R""""Escriche XF""""Fern����ndez CS""""Fornell LL""""���lvarez S���""""Fern����ndez EA""""Rodriguez MVF""""Sim���_ MR""""Mayo EP""}","{""Francitorra ME""""Sanchez GS""""Manrique CA""""Velasco TT""""Castany A R""""Escriche XF""""Fernndez CS""""Fornell LL""""lvarez S""""Fernndez EA""""Rodriguez MVF""""Sim_ MR""""Mayo EP""}"
+793299,author_list,"{""Venancio Mart�_nez Su��rez""}","{""Venancio Mart_nez Surez""}"
+673560,author_list,"{""Margarita Admetlla Falgueras""""Josep Fust��� Sugra���es""}","{""Margarita Admetlla Falgueras""""Josep Fust Sugraes""}"
+136032,author_list,"{""D. Russell""""P. Linck""""R. Hibbs""""I. Russell""""R. Muntz""""N. H. Williams""""B. C1  - Fr̴n RCT-șkningen CN  - Pubmed DA  - Dec DO  - 10.1093/fampra/cmh612 DP  - NLM ET  - 2004/11/09 Hounsome""""R. T. Edwards""""C. Wilkinson""}","{""D. Russell""""P. Linck""""R. Hibbs""""I. Russell""""R. Muntz""""N. H. Williams""""B. C1  - Frn RCT-s_kningen CN  - Pubmed DA  - Dec DO  - 10.1093/fampra/cmh612 DP  - NLM ET  - 2004/11/09 Hounsome""""R. T. Edwards""""C. Wilkinson""}"
+107979,author_list,"{""T Fors̩n""""J Eriksson""""C Osmond""""D Barker""}","{""T Forsn""""J Eriksson""""C Osmond""""D Barker""}"
+8529,author_list,"{""Gerard H Koppelman""""Johan C de Jongste""""Liset E M Elstgeest""""Henri��tte A Smit""""Ulrike Gehring""""Annemien Haveman-Nies""""Marjan Kerkhof""""Marga B M Bekkers""""Alet H Wijga""""Salome Scholtens""}","{""Gerard H Koppelman""""Johan C de Jongste""""Liset E M Elstgeest""""Henri_tte A Smit""""Ulrike Gehring""""Annemien Haveman-Nies""""Marjan Kerkhof""""Marga B M Bekkers""""Alet H Wijga""""Salome Scholtens""}"
+198813,author_list,"{""S. G. DB  - c8h DO  - 10.1097/01.NURSE000343454.35505.5a DP  - EBSCOhost Camden""}","{""S. G. DB  - c8h DO  - 10.1097/01.NURSE.0000343454.35505.5a DP  - EBSCOhost Camden""}"
+916713,author_list,"{""Delia Aguado""""Javier Benito""""Ignacio A G���_mez de Segura""""Mariana Abreu""""Javier Garc���_a-Fern����ndez""}","{""Delia Aguado""""Javier Benito""""Ignacio A G_mez de Segura""""Mariana Abreu""""Javier Garc_a-Fernndez""}"
+513503,author_list,"{""Felipe Serṛo de Souza""""Ney Pecegueiro do Amaral""""Carlos Henrique Mendes""""Hilton Augusto Koch""""Vincenzo Giordano""""Andr̩ Bergamin""}","{""Felipe Serro de Souza""""Ney Pecegueiro do Amaral""""Carlos Henrique Mendes""""Hilton Augusto Koch""""Vincenzo Giordano""""Andr Bergamin""}"
+83012,author_list,"{""Chu Chen""""Brian L Strom""""Susan E McCann""""Harvey A Risch""""Lingeng Lu""""Fulvio Ricceri""""Immaculata De Vivo""""Amanda B Spurdle""""Susan E Hankinson""""Pamela J Thompson""""Catherine Schairer""""Herbert Yu""""Radhai Rastogi""""Jennifer Doherty""""Carlotta Sacerdote""""Laurence N Kolonel""""Mia M Gaudet""""Kim Robien""""Marc T Goodman""""Piet A van den Brandt""""Robert A Soslow""""Jolanta Lissowska""""Anthony B Miller""""Kirsten B Moysich""""Montserrat Garcia-Closas""""Silvia Polidoro""""Linda S Cook""""Kristin E Anderson""""Rayna K Matsuno""""Xiao-ou Shu""""Penelope M Webb""""Kerry S Courneya""""Christine M Friedenreich""""Jo L Freudenheim""""Yong-Bing Xiang""""Brian E Henderson""""Galina Lurie""""Leo J Schouten""""Timothy R Rebbeck""""Anthony M Magliocco""""Malcolm C Pike""""Leslie Bernstein""""Hannah P Yang""""[Collective Name] Australian National Endometrial Cancer Study Group""""Sara H Olson""""Pamela L Horn-Ross""""Marjorie L McCullough""""Hoda Anton-Culver""""Noel S Weiss""""James R Cerhan""""Louise A Brinton""""Alicja Wolk""""Jennifer Prescott""""Xiaolin Liang""""Thomas E Rohan""""Yikyung Park""""Niclas H̴kansson""""Veronica Wendy Setiawan""""James V Lacey""""Hui Cai""""Nicolas Wentzensen""""Koen van de Vijver""}","{""Chu Chen""""Brian L Strom""""Susan E McCann""""Harvey A Risch""""Lingeng Lu""""Fulvio Ricceri""""Immaculata De Vivo""""Amanda B Spurdle""""Susan E Hankinson""""Pamela J Thompson""""Catherine Schairer""""Herbert Yu""""Radhai Rastogi""""Jennifer Doherty""""Carlotta Sacerdote""""Laurence N Kolonel""""Mia M Gaudet""""Kim Robien""""Marc T Goodman""""Piet A van den Brandt""""Robert A Soslow""""Jolanta Lissowska""""Anthony B Miller""""Kirsten B Moysich""""Montserrat Garcia-Closas""""Silvia Polidoro""""Linda S Cook""""Kristin E Anderson""""Rayna K Matsuno""""Xiao-ou Shu""""Penelope M Webb""""Kerry S Courneya""""Christine M Friedenreich""""Jo L Freudenheim""""Yong-Bing Xiang""""Brian E Henderson""""Galina Lurie""""Leo J Schouten""""Timothy R Rebbeck""""Anthony M Magliocco""""Malcolm C Pike""""Leslie Bernstein""""Hannah P Yang""""[Collective Name] Australian National Endometrial Cancer Study Group""""Sara H Olson""""Pamela L Horn-Ross""""Marjorie L McCullough""""Hoda Anton-Culver""""Noel S Weiss""""James R Cerhan""""Louise A Brinton""""Alicja Wolk""""Jennifer Prescott""""Xiaolin Liang""""Thomas E Rohan""""Yikyung Park""""Niclas Hkansson""""Veronica Wendy Setiawan""""James V Lacey""""Hui Cai""""Nicolas Wentzensen""""Koen van de Vijver""}"
+134738,author_list,"{""Stuart Calver""""Julia Nichols""""Rachel C1  - Fr̴n systematiska ̦versikter -șkningen CN  - Cinahl DB  - c8h DO  - 10.1179/1743288X12Y000000021 DP  - EBSCOhost Chester""}","{""Stuart Calver""""Julia Nichols""""Rachel C1  - Frn systematiska _versikter -s_kningen CN  - Cinahl DB  - c8h DO  - 10.1179/1743288X12Y.0000000021 DP  - EBSCOhost Chester""}"
+215820,author_list,"{""Ana Paula de Lima Ferreira""""Marcelo de Souza Figueiroa""""B��rbara Bernardo Rinaldo da Silva""""K��tia Roberta Rap̫so Sales Lacerda""}","{""Ana Paula de Lima Ferreira""""Marcelo de Souza Figueiroa""""Brbara Bernardo Rinaldo da Silva""""Ktia Roberta Rapso Sales Lacerda""}"
+575935,author_list,"{""Kerstin Landin-Wilhelmsen""""G̦ran Oler̦d""""Oskar Ragnarsson""""Penelope Trimpou""}","{""Kerstin Landin-Wilhelmsen""""G_ran Oler_d""""Oskar Ragnarsson""""Penelope Trimpou""}"
+84783,author_list,"{""Michela Miani""""Decio L Eizirik""""Laurence Ladri̬re""""Maikel L Colli""""Miriam Cnop""}","{""Michela Miani""""Decio L Eizirik""""Laurence Ladrire""""Maikel L Colli""""Miriam Cnop""}"
