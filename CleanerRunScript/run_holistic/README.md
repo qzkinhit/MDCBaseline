@@ -1,14 +1,15 @@
 # 运行脚本说明
 
-## Horizon
-**论文**: [Horizon: Scalable Dependency-Driven Data Cleaning](https://www.vldb.org/pvldb/vol14/p25)
+## Holistic
+**论文**: [Holistic Data Cleaning: Putting Violations Into
+Context](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=c4221a899528798105ca94e509027e7210a87d6b)
 ### 脚本简介：
-该脚本是基于 **Horizon** 方法的依赖驱动数据清洗脚本。Horizon 通过识别数据中的功能依赖（FD，Functional Dependency）违规来进行数据清洗。本脚本会读取指定的输入数据文件，应用约束规则（功能依赖规则），并生成清洗后的数据文件。
+该脚本是基于 **Holistic** 方法的依赖驱动数据清洗脚本。Holistic 以拒绝约束（DC, Denial Constraint）为输入，检测规则违反并构建冲突超图，使用修复上下文修复对数据集进行整体修复，并生成清洗后的数据文件。
 
 
 ## 运行命令1:
 ```bash
-python run_horizon_base.py --dirty_path data/input.csv --rule_path data/rules.txt --clean_path data/clean.csv --task_name task_name --output_path data/output.csv
+python CleanerRunScript/run_holistic/run_holistic.py --task_name task_name1 --rule_path Data/1_hospital/dc_rules_dc_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/1_hospital/dirty_index.csv --clean_path Data/1_hospital/clean_index.csv --output_path results/hospital/
 ```
 
 ### 命令行参数说明：
@@ -36,22 +37,22 @@ python run_horizon_base.py --dirty_path data/input.csv --rule_path data/rules.tx
 
 ### 运行示例：
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty_hospital_E1.csv --rule_path ../../Data/1_hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean.csv --task_name hospital_horizon_E1 --output_path ../../results/horizon/hospital_horizon_E1
+python CleanerRunScript/run_holistic/run_holistic.py --task_name hospital_dirty1 --rule_path Data/1_hospital/dc_rules_dc_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/1_hospital/dirty_index.csv --clean_path Data/1_hospital/clean_index.csv --output_path results/holistic
 ```
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty_hospital_E2.csv --rule_path ../../Data/1_hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
+python CleanerRunScript/run_holistic/run_holistic.py --task_name flights_dirty1 --rule_path Data/2_flights/dc_rules_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/2_flights/dirty_index.csv --clean_path Data/2_flights/clean_index.csv --output_path results/holistic
 ```
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty.csv --rule_path ../../Data/1_hospital/dc_rules_test.txt --clean_path ../../Data/1_hospital/hospital_clean.csv --task_name hospital_test --output_path ../../results/horizon/hospital_test
+python3 CleanerRunScript/run_holistic/run_holistic.py --task_name beers_dirty1 --rule_path Data/3_beers/dc_rules_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/3_beers/dirty_index.csv --clean_path Data/3_beers/clean_index.csv --output_path results/holistic
 ```
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/5_tax/tax_50k/5_tax-dirty-original_error-0010k.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/split-clean-clean_data_ori-0010k.csv --task_name tax_horizon_ori --output_path ../../results/horizon/tax_horizon_ori
+python3 CleanerRunScript/run_holistic/run_holistic.py --task_name rayyan_dirty1 --rule_path Data/4_rayyan/dc_rules_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/4_rayyan/dirty_index.csv --clean_path Data/4_rayyan/clean_index.csv --output_path results/holistic
 ```
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/5_tax/dirty_tax_E1.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/clean.csv --task_name tax_horizon_E1 --output_path ../../results/horizon/tax_horizon_E1
+python CleanerRunScript/run_holistic/run_holistic.py --task_name tax_dirty1 --rule_path Data/5_tax/dc_rules_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/5_tax/dirty_index.csv --clean_path Data/5_tax/clean_index.csv --output_path results/holistic
 ```
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/5_tax/dirty_tax_E2.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/clean.csv --task_name tax_horizon_E2 --output_path ../../results/horizon/tax_horizon_E2
+python CleanerRunScript/run_holistic/run_holistic.py --task_name soccer_dirty1 --rule_path Data/6_soccer/dc_rules_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/6_soccer/dirty_index.csv --clean_path Data/6_soccer/clean_index.csv --output_path results/holistic
 ```
 
 ## 运行命令2:
