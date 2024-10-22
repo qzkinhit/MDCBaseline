@@ -1,4 +1,32 @@
 Attribute,Index,Dirty Value,Cleaned Value
+ProviderNumber,14,1xx19,10019
+ProviderNumber,46,x0005,10005
+ProviderNumber,82,1000x,10006
+ProviderNumber,214,x00xx,10011
+ProviderNumber,245,x00x5,10015
+ProviderNumber,254,1xx15,10015
+ProviderNumber,274,1xx16,10016
+ProviderNumber,315,100x8,10038
+ProviderNumber,361,100x6,10086
+ProviderNumber,409,x0x08,10108
+ProviderNumber,560,1xx24,10024
+ProviderNumber,609,x0027,10027
+ProviderNumber,628,x0029,10029
+ProviderNumber,640,1xx29,10029
+ProviderNumber,646,1xx32,10032
+ProviderNumber,656,1xx32,10032
+ProviderNumber,705,100x4,10034
+ProviderNumber,722,100x5,10035
+ProviderNumber,725,1xx35,10035
+ProviderNumber,756,1xx36,10007
+ProviderNumber,781,1003x,10039
+ProviderNumber,790,1xx39,10039
+ProviderNumber,794,100x9,10039
+ProviderNumber,860,1xx44,10044
+ProviderNumber,879,1xx45,10045
+ProviderNumber,889,x0045,10045
+ProviderNumber,934,1xx47,10047
+ProviderNumber,956,1004x,10027
 HospitalName,27,southeast alabama medxcal center,southeast alabama medical center
 HospitalName,132,crenshaw cxmmunity hxspital,crenshaw community hospital
 HospitalName,172,marshall medical cenxer norxh,marshall medical center north
@@ -23,50 +51,8 @@ HospitalName,939,georgiaxa hospital,georgiana hospital
 HospitalName,957,medixal xenter enterprise,medical center enterprise
 HospitalName,963,medxcal center enterprxse,medical center enterprise
 HospitalName,988,st vincents bxount,st vincents blount
-Address1,58,2505xuxsxhighwayx431xnorth,2505 u s highway 431 north
-Address1,95,702xnxmainxst,702 n main st
-Address1,107,702 x maix st,702 n main st
-Address1,162,201 pine sxreex norxhwesx,201 pine street northwest
-Address1,176,8000 alabama xigxway 69,8000 alabama highway 69
-Address1,261,33700 hxghway 43,33700 highway 43
-Address1,265,33700 highway x3,33700 highway 43
-Address1,364,1530xuxsxhighwayx43,1530 u s highway 43
-Address1,394,124xsxmemorialxdr,124 s memorial dr
-Address1,412,124 s mxmorial dr,124 s memorial dr
 Address1,452,poxboxx287,po box 287
-Address1,737,1912xalabamaxhighwayx157,1912 alabama highway 157
-Address1,850,x0x0 lay dam road,1010 lay dam road
-Address1,858,1256 military street sxuth,1256 military street south
-Address1,916,600 souxh xhird sxreex,600 south third street
-Address1,935,515 miranda sx,515 miranda st
-Address1,936,515 miranxa st,515 miranda st
-Address1,946,515 mirxndx st,515 miranda st
-City,4,birminghxm,birmingham
-City,8,birmingxam,birmingham
-City,11,sheffxeld,sheffield
-City,80,fxorence,fnnrencn
-City,89,florxncx,fnnrxncn
-City,94,flxrence,fnnrencn
-City,208,birmixgham,birmingham
-City,213,bxrmxngham,birmingham
-City,312,axxistox,anniston
-City,368,winfielx,wnnfieln
-City,438,anchoraxe,anchorage
-City,518,montxomery,montgomery
-City,579,vallex,valley
-City,591,vxlley,valley
-City,655,wxdowxx,wedowee
-City,691,birminxham,birmingham
-City,697,tallaxxee,tallassee
-City,737,cuxxman,cullman
-City,757,andaluxia,andalusia
-City,822,gxdsden,gadsden
-City,856,hamilxon,hnnilxon
-City,896,faxette,fayette
-City,950,geoxgiana,georgiana
-City,961,enterprxse,enterprise
-City,969,xntxrprisx,enterprise
-City,986,onxonta,oneonta
+City,181,guntxrsvillx,guntersville
 State,43,xl,al
 State,47,xl,al
 State,51,xl,al
@@ -93,10 +79,36 @@ State,792,xl,al
 State,885,xl,al
 State,887,xl,al
 State,923,ax,al
-CountyName,222,dx kalb,de kalb
-CountyName,224,xe kalb,de kalb
-CountyName,228,dx kalb,de kalb
-CountyName,239,xe kalb,de kalb
+ZipCode,45,x5957,15957
+ZipCode,64,3595x,35976
+ZipCode,71,3563x,35631
+ZipCode,94,3563x,35631
+ZipCode,138,36x49,36049
+ZipCode,140,360x9,36049
+ZipCode,150,3x640,35640
+ZipCode,158,3x640,35640
+ZipCode,197,3x23x,35235
+ZipCode,233,359x8,35968
+ZipCode,268,x6784,16784
+ZipCode,284,3x007,35007
+ZipCode,291,x5007,15007
+ZipCode,326,36x01,36001
+ZipCode,333,3x305,35305
+ZipCode,341,x6x05,36302
+ZipCode,367,3xx94,35570
+ZipCode,376,3xx94,35570
+ZipCode,407,3x0x7,36067
+ZipCode,421,x5150,15150
+ZipCode,429,3x1x0,35150
+ZipCode,491,x6x60,36360
+ZipCode,500,x5960,15960
+ZipCode,545,3x10x,36116
+ZipCode,680,3x233,35233
+ZipCode,686,x52xx,35233
+ZipCode,711,36x78,36078
+ZipCode,751,3642x,36467
+ZipCode,816,x590x,35901
+ZipCode,924,3590x,35901
 PhoneNumber,25,334793870x,3347938701
 PhoneNumber,37,xx479x8701,3347938701
 PhoneNumber,58,2x6x938310,2565938310
@@ -120,7 +132,7 @@ PhoneNumber,562,33x2938000,3342938000
 PhoneNumber,563,3342938xxx,3342938000
 PhoneNumber,573,334x561400,3347561400
 PhoneNumber,594,33x8972257,3348972257
-PhoneNumber,667,20593xx011,2053258100
+PhoneNumber,667,20593xx011,2059344011
 PhoneNumber,700,334x836541,3342836541
 PhoneNumber,714,33x28365x1,3342836541
 PhoneNumber,752,334xxx8466,3342228466
@@ -131,6 +143,38 @@ PhoneNumber,866,20x9216200,2059216200
 PhoneNumber,882,x0593x5966,2059325966
 PhoneNumber,884,x0593x5966,2059325966
 PhoneNumber,917,x565435x00,2565435200
+HospitalType,17,acuxe care hospixals,acute care hospitals
+HospitalType,40,acxte care hospitals,acute care hospitals
+HospitalType,99,acute care hosxitals,acute care hospitals
+HospitalType,200,acute care hosxitals,acute care hospitals
+HospitalType,214,acutx carx hospitals,acute care hospitals
+HospitalType,267,acuxe care hospixals,acute care hospitals
+HospitalType,281,acutexcarexhospitals,acute care hospitals
+HospitalType,294,acuxe care hospixals,acute care hospitals
+HospitalType,412,acute care hosxitals,acute care hospitals
+HospitalType,414,acuxe care hospixals,acute care hospitals
+HospitalType,454,acute care hospitaxs,acute care hospitals
+HospitalType,491,acute caxe hospitals,acute care hospitals
+HospitalType,494,acute care hxspitals,acute care hospitals
+HospitalType,498,acutx carx hospitals,acute care hospitals
+HospitalType,512,acuxe care hospixals,acute care hospitals
+HospitalType,533,acute care hosxitals,acute care hospitals
+HospitalType,589,acuxe care hospixals,acute care hospitals
+HospitalType,635,acuxe care hospixals,acute care hospitals
+HospitalType,696,acute cxre hospitxls,acute care hospitals
+HospitalType,706,acutexcarexhospitals,acute care hospitals
+HospitalType,730,acutexcarexhospitals,acute care hospitals
+HospitalType,780,acutexcarexhospitals,acute care hospitals
+HospitalType,783,acute care hospitaxs,acute care hospitals
+HospitalType,815,axute care hospitals,acute care hospitals
+HospitalType,849,acute caxe hospitals,acute care hospitals
+HospitalType,878,acute care hoxpitalx,acute care hospitals
+HospitalType,903,acutexcarexhospitals,acute care hospitals
+HospitalType,927,acuxe care hospixals,acute care hospitals
+HospitalType,950,acute care hosxitals,acute care hospitals
+HospitalType,957,acute xare hospitals,acute care hospitals
+HospitalType,965,acutexcarexhospitals,acute care hospitals
+HospitalType,977,acutexcarexhospitals,acute care hospitals
 HospitalOwner,23,government - hospxtal dxstrxct or authorxty,government - hospital district or authority
 HospitalOwner,28,government - hospital xistrict or authority,government - hospital district or authority
 HospitalOwner,32,governmenx - hospixal disxricx or auxhorixy,government - hospital district or authority
@@ -146,52 +190,72 @@ HospitalOwner,527,volxntary non-profit - chxrch,voluntary non-profit - church
 HospitalOwner,573,voluntary non-profit - otxer,voluntary non-profit - other
 HospitalOwner,785,goverxmext - hospital district or authority,government - hospital district or authority
 HospitalOwner,869,voluxtary xox-profit - private,voluntary non-profit - private
-Condition,23,hearx axxack,surgical infection prevention
-Condition,74,hearx axxack,surgical infection prevention
-Condition,128,heaxt failuxe,surgical infection prevention
-Condition,200,heaxt attack,surgical infection prevention
-Condition,226,hexrt attxck,pneumonia
-Condition,230,heart faxlure,pneumonia
-Condition,237,suxgical infection pxevention,pneumonia
-Condition,240,surgxcal infectxon preventxon,pneumonia
-Condition,257,xneumonia,surgical infection prevention
-Condition,280,xeart failure,surgical infection prevention
-Condition,367,pnxumonia,surgical infection prevention
-Condition,370,pnexmonia,surgical infection prevention
-Condition,387,hxart failurx,heart failure
-Condition,401,hxart failurx,pneumonia
-Condition,468,hexrt attxck,surgical infection prevention
-Condition,507,pneumonix,surgical infection prevention
-Condition,556,pxeumoxia,surgical infection prevention
-Condition,600,heart faixure,surgical infection prevention
-Condition,609,surgical ixfectiox prevextiox,heart attack
-Condition,632,pneumonxa,surgical infection prevention
-Condition,680,xneumonia,surgical infection prevention
-Condition,699,hexrt fxilure,surgical infection prevention
+EmergencyService,25,yxs,yes
+EmergencyService,44,yex,yes
+EmergencyService,52,yxs,yes
+EmergencyService,158,yxs,yes
+EmergencyService,319,xes,yes
+EmergencyService,328,yex,yes
+EmergencyService,333,yex,yes
+EmergencyService,351,yxs,yes
+EmergencyService,375,yex,yes
+EmergencyService,390,yxs,yes
+EmergencyService,411,yxs,yes
+EmergencyService,419,xo,al
+EmergencyService,493,yxs,yes
+EmergencyService,522,yxs,yes
+EmergencyService,537,yex,yes
+EmergencyService,565,xes,yes
+EmergencyService,580,xes,yes
+EmergencyService,588,xes,yes
+EmergencyService,629,yex,yes
+EmergencyService,654,xo,yes
+EmergencyService,675,yex,yes
+EmergencyService,798,yxs,yes
+EmergencyService,810,xes,yes
+EmergencyService,867,yxs,yes
+EmergencyService,890,yex,yes
+EmergencyService,920,yex,yes
+EmergencyService,922,yxs,yes
+Condition,128,heaxt failuxe,heart failure
+Condition,200,heaxt attack,heart attack
+Condition,230,heart faxlure,heart failure
+Condition,237,suxgical infection pxevention,surgical infection prevention
+Condition,240,surgxcal infectxon preventxon,surgical infection prevention
+Condition,280,xeart failure,heart failure
+Condition,367,pnxumonia,pneumonia
+Condition,370,pnexmonia,pneumonia
+Condition,507,pneumonix,pneumonia
+Condition,556,pxeumoxia,pneumonia
+Condition,600,heart faixure,heart failure
+Condition,609,surgical ixfectiox prevextiox,surgical infection prevention
+Condition,632,pneumonxa,pneumonia
+Condition,699,hexrt fxilure,heart failure
 Condition,713,surgical infection xrevention,surgical infection prevention
-Condition,717,heartxattack,surgical infection prevention
+Condition,717,heartxattack,heart attack
 Condition,734,suxgical infection pxevention,surgical infection prevention
 Condition,852,surgical infxction prxvxntion,surgical infection prevention
 Condition,870,surgical ixfectiox prevextiox,surgical infection prevention
-Condition,956,hexrt attxck,surgical infection prevention
 Condition,975,surgical xnfection prevention,surgical infection prevention
 MeasureCode,98,axi-4,ami-4
 MeasureCode,109,pnx5c,pn-5c
 MeasureCode,121,axi-2,ami-2
 MeasureCode,178,hf-x,hf-2
+MeasureCode,191,scip-inx-4,scip-inf-4
 MeasureCode,265,scxp-xnf-3,scip-inf-3
 MeasureCode,350,amix2,ami-2
 MeasureCode,392,pn-xb,pn-3b
 MeasureCode,399,hx-1,hf-1
 MeasureCode,410,scipxinfx1,scip-inf-1
-MeasureCode,465,sxip-vte-1,sxip-ite-1
+MeasureCode,465,sxip-vte-1,scip-vte-1
 MeasureCode,496,ami-x,ami-5
 MeasureCode,581,px-5c,pn-5c
-MeasureCode,640,scip-vtx-1,scip-itx-1
+MeasureCode,640,scip-vtx-1,scip-vte-1
 MeasureCode,674,xf-1,hf-1
 MeasureCode,677,hfx4,hf-4
 MeasureCode,695,amx-4,ami-4
 MeasureCode,719,amx-3,ami-3
+MeasureCode,736,scix-inf-2,scip-inf-2
 MeasureCode,750,hx-2,hf-2
 MeasureCode,775,xax-1,cac-1
 MeasureCode,789,pn-x,pn-2
@@ -232,33 +296,18 @@ MeasureName,894,pneumonia patients assessed and given influenza vaxxination,pneu
 MeasureName,903,childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma,children who received reliever medication while hospitalized for asthma
 MeasureName,916,hearx failure paxienxs given smoking cessaxion advice/counseling,heart failure patients given smoking cessation advice/counseling
 MeasureName,998,surgery pxtients who were txking hexrt drugs cxlled betx blockers before coming to the hospitxl who were kept on the betx blockers during the period just before xnd xfter their surgery,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery
-Sample,18,3x patients,357 patients
-Sample,92,619 paxienxs,12 patients
-Sample,134,21 pxtients,404 patients
-Sample,167,xx patients,12 patients
-Sample,171,6xpatients,6 patients
-Sample,225,1 patiexts,12 patients
-Sample,235,82 patientx,141 patients
-Sample,317,29 xatients,12 patients
-Sample,346,1295 patients,12 patients
-Sample,355,1x patients,12 patients
-Sample,414,125 patixnts,557 patients
-Sample,419,4 xatients,12 patients
-Sample,445,521 patiexts,557 patients
-Sample,483,62 patientx,520 patients
-Sample,503,44 paxienxs,269 patients
-Sample,524,25x patients,12 patients
-Sample,533,87 patientx,357 patients
-Sample,555,74 patxents,280 patients
-Sample,564,1062 patients,564 patients
-Sample,581,50 pxtients,527 patients
-Sample,589,172 patxents,187 patients
-Sample,635,1001 patients,82 patients
-Sample,636,1016 patients,397 patients
-Sample,639,1421 patients,12 patients
-Sample,669,87 paxienxs,280 patients
-Sample,846,4 patiexts,12 patients
-Sample,867,121 patiexts,557 patients
-Sample,873,15 patiexts,261 patients
-Sample,906,126 patxents,12 patients
-Sample,973,27 paxienxs,6 patients
+Sample,419,4 xatients,6 patients
+Sample,533,87 patientx,87 patients
+Sample,674,618 xatients,618 patients
+Stateavg,194,al_scix-vte-2,al_scip-vte-2
+Stateavg,245,ax_ami-1,al_ami-7a
+Stateavg,249,xl_xmi-5,al_ami-7a
+Stateavg,371,alxpn-7,al_pn-7
+Stateavg,478,ax_pn-2,al_hf-3
+Stateavg,565,al_scipxvtex1,al_pn-7
+Stateavg,623,al_amix8a,al_hf-3
+Stateavg,647,alxami-7a,al_ami-7a
+Stateavg,679,alxpn-3b,al_pn-7
+Stateavg,722,al_amx-7a,al_ami-7a
+Stateavg,843,al_pnx6,al_pn-3b
+Stateavg,921,alxpn-6,al_pn-6

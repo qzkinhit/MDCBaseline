@@ -1,119 +1,90 @@
 Attribute,Index,Dirty Value,Cleaned Value
-ProviderNumber,14,1xx19,10019
-ProviderNumber,46,x0005,10010
-ProviderNumber,82,1000x,10006
-ProviderNumber,214,x00xx,10011
-ProviderNumber,245,x00x5,10015
-ProviderNumber,254,1xx15,10015
-ProviderNumber,274,1xx16,10016
-ProviderNumber,315,100x8,10038
-ProviderNumber,361,100x6,10086
-ProviderNumber,409,x0x08,10108
-ProviderNumber,560,1xx24,10024
-ProviderNumber,609,x0027,10027
-ProviderNumber,628,x0029,10029
-ProviderNumber,640,1xx29,10029
-ProviderNumber,646,1xx32,10032
-ProviderNumber,656,1xx32,10032
-ProviderNumber,705,100x4,10034
-ProviderNumber,722,100x5,10035
-ProviderNumber,725,1xx35,10035
-ProviderNumber,756,1xx36,10007
-ProviderNumber,781,1003x,10039
-ProviderNumber,790,1xx39,10039
-ProviderNumber,794,100x9,10039
-ProviderNumber,860,1xx44,10044
-ProviderNumber,879,1xx45,10045
-ProviderNumber,889,x0045,10045
-ProviderNumber,934,1xx47,10047
-ProviderNumber,956,1004x,10049
-HospitalName,27,southeast alabama medxcal center,southeast alabama medical center
-HospitalName,132,crenshaw cxmmunity hxspital,crenshaw community hospital
-HospitalName,172,marshall medical cenxer norxh,marshall medical center north
-HospitalName,244,dexalb regional medical center,dekalb regional medical center
-HospitalName,338,floxers hospital,flowers hospital
-HospitalName,385,univ ox south alabama medical center,univ of south alabama medical center
-HospitalName,386,xniv of soxth alabama medical center,univ of south alabama medical center
-HospitalName,449,xlxskx regionxl hospitxl,alaska regional hospital
-HospitalName,533,baptist medical cexter south,baptist medical center south
-HospitalName,561,jaxkson hospital & xlinix inx,jackson hospital & clinic inc
-HospitalName,655,wedowee hosxital,wedowee hospital
-HospitalName,698,communitx hospital inc,community hospital inc
-HospitalName,711,communixy hospixal inc,community hospital inc
-HospitalName,731,cullmxn regionxl medicxl center,cullman regional medical center
-HospitalName,759,andaxusia regionax hospitax,andalusia regional hospital
-HospitalName,766,andaluxia regional hoxpital,andalusia regional hospital
-HospitalName,778,huntsvxlle hospxtal,huntsville hospital
-HospitalName,904,rivxrvixw rxgional mxdical cxntxr,riverview regional medical center
-HospitalName,922,xivexview xegional medical centex,riverview regional medical center
-HospitalName,923,riverview rexional medical center,riverview regional medical center
-HospitalName,939,georgiaxa hospital,georgiana hospital
-HospitalName,957,medixal xenter enterprise,medical center enterprise
-HospitalName,963,medxcal center enterprxse,medical center enterprise
-HospitalName,988,st vincents bxount,st vincents blount
-Address1,58,2505xuxsxhighwayx431xnorth,8000 alabama highway 69
-Address1,95,702xnxmainxst,849 south three notch street
-Address1,162,201 pine sxreex norxhwesx,201 pine street northwest
-Address1,276,1000 fixst stxeet noxth,515 miranda st
-Address1,296,1720 univxrsity blvd,1720 university blvd
-Address1,335,4370xwestxmainxstreet,1108 ross clark circle
-Address1,351,810 st vxncents drxve,1720 university blvd
-Address1,935,515 miranda sx,515 miranda st
-Address1,936,515 miranxa st,515 miranda st
-Address1,946,515 mirxndx st,201 pine street northwest
-Address1,957,400xnxedwardsxstreet,987 drayton street
-City,355,winfield,hamilton
-City,356,winfield,hamilton
-City,357,winfield,hamilton
-City,358,winfield,hamilton
-City,359,winfield,hamilton
-City,360,winfield,hamilton
-City,361,winfield,hamilton
-City,362,winfield,hamilton
-City,363,winfield,hamilton
-City,364,winfield,hamilton
-City,365,winfield,hamilton
-City,366,winfield,hamilton
-City,367,winfield,hamilton
-City,368,winfielx,hamilton
-City,369,winfield,hamilton
-City,370,winfield,hamilton
-City,371,winfield,hamilton
-City,372,winfield,hamilton
-City,373,winfield,hamilton
-City,374,winfield,hamilton
-City,375,winfield,hamilton
-City,376,winfield,hamilton
-City,377,winfield,hamilton
-City,378,winfield,hamilton
-City,379,winfield,hamilton
-City,655,wxdowxx,wedowee
-State,43,xl,al
-State,47,xl,al
-State,51,xl,al
-State,84,xl,al
-State,99,xl,al
-State,120,ax,al
-State,141,ax,al
-State,166,ax,al
-State,183,xl,al
-State,229,ax,al
-State,279,xl,al
-State,357,ax,al
-State,387,xl,al
-State,403,ax,al
-State,478,xl,al
-State,484,xl,al
-State,505,ax,al
-State,560,xl,al
-State,573,ax,al
-State,593,ax,al
-State,702,xl,al
-State,765,xl,al
-State,792,xl,al
-State,885,xl,al
-State,887,xl,al
-State,923,ax,al
+Address1,452,poxboxx287,po box 287
+City,4,birminghxm,birmingham
+City,8,birmingxam,birmingham
+City,11,sheffxeld,birmingham
+City,80,fxorence,montgomery
+City,89,florxncx,fnnrxncn
+City,94,flxrence,birmingham
+City,208,birmixgham,birmingham
+City,213,bxrmxngham,birmingham
+City,312,axxistox,anniston
+City,368,winfielx,elba
+City,438,anchoraxe,clanton
+City,518,montxomery,montgomery
+City,579,vallex,andalusia
+City,591,vxlley,mobile
+City,655,wxdowxx,wxdotxx
+City,691,birminxham,birmingham
+City,697,tallaxxee,tallassee
+City,737,cuxxman,dothan
+City,757,andaluxia,guntersville
+City,773,annxston,fayette
+City,822,gxdsden,gxdsten
+City,856,hamilxon,hnnilxon
+City,950,geoxgiana,birmingham
+City,961,enterprxse,enterprise
+City,969,xntxrprisx,thomasville
+City,986,onxonta,onxotta
+ZipCode,45,x5957,35976
+ZipCode,64,3595x,35976
+ZipCode,71,3563x,35631
+ZipCode,94,3563x,35631
+ZipCode,138,36x49,36049
+ZipCode,140,360x9,36049
+ZipCode,150,3x640,35640
+ZipCode,158,3x640,35640
+ZipCode,197,3x23x,35235
+ZipCode,233,359x8,35968
+ZipCode,268,x6784,36784
+ZipCode,284,3x007,35640
+ZipCode,291,x5007,35007
+ZipCode,326,36x01,36201
+ZipCode,333,3x305,35640
+ZipCode,341,x6x05,36302
+ZipCode,367,3xx94,35570
+ZipCode,376,3xx94,35570
+ZipCode,407,3x0x7,36067
+ZipCode,421,x5150,35150
+ZipCode,429,3x1x0,35150
+ZipCode,491,x6x60,36360
+ZipCode,500,x5960,35960
+ZipCode,545,3x10x,36116
+ZipCode,680,3x233,35640
+ZipCode,686,x52xx,35233
+ZipCode,711,36x78,36078
+ZipCode,751,3642x,36467
+ZipCode,816,x590x,35901
+ZipCode,924,3590x,35901
+CountyName,68,mxrshxll,marshall
+CountyName,73,laudxrdalx,lauderdale
+CountyName,78,laudexdale,lauderdale
+CountyName,137,crxnshaw,crenshaw
+CountyName,217,jeffersxn,jefferson
+CountyName,222,dx kalb,de kalb
+CountyName,224,xe kalb,de kalb
+CountyName,228,dx kalb,de kalb
+CountyName,239,xe kalb,de kalb
+CountyName,253,xlarke,clarke
+CountyName,313,calhoxn,calhoun
+CountyName,325,caxhoun,calhoun
+CountyName,347,housxon,houston
+CountyName,416,tallaxega,talladega
+CountyName,458,xefferson,jefferson
+CountyName,541,montgomexy,montgomery
+CountyName,579,xhambers,chambers
+CountyName,591,chaxbers,chambers
+CountyName,603,coffxx,coffee
+CountyName,634,xee,lee
+CountyName,693,elmoxe,elmore
+CountyName,699,elxore,elmore
+CountyName,753,coxington,covington
+CountyName,786,madisxn,madison
+CountyName,799,madisox,madison
+CountyName,896,fayexxe,fayette
+CountyName,918,etowxh,etowah
+CountyName,944,butxer,butler
+CountyName,967,cxffee,coffee
 PhoneNumber,25,334793870x,3347938701
 PhoneNumber,37,xx479x8701,3347938701
 PhoneNumber,58,2x6x938310,2565938310
@@ -125,16 +96,16 @@ PhoneNumber,229,2568453x50,2568453150
 PhoneNumber,248,xx46x66221,3346366221
 PhoneNumber,262,334x3xx221,3346366221
 PhoneNumber,322,256235x900,2562358900
-PhoneNumber,343,xx479x5000,3347938701
+PhoneNumber,343,xx479x5000,3347935000
 PhoneNumber,382,25x47x7xx0,2514717110
 PhoneNumber,385,25x47x7xx0,2514717110
 PhoneNumber,387,25x47x7xx0,2514717110
 PhoneNumber,394,33x361x267,3343614267
 PhoneNumber,472,334774x601,3347742601
 PhoneNumber,517,3342xx2100,3342882100
-PhoneNumber,549,3342938xxx,3342882100
-PhoneNumber,562,33x2938000,3342882100
-PhoneNumber,563,3342938xxx,3342882100
+PhoneNumber,549,3342938xxx,3342938000
+PhoneNumber,562,33x2938000,3342938000
+PhoneNumber,563,3342938xxx,3342938000
 PhoneNumber,573,334x561400,3347561400
 PhoneNumber,594,33x8972257,3348972257
 PhoneNumber,667,20593xx011,2059344011
@@ -142,7 +113,7 @@ PhoneNumber,700,334x836541,3342836541
 PhoneNumber,714,33x28365x1,3342836541
 PhoneNumber,752,334xxx8466,3342228466
 PhoneNumber,764,33422284xx,3342228466
-PhoneNumber,825,2564944xxx,2565435200
+PhoneNumber,825,2564944xxx,2564944000
 PhoneNumber,856,x059x16x00,2059216200
 PhoneNumber,866,20x9216200,2059216200
 PhoneNumber,882,x0593x5966,2059325966
@@ -183,46 +154,48 @@ HospitalType,977,acutexcarexhospitals,acute care hospitals
 HospitalOwner,23,government - hospxtal dxstrxct or authorxty,government - hospital district or authority
 HospitalOwner,28,government - hospital xistrict or authority,government - hospital district or authority
 HospitalOwner,32,governmenx - hospixal disxricx or auxhorixy,government - hospital district or authority
-HospitalOwner,114,volunxary non-profix - privaxe,voluntary non-profit - private
-HospitalOwner,217,volunxary non-profix - privaxe,voluntary non-profit - private
+HospitalOwner,158,pxopxietaxy,proprietary
+HospitalOwner,163,xroprietary,proprietary
+HospitalOwner,165,pxopxietaxy,proprietary
 HospitalOwner,219,voluntary nonxprofit x private,voluntary non-profit - private
 HospitalOwner,222,voluntaryxnon-profitx-xchurch,voluntary non-profit - church
 HospitalOwner,239,voxuntary non-profit - church,voluntary non-profit - church
 HospitalOwner,248,governxent - federal,government - federal
 HospitalOwner,494,voluntaryxnon-profitx-xprivate,voluntary non-profit - private
-HospitalOwner,527,volxntary non-profit - chxrch,voluntary non-profit - private
+HospitalOwner,527,volxntary non-profit - chxrch,voluntary non-profit - church
 HospitalOwner,573,voluntary non-profit - otxer,voluntary non-profit - other
 HospitalOwner,785,goverxmext - hospital district or authority,government - hospital district or authority
-HospitalOwner,847,voluntaxy non-pxofit - pxivate,voluntary non-profit - private
 HospitalOwner,869,voluxtary xox-profit - private,voluntary non-profit - private
-HospitalOwner,873,voluntaxy non-pxofit - pxivate,voluntary non-profit - private
-Condition,23,hearx axxack,heart attack
-Condition,74,hearx axxack,heart attack
-Condition,128,heaxt failuxe,pneumonia
-Condition,200,heaxt attack,heart attack
-Condition,226,hexrt attxck,surgical infection prevention
-Condition,230,heart faxlure,surgical infection prevention
-Condition,237,suxgical infection pxevention,pneumonia
-Condition,240,surgxcal infectxon preventxon,surgical infection prevention
-Condition,257,xneumonia,pneumonia
-Condition,280,xeart failure,heart failure
-Condition,387,hxart failurx,surgical infection prevention
-Condition,401,hxart failurx,heart failure
-Condition,468,hexrt attxck,surgical infection prevention
-Condition,600,heart faixure,heart attack
-Condition,609,surgical ixfectiox prevextiox,surgical infection prevention
-Condition,680,xneumonia,pneumonia
-Condition,699,hexrt fxilure,pneumonia
-Condition,713,surgical infection xrevention,heart attack
-Condition,717,heartxattack,pneumonia
-Condition,734,suxgical infection pxevention,heart attack
-Condition,852,surgical infxction prxvxntion,heart attack
-Condition,870,surgical ixfectiox prevextiox,heart attack
-Condition,956,hexrt attxck,surgical infection prevention
-Condition,975,surgical xnfection prevention,surgical infection prevention
-MeasureCode,98,axi-4,cxc-4
+EmergencyService,25,yxs,yes
+EmergencyService,44,yex,yes
+EmergencyService,52,yxs,yes
+EmergencyService,158,yxs,yes
+EmergencyService,319,xes,yes
+EmergencyService,328,yex,yes
+EmergencyService,333,yex,yes
+EmergencyService,351,yxs,yes
+EmergencyService,375,yex,yes
+EmergencyService,390,yxs,yes
+EmergencyService,411,yxs,yes
+EmergencyService,419,xo,yes
+EmergencyService,493,yxs,yes
+EmergencyService,522,yxs,yes
+EmergencyService,537,yex,yes
+EmergencyService,565,xes,yes
+EmergencyService,580,xes,yes
+EmergencyService,588,xes,yes
+EmergencyService,629,yex,yes
+EmergencyService,654,xo,yes
+EmergencyService,675,yex,yes
+EmergencyService,798,yxs,yes
+EmergencyService,810,xes,yes
+EmergencyService,867,yxs,yes
+EmergencyService,890,yex,yes
+EmergencyService,920,yex,yes
+EmergencyService,922,yxs,yes
+MeasureCode,98,axi-4,ami-4
 MeasureCode,109,pnx5c,pn-5c
-MeasureCode,121,axi-2,cxc-2
+MeasureCode,121,axi-2,ami-2
 MeasureCode,178,hf-x,hf-2
 MeasureCode,191,scip-inx-4,scip-inf-4
 MeasureCode,265,scxp-xnf-3,scip-inf-3
@@ -236,8 +209,8 @@ MeasureCode,581,px-5c,pn-5c
 MeasureCode,640,scip-vtx-1,scip-vte-1
 MeasureCode,674,xf-1,hf-1
 MeasureCode,677,hfx4,hf-4
-MeasureCode,695,amx-4,cmc-4
-MeasureCode,719,amx-3,cmc-3
+MeasureCode,695,amx-4,ami-4
+MeasureCode,719,amx-3,ami-3
 MeasureCode,736,scix-inf-2,scip-inf-2
 MeasureCode,750,hx-2,hf-2
 MeasureCode,775,xax-1,cac-1
@@ -279,46 +252,23 @@ MeasureName,894,pneumonia patients assessed and given influenza vaxxination,pneu
 MeasureName,903,childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma,children who received reliever medication while hospitalized for asthma
 MeasureName,916,hearx failure paxienxs given smoking cessaxion advice/counseling,heart failure patients given smoking cessation advice/counseling
 MeasureName,998,surgery pxtients who were txking hexrt drugs cxlled betx blockers before coming to the hospitxl who were kept on the betx blockers during the period just before xnd xfter their surgery,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery
-Score,120,0%,47%
-Score,121,x00%,47%
-Score,124,0%,47%
-Score,127,4%,47%
-Score,130,0%,47%
-Score,159,9x%,78%
-Score,164,x7%,97%
-Score,188,95x,91%
-Score,209,x5%,95%
-Score,238,9x%,88%
-Score,239,xx%,empty
-Score,253,89x,96%
-Score,257,x6%,96%
-Score,319,0%,89%
-Score,360,0%,94%
-Score,379,x5%,95%
-Score,406,x4%,94%
-Score,412,1xx%,90%
-Score,427,x7%,97%
-Score,472,0%,68%
-Score,489,1xx%,68%
-Score,507,93x,81%
-Score,510,0%,81%
-Score,512,0%,81%
-Score,515,1xx%,81%
-Score,572,0%,88%
-Score,699,xx%,90%
-Score,712,1xx%,90%
-Score,719,x7%,97%
-Score,770,x3%,93%
-Score,861,80x,74%
-Score,880,0%,89%
-Score,889,x5%,95%
-Sample,18,3x patients,24 patients
-Sample,116,0 patixnts,empty
-Sample,497,0 patxents,empty
-Sample,873,15 patiexts,15 patients
+Score,159,9x%,96%
+Score,164,x7%,99%
+Score,188,95x,99%
+Score,209,x5%,96%
+Score,238,9x%,99%
+Score,239,xx%,99%
+Score,253,89x,99%
+Score,257,x6%,95%
+Score,406,x4%,96%
+Score,427,x7%,95%
+Score,510,0%,99%
+Score,699,xx%,99%
+Score,861,80x,99%
+Sample,589,172 patxents,172 patients
+Sample,674,618 xatients,618 patients
 Stateavg,57,al_pn-xb,al_pn-3b
 Stateavg,70,al_amx-1,al_ami-1
-Stateavg,194,al_scix-vte-2,al_scip-vte-2
 Stateavg,245,ax_ami-1,al_ami-1
 Stateavg,249,xl_xmi-5,al_ami-5
 Stateavg,270,al_axi-1,al_ami-1
@@ -326,7 +276,7 @@ Stateavg,335,al_pnx2,al_pn-2
 Stateavg,348,al_scipxvtex2,al_scip-vte-2
 Stateavg,371,alxpn-7,al_pn-7
 Stateavg,388,al_hx-2,al_hf-2
-Stateavg,478,ax_pn-2,ax_pf-2
+Stateavg,478,ax_pn-2,al_pn-2
 Stateavg,556,al_pn-5x,al_pn-5c
 Stateavg,565,al_scipxvtex1,al_scip-vte-1
 Stateavg,568,xl_xmi-2,al_ami-2
@@ -335,9 +285,7 @@ Stateavg,647,alxami-7a,al_ami-7a
 Stateavg,679,alxpn-3b,al_pn-3b
 Stateavg,722,al_amx-7a,al_ami-7a
 Stateavg,761,al_scipxinfx2,al_scip-inf-2
-Stateavg,765,al_scix-vte-1,al_scip-vte-1
 Stateavg,788,al_hf-x,al_hf-4
-Stateavg,797,xl_scip-inf-2,al_scip-inf-2
 Stateavg,828,xl_xmi-1,al_ami-1
 Stateavg,843,al_pnx6,al_pn-6
 Stateavg,921,alxpn-6,al_pn-6
