@@ -1,0 +1,14 @@
+Attribute: index, MSE: nan, Jaccard: 0.0
+Attribute: id, MSE: nan, Jaccard: 0.0
+Attribute: article_title, MSE: nan, Jaccard: 0.025691699604743046
+Attribute: article_language, MSE: nan, Jaccard: 0.0
+Attribute: journal_title, MSE: nan, Jaccard: 0.024793388429752095
+Attribute: jounral_abbreviation, MSE: nan, Jaccard: 0.0
+Attribute: journal_issn, MSE: nan, Jaccard: 0.05821371610845294
+Attribute: article_jvolumn, MSE: 7.891, Jaccard: 0.0074450509233118245
+检查你指定的属性 article_jissue 是否为数值型！
+Attribute: article_jissue, MSE: nan, Jaccard: 0.030821380323724168
+Attribute: article_jcreated_at, MSE: nan, Jaccard: 0.7109785061156633
+Attribute: article_pagination, MSE: nan, Jaccard: 0.07039911308203994
+Attribute: author_list, MSE: nan, Jaccard: 0.17106549364613877
+加权混合距离: 0.37460034784307605
