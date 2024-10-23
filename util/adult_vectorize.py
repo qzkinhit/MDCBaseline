@@ -1,8 +1,10 @@
 import pandas as pd
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.preprocessing import StandardScaler
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 import argparse
+from scipy.sparse import hstack
 
 # 解析命令行参数
 def parse_arguments():
@@ -29,29 +31,37 @@ def main():
     y = df['income']  # 标签
 
     # 定义数值型特征和类别型特征
-    numeric_features = ['age', 'fnlwgt', 'education-num', 'hours-per-week']
+    numeric_features = ['age', 'fnlwgt', 'education-num', 'hours-per-week', 'capital-gain', 'capital-loss']
     categorical_features = ['workclass', 'education', 'marital-status', 'occupation', 'relationship', 'race', 'sex', 'native-country']
 
-    # 构建特征转换器
-    preprocessor = ColumnTransformer(
-        transformers=[
-            ('num', StandardScaler(), numeric_features),  # 标准化数值型特征
-            ('cat', OneHotEncoder(), categorical_features)  # 独热编码类别型特征
-        ])
+    # 处理数值特征
+    numeric_transformer = StandardScaler()
 
-    # 将预处理步骤整合为流水线
-    pipeline = Pipeline(steps=[('preprocessor', preprocessor)])
+    # 对类别特征进行TF-IDF向量化
+    tfidf_vectorizers = {}
+    tfidf_features = []
 
-    # 进行特征向量化转换
-    X_transformed = pipeline.fit_transform(X)
+    for col in categorical_features:
+        vectorizer = TfidfVectorizer(stop_words='english')
+        tfidf_feature = vectorizer.fit_transform(df[col].astype(str))
+        tfidf_vectorizers[col] = vectorizer
+        tfidf_features.append(tfidf_feature)
 
-    # 将转换后的数据转换为 DataFrame
-    # 获取独热编码后的类别特征名称，兼容旧版本的 get_feature_names 方法
-    encoded_feature_names = pipeline.named_steps['preprocessor'].transformers_[1][1].get_feature_names(categorical_features)
-    feature_names = numeric_features + list(encoded_feature_names)
+    # 将所有类别特征的TF-IDF特征合并
+    X_tfidf = hstack(tfidf_features)
 
-    # 转换为 DataFrame 格式
-    X_transformed_df = pd.DataFrame(X_transformed.toarray(), columns=feature_names)
+    # 对数值特征进行标准化
+    X_numeric = numeric_transformer.fit_transform(df[numeric_features])
+
+    # 将数值特征和TF-IDF特征合并
+    X_final = hstack([X_numeric, X_tfidf])
+
+    # 将特征矩阵转换为 DataFrame
+    numeric_columns = numeric_features
+    tfidf_columns = [f"{col}_tfidf_{i}" for col in categorical_features for i in range(tfidf_vectorizers[col].idf_.shape[0])]
+    all_columns = numeric_columns + tfidf_columns
+
+    X_transformed_df = pd.DataFrame(X_final.toarray(), columns=all_columns)
 
     # 添加标签列
     X_transformed_df['income'] = y.reset_index(drop=True)
