@@ -79,7 +79,7 @@ def compute_BR(alpha_beta, K, eps=1e-100):
     return B, status
 
 def group_by_classes(S, y):
-    classes = [0, 1]
+    classes = [0, 1] # 只支持两个类
 
     # map old row number to new row number in each group
     new_rid = {}
@@ -264,6 +264,9 @@ def update_ac_counters(ac_counters, sl_counts, ri, rj, S, y, dirty_rows):
     return ac_counters
 
 def prune(S_full, y_full, K, mm=None):
+    """
+    返回最大相似度大于边界相似度的相似度组S和对应标签y，其中边界相似度基于最小相似度求出。
+    """
     if mm is None:
         mm = np.array([[min(s), max(s)] for s in S_full])
 
@@ -274,9 +277,12 @@ def prune(S_full, y_full, K, mm=None):
     return S, y, valid_indices
 
 def get_valid_indices(mm, K):
-    min_order = np.argsort(-mm[:, 0], kind="stable")
+    """
+    返回最大相似度大于边界相似度的索引，其中边界相似度基于最小相似度求出。
+    """
+    min_order = np.argsort(-mm[:, 0], kind="stable") # 最小相似度的降序索引
     k_largest_min_idx = min_order[K-1]
-    k_largest_min = mm[k_largest_min_idx, 0]
+    k_largest_min = mm[k_largest_min_idx, 0] # 找边界相似度
     
     is_valid = np.zeros(len(mm))
     is_valid[:k_largest_min_idx+1] = (mm[:k_largest_min_idx+1, 1] >= k_largest_min)
@@ -396,7 +402,7 @@ if __name__ == '__main__':
     np.random.seed(1)
     N = 5000
     K = 3
-    S = np.random.rand(N, 10) 
+    S = np.random.rand(N, 10)
     y = np.random.randint(0, 2, size=N)
 
     tic = time.time()
