@@ -32,10 +32,10 @@ def run_big_dansing(task_name, output_path,PERFECTED, ONLYED, rule_path, dirty_p
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--clean_path', type=str, default="../../Data/2_flights/clean_index.csv")
-    parser.add_argument('--dirty_path', type=str, default="../../Data/2_flights/dirty_index.csv")
-    parser.add_argument('--rule_path', type=str, default="../../Data/2_flights/dc_rules_holoclean.txt")
-    parser.add_argument('--task_name', type=str, default="bigdansing_flights_test0")
+    parser.add_argument('--clean_path', type=str, default="../../Data/6_soccer/clean_index_10k.csv")
+    parser.add_argument('--dirty_path', type=str, default="../../Data/6_soccer/dirty_index_10k.csv")
+    parser.add_argument('--rule_path', type=str, default="../../Data/6_soccer/dc_rules_holoclean.txt")
+    parser.add_argument('--task_name', type=str, default="bigdansing_soccer_test0")
     parser.add_argument('--output_path', type=str,default="../../results/bigdansing/")
     parser.add_argument('--onlyed', type=int, default=0)
     parser.add_argument('--perfected', type=int, default=0)

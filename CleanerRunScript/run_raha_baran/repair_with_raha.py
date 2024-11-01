@@ -42,8 +42,8 @@ from datetime import datetime
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 
 # from Cleaner.Baran_Raha.correction_with_raha import Correction
-from Cleaner.Baran_Raha.repairing_with_delete_and_mode import Detection
-# from Cleaner.Baran_Raha.repairing_with_delete import Detection
+# from Cleaner.Baran_Raha.repairing_with_delete_and_mode import Detection
+from Cleaner.Baran_Raha.repairing_with_delete import Detection
 # from Cleaner.Baran_Raha.detection import Detection
 from util.getScore import calculate_accuracy_and_recall, calculate_all_metrics
 

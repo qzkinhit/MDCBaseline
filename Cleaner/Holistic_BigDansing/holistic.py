@@ -660,9 +660,15 @@ class Holistic:
             f1 = 2*pre*rec/(pre+rec+1e-10)
             print("{pre}\n{rec}\n{f1}\n{time}".format(pre=pre, rec=rec, f1=f1, time=(end_time-self.start_time)))
             f.close()
-
-            out_path = os.path.join(self.output_path, "Exp_result", "tax", self.task_name[:-1], "oriED+EC_" + self.task_name + check_string(self.dirty_path.split("/")[-1]) + ".txt")
-            res_path = os.path.join(self.output_path, "Repaired_res", "tax", self.task_name[:-1], "repaired_" + self.task_name + check_string(self.dirty_path.split("/")[-1]) + ".csv")
+            # 修改 out_path 和 res_path，使用 self.output_path
+            out_path = os.path.join(self.output_path, "Exp_result", self.task_name[:-1],
+                                    "oriED+EC_" + self.task_name + check_string(
+                                        self.dirty_path.split("/")[-1]) + ".txt")
+            res_path = os.path.join(self.output_path, "Repaired_res", self.task_name[:-1],
+                                    "repaired_" + self.task_name + check_string(
+                                        self.dirty_path.split("/")[-1]) + ".csv")
+            # out_path = os.path.join(self.output_path, "Exp_result", "tax", self.task_name[:-1], "oriED+EC_" + self.task_name + check_string(self.dirty_path.split("/")[-1]) + ".txt")
+            # res_path = os.path.join(self.output_path, "Repaired_res", "tax", self.task_name[:-1], "repaired_" + self.task_name + check_string(self.dirty_path.split("/")[-1]) + ".csv")
             os.makedirs(os.path.dirname(out_path), exist_ok=True)
             os.makedirs(os.path.dirname(res_path), exist_ok=True)
             dirty_df = pd.read_csv(dirty_path)
@@ -687,7 +693,10 @@ class Holistic:
             f.close()
 
             sys.stdout = sys.__stdout__
-            out_path = os.path.join(self.output_path, "Exp_result", "tax", self.task_name[:-1], "all_computed_" + self.task_name + check_string(self.dirty_path.split("/")[-1]) + ".txt")
+            out_path = os.path.join(self.output_path, "Exp_result", self.task_name[:-1],
+                                "all_computed_" + self.task_name + check_string(
+                                    self.dirty_path.split("/")[-1]) + ".txt")
+            # out_path = os.path.join(self.output_path, "Exp_result", "tax", self.task_name[:-1], "all_computed_" + self.task_name + check_string(self.dirty_path.split("/")[-1]) + ".txt")
             os.makedirs(os.path.dirname(out_path), exist_ok=True)
             f = open(out_path, 'w')
             sys.stdout = f
@@ -739,8 +748,14 @@ class Holistic:
             pre = rec_right / (rep_t+1e-10)
             rec = rec_right / (wrong_cells+1e-10)
             f1 = 2*pre*rec / (rec+pre+1e-10)
-            out_path = os.path.join(self.output_path, "Exp_result", "tax", self.task_name[:-1], "perfectED+EC_" + self.task_name + check_string(self.dirty_path.split("/")[-1]) + ".txt")
-            res_path = os.path.join(self.output_path, "Repaired_res", "tax", self.task_name[:-1], "perfect_repaired_" + self.task_name + check_string(self.dirty_path.split("/")[-1]) + ".csv")
+            out_path = os.path.join(self.output_path, "Exp_result", self.task_name[:-1],
+                                    "perfectED+EC_" + self.task_name + check_string(
+                                        self.dirty_path.split("/")[-1]) + ".txt")
+            res_path = os.path.join(self.output_path, "Repaired_res", self.task_name[:-1],
+                                    "perfect_repaired_" + self.task_name + check_string(
+                                        self.dirty_path.split("/")[-1]) + ".csv")
+            # out_path = os.path.join(self.output_path, "Exp_result", "tax", self.task_name[:-1], "perfectED+EC_" + self.task_name + check_string(self.dirty_path.split("/")[-1]) + ".txt")
+            # res_path = os.path.join(self.output_path, "Repaired_res", "tax", self.task_name[:-1], "perfect_repaired_" + self.task_name + check_string(self.dirty_path.split("/")[-1]) + ".csv")
             os.makedirs(os.path.dirname(out_path), exist_ok=True)
             os.makedirs(os.path.dirname(res_path), exist_ok=True)
             dirty_df = pd.read_csv(dirty_path)
