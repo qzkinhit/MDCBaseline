@@ -13,7 +13,7 @@ def min_max(mm, y, K):
         y (list): labels
         K (int): KNN hyperparameter
         Return:
-            cc (boolean):whether CPed or not
+            cc (list of boolean):whether CPed or not
 
     """
     assert len(set(y)) == 2 # 开始判定了标签数只能为2，需要改动才能支持多标签

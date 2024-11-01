@@ -79,6 +79,16 @@ def compute_BR(alpha_beta, K, eps=1e-100):
     return B, status
 
 def group_by_classes(S, y):
+    """按类别y记录S的信息,只支持两个类别
+    Return:
+        new_rid:[]  将旧行坐标映射到对应类集合的行坐标
+        row_count:{0:[],1:[]}  按类记录每个空缺值对应的填补方式数量
+        alpha_beta_c:{0:[[0,1],...],1:[[0,1,...]]}  按类别记录[0,1]，每个类中[0,1]的数量即为类别中项的数量
+        N_c:各类别数量
+        classes:[0,1]
+        n_must_alpha_c:{0:0,1:0}
+        n_must_beta_c:{0:N_c[0],1:N_c[1]}
+    """
     classes = [0, 1] # 只支持两个类
 
     # map old row number to new row number in each group
