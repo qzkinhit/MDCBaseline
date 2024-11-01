@@ -1,0 +1,23 @@
+Record 1
+Distance (Dirty to Clean): 0
+Distance (Repaired to Clean): 0
+========================================
+Record 2
+Distance (Dirty to Clean): 1
+Distance (Repaired to Clean): 1
+========================================
+Record 3
+Distance (Dirty to Clean): 1
+Distance (Repaired to Clean): 0
+========================================
+Record 4
+Distance (Dirty to Clean): 0
+Distance (Repaired to Clean): 0
+========================================
+Record 5
+Distance (Dirty to Clean): 0
+Distance (Repaired to Clean): 1
+========================================
+总的脏数据到干净数据距离: 2
+总的修复后数据到干净数据距离: 2
+基于条目的错误减少率 (R-EDR): 0.0
