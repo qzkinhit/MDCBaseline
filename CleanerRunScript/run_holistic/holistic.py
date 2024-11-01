@@ -735,7 +735,7 @@ class Holistic():
             self.wrong_cells = list(set(self.wrong_cells))
             if not PERFECTED:
                 det_right = 0
-                out_path = "./Exp_result/holistic/" + task_name[:-1] +"/onlyED_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
+                out_path = "./Exp_result/hospital/" + task_name[:-1] +"/onlyED_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
                 f = open(out_path, 'w')
                 sys.stdout = f
                 end_time = time.time()
@@ -748,8 +748,8 @@ class Holistic():
                 print("{pre}\n{rec}\n{f1}\n{time}".format(pre=pre, rec=rec, f1=f1, time=(end_time-start_time)))
                 f.close()
 
-                out_path = "./Exp_result/holistic/" + task_name[:-1] +"/oriED+EC_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
-                res_path = "./Repaired_res/holistic/" + task_name[:-1] +"/repaired_" + task_name + check_string(dirty_path.split("/")[-1]) + ".csv"
+                out_path = "./Exp_result/hospital/" + task_name[:-1] +"/oriED+EC_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
+                res_path = "./Repaired_res/hospital/" + task_name[:-1] +"/repaired_" + task_name + check_string(dirty_path.split("/")[-1]) + ".csv"
                 dirty_df = pd.read_csv(dirty_path)
                 for cell, value in self.repaired_cells_value.items():
                     dirty_df.iloc[cell[0], cell[1]] = value
@@ -773,7 +773,7 @@ class Holistic():
                 f.close()
 
                 sys.stdout = sys.__stdout__
-                out_path = "./Exp_result/holistic/" + task_name[:-1] +"/all_computed_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
+                out_path = "./Exp_result/hospital/" + task_name[:-1] +"/all_computed_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
                 f = open(out_path, 'w')
                 sys.stdout = f
                 right2wrong = 0
@@ -821,8 +821,8 @@ class Holistic():
                 pre = rec_right / (rep_t+1e-10)
                 rec = rec_right / (wrong_cells+1e-10)
                 f1 = 2*pre*rec / (rec+pre+1e-10)
-                out_path = "./Exp_result/holistic/" + task_name[:-1] +"/perfectED+EC_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
-                res_path = "./Repaired_res/holistic/" + task_name[:-1] +"/perfect_repaired_" + task_name + check_string(dirty_path.split("/")[-1]) + ".csv"
+                out_path = "./Exp_result/hospital/" + task_name[:-1] +"/perfectED+EC_" + task_name + check_string(dirty_path.split("/")[-1]) + ".txt"
+                res_path = "./Repaired_res/hospital/" + task_name[:-1] +"/perfect_repaired_" + task_name + check_string(dirty_path.split("/")[-1]) + ".csv"
                 dirty_df = pd.read_csv(dirty_path)
                 for cell, value in self.repaired_cells_value.items():
                     dirty_df.iloc[cell[0], cell[1]] = value
@@ -856,7 +856,7 @@ if __name__ == "__main__":
     parser.add_argument('--task_name', type=str, default="holistic_hospital3")
     parser.add_argument('--onlyed', type=int, default=0)
     parser.add_argument('--perfected', type=int, default=0)
-    parser.add_argument('--output_path', type=str, default="../results/holistic/")
+    parser.add_argument('--output_path', type=str, default="../results/hospital/")
     args = parser.parse_args()
 
     dirty_path = args.dirty_path

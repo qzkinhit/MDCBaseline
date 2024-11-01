@@ -75,7 +75,7 @@ def main():
                 value_to_assign = int(value_to_assign)
             except ValueError:
                 pass
-            res_df.loc[i, v] = value_to_assign
+            res_df.loc[i, v] = str(value_to_assign)
 
     res_df.to_csv(res_path, index=False)
     print("===============================================")

@@ -334,24 +334,28 @@ def GeneratePatternPreservingRepairs(dirty_path, constraints_path, gt_wrong_cell
                     Rtable.update({OrderedFDs[j].left: data.loc[i, OrderedFDs[j].left]})
 
                 Lval = Rtable[OrderedFDs[j].left]  # 获取左侧属性的值
-
+                # print('Lval', Lval)
                 # 如果右侧属性已经在 Rtable 中，则跳过
                 if OrderedFDs[j].right in Rtable:
                     continue
 
                 if Lval == '':  # 如果左侧属性为空值，则设为 'empty'
                     Lval = 'empty'
-
+                # if Lval == 'empty':  # 如果左侧属性为 'empty'，则跳过
+                #     continue
                 # 根据图中的连接质量选择最佳修复值
                 maxedge = -1
                 for v in g.vertList[Lval].getConnections():
+                    # if v.id=='empty':
+                    #     continue
                     print(v.id + "," + str(g.vertList[Lval].connectedQLT[v]))
                     if v.attr == OrderedFDs[j].right and g.vertList[Lval].connectedQLT[v] > maxedge:
                         maxedge = g.vertList[Lval].connectedQLT[v]
                         maxp = v.id  # 记录修复值
+                        print('maxp', maxp)
 
                 # 如果找到合适的修复，更新右侧属性
-                if maxedge != -1:
+                if maxedge != -1 and maxp != 'empty':
                     Rtable.update({OrderedFDs[j].right: maxp})
 
                 # 如果模式完美匹配地面真值，处理修复

@@ -1,0 +1,2190 @@
+[ActiveClean Real] Initialization
+[ActiveClean Real] Number Cleaned So Far : 47
+[ActiveClean Real] Prediction Freqs : 4940.0
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.45      0.50      4464
+         1.0       0.50      0.61      0.55      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.53      0.53      0.52      8517
+weighted avg       0.53      0.53      0.52      8517
+[ActiveClean Real] Accuracy 50 : 0.525067512034754
+[ActiveClean Real] Number Cleaned So Far : 91
+[ActiveClean Real] Prediction Freqs : 3673.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.58      0.56      4464
+         1.0       0.49      0.45      0.47      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.51      0.51      0.51      8517
+weighted avg       0.52      0.52      0.52      8517
+[ActiveClean Real] Accuracy 100 : 0.5179053657391101
+[ActiveClean Real] Number Cleaned So Far : 139
+[ActiveClean Real] Prediction Freqs : 6285.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.29      0.39      4464
+         1.0       0.50      0.77      0.60      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.54      0.53      0.50      8517
+weighted avg       0.54      0.52      0.49      8517
+[ActiveClean Real] Accuracy 150 : 0.5181401902078197
+[ActiveClean Real] Number Cleaned So Far : 185
+[ActiveClean Real] Prediction Freqs : 2774.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.70      0.61      4464
+         1.0       0.52      0.36      0.42      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.53      0.53      0.52      8517
+weighted avg       0.53      0.54      0.52      8517
+[ActiveClean Real] Accuracy 200 : 0.5377480333450746
+[ActiveClean Real] Number Cleaned So Far : 232
+[ActiveClean Real] Prediction Freqs : 2287.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.77      0.64      4464
+         1.0       0.55      0.31      0.40      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.55      0.54      0.52      8517
+weighted avg       0.55      0.55      0.53      8517
+[ActiveClean Real] Accuracy 250 : 0.5512504402958789
+[ActiveClean Real] Number Cleaned So Far : 280
+[ActiveClean Real] Prediction Freqs : 1997.0
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.82      0.67      4464
+         1.0       0.60      0.29      0.39      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.58      0.56      0.53      8517
+weighted avg       0.58      0.57      0.54      8517
+[ActiveClean Real] Accuracy 300 : 0.57003639779265
+[ActiveClean Real] Number Cleaned So Far : 326
+[ActiveClean Real] Prediction Freqs : 2592.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.72      0.62      4464
+         1.0       0.52      0.33      0.40      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.53      0.53      0.51      8517
+weighted avg       0.53      0.53      0.52      8517
+[ActiveClean Real] Accuracy 350 : 0.5349301397205589
+[ActiveClean Real] Number Cleaned So Far : 375
+[ActiveClean Real] Prediction Freqs : 4901.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.49      0.54      4464
+         1.0       0.54      0.65      0.59      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.57      0.57      0.56      8517
+weighted avg       0.57      0.57      0.56      8517
+[ActiveClean Real] Accuracy 400 : 0.5655747328871669
+[ActiveClean Real] Number Cleaned So Far : 423
+[ActiveClean Real] Prediction Freqs : 5677.0
+              precision    recall  f1-score   support
+
+         0.0       0.52      0.33      0.40      4464
+         1.0       0.47      0.66      0.55      4053
+
+    accuracy                           0.49      8517
+   macro avg       0.49      0.49      0.48      8517
+weighted avg       0.50      0.49      0.47      8517
+[ActiveClean Real] Accuracy 450 : 0.48667371140072796
+[ActiveClean Real] Number Cleaned So Far : 473
+[ActiveClean Real] Prediction Freqs : 835.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.92      0.68      4464
+         1.0       0.59      0.12      0.20      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.56      0.52      0.44      8517
+weighted avg       0.56      0.54      0.45      8517
+[ActiveClean Real] Accuracy 500 : 0.5411529881413644
+[ActiveClean Real] Number Cleaned So Far : 523
+[ActiveClean Real] Prediction Freqs : 3396.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.68      0.63      4464
+         1.0       0.57      0.48      0.52      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.58      0.58      8517
+weighted avg       0.58      0.58      0.58      8517
+[ActiveClean Real] Accuracy 550 : 0.5835388047434543
+[ActiveClean Real] Number Cleaned So Far : 573
+[ActiveClean Real] Prediction Freqs : 3678.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.62      0.60      4464
+         1.0       0.54      0.49      0.52      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.56      0.56      0.56      8517
+weighted avg       0.56      0.56      0.56      8517
+[ActiveClean Real] Accuracy 600 : 0.5624046025595867
+[ActiveClean Real] Number Cleaned So Far : 620
+[ActiveClean Real] Prediction Freqs : 3189.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.69      0.63      4464
+         1.0       0.57      0.45      0.50      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.57      0.57      0.57      8517
+weighted avg       0.57      0.58      0.57      8517
+[ActiveClean Real] Accuracy 650 : 0.5752025361042621
+[ActiveClean Real] Number Cleaned So Far : 669
+[ActiveClean Real] Prediction Freqs : 2567.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.79      0.68      4464
+         1.0       0.63      0.40      0.49      4053
+
+    accuracy                           0.60      8517
+   macro avg       0.61      0.59      0.58      8517
+weighted avg       0.61      0.60      0.59      8517
+[ActiveClean Real] Accuracy 700 : 0.6031466478807092
+[ActiveClean Real] Number Cleaned So Far : 719
+[ActiveClean Real] Prediction Freqs : 2480.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.78      0.66      4464
+         1.0       0.61      0.37      0.46      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.59      0.58      0.56      8517
+weighted avg       0.59      0.59      0.57      8517
+[ActiveClean Real] Accuracy 750 : 0.5854174004931314
+[ActiveClean Real] Number Cleaned So Far : 767
+[ActiveClean Real] Prediction Freqs : 1007.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.92      0.69      4464
+         1.0       0.65      0.16      0.26      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.60      0.54      0.47      8517
+weighted avg       0.60      0.56      0.48      8517
+[ActiveClean Real] Accuracy 800 : 0.5606434190442644
+[ActiveClean Real] Number Cleaned So Far : 816
+[ActiveClean Real] Prediction Freqs : 3494.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.60      0.57      4464
+         1.0       0.49      0.43      0.46      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.52      0.52      0.51      8517
+weighted avg       0.52      0.52      0.52      8517
+[ActiveClean Real] Accuracy 850 : 0.5194317247857226
+[ActiveClean Real] Number Cleaned So Far : 866
+[ActiveClean Real] Prediction Freqs : 3772.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.63      0.61      4464
+         1.0       0.57      0.53      0.55      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.58      0.58      8517
+weighted avg       0.58      0.58      0.58      8517
+[ActiveClean Real] Accuracy 900 : 0.5833039802747446
+[ActiveClean Real] Number Cleaned So Far : 914
+[ActiveClean Real] Prediction Freqs : 4133.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.56      0.56      4464
+         1.0       0.52      0.53      0.53      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.55      0.55      0.55      8517
+weighted avg       0.55      0.55      0.55      8517
+[ActiveClean Real] Accuracy 950 : 0.5479628977339439
+[ActiveClean Real] Number Cleaned So Far : 961
+[ActiveClean Real] Prediction Freqs : 5180.0
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.42      0.48      4464
+         1.0       0.50      0.64      0.56      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.53      0.53      0.52      8517
+weighted avg       0.53      0.53      0.52      8517
+[ActiveClean Real] Accuracy 1000 : 0.525771985440883
+[ActiveClean Real] Number Cleaned So Far : 1011
+[ActiveClean Real] Prediction Freqs : 2689.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.78      0.68      4464
+         1.0       0.64      0.42      0.51      4053
+
+    accuracy                           0.61      8517
+   macro avg       0.62      0.60      0.59      8517
+weighted avg       0.62      0.61      0.60      8517
+[ActiveClean Real] Accuracy 1050 : 0.6108958553481273
+[ActiveClean Real] Number Cleaned So Far : 1061
+[ActiveClean Real] Prediction Freqs : 2186.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.81      0.67      4464
+         1.0       0.61      0.33      0.43      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.59      0.57      0.55      8517
+weighted avg       0.59      0.58      0.56      8517
+[ActiveClean Real] Accuracy 1100 : 0.5821298579311964
+[ActiveClean Real] Number Cleaned So Far : 1109
+[ActiveClean Real] Prediction Freqs : 5415.0
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.44      0.52      4464
+         1.0       0.54      0.72      0.61      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.58      0.58      0.56      8517
+weighted avg       0.58      0.57      0.56      8517
+[ActiveClean Real] Accuracy 1150 : 0.5695667488552307
+[ActiveClean Real] Number Cleaned So Far : 1158
+[ActiveClean Real] Prediction Freqs : 3531.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.59      0.56      4464
+         1.0       0.48      0.42      0.45      4053
+
+    accuracy                           0.51      8517
+   macro avg       0.50      0.50      0.50      8517
+weighted avg       0.50      0.51      0.50      8517
+[ActiveClean Real] Accuracy 1200 : 0.5073382646471762
+[ActiveClean Real] Number Cleaned So Far : 1207
+[ActiveClean Real] Prediction Freqs : 1787.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.81      0.65      4464
+         1.0       0.54      0.24      0.33      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.54      0.53      0.49      8517
+weighted avg       0.54      0.54      0.50      8517
+[ActiveClean Real] Accuracy 1250 : 0.5399788657978162
+[ActiveClean Real] Number Cleaned So Far : 1256
+[ActiveClean Real] Prediction Freqs : 5210.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.41      0.47      4464
+         1.0       0.49      0.63      0.55      4053
+
+    accuracy                           0.51      8517
+   macro avg       0.52      0.52      0.51      8517
+weighted avg       0.52      0.51      0.51      8517
+[ActiveClean Real] Accuracy 1300 : 0.5135611130679817
+[ActiveClean Real] Number Cleaned So Far : 1306
+[ActiveClean Real] Prediction Freqs : 3362.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.67      0.62      4464
+         1.0       0.56      0.46      0.50      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.57      0.56      0.56      8517
+weighted avg       0.57      0.57      0.56      8517
+[ActiveClean Real] Accuracy 1350 : 0.5687448632147469
+[ActiveClean Real] Number Cleaned So Far : 1356
+[ActiveClean Real] Prediction Freqs : 5917.0
+              precision    recall  f1-score   support
+
+         0.0       0.65      0.38      0.48      4464
+         1.0       0.53      0.77      0.63      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.59      0.58      0.55      8517
+weighted avg       0.59      0.57      0.55      8517
+[ActiveClean Real] Accuracy 1400 : 0.5655747328871669
+[ActiveClean Real] Number Cleaned So Far : 1405
+[ActiveClean Real] Prediction Freqs : 5176.0
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.47      0.54      4464
+         1.0       0.54      0.69      0.61      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.58      0.57      8517
+weighted avg       0.59      0.58      0.57      8517
+[ActiveClean Real] Accuracy 1450 : 0.5750851238699073
+[ActiveClean Real] Number Cleaned So Far : 1455
+[ActiveClean Real] Prediction Freqs : 3682.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.57      0.55      4464
+         1.0       0.48      0.44      0.46      4053
+
+    accuracy                           0.51      8517
+   macro avg       0.50      0.50      0.50      8517
+weighted avg       0.51      0.51      0.51      8517
+[ActiveClean Real] Accuracy 1500 : 0.5079253258189503
+[ActiveClean Real] Number Cleaned So Far : 1503
+[ActiveClean Real] Prediction Freqs : 3002.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.66      0.59      4464
+         1.0       0.50      0.37      0.42      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.52      0.52      0.51      8517
+weighted avg       0.52      0.52      0.51      8517
+[ActiveClean Real] Accuracy 1550 : 0.5229540918163673
+[ActiveClean Real] Number Cleaned So Far : 1551
+[ActiveClean Real] Prediction Freqs : 4240.0
+              precision    recall  f1-score   support
+
+         0.0       0.51      0.49      0.50      4464
+         1.0       0.47      0.49      0.48      4053
+
+    accuracy                           0.49      8517
+   macro avg       0.49      0.49      0.49      8517
+weighted avg       0.49      0.49      0.49      8517
+[ActiveClean Real] Accuracy 1600 : 0.49054831513443703
+[ActiveClean Real] Number Cleaned So Far : 1601
+[ActiveClean Real] Prediction Freqs : 5041.0
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.49      0.55      4464
+         1.0       0.55      0.68      0.61      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.59      0.59      0.58      8517
+weighted avg       0.59      0.58      0.58      8517
+[ActiveClean Real] Accuracy 1650 : 0.5817776212281319
+[ActiveClean Real] Number Cleaned So Far : 1651
+[ActiveClean Real] Prediction Freqs : 4164.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.60      0.60      4464
+         1.0       0.57      0.58      0.58      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.59      0.59      0.59      8517
+weighted avg       0.59      0.59      0.59      8517
+[ActiveClean Real] Accuracy 1700 : 0.5910531877421628
+[ActiveClean Real] Number Cleaned So Far : 1698
+[ActiveClean Real] Prediction Freqs : 2944.0
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.70      0.62      4464
+         1.0       0.54      0.40      0.46      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.55      0.55      0.54      8517
+weighted avg       0.55      0.55      0.54      8517
+[ActiveClean Real] Accuracy 1750 : 0.5546553950921687
+[ActiveClean Real] Number Cleaned So Far : 1747
+[ActiveClean Real] Prediction Freqs : 1306.0
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.90      0.69      4464
+         1.0       0.67      0.22      0.33      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.61      0.56      0.51      8517
+weighted avg       0.61      0.58      0.52      8517
+[ActiveClean Real] Accuracy 1800 : 0.5757895972760362
+[ActiveClean Real] Number Cleaned So Far : 1797
+[ActiveClean Real] Prediction Freqs : 5973.0
+              precision    recall  f1-score   support
+
+         0.0       0.64      0.37      0.47      4464
+         1.0       0.53      0.77      0.63      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.58      0.57      0.55      8517
+weighted avg       0.59      0.56      0.54      8517
+[ActiveClean Real] Accuracy 1850 : 0.5599389456381355
+[ActiveClean Real] Number Cleaned So Far : 1846
+[ActiveClean Real] Prediction Freqs : 2763.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.74      0.65      4464
+         1.0       0.58      0.40      0.47      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.57      0.56      8517
+weighted avg       0.58      0.58      0.56      8517
+[ActiveClean Real] Accuracy 1900 : 0.5761418339791006
+[ActiveClean Real] Number Cleaned So Far : 1894
+[ActiveClean Real] Prediction Freqs : 6354.0
+              precision    recall  f1-score   support
+
+         0.0       0.65      0.31      0.42      4464
+         1.0       0.52      0.81      0.63      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.58      0.56      0.53      8517
+weighted avg       0.59      0.55      0.52      8517
+[ActiveClean Real] Accuracy 1950 : 0.5513678525302337
+[ActiveClean Real] Number Cleaned So Far : 1944
+[ActiveClean Real] Prediction Freqs : 4152.0
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.61      0.62      4464
+         1.0       0.58      0.60      0.59      4053
+
+    accuracy                           0.60      8517
+   macro avg       0.60      0.60      0.60      8517
+weighted avg       0.61      0.60      0.60      8517
+[ActiveClean Real] Accuracy 2000 : 0.6046730069273218
+[ActiveClean Real] Number Cleaned So Far : 1994
+[ActiveClean Real] Prediction Freqs : 530.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.97      0.69      4464
+         1.0       0.71      0.09      0.16      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.62      0.53      0.43      8517
+weighted avg       0.62      0.55      0.44      8517
+[ActiveClean Real] Accuracy 2050 : 0.5501937301866855
+[ActiveClean Real] Number Cleaned So Far : 2043
+[ActiveClean Real] Prediction Freqs : 3203.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.71      0.64      4464
+         1.0       0.59      0.47      0.52      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.59      0.59      0.58      8517
+weighted avg       0.59      0.59      0.58      8517
+[ActiveClean Real] Accuracy 2100 : 0.5911705999765176
+[ActiveClean Real] Number Cleaned So Far : 2092
+[ActiveClean Real] Prediction Freqs : 2318.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.81      0.68      4464
+         1.0       0.63      0.36      0.46      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.61      0.58      0.57      8517
+weighted avg       0.60      0.59      0.57      8517
+[ActiveClean Real] Accuracy 2150 : 0.5945755547728073
+[ActiveClean Real] Number Cleaned So Far : 2142
+[ActiveClean Real] Prediction Freqs : 4000.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.55      0.55      4464
+         1.0       0.50      0.49      0.50      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.52      0.52      0.52      8517
+weighted avg       0.52      0.52      0.52      8517
+[ActiveClean Real] Accuracy 2200 : 0.5241282141599155
+[ActiveClean Real] Number Cleaned So Far : 2190
+[ActiveClean Real] Prediction Freqs : 4222.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.57      0.58      4464
+         1.0       0.54      0.57      0.55      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.57      0.57      0.57      8517
+weighted avg       0.57      0.57      0.57      8517
+[ActiveClean Real] Accuracy 2250 : 0.566161794058941
+[ActiveClean Real] Number Cleaned So Far : 2239
+[ActiveClean Real] Prediction Freqs : 2195.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.82      0.68      4464
+         1.0       0.63      0.34      0.45      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.61      0.58      0.56      8517
+weighted avg       0.61      0.59      0.57      8517
+[ActiveClean Real] Accuracy 2300 : 0.5930491957261946
+[ActiveClean Real] Number Cleaned So Far : 2288
+[ActiveClean Real] Prediction Freqs : 4601.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.53      0.56      4464
+         1.0       0.54      0.62      0.58      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.57      0.57      0.57      8517
+weighted avg       0.57      0.57      0.57      8517
+[ActiveClean Real] Accuracy 2350 : 0.569331924386521
+[ActiveClean Real] Number Cleaned So Far : 2338
+[ActiveClean Real] Prediction Freqs : 3818.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.56      0.55      4464
+         1.0       0.49      0.46      0.47      4053
+
+    accuracy                           0.51      8517
+   macro avg       0.51      0.51      0.51      8517
+weighted avg       0.51      0.51      0.51      8517
+[ActiveClean Real] Accuracy 2400 : 0.5112128683808853
+[ActiveClean Real] Number Cleaned So Far : 2387
+[ActiveClean Real] Prediction Freqs : 4956.0
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.50      0.56      4464
+         1.0       0.55      0.67      0.61      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.59      0.59      0.58      8517
+weighted avg       0.59      0.58      0.58      8517
+[ActiveClean Real] Accuracy 2450 : 0.5840084536808735
+[ActiveClean Real] Number Cleaned So Far : 2435
+[ActiveClean Real] Prediction Freqs : 6445.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.25      0.34      4464
+         1.0       0.48      0.76      0.59      4053
+
+    accuracy                           0.49      8517
+   macro avg       0.51      0.50      0.46      8517
+weighted avg       0.51      0.49      0.46      8517
+[ActiveClean Real] Accuracy 2500 : 0.49207467418104966
+[ActiveClean Real] Number Cleaned So Far : 2484
+[ActiveClean Real] Prediction Freqs : 1238.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.89      0.68      4464
+         1.0       0.60      0.18      0.28      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.58      0.54      0.48      8517
+weighted avg       0.57      0.55      0.49      8517
+[ActiveClean Real] Accuracy 2550 : 0.554420570623459
+[ActiveClean Real] Number Cleaned So Far : 2534
+[ActiveClean Real] Prediction Freqs : 2735.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.74      0.65      4464
+         1.0       0.58      0.39      0.47      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.57      0.56      8517
+weighted avg       0.58      0.58      0.56      8517
+[ActiveClean Real] Accuracy 2600 : 0.5775507807913585
+[ActiveClean Real] Number Cleaned So Far : 2584
+[ActiveClean Real] Prediction Freqs : 3658.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.65      0.62      4464
+         1.0       0.57      0.51      0.54      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.58      0.58      8517
+weighted avg       0.58      0.58      0.58      8517
+[ActiveClean Real] Accuracy 2650 : 0.5840084536808735
+[ActiveClean Real] Number Cleaned So Far : 2634
+[ActiveClean Real] Prediction Freqs : 2441.0
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.76      0.64      4464
+         1.0       0.56      0.34      0.42      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.56      0.55      0.53      8517
+weighted avg       0.56      0.56      0.54      8517
+[ActiveClean Real] Accuracy 2700 : 0.5573558764823294
+[ActiveClean Real] Number Cleaned So Far : 2684
+[ActiveClean Real] Prediction Freqs : 3277.0
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.59      0.54      4464
+         1.0       0.44      0.36      0.39      4053
+
+    accuracy                           0.48      8517
+   macro avg       0.47      0.47      0.47      8517
+weighted avg       0.47      0.48      0.47      8517
+[ActiveClean Real] Accuracy 2750 : 0.4789245039333099
+[ActiveClean Real] Number Cleaned So Far : 2734
+[ActiveClean Real] Prediction Freqs : 4252.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.59      0.60      4464
+         1.0       0.57      0.59      0.58      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.59      0.59      0.59      8517
+weighted avg       0.59      0.59      0.59      8517
+[ActiveClean Real] Accuracy 2800 : 0.5891745919924856
+[ActiveClean Real] Number Cleaned So Far : 2783
+[ActiveClean Real] Prediction Freqs : 5709.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.39      0.47      4464
+         1.0       0.52      0.73      0.61      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.57      0.56      0.54      8517
+weighted avg       0.57      0.55      0.54      8517
+[ActiveClean Real] Accuracy 2850 : 0.5505459668897499
+[ActiveClean Real] Number Cleaned So Far : 2833
+[ActiveClean Real] Prediction Freqs : 4876.0
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.51      0.56      4464
+         1.0       0.55      0.66      0.60      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.59      0.58      0.58      8517
+weighted avg       0.59      0.58      0.58      8517
+[ActiveClean Real] Accuracy 2900 : 0.5797816132441
+[ActiveClean Real] Number Cleaned So Far : 2882
+[ActiveClean Real] Prediction Freqs : 3834.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.58      0.56      4464
+         1.0       0.51      0.48      0.49      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.53      0.53      0.53      8517
+weighted avg       0.53      0.53      0.53      8517
+[ActiveClean Real] Accuracy 2950 : 0.530233650346366
+[ActiveClean Real] Number Cleaned So Far : 2932
+[ActiveClean Real] Prediction Freqs : 4615.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.50      0.54      4464
+         1.0       0.52      0.59      0.55      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.55      0.55      0.54      8517
+weighted avg       0.55      0.54      0.54      8517
+[ActiveClean Real] Accuracy 3000 : 0.54397088176588
+[ActiveClean Real] Number Cleaned So Far : 2981
+[ActiveClean Real] Prediction Freqs : 6698.0
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.25      0.36      4464
+         1.0       0.50      0.83      0.63      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.56      0.54      0.49      8517
+weighted avg       0.56      0.53      0.49      8517
+[ActiveClean Real] Accuracy 3050 : 0.5271809322531408
+[ActiveClean Real] Number Cleaned So Far : 3030
+[ActiveClean Real] Prediction Freqs : 6194.0
+              precision    recall  f1-score   support
+
+         0.0       0.64      0.33      0.44      4464
+         1.0       0.52      0.79      0.63      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.58      0.56      0.53      8517
+weighted avg       0.58      0.55      0.53      8517
+[ActiveClean Real] Accuracy 3100 : 0.5516026769989433
+[ActiveClean Real] Number Cleaned So Far : 3080
+[ActiveClean Real] Prediction Freqs : 5520.0
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.37      0.45      4464
+         1.0       0.49      0.67      0.57      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.52      0.52      0.51      8517
+weighted avg       0.53      0.52      0.50      8517
+[ActiveClean Real] Accuracy 3150 : 0.5152048843489492
+[ActiveClean Real] Number Cleaned So Far : 3129
+[ActiveClean Real] Prediction Freqs : 5228.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.43      0.50      4464
+         1.0       0.52      0.67      0.58      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.55      0.55      0.54      8517
+weighted avg       0.55      0.54      0.54      8517
+[ActiveClean Real] Accuracy 3200 : 0.5440882940002348
+[ActiveClean Real] Number Cleaned So Far : 3179
+[ActiveClean Real] Prediction Freqs : 1735.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.87      0.69      4464
+         1.0       0.67      0.29      0.40      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.62      0.58      0.55      8517
+weighted avg       0.62      0.59      0.55      8517
+[ActiveClean Real] Accuracy 3250 : 0.5925795467887753
+[ActiveClean Real] Number Cleaned So Far : 3229
+[ActiveClean Real] Prediction Freqs : 6164.0
+              precision    recall  f1-score   support
+
+         0.0       0.65      0.34      0.45      4464
+         1.0       0.52      0.79      0.63      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.58      0.57      0.54      8517
+weighted avg       0.59      0.56      0.53      8517
+[ActiveClean Real] Accuracy 3300 : 0.557003639779265
+[ActiveClean Real] Number Cleaned So Far : 3279
+[ActiveClean Real] Prediction Freqs : 3743.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.58      0.56      4464
+         1.0       0.50      0.46      0.48      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.52      0.52      0.52      8517
+weighted avg       0.52      0.52      0.52      8517
+[ActiveClean Real] Accuracy 3350 : 0.5200187859574967
+[ActiveClean Real] Number Cleaned So Far : 3329
+[ActiveClean Real] Prediction Freqs : 4553.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.54      0.57      4464
+         1.0       0.55      0.62      0.58      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.58      0.58      8517
+weighted avg       0.58      0.58      0.58      8517
+[ActiveClean Real] Accuracy 3400 : 0.5789597276036162
+[ActiveClean Real] Number Cleaned So Far : 3379
+[ActiveClean Real] Prediction Freqs : 3991.0
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.63      0.62      4464
+         1.0       0.58      0.58      0.58      4053
+
+    accuracy                           0.60      8517
+   macro avg       0.60      0.60      0.60      8517
+weighted avg       0.60      0.60      0.60      8517
+[ActiveClean Real] Accuracy 3450 : 0.6031466478807092
+[ActiveClean Real] Number Cleaned So Far : 3429
+[ActiveClean Real] Prediction Freqs : 2677.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.69      0.60      4464
+         1.0       0.48      0.32      0.39      4053
+
+    accuracy                           0.51      8517
+   macro avg       0.51      0.51      0.49      8517
+weighted avg       0.51      0.51      0.50      8517
+[ActiveClean Real] Accuracy 3500 : 0.5143829987084654
+[ActiveClean Real] Number Cleaned So Far : 3478
+[ActiveClean Real] Prediction Freqs : 1014.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.91      0.68      4464
+         1.0       0.62      0.15      0.25      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.58      0.53      0.46      8517
+weighted avg       0.58      0.55      0.47      8517
+[ActiveClean Real] Accuracy 3550 : 0.551837501467653
+[ActiveClean Real] Number Cleaned So Far : 3528
+[ActiveClean Real] Prediction Freqs : 2231.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.78      0.65      4464
+         1.0       0.56      0.31      0.40      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.55      0.54      0.52      8517
+weighted avg       0.55      0.55      0.53      8517
+[ActiveClean Real] Accuracy 3600 : 0.5538335094516849
+[ActiveClean Real] Number Cleaned So Far : 3578
+[ActiveClean Real] Prediction Freqs : 2724.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.74      0.64      4464
+         1.0       0.57      0.38      0.46      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.57      0.56      0.55      8517
+weighted avg       0.57      0.57      0.55      8517
+[ActiveClean Real] Accuracy 3650 : 0.5692145121521662
+[ActiveClean Real] Number Cleaned So Far : 3628
+[ActiveClean Real] Prediction Freqs : 7315.0
+              precision    recall  f1-score   support
+
+         0.0       0.67      0.18      0.28      4464
+         1.0       0.50      0.90      0.64      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.59      0.54      0.46      8517
+weighted avg       0.59      0.52      0.46      8517
+[ActiveClean Real] Accuracy 3700 : 0.5242456263942703
+[ActiveClean Real] Number Cleaned So Far : 3678
+[ActiveClean Real] Prediction Freqs : 8026.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.07      0.12      4464
+         1.0       0.48      0.95      0.64      4053
+
+    accuracy                           0.49      8517
+   macro avg       0.55      0.51      0.38      8517
+weighted avg       0.55      0.49      0.37      8517
+[ActiveClean Real] Accuracy 3750 : 0.48843489491605024
+[ActiveClean Real] Number Cleaned So Far : 3727
+[ActiveClean Real] Prediction Freqs : 3741.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.61      0.59      4464
+         1.0       0.53      0.49      0.51      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.55      0.55      0.55      8517
+weighted avg       0.55      0.55      0.55      8517
+[ActiveClean Real] Accuracy 3800 : 0.553129036045556
+[ActiveClean Real] Number Cleaned So Far : 3777
+[ActiveClean Real] Prediction Freqs : 4886.0
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.51      0.56      4464
+         1.0       0.55      0.67      0.61      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.59      0.59      0.58      8517
+weighted avg       0.59      0.59      0.58      8517
+[ActiveClean Real] Accuracy 3850 : 0.585652224961841
+[ActiveClean Real] Number Cleaned So Far : 3825
+[ActiveClean Real] Prediction Freqs : 2150.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.78      0.65      4464
+         1.0       0.55      0.29      0.38      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.55      0.54      0.51      8517
+weighted avg       0.55      0.55      0.52      8517
+[ActiveClean Real] Accuracy 3900 : 0.548549958905718
+[ActiveClean Real] Number Cleaned So Far : 3875
+[ActiveClean Real] Prediction Freqs : 946.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.92      0.68      4464
+         1.0       0.63      0.15      0.24      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.59      0.53      0.46      8517
+weighted avg       0.58      0.55      0.47      8517
+[ActiveClean Real] Accuracy 3950 : 0.5525419748737819
+[ActiveClean Real] Number Cleaned So Far : 3925
+[ActiveClean Real] Prediction Freqs : 3061.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.66      0.59      4464
+         1.0       0.50      0.38      0.43      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.52      0.52      0.51      8517
+weighted avg       0.52      0.52      0.51      8517
+[ActiveClean Real] Accuracy 4000 : 0.5218973817071739
+[ActiveClean Real] Number Cleaned So Far : 3975
+[ActiveClean Real] Prediction Freqs : 2171.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.77      0.64      4464
+         1.0       0.53      0.28      0.37      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.53      0.53      0.50      8517
+weighted avg       0.53      0.54      0.51      8517
+[ActiveClean Real] Accuracy 4050 : 0.5371609721733005
+[ActiveClean Real] Number Cleaned So Far : 4025
+[ActiveClean Real] Prediction Freqs : 612.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.93      0.67      4464
+         1.0       0.49      0.07      0.13      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.51      0.50      0.40      8517
+weighted avg       0.51      0.52      0.41      8517
+[ActiveClean Real] Accuracy 4100 : 0.5227192673476576
+[ActiveClean Real] Number Cleaned So Far : 4074
+[ActiveClean Real] Prediction Freqs : 6076.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.33      0.42      4464
+         1.0       0.50      0.76      0.60      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.55      0.54      0.51      8517
+weighted avg       0.55      0.53      0.51      8517
+[ActiveClean Real] Accuracy 4150 : 0.530233650346366
+[ActiveClean Real] Number Cleaned So Far : 4123
+[ActiveClean Real] Prediction Freqs : 5113.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.46      0.52      4464
+         1.0       0.53      0.67      0.59      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.57      0.56      0.56      8517
+weighted avg       0.57      0.56      0.56      8517
+[ActiveClean Real] Accuracy 4200 : 0.5597041211694258
+[ActiveClean Real] Number Cleaned So Far : 4172
+[ActiveClean Real] Prediction Freqs : 6097.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.31      0.40      4464
+         1.0       0.49      0.74      0.59      4053
+
+    accuracy                           0.51      8517
+   macro avg       0.53      0.52      0.50      8517
+weighted avg       0.53      0.51      0.49      8517
+[ActiveClean Real] Accuracy 4250 : 0.5141481742397558
+[ActiveClean Real] Number Cleaned So Far : 4222
+[ActiveClean Real] Prediction Freqs : 3915.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.55      0.54      4464
+         1.0       0.49      0.47      0.48      4053
+
+    accuracy                           0.51      8517
+   macro avg       0.51      0.51      0.51      8517
+weighted avg       0.51      0.51      0.51      8517
+[ActiveClean Real] Accuracy 4300 : 0.5106258072091112
+[ActiveClean Real] Number Cleaned So Far : 4272
+[ActiveClean Real] Prediction Freqs : 1044.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.89      0.67      4464
+         1.0       0.55      0.14      0.22      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.54      0.52      0.45      8517
+weighted avg       0.54      0.54      0.46      8517
+[ActiveClean Real] Accuracy 4350 : 0.5356346131266878
+[ActiveClean Real] Number Cleaned So Far : 4322
+[ActiveClean Real] Prediction Freqs : 4566.0
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.55      0.58      4464
+         1.0       0.56      0.63      0.59      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.59      0.59      0.59      8517
+weighted avg       0.59      0.59      0.59      8517
+[ActiveClean Real] Accuracy 4400 : 0.5854174004931314
+[ActiveClean Real] Number Cleaned So Far : 4371
+[ActiveClean Real] Prediction Freqs : 1357.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.86      0.66      4464
+         1.0       0.52      0.18      0.26      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.53      0.52      0.46      8517
+weighted avg       0.53      0.53      0.47      8517
+[ActiveClean Real] Accuracy 4450 : 0.5319948338616884
+[ActiveClean Real] Number Cleaned So Far : 4421
+[ActiveClean Real] Prediction Freqs : 2339.0
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.78      0.65      4464
+         1.0       0.58      0.33      0.42      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.57      0.56      0.54      8517
+weighted avg       0.57      0.57      0.54      8517
+[ActiveClean Real] Accuracy 4500 : 0.5662792062932958
+[ActiveClean Real] Number Cleaned So Far : 4470
+[ActiveClean Real] Prediction Freqs : 6739.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.24      0.35      4464
+         1.0       0.50      0.83      0.62      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.55      0.53      0.48      8517
+weighted avg       0.55      0.52      0.48      8517
+[ActiveClean Real] Accuracy 4550 : 0.520488434894916
+[ActiveClean Real] Number Cleaned So Far : 4520
+[ActiveClean Real] Prediction Freqs : 1756.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.86      0.68      4464
+         1.0       0.64      0.28      0.39      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.60      0.57      0.54      8517
+weighted avg       0.60      0.58      0.54      8517
+[ActiveClean Real] Accuracy 4600 : 0.5821298579311964
+[ActiveClean Real] Number Cleaned So Far : 4570
+[ActiveClean Real] Prediction Freqs : 3742.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.65      0.62      4464
+         1.0       0.58      0.53      0.55      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.59      0.59      0.59      8517
+weighted avg       0.59      0.59      0.59      8517
+[ActiveClean Real] Accuracy 4650 : 0.5926969590231302
+[ActiveClean Real] Number Cleaned So Far : 4620
+[ActiveClean Real] Prediction Freqs : 6183.0
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.33      0.43      4464
+         1.0       0.52      0.79      0.62      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.57      0.56      0.53      8517
+weighted avg       0.57      0.55      0.52      8517
+[ActiveClean Real] Accuracy 4700 : 0.5463191264529764
+[ActiveClean Real] Number Cleaned So Far : 4670
+[ActiveClean Real] Prediction Freqs : 5640.0
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.40      0.49      4464
+         1.0       0.53      0.73      0.61      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.58      0.57      0.55      8517
+weighted avg       0.58      0.56      0.55      8517
+[ActiveClean Real] Accuracy 4750 : 0.5607608312786192
+[ActiveClean Real] Number Cleaned So Far : 4720
+[ActiveClean Real] Prediction Freqs : 6547.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.26      0.36      4464
+         1.0       0.50      0.80      0.61      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.55      0.53      0.49      8517
+weighted avg       0.55      0.52      0.48      8517
+[ActiveClean Real] Accuracy 4800 : 0.5202536104262064
+[ActiveClean Real] Number Cleaned So Far : 4770
+[ActiveClean Real] Prediction Freqs : 5729.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.35      0.44      4464
+         1.0       0.50      0.70      0.58      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.53      0.53      0.51      8517
+weighted avg       0.53      0.52      0.50      8517
+[ActiveClean Real] Accuracy 4850 : 0.5193143125513678
+[ActiveClean Real] Number Cleaned So Far : 4820
+[ActiveClean Real] Prediction Freqs : 5360.0
+              precision    recall  f1-score   support
+
+         0.0       0.52      0.37      0.43      4464
+         1.0       0.47      0.62      0.54      4053
+
+    accuracy                           0.49      8517
+   macro avg       0.49      0.50      0.48      8517
+weighted avg       0.50      0.49      0.48      8517
+[ActiveClean Real] Accuracy 4900 : 0.48890454385346954
+[ActiveClean Real] Number Cleaned So Far : 4870
+[ActiveClean Real] Prediction Freqs : 5449.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.41      0.49      4464
+         1.0       0.52      0.70      0.60      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.56      0.56      0.54      8517
+weighted avg       0.56      0.55      0.54      8517
+[ActiveClean Real] Accuracy 4950 : 0.5484325466713632
+[ActiveClean Real] Number Cleaned So Far : 4919
+[ActiveClean Real] Prediction Freqs : 5755.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.37      0.46      4464
+         1.0       0.52      0.73      0.60      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.56      0.55      0.53      8517
+weighted avg       0.56      0.54      0.53      8517
+[ActiveClean Real] Accuracy 5000 : 0.5444405307032992
+[ActiveClean Real] Number Cleaned So Far : 4968
+[ActiveClean Real] Prediction Freqs : 4029.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.61      0.61      4464
+         1.0       0.57      0.57      0.57      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.59      0.59      0.59      8517
+weighted avg       0.59      0.59      0.59      8517
+[ActiveClean Real] Accuracy 5050 : 0.5932840201949043
+[ActiveClean Real] Number Cleaned So Far : 5017
+[ActiveClean Real] Prediction Freqs : 5021.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.45      0.51      4464
+         1.0       0.51      0.63      0.57      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.54      0.54      0.54      8517
+weighted avg       0.54      0.54      0.53      8517
+[ActiveClean Real] Accuracy 5100 : 0.5376306211107197
+[ActiveClean Real] Number Cleaned So Far : 5066
+[ActiveClean Real] Prediction Freqs : 4454.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.56      0.58      4464
+         1.0       0.55      0.61      0.58      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.58      0.58      8517
+weighted avg       0.58      0.58      0.58      8517
+[ActiveClean Real] Accuracy 5150 : 0.5809557355876482
+[ActiveClean Real] Number Cleaned So Far : 5115
+[ActiveClean Real] Prediction Freqs : 1041.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.91      0.68      4464
+         1.0       0.62      0.16      0.25      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.58      0.54      0.47      8517
+weighted avg       0.58      0.55      0.48      8517
+[ActiveClean Real] Accuracy 5200 : 0.5535986849829753
+[ActiveClean Real] Number Cleaned So Far : 5164
+[ActiveClean Real] Prediction Freqs : 7160.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.17      0.27      4464
+         1.0       0.49      0.86      0.62      4053
+
+    accuracy                           0.50      8517
+   macro avg       0.53      0.52      0.44      8517
+weighted avg       0.53      0.50      0.43      8517
+[ActiveClean Real] Accuracy 5250 : 0.499001996007984
+[ActiveClean Real] Number Cleaned So Far : 5214
+[ActiveClean Real] Prediction Freqs : 6587.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.26      0.36      4464
+         1.0       0.50      0.81      0.62      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.55      0.53      0.49      8517
+weighted avg       0.55      0.52      0.48      8517
+[ActiveClean Real] Accuracy 5300 : 0.5200187859574967
+[ActiveClean Real] Number Cleaned So Far : 5263
+[ActiveClean Real] Prediction Freqs : 2637.0
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.74      0.64      4464
+         1.0       0.56      0.36      0.44      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.56      0.55      0.54      8517
+weighted avg       0.56      0.56      0.54      8517
+[ActiveClean Real] Accuracy 5350 : 0.5587648232945873
+[ActiveClean Real] Number Cleaned So Far : 5311
+[ActiveClean Real] Prediction Freqs : 7962.0
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.08      0.14      4464
+         1.0       0.48      0.95      0.64      4053
+
+    accuracy                           0.49      8517
+   macro avg       0.55      0.51      0.39      8517
+weighted avg       0.56      0.49      0.38      8517
+[ActiveClean Real] Accuracy 5400 : 0.49219208641540446
+[ActiveClean Real] Number Cleaned So Far : 5361
+[ActiveClean Real] Prediction Freqs : 3595.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.66      0.63      4464
+         1.0       0.58      0.52      0.55      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.59      0.59      0.59      8517
+weighted avg       0.59      0.59      0.59      8517
+[ActiveClean Real] Accuracy 5450 : 0.5942233180697428
+[ActiveClean Real] Number Cleaned So Far : 5410
+[ActiveClean Real] Prediction Freqs : 5775.0
+              precision    recall  f1-score   support
+
+         0.0       0.64      0.39      0.49      4464
+         1.0       0.53      0.76      0.63      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.59      0.58      0.56      8517
+weighted avg       0.59      0.57      0.55      8517
+[ActiveClean Real] Accuracy 5500 : 0.567453328636844
+[ActiveClean Real] Number Cleaned So Far : 5460
+[ActiveClean Real] Prediction Freqs : 1135.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.89      0.67      4464
+         1.0       0.57      0.16      0.25      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.55      0.52      0.46      8517
+weighted avg       0.55      0.54      0.47      8517
+[ActiveClean Real] Accuracy 5550 : 0.5425619349536221
+[ActiveClean Real] Number Cleaned So Far : 5510
+[ActiveClean Real] Prediction Freqs : 6349.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.29      0.39      4464
+         1.0       0.50      0.78      0.61      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.55      0.54      0.50      8517
+weighted avg       0.55      0.52      0.49      8517
+[ActiveClean Real] Accuracy 5600 : 0.523775977456851
+[ActiveClean Real] Number Cleaned So Far : 5560
+[ActiveClean Real] Prediction Freqs : 2837.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.76      0.67      4464
+         1.0       0.62      0.43      0.51      4053
+
+    accuracy                           0.60      8517
+   macro avg       0.60      0.59      0.59      8517
+weighted avg       0.60      0.60      0.59      8517
+[ActiveClean Real] Accuracy 5650 : 0.6012680521310321
+[ActiveClean Real] Number Cleaned So Far : 5610
+[ActiveClean Real] Prediction Freqs : 4490.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.54      0.57      4464
+         1.0       0.54      0.60      0.57      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.57      0.57      0.57      8517
+weighted avg       0.57      0.57      0.57      8517
+[ActiveClean Real] Accuracy 5700 : 0.5692145121521662
+[ActiveClean Real] Number Cleaned So Far : 5660
+[ActiveClean Real] Prediction Freqs : 2693.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.72      0.63      4464
+         1.0       0.54      0.36      0.43      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.55      0.54      0.53      8517
+weighted avg       0.55      0.55      0.53      8517
+[ActiveClean Real] Accuracy 5750 : 0.5486673711400728
+[ActiveClean Real] Number Cleaned So Far : 5710
+[ActiveClean Real] Prediction Freqs : 4309.0
+              precision    recall  f1-score   support
+
+         0.0       0.47      0.44      0.45      4464
+         1.0       0.42      0.45      0.43      4053
+
+    accuracy                           0.44      8517
+   macro avg       0.44      0.44      0.44      8517
+weighted avg       0.44      0.44      0.44      8517
+[ActiveClean Real] Accuracy 5800 : 0.4432311846894446
+[ActiveClean Real] Number Cleaned So Far : 5759
+[ActiveClean Real] Prediction Freqs : 1726.0
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.85      0.67      4464
+         1.0       0.60      0.26      0.36      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.58      0.55      0.52      8517
+weighted avg       0.58      0.57      0.52      8517
+[ActiveClean Real] Accuracy 5850 : 0.5654573206528121
+[ActiveClean Real] Number Cleaned So Far : 5809
+[ActiveClean Real] Prediction Freqs : 2659.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.76      0.65      4464
+         1.0       0.59      0.39      0.47      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.57      0.56      8517
+weighted avg       0.58      0.58      0.56      8517
+[ActiveClean Real] Accuracy 5900 : 0.5798990254784548
+[ActiveClean Real] Number Cleaned So Far : 5858
+[ActiveClean Real] Prediction Freqs : 2851.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.72      0.63      4464
+         1.0       0.56      0.39      0.46      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.56      0.56      0.55      8517
+weighted avg       0.56      0.57      0.55      8517
+[ActiveClean Real] Accuracy 5950 : 0.5651050839497476
+[ActiveClean Real] Number Cleaned So Far : 5906
+[ActiveClean Real] Prediction Freqs : 3044.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.73      0.65      4464
+         1.0       0.60      0.45      0.52      4053
+
+    accuracy                           0.60      8517
+   macro avg       0.60      0.59      0.58      8517
+weighted avg       0.60      0.60      0.59      8517
+[ActiveClean Real] Accuracy 6000 : 0.5964541505224844
+[ActiveClean Real] Number Cleaned So Far : 5956
+[ActiveClean Real] Prediction Freqs : 4937.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.49      0.54      4464
+         1.0       0.54      0.65      0.59      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.57      0.57      0.57      8517
+weighted avg       0.57      0.57      0.56      8517
+[ActiveClean Real] Accuracy 6050 : 0.5672185041681344
+[ActiveClean Real] Number Cleaned So Far : 6005
+[ActiveClean Real] Prediction Freqs : 7059.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.20      0.30      4464
+         1.0       0.49      0.86      0.63      4053
+
+    accuracy                           0.51      8517
+   macro avg       0.55      0.53      0.46      8517
+weighted avg       0.55      0.51      0.45      8517
+[ActiveClean Real] Accuracy 6100 : 0.512034754021369
+[ActiveClean Real] Number Cleaned So Far : 6054
+[ActiveClean Real] Prediction Freqs : 4633.0
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.44      0.47      4464
+         1.0       0.46      0.52      0.49      4053
+
+    accuracy                           0.48      8517
+   macro avg       0.48      0.48      0.48      8517
+weighted avg       0.48      0.48      0.48      8517
+[ActiveClean Real] Accuracy 6150 : 0.47962897733943877
+[ActiveClean Real] Number Cleaned So Far : 6104
+[ActiveClean Real] Prediction Freqs : 5013.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.47      0.53      4464
+         1.0       0.53      0.65      0.59      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.56      0.56      0.56      8517
+weighted avg       0.57      0.56      0.56      8517
+[ActiveClean Real] Accuracy 6200 : 0.5585299988258776
+[ActiveClean Real] Number Cleaned So Far : 6154
+[ActiveClean Real] Prediction Freqs : 1644.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.84      0.66      4464
+         1.0       0.57      0.23      0.33      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.56      0.54      0.50      8517
+weighted avg       0.56      0.55      0.50      8517
+[ActiveClean Real] Accuracy 6250 : 0.5513678525302337
+[ActiveClean Real] Number Cleaned So Far : 6201
+[ActiveClean Real] Prediction Freqs : 3139.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.72      0.66      4464
+         1.0       0.60      0.47      0.53      4053
+
+    accuracy                           0.60      8517
+   macro avg       0.60      0.60      0.59      8517
+weighted avg       0.60      0.60      0.59      8517
+[ActiveClean Real] Accuracy 6300 : 0.6015028765997417
+[ActiveClean Real] Number Cleaned So Far : 6251
+[ActiveClean Real] Prediction Freqs : 3603.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.66      0.63      4464
+         1.0       0.58      0.51      0.54      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.59      0.59      0.59      8517
+weighted avg       0.59      0.59      0.59      8517
+[ActiveClean Real] Accuracy 6350 : 0.5904661265703887
+[ActiveClean Real] Number Cleaned So Far : 6301
+[ActiveClean Real] Prediction Freqs : 7838.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.09      0.16      4464
+         1.0       0.48      0.93      0.64      4053
+
+    accuracy                           0.49      8517
+   macro avg       0.54      0.51      0.40      8517
+weighted avg       0.55      0.49      0.39      8517
+[ActiveClean Real] Accuracy 6400 : 0.49219208641540446
+[ActiveClean Real] Number Cleaned So Far : 6349
+[ActiveClean Real] Prediction Freqs : 2370.0
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.78      0.65      4464
+         1.0       0.58      0.34      0.43      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.57      0.56      0.54      8517
+weighted avg       0.57      0.57      0.55      8517
+[ActiveClean Real] Accuracy 6450 : 0.5678055653399084
+[ActiveClean Real] Number Cleaned So Far : 6399
+[ActiveClean Real] Prediction Freqs : 5839.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.36      0.46      4464
+         1.0       0.51      0.74      0.61      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.56      0.55      0.53      8517
+weighted avg       0.56      0.54      0.53      8517
+[ActiveClean Real] Accuracy 6500 : 0.5437360572971703
+[ActiveClean Real] Number Cleaned So Far : 6448
+[ActiveClean Real] Prediction Freqs : 3585.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.67      0.64      4464
+         1.0       0.59      0.52      0.56      4053
+
+    accuracy                           0.60      8517
+   macro avg       0.60      0.60      0.60      8517
+weighted avg       0.60      0.60      0.60      8517
+[ActiveClean Real] Accuracy 6550 : 0.6024421744745803
+[ActiveClean Real] Number Cleaned So Far : 6498
+[ActiveClean Real] Prediction Freqs : 6387.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.28      0.38      4464
+         1.0       0.50      0.79      0.61      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.55      0.54      0.50      8517
+weighted avg       0.55      0.52      0.49      8517
+[ActiveClean Real] Accuracy 6600 : 0.5230715040507221
+[ActiveClean Real] Number Cleaned So Far : 6546
+[ActiveClean Real] Prediction Freqs : 717.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.92      0.67      4464
+         1.0       0.52      0.09      0.16      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.52      0.51      0.41      8517
+weighted avg       0.53      0.53      0.43      8517
+[ActiveClean Real] Accuracy 6650 : 0.5277679934249149
+[ActiveClean Real] Number Cleaned So Far : 6595
+[ActiveClean Real] Prediction Freqs : 6295.0
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.31      0.41      4464
+         1.0       0.51      0.79      0.62      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.57      0.55      0.52      8517
+weighted avg       0.57      0.54      0.51      8517
+[ActiveClean Real] Accuracy 6700 : 0.5392743923916872
+[ActiveClean Real] Number Cleaned So Far : 6645
+[ActiveClean Real] Prediction Freqs : 5115.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.40      0.45      4464
+         1.0       0.48      0.60      0.53      4053
+
+    accuracy                           0.50      8517
+   macro avg       0.50      0.50      0.49      8517
+weighted avg       0.50      0.50      0.49      8517
+[ActiveClean Real] Accuracy 6750 : 0.49653633908653283
+[ActiveClean Real] Number Cleaned So Far : 6694
+[ActiveClean Real] Prediction Freqs : 3470.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.65      0.61      4464
+         1.0       0.55      0.47      0.51      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.56      0.56      0.56      8517
+weighted avg       0.56      0.56      0.56      8517
+[ActiveClean Real] Accuracy 6800 : 0.5633439004344253
+[ActiveClean Real] Number Cleaned So Far : 6742
+[ActiveClean Real] Prediction Freqs : 1040.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.92      0.68      4464
+         1.0       0.64      0.16      0.26      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.59      0.54      0.47      8517
+weighted avg       0.59      0.56      0.48      8517
+[ActiveClean Real] Accuracy 6850 : 0.5574732887166842
+[ActiveClean Real] Number Cleaned So Far : 6791
+[ActiveClean Real] Prediction Freqs : 5966.0
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.36      0.45      4464
+         1.0       0.52      0.76      0.62      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.57      0.56      0.54      8517
+weighted avg       0.57      0.55      0.53      8517
+[ActiveClean Real] Accuracy 6900 : 0.5501937301866855
+[ActiveClean Real] Number Cleaned So Far : 6839
+[ActiveClean Real] Prediction Freqs : 3116.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.70      0.63      4464
+         1.0       0.56      0.43      0.49      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.57      0.56      0.56      8517
+weighted avg       0.57      0.57      0.56      8517
+[ActiveClean Real] Accuracy 6950 : 0.5710931079018434
+[ActiveClean Real] Number Cleaned So Far : 6889
+[ActiveClean Real] Prediction Freqs : 6013.0
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.35      0.45      4464
+         1.0       0.52      0.77      0.62      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.57      0.56      0.53      8517
+weighted avg       0.57      0.55      0.53      8517
+[ActiveClean Real] Accuracy 7000 : 0.5474932487965246
+[ActiveClean Real] Number Cleaned So Far : 6938
+[ActiveClean Real] Prediction Freqs : 588.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.94      0.68      4464
+         1.0       0.54      0.08      0.14      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.53      0.51      0.41      8517
+weighted avg       0.53      0.53      0.42      8517
+[ActiveClean Real] Accuracy 7050 : 0.5292943524715276
+[ActiveClean Real] Number Cleaned So Far : 6988
+[ActiveClean Real] Prediction Freqs : 7497.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.14      0.22      4464
+         1.0       0.49      0.90      0.63      4053
+
+    accuracy                           0.50      8517
+   macro avg       0.54      0.52      0.43      8517
+weighted avg       0.55      0.50      0.42      8517
+[ActiveClean Real] Accuracy 7100 : 0.49958905717975816
+[ActiveClean Real] Number Cleaned So Far : 7037
+[ActiveClean Real] Prediction Freqs : 3067.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.72      0.65      4464
+         1.0       0.59      0.45      0.51      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.59      0.58      0.58      8517
+weighted avg       0.59      0.59      0.58      8517
+[ActiveClean Real] Accuracy 7150 : 0.5888223552894212
+[ActiveClean Real] Number Cleaned So Far : 7086
+[ActiveClean Real] Prediction Freqs : 790.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.93      0.68      4464
+         1.0       0.63      0.12      0.21      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.58      0.53      0.44      8517
+weighted avg       0.58      0.55      0.46      8517
+[ActiveClean Real] Accuracy 7200 : 0.5480803099682987
+[ActiveClean Real] Number Cleaned So Far : 7135
+[ActiveClean Real] Prediction Freqs : 3813.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.61      0.59      4464
+         1.0       0.54      0.51      0.53      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.56      0.56      0.56      8517
+weighted avg       0.56      0.56      0.56      8517
+[ActiveClean Real] Accuracy 7250 : 0.5636961371374897
+[ActiveClean Real] Number Cleaned So Far : 7185
+[ActiveClean Real] Prediction Freqs : 2066.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.82      0.67      4464
+         1.0       0.61      0.31      0.41      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.59      0.57      0.54      8517
+weighted avg       0.59      0.58      0.55      8517
+[ActiveClean Real] Accuracy 7300 : 0.5776681930257133
+[ActiveClean Real] Number Cleaned So Far : 7235
+[ActiveClean Real] Prediction Freqs : 2677.0
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.73      0.63      4464
+         1.0       0.55      0.36      0.43      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.55      0.54      0.53      8517
+weighted avg       0.55      0.55      0.54      8517
+[ActiveClean Real] Accuracy 7350 : 0.5528942115768463
+[ActiveClean Real] Number Cleaned So Far : 7284
+[ActiveClean Real] Prediction Freqs : 2228.0
+              precision    recall  f1-score   support
+
+         0.0       0.51      0.72      0.60      4464
+         1.0       0.44      0.24      0.32      4053
+
+    accuracy                           0.50      8517
+   macro avg       0.48      0.48      0.46      8517
+weighted avg       0.48      0.50      0.46      8517
+[ActiveClean Real] Accuracy 7400 : 0.49500998003992014
+[ActiveClean Real] Number Cleaned So Far : 7334
+[ActiveClean Real] Prediction Freqs : 1170.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.89      0.67      4464
+         1.0       0.57      0.16      0.25      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.55      0.53      0.46      8517
+weighted avg       0.55      0.54      0.47      8517
+[ActiveClean Real] Accuracy 7450 : 0.542679347187977
+[ActiveClean Real] Number Cleaned So Far : 7384
+[ActiveClean Real] Prediction Freqs : 2602.0
+              precision    recall  f1-score   support
+
+         0.0       0.51      0.67      0.58      4464
+         1.0       0.43      0.28      0.34      4053
+
+    accuracy                           0.48      8517
+   macro avg       0.47      0.47      0.46      8517
+weighted avg       0.47      0.48      0.46      8517
+[ActiveClean Real] Accuracy 7500 : 0.48303393213572854
+[ActiveClean Real] Number Cleaned So Far : 7434
+[ActiveClean Real] Prediction Freqs : 2650.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.71      0.62      4464
+         1.0       0.52      0.34      0.41      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.53      0.53      0.51      8517
+weighted avg       0.53      0.53      0.52      8517
+[ActiveClean Real] Accuracy 7550 : 0.5344604907831396
+[ActiveClean Real] Number Cleaned So Far : 7484
+[ActiveClean Real] Prediction Freqs : 4378.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.53      0.55      4464
+         1.0       0.52      0.56      0.54      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.55      0.55      0.54      8517
+weighted avg       0.55      0.54      0.54      8517
+[ActiveClean Real] Accuracy 7600 : 0.5443231184689444
+[ActiveClean Real] Number Cleaned So Far : 7533
+[ActiveClean Real] Prediction Freqs : 4960.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.47      0.52      4464
+         1.0       0.52      0.64      0.57      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.56      0.55      0.55      8517
+weighted avg       0.56      0.55      0.55      8517
+[ActiveClean Real] Accuracy 7650 : 0.5499589057179758
+[ActiveClean Real] Number Cleaned So Far : 7582
+[ActiveClean Real] Prediction Freqs : 3323.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.68      0.63      4464
+         1.0       0.57      0.47      0.51      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.57      0.57      8517
+weighted avg       0.58      0.58      0.57      8517
+[ActiveClean Real] Accuracy 7700 : 0.5780204297287778
+[ActiveClean Real] Number Cleaned So Far : 7632
+[ActiveClean Real] Prediction Freqs : 1501.0
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.88      0.69      4464
+         1.0       0.65      0.24      0.35      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.60      0.56      0.52      8517
+weighted avg       0.60      0.58      0.53      8517
+[ActiveClean Real] Accuracy 7750 : 0.5761418339791006
+[ActiveClean Real] Number Cleaned So Far : 7682
+[ActiveClean Real] Prediction Freqs : 3714.0
+              precision    recall  f1-score   support
+
+         0.0       0.48      0.52      0.50      4464
+         1.0       0.42      0.38      0.40      4053
+
+    accuracy                           0.45      8517
+   macro avg       0.45      0.45      0.45      8517
+weighted avg       0.45      0.45      0.45      8517
+[ActiveClean Real] Accuracy 7800 : 0.4539156980157332
+[ActiveClean Real] Number Cleaned So Far : 7732
+[ActiveClean Real] Prediction Freqs : 2504.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.72      0.62      4464
+         1.0       0.50      0.31      0.39      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.52      0.52      0.50      8517
+weighted avg       0.52      0.53      0.51      8517
+[ActiveClean Real] Accuracy 7850 : 0.5269461077844312
+[ActiveClean Real] Number Cleaned So Far : 7782
+[ActiveClean Real] Prediction Freqs : 4152.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.59      0.60      4464
+         1.0       0.56      0.57      0.57      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.58      0.58      8517
+weighted avg       0.58      0.58      0.58      8517
+[ActiveClean Real] Accuracy 7900 : 0.5825995068686157
+[ActiveClean Real] Number Cleaned So Far : 7830
+[ActiveClean Real] Prediction Freqs : 3688.0
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.68      0.65      4464
+         1.0       0.61      0.55      0.58      4053
+
+    accuracy                           0.62      8517
+   macro avg       0.62      0.61      0.61      8517
+weighted avg       0.62      0.62      0.62      8517
+[ActiveClean Real] Accuracy 7950 : 0.617588352706352
+[ActiveClean Real] Number Cleaned So Far : 7880
+[ActiveClean Real] Prediction Freqs : 1112.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.91      0.69      4464
+         1.0       0.65      0.18      0.28      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.60      0.55      0.48      8517
+weighted avg       0.60      0.56      0.49      8517
+[ActiveClean Real] Accuracy 8000 : 0.5631090759657156
+[ActiveClean Real] Number Cleaned So Far : 7929
+[ActiveClean Real] Prediction Freqs : 7813.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.09      0.16      4464
+         1.0       0.48      0.93      0.63      4053
+
+    accuracy                           0.49      8517
+   macro avg       0.53      0.51      0.39      8517
+weighted avg       0.53      0.49      0.38      8517
+[ActiveClean Real] Accuracy 8050 : 0.48784783374427615
+[ActiveClean Real] Number Cleaned So Far : 7979
+[ActiveClean Real] Prediction Freqs : 496.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.95      0.68      4464
+         1.0       0.53      0.06      0.11      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.53      0.51      0.40      8517
+weighted avg       0.53      0.53      0.41      8517
+[ActiveClean Real] Accuracy 8100 : 0.5271809322531408
+[ActiveClean Real] Number Cleaned So Far : 8029
+[ActiveClean Real] Prediction Freqs : 2196.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.79      0.65      4464
+         1.0       0.56      0.31      0.40      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.56      0.55      0.52      8517
+weighted avg       0.56      0.56      0.53      8517
+[ActiveClean Real] Accuracy 8150 : 0.5572384642479746
+[ActiveClean Real] Number Cleaned So Far : 8079
+[ActiveClean Real] Prediction Freqs : 5367.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.43      0.51      4464
+         1.0       0.53      0.70      0.60      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.57      0.56      0.55      8517
+weighted avg       0.57      0.56      0.55      8517
+[ActiveClean Real] Accuracy 8200 : 0.558295174357168
+[ActiveClean Real] Number Cleaned So Far : 8129
+[ActiveClean Real] Prediction Freqs : 3951.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.59      0.58      4464
+         1.0       0.53      0.52      0.53      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.55      0.55      0.55      8517
+weighted avg       0.56      0.56      0.56      8517
+[ActiveClean Real] Accuracy 8250 : 0.5564165786074909
+[ActiveClean Real] Number Cleaned So Far : 8178
+[ActiveClean Real] Prediction Freqs : 5763.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.35      0.43      4464
+         1.0       0.50      0.71      0.58      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.53      0.53      0.51      8517
+weighted avg       0.53      0.52      0.50      8517
+[ActiveClean Real] Accuracy 8300 : 0.5193143125513678
+[ActiveClean Real] Number Cleaned So Far : 8226
+[ActiveClean Real] Prediction Freqs : 3643.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.64      0.61      4464
+         1.0       0.56      0.50      0.53      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.57      0.57      0.57      8517
+weighted avg       0.57      0.57      0.57      8517
+[ActiveClean Real] Accuracy 8350 : 0.5723846424797464
+[ActiveClean Real] Number Cleaned So Far : 8275
+[ActiveClean Real] Prediction Freqs : 4763.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.51      0.56      4464
+         1.0       0.54      0.64      0.59      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.58      0.58      0.57      8517
+weighted avg       0.58      0.57      0.57      8517
+[ActiveClean Real] Accuracy 8400 : 0.5723846424797464
+[ActiveClean Real] Number Cleaned So Far : 8324
+[ActiveClean Real] Prediction Freqs : 65.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      1.00      0.69      4464
+         1.0       0.69      0.01      0.02      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.61      0.50      0.35      8517
+weighted avg       0.61      0.53      0.37      8517
+[ActiveClean Real] Accuracy 8450 : 0.527063520018786
+[ActiveClean Real] Number Cleaned So Far : 8374
+[ActiveClean Real] Prediction Freqs : 3276.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.69      0.63      4464
+         1.0       0.58      0.47      0.52      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.58      0.57      8517
+weighted avg       0.58      0.58      0.58      8517
+[ActiveClean Real] Accuracy 8500 : 0.5828343313373253
+[ActiveClean Real] Number Cleaned So Far : 8424
+[ActiveClean Real] Prediction Freqs : 2653.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.71      0.61      4464
+         1.0       0.51      0.33      0.40      4053
+
+    accuracy                           0.53      8517
+   macro avg       0.52      0.52      0.51      8517
+weighted avg       0.52      0.53      0.51      8517
+[ActiveClean Real] Accuracy 8550 : 0.5280028178936245
+[ActiveClean Real] Number Cleaned So Far : 8474
+[ActiveClean Real] Prediction Freqs : 5321.0
+              precision    recall  f1-score   support
+
+         0.0       0.65      0.47      0.54      4464
+         1.0       0.55      0.72      0.63      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.60      0.60      0.58      8517
+weighted avg       0.60      0.59      0.58      8517
+[ActiveClean Real] Accuracy 8600 : 0.5888223552894212
+[ActiveClean Real] Number Cleaned So Far : 8524
+[ActiveClean Real] Prediction Freqs : 5238.0
+              precision    recall  f1-score   support
+
+         0.0       0.49      0.36      0.41      4464
+         1.0       0.45      0.59      0.51      4053
+
+    accuracy                           0.47      8517
+   macro avg       0.47      0.47      0.46      8517
+weighted avg       0.47      0.47      0.46      8517
+[ActiveClean Real] Accuracy 8650 : 0.4680051661383116
+[ActiveClean Real] Number Cleaned So Far : 8573
+[ActiveClean Real] Prediction Freqs : 5764.0
+              precision    recall  f1-score   support
+
+         0.0       0.64      0.39      0.49      4464
+         1.0       0.53      0.76      0.62      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.59      0.58      0.56      8517
+weighted avg       0.59      0.57      0.55      8517
+[ActiveClean Real] Accuracy 8700 : 0.5666314429963603
+[ActiveClean Real] Number Cleaned So Far : 8623
+[ActiveClean Real] Prediction Freqs : 8401.0
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.02      0.03      4464
+         1.0       0.48      0.99      0.64      4053
+
+    accuracy                           0.48      8517
+   macro avg       0.55      0.50      0.34      8517
+weighted avg       0.55      0.48      0.32      8517
+[ActiveClean Real] Accuracy 8750 : 0.47915932840201947
+[ActiveClean Real] Number Cleaned So Far : 8672
+[ActiveClean Real] Prediction Freqs : 846.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.94      0.69      4464
+         1.0       0.68      0.14      0.23      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.61      0.54      0.46      8517
+weighted avg       0.61      0.56      0.47      8517
+[ActiveClean Real] Accuracy 8800 : 0.5593518844663614
+[ActiveClean Real] Number Cleaned So Far : 8722
+[ActiveClean Real] Prediction Freqs : 5623.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.39      0.47      4464
+         1.0       0.52      0.71      0.60      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.56      0.55      0.54      8517
+weighted avg       0.56      0.54      0.53      8517
+[ActiveClean Real] Accuracy 8850 : 0.54397088176588
+[ActiveClean Real] Number Cleaned So Far : 8772
+[ActiveClean Real] Prediction Freqs : 2994.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.66      0.59      4464
+         1.0       0.49      0.37      0.42      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.51      0.51      0.51      8517
+weighted avg       0.52      0.52      0.51      8517
+[ActiveClean Real] Accuracy 8900 : 0.5201361981918516
+[ActiveClean Real] Number Cleaned So Far : 8820
+[ActiveClean Real] Prediction Freqs : 4298.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.53      0.55      4464
+         1.0       0.52      0.55      0.53      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.54      0.54      0.54      8517
+weighted avg       0.54      0.54      0.54      8517
+[ActiveClean Real] Accuracy 8950 : 0.5408007514382999
+[ActiveClean Real] Number Cleaned So Far : 8868
+[ActiveClean Real] Prediction Freqs : 2525.0
+              precision    recall  f1-score   support
+
+         0.0       0.51      0.69      0.59      4464
+         1.0       0.45      0.28      0.35      4053
+
+    accuracy                           0.49      8517
+   macro avg       0.48      0.49      0.47      8517
+weighted avg       0.48      0.49      0.47      8517
+[ActiveClean Real] Accuracy 9000 : 0.49489256780556534
+[ActiveClean Real] Number Cleaned So Far : 8918
+[ActiveClean Real] Prediction Freqs : 4567.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.53      0.56      4464
+         1.0       0.54      0.60      0.57      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.57      0.57      0.56      8517
+weighted avg       0.57      0.56      0.56      8517
+[ActiveClean Real] Accuracy 9050 : 0.5636961371374897
+[ActiveClean Real] Number Cleaned So Far : 8967
+[ActiveClean Real] Prediction Freqs : 3714.0
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.68      0.65      4464
+         1.0       0.61      0.56      0.58      4053
+
+    accuracy                           0.62      8517
+   macro avg       0.62      0.62      0.62      8517
+weighted avg       0.62      0.62      0.62      8517
+[ActiveClean Real] Accuracy 9100 : 0.6213455442057062
+[ActiveClean Real] Number Cleaned So Far : 9017
+[ActiveClean Real] Prediction Freqs : 1113.0
+              precision    recall  f1-score   support
+
+         0.0       0.52      0.87      0.65      4464
+         1.0       0.47      0.13      0.20      4053
+
+    accuracy                           0.52      8517
+   macro avg       0.50      0.50      0.43      8517
+weighted avg       0.50      0.52      0.44      8517
+[ActiveClean Real] Accuracy 9150 : 0.5157919455207233
+[ActiveClean Real] Number Cleaned So Far : 9065
+[ActiveClean Real] Prediction Freqs : 3657.0
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.65      0.62      4464
+         1.0       0.57      0.51      0.54      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.58      0.58      8517
+weighted avg       0.58      0.58      0.58      8517
+[ActiveClean Real] Accuracy 9200 : 0.5820124456968416
+[ActiveClean Real] Number Cleaned So Far : 9115
+[ActiveClean Real] Prediction Freqs : 4380.0
+              precision    recall  f1-score   support
+
+         0.0       0.49      0.45      0.47      4464
+         1.0       0.44      0.48      0.46      4053
+
+    accuracy                           0.47      8517
+   macro avg       0.47      0.47      0.47      8517
+weighted avg       0.47      0.47      0.47      8517
+[ActiveClean Real] Accuracy 9250 : 0.46565692145121523
+[ActiveClean Real] Number Cleaned So Far : 9165
+[ActiveClean Real] Prediction Freqs : 5695.0
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.39      0.48      4464
+         1.0       0.52      0.73      0.61      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.57      0.56      0.54      8517
+weighted avg       0.57      0.55      0.54      8517
+[ActiveClean Real] Accuracy 9300 : 0.553129036045556
+[ActiveClean Real] Number Cleaned So Far : 9215
+[ActiveClean Real] Prediction Freqs : 2823.0
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.74      0.65      4464
+         1.0       0.59      0.41      0.49      4053
+
+    accuracy                           0.59      8517
+   macro avg       0.59      0.58      0.57      8517
+weighted avg       0.59      0.59      0.57      8517
+[ActiveClean Real] Accuracy 9350 : 0.5862392861336151
+[ActiveClean Real] Number Cleaned So Far : 9265
+[ActiveClean Real] Prediction Freqs : 2912.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.72      0.64      4464
+         1.0       0.57      0.41      0.48      4053
+
+    accuracy                           0.57      8517
+   macro avg       0.57      0.57      0.56      8517
+weighted avg       0.57      0.57      0.56      8517
+[ActiveClean Real] Accuracy 9400 : 0.5741458259950687
+[ActiveClean Real] Number Cleaned So Far : 9315
+[ActiveClean Real] Prediction Freqs : 3791.0
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.57      0.55      4464
+         1.0       0.49      0.46      0.47      4053
+
+    accuracy                           0.51      8517
+   macro avg       0.51      0.51      0.51      8517
+weighted avg       0.51      0.51      0.51      8517
+[ActiveClean Real] Accuracy 9450 : 0.5139133497710462
+[ActiveClean Real] Number Cleaned So Far : 9364
+[ActiveClean Real] Prediction Freqs : 1137.0
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.89      0.67      4464
+         1.0       0.58      0.16      0.25      4053
+
+    accuracy                           0.55      8517
+   macro avg       0.56      0.53      0.46      8517
+weighted avg       0.56      0.55      0.47      8517
+[ActiveClean Real] Accuracy 9500 : 0.5451450041094282
+[ActiveClean Real] Number Cleaned So Far : 9414
+[ActiveClean Real] Prediction Freqs : 6029.0
+              precision    recall  f1-score   support
+
+         0.0       0.52      0.29      0.37      4464
+         1.0       0.47      0.70      0.57      4053
+
+    accuracy                           0.49      8517
+   macro avg       0.50      0.50      0.47      8517
+weighted avg       0.50      0.49      0.46      8517
+[ActiveClean Real] Accuracy 9550 : 0.485969237994599
+[ActiveClean Real] Number Cleaned So Far : 9464
+[ActiveClean Real] Prediction Freqs : 1710.0
+              precision    recall  f1-score   support
+
+         0.0       0.51      0.78      0.62      4464
+         1.0       0.44      0.18      0.26      4053
+
+    accuracy                           0.50      8517
+   macro avg       0.48      0.48      0.44      8517
+weighted avg       0.48      0.50      0.45      8517
+[ActiveClean Real] Accuracy 9600 : 0.49853234707056476
+[ActiveClean Real] Number Cleaned So Far : 9513
+[ActiveClean Real] Prediction Freqs : 3043.0
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.70      0.62      4464
+         1.0       0.55      0.42      0.47      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.56      0.56      0.55      8517
+weighted avg       0.56      0.56      0.55      8517
+[ActiveClean Real] Accuracy 9650 : 0.5618175413878126
+[ActiveClean Real] Number Cleaned So Far : 9563
+[ActiveClean Real] Prediction Freqs : 5377.0
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.35      0.41      4464
+         1.0       0.46      0.61      0.53      4053
+
+    accuracy                           0.48      8517
+   macro avg       0.48      0.48      0.47      8517
+weighted avg       0.48      0.48      0.47      8517
+[ActiveClean Real] Accuracy 9700 : 0.4756369613713749
+[ActiveClean Real] Number Cleaned So Far : 9613
+[ActiveClean Real] Prediction Freqs : 3078.0
+              precision    recall  f1-score   support
+
+         0.0       0.52      0.63      0.57      4464
+         1.0       0.47      0.36      0.40      4053
+
+    accuracy                           0.50      8517
+   macro avg       0.49      0.49      0.49      8517
+weighted avg       0.50      0.50      0.49      8517
+[ActiveClean Real] Accuracy 9750 : 0.5011154162263708
+[ActiveClean Real] Number Cleaned So Far : 9663
+[ActiveClean Real] Prediction Freqs : 4393.0
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.56      0.59      4464
+         1.0       0.56      0.60      0.58      4053
+
+    accuracy                           0.58      8517
+   macro avg       0.58      0.58      0.58      8517
+weighted avg       0.58      0.58      0.58      8517
+[ActiveClean Real] Accuracy 9800 : 0.5822472701655512
+[ActiveClean Real] Number Cleaned So Far : 9713
+[ActiveClean Real] Prediction Freqs : 1248.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.89      0.68      4464
+         1.0       0.62      0.19      0.29      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.58      0.54      0.49      8517
+weighted avg       0.58      0.56      0.50      8517
+[ActiveClean Real] Accuracy 9850 : 0.5593518844663614
+[ActiveClean Real] Number Cleaned So Far : 9763
+[ActiveClean Real] Prediction Freqs : 1402.0
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.88      0.68      4464
+         1.0       0.62      0.21      0.32      4053
+
+    accuracy                           0.56      8517
+   macro avg       0.59      0.55      0.50      8517
+weighted avg       0.58      0.56      0.51      8517
+[ActiveClean Real] Accuracy 9900 : 0.5638135493718446
+[ActiveClean Real] Number Cleaned So Far : 9813
+[ActiveClean Real] Prediction Freqs : 5648.0
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.38      0.47      4464
+         1.0       0.51      0.72      0.60      4053
+
+    accuracy                           0.54      8517
+   macro avg       0.56      0.55      0.53      8517
+weighted avg       0.56      0.54      0.53      8517
+[ActiveClean Real] Accuracy 9950 : 0.5417400493131385

@@ -1,0 +1,263 @@
+Attribute,Index,Clean Value,Cleaned Value
+ProviderNumber,14,10019,1xx19
+ProviderNumber,46,10005,x0005
+ProviderNumber,82,10006,1000x
+ProviderNumber,214,10011,x00xx
+ProviderNumber,245,10015,x00x5
+ProviderNumber,254,10015,1xx15
+ProviderNumber,274,10016,1xx16
+ProviderNumber,315,10038,100x8
+ProviderNumber,361,10086,100x6
+ProviderNumber,409,10108,x0x08
+ProviderNumber,560,10024,1xx24
+ProviderNumber,609,10027,x0027
+ProviderNumber,628,10029,x0029
+ProviderNumber,640,10029,1xx29
+ProviderNumber,646,10032,1xx32
+ProviderNumber,656,10032,1xx32
+ProviderNumber,705,10034,100x4
+ProviderNumber,722,10035,100x5
+ProviderNumber,725,10035,1xx35
+ProviderNumber,756,10036,1xx36
+ProviderNumber,781,10039,1003x
+ProviderNumber,790,10039,1xx39
+ProviderNumber,794,10039,100x9
+ProviderNumber,860,10044,1xx44
+ProviderNumber,879,10045,1xx45
+ProviderNumber,889,10045,x0045
+ProviderNumber,934,10047,1xx47
+ProviderNumber,956,10049,1004x
+HospitalName,27,southeast alabama medical center,southeast alabama medxcal center
+HospitalName,132,crenshaw community hospital,crenshaw cxmmunity hxspital
+HospitalName,172,marshall medical center north,marshall medical cenxer norxh
+HospitalName,244,dekalb regional medical center,dexalb regional medical center
+HospitalName,338,flowers hospital,floxers hospital
+HospitalName,385,univ of south alabama medical center,univ ox south alabama medical center
+HospitalName,386,univ of south alabama medical center,xniv of soxth alabama medical center
+HospitalName,449,alaska regional hospital,xlxskx regionxl hospitxl
+HospitalName,533,baptist medical center south,baptist medical cexter south
+HospitalName,561,jackson hospital & clinic inc,jaxkson hospital & xlinix inx
+HospitalName,655,wedowee hospital,wedowee hosxital
+HospitalName,698,community hospital inc,communitx hospital inc
+HospitalName,711,community hospital inc,communixy hospixal inc
+HospitalName,731,cullman regional medical center,cullmxn regionxl medicxl center
+HospitalName,759,andalusia regional hospital,andaxusia regionax hospitax
+HospitalName,766,andalusia regional hospital,andaluxia regional hoxpital
+HospitalName,778,huntsville hospital,huntsvxlle hospxtal
+HospitalName,904,riverview regional medical center,rivxrvixw rxgional mxdical cxntxr
+HospitalName,922,riverview regional medical center,xivexview xegional medical centex
+HospitalName,923,riverview regional medical center,riverview rexional medical center
+HospitalName,939,georgiana hospital,georgiaxa hospital
+HospitalName,957,medical center enterprise,medixal xenter enterprise
+HospitalName,963,medical center enterprise,medxcal center enterprxse
+HospitalName,988,st vincents blount,st vincents bxount
+Address1,58,2505 u s highway 431 north,2505xuxsxhighwayx431xnorth
+Address1,95,702 n main st,702xnxmainxst
+Address1,107,702 n main st,702 x maix st
+Address1,162,201 pine street northwest,201 pine sxreex norxhwesx
+Address1,176,8000 alabama highway 69,8000 alabama xigxway 69
+Address1,261,33700 highway 43,33700 hxghway 43
+Address1,265,33700 highway 43,33700 highway x3
+Address1,276,1000 first street north,1000 fixst stxeet noxth
+Address1,296,1720 university blvd,1720 univxrsity blvd
+Address1,317,301 east 18th st,301xeastx18thxst
+Address1,335,4370 west main street,4370xwestxmainxstreet
+Address1,351,810 st vincents drive,810 st vxncents drxve
+Address1,364,1530 u s highway 43,1530xuxsxhighwayx43
+Address1,394,124 s memorial dr,124xsxmemorialxdr
+Address1,412,124 s memorial dr,124 s mxmorial dr
+Address1,416,315 w hickory st,315 w hickxry st
+Address1,432,315 w hickory st,315xwxhickoryxst
+Address1,473,126 hospital ave,126xhospitalxave
+Address1,485,126 hospital ave,1x6 hospital ave
+Address1,653,209 north main street,209 xorth maix street
+Address1,737,1912 alabama highway 157,1912xalabamaxhighwayx157
+Address1,768,301 east 18th st,301 east 1xth st
+Address1,850,1010 lay dam road,x0x0 lay dam road
+Address1,858,1256 military street south,1256 military street sxuth
+Address1,916,600 south third street,600 souxh xhird sxreex
+Address1,935,515 miranda st,515 miranda sx
+Address1,936,515 miranda st,515 miranxa st
+Address1,946,515 miranda st,515 mirxndx st
+Address1,957,400 n edwards street,400xnxedwardsxstreet
+Address1,987,150 gilbreath drive,150 gilxreath drive
+City,11,sheffield,birmingham
+City,57,boaz,boxz
+City,80,florence,montgomery
+City,89,florence,fnnrxncn
+City,94,florence,birmingham
+City,181,guntersville,guntxrsvillx
+City,229,fort payne,fort payxe
+City,368,winfield,elba
+City,438,anchorage,clanton
+City,475,ozark,ozarx
+City,486,ozark,xzark
+City,579,valley,andalusia
+City,591,valley,mobile
+City,602,elba,exba
+City,655,wedowee,wxdotxx
+City,737,cullman,dothan
+City,757,andalusia,guntersville
+City,773,anniston,fayette
+City,822,gadsden,gxdsten
+City,856,hamilton,hnnilxon
+City,896,fayette,faxette
+City,950,georgiana,birmingham
+City,969,enterprise,thomasville
+City,986,oneonta,onxotta
+State,43,al,xl
+State,47,al,xl
+State,51,al,xl
+State,84,al,xl
+State,99,al,xl
+State,120,al,ax
+State,141,al,ax
+State,166,al,ax
+State,183,al,xl
+State,229,al,ax
+State,279,al,xl
+State,357,al,ax
+State,387,al,xl
+State,403,al,ax
+State,478,al,xl
+State,484,al,xl
+State,505,al,ax
+State,560,al,xl
+State,573,al,ax
+State,593,al,ax
+State,702,al,xl
+State,765,al,xl
+State,792,al,xl
+State,885,al,xl
+State,887,al,xl
+State,923,al,ax
+ZipCode,45,35957,35976
+ZipCode,64,35957,35976
+ZipCode,284,35007,35640
+ZipCode,333,36305,35640
+ZipCode,341,36305,36302
+ZipCode,367,35594,35570
+ZipCode,376,35594,35570
+ZipCode,545,36106,36116
+ZipCode,680,35233,35640
+ZipCode,751,36420,36467
+ZipCode,816,35903,35901
+CountyName,457,jefferson,jxffxrson
+CountyName,466,jefferson,jexxerson
+CountyName,503,cherokee,chxrokxx
+CountyName,514,cherokee,chxrokxx
+CountyName,528,montgomery,monxgomery
+CountyName,552,montgomery,monxgomery
+CountyName,673,jefferson,jxffxrson
+CountyName,690,jefferson,jexxerson
+CountyName,723,cullman,cxllman
+CountyName,731,cullman,cxllman
+HospitalOwner,43,government - hospital district or authority,gxvernment - hxspital district xr authxrity
+HospitalOwner,114,voluntary non-profit - private,volunxary non-profix - privaxe
+HospitalOwner,160,proprietary,proxrietary
+HospitalOwner,217,voluntary non-profit - private,volunxary non-profix - privaxe
+HospitalOwner,314,proprietary,prxprietary
+HospitalOwner,333,proprietary,proxrietary
+HospitalOwner,357,proprietary,prxprietary
+HospitalOwner,450,proprietary,proxrietary
+HospitalOwner,457,government - hospital district or authority,gxvernment - hxspital district xr authxrity
+HospitalOwner,745,proprietary,prxprietary
+HospitalOwner,847,voluntary non-profit - private,voluntaxy non-pxofit - pxivate
+HospitalOwner,873,voluntary non-profit - private,voluntaxy non-pxofit - pxivate
+EmergencyService,419,no,yes
+EmergencyService,654,no,yes
+Condition,22,heart attack,heart attaxk
+Condition,23,heart attack,hearx axxack
+Condition,74,heart attack,hearx axxack
+Condition,128,heart failure,heaxt failuxe
+Condition,200,heart attack,heaxt attack
+Condition,226,heart attack,hexrt attxck
+Condition,230,heart failure,heart faxlure
+Condition,237,surgical infection prevention,suxgical infection pxevention
+Condition,240,surgical infection prevention,surgxcal infectxon preventxon
+Condition,257,pneumonia,xneumonia
+Condition,280,heart failure,xeart failure
+Condition,367,pneumonia,pnxumonia
+Condition,370,pneumonia,pnexmonia
+Condition,387,heart failure,hxart failurx
+Condition,401,heart failure,hxart failurx
+Condition,468,heart attack,hexrt attxck
+Condition,507,pneumonia,pneumonix
+Condition,556,pneumonia,pxeumoxia
+Condition,600,heart failure,heart faixure
+Condition,609,surgical infection prevention,surgical ixfectiox prevextiox
+Condition,632,pneumonia,pneumonxa
+Condition,680,pneumonia,xneumonia
+Condition,696,heart attack,heart attaxk
+Condition,699,heart failure,hexrt fxilure
+Condition,713,surgical infection prevention,surgical infection xrevention
+Condition,717,heart attack,heartxattack
+Condition,734,surgical infection prevention,suxgical infection pxevention
+Condition,781,heart attack,heart attaxk
+Condition,852,surgical infection prevention,surgical infxction prxvxntion
+Condition,870,surgical infection prevention,surgical ixfectiox prevextiox
+Condition,956,heart attack,hexrt attxck
+Condition,975,surgical infection prevention,surgical xnfection prevention
+MeasureCode,102,hf-1,hfx1
+MeasureCode,649,hf-1,hfx1
+MeasureCode,692,ami-1,amix1
+MeasureCode,730,pn-4,px-4
+MeasureCode,866,pn-4,px-4
+MeasureCode,931,ami-1,amix1
+Score,121,100%,x00%
+Score,159,98%,96%
+Score,164,57%,99%
+Score,188,95%,99%
+Score,209,95%,96%
+Score,238,97%,99%
+Score,253,89%,99%
+Score,257,96%,95%
+Score,337,100%,x00%
+Score,379,95%,x5%
+Score,406,94%,96%
+Score,412,100%,1xx%
+Score,427,97%,95%
+Score,489,100%,1xx%
+Score,507,93%,93x
+Score,510,0%,99%
+Score,515,100%,1xx%
+Score,699,88%,99%
+Score,712,100%,1xx%
+Score,719,67%,x7%
+Score,770,93%,x3%
+Score,861,80%,99%
+Score,889,85%,x5%
+Sample,18,37 patients,3x patients
+Sample,92,619 patients,619 paxienxs
+Sample,116,0 patients,0 patixnts
+Sample,134,21 patients,21 pxtients
+Sample,167,11 patients,xx patients
+Sample,171,6 patients,6xpatients
+Sample,225,1 patients,1 patiexts
+Sample,235,82 patients,82 patientx
+Sample,317,29 patients,29 xatients
+Sample,355,10 patients,1x patients
+Sample,414,125 patients,125 patixnts
+Sample,419,4 patients,4 xatients
+Sample,445,521 patients,521 patiexts
+Sample,463,0 patients,x patients
+Sample,483,62 patients,62 patientx
+Sample,497,0 patients,0 patxents
+Sample,503,44 patients,44 paxienxs
+Sample,524,257 patients,25x patients
+Sample,533,87 patients,87 patientx
+Sample,547,0 patients,x patients
+Sample,555,74 patients,74 patxents
+Sample,581,50 patients,50 pxtients
+Sample,669,87 patients,87 paxienxs
+Sample,777,193 patients,193 paxienxs
+Sample,846,4 patients,4 patiexts
+Sample,867,121 patients,121 patiexts
+Sample,873,15 patients,15 patiexts
+Sample,906,126 patients,126 patxents
+Sample,973,27 patients,27 paxienxs
+Stateavg,194,al_scip-vte-2,al_scix-vte-2
+Stateavg,214,al_scip-inf-2,al_sxip-inf-2
+Stateavg,374,al_scip-inf-2,al_sxip-inf-2
+Stateavg,765,al_scip-vte-1,al_scix-vte-1
+Stateavg,797,al_scip-inf-2,xl_scip-inf-2
