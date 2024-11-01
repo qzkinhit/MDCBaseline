@@ -54,7 +54,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 53,helloflight,AA-518-MIA-JFK,empty,06:54 AM,09:25 AM,09:28 AM
 54,helloflight,UA-397-JFK-SFO,8:19aDec 1,08:49 AM,11:55 AM,11:58 AM
 55,helloflight,UA-3925-IAD-ORF,8:41aDec 1,09:01 AM,9:54aDec 1,09:43 AM
-56,helloflight,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,empty
+56,helloflight,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,10:31 PM
 57,helloflight,UA-2830-MCO-CLT,empty,03:28 PM,03:50 PM,05:05 PM
 58,helloflight,CO-58-DEN-IAH,11:25 AM,11:37aDec 1,02:50 PM,03:31 PM
 59,helloflight,AA-1544-SAN-ORD,11/30 11:25 AM,11:41 AM,05:25 PM,04:56 PM
@@ -111,9 +111,9 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 110,helloflight,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
 111,helloflight,AA-3756-ORD-SLC,12:15 PM,12:42 PM,02:45 PM,02:50 PM
 112,helloflight,UA-37-EWR-MCO,01:29 PM,01:48 PM,03:55 PM,04:17 PM
-113,helloflight,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,empty
-114,helloflight,UA-233-LAX-JFK,empty,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
-115,helloflight,AA-3823-LAX-DEN,empty,09:06 PM,12:15 AM,empty
+113,helloflight,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,05:52 AM
+114,helloflight,UA-233-LAX-JFK,empty,04:25 PM,12:29 AM  Fri 02-Dec-2011,12/2/11 12:01 AM
+115,helloflight,AA-3823-LAX-DEN,empty,09:06 PM,12:15 AM,11:49 PM
 116,helloflight,AA-2312-DFW-DTW,empty,08:29 PM,11:50 PM,11:35 PM
 117,helloflight,AA-1165-JFK-MIA,06:59 AM,07:22 AM,07:23 AM,10:34 AM
 118,helloflight,AA-431-MIA-SFO,8:35aDec 1,08:52 AM,08:51 AM,11:44 AM
@@ -154,7 +154,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 153,boston,AA-518-MIA-JFK,06:40 AM,06:54 AM,09:25 AM,09:28 AM
 154,boston,UA-397-JFK-SFO,8:19aDec 1,08:49 AM,11:55 AM,11:58 AM
 155,boston,UA-3925-IAD-ORF,8:41aDec 1,09:01 AM,9:54aDec 1,09:43 AM
-156,boston,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,empty
+156,boston,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,10:39 PM&nbsp(Estimated)
 157,boston,AA-3-JFK-LAX,12:00noon,12:11 PM,03:15 PM,03:16 PM
 158,boston,UA-2830-MCO-CLT,03:27 PM,03:28 PM,03:50 PM,05:05 PM
 159,boston,CO-58-DEN-IAH,11:25 AM,11:37aDec 1,empty,03:31 PM
@@ -210,8 +210,8 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 209,boston,AA-3756-ORD-SLC,12:15 PM,12:42 PM,02:45 PM,02:50 PM
 210,boston,UA-37-EWR-MCO,01:29 PM,01:48 PM,03:55 PM,04:17 PM
 211,boston,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,empty
-212,boston,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
-213,boston,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,empty
+212,boston,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,Not Available
+213,boston,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,Not Available
 214,boston,AA-2312-DFW-DTW,08:25 PM,08:29 PM,11:50 PM,11:35 PM
 215,boston,AA-1165-JFK-MIA,06:59 AM,07:22 AM,07:23 AM,10:34 AM
 216,boston,AA-431-MIA-SFO,8:35aDec 1,08:52 AM,08:51 AM,11:44 AM
@@ -300,8 +300,8 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 299,weather,UA-2515-DFW-CLT,07:05 AM,07:31 AM,07:30 AM,10:47 AM
 300,weather,AA-400-DFW-JFK,10:40 AM,11:02 AM,02:59 PM,03:04 PM
 301,weather,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
-302,weather,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,empty
-303,weather,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
+302,weather,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,05:49 AM
+303,weather,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,11:56 PM
 304,weather,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,empty
 305,weather,AA-2312-DFW-DTW,08:25 PM,08:29 PM,11:50 PM,11:35 PM
 306,weather,AA-1165-JFK-MIA,06:59 AM,07:22 AM,07:23 AM,10:34 AM
@@ -341,7 +341,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 340,airtravelcenter,AA-518-MIA-JFK,empty,06:54 AM,09:25 AM,09:28 AM
 341,airtravelcenter,UA-397-JFK-SFO,8:19aDec 1,08:49 AM,11:55 AM,11:58 AM
 342,airtravelcenter,UA-3925-IAD-ORF,8:41aDec 1,09:01 AM,9:54aDec 1,09:43 AM
-343,airtravelcenter,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,empty
+343,airtravelcenter,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,10:31 PM
 344,airtravelcenter,UA-2830-MCO-CLT,empty,03:28 PM,03:50 PM,05:05 PM
 345,airtravelcenter,CO-58-DEN-IAH,11:25 AM,11:37aDec 1,02:50 PM,03:31 PM
 346,airtravelcenter,AA-1544-SAN-ORD,11/30 11:25 AM,11:41 AM,05:25 PM,04:56 PM
@@ -398,9 +398,9 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 397,airtravelcenter,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
 398,airtravelcenter,AA-3756-ORD-SLC,12:15 PM,12:42 PM,02:45 PM,02:50 PM
 399,airtravelcenter,UA-37-EWR-MCO,01:29 PM,01:48 PM,03:55 PM,04:17 PM
-400,airtravelcenter,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,empty
-401,airtravelcenter,UA-233-LAX-JFK,empty,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
-402,airtravelcenter,AA-3823-LAX-DEN,empty,09:06 PM,12:15 AM,empty
+400,airtravelcenter,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,05:52 AM
+401,airtravelcenter,UA-233-LAX-JFK,empty,04:25 PM,12:29 AM  Fri 02-Dec-2011,12/2/11 12:01 AM
+402,airtravelcenter,AA-3823-LAX-DEN,empty,09:06 PM,12:15 AM,11:49 PM
 403,airtravelcenter,AA-2312-DFW-DTW,empty,08:29 PM,11:50 PM,11:35 PM
 404,airtravelcenter,AA-1165-JFK-MIA,06:59 AM,07:22 AM,07:23 AM,10:34 AM
 405,airtravelcenter,AA-431-MIA-SFO,8:35aDec 1,08:52 AM,08:51 AM,11:44 AM
@@ -541,7 +541,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 540,flightstats,AA-518-MIA-JFK,06:40 AM,06:54 AM,09:25 AM,09:28 AM
 541,flightstats,UA-397-JFK-SFO,8:19aDec 1,08:49 AM,11:55 AM,11:58 AM
 542,flightstats,UA-3925-IAD-ORF,8:41aDec 1,09:01 AM,9:54aDec 1,09:43 AM
-543,flightstats,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,empty
+543,flightstats,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,10:30 PM (Estimated)
 544,flightstats,AA-4344-ORD-DTW,11:45aDec 1,12:14 PM,02:00 PM,02:10 PM
 545,flightstats,AA-1640-MIA-MCO,06:30 PM,06:47 PM,07:08 PM,07:25 PM
 546,flightstats,UA-2830-MCO-CLT,03:27 PM,03:28 PM,03:50 PM,05:05 PM
@@ -596,9 +596,9 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 595,flightstats,AA-400-DFW-JFK,10:40 AM,11:02 AM,02:59 PM,03:04 PM
 596,flightstats,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
 597,flightstats,UA-37-EWR-MCO,01:29 PM,01:48 PM,03:55 PM,04:17 PM
-598,flightstats,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,empty
-599,flightstats,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
-600,flightstats,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,empty
+598,flightstats,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,5:42 AM (Estimated runway)
+599,flightstats,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,12:01 AM (Estimated runway)
+600,flightstats,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,11:49 PM (Estimated runway)
 601,flightstats,AA-2312-DFW-DTW,08:25 PM,08:29 PM,11:50 PM,11:35 PM
 602,flightstats,UA-2314-ATL-PHL,02:55 PM,02:55 PM,05:00 PM,05:00 PM
 603,flightstats,AA-1165-JFK-MIA,06:59 AM,07:22 AM,07:23 AM,10:34 AM
@@ -729,7 +729,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 728,panynj,AA-59-JFK-SFO,07:10 AM,07:39 AM,10:09 AM,11:12 AM
 729,panynj,AA-222-LAX-BOS,07:10 AM,07:31 AM,03:30 PM,03:30 PM
 730,flightexplorer,AA-3859-IAH-ORD,empty,07:16 AM,09:30 AM,09:40 AM
-731,flightexplorer,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,empty
+731,flightexplorer,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,10:28 PM
 732,flightexplorer,CO-1586-IAH-MCO,07:00 PM,07:42 PM,10:15 PM,10:29 PM
 733,flightexplorer,UA-397-JFK-SFO,8:19aDec 1,08:49 AM,11:55 AM,11:58 AM
 734,flightexplorer,UA-3925-IAD-ORF,8:41aDec 1,09:01 AM,9:54aDec 1,09:43 AM
@@ -777,7 +777,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 776,flightexplorer,AA-431-MIA-SFO,8:35aDec 1,08:52 AM,08:51 AM,11:44 AM
 777,flightexplorer,UA-3373-IAD-PHL,empty,08:37 AM,09:24 AM,09:13 AM
 778,flightexplorer,AA-649-ORD-SNA,01:30 PM,01:41 PM,03:50 PM,01:30 PM
-779,flightexplorer,UA-828-SFO-ORD,11:08 PM,11/30/2011 11:34 PM,5:11 AMDec 02,empty
+779,flightexplorer,UA-828-SFO-ORD,11:08 PM,11/30/2011 11:34 PM,5:11 AMDec 02,05:24 AM
 780,flightexplorer,CO-4888-IAH-DAL,05:30 PM,05:30 PM,06:40 PM,06:40 PM
 781,flightexplorer,CO-1561-PHX-IAH,8:05aDec 1,08:18 AM,08:00 AM,11:35 AM
 782,flightexplorer,AA-3804-PHL-ORD,empty,02:44 PM,02:35 PM,04:05 PM
@@ -941,7 +941,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 940,flightarrival,AA-400-DFW-JFK,10:40 AM,11:02 AM,02:59 PM,03:04 PM
 941,flightarrival,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
 942,flightarrival,UA-37-EWR-MCO,01:29 PM,01:48 PM,03:55 PM,04:17 PM
-943,flightarrival,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
+943,flightarrival,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,12:01 AM (Estimated runway)
 944,flightarrival,AA-2312-DFW-DTW,08:25 PM,08:29 PM,11:50 PM,11:35 PM
 945,flightarrival,AA-431-MIA-SFO,8:35aDec 1,08:52 AM,08:51 AM,11:44 AM
 946,flightarrival,UA-257-JFK-SFO,02:30 PM,02:43 PM,05:40 PM,06:15 PM
@@ -992,7 +992,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 991,travelocity,AA-518-MIA-JFK,06:40 AM,06:54 AM,09:25 AM,09:28 AM
 992,travelocity,UA-397-JFK-SFO,8:19aDec 1,08:49 AM,11:55 AM,11:58 AM
 993,travelocity,UA-3925-IAD-ORF,8:41aDec 1,09:01 AM,9:54aDec 1,09:43 AM
-994,travelocity,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,empty
+994,travelocity,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,10:30 PM*
 995,travelocity,AA-1640-MIA-MCO,06:30 PM,06:47 PM,07:08 PM,07:25 PM
 996,travelocity,AA-3-JFK-LAX,12:00noon,12:11 PM,03:15 PM,03:16 PM
 997,travelocity,UA-2830-MCO-CLT,03:27 PM,03:28 PM,03:50 PM,05:05 PM
@@ -1034,9 +1034,9 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1033,travelocity,UA-2515-DFW-CLT,07:05 AM,07:31 AM,07:30 AM,10:47 AM
 1034,travelocity,AA-400-DFW-JFK,10:40 AM,11:02 AM,02:59 PM,03:04 PM
 1035,travelocity,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
-1036,travelocity,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,empty
-1037,travelocity,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
-1038,travelocity,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,empty
+1036,travelocity,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,Dec 02 Not Available
+1037,travelocity,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,Not Available
+1038,travelocity,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,Dec 02 Not Available
 1039,travelocity,AA-2312-DFW-DTW,08:25 PM,08:29 PM,11:50 PM,11:35 PM
 1040,travelocity,AA-1165-JFK-MIA,06:59 AM,07:22 AM,07:23 AM,10:34 AM
 1041,travelocity,AA-431-MIA-SFO,8:35aDec 1,08:52 AM,08:51 AM,11:44 AM
@@ -1198,7 +1198,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1197,usatoday,CO-16-LAX-EWR,10:25 AM,10:37 AM,06:44 PM,06:34 PM
 1198,usatoday,AA-400-DFW-JFK,10:40 AM,11:02 AM,02:59 PM,03:04 PM
 1199,usatoday,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
-1200,usatoday,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,empty
+1200,usatoday,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,5:42 AM (Estimated runway)
 1201,usatoday,UA-257-JFK-SFO,02:30 PM,02:43 PM,05:40 PM,06:15 PM
 1202,usatoday,UA-3373-IAD-PHL,08:29 AM,08:37 AM,09:24 AM,09:13 AM
 1203,usatoday,CO-1250-MIA-IAH,02:53 PM,03:17 PM,04:48 PM,04:59 PM
@@ -1210,7 +1210,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1209,usatoday,UA-1500-IAH-GUA,8:55aDec 1,08:55 AM,12:05 PM,09:43 AM
 1210,usatoday,AA-3804-PHL-ORD,02:35 PM,02:44 PM,02:35 PM,04:05 PM
 1211,usatoday,AA-2268-PHX-ORD,07:15 AM,07:22 AM,07:23 AM,11:35 AM
-1212,usatoday,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
+1212,usatoday,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,Not Available
 1213,usatoday,AA-4277-CVG-JFK,12:10 PM,12:11 PM,02:15 PM,01:43 PM
 1214,usatoday,AA-2957-DFW-CVG,07:55 AM,08:04 AM,11:05 AM,11:01 AM
 1215,usatoday,UA-37-EDI-EWR,9:05 AM (-00:00),08:52 AM,11:53 AM,12:09 PM
@@ -1227,7 +1227,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1226,myrateplan,AA-518-MIA-JFK,empty,06:54 AM,09:25 AM,09:28 AM
 1227,myrateplan,UA-397-JFK-SFO,8:19aDec 1,08:49 AM,11:55 AM,11:58 AM
 1228,myrateplan,UA-3925-IAD-ORF,8:41aDec 1,09:01 AM,9:54aDec 1,09:43 AM
-1229,myrateplan,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,empty
+1229,myrateplan,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,10:31 PM
 1230,myrateplan,UA-2830-MCO-CLT,empty,03:28 PM,03:50 PM,05:05 PM
 1231,myrateplan,CO-58-DEN-IAH,11:25 AM,11:37aDec 1,02:50 PM,03:31 PM
 1232,myrateplan,AA-1544-SAN-ORD,11/30 11:25 AM,11:41 AM,05:25 PM,04:56 PM
@@ -1284,9 +1284,9 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1283,myrateplan,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
 1284,myrateplan,AA-3756-ORD-SLC,12:15 PM,12:42 PM,02:45 PM,02:50 PM
 1285,myrateplan,UA-37-EWR-MCO,01:29 PM,01:48 PM,03:55 PM,04:17 PM
-1286,myrateplan,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,empty
-1287,myrateplan,UA-233-LAX-JFK,empty,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
-1288,myrateplan,AA-3823-LAX-DEN,empty,09:06 PM,12:15 AM,empty
+1286,myrateplan,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,05:52 AM
+1287,myrateplan,UA-233-LAX-JFK,empty,04:25 PM,12:29 AM  Fri 02-Dec-2011,12/2/11 12:01 AM
+1288,myrateplan,AA-3823-LAX-DEN,empty,09:06 PM,12:15 AM,11:49 PM
 1289,myrateplan,AA-2312-DFW-DTW,empty,08:29 PM,11:50 PM,11:35 PM
 1290,myrateplan,AA-1165-JFK-MIA,06:59 AM,07:22 AM,07:23 AM,10:34 AM
 1291,myrateplan,AA-431-MIA-SFO,8:35aDec 1,08:52 AM,08:51 AM,11:44 AM
@@ -1458,12 +1458,12 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1457,ifly,AA-3756-ORD-SLC,12:15 PM,12:42 PM,02:45 PM,02:50 PM
 1458,ifly,CO-1614-LAX-IAH,12:30 AM,12:41 AM,05:35 AM,05:26 AM
 1459,ifly,CO-58-DEN-IAH,11:25 AM,11:37aDec 1,02:50 PM,03:31 PM
-1460,ifly,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
+1460,ifly,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,12:01 AM (Estimated runway)
 1461,ifly,AA-3979-CVG-ORD,07:30 AM,08:04 AM,07:30 AM,08:06 AM
-1462,ifly,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,empty
+1462,ifly,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,11:49 PM (Estimated runway)
 1463,ifly,AA-3786-IAH-ORD,11/30 4:00 PM,04:12 PM,04:00 PM,06:40 PM
 1464,ifly,AA-431-MIA-SFO,8:35aDec 1,08:52 AM,08:51 AM,11:44 AM
-1465,ifly,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,empty
+1465,ifly,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,10:30 PM (Estimated)
 1466,ifly,UA-3373-IAD-PHL,08:29 AM,08:37 AM,09:24 AM,09:13 AM
 1467,ifly,UA-3099-PHX-PHL,11:55 AM,11:43aDec 1,11:55 AM,06:17 PM
 1468,ifly,UA-2314-ATL-PHL,02:55 PM,02:55 PM,05:00 PM,05:00 PM
@@ -1491,7 +1491,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1490,flytecomm,AA-518-MIA-JFK,empty,06:54 AM,09:25 AM,09:28 AM
 1491,flytecomm,UA-397-JFK-SFO,8:19aDec 1,08:49 AM,11:55 AM,11:58 AM
 1492,flytecomm,UA-3925-IAD-ORF,8:41aDec 1,09:01 AM,9:54aDec 1,09:43 AM
-1493,flytecomm,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,empty
+1493,flytecomm,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,10:31 PM
 1494,flytecomm,UA-2830-MCO-CLT,empty,03:28 PM,03:50 PM,05:05 PM
 1495,flytecomm,CO-58-DEN-IAH,11:25 AM,11:37aDec 1,02:50 PM,03:31 PM
 1496,flytecomm,AA-1544-SAN-ORD,11/30 11:25 AM,11:41 AM,05:25 PM,04:56 PM
@@ -1548,9 +1548,9 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1547,flytecomm,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
 1548,flytecomm,AA-3756-ORD-SLC,12:15 PM,12:42 PM,02:45 PM,02:50 PM
 1549,flytecomm,UA-37-EWR-MCO,01:29 PM,01:48 PM,03:55 PM,04:17 PM
-1550,flytecomm,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,empty
-1551,flytecomm,UA-233-LAX-JFK,empty,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
-1552,flytecomm,AA-3823-LAX-DEN,empty,09:06 PM,12:15 AM,empty
+1550,flytecomm,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,05:52 AM
+1551,flytecomm,UA-233-LAX-JFK,empty,04:25 PM,12:29 AM  Fri 02-Dec-2011,12/2/11 12:01 AM
+1552,flytecomm,AA-3823-LAX-DEN,empty,09:06 PM,12:15 AM,11:49 PM
 1553,flytecomm,AA-2312-DFW-DTW,empty,08:29 PM,11:50 PM,11:35 PM
 1554,flytecomm,AA-1165-JFK-MIA,06:59 AM,07:22 AM,07:23 AM,10:34 AM
 1555,flytecomm,AA-431-MIA-SFO,8:35aDec 1,08:52 AM,08:51 AM,11:44 AM
@@ -1617,7 +1617,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1616,mytripandmore,UA-2515-DFW-CLT,7:05aDec 1,07:31 AM,07:30 AM,10:47 AM
 1617,mytripandmore,AA-4307-ORD-DTW,06:45 PM,06:55 PM,09:10 PM,06:56 PM
 1618,mytripandmore,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
-1619,mytripandmore,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,empty
+1619,mytripandmore,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,Dec 02 Not Available
 1620,mytripandmore,AA-2312-DFW-DTW,08:25 PM,08:29 PM,11:50 PM,11:35 PM
 1621,mytripandmore,AA-1165-JFK-MIA,06:59 AM,07:22 AM,07:23 AM,10:34 AM
 1622,mytripandmore,AA-431-MIA-SFO,8:35aDec 1,08:52 AM,08:51 AM,11:44 AM
@@ -1664,7 +1664,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1663,wunderground,AA-518-MIA-JFK,06:40 AM,06:54 AM,09:25 AM,09:28 AM
 1664,wunderground,CO-1586-IAH-MCO,07:00 PM,07:42 PM,10:15 PM,10:29 PM
 1665,wunderground,UA-3925-IAD-ORF,8:41aDec 1,09:01 AM,9:54aDec 1,09:43 AM
-1666,wunderground,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,empty
+1666,wunderground,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,10:28 PM
 1667,wunderground,AA-204-LAX-MCO,11:25 PM,11:29 PM,6:55 AM  Fri 02-Dec-2011,06:55 AM
 1668,wunderground,UA-2726-FLL-PHL,04:00 PM,04:10 PM,04:00 PM,06:25 PM
 1669,wunderground,CO-52-IAH-LAX,7:35aDec 1,07:56 AM,09:21 AM,09:09 AM
@@ -1704,13 +1704,13 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1703,wunderground,AA-400-DFW-JFK,10:40 AM,11:02 AM,02:59 PM,03:04 PM
 1704,wunderground,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
 1705,wunderground,UA-37-EWR-MCO,01:29 PM,01:48 PM,03:55 PM,04:17 PM
-1706,wunderground,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
-1707,wunderground,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,empty
+1706,wunderground,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,12:19 AM
+1707,wunderground,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,12:01 AM
 1708,wunderground,AA-2312-DFW-DTW,08:25 PM,08:29 PM,11:50 PM,11:35 PM
 1709,wunderground,AA-1165-JFK-MIA,06:59 AM,07:22 AM,07:23 AM,10:34 AM
 1710,wunderground,AA-431-MIA-SFO,8:35aDec 1,08:52 AM,08:51 AM,11:44 AM
 1711,wunderground,AA-649-ORD-SNA,01:30 PM,01:41 PM,03:50 PM,01:30 PM
-1712,wunderground,UA-828-SFO-ORD,11:08 PM,11/30/2011 11:34 PM,5:11 AMDec 02,empty
+1712,wunderground,UA-828-SFO-ORD,11:08 PM,11/30/2011 11:34 PM,5:11 AMDec 02,05:21 AM
 1713,wunderground,CO-4888-IAH-DAL,05:30 PM,05:30 PM,06:15 PM,06:40 PM
 1714,wunderground,AA-3063-SLC-LAX,08:20 PM,08:40 PM,09:10 PM,09:20 PM
 1715,wunderground,AA-3804-PHL-ORD,02:35 PM,02:44 PM,02:35 PM,04:05 PM
@@ -1743,10 +1743,10 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1742,ua,UA-2515-DFW-CLT,07:05 AM,07:31 AM,07:30 AM,10:47 AM
 1743,ua,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
 1744,ua,UA-37-EWR-MCO,01:29 PM,01:48 PM,03:55 PM,04:17 PM
-1745,ua,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
+1745,ua,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,Fri Dec 2 12:29 AM
 1746,ua,UA-3373-IAD-PHL,08:29 AM,08:37 AM,09:24 AM,09:13 AM
 1747,ua,UA-6273-YYC-SFO,7:35aDec 1,07:41 AM,9:43aDec 1,08:45 AM
-1748,ua,UA-828-SFO-ORD,11:08 PM,11/30/2011 11:34 PM,5:11 AMDec 02,empty
+1748,ua,UA-828-SFO-ORD,11:08 PM,11/30/2011 11:34 PM,5:11 AMDec 02,Fri Dec 2 5:11 AM
 1749,ua,UA-858-PVG-SFO,01:45 PM,01:32 PM,01:45 PM,08:02 AM
 1750,ua,UA-2704-DTW-PHX,11:15 AM,11:47 AM,01:40 PM,02:02 PM
 1751,ua,UA-2708-EWR-CLT,02:55 PM,02:55 PM,04:53 PM,03:04 PM
@@ -1862,7 +1862,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1861,quicktrip,AA-518-MIA-JFK,06:40 AM,06:54 AM,09:25 AM,09:28 AM
 1862,quicktrip,UA-397-JFK-SFO,8:19aDec 1,08:49 AM,11:55 AM,11:58 AM
 1863,quicktrip,UA-3925-IAD-ORF,8:41aDec 1,09:01 AM,9:54aDec 1,09:43 AM
-1864,quicktrip,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,empty
+1864,quicktrip,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,10:30 PM (Estimated)
 1865,quicktrip,AA-4344-ORD-DTW,11:45aDec 1,12:14 PM,02:00 PM,02:10 PM
 1866,quicktrip,AA-1640-MIA-MCO,06:30 PM,06:47 PM,07:08 PM,07:25 PM
 1867,quicktrip,UA-2830-MCO-CLT,03:27 PM,03:28 PM,03:50 PM,05:05 PM
@@ -1917,9 +1917,9 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 1916,quicktrip,AA-400-DFW-JFK,10:40 AM,11:02 AM,02:59 PM,03:04 PM
 1917,quicktrip,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
 1918,quicktrip,UA-37-EWR-MCO,01:29 PM,01:48 PM,03:55 PM,04:17 PM
-1919,quicktrip,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,empty
-1920,quicktrip,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
-1921,quicktrip,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,empty
+1919,quicktrip,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,5:42 AM (Estimated runway)
+1920,quicktrip,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,12:01 AM (Estimated runway)
+1921,quicktrip,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,11:49 PM (Estimated runway)
 1922,quicktrip,AA-2312-DFW-DTW,08:25 PM,08:29 PM,11:50 PM,11:35 PM
 1923,quicktrip,UA-2314-ATL-PHL,02:55 PM,02:55 PM,05:00 PM,05:00 PM
 1924,quicktrip,AA-1165-JFK-MIA,06:59 AM,07:22 AM,07:23 AM,10:34 AM
@@ -2258,7 +2258,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 2257,flightaware,AA-518-MIA-JFK,06:40 AM,06:54 AM,09:25 AM,09:28 AM
 2258,flightaware,CO-1586-IAH-MCO,07:00 PM,07:42 PM,10:15 PM,10:29 PM
 2259,flightaware,UA-3925-IAD-ORF,8:41aDec 1,09:01 AM,9:54aDec 1,09:43 AM
-2260,flightaware,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,empty
+2260,flightaware,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,10:28 PM
 2261,flightaware,AA-204-LAX-MCO,11:25 PM,11:29 PM,6:55 AM  Fri 02-Dec-2011,06:55 AM
 2262,flightaware,UA-2726-FLL-PHL,04:00 PM,04:10 PM,04:00 PM,06:25 PM
 2263,flightaware,CO-52-IAH-LAX,7:35aDec 1,07:56 AM,09:21 AM,09:09 AM
@@ -2298,13 +2298,13 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 2297,flightaware,AA-400-DFW-JFK,10:40 AM,11:02 AM,02:59 PM,03:04 PM
 2298,flightaware,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
 2299,flightaware,UA-37-EWR-MCO,01:29 PM,01:48 PM,03:55 PM,04:17 PM
-2300,flightaware,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
-2301,flightaware,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,empty
+2300,flightaware,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,12:19 AM
+2301,flightaware,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,12:01 AM
 2302,flightaware,AA-2312-DFW-DTW,08:25 PM,08:29 PM,11:50 PM,11:35 PM
 2303,flightaware,AA-1165-JFK-MIA,06:59 AM,07:22 AM,07:23 AM,10:34 AM
 2304,flightaware,AA-431-MIA-SFO,8:35aDec 1,08:52 AM,08:51 AM,11:44 AM
 2305,flightaware,AA-649-ORD-SNA,01:30 PM,01:41 PM,03:50 PM,01:30 PM
-2306,flightaware,UA-828-SFO-ORD,11:08 PM,11/30/2011 11:34 PM,5:11 AMDec 02,empty
+2306,flightaware,UA-828-SFO-ORD,11:08 PM,11/30/2011 11:34 PM,5:11 AMDec 02,05:21 AM
 2307,flightaware,CO-4888-IAH-DAL,05:30 PM,05:30 PM,06:15 PM,06:40 PM
 2308,flightaware,AA-3063-SLC-LAX,08:20 PM,08:40 PM,09:10 PM,09:20 PM
 2309,flightaware,AA-3804-PHL-ORD,02:35 PM,02:44 PM,02:35 PM,04:05 PM
@@ -2323,7 +2323,7 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 2322,world-flight-tracker,AA-3859-IAH-ORD,07:10 AM,07:16 AM,09:30 AM,09:40 AM
 2323,world-flight-tracker,AA-518-MIA-JFK,06:40 AM,06:54 AM,09:25 AM,09:28 AM
 2324,world-flight-tracker,UA-397-JFK-SFO,8:19aDec 1,08:49 AM,11:55 AM,11:58 AM
-2325,world-flight-tracker,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,empty
+2325,world-flight-tracker,AA-1733-ORD-PHX,11/30 7:45 PM,07:59 PM,10:30 PM,10:30 PM (Estimated)
 2326,world-flight-tracker,AA-1640-MIA-MCO,06:30 PM,06:47 PM,07:08 PM,07:25 PM
 2327,world-flight-tracker,CO-1694-LAX-IAH,07:15 PM,07:15 PM,12/2/11 12:21 AM,12:21 AM
 2328,world-flight-tracker,UA-2830-MCO-CLT,03:27 PM,03:28 PM,03:50 PM,05:05 PM
@@ -2354,9 +2354,9 @@ index,src,flight,sched_dep_time,act_dep_time,sched_arr_time,act_arr_time
 2353,world-flight-tracker,UA-2906-PHL-MCO,03:50 PM,04:28 PM,03:50 PM,06:23 PM
 2354,world-flight-tracker,AA-1221-MCO-ORD,08:00 PM,08:23 PM,09:45 PM,09:53 PM
 2355,world-flight-tracker,UA-664-ORD-PHL,01:33 PM,01:48 PM,04:31 PM,04:23 PM
-2356,world-flight-tracker,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,empty
-2357,world-flight-tracker,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,empty
-2358,world-flight-tracker,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,empty
+2356,world-flight-tracker,AA-1522-SFO-ORD,11/30 11:55 PM,12:11 AM,5:50 AM Dec 02,5:42 AM (Estimated runway)
+2357,world-flight-tracker,UA-233-LAX-JFK,04:25 PM,04:25 PM,12:29 AM  Fri 02-Dec-2011,12:01 AM (Estimated runway)
+2358,world-flight-tracker,AA-3823-LAX-DEN,09:00 PM,09:06 PM,12:15 AM,11:49 PM (Estimated runway)
 2359,world-flight-tracker,AA-2312-DFW-DTW,08:25 PM,08:29 PM,11:50 PM,11:35 PM
 2360,world-flight-tracker,AA-1165-JFK-MIA,06:59 AM,07:22 AM,07:23 AM,10:34 AM
 2361,world-flight-tracker,AA-431-MIA-SFO,8:35aDec 1,08:52 AM,08:51 AM,11:44 AM

@@ -7,8 +7,8 @@ Distance (Dirty to Clean): 0
 Distance (Repaired to Clean): 0
 ========================================
 Attribute: surname
-Distance (Dirty to Clean): 18635
-Distance (Repaired to Clean): 10542
+Distance (Dirty to Clean): 922
+Distance (Repaired to Clean): 587
 ========================================
 Attribute: birthyear
 Distance (Dirty to Clean): 0
@@ -19,29 +19,29 @@ Distance (Dirty to Clean): 0
 Distance (Repaired to Clean): 0
 ========================================
 Attribute: position
-Distance (Dirty to Clean): 956
-Distance (Repaired to Clean): 122593
+Distance (Dirty to Clean): 47
+Distance (Repaired to Clean): 6134
 ========================================
 Attribute: team
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 65410
+Distance (Repaired to Clean): 3209
 ========================================
 Attribute: city
-Distance (Dirty to Clean): 6888
-Distance (Repaired to Clean): 6888
+Distance (Dirty to Clean): 325
+Distance (Repaired to Clean): 325
 ========================================
 Attribute: stadium
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 42495
+Distance (Repaired to Clean): 2085
 ========================================
 Attribute: season
-Distance (Dirty to Clean): 4817
-Distance (Repaired to Clean): 4817
+Distance (Dirty to Clean): 233
+Distance (Repaired to Clean): 233
 ========================================
 Attribute: manager
 Distance (Dirty to Clean): 0
 Distance (Repaired to Clean): 0
 ========================================
-总的脏数据到干净数据距离: 31296
-总的修复后数据到干净数据距离: 252745
-错误减少率 (EDR): -7.075952198364008
+总的脏数据到干净数据距离: 1527
+总的修复后数据到干净数据距离: 12573
+错误减少率 (EDR): -7.233791748526523
