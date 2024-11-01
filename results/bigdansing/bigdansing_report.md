@@ -49,8 +49,7 @@ python3 bigdansing.py --dirty_path "../../Data/hospital/noise/hospital-inner_out
 | 实验4    | `../../Data/flights/noise/flights-outer_error-10.csv`, `../../Data/flights/dc_rules_holoclean.txt`, `../../Data/flights/clean.csv`| `/` | `../../results/bigdansing/Exp_result/bigdansing_flights/all_computed_bigdansing_flights1-inner_outer_error-10.txt`,`../../results/bigdansing/Repaired_res/bigdansing_flights/repaired_bigdansing_flights1-inner_outer_error-10.csv`  | `/`   | `/` |
 ### 实验4 运行命令：
 ```bash
-python3 bigdansing.py --dirty_path "../../Data/flights/noise/flights-inner_outer_error-10.csv" --rule_path "../../Data/flights/dc_rules_holoclean.txt" --clean_path "../../Data/flights/clean.csv" --onlyed 0 --perfected 0 --task_name "bigdansing_fl
-ights1"
+python3 bigdansing.py --dirty_path "../../Data/flights/noise/flights-inner_outer_error-10.csv" --rule_path "../../Data/flights/dc_rules_holoclean.txt" --clean_path "../../Data/flights/clean.csv" --onlyed 0 --perfected 0 --task_name "bigdansing_flights1"
 ```
 
 #### 实验5 设置
@@ -60,8 +59,7 @@ ights1"
 | 实验5    | `../../Data/flights/noise/flights-outer_error-20.csv`, `../../Data/flights/dc_rules_holoclean.txt`, `../../Data/flights/clean.csv`| `/` | `../../results/bigdansing/Exp_result/bigdansing_flights/all_computed_bigdansing_flights2-inner_outer_error-20.txt`,`../../results/bigdansing/Repaired_res/bigdansing_flights/repaired_bigdansing_flights2-inner_outer_error-20.csv`  | `/`   | `/` |
 ### 实验5 运行命令：
 ```bash
-python3 bigdansing.py --dirty_path "../../Data/flights/noise/flights-inner_outer_error-20.csv" --rule_path "../../Data/flights/dc_rules_holoclean.txt" --clean_path "../../Data/flights/clean.csv" --onlyed 0 --perfected 0 --task_name "bigdansing_fl
-ights2"
+python3 bigdansing.py --dirty_path "../../Data/flights/noise/flights-inner_outer_error-20.csv" --rule_path "../../Data/flights/dc_rules_holoclean.txt" --clean_path "../../Data/flights/clean.csv" --onlyed 0 --perfected 0 --task_name "bigdansing_flights2"
 ```
 
 #### 实验6 设置
@@ -71,8 +69,7 @@ ights2"
 | 实验6    | `../../Data/flights/noise/flights-outer_error-30.csv`, `../../Data/flights/dc_rules_holoclean.txt`, `../../Data/flights/clean.csv`| `/` | `../../results/bigdansing/Exp_result/bigdansing_flights/all_computed_bigdansing_flights3-inner_outer_error-30.txt`,`../../results/bigdansing/Repaired_res/bigdansing_flights/repaired_bigdansing_flights3-inner_outer_error-30.csv`  | `/`   | `/` |
 ### 实验6 运行命令：
 ```bash
-python3 bigdansing.py --dirty_path "../../Data/flights/noise/flights-inner_outer_error-30.csv" --rule_path "../../Data/flights/dc_rules_holoclean.txt" --clean_path "../../Data/flights/clean.csv" --onlyed 0 --perfected 0 --task_name "bigdansing_fl
-ights3"
+python3 bigdansing.py --dirty_path "../../Data/flights/noise/flights-inner_outer_error-30.csv" --rule_path "../../Data/flights/dc_rules_holoclean.txt" --clean_path "../../Data/flights/clean.csv" --onlyed 0 --perfected 0 --task_name "bigdansing_flights3"
 ```
 ---
 

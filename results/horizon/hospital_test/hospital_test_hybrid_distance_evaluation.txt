@@ -1,0 +1,40 @@
+Attribute: index, MSE: 0.0, Jaccard: 0.0
+无法计算MSE，因为ProviderNumber不是数值型数据
+Attribute: ProviderNumber, MSE: nan, Jaccard: 0.08340425531914897
+无法计算MSE，因为HospitalName不是数值型数据
+Attribute: HospitalName, MSE: nan, Jaccard: 0.3632040924879799
+无法计算MSE，因为Address1不是数值型数据
+Attribute: Address1, MSE: nan, Jaccard: 0.06468085106382981
+无法计算MSE，因为Address2不是数值型数据
+Attribute: Address2, MSE: nan, Jaccard: 0.0
+无法计算MSE，因为Address3不是数值型数据
+Attribute: Address3, MSE: nan, Jaccard: 0.0
+无法计算MSE，因为City不是数值型数据
+Attribute: City, MSE: nan, Jaccard: 0.07414634146341459
+无法计算MSE，因为State不是数值型数据
+Attribute: State, MSE: nan, Jaccard: 0.34183673469387754
+无法计算MSE，因为ZipCode不是数值型数据
+Attribute: ZipCode, MSE: nan, Jaccard: 0.06608695652173913
+无法计算MSE，因为CountyName不是数值型数据
+Attribute: CountyName, MSE: nan, Jaccard: 0.14
+无法计算MSE，因为PhoneNumber不是数值型数据
+Attribute: PhoneNumber, MSE: nan, Jaccard: 0.10493589743589737
+无法计算MSE，因为HospitalType不是数值型数据
+Attribute: HospitalType, MSE: nan, Jaccard: 0.9255384615384615
+无法计算MSE，因为HospitalOwner不是数值型数据
+Attribute: HospitalOwner, MSE: nan, Jaccard: 0.0
+无法计算MSE，因为EmergencyService不是数值型数据
+Attribute: EmergencyService, MSE: nan, Jaccard: 0.0
+无法计算MSE，因为Condition不是数值型数据
+Attribute: Condition, MSE: nan, Jaccard: 0.0
+无法计算MSE，因为MeasureCode不是数值型数据
+Attribute: MeasureCode, MSE: nan, Jaccard: 0.5006726201366767
+无法计算MSE，因为MeasureName不是数值型数据
+Attribute: MeasureName, MSE: nan, Jaccard: 0.06896551724137934
+无法计算MSE，因为Score不是数值型数据
+Attribute: Score, MSE: nan, Jaccard: 0.20972530692417202
+无法计算MSE，因为Sample不是数值型数据
+Attribute: Sample, MSE: nan, Jaccard: 0.11873651139128882
+无法计算MSE，因为Stateavg不是数值型数据
+Attribute: Stateavg, MSE: nan, Jaccard: 0.43938673823141094
+加权混合距离: 0.08753300711123194
