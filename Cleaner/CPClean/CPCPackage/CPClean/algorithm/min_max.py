@@ -12,12 +12,15 @@ def min_max(mm, y, K):
         mm (np.array): shape Nx2. the min and max similarity of each row. 
         y (list): labels
         K (int): KNN hyperparameter
+        Return:
+            cc (list of boolean):whether CPed or not
+
     """
-    assert len(set(y)) == 2
+    assert len(set(y)) == 2 # 开始判定了标签数只能为2，需要改动才能支持多标签
     pred_set = set()
     best_scenarios = {}
 
-    for c in [0, 1]:
+    for c in [0, 1]: # 只支持两个标签
         best_scenario = np.zeros(len(y))
         mask = (y == c)
 

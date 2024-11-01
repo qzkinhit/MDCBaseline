@@ -146,7 +146,7 @@ python inject_error.py --input adult_vectorized.csv --output adult_with_system_e
    - 对这些特征使用 **标准化** (`Standardization`)，将它们的值转换为均值为 0，标准差为 1 的分布。
 2. **类别型特征**：
    - 类别型特征包括 `workclass`, `education`, `marital-status`, `occupation`, `relationship`, `race`, `sex`, `native-country`。
-   - 对这些特征使用 **独热编码** (`One-Hot Encoding`)，将每个类别值转换为二进制特征。每个类别对应一列，取值为 0 或 1，表示是否属于该类别。
+   - 对这些特征使用 **TF-IDF词袋编码** 方法，将它们转化为数值特征。
 3. **收入标签**：
    - 将标签列`income`进行二元编码：
      - `<=50K` 映射为 0。
