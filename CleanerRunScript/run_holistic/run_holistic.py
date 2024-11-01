@@ -38,8 +38,8 @@ def main():
     parser.add_argument('--clean_path', type=str, default="../../Data/2_flights/clean_index.csv")
     parser.add_argument('--dirty_path', type=str, default="../../Data/2_flights/dirty_index.csv")
     parser.add_argument('--rule_path', type=str, default="../../Data/2_flights/dc_rules_holoclean.txt")
-    parser.add_argument('--task_name', type=str, default="bigdansing_flights_test0")
-    parser.add_argument('--output_path', type=str, default="../../results/bigdansing/")
+    parser.add_argument('--task_name', type=str, default="holistic_flights_test0")
+    parser.add_argument('--output_path', type=str, default="../../results/holistic/")
     parser.add_argument('--onlyed', type=int, default=0)
     parser.add_argument('--perfected', type=int, default=0)
     parser.add_argument('--index_attribute', type=str, default='index')
@@ -79,7 +79,7 @@ def main():
     )
     # 记录开始时间
     start_time = time.time()
-    print(f"Running bigdansing with dirty file: {args.dirty_path}")
+    print(f"Running holistic with dirty file: {args.dirty_path}")
     process = multiprocessing.Process(target=run_holistic, args=(
     task_name, output_path, PERFECTED, ONLYED, rule_path, dirty_path, clean_path))
     process.start()
@@ -98,7 +98,7 @@ def main():
     end_time = time.time()
     elapsed_time = end_time - start_time
     print(f"Results saved to {res_path}")
-    print(f"BigDansing finished in {elapsed_time} seconds.")
+    print(f"holistic finished in {elapsed_time} seconds.")
     print("测评性能开始：")
     # 读取干净数据、脏数据和修复后的数据
     inject_missing_values(
