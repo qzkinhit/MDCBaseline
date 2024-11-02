@@ -61,8 +61,9 @@ def main():
     start_time = time.time()
 
     print(f"Running Holoclean with dirty file: {args.dirty_path}")
-    #这里运行Holoclean程序
-    # df= Holoclean(
+
+    #超，关注这里，这里运行Holoclean程序，输入必要的几个参数，同时返回清洗后的数据
+    # res_df= Holoclean(
     #     args.dirty_path, args.rule_path, args.clean_path,XXX
     # )
     # 保存修复后的数据
@@ -70,6 +71,7 @@ def main():
     #重点：保证清洗后数据存在res_path目录下
     #res_df.to_csv(res_path, index=False)
     # print("===============================================")
+
     # 记录结束时间并计算总耗时
     end_time = time.time()
     elapsed_time = end_time - start_time
