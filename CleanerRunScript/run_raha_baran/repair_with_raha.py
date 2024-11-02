@@ -790,7 +790,7 @@ if __name__ == "__main__":
         # 重定向输出到文件
         with open(results_path, 'w', encoding='utf-8') as f:
             sys.stdout = f  # 将 sys.stdout 重定向到文件
-            # 打印结果
+            # 打印结果到文件
             print("测试结果:")
             print(f"Accuracy: {results.get('accuracy')}")
             print(f"Recall: {results.get('recall')}")
@@ -802,6 +802,16 @@ if __name__ == "__main__":
             print(f"speed: {100 * float(end_time - start_time) / clean_data.shape[0]} seconds/100num")
         # 恢复标准输出
         sys.stdout = original_stdout
+        # # 打印结果到cmd里
+        print("测试结果:")
+        print(f"Accuracy: {results.get('accuracy')}")
+        print(f"Recall: {results.get('recall')}")
+        print(f"F1 Score: {results.get('f1_score')}")
+        print(f"EDR: {results.get('edr')}")
+        print(f"Hybrid Distance: {results.get('hybrid_distance')}")
+        print(f"R-EDR: {results.get('r_edr')}")
+        print(f"time(s): {end_time - start_time}")
+        print(f"speed: {100 * float(end_time - start_time) / clean_data.shape[0]} seconds/100num")
         print("测评结束，详细测评日志见：" + str(out_path))
     except TimeoutError as e:
         print(f"Time exceeded: {e}, {task_name}, {dirty_path}")

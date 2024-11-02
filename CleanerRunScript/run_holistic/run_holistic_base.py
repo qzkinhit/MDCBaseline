@@ -154,6 +154,16 @@ def main():
         print(f"speed: {100*float(elapsed_time)/clean_data.shape[0]} seconds/100num")
     # 恢复标准输出
     sys.stdout = original_stdout
+    # # 打印结果到cmd里
+    print("测试结果:")
+    print(f"Accuracy: {results.get('accuracy')}")
+    print(f"Recall: {results.get('recall')}")
+    print(f"F1 Score: {results.get('f1_score')}")
+    print(f"EDR: {results.get('edr')}")
+    print(f"Hybrid Distance: {results.get('hybrid_distance')}")
+    print(f"R-EDR: {results.get('r_edr')}")
+    print(f"time(s): {elapsed_time}")
+    print(f"speed: {100 * float(elapsed_time) / clean_data.shape[0]} seconds/100num")
     print("测评结束，详细测评日志见：" + str(stra_path))
 
 

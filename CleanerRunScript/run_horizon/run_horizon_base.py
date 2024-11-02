@@ -130,7 +130,7 @@ def main():
     # 重定向输出到文件
     with open(results_path, 'w', encoding='utf-8') as f:
         sys.stdout = f  # 将 sys.stdout 重定向到文件
-        # 打印结果
+        # 打印结果文件
         print("测试结果:")
         print(f"Accuracy: {results.get('accuracy')}")
         print(f"Recall: {results.get('recall')}")
@@ -143,19 +143,17 @@ def main():
     # 恢复标准输出
     sys.stdout = original_stdout
     print("测评结束，详细测评日志见：" + str(stra_path))
-    # results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
-    #                                 index_attribute=index_attribute, mse_attributes=mse_attributes)
-    #
-    # # 打印结果
-    # print("测试结果:")
-    # print(f"Accuracy: {results.get('accuracy')}")
-    # print(f"Recall: {results.get('recall')}")
-    # print(f"F1 Score: {results.get('f1_score')}")
-    # print(f"EDR: {results.get('edr')}")
-    # print(f"Hybrid Distance: {results.get('hybrid_distance')}")
-    # print(f"R-EDR: {results.get('r_edr')}")
-    # print(f"time(s): {elapsed_time}")
-    # print("测评结束，详细测评日志见：" + str(stra_path))
+    # # 打印结果到cmd里
+    print("测试结果:")
+    print(f"Accuracy: {results.get('accuracy')}")
+    print(f"Recall: {results.get('recall')}")
+    print(f"F1 Score: {results.get('f1_score')}")
+    print(f"EDR: {results.get('edr')}")
+    print(f"Hybrid Distance: {results.get('hybrid_distance')}")
+    print(f"R-EDR: {results.get('r_edr')}")
+    print(f"time(s): {elapsed_time}")
+    print(f"speed: {100 * float(elapsed_time) / clean_data.shape[0]} seconds/100num")
+    print("测评结束，详细测评日志见：" + str(stra_path))
 
 
 if __name__ == "__main__":
