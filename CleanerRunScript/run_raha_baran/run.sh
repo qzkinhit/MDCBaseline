@@ -4,12 +4,12 @@
 
 # 定义命令列表，每个命令用于不同的数据集
 commands=(
-    "python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/1_hospital/dirty_index.csv --clean_path Data/1_hospital/clean_index.csv --task_name 1_hospital_ori --output_path ../result/baran --index_attribute index --mse_attributes Score"
-    "python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/2_flights/dirty_index.csv --clean_path Data/2_flights/clean_index.csv --task_name 2_flights_ori --output_path ../result/baran --index_attribute index"
-    "python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/3_beers/dirty_index.csv --clean_path Data/3_beers/clean_index.csv --task_name 3_beers_ori --output_path ../result/baran --index_attribute id --mse_attributes ounces abv ibu"
-    "python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/4_rayyan/dirty_index.csv --clean_path Data/4_rayyan/clean_index.csv --task_name 4_rayyan_ori --output_path ../result/baran --index_attribute id"
-    "python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/5_tax/dirty_index_10k.csv --clean_path Data/5_tax/clean_index_10k.csv --task_name 5_tax_10k_ori --output_path ../result/baran --index_attribute index --mse_attributes salary rate singleexemp marriedexemp childexemp"
-    "python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/6_soccer/dirty_index_10k.csv --clean_path Data/6_soccer/clean_index_10k.csv --task_name 6_soccer_10k_ori --output_path ../result/baran --index_attribute index"
+    "python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/1_hospital/dirty_index.csv --clean_path Data/1_hospital/clean_index.csv --task_name 1_hospital_ori --output_path result/baran --index_attribute index --mse_attributes Score"
+    "python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/2_flights/dirty_index.csv --clean_path Data/2_flights/clean_index.csv --task_name 2_flights_ori --output_path result/baran --index_attribute index"
+    "python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/3_beers/dirty_index.csv --clean_path Data/3_beers/clean_index.csv --task_name 3_beers_ori --output_path result/baran --index_attribute id --mse_attributes ounces abv ibu"
+    "python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/4_rayyan/dirty_index.csv --clean_path Data/4_rayyan/clean_index.csv --task_name 4_rayyan_ori --output_path result/baran --index_attribute id"
+    "python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/5_tax/dirty_index_10k.csv --clean_path Data/5_tax/clean_index_10k.csv --task_name 5_tax_10k_ori --output_path result/baran --index_attribute index --mse_attributes salary rate singleexemp marriedexemp childexemp"
+    "python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/6_soccer/dirty_index_10k.csv --clean_path Data/6_soccer/clean_index_10k.csv --task_name 6_soccer_10k_ori --output_path result/baran --index_attribute index"
 )
 
 # 定义日志文件名列表

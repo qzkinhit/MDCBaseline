@@ -1,4 +1,4 @@
-# run_holistic.py
+# run_holistic_base.py
 import os
 import sys
 import argparse
@@ -151,6 +151,7 @@ def main():
         print(f"Hybrid Distance: {results.get('hybrid_distance')}")
         print(f"R-EDR: {results.get('r_edr')}")
         print(f"Time: {elapsed_time}")
+        print(f"speed: {100*float(elapsed_time)/clean_data.shape[0]} seconds/100num")
     # 恢复标准输出
     sys.stdout = original_stdout
     print("测评结束，详细测评日志见：" + str(stra_path))

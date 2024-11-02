@@ -836,7 +836,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
 
-# run_holistic.py
+# run_holistic_base.py
 import sys
 import argparse
 from Cleaner.Holistic_BigDansing.holistic import Holistic
