@@ -8,26 +8,26 @@ import pandas as pd
 # 获取当前脚本所在目录的上级目录路径
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 
-from Cleaner.Horizon.horizon import Horizon
+from Cleaner.Holoclean.Holoclean import Holoclean
 from util.getScore import calculate_accuracy_and_recall, calculate_all_metrics
 from util.insert_null import inject_missing_values
 
 
 def main():
     # 设置命令行参数解析
-    parser = argparse.ArgumentParser(description='Run Horizon data cleaning script.')
+    parser = argparse.ArgumentParser(description='Run Holoclean data cleaning script.')
 
     # 定义命令行参数，default 设为你之前的默认路径
     parser.add_argument('--dirty_path', type=str,
                         default='../../Data/1_hospital/dirty.csv',
                         help='Path to the input dirty CSV file.')
-    parser.add_argument('--rule_path', type=str, default='../../Data/1_hospital/dc_rules-validate-fd-horizon.txt',
+    parser.add_argument('--rule_path', type=str, default='../../Data/1_hospital/dc_rules-validate-fd-Holoclean.txt',
                         help='Path to the input rule file.')
     parser.add_argument('--clean_path', type=str, default='../../Data/1_hospital/clean_index.csv',
                         help='Path to the input clean CSV file.')
     parser.add_argument('--task_name', type=str, default='hospital_test',
                         help='Task name for the cleaning process.')
-    parser.add_argument('--output_path', type=str, default='../../results/horizon/',
+    parser.add_argument('--output_path', type=str, default='../../results/Holoclean/',
                         help='Path to save the output results.')
     parser.add_argument('--index_attribute', type=str, default='index',
                         help='index_attribute of data')
@@ -59,34 +59,24 @@ def main():
     )
     # 记录开始时间
     start_time = time.time()
-    print(f"Running Horizon with dirty file: {args.dirty_path}")
-    pattern_expressions, dirty_c, _ = Horizon(
-        args.dirty_path, args.rule_path, args.clean_path
-    )
+
+    print(f"Running Holoclean with dirty file: {args.dirty_path}")
+    #这里运行Holoclean程序
+    # df= Holoclean(
+    #     args.dirty_path, args.rule_path, args.clean_path,XXX
+    # )
     # 保存修复后的数据
     res_path = os.path.join(stra_path, f"{args.task_name}_repaired.csv")
-    #res_df = pd.read_csv(args.dirty_path, dtype={'ZipCode': str, 'PhoneNumber': str})
-    #res_df = pd.read_csv(args.dirty_path,dtype={'src':str,'flight':str,'sched_dep_time':str,'act_dep_time':str,'sched_arr_time':str,'act_arr_time':str})
-    #res_df = pd.read_csv(args.dirty_path, dtype={'brewery_id': str})
-    #res_df = pd.read_csv(args.dirty_path, dtype={'article_jvolumn':str,'article_jissue':str})
-    #res_df = pd.read_csv(args.dirty_path,dtype={'zip':str})
-    res_df = pd.read_csv(args.dirty_path, dtype={'season': str})
-    for i in range(len(res_df)):
-        for v in pattern_expressions[i]:
-            value_to_assign = pattern_expressions[i][v]
-            try:
-                value_to_assign = int(value_to_assign)
-            except ValueError:
-                pass
-            res_df.loc[i, v] = str(value_to_assign)
-
-    res_df.to_csv(res_path, index=False)
-    print("===============================================")
+    #重点：保证清洗后数据存在res_path目录下
+    #res_df.to_csv(res_path, index=False)
+    # print("===============================================")
     # 记录结束时间并计算总耗时
     end_time = time.time()
     elapsed_time = end_time - start_time
     print(f"Results saved to {res_path}")
-    print(f"Horizon finished in {elapsed_time} seconds.")
+    print(f"Holoclean finished in {elapsed_time} seconds.")
+
+
     print("测评性能开始：")
     # 读取干净数据、脏数据和修复后的数据
     inject_missing_values(
@@ -102,24 +92,6 @@ def main():
 
     # 根据规则定义的属性集合
     attributes = clean_data.columns.tolist()
-
-    # 调用函数并计算所有指标
-    #hospital
-    #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
-    #                                index_attribute,mse_attributes=['Score'])
-    #flights
-    #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
-    #                               index_attribute)
-    #beers
-    #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
-    #                                index_attribute,mse_attributes=['abv','ibu'])
-    #rayyan
-    #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
-    #                               index_attribute)
-    #tax
-    #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
-    #                                index_attribute,mse_attributes=['salary','rate','singleexemp','marriedexemp','childexemp'])
-    #soccer
     # 调用函数并计算所有指标
     results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
                                     index_attribute=index_attribute, mse_attributes=mse_attributes)
