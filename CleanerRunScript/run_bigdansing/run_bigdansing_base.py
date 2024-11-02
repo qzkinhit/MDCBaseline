@@ -41,7 +41,6 @@ def main():
     parser.add_argument('--perfected', type=int, default=0)
     parser.add_argument('--index_attribute', type=str, default='index')
     args = parser.parse_args()
-
     dirty_path = args.dirty_path
     clean_path = args.clean_path
     rule_path = args.rule_path
