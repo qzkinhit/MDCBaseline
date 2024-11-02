@@ -1,13 +1,14 @@
 #!/bin/bash
 # chmod +x CleanerRunScript/run_horizon/run.sh
-#./CleanerRunScript/run_horizon/run.sh
-# 定义horizon命令列表
+# ./CleanerRunScript/run_horizon/run.sh
+
+# 定义horizon命令列表，并指定各数据集的mse_attributes
 horizon_commands=(
-    "python CleanerRunScript/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty_index.csv --rule_path ../../Data/1_hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean_index.csv --task_name 1_hospital_ori --output_path ../../results/horizon/ --index_attribute index"
+    "python CleanerRunScript/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty_index.csv --rule_path ../../Data/1_hospital/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean_index.csv --task_name 1_hospital_ori --output_path ../../results/horizon/ --index_attribute index --mse_attributes Score"
     "python CleanerRunScript/run_horizon_base.py --dirty_path ../../Data/2_flights/dirty_index.csv --rule_path ../../Data/2_flights/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/2_flights/clean_index.csv --task_name 2_flights_ori --output_path ../../results/horizon/ --index_attribute index"
-    "python CleanerRunScript/run_horizon_base.py --dirty_path ../../Data/3_beers/dirty_index.csv --rule_path ../../Data/3_beers/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/3_beers/clean_index.csv --task_name 3_beers_ori --output_path ../../results/horizon/ --index_attribute id"
+    "python CleanerRunScript/run_horizon_base.py --dirty_path ../../Data/3_beers/dirty_index.csv --rule_path ../../Data/3_beers/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/3_beers/clean_index.csv --task_name 3_beers_ori --output_path ../../results/horizon/ --index_attribute id --mse_attributes abv ibu"
     "python CleanerRunScript/run_horizon_base.py --dirty_path ../../Data/4_rayyan/dirty_index.csv --rule_path ../../Data/4_rayyan/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/4_rayyan/clean_index.csv --task_name 4_rayyan_ori --output_path ../../results/horizon/ --index_attribute index"
-    "python CleanerRunScript/run_horizon_base.py --dirty_path ../../Data/5_tax/dirty_index_10k.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/clean_index_10k.csv --task_name 5_tax_ori --output_path ../../results/horizon/ --index_attribute index"
+    "python CleanerRunScript/run_horizon_base.py --dirty_path ../../Data/5_tax/dirty_index_10k.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/clean_index_10k.csv --task_name 5_tax_ori --output_path ../../results/horizon/ --index_attribute index --mse_attributes salary rate singleexemp marriedexemp childexemp"
     "python CleanerRunScript/run_horizon_base.py --dirty_path ../../Data/6_soccer/dirty_index_10k.csv --rule_path ../../Data/6_soccer/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/6_soccer/clean_index_10k.csv --task_name 6_soccer_ori --output_path ../../results/horizon/ --index_attribute index"
 )
 
