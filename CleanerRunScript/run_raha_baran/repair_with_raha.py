@@ -785,7 +785,8 @@ if __name__ == "__main__":
         results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, task_name,index_attribute=index_attribute, mse_attributes=mse_attributes)
         # 定义输出文件路径
         results_path = os.path.join(output_path, f"{task_name}_total_evaluation.txt")
-
+        # 备份原始的标准输出
+        original_stdout = sys.stdout
         # 重定向输出到文件
         with open(results_path, 'w', encoding='utf-8') as f:
             sys.stdout = f  # 将 sys.stdout 重定向到文件

@@ -31,8 +31,11 @@ def main():
                         help='Path to save the output results.')
     parser.add_argument('--index_attribute', type=str, default='index',
                         help='index_attribute of data')
+    parser.add_argument('--mse_attributes', type=str, nargs='*', default=[],
+                        help='List of attributes to calculate MSE, separated by space. Example: --mse_attributes Attribute1 Attribute3')
     # 解析命令行参数
     args = parser.parse_args()
+    mse_attributes = args.mse_attributes
     stra_path = os.path.join(args.output_path, f"{args.task_name}")
     index_attribute = args.index_attribute
     # 检查目录是否存在，如果不存在则创建
@@ -117,19 +120,41 @@ def main():
     #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
     #                                index_attribute,mse_attributes=['salary','rate','singleexemp','marriedexemp','childexemp'])
     #soccer
+    # 调用函数并计算所有指标
     results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
-                                    index_attribute)
-
-    # 打印结果
-    print("测试结果:")
-    print(f"Accuracy: {results.get('accuracy')}")
-    print(f"Recall: {results.get('recall')}")
-    print(f"F1 Score: {results.get('f1_score')}")
-    print(f"EDR: {results.get('edr')}")
-    print(f"Hybrid Distance: {results.get('hybrid_distance')}")
-    print(f"R-EDR: {results.get('r_edr')}")
-    print(f"time(s): {elapsed_time}")
+                                    index_attribute=index_attribute, mse_attributes=mse_attributes)
+    # 定义输出文件路径
+    results_path = os.path.join(stra_path, f"{args.task_name}_total_evaluation.txt")
+    # 备份原始的标准输出
+    original_stdout = sys.stdout
+    # 重定向输出到文件
+    with open(results_path, 'w', encoding='utf-8') as f:
+        sys.stdout = f  # 将 sys.stdout 重定向到文件
+        # 打印结果
+        print("测试结果:")
+        print(f"Accuracy: {results.get('accuracy')}")
+        print(f"Recall: {results.get('recall')}")
+        print(f"F1 Score: {results.get('f1_score')}")
+        print(f"EDR: {results.get('edr')}")
+        print(f"Hybrid Distance: {results.get('hybrid_distance')}")
+        print(f"R-EDR: {results.get('r_edr')}")
+        print(f"Time: {elapsed_time}")
+    # 恢复标准输出
+    sys.stdout = original_stdout
     print("测评结束，详细测评日志见：" + str(stra_path))
+    # results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
+    #                                 index_attribute=index_attribute, mse_attributes=mse_attributes)
+    #
+    # # 打印结果
+    # print("测试结果:")
+    # print(f"Accuracy: {results.get('accuracy')}")
+    # print(f"Recall: {results.get('recall')}")
+    # print(f"F1 Score: {results.get('f1_score')}")
+    # print(f"EDR: {results.get('edr')}")
+    # print(f"Hybrid Distance: {results.get('hybrid_distance')}")
+    # print(f"R-EDR: {results.get('r_edr')}")
+    # print(f"time(s): {elapsed_time}")
+    # print("测评结束，详细测评日志见：" + str(stra_path))
 
 
 if __name__ == "__main__":
