@@ -118,7 +118,7 @@ def main():
     #                               index_attribute)
     #tax
     #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
-    #                                index_attribute,mse_attributes=['salary','rate','singleexemp','marriedexemp','childexemp'])
+    #                                index_attribute,mse_attributes=['rate'])
     #soccer
     # 调用函数并计算所有指标
     results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
