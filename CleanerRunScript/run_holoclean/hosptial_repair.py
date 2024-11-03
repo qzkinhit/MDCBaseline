@@ -32,9 +32,9 @@ hc = holoclean.HoloClean(
 ).session
 
 # 2. Load training data and denial constraints.
-hc.load_data('rayyan', r'..\..\Data\4_rayyan\dirty.csv')
+hc.load_data('hospital1', r'..\..\Data\1_hospital\dirty_index.csv')
 
-hc.load_dcs(r'..\..\Data\4_rayyan\dc_rules_holoclean.txt')
+hc.load_dcs(r'..\..\Data\1_hospital\dc_rules_dc_holoclean.txt')
 hc.ds.set_constraints(hc.get_dcs())
 
 # 3. Detect erroneous cells using these two detectors.
@@ -52,8 +52,24 @@ featurizers = [
 
 hc.repair_errors(featurizers)
 
-# 5. Evaluate the correctness of the results.
-hc.evaluate(fpath=r'..\..\Data\4_rayyan\rayyan_clean_holoclean.csv',
+# # 5. Evaluate the correctness of the results.
+# hc.evaluate(fpath=r'.ata\4_rayyan\rayyan_clean_holoclean.csv',
+#             tid_col='tid',
+#             attr_col='attribute',
+#             val_col='correct_val')
+# 5. 评估修复效果，并导出修复后的数据到 CSV
+output_csv_path = r'./1_hospital_repaired_dataset.csv'  # 你想保存的文件路径
+eval_report = hc.evaluate(fpath=r'../../Data/1_hospital/hospital_clean_holoclean.csv',
             tid_col='tid',
             attr_col='attribute',
-            val_col='correct_val')
+            val_col='correct_val',
+            output_csv_path=output_csv_path)
+# eval_report = hc.evaluate(.\..\D
+#     fpath=r'D:\holoclean\Data\1_hospital\hospital_clean_holoclean.csv',
+#     tid_col='tid',
+#     attr_col='attribute',
+#     val_col='correct_val',
+#     output_csv_path=output_csv_path
+# )
+
+print(f"清洗后的数据已保存到: {output_csv_path}")
