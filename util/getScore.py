@@ -137,7 +137,7 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
     cleaned = cleaned.set_index(index_attribute, drop=False)
 
     # 重定向输出到文件
-    with open(out_path, 'w') as f:
+    with open(out_path, 'w', encoding='utf-8') as f:
         sys.stdout = f  # 将 sys.stdout 重定向到文件
 
         total_true_positives = 0
@@ -254,7 +254,7 @@ def get_edr(clean, dirty, cleaned, attributes, output_path, task_name, index_att
     cleaned = cleaned.set_index(index_attribute, drop=False)
 
     # 重定向输出到文件
-    with open(out_path, 'w') as f:
+    with open(out_path, 'w', encoding='utf-8') as f:
         sys.stdout = f  # 将 sys.stdout 重定向到文件
 
         total_distance_dirty_to_clean = 0
@@ -334,7 +334,7 @@ def get_hybrid_distance(clean, cleaned, attributes, output_path, task_name, inde
     cleaned = cleaned.set_index(index_attribute, drop=False)
 
     # 重定向输出到文件
-    with open(out_path, 'w') as f:
+    with open(out_path, 'w', encoding='utf-8') as f:
         sys.stdout = f  # 将 sys.stdout 重定向到文件
 
         total_mse = 0
@@ -435,7 +435,7 @@ def get_record_based_edr(clean, dirty, cleaned, output_path, task_name, index_at
     total_distance_repaired_to_clean = 0
 
     # 重定向输出到文件
-    with open(out_path, 'w') as f:
+    with open(out_path, 'w', encoding='utf-8') as f:
         sys.stdout = f  # 将 sys.stdout 重定向到文件
 
         # 逐行比较脏数据、清洗后的数据与干净数据

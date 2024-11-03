@@ -271,6 +271,61 @@ class EvalEngine:
         f1 = 2*(prec*rec)/(prec+rec)
         return f1
 
+    def export_cleaned_data_to_csv(self, output_path):
+        """
+        将清洗后的数据查询并转换为行表示，存储到指定的 CSV 文件中。
+
+        :param output_path: 输出 CSV 文件的路径
+        """
+        try:
+            # 查询清洗后的数据
+            query = "SELECT * FROM {}".format(self.clean_data.name)
+            cleaned_data = self.ds.engine.execute_query(query)
+
+            # 将查询结果转换为 DataFrame
+            cleaned_df = pd.DataFrame(cleaned_data, columns=['_tid_', '_attribute_', '_value_'])
+
+            # 使用 pivot 将属性名作为列标题，将值作为列的内容
+            pivot_df = cleaned_df.pivot(index='_tid_', columns='_attribute_', values='_value_')
+
+            # 重置列索引，使其变为普通列
+            pivot_df.reset_index(inplace=True)
+
+            # 将 DataFrame 保存为 CSV 文件
+            pivot_df.to_csv(output_path, index=False, encoding='utf-8')
+
+            logging.info("清洗后的数据已成功保存到 %s", output_path)
+        except Exception as e:
+            logging.error("保存清洗后的数据时出错: %s", e)
+            raise
+
+    def export_cleaned_data_to_csv(self, output_path):
+        """
+        将清洗后的数据查询并转换为行表示，存储到指定的 CSV 文件中。
+
+        :param output_path: 输出 CSV 文件的路径
+        """
+        try:
+            # 查询清洗后的数据
+            query = "SELECT * FROM {}".format(self.clean_data.name)
+            cleaned_data = self.ds.engine.execute_query(query)
+
+            # 将查询结果转换为 DataFrame
+            cleaned_df = pd.DataFrame(cleaned_data, columns=['_tid_', '_attribute_', '_value_'])
+
+            # 使用 pivot 将属性名作为列标题，将值作为列的内容
+            pivot_df = cleaned_df.pivot(index='_tid_', columns='_attribute_', values='_value_')
+
+            # 重置列索引，使其变为普通列
+            pivot_df.reset_index(inplace=True)
+
+            # 将 DataFrame 保存为 CSV 文件
+            pivot_df.to_csv(output_path, index=False, encoding='utf-8')
+
+            logging.info("清洗后的数据已成功保存到 %s", output_path)
+        except Exception as e:
+            logging.error("保存清洗后的数据时出错: %s", e)
+            raise
     def log_weak_label_stats(self):
         query = """
         select

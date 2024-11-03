@@ -42,8 +42,8 @@ from datetime import datetime
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 
 # from Cleaner.Baran_Raha.correction_with_raha import Correction
-from Cleaner.Baran_Raha.repairing_with_delete_and_mode import Detection
-# from Cleaner.Baran_Raha.repairing_with_delete import Detection
+# from Cleaner.Baran_Raha.repairing_with_delete_and_mode import Detection
+from Cleaner.Baran_Raha.repairing_with_delete import Detection
 # from Cleaner.Baran_Raha.detection import Detection
 from util.getScore import calculate_accuracy_and_recall, calculate_all_metrics
 
@@ -687,7 +687,8 @@ if __name__ == "__main__":
     timer.start()
 
     clean_in_cands = []
-
+    # 记录开始时间
+    start_time = time.time()
     try:
         # 获取Raha的错误检测结果
         time_start = time.time()
@@ -725,7 +726,8 @@ if __name__ == "__main__":
             print(f"{p}\n{r}\n{str(f)}")
             time_end = time.time()
             print(time_end - time_start)
-
+        # 记录结束时间
+        end_time = time.time()
         # 分析修复结果
         sys.stdout = sys.__stdout__
         out_path = f"{stra_path}/all_compute_{task_name}{check_string(dirty_path)}.txt"
@@ -781,8 +783,26 @@ if __name__ == "__main__":
 
         # 调用函数并计算所有指标
         results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, task_name,index_attribute=index_attribute, mse_attributes=mse_attributes)
-
-        # 打印结果
+        # 定义输出文件路径
+        results_path = os.path.join(output_path, f"{task_name}_total_evaluation.txt")
+        # 备份原始的标准输出
+        original_stdout = sys.stdout
+        # 重定向输出到文件
+        with open(results_path, 'w', encoding='utf-8') as f:
+            sys.stdout = f  # 将 sys.stdout 重定向到文件
+            # 打印结果到文件
+            print("测试结果:")
+            print(f"Accuracy: {results.get('accuracy')}")
+            print(f"Recall: {results.get('recall')}")
+            print(f"F1 Score: {results.get('f1_score')}")
+            print(f"EDR: {results.get('edr')}")
+            print(f"Hybrid Distance: {results.get('hybrid_distance')}")
+            print(f"R-EDR: {results.get('r_edr')}")
+            print(f"Time: {end_time - start_time}")
+            print(f"speed: {100 * float(end_time - start_time) / clean_data.shape[0]} seconds/100num")
+        # 恢复标准输出
+        sys.stdout = original_stdout
+        # # 打印结果到cmd里
         print("测试结果:")
         print(f"Accuracy: {results.get('accuracy')}")
         print(f"Recall: {results.get('recall')}")
@@ -790,6 +810,8 @@ if __name__ == "__main__":
         print(f"EDR: {results.get('edr')}")
         print(f"Hybrid Distance: {results.get('hybrid_distance')}")
         print(f"R-EDR: {results.get('r_edr')}")
+        print(f"time(s): {end_time - start_time}")
+        print(f"speed: {100 * float(end_time - start_time) / clean_data.shape[0]} seconds/100num")
         print("测评结束，详细测评日志见：" + str(out_path))
     except TimeoutError as e:
         print(f"Time exceeded: {e}, {task_name}, {dirty_path}")

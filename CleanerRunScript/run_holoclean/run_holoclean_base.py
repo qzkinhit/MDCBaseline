@@ -62,7 +62,7 @@ def main():
 
     print(f"Running Holoclean with dirty file: {args.dirty_path}")
 
-    #关注这里，这里运行清洗程序，输入必要的几个参数，同时返回清洗后的数据
+    #超，关注这里，这里运行Holoclean程序，输入必要的几个参数，同时返回清洗后的数据
     # res_df= Holoclean(
     #     args.dirty_path, args.rule_path, args.clean_path,XXX
     # )
@@ -104,7 +104,7 @@ def main():
     # 重定向输出到文件
     with open(results_path, 'w', encoding='utf-8') as f:
         sys.stdout = f  # 将 sys.stdout 重定向到文件
-        # 打印结果到文件
+        # 打印结果
         print("测试结果:")
         print(f"Accuracy: {results.get('accuracy')}")
         print(f"Recall: {results.get('recall')}")
@@ -127,7 +127,6 @@ def main():
     print(f"time(s): {elapsed_time}")
     print(f"speed: {100 * float(elapsed_time) / clean_data.shape[0]} seconds/100num")
     print("测评结束，详细测评日志见：" + str(stra_path))
-
 
 
 if __name__ == "__main__":
