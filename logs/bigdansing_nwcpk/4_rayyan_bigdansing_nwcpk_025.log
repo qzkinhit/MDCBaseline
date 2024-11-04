@@ -1,0 +1,37 @@
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/4_rayyan/clean_index.csv
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/4_rayyan/noise_with_correct_primary_key/rayyan_0.25/dirty_rayyan_mix_0.25.csv
+Running bigdansing with dirty file: Data/4_rayyan/noise_with_correct_primary_key/rayyan_0.25/dirty_rayyan_mix_0.25.csv
+Start Blocking
+  0%|                                                              | 0/10 [00:00<?, ?it/s] 10%|█████▍                                                | 1/10 [00:00<00:01,  8.58it/s] 20%|██████████▊                                           | 2/10 [02:34<12:06, 90.75s/it] 30%|███████████████▉                                     | 3/10 [04:49<12:57, 111.03s/it] 40%|█████████████████████▏                               | 4/10 [07:40<13:28, 134.82s/it] 50%|██████████████████████████▌                          | 5/10 [08:47<09:11, 110.28s/it] 60%|████████████████████████████████▍                     | 6/10 [09:07<05:18, 79.56s/it] 80%|███████████████████████████████████████████▏          | 8/10 [09:08<01:21, 40.51s/it] 90%|████████████████████████████████████████████████▌     | 9/10 [09:08<00:30, 30.07s/it]100%|█████████████████████████████████████████████████████| 10/10 [09:08<00:00, 21.95s/it]100%|█████████████████████████████████████████████████████| 10/10 [09:08<00:00, 54.86s/it]
+Finish Blocking and Iterating
+Detecting Errors
+  0%|                                                               | 0/8 [00:00<?, ?it/s] 12%|██████▉                                                | 1/8 [00:01<00:09,  1.41s/it] 25%|█████████████▊                                         | 2/8 [00:05<00:18,  3.07s/it] 38%|████████████████████▋                                  | 3/8 [00:38<01:23, 16.66s/it] 50%|███████████████████████████▌                           | 4/8 [01:12<01:33, 23.43s/it] 62%|██████████████████████████████████▍                    | 5/8 [01:25<00:59, 19.68s/it] 75%|█████████████████████████████████████████▎             | 6/8 [02:31<01:10, 35.45s/it] 88%|████████████████████████████████████████████████▏      | 7/8 [03:17<00:39, 39.09s/it]100%|███████████████████████████████████████████████████████| 8/8 [03:34<00:00, 31.86s/it]100%|███████████████████████████████████████████████████████| 8/8 [03:34<00:00, 26.79s/it]
+Finish Detectings
+Initial cells to repair: 4535
+Processing loop - sizebefore: 4535, sizeafter: 0
+Current MVC size: 1986
+Finished one iteration of repairing.
+Detecting Errors
+  0%|                                                               | 0/8 [00:00<?, ?it/s] 12%|██████▉                                                | 1/8 [00:01<00:10,  1.43s/it] 25%|█████████████▊                                         | 2/8 [00:05<00:18,  3.12s/it] 38%|████████████████████▋                                  | 3/8 [00:41<01:30, 18.03s/it] 50%|███████████████████████████▌                           | 4/8 [01:14<01:35, 23.99s/it] 62%|██████████████████████████████████▍                    | 5/8 [01:27<01:00, 20.14s/it] 75%|█████████████████████████████████████████▎             | 6/8 [02:35<01:12, 36.28s/it] 88%|████████████████████████████████████████████████▏      | 7/8 [03:22<00:39, 39.69s/it]100%|███████████████████████████████████████████████████████| 8/8 [03:38<00:00, 32.18s/it]100%|███████████████████████████████████████████████████████| 8/8 [03:38<00:00, 27.30s/it]
+===============================================
+Results saved to results/bigdansing/nwcpk/Repaired_res/4_rayyan_nwcpk_02/repaired_4_rayyan_nwcpk_025.csv
+BigDansing finished in 1591.249102115631 seconds.
+测评性能开始：
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: results/bigdansing/nwcpk/Repaired_res/4_rayyan_nwcpk_02/repaired_4_rayyan_nwcpk_025.csv
+Traceback (most recent call last):
+  File "CleanerRunScript/run_bigdansing/run_bigdansing_base.py", line 152, in <module>
+    main()
+  File "CleanerRunScript/run_bigdansing/run_bigdansing_base.py", line 117, in main
+    results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
+  File "/home/qzk/MDCBaseline/CleanerRunScript/run_bigdansing/../../util/getScore.py", line 30, in calculate_all_metrics
+    accuracy, recall = calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path, task_name,index_attribute=index_attribute)
+  File "/home/qzk/MDCBaseline/CleanerRunScript/run_bigdansing/../../util/getScore.py", line 136, in calculate_accuracy_and_recall
+    dirty = dirty.set_index(index_attribute, drop=False)
+  File "/home/qzk/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/qzk/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 6012, in set_index
+    raise KeyError(f"None of {missing} are in the columns")
+KeyError: "None of ['index'] are in the columns"

@@ -342,7 +342,29 @@ class Session:
             logging.debug('Time to store featurizer weights: %.2f secs', time)
             return status
 
-    def evaluate(self, fpath, tid_col, attr_col, val_col, na_values=None):
+    # def evaluate(self, fpath, tid_col, attr_col, val_col, na_values=None):
+    #     """
+    #     evaluate generates an evaluation report with metrics (e.g. precision,
+    #     recall) given a test set.
+    #
+    #     :param fpath: (str) filepath to test set (ground truth) CSV file.
+    #     :param tid_col: (str) column in CSV that corresponds to the TID.
+    #     :param attr_col: (str) column in CSV that corresponds to the attribute.
+    #     :param val_col: (str) column in CSV that corresponds to correct value
+    #         for the current TID and attribute (i.e. cell).
+    #     :param na_values: (Any) how na_values are represented in the data.
+    #
+    #     Returns an EvalReport named tuple containing the experiment results.
+    #     """
+    #     name = self.ds.raw_data.name + '_clean'
+    #     status, load_time = self.eval_engine.load_data(name, fpath, tid_col, attr_col, val_col, na_values=na_values)
+    #     logging.info(status)
+    #     logging.debug('Time to evaluate repairs: %.2f secs', load_time)
+    #     status, report_time, eval_report = self.eval_engine.eval_report()
+    #     logging.info(status)
+    #     logging.debug('Time to generate report: %.2f secs', report_time)
+    #     return eval_report
+    def evaluate(self, fpath, tid_col, attr_col, val_col, na_values=None, output_csv_path=None):
         """
         evaluate generates an evaluation report with metrics (e.g. precision,
         recall) given a test set.
@@ -350,17 +372,20 @@ class Session:
         :param fpath: (str) filepath to test set (ground truth) CSV file.
         :param tid_col: (str) column in CSV that corresponds to the TID.
         :param attr_col: (str) column in CSV that corresponds to the attribute.
-        :param val_col: (str) column in CSV that corresponds to correct value
-            for the current TID and attribute (i.e. cell).
+        :param val_col: (str) column in CSV that corresponds to correct value for the current TID and attribute (i.e. cell).
         :param na_values: (Any) how na_values are represented in the data.
-
-        Returns an EvalReport named tuple containing the experiment results.
+        :param output_csv_path: (str) The file path where cleaned data will be saved.
         """
         name = self.ds.raw_data.name + '_clean'
         status, load_time = self.eval_engine.load_data(name, fpath, tid_col, attr_col, val_col, na_values=na_values)
         logging.info(status)
         logging.debug('Time to evaluate repairs: %.2f secs', load_time)
+
         status, report_time, eval_report = self.eval_engine.eval_report()
         logging.info(status)
         logging.debug('Time to generate report: %.2f secs', report_time)
+
+        if output_csv_path:
+            self.eval_engine.export_cleaned_data_to_csv(output_csv_path)
+
         return eval_report

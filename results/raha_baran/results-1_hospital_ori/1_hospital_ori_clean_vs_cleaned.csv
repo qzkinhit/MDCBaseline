@@ -1,0 +1,243 @@
+Attribute,Index,Clean Value,Cleaned Value
+ProviderNumber,14,10019,1xx19
+ProviderNumber,46,10005,x0005
+ProviderNumber,82,10006,1000x
+ProviderNumber,214,10011,x00xx
+ProviderNumber,245,10015,x00x5
+ProviderNumber,254,10015,1xx15
+ProviderNumber,274,10016,1xx16
+ProviderNumber,315,10038,100x8
+ProviderNumber,361,10086,100x6
+ProviderNumber,409,10108,x0x08
+ProviderNumber,560,10024,1xx24
+ProviderNumber,609,10027,x0027
+ProviderNumber,628,10029,x0029
+ProviderNumber,640,10029,1xx29
+ProviderNumber,646,10032,1xx32
+ProviderNumber,656,10032,1xx32
+ProviderNumber,705,10034,100x4
+ProviderNumber,722,10035,100x5
+ProviderNumber,725,10035,1xx35
+ProviderNumber,756,10036,1xx36
+ProviderNumber,781,10039,1003x
+ProviderNumber,790,10039,1xx39
+ProviderNumber,794,10039,100x9
+ProviderNumber,860,10044,1xx44
+ProviderNumber,879,10045,1xx45
+ProviderNumber,889,10045,x0045
+ProviderNumber,934,10047,1xx47
+ProviderNumber,956,10049,1004x
+Address1,107,702 n main st,702 x maix st
+Address1,162,201 pine street northwest,201 pine sxreex norxhwesx
+Address1,176,8000 alabama highway 69,8000 alabama xigxway 69
+Address1,261,33700 highway 43,33700 hxghway 43
+Address1,265,33700 highway 43,33700 highway x3
+Address1,276,1000 first street north,1000 fixst stxeet noxth
+Address1,296,1720 university blvd,1720 univxrsity blvd
+Address1,351,810 st vincents drive,810 st vxncents drxve
+Address1,412,124 s memorial dr,124 s mxmorial dr
+Address1,416,315 w hickory st,315 w hickxry st
+Address1,452,po box 287,poxboxx287
+Address1,485,126 hospital ave,1x6 hospital ave
+Address1,653,209 north main street,209 xorth maix street
+Address1,737,1912 alabama highway 157,1912xalabamaxhighwayx157
+Address1,768,301 east 18th st,301 east 1xth st
+Address1,850,1010 lay dam road,x0x0 lay dam road
+Address1,858,1256 military street south,1256 military street sxuth
+Address1,916,600 south third street,600 souxh xhird sxreex
+Address1,935,515 miranda st,515 miranda sx
+Address1,936,515 miranda st,515 miranxa st
+Address1,946,515 miranda st,515 mirxndx st
+Address1,987,150 gilbreath drive,150 gilxreath drive
+City,57,boaz,boxz
+City,181,guntersville,guntxrsvillx
+City,475,ozark,ozarx
+City,486,ozark,xzark
+City,602,elba,exba
+State,43,al,xl
+State,47,al,xl
+State,51,al,xl
+State,84,al,xl
+State,99,al,xl
+State,120,al,ax
+State,141,al,ax
+State,166,al,ax
+State,183,al,xl
+State,229,al,ax
+State,279,al,xl
+State,357,al,ax
+State,387,al,xl
+State,403,al,ax
+State,478,al,xl
+State,484,al,xl
+State,505,al,ax
+State,560,al,xl
+State,573,al,ax
+State,593,al,ax
+State,702,al,xl
+State,765,al,xl
+State,792,al,xl
+State,885,al,xl
+State,887,al,xl
+State,923,al,ax
+CountyName,222,de kalb,dx kalb
+CountyName,224,de kalb,xe kalb
+CountyName,228,de kalb,dx kalb
+CountyName,239,de kalb,xe kalb
+CountyName,457,jefferson,jxffxrson
+CountyName,466,jefferson,jexxerson
+CountyName,503,cherokee,chxrokxx
+CountyName,514,cherokee,chxrokxx
+CountyName,528,montgomery,monxgomery
+CountyName,552,montgomery,monxgomery
+CountyName,673,jefferson,jxffxrson
+CountyName,690,jefferson,jexxerson
+CountyName,723,cullman,cxllman
+CountyName,731,cullman,cxllman
+PhoneNumber,343,3347935000,3347938701
+PhoneNumber,549,3342938000,3342882100
+PhoneNumber,562,3342938000,3342882100
+PhoneNumber,563,3342938000,3342882100
+PhoneNumber,825,2564944000,2565435200
+HospitalType,17,acute care hospitals,acuxe care hospixals
+HospitalType,99,acute care hospitals,acute care hosxitals
+HospitalType,200,acute care hospitals,acute care hosxitals
+HospitalType,214,acute care hospitals,acutx carx hospitals
+HospitalType,267,acute care hospitals,acuxe care hospixals
+HospitalType,281,acute care hospitals,acutexcarexhospitals
+HospitalType,294,acute care hospitals,acuxe care hospixals
+HospitalType,412,acute care hospitals,acute care hosxitals
+HospitalType,414,acute care hospitals,acuxe care hospixals
+HospitalType,454,acute care hospitals,acute care hospitaxs
+HospitalType,491,acute care hospitals,acute caxe hospitals
+HospitalType,498,acute care hospitals,acutx carx hospitals
+HospitalType,512,acute care hospitals,acuxe care hospixals
+HospitalType,533,acute care hospitals,acute care hosxitals
+HospitalType,589,acute care hospitals,acuxe care hospixals
+HospitalType,635,acute care hospitals,acuxe care hospixals
+HospitalType,706,acute care hospitals,acutexcarexhospitals
+HospitalType,730,acute care hospitals,acutexcarexhospitals
+HospitalType,780,acute care hospitals,acutexcarexhospitals
+HospitalType,783,acute care hospitals,acute care hospitaxs
+HospitalType,849,acute care hospitals,acute caxe hospitals
+HospitalType,903,acute care hospitals,acutexcarexhospitals
+HospitalType,927,acute care hospitals,acuxe care hospixals
+HospitalType,950,acute care hospitals,acute care hosxitals
+HospitalType,965,acute care hospitals,acutexcarexhospitals
+HospitalType,977,acute care hospitals,acutexcarexhospitals
+HospitalOwner,23,government - hospital district or authority,government - hospxtal dxstrxct or authorxty
+HospitalOwner,28,government - hospital district or authority,government - hospital xistrict or authority
+HospitalOwner,32,government - hospital district or authority,governmenx - hospixal disxricx or auxhorixy
+HospitalOwner,43,government - hospital district or authority,gxvernment - hxspital district xr authxrity
+HospitalOwner,114,voluntary non-profit - private,volunxary non-profix - privaxe
+HospitalOwner,158,proprietary,pxopxietaxy
+HospitalOwner,160,proprietary,proxrietary
+HospitalOwner,163,proprietary,xroprietary
+HospitalOwner,165,proprietary,pxopxietaxy
+HospitalOwner,217,voluntary non-profit - private,volunxary non-profix - privaxe
+HospitalOwner,219,voluntary non-profit - private,voluntary nonxprofit x private
+HospitalOwner,222,voluntary non-profit - church,voluntaryxnon-profitx-xchurch
+HospitalOwner,239,voluntary non-profit - church,voxuntary non-profit - church
+HospitalOwner,248,government - federal,governxent - federal
+HospitalOwner,314,proprietary,prxprietary
+HospitalOwner,333,proprietary,proxrietary
+HospitalOwner,357,proprietary,prxprietary
+HospitalOwner,450,proprietary,proxrietary
+HospitalOwner,457,government - hospital district or authority,gxvernment - hxspital district xr authxrity
+HospitalOwner,494,voluntary non-profit - private,voluntaryxnon-profitx-xprivate
+HospitalOwner,527,voluntary non-profit - church,volxntary non-profit - chxrch
+HospitalOwner,573,voluntary non-profit - other,voluntary non-profit - otxer
+HospitalOwner,745,proprietary,prxprietary
+HospitalOwner,785,government - hospital district or authority,goverxmext - hospital district or authority
+HospitalOwner,847,voluntary non-profit - private,voluntaxy non-pxofit - pxivate
+HospitalOwner,869,voluntary non-profit - private,voluxtary xox-profit - private
+HospitalOwner,873,voluntary non-profit - private,voluntaxy non-pxofit - pxivate
+Condition,22,heart attack,heart attaxk
+Condition,128,heart failure,pneumonia
+Condition,226,heart attack,surgical infection prevention
+Condition,237,surgical infection prevention,pneumonia
+Condition,367,pneumonia,heart failure
+Condition,370,pneumonia,heart failure
+Condition,387,heart failure,surgical infection prevention
+Condition,468,heart attack,surgical infection prevention
+Condition,507,pneumonia,heart attack
+Condition,600,heart failure,heart attack
+Condition,680,pneumonia,heart attack
+Condition,696,heart attack,heart attaxk
+Condition,699,heart failure,pneumonia
+Condition,713,surgical infection prevention,heart attack
+Condition,717,heart attack,pneumonia
+Condition,734,surgical infection prevention,heart attack
+Condition,781,heart attack,heart attaxk
+Condition,852,surgical infection prevention,heart attack
+Condition,870,surgical infection prevention,heart attack
+Condition,956,heart attack,surgical infection prevention
+Score,120,0%,47%
+Score,121,100%,47%
+Score,124,0%,47%
+Score,127,4%,47%
+Score,130,0%,47%
+Score,159,98%,78%
+Score,164,57%,97%
+Score,188,95%,91%
+Score,238,97%,88%
+Score,239,99%,empty
+Score,253,89%,96%
+Score,319,0%,89%
+Score,337,100%,x00%
+Score,360,0%,94%
+Score,412,100%,90%
+Score,472,0%,68%
+Score,489,100%,68%
+Score,507,93%,81%
+Score,510,0%,81%
+Score,512,0%,81%
+Score,515,100%,81%
+Score,572,0%,88%
+Score,699,88%,90%
+Score,712,100%,90%
+Score,719,67%,97%
+Score,861,80%,74%
+Score,880,0%,89%
+Score,889,85%,95%
+Sample,18,37 patients,3x patients
+Sample,92,619 patients,619 paxienxs
+Sample,116,0 patients,0 patixnts
+Sample,134,21 patients,21 pxtients
+Sample,167,11 patients,xx patients
+Sample,171,6 patients,6xpatients
+Sample,225,1 patients,1 patiexts
+Sample,235,82 patients,82 patientx
+Sample,317,29 patients,29 xatients
+Sample,355,10 patients,1x patients
+Sample,414,125 patients,125 patixnts
+Sample,419,4 patients,4 xatients
+Sample,445,521 patients,521 patiexts
+Sample,463,0 patients,x patients
+Sample,483,62 patients,62 patientx
+Sample,497,0 patients,0 patxents
+Sample,503,44 patients,44 paxienxs
+Sample,524,257 patients,25x patients
+Sample,533,87 patients,87 patientx
+Sample,547,0 patients,x patients
+Sample,555,74 patients,74 patxents
+Sample,581,50 patients,50 pxtients
+Sample,589,172 patients,172 patxents
+Sample,669,87 patients,87 paxienxs
+Sample,674,618 patients,618 xatients
+Sample,777,193 patients,193 paxienxs
+Sample,846,4 patients,4 patiexts
+Sample,867,121 patients,121 patiexts
+Sample,873,15 patients,15 patiexts
+Sample,906,126 patients,126 patxents
+Sample,973,27 patients,27 paxienxs
+Stateavg,194,al_scip-vte-2,al_scix-vte-2
+Stateavg,214,al_scip-inf-2,al_sxip-inf-2
+Stateavg,245,al_ami-1,ax_ami-1
+Stateavg,249,al_ami-5,xl_xmi-5
+Stateavg,270,al_ami-1,al_axi-1
+Stateavg,374,al_scip-inf-2,al_sxip-inf-2
+Stateavg,568,al_ami-2,xl_xmi-2
+Stateavg,765,al_scip-vte-1,al_scix-vte-1
+Stateavg,797,al_scip-inf-2,xl_scip-inf-2
+Stateavg,828,al_ami-1,xl_xmi-1
