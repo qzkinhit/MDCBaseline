@@ -38,44 +38,43 @@ bigdansing_commands=(
 )
 
 # 定义日志文件名列表
-log_files=(s
-    "logs/nwcpk/1_hospital_nwcpk_025.log"
-    "logs/nwcpk/1_hospital_nwcpk_050.log"
-    "logs/nwcpk/1_hospital_nwcpk_075.log"
-    "logs/nwcpk/1_hospital_nwcpk_100.log"
-    "logs/nwcpk/1_hospital_nwcpk_125.log"
-    "logs/nwcpk/1_hospital_nwcpk_150.log"
-    "logs/nwcpk/1_hospital_nwcpk_175.log"
-    "logs/nwcpk/1_hospital_nwcpk_200.log"
-    "logs/nwcpk/2_flights_nwcpk_025.log"
-    "logs/nwcpk/2_flights_nwcpk_050.log"
-    "logs/nwcpk/2_flights_nwcpk_075.log"
-    "logs/nwcpk/2_flights_nwcpk_100.log"
-    "logs/nwcpk/2_flights_nwcpk_125.log"
-    "logs/nwcpk/2_flights_nwcpk_150.log"
-    "logs/nwcpk/2_flights_nwcpk_175.log"
-    "logs/nwcpk/2_flights_nwcpk_200.log"
-    "logs/nwcpk/3_beers_nwcpk_025.log"
-    "logs/nwcpk/3_beers_nwcpk_050.log"
-    "logs/nwcpk/3_beers_nwcpk_075.log"
-    "logs/nwcpk/3_beers_nwcpk_100.log"
-    "logs/nwcpk/3_beers_nwcpk_125.log"
-    "logs/nwcpk/3_beers_nwcpk_150.log"
-    "logs/nwcpk/3_beers_nwcpk_175.log"
-    "logs/nwcpk/3_beers_nwcpk_200.log"
-    "logs/nwcpk/4_rayyan_nwcpk_025.log"
-    "logs/nwcpk/4_rayyan_nwcpk_050.log"
-    "logs/nwcpk/4_rayyan_nwcpk_075.log"
-    "logs/nwcpk/4_rayyan_nwcpk_100.log"
-    "logs/nwcpk/4_rayyan_nwcpk_125.log"
-    "logs/nwcpk/4_rayyan_nwcpk_150.log"
-    "logs/nwcpk/4_rayyan_nwcpk_175.log"
-    "logs/nwcpk/4_rayyan_nwcpk_200.log"
-    
+log_files=(
+    "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_025.log"
+    "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_050.log"
+    "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_075.log"
+    "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_100.log"
+    "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_125.log"
+    "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_150.log"
+    "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_175.log"
+    "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_200.log"
+    "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_025.log"
+    "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_050.log"
+    "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_075.log"
+    "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_100.log"
+    "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_125.log"
+    "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_150.log"
+    "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_175.log"
+    "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_200.log"
+    "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_025.log"
+    "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_050.log"
+    "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_075.log"
+    "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_100.log"
+    "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_125.log"
+    "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_150.log"
+    "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_175.log"
+    "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_200.log"
+    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_025.log"
+    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_050.log"
+    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_075.log"
+    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_100.log"
+    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_125.log"
+    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_150.log"
+    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_175.log"
+    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_200.log"
 )
 
 # 创建日志目录
-mkdir -p logs/nwcpk
+mkdir -p logs/bigdansing_nwcpk
 
 
 # 逐条执行bigdansing命令并保存日志
