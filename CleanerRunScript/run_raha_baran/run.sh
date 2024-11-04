@@ -12,6 +12,7 @@ commands=(
     "python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/6_soccer/dirty_index_10k.csv --clean_path Data/6_soccer/clean_index_10k.csv --task_name 6_soccer_10k_ori --output_path result/baran --index_attribute index"
 )
 
+
 # 定义日志文件名列表
 log_files=(
     "logs/1_hospital_ori_baran.log"
