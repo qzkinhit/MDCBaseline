@@ -1,0 +1,31 @@
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/3_beers/clean_index.csv
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/3_beers/dirty_index.csv
+Running holistic with dirty file: Data/3_beers/dirty_index.csv
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:05<00:23,  5.78s/it] 40%|████      | 2/5 [00:11<00:17,  5.94s/it] 60%|██████    | 3/5 [00:18<00:12,  6.28s/it] 80%|████████  | 4/5 [00:23<00:05,  5.73s/it]100%|██████████| 5/5 [00:29<00:00,  5.80s/it]100%|██████████| 5/5 [00:29<00:00,  5.87s/it]
+Finish Blocking and Iterating
+Detecting Errors
+  0%|                                                               | 0/4 [00:00<?, ?it/s] 25%|█████████████▌                                        | 1/4 [03:10<09:30, 190.24s/it] 50%|███████████████████████████                           | 2/4 [06:17<06:17, 188.65s/it] 75%|████████████████████████████████████████▌             | 3/4 [09:28<03:09, 189.61s/it]100%|██████████████████████████████████████████████████████| 4/4 [12:37<00:00, 189.46s/it]100%|██████████████████████████████████████████████████████| 4/4 [12:37<00:00, 189.44s/it]
+Finish Detectings
+Finish Repairing
+Detecting Errors
+  0%|                                                               | 0/4 [00:00<?, ?it/s] 25%|█████████████▌                                        | 1/4 [03:13<09:40, 193.34s/it] 50%|███████████████████████████                           | 2/4 [06:29<06:29, 194.74s/it] 75%|████████████████████████████████████████▌             | 3/4 [09:41<03:13, 193.63s/it]100%|██████████████████████████████████████████████████████| 4/4 [12:50<00:00, 191.89s/it]100%|██████████████████████████████████████████████████████| 4/4 [12:50<00:00, 192.65s/it]
+===============================================
+Results saved to results/holistic/Repaired_res/beers_dirty/repaired_beers_dirty1.csv
+holistic finished in 1560.9484746456146 seconds.
+测评性能开始：
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: results/holistic/Repaired_res/beers_dirty/repaired_beers_dirty1.csv
+Traceback (most recent call last):
+  File "CleanerRunScript/run_holistic/run_holistic.py", line 135, in <module>
+    main()
+  File "CleanerRunScript/run_holistic/run_holistic.py", line 120, in main
+    index_attribute)
+  File "/home/qzk/MDCBaseline/CleanerRunScript/run_holistic/../../util/getScore.py", line 30, in calculate_all_metrics
+    accuracy, recall = calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path, task_name,index_attribute=index_attribute)
+  File "/home/qzk/MDCBaseline/CleanerRunScript/run_holistic/../../util/getScore.py", line 135, in calculate_accuracy_and_recall
+    clean = clean.set_index(index_attribute,drop=False)
+  File "/home/qzk/MDCBaseline/baran_env_2/lib/python3.6/site-packages/pandas/core/frame.py", line 4555, in set_index
+    raise KeyError(f"None of {missing} are in the columns")
+KeyError: "None of ['index'] are in the columns"

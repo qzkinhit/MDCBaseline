@@ -1,0 +1,15 @@
+------------------------------------------------------------------------
+---------------------Initialize the Dataset Object----------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+--------------------Initialize Error Corrector Models-------------------
+------------------------------------------------------------------------
+The error corrector models are initialized.
+------------------------------------------------------------------------
+--------------Iterative Tuple Sampling, Labeling, and Learning----------
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 275.
+18903 pairs of (a data error, a potential correction) are featurized.
+90% (291 / 322) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 381.

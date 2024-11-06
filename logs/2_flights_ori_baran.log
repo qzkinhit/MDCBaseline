@@ -1,0 +1,118 @@
+------------------------------------------------------------------------
+---------------------Initialize the Dataset Object----------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+--------------------Initialize Error Corrector Models-------------------
+------------------------------------------------------------------------
+The error corrector models are initialized.
+------------------------------------------------------------------------
+--------------Iterative Tuple Sampling, Labeling, and Learning----------
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 1238.
+417596 pairs of (a data error, a potential correction) are featurized.
+49% (2662 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 487.
+429700 pairs of (a data error, a potential correction) are featurized.
+50% (2683 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 1199.
+433419 pairs of (a data error, a potential correction) are featurized.
+50% (2700 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 145.
+447130 pairs of (a data error, a potential correction) are featurized.
+51% (2735 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 1334.
+451961 pairs of (a data error, a potential correction) are featurized.
+51% (2736 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 1859.
+451961 pairs of (a data error, a potential correction) are featurized.
+51% (2736 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 1653.
+458639 pairs of (a data error, a potential correction) are featurized.
+52% (2829 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 2237.
+469464 pairs of (a data error, a potential correction) are featurized.
+53% (2860 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 1074.
+477112 pairs of (a data error, a potential correction) are featurized.
+53% (2860 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 1038.
+478770 pairs of (a data error, a potential correction) are featurized.
+56% (3026 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 885.
+481458 pairs of (a data error, a potential correction) are featurized.
+56% (3026 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 1109.
+484411 pairs of (a data error, a potential correction) are featurized.
+58% (3106 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 805.
+487990 pairs of (a data error, a potential correction) are featurized.
+58% (3146 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 2178.
+500131 pairs of (a data error, a potential correction) are featurized.
+59% (3196 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 782.
+513114 pairs of (a data error, a potential correction) are featurized.
+60% (3226 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 1208.
+525133 pairs of (a data error, a potential correction) are featurized.
+60% (3249 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 1034.
+530273 pairs of (a data error, a potential correction) are featurized.
+60% (3262 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 280.
+534969 pairs of (a data error, a potential correction) are featurized.
+60% (3263 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 742.
+544109 pairs of (a data error, a potential correction) are featurized.
+60% (3263 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 2025.
+549023 pairs of (a data error, a potential correction) are featurized.
+60% (3263 / 5398) of data errors are corrected.
+------------------------------------------------------------------------
+Repaired data saved to result/baran/results-2_flights_ori/repaired_2_flights_ori.csv
+===============================================
+测评性能开始：
+差异文件已保存到:
+result/baran/results-2_flights_ori/2_flights_ori_clean_vs_dirty.csv
+result/baran/results-2_flights_ori/2_flights_ori_dirty_vs_cleaned.csv
+result/baran/results-2_flights_ori/2_flights_ori_clean_vs_cleaned.csv
+修复准确率: 0.7991790337859173, 修复召回率: 0.5144308943089431, F1值: 0.625942871227235
+========================================
+EDR 结果已保存到: result/baran/results-2_flights_ori/2_flights_ori_edr_evaluation.txt
+错误减少率 (EDR): 0.4554878048780488
+========================================
+混合距离结果已保存到: result/baran/results-2_flights_ori/2_flights_ori_hybrid_distance_evaluation.txt
+混合距离 (Hybrid Distance): 0.1520011868465205
+========================================
+R-EDR 结果已保存到: result/baran/results-2_flights_ori/2_flights_ori_record_based_edr_evaluation.txt
+基于条目的错误减少率 (R-EDR): 0.06722689075630252
+========================================
+测试结果:
+Accuracy: 0.7991790337859173
+Recall: 0.5144308943089431
+F1 Score: 0.625942871227235
+EDR: 0.4554878048780488
+Hybrid Distance: 0.1520011868465205
+R-EDR: 0.06722689075630252
+time(s): 5236.393583059311
+speed: 220.38693531394406 seconds/100num
+测评结束，详细测评日志见：result/baran/results-2_flights_ori/all_compute_2_flights_ori.txt
