@@ -45,7 +45,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 # from Cleaner.Baran_Raha.repairing_with_delete_and_mode import Detection
 from Cleaner.Baran_Raha.repairing_with_delete import Detection
 # from Cleaner.Baran_Raha.detection import Detection
-from util.getScore import calculate_accuracy_and_recall, calculate_all_metrics
+from util.getScore import calculate_all_metrics
 
 warnings.filterwarnings("ignore")
 
@@ -644,9 +644,6 @@ class Correction:
             # self.store_results(d)
         return d.corrected_cells
 
-
-########################################
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--dirty_path', type=str, default='../../Data/4_rayyan/dirty_index.csv',
@@ -822,4 +819,9 @@ if __name__ == "__main__":
             out_file.write(now.strftime("%Y-%m-%d %H:%M:%S"))
             out_file.write("Baran with Raha.py: ")
             out_file.write(f" {task_name} {dirty_path}\n")
+    finally:
+        # Cancel the timer to allow the program to exit
+        timer.cancel()
+        # Exit the program
+        exit(0)
 
