@@ -1,9 +1,10 @@
 import sys
 import os
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import sys
-
+# 获取当前脚本所在目录的上级目录路径
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 sys.path.append('../../Cleaner/Holoclean/')
 import Cleaner.Holoclean as holoclean
 from Cleaner.Holoclean.detect import NullDetector, ViolationDetector
@@ -32,7 +33,7 @@ hc = holoclean.HoloClean(
 ).session
 
 # 2. Load training data and denial constraints.
-hc.load_data('hospital1', r'..\..\Data\1_hospital\dirty_index.csv')
+hc.load_data('hospitalt2', r'..\..\Data\1_hospital\dirty_index.csv')
 
 hc.load_dcs(r'..\..\Data\1_hospital\dc_rules_dc_holoclean.txt')
 hc.ds.set_constraints(hc.get_dcs())
