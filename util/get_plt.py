@@ -152,7 +152,7 @@ def baseline_performance_difference_with_line(data_sets, system_names, performan
     :param performance_metrics: 包含五个指标的性能数据字典，每个键对应一个指标的二维列表
     :param baseline_index: 基准系统的索引，默认为第一个系统
     """
-    fig, axes = plt.subplots(1, 5, figsize=(18, 4))
+    fig, axes = plt.subplots(1, 5, figsize=(12, 4))
     axes = axes.flatten()  # 将轴展平便于索引
     markers = ['o', 's', 'D', '^', 'v', 'P', '*']  # 用于区分不同系统的点形状
 
@@ -191,7 +191,49 @@ def baseline_performance_difference_with_line(data_sets, system_names, performan
     plt.show()
 
 
+def actual_performance_comparison_with_line(data_sets, system_names, performance_metrics, baseline_index=0):
+    """
+    在同一图表中展示五个指标下的系统实际性能折线图，并在顶部统一显示图例。
+    S的指标将进行特殊处理（s/100*num），其余指标直接展示。
 
+    :param data_sets: 数据集名称列表
+    :param system_names: 系统名称列表
+    :param performance_metrics: 包含五个指标的性能数据字典，每个键对应一个指标的二维列表
+    :param baseline_index: 基准系统的索引，默认为第一个系统
+    """
+    fig, axes = plt.subplots(2, 2, figsize=(11, 8))
+    axes = axes.flatten()  # 将轴展平便于索引
+    markers = ['o', 's', 'D', '^', 'v', 'P', '*']  # 用于区分不同系统的点形状
+
+    for i, (metric_name, performance_data) in enumerate(performance_metrics.items()):
+        ax = axes[i]
+
+
+        adjusted_performance = performance_data
+
+        # 绘制每个系统的性能折线图
+        for j, (system_name, perf_data) in enumerate(zip(system_names, adjusted_performance)):
+            ax.plot(np.arange(len(data_sets)), perf_data, marker=markers[j % len(markers)], label=system_name,
+                    linestyle='-', markersize=6)
+
+        # 设置子图标题和标签
+        ax.set_title(metric_name)
+        ax.set_xticks(np.arange(len(data_sets)))
+        ax.set_xticklabels(data_sets, rotation=45)
+        ax.grid(axis='y', linestyle='--', alpha=0.7)
+
+    # 在主图下方添加统一图例
+    legend_elements = [
+        plt.Line2D([0], [0], marker=markers[i], color='black', label=system_name, markersize=8, linestyle='None')
+        for i, system_name in enumerate(system_names)]
+    fig.legend(handles=legend_elements, loc="upper center", ncol=len(system_names))
+
+    # 把标题放在最底下
+    fig.text(0.5, -0.1, "Actual Performance Comparison Across Systems for Different Metrics",
+             ha='center', fontsize=16)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])  # 调整布局以适应标题和图例
+    # plt.show()
+    return plt;
 if __name__ == "__main__":
     # 重新定义示例数据
     data_sets_example = ["Hospital", "Flights", "Beers", "Rayyan", "Tax", "Soccer", "Commercial"]
@@ -253,12 +295,11 @@ if __name__ == "__main__":
     cell_error_rates_example = [add_random_fluctuations(base) for base in base_cell_error_rates]
     entry_error_rates_example = [add_random_fluctuations(base) for base in base_entry_error_rates]
 
-    # 绘制图表
     injected_error_rates(error_injection_rates_example, datasets_example, cell_error_rates_example,
                               entry_error_rates_example)
     # 模拟输入数据
     data_sets_example = ["Hospital", "Flights", "Beers", "Rayyan", "Tax", "Soccer", "Commercial"]
-    system_names_example = ["My System", "Baran", "Holistic", "bigDansing", "Horizon", "Holoclean"]
+    system_names_example = ["Uniclean", "Baran", "Holistic", "bigDansing", "Horizon", "Holoclean"]
     performance_metrics_example = {
         "F1 Score": [
             [0.95, 0.97, 0.93, 0.92, 0.96, 0.94, 0.95],
@@ -268,13 +309,13 @@ if __name__ == "__main__":
             [0.89, 0.92, 0.91, 0.93, 0.90, 0.91, 0.92],
             [0.74, 0.79, 0.81, 0.78, 0.76, 0.79, 0.77]
         ],
-        "T": [
-            [0.93, 0.94, 0.91, 0.89, 0.92, 0.90, 0.93],
-            [0.73, 0.81, 0.82, 0.78, 0.76, 0.74, 0.77],
-            [0.71, 0.74, 0.75, 0.72, 0.70, 0.69, 0.71],
-            [0.83, 0.85, 0.88, 0.87, 0.82, 0.83, 0.84],
-            [0.87, 0.90, 0.89, 0.91, 0.88, 0.89, 0.90],
-            [0.70, 0.78, 0.80, 0.76, 0.75, 0.76, 0.75]
+        "Speed(s/100 records)": [
+            [4.3, 4.4, 4.1, 3.9, 4.2, 4.0, 4.3],
+            [3.3, 3.1, 3.2, 2.8, 2.6, 2.4, 2.7],
+            [2.1, 2.4, 2.5, 2.2, 2.0, 1.9, 2.1],
+            [3.3, 3.5, 3.8, 3.7, 3.2, 3.3, 3.4],
+            [3.7, 4.0, 3.9, 4.1, 3.8, 3.9, 4.0],
+            [3.0, 2.8, 3.0, 2.6, 2.5, 2.6, 2.5]
         ],
         "EDR": [
             [0.92, 0.93, 0.90, 0.88, 0.91, 0.89, 0.92],
@@ -291,15 +332,18 @@ if __name__ == "__main__":
             [0.85, 0.88, 0.89, 0.88, 0.85, 0.86, 0.87],
             [0.89, 0.92, 0.90, 0.94, 0.90, 0.91, 0.92],
             [0.75, 0.80, 0.82, 0.79, 0.76, 0.78, 0.77]
-        ],
-        "Hybrid Distance": [
-            [0.91, 0.92, 0.89, 0.87, 0.90, 0.88, 0.91],
-            [0.72, 0.80, 0.82, 0.78, 0.77, 0.75, 0.76],
-            [0.71, 0.74, 0.75, 0.71, 0.70, 0.69, 0.71],
-            [0.83, 0.86, 0.87, 0.85, 0.82, 0.83, 0.84],
-            [0.86, 0.91, 0.89, 0.90, 0.87, 0.88, 0.89],
-            [0.70, 0.78, 0.79, 0.76, 0.74, 0.75, 0.74]
         ]
+        # ,
+        # "Hybrid Distance": [
+        #     [0.91, 0.92, 0.89, 0.87, 0.90, 0.88, 0.91],
+        #     [0.72, 0.80, 0.82, 0.78, 0.77, 0.75, 0.76],
+        #     [0.71, 0.74, 0.75, 0.71, 0.70, 0.69, 0.71],
+        #     [0.83, 0.86, 0.87, 0.85, 0.82, 0.83, 0.84],
+        #     [0.86, 0.91, 0.89, 0.90, 0.87, 0.88, 0.89],
+        #     [0.70, 0.78, 0.79, 0.76, 0.74, 0.75, 0.74]
+        # ]
     }
     # 调用 plot_baseline_performance_combined 生成组合图
-    baseline_performance_difference_with_line(data_sets_example, system_names_example, performance_metrics_example)
+    plt=actual_performance_comparison_with_line(data_sets_example, system_names_example, performance_metrics_example)
+    # 使用 savefig() 将图表保存为 SVG 格式
+    plt.savefig("demoplt.svg", format="svg")

@@ -80,8 +80,8 @@ if __name__ == "__main__":
     # )
     # 如果干净数据存在空值，记得替换clean数据中的空值，统一转换为empty
     inject_missing_values(
-        csv_file='../Data/5_tax/dirty_index_10k.csv',
-        output_file='../Data/5_tax/dirty_index_10k.csv',
+        csv_file='../Data/3_beers/clean_index.csv',
+        output_file='../Data/3_beers/clean_index.csv',
         attributes_error_ratio=None,
         missing_value_in_ori_data='NaN',
         missing_value_representation='empty'
