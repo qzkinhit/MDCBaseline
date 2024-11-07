@@ -7,24 +7,24 @@ Distance (Dirty to Clean): 0
 Distance (Repaired to Clean): 0
 ========================================
 Attribute: article_title
-Distance (Dirty to Clean): 14
-Distance (Repaired to Clean): 14
+Distance (Dirty to Clean): 15
+Distance (Repaired to Clean): 16
 ========================================
 Attribute: article_language
 Distance (Dirty to Clean): 0
 Distance (Repaired to Clean): 0
 ========================================
 Attribute: journal_title
-Distance (Dirty to Clean): 9
-Distance (Repaired to Clean): 8
+Distance (Dirty to Clean): 11
+Distance (Repaired to Clean): 11
 ========================================
-Attribute: jounral_abbreviation
+Attribute: journal_abbreviation
 Distance (Dirty to Clean): 0
 Distance (Repaired to Clean): 0
 ========================================
 Attribute: journal_issn
-Distance (Dirty to Clean): 35
-Distance (Repaired to Clean): 35
+Distance (Dirty to Clean): 46
+Distance (Repaired to Clean): 292
 ========================================
 Attribute: article_jvolumn
 Distance (Dirty to Clean): 22
@@ -32,20 +32,20 @@ Distance (Repaired to Clean): 2
 ========================================
 Attribute: article_jissue
 Distance (Dirty to Clean): 53
-Distance (Repaired to Clean): 50
+Distance (Repaired to Clean): 3
 ========================================
 Attribute: article_jcreated_at
 Distance (Dirty to Clean): 722
-Distance (Repaired to Clean): 571
+Distance (Repaired to Clean): 618
 ========================================
 Attribute: article_pagination
 Distance (Dirty to Clean): 33
-Distance (Repaired to Clean): 32
+Distance (Repaired to Clean): 34
 ========================================
 Attribute: author_list
 Distance (Dirty to Clean): 91
-Distance (Repaired to Clean): 95
+Distance (Repaired to Clean): 255
 ========================================
-总的脏数据到干净数据距离: 979
-总的修复后数据到干净数据距离: 807
-错误减少率 (EDR): 0.17568947906026558
+总的脏数据到干净数据距离: 993
+总的修复后数据到干净数据距离: 1231
+错误减少率 (EDR): -0.23967774420946628

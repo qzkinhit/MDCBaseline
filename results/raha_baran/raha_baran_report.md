@@ -15,76 +15,108 @@
 
 用于计算mse的属性：Score
 
-#### 实验1-3 设置
+#### 实验1 设置
 
 | 实验编号 | 本地输入路径             | 实际输入存放路径                 | 本地输出路径             | 实际输出存放路径                  | 备注      |
 |----------|--------------------------|--------------------------|--------------------------|---------------------------|-----------|
-| 实验1    | `Data/1_hospital/dirty_index.csv`<br />`Data/1_hospital/clean_index.csv` | `Data/1_hospital/dirty_index.csv`<br />`Data/1_hospital/clean_index.csv` | `../result/baran` | `/results/raha_baran/results-hospital_1` | `备注内容1` |
-| 实验2    | `Data/1_hospital/dirty_index.csv`<br />`Data/1_hospital/clean_index.csv` | `Data/1_hospital/dirty_index.csv`<br />`Data/1_hospital/clean_index.csv` | `../result/baran` | `/results/raha_baran/results-hospital_2` | `备注内容3` |
-| 实验3    | `Data/1_hospital/dirty_index.csv`<br />`Data/1_hospital/clean_index.csv` | `Data/1_hospital/dirty_index.csv`<br />`Data/1_hospital/clean_index.csv` | `../result/baran` | `/results/raha_baran/results-hospital_3` | `备注内容6` |
-### 实验 1-3 运行命令：
+| 实验1    | `Data/1_hospital/dirty_index.csv`<br />`Data/1_hospital/clean_index.csv` | `Data/1_hospital/dirty_index.csv`<br />`Data/1_hospital/clean_index.csv` | `/results/raha_baran/` | `/results/raha_baran/results-1_hospital_ori` | `备注内容1` |
+### 实验 1 运行命令：
 ```bash
-python CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/1_hospital/dirty_index.csv --clean_path Data/1_hospital/clean_index.csv --task_name hospital_1 --output_path ../result/baran --index_attribute index --mse_attributes Score
+python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/1_hospital/dirty_index.csv --clean_path Data/1_hospital/clean_index.csv --task_name 1_hospital_ori --output_path results/raha_baran/ --index_attribute index --mse_attributes Score
 ```
 
 ### 数据集: `flights`
 
 用于计算mse的属性：无
 
-#### 实验4-6 设置
+#### 实验2 设置
 
-| 实验编号 | 本地输入路径                                                 | 实际输入存放路径                                             | 本地输出路径      | 实际输出存放路径                        | 备注        |
-| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- | --------------------------------------- | ----------- |
-| 实验4    | `Data/2_flights/dirty_index.csv`<br />`Data/2_flights/clean_index.csv` | `Data/2_flights/dirty_index.csv`<br />`Data/2_flights/clean_index.csv` | `../result/baran` | `/results/raha_baran/results-flights_1` | `备注内容1` |
-| 实验5    | `Data/2_flights/dirty_index.csv`<br />`Data/2_flights/clean_index.csv` | `Data/2_flights/dirty_index.csv`<br />`Data/2_flights/clean_index.csv` | `../result/baran` | `/results/raha_baran/results-flights_2` | `备注内容3` |
-| 实验6    | `Data/2_flights/dirty_index.csv`<br />`Data/2_flights/clean_index.csv` | `Data/2_flights/dirty_index.csv`<br />`Data/2_flights/clean_index.csv` | `../result/baran` | `/results/raha_baran/results-flights_3` | `备注内容6` |
+| 实验编号 | 本地输入路径                                                 | 实际输入存放路径                                             | 本地输出路径           | 实际输出存放路径                            | 备注        |
+| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------- | ------------------------------------------- | ----------- |
+| 实验2    | `Data/2_flights/dirty_index.csv`<br />`Data/2_flights/clean_index.csv` | `Data/2_flights/dirty_index.csv`<br />`Data/2_flights/clean_index.csv` | `/results/raha_baran/` | `/results/raha_baran/results-2_flights_ori` | `备注内容1` |
 
 ---
 
-### 实验 4-6 运行命令：
+### 实验 2 运行命令：
 
 ```bash
-python CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/2_flights/dirty_index.csv --clean_path Data/2_flights/clean_index.csv --task_name flights_2 --output_path ../result/baran --index_attribute index
+python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/2_flights/dirty_index.csv --clean_path Data/2_flights/clean_index.csv --task_name 2_flights_ori --output_path results/raha_baran/ --index_attribute index
 ```
 
 ### 数据集: `beers`
 
-用于计算mse的属性：ounces、abv、ibu
+用于计算mse的属性：abv、ibu
 
-#### 实验7-9 设置
+#### 实验3 设置
 
-| 实验编号 | 本地输入路径                                                 | 实际输入存放路径                                             | 本地输出路径      | 实际输出存放路径                      | 备注        |
-| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- | ------------------------------------- | ----------- |
-| 实验7    | `Data/3_beers/dirty_index.csv`<br />`Data/3_beers/clean_index.csv` | `Data/3_beers/dirty_index.csv`<br />`Data/3_beers/clean_index.csv` | `../result/baran` | `/results/raha_baran/results-beers_1` | `备注内容1` |
-| 实验8    | `Data/3_beers/dirty_index.csv`<br />`Data/3_beers/clean_index.csv` | `Data/3_beers/dirty_index.csv`<br />`Data/3_beers/clean_index.csv` | `../result/baran` | `/results/raha_baran/results-beers_2` | `备注内容3` |
-| 实验9    | `Data/3_beers/dirty_index.csv`<br />`Data/3_beers/clean_index.csv` | `Data/3_beers/dirty_index.csv`<br />`Data/3_beers/clean_index.csv` | `../result/baran` | `/results/raha_baran/results-beers_3` | `备注内容6` |
+| 实验编号 | 本地输入路径                                                 | 实际输入存放路径                                             | 本地输出路径           | 实际输出存放路径                          | 备注        |
+| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------- | ----------------------------------------- | ----------- |
+| 实验3    | `Data/3_beers/dirty_index.csv`<br />`Data/3_beers/clean_index.csv` | `Data/3_beers/dirty_index.csv`<br />`Data/3_beers/clean_index.csv` | `/results/raha_baran/` | `/results/raha_baran/results-3_beers_ori` | `备注内容1` |
 
 ---
 
-### 实验 7-9 运行命令：
+### 实验 3 运行命令：
 
 ```bash
-python CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/3_beers/dirty_index.csv --clean_path Data/3_beers/clean_index.csv --task_name beers_1 --output_path ../result/baran --index_attribute id --mse_attributes ounces abv ibu
+python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/3_beers/dirty_index.csv --clean_path Data/3_beers/clean_index.csv --task_name 3_beers_ori --output_path results/raha_baran/ --index_attribute id --mse_attributes abv ibu
 ```
 
 ### 数据集: `rayyan`
 
 用于计算mse的属性：无
 
-#### 实验10-12 设置
+#### 实验4 设置
 
-| 实验编号 | 本地输入路径                                                 | 实际输入存放路径                                             | 本地输出路径      | 实际输出存放路径                       | 备注        |
-| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- | -------------------------------------- | ----------- |
-| 实验7    | `Data/4_rayyan/dirty_index.csv`<br />`Data/4_rayyan/clean_index.csv` | `Data/4_rayyan/dirty_index.csv`<br />`Data/4_rayyan/clean_index.csv` | `../result/baran` | `/results/raha_baran/results-rayyan_1` | `备注内容1` |
-| 实验8    | `Data/4_rayyan/dirty_index.csv`<br />`Data/4_rayyan/clean_index.csv` | `Data/4_rayyan/dirty_index.csv`<br />`Data/4_rayyan/clean_index.csv` | `../result/baran` | `/results/raha_baran/results-rayyan_2` | `备注内容3` |
-| 实验9    | `Data/4_rayyan/dirty_index.csv`<br />`Data/4_rayyan/clean_index.csv` | `Data/4_rayyan/dirty_index.csv`<br />`Data/4_rayyan/clean_index.csv` | `../result/baran` | `/results/raha_baran/results-rayyan_3` | `备注内容6` |
+| 实验编号 | 本地输入路径                                                 | 实际输入存放路径                                             | 本地输出路径           | 实际输出存放路径                           | 备注        |
+| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------- | ------------------------------------------ | ----------- |
+| 实验4    | `Data/4_rayyan/dirty_index.csv`<br />`Data/4_rayyan/clean_index.csv` | `Data/4_rayyan/dirty_index.csv`<br />`Data/4_rayyan/clean_index.csv` | `/results/raha_baran/` | `/results/raha_baran/results-4_rayyan_ori` | `备注内容1` |
 
 ---
 
-### 实验 10-12 运行命令：
+### 实验 4 运行命令：
 
 ```bash
-python CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/4_rayyan/dirty_index.csv --clean_path Data/4_rayyan/clean_index.csv --task_name rayyan_1 --output_path ../result/baran --index_attribute index
+python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/4_rayyan/dirty_index.csv --clean_path Data/4_rayyan/clean_index.csv --task_name 4_rayyan_ori --output_path results/raha_baran/ --index_attribute index
+```
+
+
+
+### 数据集: `tax`
+
+用于计算mse的属性：rate
+
+#### 实验5 设置
+
+| 实验编号 | 本地输入路径                                                 | 实际输入存放路径                                             | 本地输出路径           | 实际输出存放路径                            | 备注        |
+| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------- | ------------------------------------------- | ----------- |
+| 实验5    | `Data/5_tax/dirty_index_10k.csv`<br />`Data/5_tax/clean_index_10k.csv` | `Data/5_tax/dirty_index_10k.csv`<br />`Data/5_tax/clean_index_10k.csv` | `/results/raha_baran/` | `/results/raha_baran/results-5_tax_10k_ori` | `备注内容1` |
+
+---
+
+### 实验 5 运行命令：
+
+```bash
+python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/5_tax/dirty_index_10k.csv --clean_path Data/5_tax/clean_index_10k.csv --task_name 5_tax_10k_ori --output_path results/raha_baran/ --index_attribute index --mse_attributes rate
+```
+
+
+
+### 数据集: `soccer`
+
+用于计算mse的属性：无
+
+#### 实验6 设置
+
+| 实验编号 | 本地输入路径                                                 | 实际输入存放路径                                             | 本地输出路径           | 实际输出存放路径                               | 备注        |
+| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------- | ---------------------------------------------- | ----------- |
+| 实验6    | `Data/6_soccer/dirty_index_10k.csv`<br />`Data/6_soccer/clean_index_10k.csv` | `Data/6_soccer/dirty_index_10k.csv`<br />`Data/6_soccer/clean_index_10k.csv` | `/results/raha_baran/` | `/results/raha_baran/results-6_soccer_10k_ori` | `备注内容1` |
+
+---
+
+### 实验 6 运行命令：
+
+```bash
+python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/6_soccer/dirty_index_10k.csv --clean_path Data/6_soccer/clean_index_10k.csv --task_name 6_soccer_10k_ori --output_path results/raha_baran/ --index_attribute index
 ```
 
 
@@ -92,31 +124,69 @@ python CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/4_r
 ## 3. 实验结果汇总
 
 | 实验编号 | 数据集名称       | 指标名称  | 数值  | 备注      |
-|----------|------------------|-------|-------|-----------|
-| 实验1-3 | `hospital` | acc | 0.8732 | `备注内容` |
-|  |            | rec | 0.5801 | `备注内容` |
-|  |            | EDR | 0.5723 | `备注内容` |
-|  |            | hybrid | 0.0817 | `备注内容` |
-|  |            | R-EDR | 0.5151 | `备注内容` |
-| 实验4-6 | `flights` | acc | 0.8368 | `备注内容` |
-|           |            | rec      | 0.5190 | `备注内容` |
-|           |            | EDR      | 0.4891 | `备注内容` |
-|           |            | hybrid   | 0.1311 | `备注内容` |
-|           |            | R-EDR    | 0.1153 | `备注内容` |
-| 实验7-9 | `beers`    | acc      | 0.8257 | `备注内容` |
-|           |            | rec      | 0.7651 | `备注内容` |
-|           |            | EDR      | 0.7631 | `备注内容` |
-|           |            | hybrid   | 0.0560 | `备注内容` |
-|           |            | R-EDR    | 0.7050 | `备注内容` |
-| 实验10-12 | `rayyan`      | acc | 0.8417 | `备注内容` |
-|           |            | rec      | 0.2505 | `备注内容` |
-|           |            | EDR      | 0.2491 | `备注内容` |
-|           |            | hybrid   | 0.1659 | `备注内容` |
-|           |            | R-EDR    | 0.2342 | `备注内容` |
+|----------|------------------|-------|-------|----------|
+| 实验1 | `hospital` | acc | 0.9298245614035088 | `备注内容` |
+|  |            | rec | 0.4165029469548134 | `备注内容` |
+|  |            | EDR | 0.4165029469548134 | `备注内容` |
+|  |            | hybrid | 0.13039368009625718 | `备注内容` |
+|  |            | R-EDR | 0.36117936117936117 | `备注内容` |
+| | | F1 | 0.5753052916804707 | `备注内容` |
+| | | time | 431.0772750377655 | `备注内容` |
+| 实验2 | `flights` | acc | 0.8576687116564418 | `备注内容` |
+|           |            | rec      | 0.5682926829268292 | `备注内容` |
+|           |            | EDR      | 0.516869918699187 | `备注内容` |
+|           |            | hybrid   | 0.11865335019431696 | `备注内容` |
+|           |            | R-EDR    | 0.12710084033613445 | `备注内容` |
+| | | F1 | 0.6836185818591496 | `备注内容` |
+| | | time | 391.8582489490509 | `备注内容` |
+| 实验3 | `beers`    | acc      | 0.8086929905111724 | `备注内容` |
+|           |            | rec      | 0.7867778439547349 | `备注内容` |
+|           |            | EDR      | 0.7867778439547349 | `备注内容` |
+|           |            | hybrid   | 0.053763122861445495 | `备注内容` |
+|           |            | R-EDR    | 0.7224066390041494 | `备注内容` |
+| | | F1 | 0.7975849056103869 | `备注内容` |
+| | | time | 597.5746324062347 | `备注内容` |
+| 实验4 | `rayyan`      | acc | 0.25741399762752076 | `备注内容` |
+|           |            | rec      | 0.21852970795568982 | `备注内容` |
+|           |            | EDR      | -0.23967774420946628 | `备注内容` |
+|           |            | hybrid   | 0.053628215233389086 | `备注内容` |
+|           |            | R-EDR    | 0.061224489795918366 | `备注内容` |
+|  |  | F1 | 0.23638344221612895 | `备注内容` |
+| | | time | 296.1245415210724 | `备注内容` |
+| 实验5 | `tax`      | acc      |                       | `备注内容` |
+|  |  | rec |                       | `备注内容` |
+|          |            | EDR      |                       | `备注内容` |
+|          |            | hybrid   |                       | `备注内容` |
+|          |            | R-EDR |  | `备注内容` |
+|  |  | F1 |  | `备注内容` |
+|  |  | time |  | `备注内容` |
+| 实验6 | `soccer` | acc | 0.5 | `备注内容` |
+|  |  | rec | 0.24361493123772102 | `备注内容` |
+|  |  | EDR | 0.2337917485265226 | `备注内容` |
+|  |  | hybrid | 0.0070558120322061265 | `备注内容` |
+|  |  | R-EDR | 0.2337917485265226 | `备注内容` |
+|  |  | F1 | 0.3276089827828922 | `备注内容` |
+|  |  | time | 2378.475999355316 | `备注内容` |
 |  |  |  |  |  |
 
 ---
 
 ## 4. 结论
 
-在此部分总结实验的总体结果，并讨论实验结果相比于论文描述的优劣。根据实验结果，可以讨论该系统的优势、不足之处，以及未来可能的改进方向。
+部分edr与recall相同的原因：
+
+recall的值为清洗后数据正确修复的错误数量/所有本应修复的错误数量
+
+edr计算为（Distance (Dirty to Clean)-Distance (Repaired to Clean)）/Distance (Dirty to Clean) 
+
+- Distance (Dirty to Clean) 是脏数据与干净数据的距离，即脏数据与干净数据不一致的条目数。
+- Distance (Repaired to Clean) 是清洗后数据与干净数据的距离，即清洗后的数据与干净数据不一致的条目数。
+
+其中，两个指标的分母计算是一样的
+
+因此当 清洗后数据正确修复的错误数量 =Distance (Dirty to Clean)-Distance (Repaired to Clean)时，edr和recall就相同。
+
+ 清洗后数据正确修复的错误数量：true_positives = ((cleaned_values == clean_values) & (dirty_values != cleaned_values)).sum()
+
+这种情况可能的原因是：若清洗后的数据**准确地修复了所有脏数据中与干净数据不一致的项**，并且没有引入新的错误
+

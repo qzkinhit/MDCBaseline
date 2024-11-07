@@ -8,7 +8,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Attribute: surname
 Distance (Dirty to Clean): 922
-Distance (Repaired to Clean): 878
+Distance (Repaired to Clean): 721
 ========================================
 Attribute: birthyear
 Distance (Dirty to Clean): 0
@@ -36,12 +36,12 @@ Distance (Repaired to Clean): 0
 ========================================
 Attribute: season
 Distance (Dirty to Clean): 233
-Distance (Repaired to Clean): 202
+Distance (Repaired to Clean): 77
 ========================================
 Attribute: manager
 Distance (Dirty to Clean): 0
 Distance (Repaired to Clean): 0
 ========================================
 总的脏数据到干净数据距离: 1527
-总的修复后数据到干净数据距离: 1452
-错误减少率 (EDR): 0.04911591355599214
+总的修复后数据到干净数据距离: 1170
+错误减少率 (EDR): 0.2337917485265226
