@@ -12,6 +12,9 @@ horizon_commands=(
     "python3 CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path Data/6_soccer/dirty_index_10k.csv --rule_path Data/6_soccer/dc_rules-validate-fd-horizon.txt --clean_path Data/6_soccer/clean_index_10k.csv --task_name 6_soccer_ori --output_path results/horizon/ --index_attribute index"
 )
 
+
+#python CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path Data/5_tax/dirty_index.csv --rule_path Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path Data/5_tax/clean_index.csv --task_name 5_tax_ori_50k --output_path results/horizon/ --index_attribute index --mse_attributes rate
+
 # 定义日志文件名列表
 log_files=(
     "logs/1_hospital_ori_horizon.log"
