@@ -4,7 +4,7 @@
     <type>DBMS</type>
     <access-configuration>
       <driver>org.postgresql.Driver</driver>
-      <uri>jdbc:postgresql://localhost:5432/gamma</uri>
+      <uri>jdbc:postgresql://localhost:5432/beta1</uri>
       <schema>soccer</schema>
       <login>postgres</login>
       <password>1234</password>
@@ -46,67 +46,67 @@
       <vioGenQueries>
         <vioGenQuery id="fd6">
           <comparison>(season1 == season2)</comparison>
-          <percentage>0.67</percentage>
+          <percentage>0.0</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd5">
           <comparison>(city1 == city2)</comparison>
-          <percentage>0.5</percentage>
+          <percentage>0.0</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd6">
           <comparison>(manager1 == manager2)</comparison>
-          <percentage>0.67</percentage>
+          <percentage>0.0</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd3">
           <comparison>(name1 == name2)</comparison>
-          <percentage>1.0</percentage>
+          <percentage>0.0</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd5">
           <comparison>(season1 == season2)</comparison>
-          <percentage>0.5</percentage>
+          <percentage>0.0</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd1">
           <comparison>(surname1 != surname2)</comparison>
-          <percentage>1.0</percentage>
+          <percentage>2</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd2">
           <comparison>(birthyear1 != birthyear2)</comparison>
-          <percentage>1.0</percentage>
+          <percentage>2</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd1">
           <comparison>(name1 == name2)</comparison>
-          <percentage>1.0</percentage>
+          <percentage>0.0</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd4">
           <comparison>(position1 != position2)</comparison>
-          <percentage>0.67</percentage>
+          <percentage>2</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd5">
           <comparison>(team1 == team2)</comparison>
-          <percentage>0.5</percentage>
+          <percentage>1</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd4">
           <comparison>(season1 == season2)</comparison>
-          <percentage>0.67</percentage>
+          <percentage>0.0</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd4">
           <comparison>(name1 == name2)</comparison>
-          <percentage>0.67</percentage>
+          <percentage>0.0</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd3">
           <comparison>(birthplace1 != birthplace2)</comparison>
-          <percentage>1.0</percentage>
+          <percentage>2</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd5">
           <comparison>(stadium1 != stadium2)</comparison>
-          <percentage>0.5</percentage>
+          <percentage>1</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd2">
           <comparison>(name1 == name2)</comparison>
-          <percentage>1.0</percentage>
+          <percentage>0.0</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd6">
           <comparison>(team1 != team2)</comparison>
-          <percentage>0.67</percentage>
+          <percentage>2</percentage>
         </vioGenQuery>
       </vioGenQueries>
     </errorPercentages>
@@ -118,15 +118,11 @@
     <randomErrors>
       <tables>
         <table name="soccer">
-          <percentage>2.0</percentage>
+          <percentage>2</percentage>
           <attributes>
-            <attribute>manager</attribute>
             <attribute>birthyear</attribute>
             <attribute>birthplace</attribute>
-            <attribute>city</attribute>
             <attribute>surname</attribute>
-            <attribute>name</attribute>
-            <attribute>season</attribute>
             <attribute>stadium</attribute>
             <attribute>position</attribute>
             <attribute>team</attribute>
