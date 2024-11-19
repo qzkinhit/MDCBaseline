@@ -438,7 +438,7 @@ class Detection:
 
 ########################################
 if __name__ == "__main__":
-    dataset_name = "1_hospital"
+    dataset_name = "1_hospitals"
     dataset_dictionary = {
         "name": dataset_name,
         "path": "./data_with_rules/2_flights/noise/2_flights-inner_error-10.csv",
@@ -453,9 +453,9 @@ if __name__ == "__main__":
     # app.STRATEGY_FILTERING = True
     # app.HISTORICAL_DATASETS = [
     #     {
-    #     "name": "1_hospital",
-    #     "path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/1_hospital/dirty.csv",
-    #     "clean_path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/1_hospital/clean.csv"
+    #     "name": "1_hospitals",
+    #     "path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/1_hospitals/dirty.csv",
+    #     "clean_path": "/media/mohammad/C20E45C80E45B5E7/Projects/raha/datasets/1_hospitals/clean.csv"
     #     },
     #     {
     #     "name": "3_beers",

@@ -60,13 +60,13 @@ hc.repair_errors(featurizers)
 #             val_col='correct_val')
 # 5. 评估修复效果，并导出修复后的数据到 CSV
 output_csv_path = r'./1_hospital_repaired_dataset.csv'  # 你想保存的文件路径
-eval_report = hc.evaluate(fpath=r'../../Data/1_hospital/hospital_clean_holoclean.csv',
+eval_report = hc.evaluate(fpath=r'../../Data/1_hospitals/hospitals_clean_holoclean.csv',
             tid_col='tid',
             attr_col='attribute',
             val_col='correct_val',
             output_csv_path=output_csv_path)
 # eval_report = hc.evaluate(.\..\D
-#     fpath=r'D:\holoclean\Data\1_hospital\hospital_clean_holoclean.csv',
+#     fpath=r'D:\holoclean\Data\1_hospitals\hospitals_clean_holoclean.csv',
 #     tid_col='tid',
 #     attr_col='attribute',
 #     val_col='correct_val',

@@ -1,51 +1,52 @@
 #!/bin/bash
-# 设置可执行权限： chmod +x CleanerRunScript/run_raha_baran/run.sh
-# 运行方式：./CleanerRunScript/run_raha_baran/run.sh
+# 设置可执行权限： chmod +x CleanerRunScript/run_raha_baran/run_nwcpk.sh
+# 运行方式：./CleanerRunScript/run_raha_baran/run_nwcpk.sh
 
 # 定义数据集配置
-declare -A datasets=(
-    ["1_hospital"]="index Score Data/1_hospital/noise_with_correct_primary_key Data/1_hospital/clean_index.csv"
-    ["2_flights"]="index '' Data/2_flights/noise_with_correct_primary_key Data/2_flights/clean_index.csv"
-    ["3_beers"]="id 'abv ibu' Data/3_beers/noise_with_correct_primary_key Data/3_beers/clean.csv"
-    ["4_rayyan"]="index '' Data/4_rayyan/noise_with_correct_primary_key Data/4_rayyan/clean_index.csv"
-    ["5_tax_20k"]="tno rate Data/5_tax/tax_20k/noise_with_correct_primary_key Data/5_tax/tax_20k/tax_20k_clean_id.csv"
-    ["5_tax_50k"]="tno rate Data/5_tax/tax_50k/noise_with_correct_primary_key Data/5_tax/tax_50k/tax_50k_clean_id.csv"
-    ["5_tax_200k"]="tno rate Data/5_tax/tax_200k/noise_with_correct_primary_key Data/5_tax/tax_200k/tax_200k_clean_id.csv"
-    ["6_soccer"]="index '' Data/6_soccer/noise_with_correct_primary_key Data/6_soccer/clean_index.csv"
+# 解析dataset index_attr mse_attr noise_dir clean_path这几个参数，后续需要，根据你的系统配置自行修改
+datasets=(
+    "1_hospitals:index:Score:Data/1_hospitals/noise_with_correct_primary_key:Data/1_hospitals/clean_index.csv"
+    "2_flights:index::Data/2_flights/noise_with_correct_primary_key:Data/2_flights/clean_index.csv"
+    "3_beers:id:abv ibu:Data/3_beers/noise_with_correct_primary_key:Data/3_beers/clean.csv"
+    "4_rayyan:index::Data/4_rayyan/noise_with_correct_primary_key:Data/4_rayyan/clean_index.csv"
+    "5_tax_20k:tno:rate:Data/5_tax/tax_20k/noise_with_correct_primary_key:Data/5_tax/tax_20k/tax_20k_clean_id.csv"
+    "5_tax_50k:tno:rate:Data/5_tax/tax_50k/noise_with_correct_primary_key:Data/5_tax/tax_50k/tax_50k_clean_id.csv"
+    "5_tax_200k:tno:rate:Data/5_tax/tax_200k/noise_with_correct_primary_key:Data/5_tax/tax_200k/tax_200k_clean_id.csv"
+    "6_soccer:index::Data/6_soccer/noise_with_correct_primary_key:Data/6_soccer/clean_index.csv"
 )
 
 # 定义错误比例集合
 error_ratios=("0.25" "0.5" "0.75" "1" "1.25" "1.5" "1.75" "2")
+#error_ratios=("0.25")
 
 # 创建日志目录
 log_dir="logs/raha_baran_nwcpk"
 mkdir -p "${log_dir}"
 
-# 遍历数据集和错误比例，生成并执行命令
-for dataset in "${!datasets[@]}"; do
-    IFS=" " read -r index_attr mse_attr noise_dir clean_path <<< "${datasets[$dataset]}"
-
+# 遍历数据集和错误比例，生成并执行命令（根据各自的系统进行更改）
+for dataset_config in "${datasets[@]}"; do
+    # 使用分隔符解析键值对
+    IFS=":" read -r dataset index_attr mse_attr noise_dir clean_path <<< "${dataset_config}"
+    # 从第三个字符开始取数据集名称
+    short_dataset_name="${dataset:2}"
     for ratio in "${error_ratios[@]}"; do
         task_name="${dataset}_nwcpk_${ratio//./}"
-        dirty_path="${noise_dir}/dirty_mixed_${ratio}/dirty_${dataset}_mix_${ratio}.csv"
+        dirty_path="${noise_dir}/dirty_mixed_${ratio}/dirty_${short_dataset_name}_mix_${ratio}.csv"
         output_path="results/raha_baran/nwcpk"
         log_file="${log_dir}/${dataset}_raha_baran_nwcpk_${ratio//./}.log"
 
         # 生成命令
-        cmd="python3 CleanerRunScript/run_raha_baran/repair_with_raha.py \
-            --dirty_path ${dirty_path} \
-            --clean_path ${clean_path} \
-            --task_name ${task_name} \
-            --output_path ${output_path} \
-            --index_attribute ${index_attr}"
+        cmd="python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path ${dirty_path} --clean_path ${clean_path} --task_name ${task_name} --output_path ${output_path} --index_attribute ${index_attr}"
 
         if [ -n "${mse_attr}" ]; then
             cmd+=" --mse_attributes ${mse_attr}"
         fi
 
-        # 打印并执行命令
-        echo "Running task: ${task_name}"
+        # 打印命令用于调试
+        echo "Generated command:"
         echo "${cmd}"
+
+        # 执行命令
         eval "${cmd}" &> "${log_file}"
 
         if [ $? -ne 0 ]; then

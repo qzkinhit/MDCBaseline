@@ -34,7 +34,7 @@ class Benchmark:
         The constructor.
         """
         self.RUN_COUNT = 10
-        self.DATASETS = ["1_hospital", "2_flights", "3_beers", "4_rayyan", "movies_1"]
+        self.DATASETS = ["1_hospitals", "2_flights", "3_beers", "4_rayyan", "movies_1"]
 
     def experiment_1(self):
         """
@@ -264,7 +264,7 @@ class Benchmark:
         print("------------------------------------------------------------------------\n"
               "------------Experiment 4: Strategy Filtering Impact Analysis------------\n"
               "------------------------------------------------------------------------")
-        historical_datasets = ["1_hospital", "2_flights", "3_beers", "4_rayyan", "movies_1"]
+        historical_datasets = ["1_hospitals", "2_flights", "3_beers", "4_rayyan", "movies_1"]
         strategy_filtering_approaches = ["No Strategy Filtering",
                                          "Strategy Filtering via Historical Data",
                                          "Strategy Filtering via Least Effective Selection",

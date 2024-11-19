@@ -524,8 +524,8 @@ if __name__ == "__main__":
     # error_types = ["-inner_outer_error-"]
     error_types = ["-original_error-"]
 
-    # task_names = ['1_hospital', '2_flights', '3_beers', '4_rayyan']
-    # task_names = ['1_hospital', '3_beers', '4_rayyan']
+    # task_names = ['1_hospitals', '2_flights', '3_beers', '4_rayyan']
+    # task_names = ['1_hospitals', '3_beers', '4_rayyan']
     task_names = ['5_tax']
     
     method_names = ['holoclean']

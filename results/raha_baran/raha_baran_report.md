@@ -22,7 +22,7 @@
 | 实验1    | `Data/1_hospital/dirty_index.csv`<br />`Data/1_hospital/clean_index.csv` | `Data/1_hospital/dirty_index.csv`<br />`Data/1_hospital/clean_index.csv` | `/results/raha_baran/` | `/results/raha_baran/results-1_hospital_ori` | `备注内容1` |
 ### 实验 1 运行命令：
 ```bash
-python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/1_hospital/dirty_index.csv --clean_path Data/1_hospital/clean_index.csv --task_name 1_hospital_ori --output_path results/raha_baran/ --index_attribute index --mse_attributes Score
+python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path Data/1_hospitals/dirty_index.csv --clean_path Data/1_hospitals/clean_index.csv --task_name 1_hospital_ori --output_path results/raha_baran/ --index_attribute index --mse_attributes Score
 ```
 
 ### 数据集: `flights`
