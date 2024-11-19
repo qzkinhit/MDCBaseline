@@ -1,5 +1,5 @@
-# chmod +x CleanerRunScript/run_bigdansing/run_nwcpk.sh
-# ./CleanerRunScript/run_bigdansing/run_nwcpk.sh
+# chmod +x CleanerRunScript/run_bigdansing/run_nwcpk_example.sh
+# ./CleanerRunScript/run_bigdansing/run_nwcpk_example.sh
 
 
 bigdansing_commands=(
