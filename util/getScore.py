@@ -473,7 +473,7 @@ def get_record_based_edr(clean, dirty, cleaned, output_path, task_name, index_at
 
     return r_edr
 
-def test_calculate_all_metrics():
+def calculate_all_metrics_TEST():
     # 准备测试数据
     data = {
         'index1': [1, 2, 3, 4, 5],
@@ -533,4 +533,16 @@ def test_calculate_all_metrics():
 
 if __name__ == "__main__":
     # 调用测试函数
-    test_calculate_all_metrics()
+    # calculate_all_metrics_TEST()
+    clean_path = '../Data/1_hospitals/clean_index.csv'
+    dirty_path = '../Data/1_hospitals/dirty_index.csv'
+    cleaned_path = '../CleanerRunScript/run_holoclean/1_hospital_repaired_dataset.csv'
+    output_path = './'
+    task_name = '11111'
+    clean=pd.read_csv(clean_path)
+    dirty=pd.read_csv(dirty_path)
+    cleaned=pd.read_csv(cleaned_path)
+    attributes = clean.columns.tolist()
+    calculate_all_metrics(clean, dirty, cleaned, attributes, output_path, task_name, index_attribute='index',
+                              calculate_precision_recall=True,
+                              calculate_edr=True, calculate_hybrid=True, calculate_r_edr=True)
