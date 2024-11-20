@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task>
+    <source>
+        <type>DBMS</type>
+        <access-configuration>
+            <driver>org.postgresql.Driver</driver>
+            <uri>jdbc:postgresql://localhost:5433/alpha</uri>
+            <schema>tax20k_dependencies_source</schema>
+            <login>datacleanuser</login>
+            <password>abcd1234</password>
+        </access-configuration>
+        <import createTables="true">
+            <input table="consttablecf1" type="XML">xml/consttablecf1.xml</input>
+            <input table="consttablecf2" type="XML">xml/consttablecf2.xml</input>
+        </import>
+    </source>
+    <target>
+        <type>DBMS</type>
+        <access-configuration>
+            <driver>org.postgresql.Driver</driver>
+            <uri>jdbc:postgresql://localhost:5433/alpha</uri>
+            <schema>tax20k_dependencies</schema>
+            <login>datacleanuser</login>
+            <password>abcd1234</password>
+        </access-configuration>
+        <import createTables="true">
+            <input table="tax" type="XML">xml/20k_tax.xml</input>
+        </import>
+    </target>
+    <configuration>
+        <printLog>true</printLog>
+        <checkChanges>true</checkChanges>
+        <recreateDBOnStart>false</recreateDBOnStart>
+        <applyCellChanges>true</applyCellChanges>
+        <estimateRepairability>true</estimateRepairability>
+        <exportCellChanges>true</exportCellChanges>
+        <exportCellChangesPath>dirty_ramdon_0.5/cellChanges.csv</exportCellChangesPath>
+        <exportDirtyDB>true</exportDirtyDB>
+        <exportDirtyDBPath>dirty_ramdon_0.5/</exportDirtyDBPath>
+        <exportDirtyDBType>CSV</exportDirtyDBType>
+        <useDeltaDBForChanges>true</useDeltaDBForChanges>
+        <cloneTargetSchema>true</cloneTargetSchema>
+        <cloneSuffix>_dirty</cloneSuffix>
+        <avoidInteractions>true</avoidInteractions>
+        <dirtyStrategies>
+            <defaultStrategy>
+                <strategy>TypoRandom</strategy>
+            </defaultStrategy>
+        </dirtyStrategies>
+        <randomErrors>
+            <tables>
+                <table name="tax">
+                    <percentage>1</percentage>
+                    <attributes>
+                        <attribute>gender</attribute>
+                        <attribute>city</attribute>
+                        <attribute>childexemp</attribute>
+                        <attribute>salary</attribute>
+                        <attribute>lname</attribute>
+                        <attribute>singleexemp</attribute>
+                        <attribute>marriedexemp</attribute>
+                        <attribute>phone</attribute>
+                        <attribute>maritalstatus</attribute>
+                        <attribute>haschild</attribute>
+                        <attribute>rate</attribute>
+                        <attribute>state</attribute>
+                    </attributes>
+                </table>
+            </tables>
+        </randomErrors>
+    </configuration>
+</task>
+
