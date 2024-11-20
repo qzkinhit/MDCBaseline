@@ -50,24 +50,25 @@ def main():
     # 检查目录是否存在，如果不存在则创建
     if not os.path.exists(stra_path):
         os.makedirs(stra_path)
-
+    ori_empty_clean_path = os.path.splitext(args.clean_path)[0] + '_ori_empty.csv'
+    ori_empty_dirty_path = os.path.splitext(args.dirty_path)[0] + '_ori_empty.csv'
     # 替换数据中的空值，统一转换为 'empty'
     inject_missing_values(
         csv_file=args.clean_path,
-        output_file=args.clean_path,
-        missing_value_in_ori_data='NULL',
-        missing_value_representation='empty',
+        output_file=ori_empty_clean_path,
+        missing_value_in_ori_data='empty',
+        missing_value_representation='',
         attributes_error_ratio=None
     )
     inject_missing_values(
         csv_file=args.dirty_path,
-        output_file=args.dirty_path,
-        missing_value_in_ori_data='NULL',
-        missing_value_representation='empty',
+        output_file=ori_empty_dirty_path,
+        missing_value_in_ori_data='empty',
+        missing_value_representation='',
         attributes_error_ratio=None
     )
     # 读取脏数据，去除索引列并保存
-    dirty_data = pd.read_csv(args.dirty_path)
+    dirty_data = pd.read_csv(ori_empty_dirty_path)
     if index_attribute in dirty_data.columns:  # 确保 'index' 列存在
         dirty_data.drop(columns=['index'], inplace=True)
     else:
@@ -124,13 +125,12 @@ def main():
 
     # 使用 evaluate 保存修复后的数据
     res_path = os.path.join(stra_path, f"{args.task_name}_repaired.csv")
-    clean_data = pd.read_csv(args.clean_path)
+    clean_data = pd.read_csv(ori_empty_clean_path)
     clean_data_attributes = clean_data.columns.tolist()
     # 生成新的 clean 数据路径，替换为 *_holoclean.csv 格式
     clean_holoclean_path = os.path.splitext(args.clean_path)[0] + "_holoclean.csv"
-
     # 运行函数以处理CSV文件并生成新的路径
-    transform_csv_file(args.clean_path, clean_holoclean_path)
+    transform_csv_file(ori_empty_clean_path, clean_holoclean_path)
 
 
     hc.evaluate(
@@ -148,18 +148,18 @@ def main():
     end_time = time.time()
     elapsed_time = end_time - start_time
     print(f"Holoclean finished in {elapsed_time} seconds.")
-
+    ori_empty_res_path = os.path.splitext(res_path)[0] + '_ori_empty.csv'
     # 测评性能
     print("测评性能开始：")
     inject_missing_values(
         csv_file=res_path,
-        output_file=res_path,
-        missing_value_in_ori_data='NULL',
-        missing_value_representation='empty',
+        output_file=ori_empty_res_path,
+        missing_value_in_ori_data='empty',
+        missing_value_representation='',
         attributes_error_ratio=None
     )
-    dirty_data = pd.read_csv(args.dirty_path)
-    cleaned_data = pd.read_csv(res_path)
+    dirty_data = pd.read_csv(ori_empty_dirty_path)
+    cleaned_data = pd.read_csv(ori_empty_res_path)
 
     # 根据规则定义的属性集合
     attributes = clean_data.columns.tolist()

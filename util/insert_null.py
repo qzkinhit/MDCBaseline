@@ -32,6 +32,7 @@ def inject_missing_values(csv_file, output_file, attributes_error_ratio=None, mi
     df = df.fillna(missing_value_representation)
     df.replace('', missing_value_representation, inplace=True)
     df.replace('nan', missing_value_representation, inplace=True)
+    df.replace('_nan_', missing_value_representation, inplace=True)
     df.replace('null', missing_value_representation, inplace=True)
     df.replace('__NULL__', missing_value_representation, inplace=True)
     df.replace(missing_value_in_ori_data, missing_value_representation, inplace=True)

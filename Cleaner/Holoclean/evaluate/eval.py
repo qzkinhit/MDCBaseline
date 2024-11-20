@@ -284,8 +284,6 @@ class EvalEngine:
         try:
             # 查询清洗后的数据表并按 _tid_ 排序
             query = "SELECT * FROM {} ORDER BY _tid_".format(self.ds.raw_data.name + '_repaired')
-            # # 查询清洗后的数据表
-            # query = "SELECT * FROM {}".format(self.ds.raw_data.name + '_repaired')
             data, columns = self.ds.engine.execute_query_with_attribute_list(query)
             # 使用数据和列名构建 DataFrame
             cleaned_df = pd.DataFrame(data, columns=columns)
@@ -299,10 +297,11 @@ class EvalEngine:
 
             # 如果传入了 attribute_list，按指定顺序和列进行筛选和重排
             if attribute_list:
-                # 确保所有传入的列都存在于数据中
+                # 确保所有传入的列都存在于数据中，不存在的列新增并填充为空值
                 missing_columns = [col for col in attribute_list if col not in cleaned_df.columns]
-                if missing_columns:
-                    raise ValueError(f"属性列 {missing_columns} 在数据中不存在！")
+                for col in missing_columns:
+                    logging.warning(f"属性列 {col} 在数据中不存在，已新增此列并填充为空值。")
+                    cleaned_df[col] = ''  # 新增列并填充为空值
 
                 # 重新排列列顺序
                 ordered_columns = [index_col_name] + attribute_list
