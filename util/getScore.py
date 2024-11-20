@@ -213,21 +213,24 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
             })])
 
             # 修复错误的数据
-            repair_error_indices = cleaned_values[(cleaned_values != clean_values) & (dirty_values != cleaned_values)].index
+            repair_error_indices = cleaned_values[
+                (cleaned_values != clean_values) & (dirty_values != cleaned_values)].index
             repair_errors = pd.concat([repair_errors, pd.DataFrame({
                 'Attribute': attribute,
                 'Index': repair_error_indices,
+                'Clean Value': clean_values.loc[repair_error_indices],
                 'Dirty Value': dirty_values.loc[repair_error_indices],
                 'Cleaned Value': cleaned_values.loc[repair_error_indices]
-            })])
+            })], sort=False)  # 显式添加 sort=False
 
-            # 未修复的数据
-            unrepaired_indices = cleaned_values[cleaned_values == dirty_values].index
+            # 未修复但应该修复的数据
+            unrepaired_indices = cleaned_values[(cleaned_values == dirty_values) & (dirty_values != clean_values)].index
             unrepaired = pd.concat([unrepaired, pd.DataFrame({
                 'Attribute': attribute,
                 'Index': unrepaired_indices,
+                'Clean Value': clean_values.loc[unrepaired_indices],
                 'Dirty Value': dirty_values.loc[unrepaired_indices]
-            })])
+            })], sort=False)  # 显式添加 sort=False
 
             total_true_positives += true_positives
             total_false_positives += false_positives
@@ -257,7 +260,7 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
 
     print(f"差异文件已保存到:\n{clean_dirty_diff_path}\n{dirty_cleaned_diff_path}\n{clean_cleaned_diff_path}")
     print(f"修复错误数据文件已保存到: {repair_errors_path}")
-    print(f"未修复数据文件已保存到: {unrepaired_path}")
+    print(f"未修复但是应该修复数据文件已保存到: {unrepaired_path}")
 
     return accuracy, recall
 
