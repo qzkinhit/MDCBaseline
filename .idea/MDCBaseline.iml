@@ -17,8 +17,9 @@
       <excludeFolder url="file://$MODULE_DIR$/baran_env2" />
       <excludeFolder url="file://$MODULE_DIR$/baran_env_2" />
       <excludeFolder url="file://$MODULE_DIR$/env_baran_2" />
+      <excludeFolder url="file://$MODULE_DIR$/baseline_env" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (MDCBaseline) (5)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PackageRequirementsSettings">
