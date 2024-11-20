@@ -16,9 +16,9 @@ from util.getScore import calculate_accuracy_and_recall
 if __name__ == "__main__":
     # Set up argument parser
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dirty_path', type=str, default='../../Data/1_hospital/dirty.csv',
+    parser.add_argument('--dirty_path', type=str, default='../../Data/1_hospitals/dirty.csv',
                         help='Path to the input dirty CSV file.')
-    parser.add_argument('--clean_path', type=str, default='../../Data/1_hospital/clean_index.csv',
+    parser.add_argument('--clean_path', type=str, default='../../Data/1_hospitals/clean_index.csv',
                         help='Path to the input clean CSV file.')
     parser.add_argument('--task_name', type=str, help="Task name (dataset name)", default='test_MODE')
     parser.add_argument('--output_path', type=str, default='../../results/raha_baran',

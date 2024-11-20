@@ -1,92 +1,59 @@
-# chmod +x CleanerRunScript/run_bigdansing/run_nwcpk.sh
-# ./CleanerRunScript/run_bigdansing/run_nwcpk.sh
+#!/bin/bash
+# 设置可执行权限： chmod +x CleanerRunScript/run_raha_baran/run_nwcpk.sh
+# 运行方式：./CleanerRunScript/run_raha_baran/run_nwcpk.sh
 
-
-bigdansing_commands=(
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/1_hospital/clean_index.csv --dirty_path Data/1_hospital/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_hospital_mix_0.25.csv --rule_path Data/1_hospital/dc_rules_dc_holoclean.txt --task_name 1_hospital_nwcpk_025 --mse_attributes Score"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/1_hospital/clean_index.csv --dirty_path Data/1_hospital/noise_with_correct_primary_key/dirty_mixed_0.5/dirty_hospital_mix_0.5.csv --rule_path Data/1_hospital/dc_rules_dc_holoclean.txt --task_name 1_hospital_nwcpk_050 --mse_attributes Score"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/1_hospital/clean_index.csv --dirty_path Data/1_hospital/noise_with_correct_primary_key/dirty_mixed_0.75/dirty_hospital_mix_0.75.csv --rule_path Data/1_hospital/dc_rules_dc_holoclean.txt --task_name 1_hospital_nwcpk_075 --mse_attributes Score"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/1_hospital/clean_index.csv --dirty_path Data/1_hospital/noise_with_correct_primary_key/dirty_mixed_1/dirty_hospital_mix_1.csv --rule_path Data/1_hospital/dc_rules_dc_holoclean.txt --task_name 1_hospital_nwcpk_100 --mse_attributes Score"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/1_hospital/clean_index.csv --dirty_path Data/1_hospital/noise_with_correct_primary_key/dirty_mixed_1.25/dirty_hospital_mix_1.25.csv --rule_path Data/1_hospital/dc_rules_dc_holoclean.txt --task_name 1_hospital_nwcpk_125 --mse_attributes Score"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/1_hospital/clean_index.csv --dirty_path Data/1_hospital/noise_with_correct_primary_key/dirty_mixed_1.5/dirty_hospital_mix_1.5.csv --rule_path Data/1_hospital/dc_rules_dc_holoclean.txt --task_name 1_hospital_nwcpk_150 --mse_attributes Score"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/1_hospital/clean_index.csv --dirty_path Data/1_hospital/noise_with_correct_primary_key/dirty_mixed_1.75/dirty_hospital_mix_1.75.csv --rule_path Data/1_hospital/dc_rules_dc_holoclean.txt --task_name 1_hospital_nwcpk_175 --mse_attributes Score"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/1_hospital/clean_index.csv --dirty_path Data/1_hospital/noise_with_correct_primary_key/dirty_mixed_2/dirty_hospital_mix_2.csv --rule_path Data/1_hospital/dc_rules_dc_holoclean.txt --task_name 1_hospital_nwcpk_200 --mse_attributes Score"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/2_flights/clean_index.csv --dirty_path Data/2_flights/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_flights_mix_0.25.csv --rule_path Data/2_flights/dc_rules_holoclean.txt --task_name 2_flights_nwcpk_025"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/2_flights/clean_index.csv --dirty_path Data/2_flights/noise_with_correct_primary_key/dirty_mixed_0.5/dirty_flights_mix_0.5.csv --rule_path Data/2_flights/dc_rules_holoclean.txt --task_name 2_flights_nwcpk_050"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/2_flights/clean_index.csv --dirty_path Data/2_flights/noise_with_correct_primary_key/dirty_mixed_0.75/dirty_flights_mix_0.75.csv --rule_path Data/2_flights/dc_rules_holoclean.txt --task_name 2_flights_nwcpk_075"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/2_flights/clean_index.csv --dirty_path Data/2_flights/noise_with_correct_primary_key/dirty_mixed_1/dirty_flights_mix_1.csv --rule_path Data/2_flights/dc_rules_holoclean.txt --task_name 2_flights_nwcpk_100"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/2_flights/clean_index.csv --dirty_path Data/2_flights/noise_with_correct_primary_key/dirty_mixed_1.25/dirty_flights_mix_1.25.csv --rule_path Data/2_flights/dc_rules_holoclean.txt --task_name 2_flights_nwcpk_125"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/2_flights/clean_index.csv --dirty_path Data/2_flights/noise_with_correct_primary_key/dirty_mixed_1.5/dirty_flights_mix_1.5.csv --rule_path Data/2_flights/dc_rules_holoclean.txt --task_name 2_flights_nwcpk_150"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/2_flights/clean_index.csv --dirty_path Data/2_flights/noise_with_correct_primary_key/dirty_mixed_1.75/dirty_flights_mix_1.75.csv --rule_path Data/2_flights/dc_rules_holoclean.txt --task_name 2_flights_nwcpk_175"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/2_flights/clean_index.csv --dirty_path Data/2_flights/noise_with_correct_primary_key/dirty_mixed_2/dirty_flights_mix_2.csv --rule_path Data/2_flights/dc_rules_holoclean.txt --task_name 2_flights_nwcpk_200"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/3_beers/clean_index.csv --dirty_path Data/3_beers/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_beers_mix_0.25.csv --rule_path Data/3_beers/dc_rules_holoclean.txt --task_name 3_beers_nwcpk_025 --index_attribute id --mse_attributes abv ibu"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/3_beers/clean_index.csv --dirty_path Data/3_beers/noise_with_correct_primary_key/dirty_mixed_0.5/dirty_beers_mix_0.5.csv --rule_path Data/3_beers/dc_rules_holoclean.txt --task_name 3_beers_nwcpk_050 --index_attribute id --mse_attributes abv ibu"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/3_beers/clean_index.csv --dirty_path Data/3_beers/noise_with_correct_primary_key/dirty_mixed_0.75/dirty_beers_mix_0.75.csv --rule_path Data/3_beers/dc_rules_holoclean.txt --task_name 3_beers_nwcpk_075 --index_attribute id --mse_attributes abv ibu"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/3_beers/clean_index.csv --dirty_path Data/3_beers/noise_with_correct_primary_key/dirty_mixed_1/dirty_beers_mix_1.csv --rule_path Data/3_beers/dc_rules_holoclean.txt --task_name 3_beers_nwcpk_100 --index_attribute id --mse_attributes abv ibu"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/3_beers/clean_index.csv --dirty_path Data/3_beers/noise_with_correct_primary_key/dirty_mixed_1.25/dirty_beers_mix_1.25.csv --rule_path Data/3_beers/dc_rules_holoclean.txt --task_name 3_beers_nwcpk_125 --index_attribute id --mse_attributes abv ibu"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/3_beers/clean_index.csv --dirty_path Data/3_beers/noise_with_correct_primary_key/dirty_mixed_1.5/dirty_beers_mix_1.5.csv --rule_path Data/3_beers/dc_rules_holoclean.txt --task_name 3_beers_nwcpk_150 --index_attribute id --mse_attributes abv ibu"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/3_beers/clean_index.csv --dirty_path Data/3_beers/noise_with_correct_primary_key/dirty_mixed_1.75/dirty_beers_mix_1.75.csv --rule_path Data/3_beers/dc_rules_holoclean.txt --task_name 3_beers_nwcpk_175 --index_attribute id --mse_attributes abv ibu"
-    # "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/3_beers/clean_index.csv --dirty_path Data/3_beers/noise_with_correct_primary_key/dirty_mixed_2/dirty_beers_mix_2.csv --rule_path Data/3_beers/dc_rules_holoclean.txt --task_name 3_beers_nwcpk_200 --index_attribute id --mse_attributes abv ibu"
-    "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/4_rayyan/clean_index.csv --dirty_path Data/4_rayyan/noise_with_correct_primary_key/rayyan_0.25/dirty_rayyan_mix_0.25.csv --rule_path Data/4_rayyan/dc_rules_holoclean.txt --task_name 4_rayyan_nwcpk_025"
-    "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/4_rayyan/clean_index.csv --dirty_path Data/4_rayyan/noise_with_correct_primary_key/rayyan_0.5/dirty_rayyan_mix_0.5.csv --rule_path Data/4_rayyan/dc_rules_holoclean.txt --task_name 4_rayyan_nwcpk_050"
-    "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/4_rayyan/clean_index.csv --dirty_path Data/4_rayyan/noise_with_correct_primary_key/rayyan_0.75/dirty_rayyan_mix_0.75.csv --rule_path Data/4_rayyan/dc_rules_holoclean.txt --task_name 4_rayyan_nwcpk_075"
-    "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/4_rayyan/clean_index.csv --dirty_path Data/4_rayyan/noise_with_correct_primary_key/rayyan_1/dirty_rayyan_mix_1.csv --rule_path Data/4_rayyan/dc_rules_holoclean.txt --task_name 4_rayyan_nwcpk_100"
-    "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/4_rayyan/clean_index.csv --dirty_path Data/4_rayyan/noise_with_correct_primary_key/rayyan_1.25/dirty_rayyan_mix_1.25.csv --rule_path Data/4_rayyan/dc_rules_holoclean.txt --task_name 4_rayyan_nwcpk_125"
-    "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/4_rayyan/clean_index.csv --dirty_path Data/4_rayyan/noise_with_correct_primary_key/rayyan_1.5/dirty_rayyan_mix_1.5.csv --rule_path Data/4_rayyan/dc_rules_holoclean.txt --task_name 4_rayyan_nwcpk_150"
-    "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/4_rayyan/clean_index.csv --dirty_path Data/4_rayyan/noise_with_correct_primary_key/rayyan_1.75/dirty_rayyan_mix_1.75.csv --rule_path Data/4_rayyan/dc_rules_holoclean.txt --task_name 4_rayyan_nwcpk_175"
-    "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing/nwcpk --clean_path Data/4_rayyan/clean_index.csv --dirty_path Data/4_rayyan/noise_with_correct_primary_key/rayyan_2/dirty_rayyan_mix_2.csv --rule_path Data/4_rayyan/dc_rules_holoclean.txt --task_name 4_rayyan_nwcpk_200"
+# 定义数据集配置
+# 解析dataset index_attr mse_attr noise_dir clean_path这几个参数，后续需要，根据你的系统配置自行修改
+datasets=(
+    # "1_hospitals:index:Score:Data/1_hospitals/noise_with_correct_primary_key:Data/1_hospitals/clean_index.csv:Data/1_hospitals/dc_rules_dc_holoclean.txt"
+    # "2_flights:index::Data/2_flights/noise_with_correct_primary_key:Data/2_flights/clean_index.csv:Data/2_flights/dc_rules_holoclean.txt
+    # "3_beers:id:abv ibu:Data/3_beers/noise_with_correct_primary_key:Data/3_beers/clean.csv:Data/3_beers/dc_rules_holoclean.txt"
+    # "4_rayyan:index::Data/4_rayyan/noise_with_correct_primary_key:Data/4_rayyan/clean_index.csv:Data/4_rayyan/dc_rules_holoclean.txt"
+    "5_tax_10k:tno:rate:Data/5_tax/tax_10k/noise_with_correct_primary_key:Data/5_tax/clean_index_10k.csv:Data/5_tax/dc_rules_holoclean.txt"
+    # "5_tax_50k:tno:rate:Data/5_tax/tax_50k/noise_with_correct_primary_key:Data/5_tax/tax_50k/tax_50k_clean_id.csv:Data/5_tax/dc_rules_holoclean.txt"
+    # "5_tax_200k:tno:rate:Data/5_tax/tax_200k/noise_with_correct_primary_key:Data/5_tax/tax_200k/tax_200k_clean_id.csv:Data/5_tax/dc_rules_holoclean.txt"
+    # "6_soccer:index::Data/6_soccer/noise_with_correct_primary_key:Data/6_soccer/clean_index.csv:Data/6_soccer/dc_rules_holoclean.txt"
 )
 
-# 定义日志文件名列表
-log_files=(
-    # "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_025.log"
-    # "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_050.log"
-    # "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_075.log"
-    # "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_100.log"
-    # "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_125.log"
-    # "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_150.log"
-    # "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_175.log"
-    # "logs/bigdansing_nwcpk/1_hospital_bigdansing_nwcpk_200.log"
-    # "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_025.log"
-    # "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_050.log"
-    # "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_075.log"
-    # "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_100.log"
-    # "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_125.log"
-    # "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_150.log"
-    # "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_175.log"
-    # "logs/bigdansing_nwcpk/2_flights_bigdansing_nwcpk_200.log"
-    # "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_025.log"
-    # "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_050.log"
-    # "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_075.log"
-    # "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_100.log"
-    # "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_125.log"
-    # "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_150.log"
-    # "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_175.log"
-    # "logs/bigdansing_nwcpk/3_beers_bigdansing_nwcpk_200.log"
-    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_025.log"
-    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_050.log"
-    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_075.log"
-    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_100.log"
-    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_125.log"
-    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_150.log"
-    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_175.log"
-    "logs/bigdansing_nwcpk/4_rayyan_bigdansing_nwcpk_200.log"
-)
+# 定义错误比例集合
+error_ratios=("0.25" "0.5" "0.75" "1" "1.25" "1.5" "1.75" "2")
 
 # 创建日志目录
-mkdir -p logs/bigdansing_nwcpk
+log_dir="logs/bigdansing_nwcpk"
+mkdir -p "${log_dir}"
 
+# 遍历数据集和错误比例，生成并执行命令（根据各自的系统进行更改）
+for dataset_config in "${datasets[@]}"; do
+    # 使用分隔符解析键值对
+    IFS=":" read -r dataset index_attr mse_attr noise_dir clean_path rule_path <<< "${dataset_config}"
+    # 从第三个字符开始取数据集名称
+    short_dataset_name="${dataset:2}"
+    for ratio in "${error_ratios[@]}"; do
+        task_name="${dataset}_nwcpk_${ratio//./}"
+        dirty_path="${noise_dir}/dirty_mixed_${ratio}/dirty_${short_dataset_name}_mix_${ratio}.csv"
+        output_path="results/bigdansing/nwcpk"
+        log_file="${log_dir}/${dataset}_bigdansing_nwcpk_${ratio//./}.log"
 
-# 逐条执行bigdansing命令并保存日志
-for i in "${!bigdansing_commands[@]}"; do
-    echo "Running command for task ${i+1}..."
-    echo "${bigdansing_commands[$i]}"
-    ${bigdansing_commands[$i]} &> "${log_files[$i]}"
-    if [ $? -ne 0 ]; then
-        echo "Command failed for task ${i+1}. See ${log_files[$i]} for details."
-        exit 1
-    fi
-    echo "Command for task ${i+1} completed successfully. Output saved to: ${log_files[$i]}"
+        # 生成命令
+        cmd="python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --dirty_path ${dirty_path} --clean_path ${clean_path} --rule_path ${rule_path} --task_name ${task_name} --output_path ${output_path} --index_attribute ${index_attr}"
+
+        if [ -n "${mse_attr}" ]; then
+            cmd+=" --mse_attributes ${mse_attr}"
+        fi
+
+        # 打印命令用于调试
+        echo "Generated command:"
+        echo "${cmd}"
+
+        # 执行命令
+        eval "${cmd}" &> "${log_file}"
+
+        if [ $? -ne 0 ]; then
+            echo "Error: Command failed for task ${task_name}. Check ${log_file} for details."
+            exit 1
+        fi
+        echo "Task ${task_name} completed successfully. Log saved to: ${log_file}"
+    done
 done
 
-echo "All bigdansing tasks completed."
+echo "All Raha Baran tasks completed successfully."

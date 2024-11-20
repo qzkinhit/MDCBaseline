@@ -11,9 +11,10 @@ from dataset.table import Table, Source
 from utils import NULL_REPR
 
 EvalReport = namedtuple('EvalReport', ['precision', 'recall', 'repair_recall',
-    'f1', 'repair_f1', 'detected_errors', 'total_errors', 'correct_repairs',
-    'total_repairs',
-    'total_repairs_grdt', 'total_repairs_grdt_correct', 'total_repairs_grdt_incorrect'])
+                                       'f1', 'repair_f1', 'detected_errors', 'total_errors', 'correct_repairs',
+                                       'total_repairs',
+                                       'total_repairs_grdt', 'total_repairs_grdt_correct',
+                                       'total_repairs_grdt_incorrect'])
 
 errors_template = Template('SELECT count(*) ' \
                            'FROM  "$init_table" as t1, "$grdt_table" as t2 ' \
@@ -102,12 +103,12 @@ class EvalEngine:
         try:
             prec, rec, rep_recall, f1, rep_f1 = self.evaluate_repairs()
             report = "Precision = %.2f, Recall = %.2f, Repairing Recall = %.2f, F1 = %.2f, Repairing F1 = %.2f, Detected Errors = %d, Total Errors = %d, Correct Repairs = %d, Total Repairs = %d, Total Repairs on correct cells (Grdth present) = %d, Total Repairs on incorrect cells (Grdth present) = %d" % (
-                      prec, rec, rep_recall, f1, rep_f1,
-                      self.detected_errors, self.total_errors, self.correct_repairs,
-                      self.total_repairs, self.total_repairs_grdt_correct, self.total_repairs_grdt_incorrect)
+                prec, rec, rep_recall, f1, rep_f1,
+                self.detected_errors, self.total_errors, self.correct_repairs,
+                self.total_repairs, self.total_repairs_grdt_correct, self.total_repairs_grdt_incorrect)
             eval_report = EvalReport(prec, rec, rep_recall, f1, rep_f1, self.detected_errors, self.total_errors,
-                           self.correct_repairs, self.total_repairs, self.total_repairs_grdt,
-                           self.total_repairs_grdt_correct, self.total_repairs_grdt_incorrect)
+                                     self.correct_repairs, self.total_repairs, self.total_repairs_grdt,
+                                     self.total_repairs_grdt_correct, self.total_repairs_grdt_incorrect)
         except Exception as e:
             logging.error("ERROR generating evaluation report %s" % e)
             raise
@@ -154,8 +155,8 @@ class EvalEngine:
           AND  t1.attribute = t3._attribute_
         GROUP BY is_correct
           """.format(AuxTables.cell_domain.name,
-                  AuxTables.inf_values_dom.name,
-                  self.clean_data.name)
+                     AuxTables.inf_values_dom.name,
+                     self.clean_data.name)
         res = self.ds.engine.execute_query(query)
 
         # Memoize the number of repairs on correct cells and incorrect cells.
@@ -173,7 +174,7 @@ class EvalEngine:
         if correct_idx < len(res):
             self.total_repairs_grdt_correct = float(res[correct_idx][1])
         if incorrect_idx < len(res):
-            self.total_repairs_grdt_incorrect =  float(res[incorrect_idx][1])
+            self.total_repairs_grdt_incorrect = float(res[incorrect_idx][1])
         self.total_repairs_grdt = self.total_repairs_grdt_correct + self.total_repairs_grdt_incorrect
 
     def compute_total_errors(self):
@@ -222,7 +223,8 @@ class EvalEngine:
         queries = []
         correct_repairs = 0.0
         for attr in self.ds.get_attributes():
-            query = correct_repairs_template.substitute(init_table=self.ds.raw_data.name, grdt_table=self.clean_data.name,
+            query = correct_repairs_template.substitute(init_table=self.ds.raw_data.name,
+                                                        grdt_table=self.clean_data.name,
                                                         attr=attr, inf_dom=AuxTables.inf_values_dom.name)
             queries.append(query)
         results = self.ds.engine.execute_queries(queries)
@@ -258,74 +260,92 @@ class EvalEngine:
     def compute_f1(self):
         prec = self.compute_precision()
         rec = self.compute_recall()
-        if prec+rec == 0:
+        if prec + rec == 0:
             return 0
-        f1 = 2*(prec*rec)/(prec+rec)
+        f1 = 2 * (prec * rec) / (prec + rec)
         return f1
 
     def compute_repairing_f1(self):
         prec = self.compute_precision()
         rec = self.compute_repairing_recall()
-        if prec+rec == 0:
+        if prec + rec == 0:
             return 0
-        f1 = 2*(prec*rec)/(prec+rec)
+        f1 = 2 * (prec * rec) / (prec + rec)
         return f1
 
-    def export_cleaned_data_to_csv(self, output_path):
+    def export_cleaned_data_to_csv(self, output_path, attribute_list=None, index_col_name="index"):
         """
-        将清洗后的数据查询并转换为行表示，存储到指定的 CSV 文件中。
+        直接将清洗后的数据表导出为 CSV 文件，并支持根据 attribute_list 进行列重排和去重。
 
         :param output_path: 输出 CSV 文件的路径
+        :param attribute_list: 指定列的顺序和保留的列，未指定时按原始顺序导出
+        :param index_col_name: 重命名的索引列名称，默认名称为 "index"
         """
         try:
-            # 查询清洗后的数据
-            query = "SELECT * FROM {}".format(self.clean_data.name)
-            cleaned_data = self.ds.engine.execute_query(query)
+            # 查询清洗后的数据表并按 _tid_ 排序
+            query = "SELECT * FROM {} ORDER BY _tid_".format(self.ds.raw_data.name + '_repaired')
+            # # 查询清洗后的数据表
+            # query = "SELECT * FROM {}".format(self.ds.raw_data.name + '_repaired')
+            data, columns = self.ds.engine.execute_query_with_attribute_list(query)
+            # 使用数据和列名构建 DataFrame
+            cleaned_df = pd.DataFrame(data, columns=columns)
+            # 重命名索引列 _tid_ 为 index_col_name
+            if '_tid_' in cleaned_df.columns:
+                cleaned_df.rename(columns={'_tid_': index_col_name}, inplace=True)
 
-            # 将查询结果转换为 DataFrame
-            cleaned_df = pd.DataFrame(cleaned_data, columns=['_tid_', '_attribute_', '_value_'])
+            # 去掉 attribute_list 中与索引列重复的列
+            if attribute_list and index_col_name in attribute_list:
+                attribute_list = [col for col in attribute_list if col != index_col_name]
 
-            # 使用 pivot 将属性名作为列标题，将值作为列的内容
-            pivot_df = cleaned_df.pivot(index='_tid_', columns='_attribute_', values='_value_')
+            # 如果传入了 attribute_list，按指定顺序和列进行筛选和重排
+            if attribute_list:
+                # 确保所有传入的列都存在于数据中
+                missing_columns = [col for col in attribute_list if col not in cleaned_df.columns]
+                if missing_columns:
+                    raise ValueError(f"属性列 {missing_columns} 在数据中不存在！")
 
-            # 重置列索引，使其变为普通列
-            pivot_df.reset_index(inplace=True)
+                # 重新排列列顺序
+                ordered_columns = [index_col_name] + attribute_list
+                cleaned_df = cleaned_df[ordered_columns]
 
+            # 重设索引，使索引列从 1 开始编号
+            cleaned_df.reset_index(drop=True, inplace=True)
+            cleaned_df[index_col_name] = range(1, len(cleaned_df) + 1)
             # 将 DataFrame 保存为 CSV 文件
-            pivot_df.to_csv(output_path, index=False, encoding='utf-8')
+            cleaned_df.to_csv(output_path, index=False, encoding='utf-8')
 
             logging.info("清洗后的数据已成功保存到 %s", output_path)
         except Exception as e:
             logging.error("保存清洗后的数据时出错: %s", e)
             raise
 
-    def export_cleaned_data_to_csv(self, output_path):
-        """
-        将清洗后的数据查询并转换为行表示，存储到指定的 CSV 文件中。
-
-        :param output_path: 输出 CSV 文件的路径
-        """
-        try:
-            # 查询清洗后的数据
-            query = "SELECT * FROM {}".format(self.clean_data.name)
-            cleaned_data = self.ds.engine.execute_query(query)
-
-            # 将查询结果转换为 DataFrame
-            cleaned_df = pd.DataFrame(cleaned_data, columns=['_tid_', '_attribute_', '_value_'])
-
-            # 使用 pivot 将属性名作为列标题，将值作为列的内容
-            pivot_df = cleaned_df.pivot(index='_tid_', columns='_attribute_', values='_value_')
-
-            # 重置列索引，使其变为普通列
-            pivot_df.reset_index(inplace=True)
-
-            # 将 DataFrame 保存为 CSV 文件
-            pivot_df.to_csv(output_path, index=False, encoding='utf-8')
-
-            logging.info("清洗后的数据已成功保存到 %s", output_path)
-        except Exception as e:
-            logging.error("保存清洗后的数据时出错: %s", e)
-            raise
+    # def export_cleaned_data_to_csv(self, output_path):
+    #     """
+    #     将清洗后的数据查询并转换为行表示，存储到指定的 CSV 文件中。
+    #
+    #     :param output_path: 输出 CSV 文件的路径
+    #     """
+    #     try:
+    #         # 查询清洗后的数据
+    #         query = "SELECT * FROM {}".format(self.clean_data.name)
+    #         cleaned_data = self.ds.engine.execute_query(query)
+    #
+    #         # 将查询结果转换为 DataFrame
+    #         cleaned_df = pd.DataFrame(cleaned_data, columns=['_tid_', '_attribute_', '_value_'])
+    #
+    #         # 使用 pivot 将属性名作为列标题，将值作为列的内容
+    #         pivot_df = cleaned_df.pivot(index='_tid_', columns='_attribute_', values='_value_')
+    #
+    #         # 重置列索引，使其变为普通列
+    #         pivot_df.reset_index(inplace=True)
+    #
+    #         # 将 DataFrame 保存为 CSV 文件
+    #         pivot_df.to_csv(output_path, index=False, encoding='utf-8')
+    #
+    #         logging.info("清洗后的数据已成功保存到 %s", output_path)
+    #     except Exception as e:
+    #         logging.error("保存清洗后的数据时出错: %s", e)
+    #         raise
     def log_weak_label_stats(self):
         query = """
         select
@@ -355,17 +375,17 @@ class EvalEngine:
             wl_eq_infer,
             infer_eq_grdth
         """.format(cell_domain=AuxTables.cell_domain.name,
-                clean_data=self.clean_data.name,
-                dk_cells=AuxTables.dk_cells.name,
-                inf_values_dom=AuxTables.inf_values_dom.name)
+                   clean_data=self.clean_data.name,
+                   dk_cells=AuxTables.dk_cells.name,
+                   inf_values_dom=AuxTables.inf_values_dom.name)
 
         res = self.ds.engine.execute_query(query)
 
         df_stats = pd.DataFrame(res,
-                columns=["is_clean", "cell_status", "is_inferred",
-                    "init = grdth", "init = inferred",
-                    "w. label = init", "w. label = grdth", "w. label = inferred",
-                    "infer = grdth", "count"])
+                                columns=["is_clean", "cell_status", "is_inferred",
+                                         "init = grdth", "init = inferred",
+                                         "w. label = init", "w. label = grdth", "w. label = inferred",
+                                         "infer = grdth", "count"])
         df_stats = df_stats.sort_values(list(df_stats.columns)).reset_index(drop=True)
         logging.debug("weak label statistics:")
         pd.set_option('display.max_columns', None)

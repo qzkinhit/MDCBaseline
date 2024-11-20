@@ -522,8 +522,8 @@ if __name__ == "__main__":
     error_types = ["-outer_error-", "-inner_error-"]
     error_types = ["-inner_outer_error-"]
 
-    # task_names = ['1_hospital', '2_flights', '3_beers', '4_rayyan']
-    task_names = ['1_hospital', '2_flights', '3_beers', '4_rayyan']
+    # task_names = ['1_hospitals', '2_flights', '3_beers', '4_rayyan']
+    task_names = ['1_hospitals', '2_flights', '3_beers', '4_rayyan']
     
     
     method_names = ['bigdansing', 'holistic', 'nadeef', 'mlnclean', 'horizon', 'raha_baran', 'scared', 'holoclean', 'Unified','boostclean']

@@ -12,9 +12,9 @@ def run_big_dansing(task_name, output_path,PERFECTED, ONLYED, rule_path, dirty_p
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--clean_path', type=str, default="../../Data/1_hospital/clean.csv")
-    parser.add_argument('--dirty_path', type=str, default="../../Data/1_hospital/noise/1_hospital-inner_outer_error-30.csv")
-    parser.add_argument('--rule_path', type=str, default="../../Data/1_hospital/dc_rules_dc_holoclean.txt")
+    parser.add_argument('--clean_path', type=str, default="../../Data/1_hospitals/clean.csv")
+    parser.add_argument('--dirty_path', type=str, default="../../Data/1_hospitals/noise/1_hospitals-inner_outer_error-30.csv")
+    parser.add_argument('--rule_path', type=str, default="../../Data/1_hospitals/dc_rules_dc_holoclean.txt")
     parser.add_argument('--task_name', type=str, default="bigdansing_hospital3")
     parser.add_argument('--output_path', type=str,default="../../results/bigdansing/")
     parser.add_argument('--onlyed', type=int, default=0)

@@ -19,11 +19,11 @@ def main():
 
     # 定义命令行参数，default 设为你之前的默认路径
     parser.add_argument('--dirty_path', type=str,
-                        default='../../Data/1_hospital/dirty.csv',
+                        default='../../Data/1_hospitals/dirty.csv',
                         help='Path to the input dirty CSV file.')
-    parser.add_argument('--rule_path', type=str, default='../../Data/1_hospital/dc_rules-validate-fd-horizon.txt',
+    parser.add_argument('--rule_path', type=str, default='../../Data/1_hospitals/dc_rules-validate-fd-horizon.txt',
                         help='Path to the input rule file.')
-    parser.add_argument('--clean_path', type=str, default='../../Data/1_hospital/clean_index.csv',
+    parser.add_argument('--clean_path', type=str, default='../../Data/1_hospitals/clean_index.csv',
                         help='Path to the input clean CSV file.')
     parser.add_argument('--task_name', type=str, default='hospital_test',
                         help='Task name for the cleaning process.')
@@ -68,9 +68,9 @@ def main():
     #res_df = pd.read_csv(args.dirty_path, dtype={'ZipCode': str, 'PhoneNumber': str})
     #res_df = pd.read_csv(args.dirty_path,dtype={'src':str,'flight':str,'sched_dep_time':str,'act_dep_time':str,'sched_arr_time':str,'act_arr_time':str})
     #res_df = pd.read_csv(args.dirty_path, dtype={'brewery_id': str})
-    #res_df = pd.read_csv(args.dirty_path, dtype={'article_jvolumn':str,'article_jissue':str})
+    res_df = pd.read_csv(args.dirty_path, dtype={'article_jvolumn':str,'article_jissue':str})
     #res_df = pd.read_csv(args.dirty_path,dtype={'zip':str})
-    res_df = pd.read_csv(args.dirty_path, dtype={'season': str})
+    #res_df = pd.read_csv(args.dirty_path, dtype={'season': str})
     for i in range(len(res_df)):
         for v in pattern_expressions[i]:
             value_to_assign = pattern_expressions[i][v]
@@ -114,15 +114,15 @@ def main():
     #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
     #                                index_attribute,mse_attributes=['abv','ibu'])
     #rayyan
-    #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
-    #                               index_attribute)
+    results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
+                                   index_attribute)
     #tax
     #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
     #                                index_attribute,mse_attributes=['rate'])
     #soccer
     # 调用函数并计算所有指标
-    results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
-                                    index_attribute=index_attribute, mse_attributes=mse_attributes)
+    #results = calculate_all_metrics(clean_data, dirty_data, cleaned_data, attributes, stra_path, args.task_name,
+    #                                index_attribute=index_attribute, mse_attributes=mse_attributes)
     # 定义输出文件路径
     results_path = os.path.join(stra_path, f"{args.task_name}_total_evaluation.txt")
     # 备份原始的标准输出
