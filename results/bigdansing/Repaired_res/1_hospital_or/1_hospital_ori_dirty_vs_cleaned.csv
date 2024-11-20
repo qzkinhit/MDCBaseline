@@ -55,14 +55,17 @@ HospitalName,4,callahan eye foundation hospital,0
 HospitalName,8,callahan eye foundation hospital,0
 HospitalName,11,helen keller memorial hospital,0
 HospitalName,14,helen keller memorial hospital,0
+HospitalName,23,southeast alabama medical center,southeast alabama medxcal center
 HospitalName,25,southeast alabama medical center,southeast alabama medxcal center
-HospitalName,27,southeast alabama medxcal center,southeast alabama medical center
+HospitalName,27,southeast alabama medxcal center,0
 HospitalName,28,southeast alabama medical center,0
 HospitalName,32,southeast alabama medical center,0
 HospitalName,37,southeast alabama medical center,southeast alabama medxcal center
 HospitalName,43,southeast alabama medical center,0
 HospitalName,45,marshall medical center south,0
 HospitalName,46,marshall medical center south,0
+HospitalName,47,marshall medical center south,0
+HospitalName,51,marshall medical center south,0
 HospitalName,57,marshall medical center south,0
 HospitalName,58,marshall medical center south,0
 HospitalName,61,marshall medical center south,0
@@ -74,6 +77,7 @@ HospitalName,82,eliza coffee memorial hospital,0
 HospitalName,89,eliza coffee memorial hospital,0
 HospitalName,94,eliza coffee memorial hospital,0
 HospitalName,95,mizell memorial hospital,0
+HospitalName,99,mizell memorial hospital,0
 HospitalName,102,mizell memorial hospital,0
 HospitalName,107,mizell memorial hospital,0
 HospitalName,114,mizell memorial hospital,0
@@ -87,8 +91,8 @@ HospitalName,162,hartselle medical center,0
 HospitalName,163,hartselle medical center,0
 HospitalName,165,hartselle medical center,0
 HospitalName,172,marshall medical cenxer norxh,marshall medical center north
-HospitalName,176,marshall medical center north,0
-HospitalName,181,marshall medical center north,marshall medical cenxer norxh
+HospitalName,181,marshall medical center north,0
+HospitalName,183,marshall medical center north,0
 HospitalName,197,st vincents east,0
 HospitalName,208,st vincents east,0
 HospitalName,213,st vincents east,0
@@ -97,6 +101,7 @@ HospitalName,217,st vincents east,0
 HospitalName,218,st vincents east,0
 HospitalName,219,st vincents east,0
 HospitalName,222,dekalb regional medical center,dexalb regional medical center
+HospitalName,233,dekalb regional medical center,dexalb regional medical center
 HospitalName,244,dexalb regional medical center,dekalb regional medical center
 HospitalName,245,southwest alabama medical center,0
 HospitalName,248,southwest alabama medical center,0
@@ -116,8 +121,6 @@ HospitalName,315,stringfellow memorial hospital,0
 HospitalName,317,stringfellow memorial hospital,0
 HospitalName,322,stringfellow memorial hospital,0
 HospitalName,326,stringfellow memorial hospital,0
-HospitalName,333,flowers hospital,floxers hospital
-HospitalName,335,flowers hospital,floxers hospital
 HospitalName,338,floxers hospital,flowers hospital
 HospitalName,341,flowers hospital,floxers hospital
 HospitalName,343,flowers hospital,0
@@ -133,6 +136,7 @@ HospitalName,385,univ ox south alabama medical center,univ of south alabama medi
 HospitalName,386,xniv of soxth alabama medical center,univ of south alabama medical center
 HospitalName,387,univ of south alabama medical center,0
 HospitalName,394,prattville baptist hospital,0
+HospitalName,403,prattville baptist hospital,0
 HospitalName,407,prattville baptist hospital,0
 HospitalName,409,prattville baptist hospital,0
 HospitalName,412,prattville baptist hospital,0
@@ -147,12 +151,16 @@ HospitalName,457,helen keller memorial hospital,0
 HospitalName,472,dale medical center,0
 HospitalName,473,dale medical center,0
 HospitalName,475,dale medical center,0
+HospitalName,478,dale medical center,0
+HospitalName,484,dale medical center,0
 HospitalName,485,dale medical center,0
 HospitalName,486,dale medical center,0
 HospitalName,491,dale medical center,0
 HospitalName,494,cherokee medical center,0
 HospitalName,500,cherokee medical center,0
+HospitalName,505,cherokee medical center,0
 HospitalName,518,baptist medical center south,0
+HospitalName,527,baptist medical center south,baptist medical cexter south
 HospitalName,533,baptist medical cexter south,baptist medical center south
 HospitalName,549,jackson hospital & clinic inc,0
 HospitalName,560,jackson hospital & clinic inc,0
@@ -175,7 +183,10 @@ HospitalName,667,university of alabama hospital,0
 HospitalName,680,university of alabama hospital,0
 HospitalName,686,university of alabama hospital,0
 HospitalName,691,university of alabama hospital,0
+HospitalName,697,community hospital inc,communixy hospixal inc
 HospitalName,698,communitx hospital inc,community hospital inc
+HospitalName,700,community hospital inc,communixy hospixal inc
+HospitalName,702,community hospital inc,0
 HospitalName,705,community hospital inc,0
 HospitalName,711,communixy hospixal inc,community hospital inc
 HospitalName,714,community hospital inc,communitx hospital inc
@@ -188,15 +199,15 @@ HospitalName,751,andalusia regional hospital,andaluxia regional hoxpital
 HospitalName,752,andalusia regional hospital,andaluxia regional hoxpital
 HospitalName,756,andalusia regional hospital,0
 HospitalName,757,andalusia regional hospital,andaluxia regional hoxpital
-HospitalName,759,andaxusia regionax hospitax,andalusia regional hospital
+HospitalName,759,andaxusia regionax hospitax,andaluxia regional hoxpital
 HospitalName,764,andalusia regional hospital,andaluxia regional hoxpital
 HospitalName,766,andaluxia regional hoxpital,andalusia regional hospital
 HospitalName,768,stringfellow memorial hospital,0
 HospitalName,773,stringfellow memorial hospital,0
 HospitalName,778,huntsvxlle hospxtal,huntsville hospital
 HospitalName,781,huntsville hospital,0
-HospitalName,785,huntsville hospital,huntsvxlle hospxtal
 HospitalName,790,huntsville hospital,0
+HospitalName,792,huntsville hospital,0
 HospitalName,794,huntsville hospital,0
 HospitalName,816,gadsden regional medical center,0
 HospitalName,822,gadsden regional medical center,0
@@ -212,17 +223,21 @@ HospitalName,873,marion regional medical center,0
 HospitalName,879,fayette medical center,0
 HospitalName,882,fayette medical center,0
 HospitalName,884,fayette medical center,0
+HospitalName,885,fayette medical center,0
 HospitalName,889,fayette medical center,0
 HospitalName,896,fayette medical center,0
 HospitalName,904,rivxrvixw rxgional mxdical cxntxr,riverview regional medical center
+HospitalName,916,riverview regional medical center,rivxrvixw rxgional mxdical cxntxr
 HospitalName,922,xivexview xegional medical centex,riverview regional medical center
 HospitalName,923,riverview rexional medical center,riverview regional medical center
 HospitalName,924,riverview regional medical center,0
 HospitalName,934,georgiana hospital,0
 HospitalName,939,georgiaxa hospital,georgiana hospital
 HospitalName,946,georgiana hospital,0
+HospitalName,950,georgiana hospital,georgiaxa hospital
 HospitalName,956,medical center enterprise,0
 HospitalName,957,medixal xenter enterprise,medical center enterprise
+HospitalName,961,medical center enterprise,medxcal center enterprxse
 HospitalName,963,medxcal center enterprxse,medical center enterprise
 HospitalName,969,medical center enterprise,medxcal center enterprxse
 HospitalName,988,st vincents bxount,st vincents blount
@@ -260,9 +275,7 @@ City,4,birminghxm,birmingham
 City,8,birmingxam,birmingham
 City,11,sheffxeld,sheffield
 City,57,boxz,boaz
-City,68,boaz,boxz
 City,73,florence,fxorence
-City,78,florence,fxorence
 City,80,fxorence,florence
 City,89,florxncx,florence
 City,94,flxrence,florence
@@ -277,6 +290,7 @@ City,229,fort payxe,fort payne
 City,239,fort payne,0
 City,253,thomasville,0
 City,312,axxistox,anniston
+City,325,anniston,annxston
 City,347,dothan,0
 City,368,winfielx,winfield
 City,416,sylacauga,0
@@ -289,7 +303,6 @@ City,486,xzark,ozark
 City,503,centre,0
 City,514,centre,0
 City,518,montxomery,montgomery
-City,528,montgomery,montxomery
 City,552,montgomery,0
 City,579,vallex,vxlley
 City,591,vxlley,valley
@@ -320,20 +333,24 @@ City,961,enterprxse,enterprise
 City,967,enterprise,0
 City,969,xntxrprisx,enterprise
 City,986,onxonta,oneonta
+State,47,xl,al
 State,51,xl,al
 State,84,xl,al
+State,99,xl,al
 State,120,ax,al
 State,141,ax,al
 State,166,ax,al
 State,183,xl,al
+State,279,xl,al
 State,403,ax,al
+State,478,xl,al
 State,484,xl,al
 State,505,ax,al
+State,560,xl,al
 State,593,ax,al
 State,702,xl,al
 State,765,xl,al
 State,792,xl,al
-State,885,xl,al
 State,887,xl,al
 ZipCode,25,36302,0
 ZipCode,44,36302,0
@@ -358,6 +375,7 @@ ZipCode,333,3x305,36305
 ZipCode,341,x6x05,36305
 ZipCode,351,35205,0
 ZipCode,367,3xx94,35594
+ZipCode,375,35594,3xx94
 ZipCode,376,3xx94,35594
 ZipCode,390,36617,0
 ZipCode,407,3x0x7,36067
@@ -365,7 +383,7 @@ ZipCode,411,36067,0
 ZipCode,421,x5150,35150
 ZipCode,429,3x1x0,35150
 ZipCode,491,x6x60,36360
-ZipCode,493,35960,x5960
+ZipCode,493,35960,0
 ZipCode,500,x5960,35960
 ZipCode,522,36116,0
 ZipCode,537,36116,0
@@ -384,6 +402,7 @@ ZipCode,810,35903,0
 ZipCode,816,x590x,35903
 ZipCode,867,35570,0
 ZipCode,890,35555,0
+ZipCode,920,35901,3590x
 ZipCode,922,35901,0
 ZipCode,924,3590x,35901
 CountyName,68,mxrshxll,marshall
@@ -464,7 +483,7 @@ PhoneNumber,700,334x836541,3342836541
 PhoneNumber,702,3342836541,0
 PhoneNumber,714,33x28365x1,3342836541
 PhoneNumber,752,334xxx8466,3342228466
-PhoneNumber,764,33422284xx,0
+PhoneNumber,764,33422284xx,3342228466
 PhoneNumber,765,3342228466,0
 PhoneNumber,792,2562651000,0
 PhoneNumber,825,2564944xxx,2564944000
@@ -523,11 +542,9 @@ HospitalOwner,219,voluntary nonxprofit x private,voluntary non-profit - private
 HospitalOwner,222,voluntaryxnon-profitx-xchurch,voluntary non-profit - church
 HospitalOwner,239,voxuntary non-profit - church,voluntary non-profit - church
 HospitalOwner,248,governxent - federal,government - federal
-HospitalOwner,279,voluntary non-profit - church,0
 HospitalOwner,314,prxprietary,proprietary
 HospitalOwner,333,proxrietary,proprietary
 HospitalOwner,357,prxprietary,proprietary
-HospitalOwner,403,voluntary non-profit - private,0
 HospitalOwner,450,proxrietary,proprietary
 HospitalOwner,457,gxvernment - hxspital district xr authxrity,government - hospital district or authority
 HospitalOwner,478,government - hospital district or authority,0
@@ -535,18 +552,15 @@ HospitalOwner,484,government - hospital district or authority,0
 HospitalOwner,494,voluntaryxnon-profitx-xprivate,voluntary non-profit - private
 HospitalOwner,505,voluntary non-profit - private,0
 HospitalOwner,527,volxntary non-profit - chxrch,voluntary non-profit - church
-HospitalOwner,560,voluntary non-profit - private,0
 HospitalOwner,573,voluntary non-profit - otxer,voluntary non-profit - other
 HospitalOwner,593,voluntary non-profit - other,0
 HospitalOwner,702,voluntary non-profit - private,0
 HospitalOwner,745,prxprietary,proprietary
-HospitalOwner,765,proprietary,0
 HospitalOwner,785,goverxmext - hospital district or authority,government - hospital district or authority
 HospitalOwner,792,government - hospital district or authority,0
 HospitalOwner,847,voluntaxy non-pxofit - pxivate,voluntary non-profit - private
 HospitalOwner,869,voluxtary xox-profit - private,voluntary non-profit - private
 HospitalOwner,873,voluntaxy non-pxofit - pxivate,voluntary non-profit - private
-HospitalOwner,885,voluntary non-profit - other,0
 HospitalOwner,887,voluntary non-profit - other,0
 EmergencyService,25,yxs,yes
 EmergencyService,44,yex,yes
@@ -594,7 +608,7 @@ Condition,294,surgical infection prevention,0
 Condition,367,pnxumonia,pneumonia
 Condition,370,pnexmonia,pneumonia
 Condition,387,hxart failurx,heart failure
-Condition,401,hxart failurx,heart failure
+Condition,401,hxart failurx,0
 Condition,412,surgical infection prevention,0
 Condition,414,surgical infection prevention,0
 Condition,454,pneumonia,0
@@ -612,8 +626,8 @@ Condition,635,surgical infection prevention,0
 Condition,680,xneumonia,pneumonia
 Condition,696,heart attaxk,heart attack
 Condition,699,hexrt fxilure,heart failure
-Condition,713,surgical infection xrevention,surgical infection prevention
-Condition,717,heartxattack,0
+Condition,713,surgical infection xrevention,0
+Condition,717,heartxattack,heart attack
 Condition,730,pneumonia,0
 Condition,734,suxgical infection pxevention,surgical infection prevention
 Condition,780,heart attack,0
@@ -632,10 +646,7 @@ Condition,965,heart failure,0
 Condition,975,surgical xnfection prevention,surgical infection prevention
 Condition,977,surgical infection prevention,0
 MeasureCode,1,scip-card-2,0
-MeasureCode,23,ami-4,amx-4
 MeasureCode,57,pn-3b,0
-MeasureCode,70,ami-1,amix1
-MeasureCode,74,ami-5,ami-x
 MeasureCode,95,ami-1,0
 MeasureCode,98,axi-4,ami-4
 MeasureCode,102,hfx1,hf-1
@@ -653,13 +664,12 @@ MeasureCode,211,pn-7,0
 MeasureCode,214,scip-inf-2,0
 MeasureCode,220,ami-1,0
 MeasureCode,226,ami-8a,0
-MeasureCode,230,hf-4,hfx4
 MeasureCode,237,scip-card-2,0
 MeasureCode,240,scip-inf-3,0
 MeasureCode,245,ami-1,amix1
-MeasureCode,249,ami-5,ami-x
 MeasureCode,257,pn-3b,0
 MeasureCode,265,scxp-xnf-3,scip-inf-3
+MeasureCode,270,ami-1,amix1
 MeasureCode,280,hf-4,hfx4
 MeasureCode,282,pn-3b,0
 MeasureCode,291,scip-inf-4,0
@@ -667,21 +677,21 @@ MeasureCode,335,pn-2,pn-x
 MeasureCode,347,scip-vte-1,0
 MeasureCode,348,scip-vte-2,0
 MeasureCode,350,amix2,ami-2
-MeasureCode,367,pn-3b,pn-xb
-MeasureCode,370,pn-6,pnx6
 MeasureCode,371,pn-7,0
 MeasureCode,374,scip-inf-2,0
 MeasureCode,381,ami-2,0
+MeasureCode,387,hf-1,xf-1
 MeasureCode,390,hf-4,0
 MeasureCode,392,pn-xb,pn-3b
 MeasureCode,399,hx-1,hf-1
 MeasureCode,401,hf-3,0
 MeasureCode,410,scipxinfx1,scip-inf-1
+MeasureCode,433,hf-1,xf-1
 MeasureCode,435,hf-3,0
+MeasureCode,436,hf-4,hfx4
 MeasureCode,437,pn-2,pn-x
 MeasureCode,438,pn-3b,0
-MeasureCode,439,pn-4,px-4
-MeasureCode,440,pn-5c,pnx5c
+MeasureCode,441,pn-6,pnx6
 MeasureCode,442,pn-7,0
 MeasureCode,443,scip-card-2,0
 MeasureCode,444,scip-inf-1,0
@@ -689,6 +699,7 @@ MeasureCode,445,scip-inf-2,0
 MeasureCode,446,scip-inf-3,0
 MeasureCode,447,scip-inf-4,scip-inx-4
 MeasureCode,448,scip-inf-6,0
+MeasureCode,449,scip-vte-1,scip-vtx-1
 MeasureCode,450,scip-vte-2,0
 MeasureCode,452,ami-2,amix2
 MeasureCode,465,sxip-vte-1,scip-vte-1
@@ -702,10 +713,11 @@ MeasureCode,508,pn-7,0
 MeasureCode,533,pn-7,0
 MeasureCode,542,ami-1,0
 MeasureCode,546,ami-5,0
-MeasureCode,556,pn-5c,pnx5c
+MeasureCode,556,pn-5c,px-5c
 MeasureCode,563,scip-inf-4,0
-MeasureCode,568,ami-2,amix2
+MeasureCode,565,scip-vte-1,scip-vtx-1
 MeasureCode,581,px-5c,pn-5c
+MeasureCode,600,hf-2,hf-x
 MeasureCode,609,scip-card-2,0
 MeasureCode,613,scip-inf-4,0
 MeasureCode,623,ami-8a,0
@@ -719,12 +731,12 @@ MeasureCode,673,ami-8a,0
 MeasureCode,674,xf-1,hf-1
 MeasureCode,677,hfx4,hf-4
 MeasureCode,679,pn-3b,0
-MeasureCode,680,pn-4,px-4
 MeasureCode,692,amix1,ami-1
 MeasureCode,695,amx-4,ami-4
 MeasureCode,706,pn-5c,0
 MeasureCode,707,pn-6,0
 MeasureCode,714,scip-inf-6,0
+MeasureCode,717,ami-1,amix1
 MeasureCode,719,amx-3,ami-3
 MeasureCode,722,ami-7a,0
 MeasureCode,730,px-4,pn-4
@@ -733,9 +745,10 @@ MeasureCode,736,scix-inf-2,scip-inf-2
 MeasureCode,750,hx-2,hf-2
 MeasureCode,761,scip-inf-2,0
 MeasureCode,765,scip-vte-1,0
-MeasureCode,767,cac-1,0
+MeasureCode,767,cac-1,xax-1
 MeasureCode,781,ami-4,0
 MeasureCode,786,hf-2,0
+MeasureCode,788,hf-4,hfx4
 MeasureCode,789,pn-x,pn-2
 MeasureCode,797,scip-inf-2,0
 MeasureCode,803,ami-1,0
@@ -747,16 +760,13 @@ MeasureCode,866,px-4,pn-4
 MeasureCode,870,scip-card-2,0
 MeasureCode,894,pn-7,0
 MeasureCode,916,hf-4,0
-MeasureCode,921,pn-6,pnx6
 MeasureCode,931,amix1,ami-1
-MeasureCode,956,ami-1,amix1
-MeasureCode,975,scip-inf-2,scix-inf-2
 MeasureCode,998,scip-card-2,0
 MeasureName,1,surgery patients who were taking heart drugs caxxed beta bxockers before coming to the hospitax who were kept on the beta bxockers during the period just before and after their surgery,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery
-MeasureName,17,heart failure patients given an evaluation of left ventricular systolic (lvs) function,heaxt failuxe patients given an evaluation of left ventxiculax systolic (lvs) function
 MeasureName,40,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),0
 MeasureName,95,xeart attack patients given aspirin at arrival,heart attack patients given aspirin at arrival
 MeasureName,98,heart attack patients given smoking cessation advice/counseling,0
+MeasureName,99,heart attack patients given beta blocker at discharge,heaxt attack patients given beta blockex at dischaxge
 MeasureName,102,heart failure patients given discharge instructions,0
 MeasureName,109,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,0
 MeasureName,112,surgery patiexts who were takixg heart drugs called beta blockers before comixg to the hospital who were kept ox the beta blockers durixg the period just before axd after their surgery,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery
@@ -829,15 +839,12 @@ MeasureName,815,pneumonia patients whose initial emergency room blood culture wa
 MeasureName,817,pneumonix pxtients given initixl antibiotic(s) within 6 hours after arrivxl,pneumonia patients given initial antibiotic(s) within 6 hours after arrival
 MeasureName,843,pneumonia patients given the most appropriate initial antibiotic(s),0
 MeasureName,866,pneumonia patients given smoking cessation advice/counseling,0
-MeasureName,878,heart attack patients given aspirin at arrival,heart attack patients given aspirin at arrivax
 MeasureName,894,pneumonia patients assessed and given influenza vaxxination,pneumonia patients assessed and given influenza vaccination
 MeasureName,916,hearx failure paxienxs given smoking cessaxion advice/counseling,heart failure patients given smoking cessation advice/counseling
-MeasureName,927,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx
 MeasureName,931,heart attack patients given aspirin at arrival,0
 MeasureName,950,surgery patients who were given the  right kind  of antibiotic to help prevent infection,0
 MeasureName,957,heart attack patients given aspirin at discharge,heart attaxk patients given aspirin at disxharge
 MeasureName,965,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),0
-MeasureName,977,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx
 MeasureName,998,surgery pxtients who were txking hexrt drugs cxlled betx blockers before coming to the hospitxl who were kept on the betx blockers during the period just before xnd xfter their surgery,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery
 Stateavg,57,al_pn-xb,al_pn-3b
 Stateavg,70,al_amx-1,al_ami-1
