@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 读取干净数据子集和脏数据
-clean_data_path = '../Data/5_tax/clean_index_10k.csv'
+clean_data_path = '../Data/5_tax/subset_clean_index_10k.csv'
 dirty_data_path = '../Data/5_tax/dirty_index.csv'
 
 clean_data = pd.read_csv(clean_data_path)
@@ -15,7 +15,7 @@ dirty_data['index'] = dirty_data['index'].astype(str)
 dirty_subset = dirty_data.merge(clean_data[['index']], on='index', how='inner')
 
 # 输出结果到文件
-dirty_subset_path = '../Data/5_tax/dirty_index_10k.csv'
+dirty_subset_path = '../Data/5_tax/subset_dirty_index_10k.csv'
 dirty_subset.to_csv(dirty_subset_path, index=False)
 
 print(f"已提取脏数据的子集，保存到 {dirty_subset_path}")
