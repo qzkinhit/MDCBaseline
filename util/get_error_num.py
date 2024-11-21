@@ -146,12 +146,12 @@ def replace_half_with_clean_value(dirty_df, clean_df, index_column):
     return dirty_df
 # 使用示例,上面的代码不要改动
 if __name__ == '__main__':
-    dirty_df = pd.read_csv('../Data/4_rayyan/noise_with_correct_primary_key/rayyan_0.25/dirty_rayyan_mix_0.25.csv')
-    clean_df = pd.read_csv('../Data/4_rayyan/clean.csv')
+    dirty_df = pd.read_csv('../Data/6_soccer/subset_soccer_10k/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_soccer_mix_0.25.csv')
+    clean_df = pd.read_csv('../Data/6_soccer/subset_soccer_10k/subset_clean_index_10k.csv')
     # replace_half_with_clean_value(dirty_df, clean_df, 'id')
-    inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, 'id')
+    inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, 'index')
     print(f'脏数据和干净数据之间有 {inconsistent_entries_count} 个条目不一致。')
 
-    inconsistent_cells = generate_change_report(dirty_df, clean_df, 'id')
+    inconsistent_cells = generate_change_report(dirty_df, clean_df, 'index',"./change.CSV")
     print(f'脏数据和干净数据之间有 {inconsistent_cells} 个单元格不一致。')
 
