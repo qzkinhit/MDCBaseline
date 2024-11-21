@@ -35,7 +35,7 @@ def countTupleDifference(clean_path, dirty_path):
 
 if __name__ == '__main__':
     # indexData("tax_50k/clean_index_10k.csv", "tax_50k/clean_index_10k.csv")
-    headData("../6_soccer/clean_index.csv", "../6_soccer/clean_index_10k.csv", 10000)
+    headData("../6_soccer/clean_index.csv", "../6_soccer/subset_clean_index_10k.csv", 10000)
     # separateCellChange("tax_200k/dirty_mix_0.5/cellChanges.csv", "tax_200k/dirty_mix_0.5/cell_changes.csv")
     # countCellDifference("tax_200k/tax_200k_clean_id.csv",
     #                     "tax_200k/noise/dirty_mix_0.25/dirty_tax_mix_0.25.csv")
