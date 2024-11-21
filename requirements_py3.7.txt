@@ -1,5 +1,5 @@
 # python 3.7 配置齐全所有baseline系统的环境
-pandas~=0.24.1
+pandas~=1.2.0
 numpy~=1.16.1
 scikit-learn~=0.24.0
 scipy~=1.2.1
