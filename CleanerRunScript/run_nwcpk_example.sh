@@ -1,6 +1,6 @@
 #!/bin/bash
-# 设置可执行权限： chmod +x CleanerRunScript/run_raha_baran/run_nwcpk_example.sh
-# 运行方式：./CleanerRunScript/run_raha_baran/run_nwcpk_example.sh
+# 设置可执行权限： chmod +x CleanerRunScript/run_raha_baran/run_nwcpk.sh
+# 运行方式：./CleanerRunScript/run_raha_baran/run_nwcpk.sh
 
 # 定义数据集配置
 # 解析dataset index_attr mse_attr noise_dir clean_path这几个参数，后续需要，根据你的系统配置自行修改

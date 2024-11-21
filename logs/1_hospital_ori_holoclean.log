@@ -288,4 +288,551 @@
 02:32:01 - [ INFO] - DONE setting up repair model.
 02:32:01 - [DEBUG] - Time to setup repair model: 58.62 secs
 02:32:01 - [ INFO] - training with 6592 training examples (cells)
-  0%|          | 0/10 [00:00<?, ?it/s]
+  0%|          | 0/10 [00:00<?, ?it/s]02:32:10 - [DEBUG] - Epoch 1, cost = 0.434952, acc = 94.42%
+ 10%|█         | 1/10 [00:08<01:15,  8.41s/it]02:32:16 - [DEBUG] - Epoch 2, cost = 0.293480, acc = 94.48%
+ 20%|██        | 2/10 [00:14<01:02,  7.81s/it]02:32:22 - [DEBUG] - Epoch 3, cost = 0.290978, acc = 94.46%
+ 30%|███       | 3/10 [00:20<00:49,  7.11s/it]02:32:27 - [DEBUG] - Epoch 4, cost = 0.290762, acc = 94.46%
+ 40%|████      | 4/10 [00:25<00:39,  6.54s/it]02:32:32 - [DEBUG] - Epoch 5, cost = 0.290699, acc = 94.46%
+ 50%|█████     | 5/10 [00:31<00:31,  6.25s/it]02:32:39 - [DEBUG] - Epoch 6, cost = 0.290670, acc = 94.46%
+ 60%|██████    | 6/10 [00:37<00:25,  6.40s/it]02:32:45 - [DEBUG] - Epoch 7, cost = 0.290655, acc = 94.46%
+ 70%|███████   | 7/10 [00:43<00:18,  6.14s/it]02:32:51 - [DEBUG] - Epoch 8, cost = 0.290647, acc = 94.46%
+ 80%|████████  | 8/10 [00:49<00:12,  6.13s/it]02:32:57 - [DEBUG] - Epoch 9, cost = 0.290643, acc = 94.46%
+ 90%|█████████ | 9/10 [00:55<00:06,  6.05s/it]02:33:03 - [DEBUG] - Epoch 10, cost = 0.290641, acc = 94.46%
+100%|██████████| 10/10 [01:01<00:00,  6.16s/it]
+02:33:03 - [ INFO] - DONE training repair model.
+02:33:03 - [DEBUG] - Time to fit repair model: 65.50 secs
+02:33:03 - [ INFO] - inferring on 11038 examples (cells)
+02:33:04 - [DEBUG] - Time to execute query: 0.29 secs
+02:33:07 - [DEBUG] - Time to create index: 0.00 secs
+02:33:08 - [DEBUG] - Time to create index: 0.00 secs
+02:33:08 - [ INFO] - DONE inferring repairs.
+02:33:08 - [DEBUG] - Time to infer correct cell values: 5.78 secs
+02:33:09 - [DEBUG] - Time to create table: 0.00 secs
+02:33:09 - [DEBUG] - Time to create index: 0.00 secs
+02:33:09 - [DEBUG] - Time to create index: 0.00 secs
+02:33:09 - [ INFO] - DONE collecting the inferred values.
+02:33:09 - [DEBUG] - Time to collect inferred values: 0.08 secs
+02:33:09 - [ INFO] - DONE generating repaired dataset
+02:33:09 - [DEBUG] - Time to store repaired dataset: 0.22 secs
+02:33:09 - [ INFO] - featurizer InitAttrFeaturizer,size 17,max 1.0000,min 1.0000,avg 1.0000,abs_avg 1.0000,weights:
+ProviderNumber 1.0
+HospitalName 1.0
+Address1 1.0
+City 1.0
+State 1.0
+ZipCode 1.0
+CountyName 1.0
+PhoneNumber 1.0
+HospitalType 1.0
+HospitalOwner 1.0
+EmergencyService 1.0
+Condition 1.0
+MeasureCode 1.0
+MeasureName 1.0
+Score 1.0
+Sample 1.0
+Stateavg 1.0
+featurizer OccurAttrFeaturizer,size 289,max 0.6556,min -0.2054,avg 0.1489,abs_avg 0.1574,weights:
+ProviderNumber X ProviderNumber 0.0
+ProviderNumber X HospitalName 0.467
+ProviderNumber X Address1 0.467
+ProviderNumber X City 0.384
+ProviderNumber X State 0.0
+ProviderNumber X ZipCode 0.427
+ProviderNumber X CountyName 0.333
+ProviderNumber X PhoneNumber 0.467
+ProviderNumber X HospitalType 0.002
+ProviderNumber X HospitalOwner 0.061
+ProviderNumber X EmergencyService 0.004
+ProviderNumber X Condition -0.001
+ProviderNumber X MeasureCode -0.003
+ProviderNumber X MeasureName -0.002
+ProviderNumber X Score -0.002
+ProviderNumber X Sample -0.008
+ProviderNumber X Stateavg -0.002
+HospitalName X ProviderNumber 0.328
+HospitalName X HospitalName 0.0
+HospitalName X Address1 0.302
+HospitalName X City 0.266
+HospitalName X State 0.004
+HospitalName X ZipCode 0.307
+HospitalName X CountyName 0.245
+HospitalName X PhoneNumber 0.326
+HospitalName X HospitalType -0.016
+HospitalName X HospitalOwner 0.047
+HospitalName X EmergencyService 0.012
+HospitalName X Condition 0.008
+HospitalName X MeasureCode -0.013
+HospitalName X MeasureName -0.015
+HospitalName X Score -0.014
+HospitalName X Sample -0.033
+HospitalName X Stateavg -0.014
+Address1 X ProviderNumber 0.604
+Address1 X HospitalName 0.581
+Address1 X Address1 -0.0
+Address1 X City 0.484
+Address1 X State 0.001
+Address1 X ZipCode 0.573
+Address1 X CountyName 0.407
+Address1 X PhoneNumber 0.592
+Address1 X HospitalType -0.011
+Address1 X HospitalOwner 0.085
+Address1 X EmergencyService 0.023
+Address1 X Condition 0.009
+Address1 X MeasureCode -0.004
+Address1 X MeasureName -0.012
+Address1 X Score 0.014
+Address1 X Sample 0.025
+Address1 X Stateavg -0.005
+City X ProviderNumber 0.469
+City X HospitalName 0.453
+City X Address1 0.448
+City X City -0.0
+City X State 0.002
+City X ZipCode 0.467
+City X CountyName 0.345
+City X PhoneNumber 0.434
+City X HospitalType -0.003
+City X HospitalOwner 0.087
+City X EmergencyService 0.008
+City X Condition 0.009
+City X MeasureCode -0.009
+City X MeasureName -0.009
+City X Score 0.005
+City X Sample 0.005
+City X Stateavg -0.006
+State X ProviderNumber 0.216
+State X HospitalName 0.197
+State X Address1 0.224
+State X City 0.227
+State X State 0.0
+State X ZipCode 0.223
+State X CountyName 0.224
+State X PhoneNumber 0.234
+State X HospitalType 0.182
+State X HospitalOwner 0.187
+State X EmergencyService 0.184
+State X Condition 0.184
+State X MeasureCode 0.183
+State X MeasureName 0.185
+State X Score 0.146
+State X Sample 0.144
+State X Stateavg 0.2
+ZipCode X ProviderNumber 0.524
+ZipCode X HospitalName 0.509
+ZipCode X Address1 0.524
+ZipCode X City 0.498
+ZipCode X State -0.0
+ZipCode X ZipCode -0.0
+ZipCode X CountyName 0.41
+ZipCode X PhoneNumber 0.524
+ZipCode X HospitalType 0.026
+ZipCode X HospitalOwner 0.065
+ZipCode X EmergencyService 0.018
+ZipCode X Condition 0.014
+ZipCode X MeasureCode 0.005
+ZipCode X MeasureName 0.019
+ZipCode X Score 0.036
+ZipCode X Sample 0.012
+ZipCode X Stateavg 0.003
+CountyName X ProviderNumber 0.513
+CountyName X HospitalName 0.514
+CountyName X Address1 0.502
+CountyName X City 0.465
+CountyName X State -0.002
+CountyName X ZipCode 0.514
+CountyName X CountyName -0.0
+CountyName X PhoneNumber 0.514
+CountyName X HospitalType 0.001
+CountyName X HospitalOwner 0.064
+CountyName X EmergencyService 0.008
+CountyName X Condition 0.007
+CountyName X MeasureCode -0.002
+CountyName X MeasureName -0.001
+CountyName X Score 0.021
+CountyName X Sample -0.018
+CountyName X Stateavg -0.002
+PhoneNumber X ProviderNumber 0.569
+PhoneNumber X HospitalName 0.578
+PhoneNumber X Address1 0.559
+PhoneNumber X City 0.475
+PhoneNumber X State 0.0
+PhoneNumber X ZipCode 0.552
+PhoneNumber X CountyName 0.417
+PhoneNumber X PhoneNumber -0.0
+PhoneNumber X HospitalType 0.024
+PhoneNumber X HospitalOwner 0.077
+PhoneNumber X EmergencyService 0.014
+PhoneNumber X Condition 0.014
+PhoneNumber X MeasureCode -0.0
+PhoneNumber X MeasureName 0.007
+PhoneNumber X Score 0.027
+PhoneNumber X Sample 0.0
+PhoneNumber X Stateavg 0.005
+HospitalType X ProviderNumber 0.204
+HospitalType X HospitalName 0.213
+HospitalType X Address1 0.205
+HospitalType X City 0.203
+HospitalType X State 0.203
+HospitalType X ZipCode 0.204
+HospitalType X CountyName 0.204
+HospitalType X PhoneNumber 0.204
+HospitalType X HospitalType 0.0
+HospitalType X HospitalOwner 0.213
+HospitalType X EmergencyService 0.203
+HospitalType X Condition 0.216
+HospitalType X MeasureCode 0.23
+HospitalType X MeasureName 0.28
+HospitalType X Score 0.177
+HospitalType X Sample 0.209
+HospitalType X Stateavg 0.222
+HospitalOwner X ProviderNumber 0.388
+HospitalOwner X HospitalName 0.389
+HospitalOwner X Address1 0.388
+HospitalOwner X City 0.338
+HospitalOwner X State 0.057
+HospitalOwner X ZipCode 0.352
+HospitalOwner X CountyName 0.289
+HospitalOwner X PhoneNumber 0.384
+HospitalOwner X HospitalType 0.07
+HospitalOwner X HospitalOwner -0.0
+HospitalOwner X EmergencyService 0.079
+HospitalOwner X Condition 0.067
+HospitalOwner X MeasureCode 0.065
+HospitalOwner X MeasureName 0.07
+HospitalOwner X Score 0.071
+HospitalOwner X Sample 0.1
+HospitalOwner X Stateavg 0.062
+EmergencyService X ProviderNumber 0.251
+EmergencyService X HospitalName 0.24
+EmergencyService X Address1 0.246
+EmergencyService X City 0.251
+EmergencyService X State -0.09
+EmergencyService X ZipCode 0.25
+EmergencyService X CountyName 0.246
+EmergencyService X PhoneNumber 0.252
+EmergencyService X HospitalType -0.085
+EmergencyService X HospitalOwner -0.03
+EmergencyService X EmergencyService -0.0
+EmergencyService X Condition -0.071
+EmergencyService X MeasureCode -0.081
+EmergencyService X MeasureName -0.088
+EmergencyService X Score -0.205
+EmergencyService X Sample -0.181
+EmergencyService X Stateavg -0.099
+Condition X ProviderNumber 0.052
+Condition X HospitalName 0.069
+Condition X Address1 0.05
+Condition X City 0.046
+Condition X State 0.044
+Condition X ZipCode 0.046
+Condition X CountyName 0.047
+Condition X PhoneNumber 0.052
+Condition X HospitalType 0.043
+Condition X HospitalOwner 0.047
+Condition X EmergencyService 0.044
+Condition X Condition 0.0
+Condition X MeasureCode 0.404
+Condition X MeasureName 0.402
+Condition X Score 0.036
+Condition X Sample 0.115
+Condition X Stateavg 0.402
+MeasureCode X ProviderNumber 0.004
+MeasureCode X HospitalName 0.027
+MeasureCode X Address1 0.003
+MeasureCode X City 0.004
+MeasureCode X State 0.002
+MeasureCode X ZipCode 0.003
+MeasureCode X CountyName 0.003
+MeasureCode X PhoneNumber 0.007
+MeasureCode X HospitalType 0.002
+MeasureCode X HospitalOwner 0.002
+MeasureCode X EmergencyService 0.002
+MeasureCode X Condition 0.04
+MeasureCode X MeasureCode -0.0
+MeasureCode X MeasureName 0.389
+MeasureCode X Score 0.005
+MeasureCode X Sample 0.059
+MeasureCode X Stateavg 0.389
+MeasureName X ProviderNumber -0.012
+MeasureName X HospitalName 0.008
+MeasureName X Address1 -0.022
+MeasureName X City 0.006
+MeasureName X State 0.013
+MeasureName X ZipCode -0.001
+MeasureName X CountyName -0.017
+MeasureName X PhoneNumber -0.011
+MeasureName X HospitalType 0.012
+MeasureName X HospitalOwner 0.009
+MeasureName X EmergencyService 0.015
+MeasureName X Condition 0.085
+MeasureName X MeasureCode 0.536
+MeasureName X MeasureName 0.0
+MeasureName X Score 0.004
+MeasureName X Sample 0.045
+MeasureName X Stateavg 0.536
+Score X ProviderNumber 0.224
+Score X HospitalName 0.253
+Score X Address1 0.213
+Score X City 0.181
+Score X State 0.006
+Score X ZipCode 0.188
+Score X CountyName 0.177
+Score X PhoneNumber 0.199
+Score X HospitalType 0.03
+Score X HospitalOwner 0.074
+Score X EmergencyService 0.019
+Score X Condition 0.043
+Score X MeasureCode 0.186
+Score X MeasureName 0.192
+Score X Score 0.0
+Score X Sample 0.578
+Score X Stateavg 0.193
+Sample X ProviderNumber 0.357
+Sample X HospitalName 0.371
+Sample X Address1 0.349
+Sample X City 0.315
+Sample X State 0.041
+Sample X ZipCode 0.302
+Sample X CountyName 0.316
+Sample X PhoneNumber 0.33
+Sample X HospitalType 0.095
+Sample X HospitalOwner 0.104
+Sample X EmergencyService 0.051
+Sample X Condition 0.184
+Sample X MeasureCode 0.345
+Sample X MeasureName 0.385
+Sample X Score 0.383
+Sample X Sample 0.0
+Sample X Stateavg 0.385
+Stateavg X ProviderNumber 0.008
+Stateavg X HospitalName 0.012
+Stateavg X Address1 0.001
+Stateavg X City 0.011
+Stateavg X State 0.002
+Stateavg X ZipCode 0.003
+Stateavg X CountyName 0.003
+Stateavg X PhoneNumber 0.014
+Stateavg X HospitalType 0.003
+Stateavg X HospitalOwner 0.002
+Stateavg X EmergencyService 0.002
+Stateavg X Condition 0.059
+Stateavg X MeasureCode 0.656
+Stateavg X MeasureName 0.641
+Stateavg X Score 0.013
+Stateavg X Sample -0.043
+Stateavg X Stateavg 0.0
+featurizer FreqFeaturizer,size 17,max 0.2032,min -0.0905,avg 0.0269,abs_avg 0.0380,weights:
+ProviderNumber 0.0
+HospitalName 0.003
+Address1 0.0
+City 0.0
+State 0.184
+ZipCode -0.001
+CountyName -0.003
+PhoneNumber -0.0
+HospitalType 0.203
+HospitalOwner 0.059
+EmergencyService -0.09
+Condition 0.044
+MeasureCode 0.002
+MeasureName 0.014
+Score 0.003
+Sample 0.038
+Stateavg 0.001
+featurizer ConstraintFeaturizer,size 33,max 0.2461,min -0.2361,avg -0.0729,abs_avg 0.1093,weights:
+fixed pred: t1."ZipCode"<>t2."ZipCode", violation pred: t1."HospitalName"=t2."HospitalName" -0.06
+fixed pred: t1."HospitalName"=t2."HospitalName", violation pred: t1."ZipCode"<>t2."ZipCode" -0.172
+fixed pred: t1."PhoneNumber"<>t2."PhoneNumber", violation pred: t1."HospitalName"=t2."HospitalName" -0.061
+fixed pred: t1."HospitalName"=t2."HospitalName", violation pred: t1."PhoneNumber"<>t2."PhoneNumber" -0.185
+fixed pred: t1."MeasureName"<>t2."MeasureName", violation pred: t1."MeasureCode"=t2."MeasureCode" -0.043
+fixed pred: t1."MeasureCode"=t2."MeasureCode", violation pred: t1."MeasureName"<>t2."MeasureName" -0.236
+fixed pred: t1."Stateavg"<>t2."Stateavg", violation pred: t1."MeasureCode"=t2."MeasureCode" -0.025
+fixed pred: t1."MeasureCode"=t2."MeasureCode", violation pred: t1."Stateavg"<>t2."Stateavg" -0.216
+fixed pred: t1."HospitalName"<>t2."HospitalName", violation pred: t1."ProviderNumber"=t2."ProviderNumber" -0.051
+fixed pred: t1."ProviderNumber"=t2."ProviderNumber", violation pred: t1."HospitalName"<>t2."HospitalName" -0.15
+fixed pred: t1."Condition"<>t2."Condition", violation pred: t1."MeasureCode"=t2."MeasureCode" -0.04
+fixed pred: t1."MeasureCode"=t2."MeasureCode", violation pred: t1."Condition"<>t2."Condition" -0.131
+fixed pred: t1."Address1"<>t2."Address1", violation pred: t1."HospitalName"=t2."HospitalName" -0.039
+fixed pred: t1."HospitalName"=t2."HospitalName", violation pred: t1."Address1"<>t2."Address1" -0.172
+fixed pred: t1."HospitalOwner"<>t2."HospitalOwner", violation pred: t1."HospitalName"=t2."HospitalName" -0.051
+fixed pred: t1."HospitalName"=t2."HospitalName", violation pred: t1."HospitalOwner"<>t2."HospitalOwner" -0.187
+fixed pred: t1."ProviderNumber"<>t2."ProviderNumber", violation pred: t1."HospitalName"=t2."HospitalName" -0.06
+fixed pred: t1."HospitalName"=t2."HospitalName", violation pred: t1."ProviderNumber"<>t2."ProviderNumber" -0.152
+fixed pred: t1."CountyName"<>t2."CountyName", violation pred: t1."City"=t2."City" -0.017
+fixed pred: t1."City"=t2."City", violation pred: t1."CountyName"<>t2."CountyName" -0.158
+fixed pred: t1."EmergencyService"<>t2."EmergencyService", violation pred: t1."ZipCode"=t2."ZipCode" -0.039
+fixed pred: t1."ZipCode"=t2."ZipCode", violation pred: t1."EmergencyService"<>t2."EmergencyService" -0.167
+fixed pred: t1."City"<>t2."City", violation pred: t1."HospitalName"=t2."HospitalName" -0.053
+fixed pred: t1."HospitalName"=t2."HospitalName", violation pred: t1."City"<>t2."City" -0.155
+fixed pred: t1."MeasureCode"<>t2."MeasureCode", violation pred: t1."MeasureName"=t2."MeasureName" -0.043
+fixed pred: t1."MeasureName"=t2."MeasureName", violation pred: t1."MeasureCode"<>t2."MeasureCode" -0.176
+fixed pred: t1."PhoneNumber"=t2."PhoneNumber" AND t1."HospitalOwner"=t2."HospitalOwner" AND t1."State"<>t2."State", violation pred: t1."HospitalName"=t2."HospitalName" 0.117
+fixed pred: t1."HospitalName"=t2."HospitalName" AND t1."HospitalOwner"=t2."HospitalOwner" AND t1."State"<>t2."State", violation pred: t1."PhoneNumber"=t2."PhoneNumber" 0.117
+fixed pred: t1."HospitalName"=t2."HospitalName" AND t1."PhoneNumber"=t2."PhoneNumber" AND t1."State"<>t2."State", violation pred: t1."HospitalOwner"=t2."HospitalOwner" 0.001
+fixed pred: t1."HospitalName"=t2."HospitalName" AND t1."PhoneNumber"=t2."PhoneNumber" AND t1."HospitalOwner"=t2."HospitalOwner", violation pred: t1."State"<>t2."State" -0.108
+fixed pred: t1."MeasureName"=t2."MeasureName" AND t1."HospitalType"<>t2."HospitalType", violation pred: t1."Condition"=t2."Condition" 0.12
+fixed pred: t1."Condition"=t2."Condition" AND t1."HospitalType"<>t2."HospitalType", violation pred: t1."MeasureName"=t2."MeasureName" 0.246
+fixed pred: t1."Condition"=t2."Condition" AND t1."MeasureName"=t2."MeasureName", violation pred: t1."HospitalType"<>t2."HospitalType" -0.057
+
+02:33:09 - [DEBUG] - Time to store featurizer weights: 0.00 secs
+02:33:12 - [DEBUG] - Time to create index: 0.00 secs
+02:33:12 - [DEBUG] - Time to create index: 0.00 secs
+02:33:12 - [ INFO] - DONE Loading clean_index_holoclean.csv
+02:33:12 - [DEBUG] - Time to evaluate repairs: 0.97 secs
+02:33:12 - [DEBUG] - Time to execute query: 0.00 secs
+02:33:12 - [DEBUG] - Time to execute query: 0.00 secs
+02:33:12 - [DEBUG] - Preparing to execute 17 queries.
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'ProviderNumber'   AND t1."ProviderNumber" != t2._value_ with id 0
+02:33:12 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'HospitalName'   AND t1."HospitalName" != t2._value_ with id 1
+02:33:12 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'Address1'   AND t1."Address1" != t2._value_ with id 2
+02:33:12 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'City'   AND t1."City" != t2._value_ with id 3
+02:33:12 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'State'   AND t1."State" != t2._value_ with id 4
+02:33:12 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'ZipCode'   AND t1."ZipCode" != t2._value_ with id 5
+02:33:12 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'CountyName'   AND t1."CountyName" != t2._value_ with id 6
+02:33:12 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'PhoneNumber'   AND t1."PhoneNumber" != t2._value_ with id 7
+02:33:12 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'HospitalType'   AND t1."HospitalType" != t2._value_ with id 8
+02:33:12 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'HospitalOwner'   AND t1."HospitalOwner" != t2._value_ with id 9
+02:33:12 - [DEBUG] - Time to execute query with id 9: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'EmergencyService'   AND t1."EmergencyService" != t2._value_ with id 10
+02:33:12 - [DEBUG] - Time to execute query with id 10: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'Condition'   AND t1."Condition" != t2._value_ with id 11
+02:33:12 - [DEBUG] - Time to execute query with id 11: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'MeasureCode'   AND t1."MeasureCode" != t2._value_ with id 12
+02:33:12 - [DEBUG] - Time to execute query with id 12: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'MeasureName'   AND t1."MeasureName" != t2._value_ with id 13
+02:33:12 - [DEBUG] - Time to execute query with id 13: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'Score'   AND t1."Score" != t2._value_ with id 14
+02:33:12 - [DEBUG] - Time to execute query with id 14: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'Sample'   AND t1."Sample" != t2._value_ with id 15
+02:33:12 - [DEBUG] - Time to execute query with id 15: 0.00 secs
+02:33:12 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "hospital_ori" as t1, "hospital_ori_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'Stateavg'   AND t1."Stateavg" != t2._value_ with id 16
+02:33:12 - [DEBUG] - Time to execute query with id 16: 0.00 secs
+02:33:12 - [DEBUG] - Time to execute 17 queries: 0.02 secs
+02:33:13 - [DEBUG] - Time to execute query: 0.00 secs
+02:33:13 - [DEBUG] - Preparing to execute 17 queries.
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'ProviderNumber'       AND t1."ProviderNumber" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 0
+02:33:13 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'HospitalName'       AND t1."HospitalName" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 1
+02:33:13 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'Address1'       AND t1."Address1" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 2
+02:33:13 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'City'       AND t1."City" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 3
+02:33:13 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'State'       AND t1."State" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 4
+02:33:13 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'ZipCode'       AND t1."ZipCode" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 5
+02:33:13 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'CountyName'       AND t1."CountyName" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 6
+02:33:13 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'PhoneNumber'       AND t1."PhoneNumber" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 7
+02:33:13 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'HospitalType'       AND t1."HospitalType" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 8
+02:33:13 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'HospitalOwner'       AND t1."HospitalOwner" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 9
+02:33:13 - [DEBUG] - Time to execute query with id 9: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'EmergencyService'       AND t1."EmergencyService" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 10
+02:33:13 - [DEBUG] - Time to execute query with id 10: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'Condition'       AND t1."Condition" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 11
+02:33:13 - [DEBUG] - Time to execute query with id 11: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'MeasureCode'       AND t1."MeasureCode" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 12
+02:33:13 - [DEBUG] - Time to execute query with id 12: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'MeasureName'       AND t1."MeasureName" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 13
+02:33:13 - [DEBUG] - Time to execute query with id 13: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'Score'       AND t1."Score" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 14
+02:33:13 - [DEBUG] - Time to execute query with id 14: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'Sample'       AND t1."Sample" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 15
+02:33:13 - [DEBUG] - Time to execute query with id 15: 0.00 secs
+02:33:13 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "hospital_ori" as t1, "hospital_ori_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'Stateavg'       AND t1."Stateavg" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 16
+02:33:13 - [DEBUG] - Time to execute query with id 16: 0.00 secs
+02:33:13 - [DEBUG] - Time to execute 17 queries: 0.02 secs
+02:33:13 - [DEBUG] - Time to execute query: 0.00 secs
+02:33:13 - [DEBUG] - weak label statistics:
+02:33:13 - [DEBUG] -     is_clean  cell_status  is_inferred  init = grdth init = inferred  \
+0   False     0            True         False         False            
+1   False     0            True         False         True             
+2   False     0            True         True          True             
+3   False     1            True         False         False            
+4   False     1            True         False         False            
+5   False     1            True         False         True             
+6   False     1            True         False         True             
+7   False     1            True         True          True             
+8   False     2            True         True          True             
+9   True      0            False        False         None             
+10  True      0            False        True          None             
+11  True      1            False        False         None             
+12  True      1            False        False         None             
+13  True      1            False        True          None             
+14  True      2            False        False         None             
+15  True      2            False        True          None             
+
+    w. label = init  w. label = grdth w. label = inferred infer = grdth  count  
+0   True             False             False               True          38     
+1   True             False             True                False         64     
+2   True             True              True                True          10079  
+3   False            False             False               True          2      
+4   False            True              True                True          192    
+5   False            False             False               False         4      
+6   False            True              False               False         135    
+7   False            False             False               True          136    
+8   True             True              True                True          388    
+9   True             False             None                None          33     
+10  True             True              None                None          4216   
+11  False            False             None                None          1      
+12  False            True              None                None          9      
+13  False            False             None                None          73     
+14  True             False             None                None          31     
+15  True             True              None                None          1372   
+02:33:13 - [ INFO] - Precision = 1.00, Recall = 0.46, Repairing Recall = 0.53, F1 = 0.63, Repairing F1 = 0.70, Detected Errors = 435, Total Errors = 509, Correct Repairs = 232, Total Repairs = 232, Total Repairs on correct cells (Grdth present) = 0, Total Repairs on incorrect cells (Grdth present) = 232
+02:33:13 - [DEBUG] - Time to generate report: 0.07 secs
+02:33:13 - [DEBUG] - Time to execute query: 0.01 secs
+02:33:13 - [WARNING] - 属性列 Address2 在数据中不存在，已新增此列并填充为空值。
+02:33:13 - [WARNING] - 属性列 Address3 在数据中不存在，已新增此列并填充为空值。
+02:33:13 - [ INFO] - 清洗后的数据已成功保存到 results/holoclean/1_hospital_ori/1_hospital_ori_repaired.csv
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/1_hospitals/clean_index_ori_empty.csv
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/1_hospitals/dirty_index_ori_empty.csv
+Running Holoclean with modified dirty file: Data/1_hospitals/dirty_index_holoclean.csv
+转换完成，结果已保存到 Data/1_hospitals/clean_index_holoclean.csv
+Results saved to results/holoclean/1_hospital_ori/1_hospital_ori_repaired.csv
+Holoclean finished in 150.9415888786316 seconds.
+测评性能开始：
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: results/holoclean/1_hospital_ori/1_hospital_ori_repaired_ori_empty.csv
+差异文件已保存到:
+results/holoclean/1_hospital_ori/1_hospital_ori_clean_vs_dirty.csv
+results/holoclean/1_hospital_ori/1_hospital_ori_dirty_vs_cleaned.csv
+results/holoclean/1_hospital_ori/1_hospital_ori_clean_vs_cleaned.csv
+修复错误数据文件已保存到: results/holoclean/1_hospital_ori/1_hospital_ori_repair_errors.csv
+未修复但是应该修复数据文件已保存到: results/holoclean/1_hospital_ori/1_hospital_ori_unrepaired.csv
+修复准确率: 1.0, 修复召回率: 0.45579567779960706, F1值: 0.6261808366641395
+========================================
+EDR 结果已保存到: results/holoclean/1_hospital_ori/1_hospital_ori_edr_evaluation.txt
+错误减少率 (EDR): 0.45579567779960706
+========================================
+混合距离结果已保存到: results/holoclean/1_hospital_ori/1_hospital_ori_hybrid_distance_evaluation.txt
+混合距离 (Hybrid Distance): 0.1522826017545237
+========================================
+R-EDR 结果已保存到: results/holoclean/1_hospital_ori/1_hospital_ori_record_based_edr_evaluation.txt
+基于条目的错误减少率 (R-EDR): 0.43243243243243246
+========================================
+测试结果:
+Accuracy: 1.0
+Recall: 0.45579567779960706
+F1 Score: 0.6261808366641395
+EDR: 0.45579567779960706
+Hybrid Distance: 0.1522826017545237
+R-EDR: 0.43243243243243246
+Time: 150.9415888786316
+Speed: 15.09415888786316 seconds/100 records
+测评结束，详细测评日志见：results/holoclean/1_hospital_ori
