@@ -23,10 +23,10 @@ def transform_csv_file(input_csv: str, output_csv: str):
 
     print(f"转换完成，结果已保存到 {output_csv}")
 
+if __name__ == '__main__':
+    # 模拟测试
+    test_input_csv = r'../Data/4_rayyan/clean_rayyan.csv'
+    test_output_csv = r'../Data/4_rayyan/rayyan_clean_holoclean.csv'
 
-# 模拟测试
-test_input_csv = r'../Data/4_rayyan/clean_rayyan.csv'
-test_output_csv = r'../Data/4_rayyan/rayyan_clean_holoclean.csv'
-
-# 运行函数以处理CSV文件
-transform_csv_file(test_input_csv, test_output_csv)
+    # 运行函数以处理CSV文件
+    transform_csv_file(test_input_csv, test_output_csv)

@@ -3,7 +3,7 @@ import pandas as pd
 import random
 
 
-def inject_missing_values(csv_file, output_file, attributes_error_ratio, missing_value_in_ori_data='empty',missing_value_representation='empty'):
+def inject_missing_values(csv_file, output_file, attributes_error_ratio=None, missing_value_in_ori_data='empty',missing_value_representation='empty'):
     """
     注入空值的错误注入方法，并在注入之前将已有的空值统一替换为指定的表达方式。
 

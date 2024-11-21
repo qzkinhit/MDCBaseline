@@ -3,6 +3,9 @@ import os
 
 # sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import sys
+
+import pandas as pd
+
 # 获取当前脚本所在目录的上级目录路径
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 sys.path.append('../../Cleaner/Holoclean/')
@@ -33,9 +36,9 @@ hc = holoclean.HoloClean(
 ).session
 
 # 2. Load training data and denial constraints.
-hc.load_data('hospitalt2', r'..\..\Data\1_hospital\dirty_index.csv')
+hc.load_data('hospitalt2', r'..\..\Data\1_hospitals\dirty.csv')
 
-hc.load_dcs(r'..\..\Data\1_hospital\dc_rules_dc_holoclean.txt')
+hc.load_dcs(r'..\..\Data\1_hospitals\dc_rules_dc_holoclean.txt')
 hc.ds.set_constraints(hc.get_dcs())
 
 # 3. Detect erroneous cells using these two detectors.
@@ -60,11 +63,19 @@ hc.repair_errors(featurizers)
 #             val_col='correct_val')
 # 5. 评估修复效果，并导出修复后的数据到 CSV
 output_csv_path = r'./1_hospital_repaired_dataset.csv'  # 你想保存的文件路径
+clean_csv_path = r'../../Data/1_hospitals/clean_index.csv'
+# 读取clean数据
+clean_data = pd.read_csv(clean_csv_path)
+
+# 导出数据列表
+clean_data_attributes = clean_data.columns.tolist()
+print(clean_data_attributes)
 eval_report = hc.evaluate(fpath=r'../../Data/1_hospitals/hospitals_clean_holoclean.csv',
             tid_col='tid',
             attr_col='attribute',
             val_col='correct_val',
-            output_csv_path=output_csv_path)
+            output_csv_path=output_csv_path,
+            attrubte_list=clean_data_attributes)
 # eval_report = hc.evaluate(.\..\D
 #     fpath=r'D:\holoclean\Data\1_hospitals\hospitals_clean_holoclean.csv',
 #     tid_col='tid',

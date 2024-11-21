@@ -69,6 +69,31 @@ class DBengine:
         toc = time.clock()
         logging.debug('Time to execute query: %.2f secs', toc-tic)
         return result
+    def execute_query_with_attribute_list(self, query):
+        """
+        Executes a single :param query: using current connection and returns results with column names.
+
+        :param query: (str) SQL query to be executed
+        :return: (tuple) data (list of tuples), column names (list of str)
+        """
+        tic = time.clock()
+        conn = self.engine.connect()
+
+        # 执行查询
+        result = conn.execute(query)
+
+        # 获取所有数据
+        data = result.fetchall()
+
+        # 提取列名
+        columns = result.keys()
+
+        # 关闭连接
+        conn.close()
+        toc = time.clock()
+
+        logging.debug('Time to execute query: %.2f secs', toc - tic)
+        return data, columns
 
     def create_db_table_from_query(self, name, query):
         tic = time.clock()
