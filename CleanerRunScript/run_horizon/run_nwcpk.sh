@@ -5,12 +5,12 @@
 # 定义数据集配置
 # 解析dataset index_attr mse_attr noise_dir clean_path这几个参数，后续需要，根据你的系统配置自行修改
 datasets=(
-    "1_hospitals:index:Score:Data/1_hospitals/noise_with_correct_primary_key:Data/1_hospitals/clean_index.csv:Data/1_hospitals/dc_rules-validate-fd-horizon.txt"
-    "2_flights:index::Data/2_flights/noise_with_correct_primary_key:Data/2_flights/clean_index.csv:Data/2_flights/dc_rules-validate-fd-horizon.txt"
-    "3_beers:id:abv ibu:Data/3_beers/noise_with_correct_primary_key:Data/3_beers/clean.csv:Data/3_beers/dc_rules-validate-fd-horizon.txt"
-    "4_rayyan:index::Data/4_rayyan/noise_with_correct_primary_key:Data/4_rayyan/clean_index.csv:Data/4_rayyan/dc_rules-validate-fd-horizon.txt"
-    "5_tax_10k:tno:rate:Data/5_tax/tax_10k/noise_with_correct_primary_key:Data/5_tax/clean_tno_10k.csv:Data/5_tax/dc_rules-validate-fd-horizon.txt"
-    "6_soccer:index::Data/6_soccer/noise_with_correct_primary_key:Data/6_soccer/clean_index.csv:Data/6_rayyan/dc_rules-validate-fd-horizon.txt"
+    #"1_hospitals:index:Score:Data/1_hospitals/noise_with_correct_primary_key:Data/1_hospitals/clean_index.csv:Data/1_hospitals/dc_rules-validate-fd-horizon.txt"
+    #"2_flights:index::Data/2_flights/noise_with_correct_primary_key:Data/2_flights/clean_index.csv:Data/2_flights/dc_rules-validate-fd-horizon.txt"
+    #"3_beers:id:abv ibu:Data/3_beers/noise_with_correct_primary_key:Data/3_beers/clean.csv:Data/3_beers/dc_rules-validate-fd-horizon.txt"
+    #"4_rayyan:index::Data/4_rayyan/noise_with_correct_primary_key:Data/4_rayyan/clean_index.csv:Data/4_rayyan/dc_rules-validate-fd-horizon.txt"
+    "5_tax:tno:rate:Data/5_tax/subset_tax_10k/noise_with_correct_primary_key:Data/5_tax/subset_tax_10k/subset_tax_10k_clean_index.csv:Data/5_tax/dc_rules-validate-fd-horizon.txt"
+    #"6_soccer:index::Data/6_soccer/noise_with_correct_primary_key:Data/6_soccer/clean_index.csv:Data/6_rayyan/dc_rules-validate-fd-horizon.txt"
 )
 
 # 定义错误比例集合
