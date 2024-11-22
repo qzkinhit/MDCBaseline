@@ -168,35 +168,59 @@ def process_dataset(dataset_name, dirty_path, clean_path, index_column):
     print('-' * 50)
 
 
+def process_dataset_with_noise(dataset_name, noise_level, dirty_path, clean_path, index_column):
+    print(f"Processing dataset: {dataset_name} with noise level: {noise_level}")
+    dirty_df = pd.read_csv(dirty_path)
+    clean_df = pd.read_csv(clean_path)
+
+    inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, index_column)
+    print(f'{dataset_name} (noise {noise_level}): 脏数据和干净数据之间有 {inconsistent_entries_count} 个条目不一致。')
+
+    change_report_path = f"./change_report_{dataset_name}_noise_{noise_level}.csv"
+    inconsistent_cells_count = generate_change_report(dirty_df, clean_df, index_column, change_report_path)
+    print(f'{dataset_name} (noise {noise_level}): 脏数据和干净数据之间有 {inconsistent_cells_count} 个单元格不一致。')
+
+    total_cells = dirty_df.size - len(dirty_df[index_column])
+    total_entries = len(dirty_df)
+    cell_error_rate = inconsistent_cells_count / total_cells
+    entry_error_rate = inconsistent_entries_count / total_entries
+
+    print(f'{dataset_name} (noise {noise_level}): 单元格错误率: {cell_error_rate:.4%}')
+    print(f'{dataset_name} (noise {noise_level}): 条目错误率: {entry_error_rate:.4%}')
+    print('-' * 50)
 if __name__ == '__main__':
-    # datasets = {
-    #     "Hospital": ("../../Data/1_hospitals/dirty_index.csv", "../../Data/1_hospitals/clean_index.csv"),
-    #     "Flights": ("../../Data/2_flights/dirty_index.csv", "../../Data/2_flights/clean_index.csv"),
-    #     "Beers": ("../../Data/3_beers/dirty_index.csv", "../../Data/3_beers/clean_index.csv"),
-    #     "Rayyan": ("../../Data/4_rayyan/dirty_index.csv", "../../Data/4_rayyan/clean_index.csv"),
-    #     "Tax": ("../../Data/5_tax/dirty_index.csv", "../../Data/5_tax/clean_index.csv"),
-    #     "Soccer": ("../../Data/6_soccer/dirty_index.csv", "../../Data/6_soccer/clean_index.csv"),
-    # }
+    index_column = 'index'
     datasets = {
-        "Hospital": "../Data/1_hospitals/noise_with_correct_primary_key/dirty_mixed_{noise_level}/dirty_hospitals_mix_{noise_level}.csv",
-        "Flights": "../Data/2_flights/noise_with_correct_primary_key/dirty_mixed_{noise_level}/dirty_flights_mix_{noise_level}.csv",
-        "Beers": "../Data/3_beers/noise_with_correct_primary_key/dirty_mixed_{noise_level}/dirty_beers_mix_{noise_level}.csv",
-        "Rayyan": "../Data/4_rayyan/noise_with_correct_primary_key/dirty_mixed_{noise_level}/dirty_rayyan_mix_{noise_level}.csv",
-        "Tax": "../Data/5_tax/noise_with_correct_primary_key/dirty_mixed_{noise_level}/dirty_tax_mix_{noise_level}.csv",
-        "Soccer": "../Data/6_soccer/noise_with_correct_primary_key/dirty_mixed_{noise_level}/dirty_soccer_mix_{noise_level}.csv",
+        "Hospital": ("../../Data/1_hospitals/dirty_index.csv", "../../Data/1_hospitals/clean_index.csv"),
+        "Flights": ("../../Data/2_flights/dirty_index.csv", "../../Data/2_flights/clean_index.csv"),
+        "Beers": ("../../Data/3_beers/dirty_index.csv", "../../Data/3_beers/clean_index.csv"),
+        "Rayyan": ("../../Data/4_rayyan/dirty_index.csv", "../../Data/4_rayyan/clean_index.csv"),
+        "Tax": ("../../Data/5_tax/dirty_index.csv", "../../Data/5_tax/clean_index.csv"),
+        "Soccer": ("../../Data/6_soccer/dirty_index.csv", "../../Data/6_soccer/clean_index.csv"),
+    }
+    for dataset_name, (dirty_path, clean_path) in datasets.items():
+        process_dataset(dataset_name, dirty_path, clean_path, index_column)
+    datasets = {
+        "Hospital": "../../Data/1_hospitals/noise_with_correct_primary_key/dirty_mixed_{noise_level}/dirty_hospitals_mix_{noise_level}.csv",
+        "Flights": "../../Data/2_flights/noise_with_correct_primary_key/dirty_mixed_{noise_level}/dirty_flights_mix_{noise_level}.csv",
+        "Beers": "../../Data/3_beers/noise_with_correct_primary_key/dirty_mixed_{noise_level}/dirty_beers_mix_{noise_level}.csv",
+        "Rayyan": "../../Data/4_rayyan/noise_with_correct_primary_key/dirty_mixed_{noise_level}/dirty_rayyan_mix_{noise_level}.csv",
+        "Tax": "../../Data/5_tax/noise_with_correct_primary_key/dirty_mixed_{noise_level}/dirty_tax_mix_{noise_level}.csv",
+        "Soccer": "../../Data/6_soccer/noise_with_correct_primary_key/dirty_mixed_{noise_level}/dirty_soccer_mix_{noise_level}.csv",
     }
 
     clean_data_paths = {
-        "Hospital": "../Data/1_hospitals/clean_index.csv",
-        "Flights": "../Data/2_flights/clean_index.csv",
-        "Beers": "../Data/3_beers/clean_index.csv",
-        "Rayyan": "../Data/4_rayyan/clean_index.csv",
-        "Tax": "../Data/5_tax/clean_index.csv",
-        "Soccer": "../Data/6_soccer/clean_index.csv",
+        "Hospital": "../../Data/1_hospitals/clean_index.csv",
+        "Flights": "../../Data/2_flights/clean_index.csv",
+        "Beers": "../../Data/3_beers/clean_index.csv",
+        "Rayyan": "../../Data/4_rayyan/clean_index.csv",
+        "Tax": "../../Data/5_tax/tax_200k_clean_index.csv",
+        "Soccer": "../../Data/6_soccer/clean_index.csv",
     }
 
-    noise_levels = [0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0]
-    index_column = 'index'
-
-    for dataset_name, (dirty_path, clean_path) in datasets.items():
-        process_dataset(dataset_name, dirty_path, clean_path, index_column)
+    noise_levels = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]
+    for dataset_name, dirty_path_template in datasets.items():
+        clean_path = clean_data_paths[dataset_name]
+        for noise_level in noise_levels:
+            dirty_path = dirty_path_template.format(noise_level=noise_level)
+            process_dataset_with_noise(dataset_name, noise_level, dirty_path, clean_path, index_column)

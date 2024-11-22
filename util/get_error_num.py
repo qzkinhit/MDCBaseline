@@ -170,15 +170,15 @@ def process_dataset(dataset_name, dirty_path, clean_path, index_column):
 
 if __name__ == '__main__':
     datasets = {
-        "Hospital": ("../Data/1_hospitals/dirty_index.csv", "../Data/1_hospitals/clean_index.csv"),
-        "Flights": ("../Data/2_flights/dirty_index.csv", "../Data/2_flights/clean_index.csv"),
-        "Beers": ("../Data/3_beers/dirty_index.csv", "../Data/3_beers/clean_index.csv"),
-        "Rayyan": ("../Data/4_rayyan/dirty_index.csv", "../Data/4_rayyan/clean_index.csv"),
-        "Tax": ("../Data/5_tax/dirty_index.csv", "../Data/5_tax/clean_index.csv"),
-        "Soccer": ("../Data/6_soccer/dirty_index.csv", "../Data/6_soccer/clean_index.csv"),
+        # "Hospital": ("../Data/1_hospitals/dirty_index.csv", "../Data/1_hospitals/clean_index.csv"),
+        # "Flights": ("../Data/2_flights/dirty_index.csv", "../Data/2_flights/clean_index.csv"),
+        # "Beers": ("../Data/3_beers/dirty_index.csv", "../Data/3_beers/clean_index.csv"),
+        "Rayyan": ("../Data/4_rayyan/noise_with_correct_primary_key/dirty_mixed_1.25/dirty_rayyan.csv", "../Data/4_rayyan/clean_index.csv"),
+        # "Tax": ("../Data/5_tax/dirty_index.csv", "../Data/5_tax/clean_index.csv"),
+        # "Soccer": ("../Data/6_soccer/dirty_index.csv", "../Data/6_soccer/clean_index.csv"),
     }
 
-    index_column = 'index'
+    index_column = 'id'
 
     for dataset_name, (dirty_path, clean_path) in datasets.items():
         process_dataset(dataset_name, dirty_path, clean_path, index_column)
