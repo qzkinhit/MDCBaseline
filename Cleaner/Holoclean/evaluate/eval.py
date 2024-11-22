@@ -273,13 +273,14 @@ class EvalEngine:
         f1 = 2 * (prec * rec) / (prec + rec)
         return f1
 
-    def export_cleaned_data_to_csv(self, output_path, attribute_list=None, index_col_name="index"):
+    def export_cleaned_data_to_csv(self, output_path, attribute_list=None, index_col_name="index", index_col='id'):
         """
         直接将清洗后的数据表导出为 CSV 文件，并支持根据 attribute_list 进行列重排和去重。
 
         :param output_path: 输出 CSV 文件的路径
         :param attribute_list: 指定列的顺序和保留的列，未指定时按原始顺序导出
         :param index_col_name: 重命名的索引列名称，默认名称为 "index"
+        :param index_col: 数据中表示索引的列名称，默认名称为 "id"
         """
         try:
             # 查询清洗后的数据表并按 _tid_ 排序
@@ -287,9 +288,12 @@ class EvalEngine:
             data, columns = self.ds.engine.execute_query_with_attribute_list(query)
             # 使用数据和列名构建 DataFrame
             cleaned_df = pd.DataFrame(data, columns=columns)
-            # 重命名索引列 _tid_ 为 index_col_name
-            if '_tid_' in cleaned_df.columns:
-                cleaned_df.rename(columns={'_tid_': index_col_name}, inplace=True)
+
+            # 如果索引列存在，则重命名为 index_col_name
+            if index_col in cleaned_df.columns:
+                cleaned_df.rename(columns={index_col: index_col_name}, inplace=True)
+            else:
+                logging.warning(f"索引列 {index_col} 在数据中不存在，无法重命名为 {index_col_name}。")
 
             # 去掉 attribute_list 中与索引列重复的列
             if attribute_list and index_col_name in attribute_list:
@@ -307,9 +311,6 @@ class EvalEngine:
                 ordered_columns = [index_col_name] + attribute_list
                 cleaned_df = cleaned_df[ordered_columns]
 
-            # 重设索引，使索引列从 1 开始编号
-            cleaned_df.reset_index(drop=True, inplace=True)
-            cleaned_df[index_col_name] = range(1, len(cleaned_df) + 1)
             # 将 DataFrame 保存为 CSV 文件
             cleaned_df.to_csv(output_path, index=False, encoding='utf-8')
 
