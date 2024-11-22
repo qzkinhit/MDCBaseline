@@ -121,10 +121,6 @@ def calculate_accuracy_and_recall(clean, dirty, cleaned, attributes, output_path
     :param relax: 是否忽略大小写
     :return: 修复准确率和召回率
     """
-    import os
-    import sys
-    import pandas as pd
-
     os.makedirs(output_path, exist_ok=True)
 
     # 定义输出文件路径
