@@ -364,7 +364,7 @@ class Session:
     #     logging.info(status)
     #     logging.debug('Time to generate report: %.2f secs', report_time)
     #     return eval_report
-    def evaluate(self, fpath, tid_col, attr_col, val_col, na_values=None, output_csv_path=None,attrubte_list=None):
+    def evaluate(self, fpath, tid_col, attr_col, val_col, na_values=None, output_csv_path=None,attrubte_list=None,index_col='id'):
         """
         evaluate generates an evaluation report with metrics (e.g. precision,
         recall) given a test set.
@@ -386,6 +386,6 @@ class Session:
         logging.debug('Time to generate report: %.2f secs', report_time)
 
         if output_csv_path:
-            self.eval_engine.export_cleaned_data_to_csv(output_csv_path,attrubte_list)
+            self.eval_engine.export_cleaned_data_to_csv(output_csv_path,attrubte_list,index_col=index_col)
 
         return eval_report
