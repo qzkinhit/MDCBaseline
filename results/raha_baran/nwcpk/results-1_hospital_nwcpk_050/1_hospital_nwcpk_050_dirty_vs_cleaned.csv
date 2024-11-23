@@ -1,0 +1,39 @@
+Attribute,Index,Dirty Value,Cleaned Value
+Address1,251,33m700 highway 43,33700 highway 43
+Address1,368,1530k u s highway 43,1530 u s highway 43
+City,465,shefftield,sheffield
+City,466,shefield,anniston
+PhoneNumber,39,334793n8701,3347938701
+PhoneNumber,465,2563864565,2563864556
+PhoneNumber,466,5263864556,2563864556
+PhoneNumber,536,334882100,3342882100
+PhoneNumber,900,20593v25966,2059325966
+HospitalOwner,5,empty,voluntary non-profit - private
+HospitalOwner,337,empty,proprietary
+HospitalOwner,339,prorpietary,proprietary
+HospitalOwner,356,proprietray,proprietary
+HospitalOwner,392,empty,government - state
+HospitalOwner,465,government - hospital district or auhtority,government - hospital district or authority
+HospitalOwner,466,government - hospital district or authoritsy,government - hospital district or authority
+HospitalOwner,485,empty,government - hospital district or authority
+HospitalOwner,493,voluntary non-profit  private,voluntary non-profit - private
+HospitalOwner,557,empty,voluntary non-profit - private
+HospitalOwner,665,government - local,government - hospital district or authority
+HospitalOwner,909,poprietary,proprietary
+HospitalOwner,954,voluntary noon-profit - private,voluntary non-profit - private
+Condition,77,heartfailure,heart attack
+Condition,94,surgical infection preveniton,heart attack
+Condition,376,surgical infection prevetnion,heart attack
+Condition,410,surgical infexction prevention,surgical infection prevention
+Condition,444,surgical infection prjevention,surgical infection prevention
+Condition,485,surgical infection preventino,pneumonia
+Condition,510,surgical infection preventionn,heart attack
+MeasureName,45,heart attack aptients given aspirin at arrival,heart attack patients given aspirin at arrival
+MeasureName,256,pneumonia patients assessed and give pneumococcal vaccination,pneumonia patients assessed and given pneumococcal vaccination
+MeasureName,275,heart attack patisents given fibrinolytic medication within 30 minutes of arrival,heart attack patients given fibrinolytic medication within 30 minutes of arrival
+MeasureName,322,heart failure patients given anr evaluation of left ventricular systolic (lvs) function,heart failure patients given an evaluation of left ventricular systolic (lvs) function
+MeasureName,380,heart attack patietns given aspirin at arrival,heart attack patients given aspirin at arrival
+MeasureName,391,pneumonia patients assessedand given pneumococcal vaccination,pneumonia patients assessed and given pneumococcal vaccination
+MeasureName,399,heart failure patients given discharge instructiovns,heart failure patients given discharge instructions
+MeasureName,517,heart attack patients fgiven aspirin at arrival,heart attack patients given aspirin at arrival
+MeasureName,995,pneumonia patients given initial antibiotic(s) within 6 hours after rarival,pneumonia patients given initial antibiotic(s) within 6 hours after arrival
