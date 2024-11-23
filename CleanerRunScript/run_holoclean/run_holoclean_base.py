@@ -71,7 +71,7 @@ def main():
     dirty_data = pd.read_csv(ori_empty_dirty_path)
     if index_attribute in dirty_data.columns:  # 确保 'index' 列存在
         # dirty_data.rename(columns={index_attribute: 'index_col'}, inplace=True)
-        dirty_data.drop(columns=['index'], inplace=True)
+        dirty_data.drop(columns=[index_attribute], inplace=True)
     else:
         print(index_attribute + " attribute not found in the data. Skipping replacement.")
     # 生成新的文件路径

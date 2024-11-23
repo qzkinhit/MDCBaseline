@@ -1,5 +1,5 @@
 没有指定错误比例，仅进行原数据集的空值替换，不添加错误
-已将注入错误的文件保存到: Data/5_tax/subset_tax_5k/subset_tax_5k_clean_index_ori_empty.csv
+已将注入错误的文件保存到: Data/5_tax/subset_tax_10k/subset_tax_10k_clean_index_ori_empty.csv
 Traceback (most recent call last):
   File "CleanerRunScript/run_holoclean/run_holoclean_base.py", line 200, in <module>
     main()
@@ -19,4 +19,4 @@ Traceback (most recent call last):
     self._reader = parsers.TextReader(src, **kwds)
   File "pandas/_libs/parsers.pyx", line 387, in pandas._libs.parsers.TextReader.__cinit__
   File "pandas/_libs/parsers.pyx", line 705, in pandas._libs.parsers.TextReader._setup_parser_source
-FileNotFoundError: [Errno 2] File b'Data/5_tax/subset_tax_5k/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_tax_10k_mix_0.25.csv' does not exist: b'Data/5_tax/subset_tax_5k/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_tax_10k_mix_0.25.csv'
+FileNotFoundError: [Errno 2] File b'Data/5_tax/subset_tax_10k/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_tax_10k_mix_0.25.csv' does not exist: b'Data/5_tax/subset_tax_10k/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_tax_10k_mix_0.25.csv'
