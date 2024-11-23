@@ -2,7 +2,7 @@ Attribute: index, MSE: nan, Jaccard: 0.0
 Attribute: src, MSE: nan, Jaccard: 0.0
 Attribute: flight, MSE: nan, Jaccard: 0.0
 Attribute: sched_dep_time, MSE: nan, Jaccard: 0.01885817618186514
-Attribute: act_dep_time, MSE: nan, Jaccard: 0.8423816083819522
-Attribute: sched_arr_time, MSE: nan, Jaccard: 0.09196540797721542
-Attribute: act_arr_time, MSE: nan, Jaccard: 0.7079417101794045
-加权混合距离: 0.11865335019431696
+Attribute: act_dep_time, MSE: nan, Jaccard: 0.8562847148738624
+Attribute: sched_arr_time, MSE: nan, Jaccard: 0.10890299044446117
+Attribute: act_arr_time, MSE: nan, Jaccard: 0.7390860007680011
+加权混合距离: 0.12308084873344213
