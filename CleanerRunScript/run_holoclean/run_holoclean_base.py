@@ -67,13 +67,13 @@ def main():
         missing_value_representation='',
         attributes_error_ratio=None
     )
-    # 读取脏数据，去除索引列并保存
+    # 读取脏数据，重命名索引列为 index_col 并保存
     dirty_data = pd.read_csv(ori_empty_dirty_path)
     if index_attribute in dirty_data.columns:  # 确保 'index' 列存在
-        dirty_data.drop(columns=['index'], inplace=True)
+        # dirty_data.rename(columns={index_attribute: 'index_col'}, inplace=True)
+        dirty_data.drop(columns=[index_attribute], inplace=True)
     else:
-        print(index_attribute+"attribute not found in the data. Skipping replacement.")
-
+        print(index_attribute + " attribute not found in the data. Skipping replacement.")
     # 生成新的文件路径
     dirty_holoclean_path = os.path.splitext(args.dirty_path)[0] + "_holoclean.csv"
     dirty_data.to_csv(dirty_holoclean_path, index=False, encoding='utf-8')
@@ -139,7 +139,9 @@ def main():
         attr_col='attribute',
         val_col='correct_val',
         output_csv_path=res_path,  # 保存修复后的数据
-        attrubte_list=clean_data_attributes  # 按 clean 数据的列顺序导出
+        attrubte_list=clean_data_attributes,  # 按 clean 数据的列顺序导出
+        clean_data=clean_data,
+        index_attribute=index_attribute
     )
 
     print(f"Results saved to {res_path}")
