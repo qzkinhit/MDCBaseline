@@ -144,41 +144,14 @@ def replace_half_with_clean_value(dirty_df, clean_df, index_column):
     # 将结果保存为CSV文件
     dirty_df.to_csv(r"./dirty_df.csv", index=False)
     return dirty_df
-
-
-def process_dataset(dataset_name, dirty_path, clean_path, index_column):
-    print(f"Processing dataset: {dataset_name}")
-    dirty_df = pd.read_csv(dirty_path)
-    clean_df = pd.read_csv(clean_path)
-
-    inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, index_column)
-    print(f'{dataset_name}: 脏数据和干净数据之间有 {inconsistent_entries_count} 个条目不一致。')
-
-    change_report_path = f"./change_report_{dataset_name}.csv"
-    inconsistent_cells_count = generate_change_report(dirty_df, clean_df, index_column, change_report_path)
-    print(f'{dataset_name}: 脏数据和干净数据之间有 {inconsistent_cells_count} 个单元格不一致。')
-
-    total_cells = dirty_df.size - len(dirty_df[index_column])
-    total_entries = len(dirty_df)
-    cell_error_rate = inconsistent_cells_count / total_cells
-    entry_error_rate = inconsistent_entries_count / total_entries
-
-    print(f'{dataset_name}: 单元格错误率: {cell_error_rate:.4%}')
-    print(f'{dataset_name}: 条目错误率: {entry_error_rate:.4%}')
-    print('-' * 50)
-
-
+# 使用示例,上面的代码不要改动
 if __name__ == '__main__':
-    datasets = {
-        # "Hospital": ("../Data/1_hospitals/dirty_index.csv", "../Data/1_hospitals/clean_index.csv"),
-        # "Flights": ("../Data/2_flights/dirty_index.csv", "../Data/2_flights/clean_index.csv"),
-        # "Beers": ("../Data/3_beers/dirty_index.csv", "../Data/3_beers/clean_index.csv"),
-        "Rayyan": ("../Data/4_rayyan/noise_with_correct_primary_key/dirty_mixed_1.25/dirty_rayyan.csv", "../Data/4_rayyan/clean_index.csv"),
-        # "Tax": ("../Data/5_tax/dirty_index.csv", "../Data/5_tax/clean_index.csv"),
-        # "Soccer": ("../Data/6_soccer/dirty_index.csv", "../Data/6_soccer/clean_index.csv"),
-    }
+    dirty_df = pd.read_csv('../Data/6_soccer/subset_soccer_10k/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_soccer_mix_0.25.csv')
+    clean_df = pd.read_csv('../Data/6_soccer/subset_soccer_10k/subset_clean_index_10k.csv')
+    # replace_half_with_clean_value(dirty_df, clean_df, 'id')
+    inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, 'index')
+    print(f'脏数据和干净数据之间有 {inconsistent_entries_count} 个条目不一致。')
 
-    index_column = 'id'
+    inconsistent_cells = generate_change_report(dirty_df, clean_df, 'index',"./change.CSV")
+    print(f'脏数据和干净数据之间有 {inconsistent_cells} 个单元格不一致。')
 
-    for dataset_name, (dirty_path, clean_path) in datasets.items():
-        process_dataset(dataset_name, dirty_path, clean_path, index_column)

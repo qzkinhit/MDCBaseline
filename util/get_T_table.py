@@ -25,8 +25,8 @@ def transform_csv_file(input_csv: str, output_csv: str):
 
 if __name__ == '__main__':
     # 模拟测试
-    test_input_csv = r'../Data/5_tax/subset_clean_index_10k_ori_empty.csv'
-    test_output_csv = r'1.csv'
+    test_input_csv = r'../Data/4_rayyan/clean_rayyan.csv'
+    test_output_csv = r'../Data/4_rayyan/rayyan_clean_holoclean.csv'
 
     # 运行函数以处理CSV文件
     transform_csv_file(test_input_csv, test_output_csv)

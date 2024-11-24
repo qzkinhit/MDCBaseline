@@ -1,1437 +1,364 @@
 Attribute,Index,Clean Value,Dirty Value
-beer_name,1535,Kentucky K?lsch,Kentucky Kölsch
-beer_name,1738,"the Kimmie, the Yink and the Holy Gose",the Kimmie the Yink and the Holy Gose
-beer_name,1640,Aslan K?lsch,Aslan Kölsch
-beer_name,1408,K?lsch 151,Kölsch 151
-beer_name,2204,Post Time K?lsch,Post Time Kölsch
-beer_name,1802,"You're My Boy, Blue",You're My Boy Blue
-beer_name,2654,32°/50° K?lsch,32°/50° Kölsch
-beer_name,129,Heiner Brau K?lsch,Heiner Brau Kölsch
-beer_name,1804,Mj?llnir,Mjöllnir
-beer_name,1452,Laimas K?lsch Style Ale,Laimas Kölsch Style Ale
-beer_name,2309,Sunbru K?lsch,Sunbru Kölsch
-beer_name,178,Sunbru K?lsch,Sunbru Kölsch
-beer_name,1034,Cabrillo K?lsch,Cabrillo Kölsch
-beer_name,2142,Screamin??Pumpkin,Screamin�?Pumpkin
-beer_name,1615,The 12th Can??American Pale Ale (APA),The 12th Can�?American Pale Ale (APA)
-beer_name,195,Lancaster German Style K?lsch,Lancaster German Style Kölsch
-beer_name,1081,Occidental K?lsch,Occidental Kölsch
-beer_name,1796,The CROWLER??,The CROWLER�?
-beer_name,1087,Side Kick K?lsch,Side Kick Kölsch
-beer_name,1760,GreyBeard??IPA,GreyBeard�?IPA
-beer_name,92,Colorado K?lsch,Colorado Kölsch
-beer_name,105,K?ld Lager (2010),Köld Lager (2010)
-beer_name,936,Loafin Br?u,Loafin Bräu
-style,2217,K?lsch,Kölsch
-style,1535,K?lsch,Kölsch
-style,550,K?lsch,Kölsch
-style,1640,K?lsch,Kölsch
-style,1579,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1401,K?lsch,Kölsch
-style,1408,K?lsch,Kölsch
-style,1613,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1281,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,2204,K?lsch,Kölsch
-style,2654,K?lsch,Kölsch
-style,427,K?lsch,Kölsch
-style,2210,nan,empty
-style,2055,K?lsch,Kölsch
-style,2019,K?lsch,Kölsch
-style,2079,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,2011,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,2438,K?lsch,Kölsch
-style,129,K?lsch,Kölsch
-style,681,K?lsch,Kölsch
-style,1311,K?lsch,Kölsch
-style,1452,K?lsch,Kölsch
-style,1968,K?lsch,Kölsch
-style,2659,K?lsch,Kölsch
-style,2309,K?lsch,Kölsch
-style,1635,nan,empty
-style,178,K?lsch,Kölsch
-style,2527,nan,empty
-style,1300,K?lsch,Kölsch
-style,1034,K?lsch,Kölsch
-style,930,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,539,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,2461,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1567,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1380,K?lsch,Kölsch
-style,1313,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,769,K?lsch,Kölsch
-style,192,K?lsch,Kölsch
-style,989,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,2383,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1458,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1235,K?lsch,Kölsch
-style,195,K?lsch,Kölsch
-style,475,K?lsch,Kölsch
-style,1816,K?lsch,Kölsch
-style,1626,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,2662,K?lsch,Kölsch
-style,1617,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,314,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1081,K?lsch,Kölsch
-style,1790,nan,empty
-style,696,K?lsch,Kölsch
-style,1087,K?lsch,Kölsch
-style,417,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1992,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,2373,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1552,K?lsch,Kölsch
-style,1864,K?lsch,Kölsch
-style,1995,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,307,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,166,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1798,K?lsch,Kölsch
-style,1482,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1969,K?lsch,Kölsch
-style,369,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,92,K?lsch,Kölsch
-style,1357,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,650,K?lsch,Kölsch
-style,456,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1410,K?lsch,Kölsch
-style,874,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,526,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,2035,K?lsch,Kölsch
-style,1042,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1645,M?rzen / Oktoberfest,Märzen / Oktoberfest
-style,1514,K?lsch,Kölsch
-ounces,1796,nan,empty
-abv,1541,nan,empty
-abv,1025,nan,empty
-abv,2490,nan,empty
-abv,2489,nan,empty
-abv,2488,nan,empty
-abv,2487,nan,empty
-abv,2382,nan,empty
-abv,2381,nan,empty
-abv,1096,nan,empty
-abv,1095,nan,empty
-abv,504,nan,empty
-abv,870,nan,empty
-abv,869,nan,empty
-abv,868,nan,empty
-abv,867,nan,empty
-abv,61,nan,empty
-abv,2210,nan,empty
-abv,1163,nan,empty
-abv,940,nan,empty
-abv,731,nan,empty
-abv,944,nan,empty
-abv,524,nan,empty
-abv,450,nan,empty
-abv,449,nan,empty
-abv,448,nan,empty
-abv,447,nan,empty
-abv,446,nan,empty
-abv,520,nan,empty
-abv,2322,nan,empty
-abv,142,nan,empty
-abv,506,nan,empty
-abv,1784,nan,empty
-abv,2595,nan,empty
-abv,2472,nan,empty
-abv,779,nan,empty
-abv,364,nan,empty
-abv,60,nan,empty
-abv,59,nan,empty
-abv,58,nan,empty
-abv,57,nan,empty
-abv,273,nan,empty
-abv,1796,nan,empty
-abv,1790,nan,empty
-abv,1752,nan,empty
-abv,1750,nan,empty
-abv,1056,nan,empty
-abv,335,nan,empty
-abv,64,nan,empty
-abv,710,nan,empty
-abv,219,nan,empty
-abv,1724,nan,empty
-abv,307,nan,empty
-abv,774,nan,empty
-abv,763,nan,empty
-abv,1948,nan,empty
-abv,1347,nan,empty
-abv,963,nan,empty
-abv,121,nan,empty
-abv,652,nan,empty
-abv,2364,nan,empty
-abv,2344,nan,empty
-abv,2342,nan,empty
-ibu,1436,nan,empty
-ibu,2265,nan,empty
-ibu,2264,nan,empty
-ibu,2263,nan,empty
-ibu,2262,nan,empty
-ibu,2261,nan,empty
-ibu,2260,nan,empty
-ibu,2259,nan,empty
-ibu,2258,nan,empty
-ibu,2131,nan,empty
-ibu,2099,nan,empty
-ibu,2098,nan,empty
-ibu,2097,nan,empty
-ibu,1980,nan,empty
-ibu,2318,nan,empty
-ibu,2170,nan,empty
-ibu,2169,nan,empty
-ibu,1502,nan,empty
-ibu,1593,nan,empty
-ibu,1592,nan,empty
-ibu,976,nan,empty
-ibu,2518,nan,empty
-ibu,2517,nan,empty
-ibu,2324,nan,empty
-ibu,2288,nan,empty
-ibu,2287,nan,empty
-ibu,2286,nan,empty
-ibu,2285,nan,empty
-ibu,2603,nan,empty
-ibu,2220,nan,empty
-ibu,1583,nan,empty
-ibu,2676,nan,empty
-ibu,2501,nan,empty
-ibu,1535,nan,empty
-ibu,1149,nan,empty
-ibu,1474,nan,empty
-ibu,1473,nan,empty
-ibu,2592,nan,empty
-ibu,2578,nan,empty
-ibu,2577,nan,empty
-ibu,2103,nan,empty
-ibu,2102,nan,empty
-ibu,2291,nan,empty
-ibu,1818,nan,empty
-ibu,1738,nan,empty
-ibu,1563,nan,empty
-ibu,2337,nan,empty
-ibu,410,nan,empty
-ibu,409,nan,empty
-ibu,1294,nan,empty
-ibu,1293,nan,empty
-ibu,1292,nan,empty
-ibu,2207,nan,empty
-ibu,2040,nan,empty
-ibu,2039,nan,empty
-ibu,735,nan,empty
-ibu,1640,nan,empty
-ibu,1639,nan,empty
-ibu,1638,nan,empty
-ibu,2495,nan,empty
-ibu,1409,nan,empty
-ibu,343,nan,empty
-ibu,342,nan,empty
-ibu,341,nan,empty
-ibu,340,nan,empty
-ibu,2589,nan,empty
-ibu,2546,nan,empty
-ibu,705,nan,empty
-ibu,2058,nan,empty
-ibu,1483,nan,empty
-ibu,1426,nan,empty
-ibu,1132,nan,empty
-ibu,1131,nan,empty
-ibu,1876,nan,empty
-ibu,2593,nan,empty
-ibu,1019,nan,empty
-ibu,1776,nan,empty
-ibu,1343,nan,empty
-ibu,1855,nan,empty
-ibu,1209,nan,empty
-ibu,954,nan,empty
-ibu,910,nan,empty
-ibu,707,nan,empty
-ibu,2494,nan,empty
-ibu,2325,nan,empty
-ibu,2022,nan,empty
-ibu,1989,nan,empty
-ibu,1988,nan,empty
-ibu,1955,nan,empty
-ibu,2557,nan,empty
-ibu,2496,nan,empty
-ibu,1158,nan,empty
-ibu,1157,nan,empty
-ibu,1156,nan,empty
-ibu,1155,nan,empty
-ibu,1154,nan,empty
-ibu,1422,nan,empty
-ibu,1003,nan,empty
-ibu,1002,nan,empty
-ibu,1001,nan,empty
-ibu,2469,nan,empty
-ibu,2586,nan,empty
-ibu,168,nan,empty
-ibu,1441,nan,empty
-ibu,1413,nan,empty
-ibu,1411,nan,empty
-ibu,2449,nan,empty
-ibu,1953,nan,empty
-ibu,1496,nan,empty
-ibu,1480,nan,empty
-ibu,1564,nan,empty
-ibu,1541,nan,empty
-ibu,1321,nan,empty
-ibu,1320,nan,empty
-ibu,1319,nan,empty
-ibu,1303,nan,empty
-ibu,1025,nan,empty
-ibu,1012,nan,empty
-ibu,942,nan,empty
-ibu,937,nan,empty
-ibu,1372,nan,empty
-ibu,1371,nan,empty
-ibu,2490,nan,empty
-ibu,2489,nan,empty
-ibu,2488,nan,empty
-ibu,2487,nan,empty
-ibu,939,nan,empty
-ibu,1607,nan,empty
-ibu,1597,nan,empty
-ibu,344,nan,empty
-ibu,89,nan,empty
-ibu,88,nan,empty
-ibu,1569,nan,empty
-ibu,1568,nan,empty
-ibu,1188,nan,empty
-ibu,577,nan,empty
-ibu,1548,nan,empty
-ibu,1517,nan,empty
-ibu,1500,nan,empty
-ibu,1421,nan,empty
-ibu,1184,nan,empty
-ibu,1023,nan,empty
-ibu,998,nan,empty
-ibu,997,nan,empty
-ibu,996,nan,empty
-ibu,931,nan,empty
-ibu,798,nan,empty
-ibu,1601,nan,empty
-ibu,1427,nan,empty
-ibu,2300,nan,empty
-ibu,2299,nan,empty
-ibu,2298,nan,empty
-ibu,470,nan,empty
-ibu,2204,nan,empty
-ibu,1802,nan,empty
-ibu,2619,nan,empty
-ibu,2468,nan,empty
-ibu,2637,nan,empty
-ibu,2636,nan,empty
-ibu,2598,nan,empty
-ibu,2597,nan,empty
-ibu,2548,nan,empty
-ibu,2542,nan,empty
-ibu,2541,nan,empty
-ibu,2504,nan,empty
-ibu,2500,nan,empty
-ibu,2499,nan,empty
-ibu,2498,nan,empty
-ibu,2481,nan,empty
-ibu,2476,nan,empty
-ibu,2467,nan,empty
-ibu,2466,nan,empty
-ibu,2465,nan,empty
-ibu,2433,nan,empty
-ibu,2418,nan,empty
-ibu,2416,nan,empty
-ibu,2382,nan,empty
-ibu,2381,nan,empty
-ibu,2290,nan,empty
-ibu,2241,nan,empty
-ibu,2240,nan,empty
-ibu,2137,nan,empty
-ibu,2101,nan,empty
-ibu,2092,nan,empty
-ibu,2091,nan,empty
-ibu,2086,nan,empty
-ibu,2023,nan,empty
-ibu,2006,nan,empty
-ibu,1997,nan,empty
-ibu,1977,nan,empty
-ibu,1976,nan,empty
-ibu,1974,nan,empty
-ibu,1973,nan,empty
-ibu,1959,nan,empty
-ibu,1958,nan,empty
-ibu,1949,nan,empty
-ibu,1947,nan,empty
-ibu,1785,nan,empty
-ibu,1651,nan,empty
-ibu,1443,nan,empty
-ibu,1352,nan,empty
-ibu,1267,nan,empty
-ibu,1266,nan,empty
-ibu,1178,nan,empty
-ibu,1136,nan,empty
-ibu,1044,nan,empty
-ibu,1033,nan,empty
-ibu,1031,nan,empty
-ibu,909,nan,empty
-ibu,873,nan,empty
-ibu,860,nan,empty
-ibu,677,nan,empty
-ibu,671,nan,empty
-ibu,670,nan,empty
-ibu,669,nan,empty
-ibu,627,nan,empty
-ibu,387,nan,empty
-ibu,385,nan,empty
-ibu,384,nan,empty
-ibu,1096,nan,empty
-ibu,1095,nan,empty
-ibu,2456,nan,empty
-ibu,919,nan,empty
-ibu,756,nan,empty
-ibu,328,nan,empty
-ibu,66,nan,empty
-ibu,65,nan,empty
-ibu,538,nan,empty
-ibu,504,nan,empty
-ibu,29,nan,empty
-ibu,1627,nan,empty
-ibu,2552,nan,empty
-ibu,2608,nan,empty
-ibu,2607,nan,empty
-ibu,2606,nan,empty
-ibu,2470,nan,empty
-ibu,2464,nan,empty
-ibu,2072,nan,empty
-ibu,52,nan,empty
-ibu,51,nan,empty
-ibu,50,nan,empty
-ibu,49,nan,empty
-ibu,2657,nan,empty
-ibu,2656,nan,empty
-ibu,2655,nan,empty
-ibu,2654,nan,empty
-ibu,2653,nan,empty
-ibu,2652,nan,empty
-ibu,2252,nan,empty
-ibu,1808,nan,empty
-ibu,2257,nan,empty
-ibu,2256,nan,empty
-ibu,870,nan,empty
-ibu,869,nan,empty
-ibu,868,nan,empty
-ibu,867,nan,empty
-ibu,840,nan,empty
-ibu,180,nan,empty
-ibu,63,nan,empty
-ibu,62,nan,empty
-ibu,61,nan,empty
-ibu,784,nan,empty
-ibu,783,nan,empty
-ibu,782,nan,empty
-ibu,530,nan,empty
-ibu,427,nan,empty
-ibu,1465,nan,empty
-ibu,1464,nan,empty
-ibu,1744,nan,empty
-ibu,1743,nan,empty
-ibu,1742,nan,empty
-ibu,1719,nan,empty
-ibu,638,nan,empty
-ibu,507,nan,empty
-ibu,480,nan,empty
-ibu,2446,nan,empty
-ibu,2106,nan,empty
-ibu,2210,nan,empty
-ibu,1219,nan,empty
-ibu,1218,nan,empty
-ibu,2057,nan,empty
-ibu,2019,nan,empty
-ibu,2016,nan,empty
-ibu,2354,nan,empty
-ibu,1342,nan,empty
-ibu,1341,nan,empty
-ibu,2012,nan,empty
-ibu,2011,nan,empty
-ibu,2010,nan,empty
-ibu,2009,nan,empty
-ibu,1695,nan,empty
-ibu,1369,nan,empty
-ibu,1243,nan,empty
-ibu,1139,nan,empty
-ibu,570,nan,empty
-ibu,2338,nan,empty
-ibu,1365,nan,empty
-ibu,1094,nan,empty
-ibu,657,nan,empty
-ibu,656,nan,empty
-ibu,359,nan,empty
-ibu,56,nan,empty
-ibu,2061,nan,empty
-ibu,2351,nan,empty
-ibu,1650,nan,empty
-ibu,1337,nan,empty
-ibu,1336,nan,empty
-ibu,737,nan,empty
-ibu,129,nan,empty
-ibu,716,nan,empty
-ibu,1689,nan,empty
-ibu,1163,nan,empty
-ibu,940,nan,empty
-ibu,613,nan,empty
-ibu,2028,nan,empty
-ibu,1105,nan,empty
-ibu,1104,nan,empty
-ibu,2145,nan,empty
-ibu,1804,nan,empty
-ibu,1602,nan,empty
-ibu,1301,nan,empty
-ibu,542,nan,empty
-ibu,272,nan,empty
-ibu,271,nan,empty
-ibu,1789,nan,empty
-ibu,1788,nan,empty
-ibu,1787,nan,empty
-ibu,1786,nan,empty
-ibu,1763,nan,empty
-ibu,1311,nan,empty
-ibu,2078,nan,empty
-ibu,1092,nan,empty
-ibu,185,nan,empty
-ibu,184,nan,empty
-ibu,1224,nan,empty
-ibu,964,nan,empty
-ibu,1623,nan,empty
-ibu,110,nan,empty
-ibu,1735,nan,empty
-ibu,1734,nan,empty
-ibu,2371,nan,empty
-ibu,1827,nan,empty
-ibu,1203,nan,empty
-ibu,1161,nan,empty
-ibu,1944,nan,empty
-ibu,1943,nan,empty
-ibu,2015,nan,empty
-ibu,731,nan,empty
-ibu,1773,nan,empty
-ibu,944,nan,empty
-ibu,524,nan,empty
-ibu,450,nan,empty
-ibu,449,nan,empty
-ibu,448,nan,empty
-ibu,447,nan,empty
-ibu,446,nan,empty
-ibu,1246,nan,empty
-ibu,977,nan,empty
-ibu,1590,nan,empty
-ibu,1110,nan,empty
-ibu,1014,nan,empty
-ibu,911,nan,empty
-ibu,680,nan,empty
-ibu,1642,nan,empty
-ibu,1107,nan,empty
-ibu,1039,nan,empty
-ibu,2477,nan,empty
-ibu,2008,nan,empty
-ibu,2004,nan,empty
-ibu,2003,nan,empty
-ibu,2431,nan,empty
-ibu,2430,nan,empty
-ibu,2429,nan,empty
-ibu,2283,nan,empty
-ibu,2248,nan,empty
-ibu,1287,nan,empty
-ibu,1286,nan,empty
-ibu,640,nan,empty
-ibu,1731,nan,empty
-ibu,1022,nan,empty
-ibu,682,nan,empty
-ibu,112,nan,empty
-ibu,2289,nan,empty
-ibu,2027,nan,empty
-ibu,2591,nan,empty
-ibu,1981,nan,empty
-ibu,1663,nan,empty
-ibu,941,nan,empty
-ibu,809,nan,empty
-ibu,481,nan,empty
-ibu,351,nan,empty
-ibu,350,nan,empty
-ibu,2462,nan,empty
-ibu,1957,nan,empty
-ibu,2624,nan,empty
-ibu,520,nan,empty
-ibu,2554,nan,empty
-ibu,2567,nan,empty
-ibu,1899,nan,empty
-ibu,983,nan,empty
-ibu,982,nan,empty
-ibu,981,nan,empty
-ibu,2172,nan,empty
-ibu,2171,nan,empty
-ibu,1911,nan,empty
-ibu,1803,nan,empty
-ibu,1566,nan,empty
-ibu,1515,nan,empty
-ibu,1214,nan,empty
-ibu,674,nan,empty
-ibu,562,nan,empty
-ibu,552,nan,empty
-ibu,319,nan,empty
-ibu,2322,nan,empty
-ibu,2613,nan,empty
-ibu,2612,nan,empty
-ibu,2611,nan,empty
-ibu,1657,nan,empty
-ibu,1616,nan,empty
-ibu,178,nan,empty
-ibu,2428,nan,empty
-ibu,1998,nan,empty
-ibu,2525,nan,empty
-ibu,2523,nan,empty
-ibu,1174,nan,empty
-ibu,1116,nan,empty
-ibu,994,nan,empty
-ibu,1658,nan,empty
-ibu,1034,nan,empty
-ibu,477,nan,empty
-ibu,476,nan,empty
-ibu,143,nan,empty
-ibu,142,nan,empty
-ibu,2650,nan,empty
-ibu,2649,nan,empty
-ibu,2648,nan,empty
-ibu,2647,nan,empty
-ibu,2646,nan,empty
-ibu,2645,nan,empty
-ibu,2643,nan,empty
-ibu,2642,nan,empty
-ibu,1922,nan,empty
-ibu,1446,nan,empty
-ibu,1275,nan,empty
-ibu,1028,nan,empty
-ibu,2461,nan,empty
-ibu,1567,nan,empty
-ibu,1185,nan,empty
-ibu,2143,nan,empty
-ibu,2139,nan,empty
-ibu,1570,nan,empty
-ibu,1440,nan,empty
-ibu,1753,nan,empty
-ibu,1448,nan,empty
-ibu,1134,nan,empty
-ibu,1066,nan,empty
-ibu,849,nan,empty
-ibu,352,nan,empty
-ibu,149,nan,empty
-ibu,148,nan,empty
-ibu,1558,nan,empty
-ibu,506,nan,empty
-ibu,181,nan,empty
-ibu,2183,nan,empty
-ibu,2182,nan,empty
-ibu,2181,nan,empty
-ibu,2180,nan,empty
-ibu,2179,nan,empty
-ibu,988,nan,empty
-ibu,616,nan,empty
-ibu,96,nan,empty
-ibu,1652,nan,empty
-ibu,1501,nan,empty
-ibu,1004,nan,empty
-ibu,2357,nan,empty
-ibu,2483,nan,empty
-ibu,2385,nan,empty
-ibu,2383,nan,empty
-ibu,1251,nan,empty
-ibu,1250,nan,empty
-ibu,2376,nan,empty
-ibu,1784,nan,empty
-ibu,1405,nan,empty
-ibu,823,nan,empty
-ibu,2453,nan,empty
-ibu,2363,nan,empty
-ibu,689,nan,empty
-ibu,688,nan,empty
-ibu,687,nan,empty
-ibu,2408,nan,empty
-ibu,2595,nan,empty
-ibu,2480,nan,empty
-ibu,1525,nan,empty
-ibu,1524,nan,empty
-ibu,1523,nan,empty
-ibu,1254,nan,empty
-ibu,2163,nan,empty
-ibu,1193,nan,empty
-ibu,349,nan,empty
-ibu,348,nan,empty
-ibu,2472,nan,empty
-ibu,779,nan,empty
-ibu,364,nan,empty
-ibu,60,nan,empty
-ibu,59,nan,empty
-ibu,58,nan,empty
-ibu,57,nan,empty
-ibu,2436,nan,empty
-ibu,1706,nan,empty
-ibu,1665,nan,empty
-ibu,1637,nan,empty
-ibu,2547,nan,empty
-ibu,2493,nan,empty
-ibu,2492,nan,empty
-ibu,2491,nan,empty
-ibu,1445,nan,empty
-ibu,475,nan,empty
-ibu,474,nan,empty
-ibu,473,nan,empty
-ibu,472,nan,empty
-ibu,471,nan,empty
-ibu,2332,nan,empty
-ibu,2330,nan,empty
-ibu,2582,nan,empty
-ibu,2581,nan,empty
-ibu,1204,nan,empty
-ibu,1122,nan,empty
-ibu,700,nan,empty
-ibu,2311,nan,empty
-ibu,355,nan,empty
-ibu,125,nan,empty
-ibu,962,nan,empty
-ibu,1475,nan,empty
-ibu,1008,nan,empty
-ibu,2454,nan,empty
-ibu,2133,nan,empty
-ibu,511,nan,empty
-ibu,75,nan,empty
-ibu,74,nan,empty
-ibu,73,nan,empty
-ibu,1628,nan,empty
-ibu,1626,nan,empty
-ibu,1624,nan,empty
-ibu,1600,nan,empty
-ibu,1262,nan,empty
-ibu,845,nan,empty
-ibu,1783,nan,empty
-ibu,1717,nan,empty
-ibu,1716,nan,empty
-ibu,1516,nan,empty
-ibu,725,nan,empty
-ibu,2120,nan,empty
-ibu,1234,nan,empty
-ibu,1233,nan,empty
-ibu,1232,nan,empty
-ibu,1231,nan,empty
-ibu,1359,nan,empty
-ibu,960,nan,empty
-ibu,959,nan,empty
-ibu,958,nan,empty
-ibu,957,nan,empty
-ibu,956,nan,empty
-ibu,686,nan,empty
-ibu,453,nan,empty
-ibu,150,nan,empty
-ibu,133,nan,empty
-ibu,1429,nan,empty
-ibu,1271,nan,empty
-ibu,713,nan,empty
-ibu,712,nan,empty
-ibu,1986,nan,empty
-ibu,1985,nan,empty
-ibu,1984,nan,empty
-ibu,174,nan,empty
-ibu,2535,nan,empty
-ibu,2534,nan,empty
-ibu,2533,nan,empty
-ibu,2532,nan,empty
-ibu,2531,nan,empty
-ibu,2529,nan,empty
-ibu,2528,nan,empty
-ibu,1612,nan,empty
-ibu,1611,nan,empty
-ibu,1273,nan,empty
-ibu,365,nan,empty
-ibu,273,nan,empty
-ibu,776,nan,empty
-ibu,2361,nan,empty
-ibu,2359,nan,empty
-ibu,2358,nan,empty
-ibu,2282,nan,empty
-ibu,2281,nan,empty
-ibu,2280,nan,empty
-ibu,2279,nan,empty
-ibu,2278,nan,empty
-ibu,2277,nan,empty
-ibu,2276,nan,empty
-ibu,2275,nan,empty
-ibu,2274,nan,empty
-ibu,2273,nan,empty
-ibu,2442,nan,empty
-ibu,1476,nan,empty
-ibu,902,nan,empty
-ibu,645,nan,empty
-ibu,644,nan,empty
-ibu,337,nan,empty
-ibu,336,nan,empty
-ibu,2236,nan,empty
-ibu,327,nan,empty
-ibu,719,nan,empty
-ibu,718,nan,empty
-ibu,717,nan,empty
-ibu,419,nan,empty
-ibu,408,nan,empty
-ibu,1952,nan,empty
-ibu,768,nan,empty
-ibu,625,nan,empty
-ibu,326,nan,empty
-ibu,132,nan,empty
-ibu,131,nan,empty
-ibu,1598,nan,empty
-ibu,862,nan,empty
-ibu,699,nan,empty
-ibu,1537,nan,empty
-ibu,1536,nan,empty
-ibu,746,nan,empty
-ibu,654,nan,empty
-ibu,1758,nan,empty
-ibu,1757,nan,empty
-ibu,1975,nan,empty
-ibu,1737,nan,empty
-ibu,1707,nan,empty
-ibu,1690,nan,empty
-ibu,72,nan,empty
-ibu,885,nan,empty
-ibu,884,nan,empty
-ibu,757,nan,empty
-ibu,568,nan,empty
-ibu,43,nan,empty
-ibu,41,nan,empty
-ibu,40,nan,empty
-ibu,39,nan,empty
-ibu,2272,nan,empty
-ibu,1582,nan,empty
-ibu,1114,nan,empty
-ibu,486,nan,empty
-ibu,485,nan,empty
-ibu,484,nan,empty
-ibu,646,nan,empty
-ibu,165,nan,empty
-ibu,915,nan,empty
-ibu,914,nan,empty
-ibu,913,nan,empty
-ibu,1811,nan,empty
-ibu,1307,nan,empty
-ibu,1306,nan,empty
-ibu,1305,nan,empty
-ibu,1304,nan,empty
-ibu,1854,nan,empty
-ibu,1227,nan,empty
-ibu,541,nan,empty
-ibu,109,nan,empty
-ibu,1917,nan,empty
-ibu,1190,nan,empty
-ibu,1264,nan,empty
-ibu,2192,nan,empty
-ibu,1130,nan,empty
-ibu,1129,nan,empty
-ibu,1081,nan,empty
-ibu,1721,nan,empty
-ibu,1720,nan,empty
-ibu,1431,nan,empty
-ibu,1430,nan,empty
-ibu,1828,nan,empty
-ibu,1486,nan,empty
-ibu,1485,nan,empty
-ibu,1381,nan,empty
-ibu,900,nan,empty
-ibu,891,nan,empty
-ibu,509,nan,empty
-ibu,508,nan,empty
-ibu,1530,nan,empty
-ibu,1529,nan,empty
-ibu,1528,nan,empty
-ibu,1527,nan,empty
-ibu,1526,nan,empty
-ibu,2113,nan,empty
-ibu,2112,nan,empty
-ibu,1883,nan,empty
-ibu,1859,nan,empty
-ibu,1790,nan,empty
-ibu,1752,nan,empty
-ibu,1751,nan,empty
-ibu,1750,nan,empty
-ibu,993,nan,empty
-ibu,992,nan,empty
-ibu,933,nan,empty
-ibu,720,nan,empty
-ibu,661,nan,empty
-ibu,565,nan,empty
-ibu,734,nan,empty
-ibu,1684,nan,empty
-ibu,927,nan,empty
-ibu,1043,nan,empty
-ibu,1087,nan,empty
-ibu,1931,nan,empty
-ibu,1956,nan,empty
-ibu,1794,nan,empty
-ibu,2631,nan,empty
-ibu,1062,nan,empty
-ibu,1061,nan,empty
-ibu,1060,nan,empty
-ibu,1056,nan,empty
-ibu,1055,nan,empty
-ibu,1054,nan,empty
-ibu,1053,nan,empty
-ibu,1636,nan,empty
-ibu,1518,nan,empty
-ibu,1797,nan,empty
-ibu,1437,nan,empty
-ibu,1540,nan,empty
-ibu,2559,nan,empty
-ibu,1589,nan,empty
-ibu,1457,nan,empty
-ibu,1191,nan,empty
-ibu,2336,nan,empty
-ibu,1909,nan,empty
-ibu,335,nan,empty
-ibu,64,nan,empty
-ibu,2269,nan,empty
-ibu,1290,nan,empty
-ibu,715,nan,empty
-ibu,2514,nan,empty
-ibu,1467,nan,empty
-ibu,1375,nan,empty
-ibu,1374,nan,empty
-ibu,1373,nan,empty
-ibu,1538,nan,empty
-ibu,1075,nan,empty
-ibu,710,nan,empty
-ibu,709,nan,empty
-ibu,708,nan,empty
-ibu,706,nan,empty
-ibu,220,nan,empty
-ibu,219,nan,empty
-ibu,1133,nan,empty
-ibu,2307,nan,empty
-ibu,2580,nan,empty
-ibu,1807,nan,empty
-ibu,1180,nan,empty
-ibu,1179,nan,empty
-ibu,2373,nan,empty
-ibu,2049,nan,empty
-ibu,2048,nan,empty
-ibu,1880,nan,empty
-ibu,1879,nan,empty
-ibu,1878,nan,empty
-ibu,1877,nan,empty
-ibu,1764,nan,empty
-ibu,1103,nan,empty
-ibu,1102,nan,empty
-ibu,1101,nan,empty
-ibu,1100,nan,empty
-ibu,1099,nan,empty
-ibu,1098,nan,empty
-ibu,1330,nan,empty
-ibu,2074,nan,empty
-ibu,1724,nan,empty
-ibu,1280,nan,empty
-ibu,899,nan,empty
-ibu,363,nan,empty
-ibu,158,nan,empty
-ibu,97,nan,empty
-ibu,1860,nan,empty
-ibu,1575,nan,empty
-ibu,2249,nan,empty
-ibu,2053,nan,empty
-ibu,1841,nan,empty
-ibu,1782,nan,empty
-ibu,1995,nan,empty
-ibu,1329,nan,empty
-ibu,1299,nan,empty
-ibu,839,nan,empty
-ibu,1683,nan,empty
-ibu,1362,nan,empty
-ibu,599,nan,empty
-ibu,307,nan,empty
-ibu,305,nan,empty
-ibu,304,nan,empty
-ibu,217,nan,empty
-ibu,1503,nan,empty
-ibu,1466,nan,empty
-ibu,1245,nan,empty
-ibu,1323,nan,empty
-ibu,815,nan,empty
-ibu,1416,nan,empty
-ibu,1415,nan,empty
-ibu,2368,nan,empty
-ibu,738,nan,empty
-ibu,975,nan,empty
-ibu,814,nan,empty
-ibu,727,nan,empty
-ibu,2474,nan,empty
-ibu,1919,nan,empty
-ibu,1918,nan,empty
-ibu,2353,nan,empty
-ibu,212,nan,empty
-ibu,161,nan,empty
-ibu,160,nan,empty
-ibu,2443,nan,empty
-ibu,1942,nan,empty
-ibu,1708,nan,empty
-ibu,1192,nan,empty
-ibu,1013,nan,empty
-ibu,774,nan,empty
-ibu,70,nan,empty
-ibu,69,nan,empty
-ibu,2537,nan,empty
-ibu,2536,nan,empty
-ibu,30,nan,empty
-ibu,1211,nan,empty
-ibu,2234,nan,empty
-ibu,1798,nan,empty
-ibu,1655,nan,empty
-ibu,1482,nan,empty
-ibu,1447,nan,empty
-ibu,1425,nan,empty
-ibu,1424,nan,empty
-ibu,1298,nan,empty
-ibu,1181,nan,empty
-ibu,1152,nan,empty
-ibu,1076,nan,empty
-ibu,1970,nan,empty
-ibu,2024,nan,empty
-ibu,2267,nan,empty
-ibu,691,nan,empty
-ibu,763,nan,empty
-ibu,2271,nan,empty
-ibu,2206,nan,empty
-ibu,2136,nan,empty
-ibu,2135,nan,empty
-ibu,2134,nan,empty
-ibu,2109,nan,empty
-ibu,1821,nan,empty
-ibu,1820,nan,empty
-ibu,1819,nan,empty
-ibu,1634,nan,empty
-ibu,1633,nan,empty
-ibu,1632,nan,empty
-ibu,1587,nan,empty
-ibu,2242,nan,empty
-ibu,1450,nan,empty
-ibu,684,nan,empty
-ibu,1983,nan,empty
-ibu,1631,nan,empty
-ibu,1344,nan,empty
-ibu,922,nan,empty
-ibu,2369,nan,empty
-ibu,2215,nan,empty
-ibu,1948,nan,empty
-ibu,1347,nan,empty
-ibu,1314,nan,empty
-ibu,934,nan,empty
-ibu,660,nan,empty
-ibu,1207,nan,empty
-ibu,1206,nan,empty
-ibu,2543,nan,empty
-ibu,2409,nan,empty
-ibu,1554,nan,empty
-ibu,2551,nan,empty
-ibu,1710,nan,empty
-ibu,1709,nan,empty
-ibu,1164,nan,empty
-ibu,595,nan,empty
-ibu,537,nan,empty
-ibu,1433,nan,empty
-ibu,1432,nan,empty
-ibu,936,nan,empty
-ibu,2448,nan,empty
-ibu,2447,nan,empty
-ibu,973,nan,empty
-ibu,827,nan,empty
-ibu,589,nan,empty
-ibu,2155,nan,empty
-ibu,1982,nan,empty
-ibu,1939,nan,empty
-ibu,1916,nan,empty
-ibu,1915,nan,empty
-ibu,1914,nan,empty
-ibu,1810,nan,empty
-ibu,1945,nan,empty
-ibu,1079,nan,empty
-ibu,94,nan,empty
-ibu,2035,nan,empty
-ibu,2034,nan,empty
-ibu,2455,nan,empty
-ibu,963,nan,empty
-ibu,2638,nan,empty
-ibu,1278,nan,empty
-ibu,1277,nan,empty
-ibu,1276,nan,empty
-ibu,1732,nan,empty
-ibu,1781,nan,empty
-ibu,1780,nan,empty
-ibu,1779,nan,empty
-ibu,1889,nan,empty
-ibu,1222,nan,empty
-ibu,122,nan,empty
-ibu,121,nan,empty
-ibu,1817,nan,empty
-ibu,2321,nan,empty
-ibu,1027,nan,empty
-ibu,1026,nan,empty
-ibu,1937,nan,empty
-ibu,594,nan,empty
-ibu,114,nan,empty
-ibu,113,nan,empty
-ibu,2445,nan,empty
-ibu,1438,nan,empty
-ibu,451,nan,empty
-ibu,1041,nan,empty
-ibu,1040,nan,empty
-ibu,642,nan,empty
-ibu,2037,nan,empty
-ibu,1285,nan,empty
-ibu,1189,nan,empty
-ibu,1171,nan,empty
-ibu,1170,nan,empty
-ibu,1169,nan,empty
-ibu,98,nan,empty
-ibu,1704,nan,empty
-ibu,1703,nan,empty
-ibu,877,nan,empty
-ibu,606,nan,empty
-ibu,543,nan,empty
-ibu,347,nan,empty
-ibu,346,nan,empty
-ibu,25,nan,empty
-ibu,829,nan,empty
-ibu,582,nan,empty
-ibu,1950,nan,empty
-ibu,2565,nan,empty
-ibu,2564,nan,empty
-ibu,2561,nan,empty
-ibu,2560,nan,empty
-ibu,907,nan,empty
-ibu,906,nan,empty
-ibu,614,nan,empty
-ibu,345,nan,empty
-ibu,80,nan,empty
-ibu,79,nan,empty
-ibu,1826,nan,empty
-ibu,1824,nan,empty
-ibu,1823,nan,empty
-ibu,1682,nan,empty
-ibu,1681,nan,empty
-ibu,1679,nan,empty
-ibu,2245,nan,empty
-ibu,2244,nan,empty
-ibu,1378,nan,empty
-ibu,1377,nan,empty
-ibu,1376,nan,empty
-ibu,2411,nan,empty
-ibu,1843,nan,empty
-ibu,1038,nan,empty
-ibu,780,nan,empty
-ibu,2222,nan,empty
-ibu,2221,nan,empty
-ibu,2439,nan,empty
-ibu,2356,nan,empty
-ibu,1069,nan,empty
-ibu,652,nan,empty
-ibu,1542,nan,empty
-ibu,1551,nan,empty
-ibu,2364,nan,empty
-ibu,2348,nan,empty
-ibu,2344,nan,empty
-ibu,2342,nan,empty
-ibu,2340,nan,empty
-ibu,2573,nan,empty
-ibu,2572,nan,empty
-ibu,2571,nan,empty
-ibu,2570,nan,empty
-ibu,1498,nan,empty
-ibu,1618,nan,empty
-ibu,1364,nan,empty
-ibu,334,nan,empty
-ibu,826,nan,empty
-ibu,825,nan,empty
-ibu,813,nan,empty
-ibu,324,nan,empty
-ibu,323,nan,empty
-ibu,2149,nan,empty
-ibu,2147,nan,empty
-ibu,2047,nan,empty
-ibu,2626,nan,empty
-ibu,822,nan,empty
-ibu,1345,nan,empty
-ibu,1316,nan,empty
-ibu,1045,nan,empty
-ibu,1035,nan,empty
-ibu,807,nan,empty
-ibu,620,nan,empty
-ibu,84,nan,empty
+beer_name,1535,kentucky k?lsch,kentucky kölsch
+beer_name,1738,"the kimmie, the yink and the holy gose",the kimmie the yink and the holy gose
+beer_name,1640,aslan k?lsch,aslan kölsch
+beer_name,1408,k?lsch 151,kölsch 151
+beer_name,2204,post time k?lsch,post time kölsch
+beer_name,1802,"you're my boy, blue",you're my boy blue
+beer_name,2654,32°/50° k?lsch,32°/50° kölsch
+beer_name,129,heiner brau k?lsch,heiner brau kölsch
+beer_name,1804,mj?llnir,mjöllnir
+beer_name,1452,laimas k?lsch style ale,laimas kölsch style ale
+beer_name,2309,sunbru k?lsch,sunbru kölsch
+beer_name,178,sunbru k?lsch,sunbru kölsch
+beer_name,1034,cabrillo k?lsch,cabrillo kölsch
+beer_name,2142,screamin??pumpkin,screamin�?pumpkin
+beer_name,1615,the 12th can??american pale ale (apa),the 12th can�?american pale ale (apa)
+beer_name,195,lancaster german style k?lsch,lancaster german style kölsch
+beer_name,1081,occidental k?lsch,occidental kölsch
+beer_name,1796,the crowler??,the crowler�?
+beer_name,1087,side kick k?lsch,side kick kölsch
+beer_name,1760,greybeard??ipa,greybeard�?ipa
+beer_name,92,colorado k?lsch,colorado kölsch
+beer_name,105,k?ld lager (2010),köld lager (2010)
+beer_name,936,loafin br?u,loafin bräu
+style,2217,k?lsch,kölsch
+style,1535,k?lsch,kölsch
+style,550,k?lsch,kölsch
+style,1640,k?lsch,kölsch
+style,1579,m?rzen / oktoberfest,märzen / oktoberfest
+style,1401,k?lsch,kölsch
+style,1408,k?lsch,kölsch
+style,1613,m?rzen / oktoberfest,märzen / oktoberfest
+style,1281,m?rzen / oktoberfest,märzen / oktoberfest
+style,2204,k?lsch,kölsch
+style,2654,k?lsch,kölsch
+style,427,k?lsch,kölsch
+style,2055,k?lsch,kölsch
+style,2019,k?lsch,kölsch
+style,2079,m?rzen / oktoberfest,märzen / oktoberfest
+style,2011,m?rzen / oktoberfest,märzen / oktoberfest
+style,2438,k?lsch,kölsch
+style,129,k?lsch,kölsch
+style,681,k?lsch,kölsch
+style,1311,k?lsch,kölsch
+style,1452,k?lsch,kölsch
+style,1968,k?lsch,kölsch
+style,2659,k?lsch,kölsch
+style,2309,k?lsch,kölsch
+style,178,k?lsch,kölsch
+style,1300,k?lsch,kölsch
+style,1034,k?lsch,kölsch
+style,930,m?rzen / oktoberfest,märzen / oktoberfest
+style,539,m?rzen / oktoberfest,märzen / oktoberfest
+style,2461,m?rzen / oktoberfest,märzen / oktoberfest
+style,1567,m?rzen / oktoberfest,märzen / oktoberfest
+style,1380,k?lsch,kölsch
+style,1313,m?rzen / oktoberfest,märzen / oktoberfest
+style,769,k?lsch,kölsch
+style,192,k?lsch,kölsch
+style,989,m?rzen / oktoberfest,märzen / oktoberfest
+style,2383,m?rzen / oktoberfest,märzen / oktoberfest
+style,1458,m?rzen / oktoberfest,märzen / oktoberfest
+style,1235,k?lsch,kölsch
+style,195,k?lsch,kölsch
+style,475,k?lsch,kölsch
+style,1816,k?lsch,kölsch
+style,1626,m?rzen / oktoberfest,märzen / oktoberfest
+style,2662,k?lsch,kölsch
+style,1617,m?rzen / oktoberfest,märzen / oktoberfest
+style,314,m?rzen / oktoberfest,märzen / oktoberfest
+style,1081,k?lsch,kölsch
+style,696,k?lsch,kölsch
+style,1087,k?lsch,kölsch
+style,417,m?rzen / oktoberfest,märzen / oktoberfest
+style,1992,m?rzen / oktoberfest,märzen / oktoberfest
+style,2373,m?rzen / oktoberfest,märzen / oktoberfest
+style,1552,k?lsch,kölsch
+style,1864,k?lsch,kölsch
+style,1995,m?rzen / oktoberfest,märzen / oktoberfest
+style,307,m?rzen / oktoberfest,märzen / oktoberfest
+style,166,m?rzen / oktoberfest,märzen / oktoberfest
+style,1798,k?lsch,kölsch
+style,1482,m?rzen / oktoberfest,märzen / oktoberfest
+style,1969,k?lsch,kölsch
+style,369,m?rzen / oktoberfest,märzen / oktoberfest
+style,92,k?lsch,kölsch
+style,1357,m?rzen / oktoberfest,märzen / oktoberfest
+style,650,k?lsch,kölsch
+style,456,m?rzen / oktoberfest,märzen / oktoberfest
+style,1410,k?lsch,kölsch
+style,874,m?rzen / oktoberfest,märzen / oktoberfest
+style,526,m?rzen / oktoberfest,märzen / oktoberfest
+style,2035,k?lsch,kölsch
+style,1042,m?rzen / oktoberfest,märzen / oktoberfest
+style,1645,m?rzen / oktoberfest,märzen / oktoberfest
+style,1514,k?lsch,kölsch
 brewery_id,2518,267,67
-brewery_name,515,Abita Brewing Company,Abitda Brewing Company
-brewery_name,2680,Against the Grain Brewery,Against the Grain Brewevry
-brewery_name,1294,Angry Orchard Cider Company,empty
-brewery_name,1579,Aviator Brewing Company,empty
-brewery_name,2423,Beer Works Brewery,empty
-brewery_name,1002,Big Elm Brewing,empty
-brewery_name,986,Big Wood Brewery,Big Wood Breery
-brewery_name,1012,Blue Blood Brewing Company,Bue Blood Brewing Company
-brewery_name,1890,Bolero Snort Brewery,empty
-brewery_name,2548,Brewery Vivant,rewery Vivant
-brewery_name,2542,Brewery Vivant,Breiwery Vivant
-brewery_name,2541,Brewery Vivant,Brewer Vivant
-brewery_name,2504,Brewery Vivant,Brewery Vivsant
-brewery_name,2500,Brewery Vivant,Brewoery Vivant
-brewery_name,2499,Brewery Vivant,rewery Vivant
-brewery_name,2498,Brewery Vivant,Bewery Vivant
-brewery_name,2481,Brewery Vivant,Brewery Vivqant
-brewery_name,2476,Brewery Vivant,Breweyr Vivant
-brewery_name,2467,Brewery Vivant,Berwery Vivant
-brewery_name,2466,Brewery Vivant,Brewoery Vivant
-brewery_name,1352,Brewery Vivant,Brewery Viavant
-brewery_name,1267,Brewery Vivant,Brewery pVivant
-brewery_name,1266,Brewery Vivant,Brewery iVvant
-brewery_name,1178,Brewery Vivant,empty
-brewery_name,1136,Brewery Vivant,Brewery Vivatn
-brewery_name,1044,Brewery Vivant,lBrewery Vivant
-brewery_name,1033,Brewery Vivant,Brewery Vivatn
-brewery_name,1031,Brewery Vivant,Breery Vivant
-brewery_name,909,Brewery Vivant,Brewery iVvant
-brewery_name,873,Brewery Vivant,Brewery Vivnt
-brewery_name,860,Brewery Vivant,Breweryy Vivant
-brewery_name,677,Brewery Vivant,Brewery Vivat
-brewery_name,671,Brewery Vivant,Brewey Vivant
-brewery_name,670,Brewery Vivant,rewery Vivant
-brewery_name,669,Brewery Vivant,Brewer Vivant
-brewery_name,627,Brewery Vivant,Brwewery Vivant
-brewery_name,387,Brewery Vivant,Bzrewery Vivant
-brewery_name,385,Brewery Vivant,Brewery Viant
-brewery_name,384,Brewery Vivant,Berwery Vivant
-brewery_name,538,Buckbean Brewing Company,empty
-brewery_name,2252,COOP Ale Works,empty
-brewery_name,1649,Central Coast Brewing Company,empty
-brewery_name,1725,Cigar City Brewing Company,empty
-brewery_name,1887,Destihl Brewery,Destihl Brwery
-brewery_name,2430,Evil Czech Brewery,Evil Czech Brweery
-brewery_name,858,Fremont Brewing Company,Frsemont Brewing Company
-brewery_name,2649,Great Divide Brewing Company,Greaat Divide Brewing Company
-brewery_name,189,Great River Brewery,Gerat River Brewery
-brewery_name,2181,Hawai'i Nui Brewing Co.,Hawai''i Ni Brewing Co.
-brewery_name,989,Heavy Seas Beer,empty
-brewery_name,988,Heavy Seas Beer,empty
-brewery_name,2408,Jailbreak Brewing Company,empty
-brewery_name,1254,James Page Brewing Company,James Pag Brewing Company
-brewery_name,574,Long Trail Brewing Company,Long Trail Berwing Company
-brewery_name,2582,Lost Nation Brewing,Lost Nation Berwing
-brewery_name,962,MacTarnahans Brewing Company,empty
-brewery_name,713,Maui Brewing Company,MauiBrewing Company
-brewery_name,1047,Mavericks Beer Company,empty
-brewery_name,2361,Minhas Craft Brewery,empty
-brewery_name,1952,Mountain Town Brewing Company,empty
-brewery_name,602,Okoboji Brewing Company,empty
-brewery_name,803,Oskar Blues Brewery,empty
-brewery_name,1946,Otter Creek Brewing,Otter Creke Brewing
-brewery_name,2633,Perrin Brewing Company,Perirn Brewing Company
-brewery_name,2559,Pipeworks Brewing Company,empty
-brewery_name,1760,Pisgah Brewing Company,empty
-brewery_name,2132,Rhinegeist Brewery,hRinegeist Brewery
-brewery_name,2599,SanTan Brewing Company,SanTan Brewing Comany
-brewery_name,839,SanTan Brewing Company,empty
-brewery_name,2406,Smartmouth Brewing Company,Smartmouth Bmrewing Company
-brewery_name,2369,Straub Brewery,empty
-brewery_name,2084,Sun King Brewing Company,Sun King BrewingC ompany
-brewery_name,2409,Surly Brewing Company,empty
-brewery_name,361,TailGate Beer,TailGajte Beer
-brewery_name,102,Tallgrass Brewing Company,empty
-brewery_name,827,Telluride Brewing Company,Telluride Brexwing Company
-brewery_name,2455,The Lion Brewery,The Lion Brewrey
-brewery_name,1732,The Traveler Beer Company,Teh Traveler Beer Company
-brewery_name,949,Tin Man Brewing Company,empty
-brewery_name,2445,Tr?egs Brewing Company,Tröegs Brewing Company
-brewery_name,2444,Tr?egs Brewing Company,Tröegs Brewing Company
-brewery_name,2203,Tr?egs Brewing Company,Tröegs Brewing Company
-brewery_name,1510,Tr?egs Brewing Company,Tröegs Brewing Company
-brewery_name,1509,Tr?egs Brewing Company,Tröegs Brewing Company
-brewery_name,1042,Two Brothers Brewing Company,empty
-brewery_name,346,Uncommon Brewers,empty
-brewery_name,345,Upslope Brewing Company,empty
-brewery_name,2222,Warped Wing Brewing Company,Warped Wing bBrewing Company
-brewery_name,575,Westbrook Brewing Company,Westbrook Brewing Compny
-brewery_name,2348,Weston Brewing Company,empty
-brewery_name,2417,"Woodstock Inn, Station & Brewery",Woodstock Inn Station & Brewery
-brewery_name,2306,"Woodstock Inn, Station & Brewery",Woodstock Inn Station & Brewery
-city,2258,Gary,empty
-city,1473,Washougal,Wasfhougal
-city,410,Hayward,Haywbard
-city,1426,Bloomfield,Bwloomfield
-city,2496,Duluth,empty
-city,1541,Lincoln,empty
-city,1012,Lincoln,Linconl
-city,633,Eagle,Eale
-city,1573,Bozeman,Bozemn
-city,2597,Grand Rapids,GrandR apids
-city,2548,Grand Rapids,Grand aRpids
-city,2542,Grand Rapids,Gkrand Rapids
-city,2541,Grand Rapids,Grand apids
-city,2504,Grand Rapids,Grand Rapis
-city,2500,Grand Rapids,Gand Rapids
-city,2499,Grand Rapids,Grand aRpids
-city,2498,Grand Rapids,Grand Raids
-city,2481,Grand Rapids,rGand Rapids
-city,2476,Grand Rapids,rand Rapids
-city,2467,Grand Rapids,Grand Rapis
-city,2466,Grand Rapids,Grnad Rapids
-city,2465,Grand Rapids,Gran Rapids
-city,2433,Grand Rapids,Garnd Rapids
-city,2418,Grand Rapids,Garand Rapids
-city,2416,Grand Rapids,Grand aRpids
-city,2382,Grand Rapids,Grand Rapilds
-city,2381,Grand Rapids,Graand Rapids
-city,2290,Grand Rapids,Grnad Rapids
-city,2241,Grand Rapids,Grand aRpids
-city,2240,Grand Rapids,GrandR apids
-city,2137,Grand Rapids,Grad Rapids
-city,2101,Grand Rapids,rand Rapids
-city,2092,Grand Rapids,Grand Rapidfs
-city,2091,Grand Rapids,GrandRapids
-city,2086,Grand Rapids,rand Rapids
-city,627,Grand Rapids,GrandRapids
-city,387,Grand Rapids,Grnd Rapids
-city,385,Grand Rapids,Grand Rapis
-city,384,Grand Rapids,Grandd Rapids
-city,793,Ashland,empty
-city,1719,Morganton,empty
-city,2003,Denver,empty
-city,982,Pawtucket,empty
-city,2171,Astoria,empty
-city,2303,Aurora,empty
-city,1990,Aurora,Akurora
-city,1244,Davenport,Daveonport
-city,655,Davenport,empty
-city,190,Davenport,Davenpyort
-city,2375,Birmingham,empty
-city,1653,Boston,empty
-city,2295,Windsor,Winsor
-city,2195,Springfield,Springifeld
-city,502,Austin,Autsin
-city,2163,Kalona,empty
-city,1686,York,oYrk
-city,125,Flagstaff,empty
-city,1716,Belfast,Belafst
-city,712,Lahaina,Lahania
-city,2275,Monroe,empty
-city,521,Bucryus,empty
-city,479,Bucryus,Buciryus
-city,399,Seattle,Seabttle
-city,2579,Export,empty
-city,2249,Lansdale,empty
-city,1995,Chandler,Chanler
-city,764,Chandler,Chandlre
-city,1942,Durango,Dfurango
-city,2024,Southampton,empty
-city,2296,Hattiesburg,empty
-city,2386,Durango,Druango
-city,925,Huntsville,hHuntsville
-city,1314,Indianapolis,Idianapolis
-city,874,Indianapolis,empty
-city,1164,San Diego,empty
-city,2555,Manhattan,empty
-city,2447,Bridgman,empty
-city,1982,Evanston,empty
-city,2119,Richmond,Richmodn
-city,1037,Bronx,Brownx
-city,1277,Traverse City,Traverse Ciy
-city,2622,Evansville,Evnasville
-city,974,Salt Lake City,empty
-city,543,Santa Cruz,empty
-city,1681,Salt Lake City,nSalt Lake City
-city,1030,Westminster,Westinster
-city,1836,Portland,empty
-city,1194,Nellysford,empty
-city,2417,North Woodstock,empty
-state,173,CA,A
-state,2403,OR,empty
-state,1818,CA,A
-state,1738,CA,A
-state,2589,CO,OC
-state,1426,CT,T
-state,1776,MA,A
-state,1422,CO,empty
-state,168,MT,empty
-state,1898,CA,A
-state,1897,CA,A
-state,1896,CA,A
-state,1496,MI,empty
-state,1319,NE,empty
-state,1614,CO,empty
-state,1183,CO,empty
-state,397,CO,OC
-state,83,CO,empty
-state,2636,MI,IM
-state,2023,MI,MaI
-state,2315,OR,empty
-state,1941,NJ,empty
-state,2349,FL,empty
-state,1809,DC,C
-state,1455,CO,O
-state,809,IL,empty
-state,2171,OR,OhR
-state,901,WA,empty
-state,1960,CA,A
-state,1489,CA,empty
-state,1296,CA,empty
-state,2202,IL,L
-state,476,AZ,AfZ
-state,143,AZ,ZA
-state,142,AZ,ZA
-state,1331,VA,empty
-state,506,MT,TM
-state,1615,nan,empty
-state,2195,OR,RO
-state,2357,TX,XT
-state,1405,PA,empty
-state,2436,AK,KA
-state,1675,PA,empty
-state,2332,NC,empty
-state,1090,VT,empty
-state,1475,GA,A
-state,1262,NM,empty
-state,1234,TX,X
-state,1985,MI,I
-state,2529,IL,LI
-state,1046,MO,empty
-state,625,AZ,sAZ
-state,326,AZ,ZA
-state,132,AZ,ZA
-state,131,AZ,ZA
-state,314,RI,empty
-state,1796,nan,empty
-state,585,CO,empty
-state,847,MO,empty
-state,64,AZ,ZA
-state,2063,AZ,ZA
-state,1995,AZ,Z
-state,1934,AZ,AxZ
-state,1329,AZ,Z
-state,1299,AZ,AqZ
-state,1073,AZ,AjZ
-state,1072,AZ,ZA
-state,1071,AZ,ZA
-state,852,AZ,Z
-state,850,AZ,Z
-state,839,AZ,zAZ
-state,777,AZ,AqZ
-state,764,AZ,ZA
-state,317,AZ,Z
-state,286,AZ,ZA
-state,285,AZ,empty
-state,124,AZ,AvZ
-state,1588,PA,AP
-state,2405,VA,A
-state,1969,TX,empty
-state,1820,IL,empty
-state,1205,VA,AV
-state,2155,IL,empty
-state,1198,WY,WfY
-state,1748,NY,empty
-state,2561,CO,OC
-state,1932,CO,CiO
-state,2222,OH,HO
+brewery_name,515,abita brewing company,abitda brewing company
+brewery_name,2680,against the grain brewery,against the grain brewevry
+brewery_name,1294,angry orchard cider company,empty
+brewery_name,1579,aviator brewing company,empty
+brewery_name,2423,beer works brewery,empty
+brewery_name,1002,big elm brewing,empty
+brewery_name,986,big wood brewery,big wood breery
+brewery_name,1012,blue blood brewing company,bue blood brewing company
+brewery_name,1890,bolero snort brewery,empty
+brewery_name,2548,brewery vivant,rewery vivant
+brewery_name,2542,brewery vivant,breiwery vivant
+brewery_name,2541,brewery vivant,brewer vivant
+brewery_name,2504,brewery vivant,brewery vivsant
+brewery_name,2500,brewery vivant,brewoery vivant
+brewery_name,2499,brewery vivant,rewery vivant
+brewery_name,2498,brewery vivant,bewery vivant
+brewery_name,2481,brewery vivant,brewery vivqant
+brewery_name,2476,brewery vivant,breweyr vivant
+brewery_name,2467,brewery vivant,berwery vivant
+brewery_name,2466,brewery vivant,brewoery vivant
+brewery_name,1352,brewery vivant,brewery viavant
+brewery_name,1267,brewery vivant,brewery pvivant
+brewery_name,1266,brewery vivant,brewery ivvant
+brewery_name,1178,brewery vivant,empty
+brewery_name,1136,brewery vivant,brewery vivatn
+brewery_name,1044,brewery vivant,lbrewery vivant
+brewery_name,1033,brewery vivant,brewery vivatn
+brewery_name,1031,brewery vivant,breery vivant
+brewery_name,909,brewery vivant,brewery ivvant
+brewery_name,873,brewery vivant,brewery vivnt
+brewery_name,860,brewery vivant,breweryy vivant
+brewery_name,677,brewery vivant,brewery vivat
+brewery_name,671,brewery vivant,brewey vivant
+brewery_name,670,brewery vivant,rewery vivant
+brewery_name,669,brewery vivant,brewer vivant
+brewery_name,627,brewery vivant,brwewery vivant
+brewery_name,387,brewery vivant,bzrewery vivant
+brewery_name,385,brewery vivant,brewery viant
+brewery_name,384,brewery vivant,berwery vivant
+brewery_name,538,buckbean brewing company,empty
+brewery_name,2252,coop ale works,empty
+brewery_name,1649,central coast brewing company,empty
+brewery_name,1725,cigar city brewing company,empty
+brewery_name,1887,destihl brewery,destihl brwery
+brewery_name,2430,evil czech brewery,evil czech brweery
+brewery_name,858,fremont brewing company,frsemont brewing company
+brewery_name,2649,great divide brewing company,greaat divide brewing company
+brewery_name,189,great river brewery,gerat river brewery
+brewery_name,2181,hawai'i nui brewing co.,hawai''i ni brewing co.
+brewery_name,989,heavy seas beer,empty
+brewery_name,988,heavy seas beer,empty
+brewery_name,2408,jailbreak brewing company,empty
+brewery_name,1254,james page brewing company,james pag brewing company
+brewery_name,574,long trail brewing company,long trail berwing company
+brewery_name,2582,lost nation brewing,lost nation berwing
+brewery_name,962,mactarnahans brewing company,empty
+brewery_name,713,maui brewing company,mauibrewing company
+brewery_name,1047,mavericks beer company,empty
+brewery_name,2361,minhas craft brewery,empty
+brewery_name,1952,mountain town brewing company,empty
+brewery_name,602,okoboji brewing company,empty
+brewery_name,803,oskar blues brewery,empty
+brewery_name,1946,otter creek brewing,otter creke brewing
+brewery_name,2633,perrin brewing company,perirn brewing company
+brewery_name,2559,pipeworks brewing company,empty
+brewery_name,1760,pisgah brewing company,empty
+brewery_name,2132,rhinegeist brewery,hrinegeist brewery
+brewery_name,2599,santan brewing company,santan brewing comany
+brewery_name,839,santan brewing company,empty
+brewery_name,2406,smartmouth brewing company,smartmouth bmrewing company
+brewery_name,2369,straub brewery,empty
+brewery_name,2084,sun king brewing company,sun king brewingc ompany
+brewery_name,2409,surly brewing company,empty
+brewery_name,361,tailgate beer,tailgajte beer
+brewery_name,102,tallgrass brewing company,empty
+brewery_name,827,telluride brewing company,telluride brexwing company
+brewery_name,2455,the lion brewery,the lion brewrey
+brewery_name,1732,the traveler beer company,teh traveler beer company
+brewery_name,949,tin man brewing company,empty
+brewery_name,2445,tr?egs brewing company,tröegs brewing company
+brewery_name,2444,tr?egs brewing company,tröegs brewing company
+brewery_name,2203,tr?egs brewing company,tröegs brewing company
+brewery_name,1510,tr?egs brewing company,tröegs brewing company
+brewery_name,1509,tr?egs brewing company,tröegs brewing company
+brewery_name,1042,two brothers brewing company,empty
+brewery_name,346,uncommon brewers,empty
+brewery_name,345,upslope brewing company,empty
+brewery_name,2222,warped wing brewing company,warped wing bbrewing company
+brewery_name,575,westbrook brewing company,westbrook brewing compny
+brewery_name,2348,weston brewing company,empty
+brewery_name,2417,"woodstock inn, station & brewery",woodstock inn station & brewery
+brewery_name,2306,"woodstock inn, station & brewery",woodstock inn station & brewery
+city,2258,gary,empty
+city,1473,washougal,wasfhougal
+city,410,hayward,haywbard
+city,1426,bloomfield,bwloomfield
+city,2496,duluth,empty
+city,1541,lincoln,empty
+city,1012,lincoln,linconl
+city,633,eagle,eale
+city,1573,bozeman,bozemn
+city,2597,grand rapids,grandr apids
+city,2548,grand rapids,grand arpids
+city,2542,grand rapids,gkrand rapids
+city,2541,grand rapids,grand apids
+city,2504,grand rapids,grand rapis
+city,2500,grand rapids,gand rapids
+city,2499,grand rapids,grand arpids
+city,2498,grand rapids,grand raids
+city,2481,grand rapids,rgand rapids
+city,2476,grand rapids,rand rapids
+city,2467,grand rapids,grand rapis
+city,2466,grand rapids,grnad rapids
+city,2465,grand rapids,gran rapids
+city,2433,grand rapids,garnd rapids
+city,2418,grand rapids,garand rapids
+city,2416,grand rapids,grand arpids
+city,2382,grand rapids,grand rapilds
+city,2381,grand rapids,graand rapids
+city,2290,grand rapids,grnad rapids
+city,2241,grand rapids,grand arpids
+city,2240,grand rapids,grandr apids
+city,2137,grand rapids,grad rapids
+city,2101,grand rapids,rand rapids
+city,2092,grand rapids,grand rapidfs
+city,2091,grand rapids,grandrapids
+city,2086,grand rapids,rand rapids
+city,627,grand rapids,grandrapids
+city,387,grand rapids,grnd rapids
+city,385,grand rapids,grand rapis
+city,384,grand rapids,grandd rapids
+city,793,ashland,empty
+city,1719,morganton,empty
+city,2003,denver,empty
+city,982,pawtucket,empty
+city,2171,astoria,empty
+city,2303,aurora,empty
+city,1990,aurora,akurora
+city,1244,davenport,daveonport
+city,655,davenport,empty
+city,190,davenport,davenpyort
+city,2375,birmingham,empty
+city,1653,boston,empty
+city,2295,windsor,winsor
+city,2195,springfield,springifeld
+city,502,austin,autsin
+city,2163,kalona,empty
+city,1686,york,oyrk
+city,125,flagstaff,empty
+city,1716,belfast,belafst
+city,712,lahaina,lahania
+city,2275,monroe,empty
+city,521,bucryus,empty
+city,479,bucryus,buciryus
+city,399,seattle,seabttle
+city,2579,export,empty
+city,2249,lansdale,empty
+city,1995,chandler,chanler
+city,764,chandler,chandlre
+city,1942,durango,dfurango
+city,2024,southampton,empty
+city,2296,hattiesburg,empty
+city,2386,durango,druango
+city,925,huntsville,hhuntsville
+city,1314,indianapolis,idianapolis
+city,874,indianapolis,empty
+city,1164,san diego,empty
+city,2555,manhattan,empty
+city,2447,bridgman,empty
+city,1982,evanston,empty
+city,2119,richmond,richmodn
+city,1037,bronx,brownx
+city,1277,traverse city,traverse ciy
+city,2622,evansville,evnasville
+city,974,salt lake city,empty
+city,543,santa cruz,empty
+city,1681,salt lake city,nsalt lake city
+city,1030,westminster,westinster
+city,1836,portland,empty
+city,1194,nellysford,empty
+city,2417,north woodstock,empty
+state,173,ca,a
+state,2403,or,empty
+state,1818,ca,a
+state,1738,ca,a
+state,2589,co,oc
+state,1426,ct,t
+state,1776,ma,a
+state,1422,co,empty
+state,168,mt,empty
+state,1898,ca,a
+state,1897,ca,a
+state,1896,ca,a
+state,1496,mi,empty
+state,1319,ne,empty
+state,1614,co,empty
+state,1183,co,empty
+state,397,co,oc
+state,83,co,empty
+state,2636,mi,im
+state,2023,mi,mai
+state,2315,or,empty
+state,1941,nj,empty
+state,2349,fl,empty
+state,1809,dc,c
+state,1455,co,o
+state,809,il,empty
+state,2171,or,ohr
+state,901,wa,empty
+state,1960,ca,a
+state,1489,ca,empty
+state,1296,ca,empty
+state,2202,il,l
+state,476,az,afz
+state,143,az,za
+state,142,az,za
+state,1331,va,empty
+state,506,mt,tm
+state,2195,or,ro
+state,2357,tx,xt
+state,1405,pa,empty
+state,2436,ak,ka
+state,1675,pa,empty
+state,2332,nc,empty
+state,1090,vt,empty
+state,1475,ga,a
+state,1262,nm,empty
+state,1234,tx,x
+state,1985,mi,i
+state,2529,il,li
+state,1046,mo,empty
+state,625,az,saz
+state,326,az,za
+state,132,az,za
+state,131,az,za
+state,314,ri,empty
+state,585,co,empty
+state,847,mo,empty
+state,64,az,za
+state,2063,az,za
+state,1995,az,z
+state,1934,az,axz
+state,1329,az,z
+state,1299,az,aqz
+state,1073,az,ajz
+state,1072,az,za
+state,1071,az,za
+state,852,az,z
+state,850,az,z
+state,839,az,zaz
+state,777,az,aqz
+state,764,az,za
+state,317,az,z
+state,286,az,za
+state,285,az,empty
+state,124,az,avz
+state,1588,pa,ap
+state,2405,va,a
+state,1969,tx,empty
+state,1820,il,empty
+state,1205,va,av
+state,2155,il,empty
+state,1198,wy,wfy
+state,1748,ny,empty
+state,2561,co,oc
+state,1932,co,cio
+state,2222,oh,ho
