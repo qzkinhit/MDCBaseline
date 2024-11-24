@@ -21,3 +21,100 @@ The error corrector models are updated with new labeled tuple 995.
 100% (20 / 20) of data errors are corrected.
 ------------------------------------------------------------------------
 The error corrector models are updated with new labeled tuple 353.
+406 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 0.
+406 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 450.
+406 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 447.
+406 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 49.
+406 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 904.
+406 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 578.
+406 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 729.
+406 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 345.
+406 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 420.
+406 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 390.
+406 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 321.
+406 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 214.
+406 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 573.
+408 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 681.
+408 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 412.
+408 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+The error corrector models are updated with new labeled tuple 308.
+408 pairs of (a data error, a potential correction) are featurized.
+100% (20 / 20) of data errors are corrected.
+------------------------------------------------------------------------
+Repaired data saved to results/raha_baran/nwcpk/results-1_hospitals_nwcpk_025/repaired_1_hospitals_nwcpk_025.csv
+===============================================
+测评性能开始：
+差异文件已保存到:
+results/raha_baran/nwcpk/results-1_hospitals_nwcpk_025/1_hospitals_nwcpk_025_clean_vs_dirty.csv
+results/raha_baran/nwcpk/results-1_hospitals_nwcpk_025/1_hospitals_nwcpk_025_dirty_vs_cleaned.csv
+results/raha_baran/nwcpk/results-1_hospitals_nwcpk_025/1_hospitals_nwcpk_025_clean_vs_cleaned.csv
+修复错误数据文件已保存到: results/raha_baran/nwcpk/results-1_hospitals_nwcpk_025/1_hospitals_nwcpk_025_repair_errors.csv
+未修复但是应该修复数据文件已保存到: results/raha_baran/nwcpk/results-1_hospitals_nwcpk_025/1_hospitals_nwcpk_025_unrepaired.csv
+修复准确率: 0.9, 修复召回率: 0.21686746987951808, F1值: 0.34951456307550194
+========================================
+EDR 结果已保存到: results/raha_baran/nwcpk/results-1_hospitals_nwcpk_025/1_hospitals_nwcpk_025_edr_evaluation.txt
+错误减少率 (EDR): 0.21686746987951808
+========================================
+混合距离结果已保存到: results/raha_baran/nwcpk/results-1_hospitals_nwcpk_025/1_hospitals_nwcpk_025_hybrid_distance_evaluation.txt
+混合距离 (Hybrid Distance): 0.04234178184995191
+========================================
+R-EDR 结果已保存到: results/raha_baran/nwcpk/results-1_hospitals_nwcpk_025/1_hospitals_nwcpk_025_record_based_edr_evaluation.txt
+基于条目的错误减少率 (R-EDR): 0.21686746987951808
+========================================
+测试结果:
+Accuracy: 0.9
+Recall: 0.21686746987951808
+F1 Score: 0.34951456307550194
+EDR: 0.21686746987951808
+Hybrid Distance: 0.04234178184995191
+R-EDR: 0.21686746987951808
+time(s): 37309.60479736328
+speed: 3730.960479736328 seconds/100num
+测评结束，详细测评日志见：results/raha_baran/nwcpk/results-1_hospitals_nwcpk_025/all_compute_1_hospitals_nwcpk_025.txt
