@@ -7,7 +7,7 @@
 datasets=(
     "1_hospitals:index:Score:Data/1_hospitals/noise_with_correct_primary_key:Data/1_hospitals/clean_index.csv"
     "2_flights:index::Data/2_flights/noise_with_correct_primary_key:Data/2_flights/clean_index.csv"
-    "3_beers:id:abv ibu:Data/3_beers/noise_with_correct_primary_key:Data/3_beers/clean_index.csv"
+    "3_beers:id:abv ibu:Data/3_beers/noise_with_correct_primary_key:Data/3_beers/clean.csv"
     "4_rayyan:index::Data/4_rayyan/noise_with_correct_primary_key:Data/4_rayyan/clean_index.csv"
     "5_tax:tno:rate:Data/5_tax/subset_tax_10k/noise_with_correct_primary_key:Data/5_tax/subset_tax_10k/subset_tax_10k_clean_index.csv"
     "6_soccer:index::Data/6_soccer/subset_directly_extract_soccer_10k/noise_with_correct_primary_key:Data/6_soccer/subset_directly_extract_soccer_10k/subset_directly_extract_soccer_10k_clean_index.csv"
