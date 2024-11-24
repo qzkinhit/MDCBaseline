@@ -1,0 +1,28 @@
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/6_soccer/subset_soccer_10k/subset_clean_index_10k.csv
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/6_soccer/subset_soccer_10k/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_soccer_mix_0.25.csv
+Running bigdansing with dirty file: Data/6_soccer/subset_soccer_10k/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_soccer_mix_0.25.csv
+Start Blocking
+  0%|                                                               | 0/6 [00:00<?, ?it/s] 17%|█████████▏                                             | 1/6 [00:03<00:18,  3.76s/it] 33%|██████████████████▎                                    | 2/6 [00:11<00:24,  6.01s/it] 50%|███████████████████████████▌                           | 3/6 [00:21<00:23,  7.73s/it]===============================================
+Results saved to results/bigdansing/nwcpk/Repaired_res/6_soccer_nwcpk_02/repaired_6_soccer_nwcpk_025.csv
+BigDansing finished in 2142.274360895157 seconds.
+测评性能开始：
+Traceback (most recent call last):
+  File "CleanerRunScript/run_bigdansing/run_bigdansing_base.py", line 152, in <module>
+    main()
+  File "CleanerRunScript/run_bigdansing/run_bigdansing_base.py", line 103, in main
+    inject_missing_values(
+  File "/home/hit_lt/MDCBaseline/CleanerRunScript/run_bigdansing/../../util/insert_null.py", line 21, in inject_missing_values
+    df = pd.read_csv(csv_file)
+  File "/home/hit_lt/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/hit_lt/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/hit_lt/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/hit_lt/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/home/hit_lt/.local/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'results/bigdansing/nwcpk/Repaired_res/6_soccer_nwcpk_02/repaired_6_soccer_nwcpk_025.csv'
