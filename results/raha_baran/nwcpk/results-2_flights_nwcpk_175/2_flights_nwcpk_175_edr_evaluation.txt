@@ -12,20 +12,20 @@ Distance (Repaired to Clean): 0
 ========================================
 Attribute: sched_dep_time
 Distance (Dirty to Clean): 122
-Distance (Repaired to Clean): 63
+Distance (Repaired to Clean): 2
 ========================================
 Attribute: act_dep_time
 Distance (Dirty to Clean): 129
-Distance (Repaired to Clean): 57
+Distance (Repaired to Clean): 31
 ========================================
 Attribute: sched_arr_time
 Distance (Dirty to Clean): 124
-Distance (Repaired to Clean): 74
+Distance (Repaired to Clean): 86
 ========================================
 Attribute: act_arr_time
 Distance (Dirty to Clean): 125
-Distance (Repaired to Clean): 75
+Distance (Repaired to Clean): 25
 ========================================
 总的脏数据到干净数据距离: 500
-总的修复后数据到干净数据距离: 269
-错误减少率 (EDR): 0.462
+总的修复后数据到干净数据距离: 144
+错误减少率 (EDR): 0.712

@@ -1,11 +1,11 @@
-rep_right:24
-rec_right:24
-wrong_cells:1053
-prec:0.23529411764705882
-rec:0.022792022792022793
-wrong2right:24
+rep_right:4
+rec_right:4
+wrong_cells:109
+prec:1.0
+rec:0.03669724770642202
+wrong2right:4
 right2right:0
-wrong2wrong:57
-right2wrong:21
-clean_in_cands AFTER filter:44
-proportion of clean value in candidates and selected correctly:0.5454545453305785
+wrong2wrong:0
+right2wrong:0
+clean_in_cands AFTER filter:4
+proportion of clean value in candidates and selected correctly:0.9999999975
