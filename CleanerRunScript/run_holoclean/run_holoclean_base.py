@@ -140,7 +140,8 @@ def main():
         val_col='correct_val',
         output_csv_path=res_path,  # 保存修复后的数据
         attrubte_list=clean_data_attributes,  # 按 clean 数据的列顺序导出
-        clean_data=clean_data
+        clean_data=clean_data,
+        index_attribute=index_attribute
     )
 
     print(f"Results saved to {res_path}")
