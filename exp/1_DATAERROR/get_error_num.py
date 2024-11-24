@@ -191,12 +191,12 @@ def process_dataset_with_noise(dataset_name, noise_level, dirty_path, clean_path
 if __name__ == '__main__':
     index_column = 'index'
     datasets = {
-        "Hospital": ("../../Data/1_hospitals/dirty_index.csv", "../../Data/1_hospitals/clean_index.csv"),
-        "Flights": ("../../Data/2_flights/dirty_index.csv", "../../Data/2_flights/clean_index.csv"),
-        "Beers": ("../../Data/3_beers/dirty_index.csv", "../../Data/3_beers/clean_index.csv"),
+        # "Hospital": ("../../Data/1_hospitals/dirty_index.csv", "../../Data/1_hospitals/clean_index.csv"),
+        # "Flights": ("../../Data/2_flights/dirty_index.csv", "../../Data/2_flights/clean_index.csv"),
+        # "Beers": ("../../Data/3_beers/dirty_index.csv", "../../Data/3_beers/clean_index.csv"),
         "Rayyan": ("../../Data/4_rayyan/dirty_index.csv", "../../Data/4_rayyan/clean_index.csv"),
-        "Tax": ("../../Data/5_tax/dirty_index.csv", "../../Data/5_tax/clean_index.csv"),
-        "Soccer": ("../../Data/6_soccer/dirty_index.csv", "../../Data/6_soccer/clean_index.csv"),
+        # "Tax": ("../../Data/5_tax/dirty_index.csv", "../../Data/5_tax/clean_index.csv"),
+        # "Soccer": ("../../Data/6_soccer/dirty_index.csv", "../../Data/6_soccer/clean_index.csv"),
     }
     for dataset_name, (dirty_path, clean_path) in datasets.items():
         process_dataset(dataset_name, dirty_path, clean_path, index_column)
