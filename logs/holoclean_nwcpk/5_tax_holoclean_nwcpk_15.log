@@ -1,0 +1,1120 @@
+20:44:42 - [DEBUG] - initiating session with parameters: {'db_user': 'datacleanuser', 'db_pwd': 'abcd1234', 'db_host': 'localhost', 'db_name': 'holo', 'threads': 1, 'timeout': 180000, 'seed': 45, 'learning_rate': 0.001, 'optimizer': 'adam', 'epochs': 10, 'weight_decay': 0.01, 'momentum': 0.0, 'batch_size': 1, 'weak_label_thresh': 0.99, 'domain_thresh_1': 0, 'domain_thresh_2': 0, 'max_domain': 10000, 'cor_strength': 0.6, 'nb_cor_strength': 0.8, 'feature_norm': False, 'weight_norm': False, 'estimator_epochs': 3, 'estimator_batch_size': 32, 'verbose': True, 'bias': False, 'print_fw': True, 'debug_mode': False}
+20:44:42 - [ INFO] - Loaded 1000 rows with 17000 cells
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [DEBUG] - Time to create index: 0.00 secs
+20:44:42 - [ INFO] - DONE Loading dirty_tax_mix_1.5_holoclean.csv
+20:44:42 - [DEBUG] - Time to load dataset: 0.20 secs
+20:44:42 - [DEBUG] - OPENED constraints file successfully
+20:44:42 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.zip,t2.zip)&IQ(t1.city,t2.city)
+20:44:42 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.zip,t2.zip)&IQ(t1.city,t2.city)
+20:44:42 - [DEBUG] - DONE parsing predicate: EQ(t1.zip,t2.zip)
+20:44:42 - [DEBUG] - DONE parsing predicate: IQ(t1.city,t2.city)
+20:44:42 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.zip,t2.zip)&IQ(t1.state,t2.state)
+20:44:42 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.zip,t2.zip)&IQ(t1.state,t2.state)
+20:44:42 - [DEBUG] - DONE parsing predicate: EQ(t1.zip,t2.zip)
+20:44:42 - [DEBUG] - DONE parsing predicate: IQ(t1.state,t2.state)
+20:44:42 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.zip,t2.zip)&EQ(t1.haschild,t2.haschild)&IQ(t1.childexemp,t2.childexemp)
+20:44:42 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.zip,t2.zip)&EQ(t1.haschild,t2.haschild)&IQ(t1.childexemp,t2.childexemp)
+20:44:42 - [DEBUG] - DONE parsing predicate: EQ(t1.zip,t2.zip)
+20:44:42 - [DEBUG] - DONE parsing predicate: EQ(t1.haschild,t2.haschild)
+20:44:42 - [DEBUG] - DONE parsing predicate: IQ(t1.childexemp,t2.childexemp)
+20:44:42 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.zip,t2.zip)&EQ(t1.maritalstatus,t2.maritalstatus)&IQ(t1.singleexemp,t2.singleexemp)
+20:44:42 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.zip,t2.zip)&EQ(t1.maritalstatus,t2.maritalstatus)&IQ(t1.singleexemp,t2.singleexemp)
+20:44:42 - [DEBUG] - DONE parsing predicate: EQ(t1.zip,t2.zip)
+20:44:42 - [DEBUG] - DONE parsing predicate: EQ(t1.maritalstatus,t2.maritalstatus)
+20:44:42 - [DEBUG] - DONE parsing predicate: IQ(t1.singleexemp,t2.singleexemp)
+20:44:42 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.zip,t2.zip)&EQ(t1.maritalstatus,t2.maritalstatus)&IQ(t1.marriedexemp,t2.marriedexemp)
+20:44:42 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.zip,t2.zip)&EQ(t1.maritalstatus,t2.maritalstatus)&IQ(t1.marriedexemp,t2.marriedexemp)
+20:44:42 - [DEBUG] - DONE parsing predicate: EQ(t1.zip,t2.zip)
+20:44:42 - [DEBUG] - DONE parsing predicate: EQ(t1.maritalstatus,t2.maritalstatus)
+20:44:42 - [DEBUG] - DONE parsing predicate: IQ(t1.marriedexemp,t2.marriedexemp)
+20:44:42 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.fname,t2.fname)&IQ(t1.gender,t2.gender)
+20:44:42 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.fname,t2.fname)&IQ(t1.gender,t2.gender)
+20:44:42 - [DEBUG] - DONE parsing predicate: EQ(t1.fname,t2.fname)
+20:44:42 - [DEBUG] - DONE parsing predicate: IQ(t1.gender,t2.gender)
+20:44:42 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.areacode,t2.areacode)&IQ(t1.state,t2.state)
+20:44:42 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.areacode,t2.areacode)&IQ(t1.state,t2.state)
+20:44:42 - [DEBUG] - DONE parsing predicate: EQ(t1.areacode,t2.areacode)
+20:44:42 - [DEBUG] - DONE parsing predicate: IQ(t1.state,t2.state)
+20:44:42 - [DEBUG] - DONE pre-processing constraint: t1&t2&EQ(t1.phone,t2.phone)&EQ(t1.zip,t2.zip)&IQ(t1.areacode,t2.areacode)
+20:44:42 - [DEBUG] - DONE extracting tuples from constraint: t1&t2&EQ(t1.phone,t2.phone)&EQ(t1.zip,t2.zip)&IQ(t1.areacode,t2.areacode)
+20:44:42 - [DEBUG] - DONE parsing predicate: EQ(t1.phone,t2.phone)
+20:44:42 - [DEBUG] - DONE parsing predicate: EQ(t1.zip,t2.zip)
+20:44:42 - [DEBUG] - DONE parsing predicate: IQ(t1.areacode,t2.areacode)
+20:44:42 - [ INFO] - DONE Loading DCs from dc_rules_holoclean.txt
+20:44:42 - [DEBUG] - Time to load dirty data: 0.00 secs
+20:44:42 - [DEBUG] - DONE with Error Detector: NullDetector in 0.05 secs
+20:44:42 - [DEBUG] - Preparing to execute 8 queries.
+20:44:42 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "tax_nwcpk_15" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "tax_nwcpk_15" as t2 WHERE t1."zip"=t2."zip" AND t1."city"<>t2."city") with id 0
+20:44:42 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+20:44:42 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "tax_nwcpk_15" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "tax_nwcpk_15" as t2 WHERE t1."zip"=t2."zip" AND t1."state"<>t2."state") with id 1
+20:44:42 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+20:44:42 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "tax_nwcpk_15" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "tax_nwcpk_15" as t2 WHERE t1."zip"=t2."zip" AND t1."haschild"=t2."haschild" AND t1."childexemp"<>t2."childexemp") with id 2
+20:44:42 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+20:44:42 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "tax_nwcpk_15" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "tax_nwcpk_15" as t2 WHERE t1."zip"=t2."zip" AND t1."maritalstatus"=t2."maritalstatus" AND t1."singleexemp"<>t2."singleexemp") with id 3
+20:44:42 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+20:44:42 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "tax_nwcpk_15" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "tax_nwcpk_15" as t2 WHERE t1."zip"=t2."zip" AND t1."maritalstatus"=t2."maritalstatus" AND t1."marriedexemp"<>t2."marriedexemp") with id 4
+20:44:42 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+20:44:42 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "tax_nwcpk_15" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "tax_nwcpk_15" as t2 WHERE t1."fname"=t2."fname" AND t1."gender"<>t2."gender") with id 5
+20:44:42 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+20:44:42 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "tax_nwcpk_15" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "tax_nwcpk_15" as t2 WHERE t1."areacode"=t2."areacode" AND t1."state"<>t2."state") with id 6
+20:44:42 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+20:44:42 - [DEBUG] - Starting to execute query SELECT t1._tid_ FROM "tax_nwcpk_15" as t1 WHERE   EXISTS (SELECT t2._tid_ FROM "tax_nwcpk_15" as t2 WHERE t1."phone"=t2."phone" AND t1."zip"=t2."zip" AND t1."areacode"<>t2."areacode") with id 7
+20:44:42 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+20:44:42 - [DEBUG] - Time to execute 8 queries: 0.01 secs
+20:44:42 - [DEBUG] - DONE with Error Detector: ViolationDetector in 0.04 secs
+20:44:42 - [ INFO] - detected 2718 potentially erroneous cells
+20:44:43 - [DEBUG] - Time to create index: 0.00 secs
+20:44:43 - [ INFO] - DONE with error detection.
+20:44:43 - [DEBUG] - Time to detect errors: 0.33 secs
+20:44:49 - [DEBUG] - Time to execute query: 0.00 secs
+20:44:49 - [DEBUG] - computing frequency and co-occurrence statistics from raw data...
+20:44:49 - [DEBUG] - Collecting single/pair-wise statistics...
+20:44:52 - [DEBUG] - DONE computing statistics in 3.27s
+20:44:52 - [DEBUG] - preparing pruned co-occurring statistics...
+
+  0%|          | 0/16 [00:00<?, ?it/s]
+ 12%|█▎        | 2/16 [00:00<00:01, 10.20it/s]
+ 56%|█████▋    | 9/16 [00:00<00:00, 13.63it/s]
+100%|██████████| 16/16 [00:00<00:00, 50.22it/s]
+20:44:52 - [DEBUG] - DONE with pruned co-occurring statistics in 0.32 secs
+20:44:52 - [DEBUG] - generating initial set of un-pruned domain values...
+
+  0%|          | 0/1000 [00:00<?, ?it/s]
+  6%|▌         | 59/1000 [00:00<00:01, 585.43it/s]
+ 12%|█▏        | 119/1000 [00:00<00:01, 589.53it/s]
+ 18%|█▊        | 177/1000 [00:00<00:01, 586.48it/s]
+ 24%|██▎       | 236/1000 [00:00<00:01, 586.13it/s]
+ 30%|██▉       | 296/1000 [00:00<00:01, 588.33it/s]
+ 35%|███▌      | 351/1000 [00:00<00:01, 575.59it/s]
+ 41%|████      | 411/1000 [00:00<00:01, 581.06it/s]
+ 47%|████▋     | 467/1000 [00:00<00:00, 571.26it/s]
+ 53%|█████▎    | 527/1000 [00:00<00:00, 576.45it/s]
+ 58%|█████▊    | 583/1000 [00:01<00:00, 560.10it/s]
+ 64%|██████▍   | 641/1000 [00:01<00:00, 564.20it/s]
+ 70%|██████▉   | 698/1000 [00:01<00:00, 565.53it/s]
+ 76%|███████▌  | 758/1000 [00:01<00:00, 572.21it/s]
+ 82%|████████▏ | 815/1000 [00:01<00:00, 396.03it/s]
+ 88%|████████▊ | 877/1000 [00:01<00:00, 444.03it/s]
+ 94%|█████████▎| 937/1000 [00:01<00:00, 479.84it/s]
+100%|█████████▉| 999/1000 [00:01<00:00, 512.98it/s]
+100%|██████████| 1000/1000 [00:01<00:00, 534.29it/s]
+20:44:54 - [DEBUG] - DONE generating initial set of domain values in 1.97
+20:44:54 - [DEBUG] - training posterior model for estimating domain value probabilities...
+20:44:54 - [DEBUG] - DONE training posterior model in 0.01s
+20:44:54 - [DEBUG] - predicting domain value probabilities from posterior model...
+20:44:54 - [DEBUG] - DONE predictions in 0.00 secs, re-constructing cell domain...
+20:44:54 - [DEBUG] - re-assembling final cell domain table...
+
+0it [00:00, ?it/s]
+
+  0%|          | 0/10996 [00:00<?, ?it/s][A
+212it [00:00, 2119.68it/s]
+
+  2%|▏         | 255/10996 [00:00<00:04, 2548.48it/s][A
+459it [00:00, 2211.11it/s]
+
+  5%|▍         | 497/10996 [00:00<00:04, 2504.03it/s][A
+704it [00:00, 2277.63it/s]
+
+  7%|▋         | 749/10996 [00:00<00:04, 2507.85it/s][A
+956it [00:00, 2339.87it/s]
+
+  9%|▉         | 998/10996 [00:00<00:03, 2502.24it/s][A
+1196it [00:00, 2353.33it/s]
+
+ 11%|█▏        | 1240/10996 [00:00<00:03, 2472.36it/s][A
+1456it [00:00, 2422.02it/s]
+
+ 14%|█▎        | 1495/10996 [00:00<00:03, 2491.97it/s][A
+1713it [00:00, 2462.16it/s]
+
+ 16%|█▌        | 1747/10996 [00:00<00:03, 2498.37it/s][A
+1956it [00:00, 2449.86it/s]
+
+ 18%|█▊        | 1995/10996 [00:00<00:03, 2485.96it/s][A
+2202it [00:00, 2447.05it/s]
+
+ 20%|██        | 2238/10996 [00:00<00:03, 2468.20it/s][A
+2446it [00:01, 2444.76it/s]
+
+ 23%|██▎       | 2484/10996 [00:01<00:03, 2462.22it/s][A
+2694it [00:01, 2451.75it/s]
+
+ 25%|██▍       | 2737/10996 [00:01<00:03, 2480.50it/s][A
+2936it [00:01, 2429.70it/s]
+
+ 27%|██▋       | 2981/10996 [00:01<00:03, 2428.99it/s][A
+3177it [00:01, 2395.73it/s]
+
+ 29%|██▉       | 3221/10996 [00:01<00:03, 2416.86it/s][A
+3426it [00:01, 2421.40it/s]
+
+ 32%|███▏      | 3472/10996 [00:01<00:03, 2443.68it/s][A
+3687it [00:01, 2469.24it/s]
+
+ 34%|███▍      | 3728/10996 [00:01<00:02, 2476.94it/s][A
+3936it [00:01, 2471.29it/s]
+
+ 36%|███▌      | 3976/10996 [00:01<00:02, 2476.80it/s][A
+4190it [00:01, 2490.23it/s]
+
+ 38%|███▊      | 4226/10996 [00:01<00:02, 2480.28it/s][A
+4439it [00:01, 2477.57it/s]
+
+ 41%|████      | 4474/10996 [00:01<00:02, 2478.58it/s][A
+4696it [00:01, 2501.04it/s]
+
+ 43%|████▎     | 4727/10996 [00:01<00:02, 2490.92it/s][A
+4971it [00:02, 2569.17it/s]
+
+ 45%|████▌     | 5002/10996 [00:02<00:02, 2562.80it/s][A
+5229it [00:02, 2524.67it/s]
+
+ 48%|████▊     | 5259/10996 [00:02<00:02, 2535.93it/s][A
+5482it [00:02, 2460.61it/s]
+
+ 50%|█████     | 5513/10996 [00:02<00:02, 2457.78it/s][A
+5729it [00:02, 2439.84it/s]
+
+ 52%|█████▏    | 5760/10996 [00:02<00:02, 2452.05it/s][A
+5974it [00:02, 2428.52it/s]
+
+ 55%|█████▍    | 6006/10996 [00:02<00:02, 2409.71it/s][A
+6223it [00:02, 2444.22it/s]
+
+ 57%|█████▋    | 6261/10996 [00:02<00:01, 2448.92it/s][A
+6481it [00:02, 2479.84it/s]
+
+ 59%|█████▉    | 6517/10996 [00:02<00:01, 2479.24it/s][A
+6740it [00:02, 2507.26it/s]
+
+ 62%|██████▏   | 6775/10996 [00:02<00:01, 2507.18it/s][A
+6994it [00:02, 2512.26it/s]
+
+ 64%|██████▍   | 7031/10996 [00:02<00:01, 2516.19it/s][A
+7249it [00:02, 2522.18it/s]
+
+ 66%|██████▋   | 7290/10996 [00:02<00:01, 2532.79it/s][A
+7502it [00:03, 2475.85it/s]
+
+ 69%|██████▊   | 7544/10996 [00:03<00:01, 2477.86it/s][A
+7753it [00:03, 2484.59it/s]
+
+ 71%|███████   | 7797/10996 [00:03<00:01, 2489.16it/s][A
+8021it [00:03, 2540.06it/s]
+
+ 73%|███████▎  | 8063/10996 [00:03<00:01, 2534.07it/s][A
+8276it [00:03, 2535.77it/s]
+
+ 76%|███████▌  | 8317/10996 [00:03<00:01, 2535.69it/s][A
+8531it [00:03, 2535.71it/s]
+
+ 78%|███████▊  | 8575/10996 [00:03<00:00, 2543.93it/s][A
+8785it [00:03, 2473.23it/s]
+
+ 80%|████████  | 8830/10996 [00:03<00:00, 2473.90it/s][A
+9038it [00:03, 2488.57it/s]
+
+ 83%|████████▎ | 9078/10996 [00:03<00:00, 2470.86it/s][A
+9288it [00:03, 2478.13it/s]
+
+ 85%|████████▍ | 9328/10996 [00:03<00:00, 2475.46it/s][A
+9537it [00:03, 2476.60it/s]
+
+ 87%|████████▋ | 9581/10996 [00:03<00:00, 2486.89it/s][A
+9785it [00:03, 2465.53it/s]
+
+ 89%|████████▉ | 9830/10996 [00:03<00:00, 2469.18it/s][A
+10041it [00:04, 2487.07it/s]
+
+ 92%|█████████▏| 10081/10996 [00:04<00:00, 2478.16it/s][A
+10290it [00:04, 2457.20it/s]
+
+ 94%|█████████▍| 10329/10996 [00:04<00:00, 2460.01it/s][A
+10544it [00:04, 2478.62it/s]
+
+ 96%|█████████▌| 10576/10996 [00:04<00:00, 2395.31it/s][A
+10793it [00:04, 2415.92it/s]
+
+ 98%|█████████▊| 10830/10996 [00:04<00:00, 2434.68it/s][A
+
+100%|██████████| 10996/10996 [00:04<00:00, 2478.63it/s][A
+10996it [00:04, 2459.44it/s]
+20:44:59 - [DEBUG] - DONE assembling cell domain table in 4.89s
+20:44:59 - [ INFO] - number of (additional) weak labels assigned from posterior model: 321
+20:44:59 - [DEBUG] - DONE generating domain and weak labels
+20:45:01 - [DEBUG] - Time to create index: 0.00 secs
+20:45:01 - [DEBUG] - Time to create index: 0.00 secs
+20:45:01 - [DEBUG] - Time to create index: 0.00 secs
+20:45:01 - [DEBUG] - Time to create table: 0.00 secs
+20:45:03 - [DEBUG] - Time to create index: 0.00 secs
+20:45:03 - [ INFO] - DONE with domain preparation.
+20:45:03 - [DEBUG] - Time to setup the domain: 20.18 secs
+20:45:03 - [DEBUG] - Time to execute query: 0.00 secs
+20:45:03 - [DEBUG] - Time to execute query: 0.00 secs
+20:45:03 - [DEBUG] - Time to execute query: 0.00 secs
+20:45:03 - [DEBUG] - Time to execute query: 0.00 secs
+20:45:03 - [DEBUG] - Time to execute query: 0.00 secs
+20:45:03 - [DEBUG] - featurizing training data...
+20:45:03 - [DEBUG] - Time to execute query: 0.02 secs
+
+  0%|          | 0/10996 [00:00<?, ?it/s]
+  0%|          | 22/10996 [00:00<00:50, 217.98it/s]
+  0%|          | 47/10996 [00:00<00:48, 226.00it/s]
+  1%|          | 75/10996 [00:00<00:46, 236.94it/s]
+  1%|          | 98/10996 [00:00<00:46, 233.55it/s]
+  1%|          | 124/10996 [00:00<00:45, 239.85it/s]
+  1%|▏         | 150/10996 [00:00<00:44, 245.52it/s]
+  2%|▏         | 175/10996 [00:00<00:44, 242.66it/s]
+  2%|▏         | 199/10996 [00:00<00:44, 240.68it/s]
+  2%|▏         | 224/10996 [00:00<00:44, 242.15it/s]
+  2%|▏         | 251/10996 [00:01<00:43, 246.07it/s]
+  3%|▎         | 276/10996 [00:01<00:44, 241.42it/s]
+  3%|▎         | 301/10996 [00:01<00:44, 241.27it/s]
+  3%|▎         | 328/10996 [00:01<00:43, 246.66it/s]
+  3%|▎         | 353/10996 [00:01<00:43, 246.59it/s]
+  3%|▎         | 378/10996 [00:01<00:43, 242.38it/s]
+  4%|▎         | 404/10996 [00:01<00:43, 245.35it/s]
+  4%|▍         | 429/10996 [00:01<00:44, 236.42it/s]
+  4%|▍         | 453/10996 [00:01<00:48, 217.77it/s]
+  4%|▍         | 476/10996 [00:02<00:49, 210.95it/s]
+  5%|▍         | 504/10996 [00:02<00:46, 225.25it/s]
+  5%|▍         | 527/10996 [00:02<00:46, 223.00it/s]
+  5%|▌         | 550/10996 [00:02<00:49, 211.86it/s]
+  5%|▌         | 576/10996 [00:02<00:47, 220.93it/s]
+  5%|▌         | 603/10996 [00:02<00:45, 230.63it/s]
+  6%|▌         | 628/10996 [00:02<00:43, 235.93it/s]
+  6%|▌         | 654/10996 [00:02<00:42, 241.78it/s]
+  6%|▌         | 681/10996 [00:02<00:41, 248.58it/s]
+  7%|▋         | 725/10996 [00:02<00:35, 285.41it/s]
+  7%|▋         | 762/10996 [00:03<00:33, 306.29it/s]
+  7%|▋         | 811/10996 [00:03<00:29, 345.00it/s]
+  8%|▊         | 857/10996 [00:03<00:27, 372.41it/s]
+  8%|▊         | 902/10996 [00:03<00:25, 392.45it/s]
+  9%|▊         | 950/10996 [00:03<00:24, 403.77it/s]
+  9%|▉         | 994/10996 [00:03<00:24, 413.66it/s]
+  9%|▉         | 1042/10996 [00:03<00:23, 429.68it/s]
+ 10%|▉         | 1086/10996 [00:03<00:26, 375.68it/s]
+ 10%|█         | 1127/10996 [00:03<00:25, 385.00it/s]
+ 11%|█         | 1169/10996 [00:04<00:24, 393.61it/s]
+ 11%|█         | 1210/10996 [00:04<00:24, 398.14it/s]
+ 11%|█▏        | 1254/10996 [00:04<00:23, 409.56it/s]
+ 12%|█▏        | 1300/10996 [00:04<00:23, 419.67it/s]
+ 12%|█▏        | 1349/10996 [00:04<00:22, 437.92it/s]
+ 13%|█▎        | 1394/10996 [00:04<00:21, 438.34it/s]
+ 13%|█▎        | 1439/10996 [00:04<00:21, 437.60it/s]
+ 13%|█▎        | 1484/10996 [00:04<00:22, 426.89it/s]
+ 14%|█▍        | 1534/10996 [00:04<00:21, 446.13it/s]
+ 14%|█▍        | 1582/10996 [00:04<00:20, 455.63it/s]
+ 15%|█▍        | 1628/10996 [00:05<00:20, 453.13it/s]
+ 15%|█▌        | 1674/10996 [00:05<00:21, 429.01it/s]
+ 16%|█▌        | 1720/10996 [00:05<00:21, 437.16it/s]
+ 16%|█▌        | 1765/10996 [00:05<00:22, 404.89it/s]
+ 16%|█▋        | 1807/10996 [00:05<00:22, 404.17it/s]
+ 17%|█▋        | 1853/10996 [00:05<00:21, 417.90it/s]
+ 17%|█▋        | 1901/10996 [00:05<00:20, 433.36it/s]
+ 18%|█▊        | 1949/10996 [00:05<00:20, 443.47it/s]
+ 18%|█▊        | 1995/10996 [00:05<00:20, 439.02it/s]
+ 19%|█▊        | 2043/10996 [00:06<00:20, 445.79it/s]
+ 19%|█▉        | 2088/10996 [00:06<00:21, 415.80it/s]
+ 19%|█▉        | 2131/10996 [00:06<00:21, 407.81it/s]
+ 20%|█▉        | 2173/10996 [00:06<00:22, 398.27it/s]
+ 20%|██        | 2214/10996 [00:06<00:23, 373.79it/s]
+ 20%|██        | 2252/10996 [00:06<00:24, 358.75it/s]
+ 21%|██        | 2290/10996 [00:06<00:24, 361.70it/s]
+ 21%|██        | 2331/10996 [00:06<00:23, 373.07it/s]
+ 22%|██▏       | 2371/10996 [00:06<00:22, 380.72it/s]
+ 22%|██▏       | 2410/10996 [00:07<00:23, 373.14it/s]
+ 22%|██▏       | 2448/10996 [00:07<00:23, 366.03it/s]
+ 23%|██▎       | 2485/10996 [00:07<00:24, 347.95it/s]
+ 23%|██▎       | 2521/10996 [00:07<00:24, 348.28it/s]
+ 23%|██▎       | 2561/10996 [00:07<00:24, 350.42it/s]
+ 24%|██▎       | 2598/10996 [00:07<00:23, 352.09it/s]
+ 24%|██▍       | 2635/10996 [00:07<00:23, 357.05it/s]
+ 24%|██▍       | 2672/10996 [00:07<00:23, 359.71it/s]
+ 25%|██▍       | 2714/10996 [00:07<00:22, 372.76it/s]
+ 25%|██▌       | 2752/10996 [00:07<00:22, 368.06it/s]
+ 25%|██▌       | 2789/10996 [00:08<00:23, 342.90it/s]
+ 26%|██▌       | 2826/10996 [00:08<00:23, 346.25it/s]
+ 26%|██▌       | 2865/10996 [00:08<00:22, 355.64it/s]
+ 26%|██▋       | 2901/10996 [00:08<00:23, 348.09it/s]
+ 27%|██▋       | 2937/10996 [00:08<00:23, 349.17it/s]
+ 27%|██▋       | 2974/10996 [00:08<00:23, 346.36it/s]
+ 27%|██▋       | 3009/10996 [00:08<00:23, 338.65it/s]
+ 28%|██▊       | 3043/10996 [00:08<00:24, 330.29it/s]
+ 28%|██▊       | 3077/10996 [00:08<00:24, 317.97it/s]
+ 28%|██▊       | 3113/10996 [00:09<00:23, 329.16it/s]
+ 29%|██▊       | 3154/10996 [00:09<00:22, 347.58it/s]
+ 29%|██▉       | 3192/10996 [00:09<00:22, 351.84it/s]
+ 29%|██▉       | 3231/10996 [00:09<00:21, 359.26it/s]
+ 30%|██▉       | 3269/10996 [00:09<00:21, 359.64it/s]
+ 30%|███       | 3309/10996 [00:09<00:20, 370.55it/s]
+ 30%|███       | 3349/10996 [00:09<00:20, 376.76it/s]
+ 31%|███       | 3389/10996 [00:09<00:19, 381.93it/s]
+ 31%|███       | 3428/10996 [00:09<00:20, 375.63it/s]
+ 32%|███▏      | 3466/10996 [00:10<00:20, 372.89it/s]
+ 32%|███▏      | 3505/10996 [00:10<00:19, 377.85it/s]
+ 32%|███▏      | 3543/10996 [00:10<00:20, 361.16it/s]
+ 33%|███▎      | 3580/10996 [00:10<00:20, 359.29it/s]
+ 33%|███▎      | 3617/10996 [00:10<00:20, 361.56it/s]
+ 33%|███▎      | 3654/10996 [00:10<00:20, 360.37it/s]
+ 34%|███▎      | 3691/10996 [00:10<00:20, 359.22it/s]
+ 34%|███▍      | 3728/10996 [00:10<00:20, 356.98it/s]
+ 34%|███▍      | 3770/10996 [00:10<00:19, 373.49it/s]
+ 35%|███▍      | 3808/10996 [00:10<00:19, 365.46it/s]
+ 35%|███▍      | 3845/10996 [00:11<00:20, 354.91it/s]
+ 35%|███▌      | 3881/10996 [00:11<00:20, 345.51it/s]
+ 36%|███▌      | 3920/10996 [00:11<00:19, 357.02it/s]
+ 36%|███▌      | 3958/10996 [00:11<00:19, 361.41it/s]
+ 36%|███▋      | 3995/10996 [00:11<00:19, 359.40it/s]
+ 37%|███▋      | 4032/10996 [00:11<00:19, 356.58it/s]
+ 37%|███▋      | 4069/10996 [00:11<00:19, 355.46it/s]
+ 37%|███▋      | 4105/10996 [00:11<00:20, 343.58it/s]
+ 38%|███▊      | 4144/10996 [00:11<00:19, 352.79it/s]
+ 38%|███▊      | 4182/10996 [00:12<00:19, 354.67it/s]
+ 38%|███▊      | 4218/10996 [00:12<00:19, 355.11it/s]
+ 39%|███▊      | 4257/10996 [00:12<00:18, 364.66it/s]
+ 39%|███▉      | 4300/10996 [00:12<00:17, 377.40it/s]
+ 39%|███▉      | 4338/10996 [00:12<00:18, 360.44it/s]
+ 40%|███▉      | 4375/10996 [00:12<00:18, 363.12it/s]
+ 40%|████      | 4412/10996 [00:12<00:18, 362.27it/s]
+ 40%|████      | 4449/10996 [00:12<00:18, 353.86it/s]
+ 41%|████      | 4487/10996 [00:12<00:18, 357.44it/s]
+ 41%|████      | 4524/10996 [00:12<00:17, 359.88it/s]
+ 41%|████▏     | 4562/10996 [00:13<00:17, 361.17it/s]
+ 42%|████▏     | 4599/10996 [00:13<00:17, 361.44it/s]
+ 42%|████▏     | 4636/10996 [00:13<00:17, 363.42it/s]
+ 42%|████▏     | 4673/10996 [00:13<00:17, 365.35it/s]
+ 43%|████▎     | 4710/10996 [00:13<00:18, 342.39it/s]
+ 43%|████▎     | 4746/10996 [00:13<00:18, 346.13it/s]
+ 44%|████▎     | 4787/10996 [00:13<00:17, 359.24it/s]
+ 44%|████▍     | 4831/10996 [00:13<00:16, 380.09it/s]
+ 44%|████▍     | 4870/10996 [00:13<00:16, 374.37it/s]
+ 45%|████▍     | 4908/10996 [00:14<00:16, 359.49it/s]
+ 45%|████▍     | 4948/10996 [00:14<00:16, 368.29it/s]
+ 45%|████▌     | 4986/10996 [00:14<00:16, 361.19it/s]
+ 46%|████▌     | 5023/10996 [00:14<00:17, 345.83it/s]
+ 46%|████▌     | 5059/10996 [00:14<00:17, 347.85it/s]
+ 46%|████▋     | 5095/10996 [00:14<00:17, 344.38it/s]
+ 47%|████▋     | 5135/10996 [00:14<00:16, 358.15it/s]
+ 47%|████▋     | 5172/10996 [00:14<00:17, 341.54it/s]
+ 47%|████▋     | 5207/10996 [00:14<00:16, 340.55it/s]
+ 48%|████▊     | 5244/10996 [00:14<00:16, 347.60it/s]
+ 48%|████▊     | 5279/10996 [00:15<00:16, 347.77it/s]
+ 48%|████▊     | 5317/10996 [00:15<00:16, 344.42it/s]
+ 49%|████▊     | 5352/10996 [00:15<00:16, 342.89it/s]
+ 49%|████▉     | 5392/10996 [00:15<00:15, 356.39it/s]
+ 49%|████▉     | 5432/10996 [00:15<00:15, 367.52it/s]
+ 50%|████▉     | 5469/10996 [00:15<00:15, 352.74it/s]
+ 50%|█████     | 5505/10996 [00:15<00:16, 339.08it/s]
+ 50%|█████     | 5540/10996 [00:15<00:16, 337.82it/s]
+ 51%|█████     | 5580/10996 [00:15<00:15, 353.97it/s]
+ 51%|█████     | 5616/10996 [00:16<00:15, 355.15it/s]
+ 51%|█████▏    | 5652/10996 [00:16<00:16, 327.26it/s]
+ 52%|█████▏    | 5686/10996 [00:16<00:16, 318.67it/s]
+ 52%|█████▏    | 5722/10996 [00:16<00:16, 329.29it/s]
+ 52%|█████▏    | 5763/10996 [00:16<00:15, 345.65it/s]
+ 53%|█████▎    | 5799/10996 [00:16<00:14, 348.27it/s]
+ 53%|█████▎    | 5835/10996 [00:16<00:15, 342.95it/s]
+ 53%|█████▎    | 5872/10996 [00:16<00:14, 350.02it/s]
+ 54%|█████▎    | 5908/10996 [00:16<00:14, 340.08it/s]
+ 54%|█████▍    | 5943/10996 [00:17<00:15, 316.28it/s]
+ 54%|█████▍    | 5981/10996 [00:17<00:15, 330.07it/s]
+ 55%|█████▍    | 6015/10996 [00:17<00:15, 323.63it/s]
+ 55%|█████▌    | 6052/10996 [00:17<00:14, 333.25it/s]
+ 56%|█████▌    | 6103/10996 [00:17<00:13, 371.83it/s]
+ 56%|█████▌    | 6142/10996 [00:17<00:13, 365.26it/s]
+ 56%|█████▌    | 6181/10996 [00:17<00:13, 367.31it/s]
+ 57%|█████▋    | 6219/10996 [00:17<00:13, 361.50it/s]
+ 57%|█████▋    | 6256/10996 [00:17<00:13, 351.22it/s]
+ 57%|█████▋    | 6292/10996 [00:17<00:13, 349.22it/s]
+ 58%|█████▊    | 6332/10996 [00:18<00:12, 362.58it/s]
+ 58%|█████▊    | 6369/10996 [00:18<00:12, 356.83it/s]
+ 58%|█████▊    | 6407/10996 [00:18<00:12, 360.81it/s]
+ 59%|█████▊    | 6444/10996 [00:18<00:12, 357.13it/s]
+ 59%|█████▉    | 6480/10996 [00:18<00:12, 352.69it/s]
+ 59%|█████▉    | 6516/10996 [00:18<00:13, 337.77it/s]
+ 60%|█████▉    | 6554/10996 [00:18<00:12, 347.70it/s]
+ 60%|█████▉    | 6591/10996 [00:18<00:12, 349.70it/s]
+ 60%|██████    | 6629/10996 [00:18<00:12, 358.18it/s]
+ 61%|██████    | 6665/10996 [00:19<00:12, 357.74it/s]
+ 61%|██████    | 6701/10996 [00:19<00:11, 357.96it/s]
+ 61%|██████▏   | 6740/10996 [00:19<00:11, 365.75it/s]
+ 62%|██████▏   | 6777/10996 [00:19<00:11, 363.44it/s]
+ 62%|██████▏   | 6814/10996 [00:19<00:11, 357.01it/s]
+ 62%|██████▏   | 6861/10996 [00:19<00:10, 382.53it/s]
+ 63%|██████▎   | 6902/10996 [00:19<00:10, 389.78it/s]
+ 63%|██████▎   | 6942/10996 [00:19<00:10, 383.67it/s]
+ 63%|██████▎   | 6981/10996 [00:19<00:10, 381.99it/s]
+ 64%|██████▍   | 7020/10996 [00:19<00:11, 357.84it/s]
+ 64%|██████▍   | 7057/10996 [00:20<00:10, 359.57it/s]
+ 65%|██████▍   | 7094/10996 [00:20<00:10, 358.99it/s]
+ 65%|██████▍   | 7131/10996 [00:20<00:10, 353.33it/s]
+ 65%|██████▌   | 7167/10996 [00:20<00:10, 353.71it/s]
+ 66%|██████▌   | 7203/10996 [00:20<00:10, 350.11it/s]
+ 66%|██████▌   | 7239/10996 [00:20<00:10, 347.62it/s]
+ 66%|██████▌   | 7278/10996 [00:20<00:10, 359.11it/s]
+ 67%|██████▋   | 7315/10996 [00:20<00:10, 336.78it/s]
+ 67%|██████▋   | 7352/10996 [00:20<00:10, 344.56it/s]
+ 67%|██████▋   | 7387/10996 [00:21<00:10, 342.54it/s]
+ 67%|██████▋   | 7422/10996 [00:21<00:10, 340.72it/s]
+ 68%|██████▊   | 7457/10996 [00:21<00:10, 327.63it/s]
+ 68%|██████▊   | 7493/10996 [00:21<00:10, 336.24it/s]
+ 68%|██████▊   | 7530/10996 [00:21<00:10, 345.39it/s]
+ 69%|██████▉   | 7566/10996 [00:21<00:09, 344.38it/s]
+ 69%|██████▉   | 7603/10996 [00:21<00:09, 351.11it/s]
+ 69%|██████▉   | 7639/10996 [00:21<00:09, 344.96it/s]
+ 70%|██████▉   | 7676/10996 [00:21<00:09, 347.81it/s]
+ 70%|███████   | 7726/10996 [00:21<00:08, 382.00it/s]
+ 71%|███████   | 7767/10996 [00:22<00:08, 389.72it/s]
+ 71%|███████   | 7807/10996 [00:22<00:08, 387.53it/s]
+ 71%|███████▏  | 7847/10996 [00:22<00:08, 362.35it/s]
+ 72%|███████▏  | 7884/10996 [00:22<00:08, 361.38it/s]
+ 72%|███████▏  | 7921/10996 [00:22<00:09, 331.07it/s]
+ 72%|███████▏  | 7960/10996 [00:22<00:08, 346.34it/s]
+ 73%|███████▎  | 7997/10996 [00:22<00:08, 349.71it/s]
+ 73%|███████▎  | 8036/10996 [00:22<00:08, 359.24it/s]
+ 73%|███████▎  | 8073/10996 [00:22<00:08, 349.57it/s]
+ 74%|███████▍  | 8111/10996 [00:23<00:08, 357.85it/s]
+ 74%|███████▍  | 8148/10996 [00:23<00:08, 355.10it/s]
+ 74%|███████▍  | 8184/10996 [00:23<00:07, 355.02it/s]
+ 75%|███████▍  | 8224/10996 [00:23<00:07, 364.45it/s]
+ 75%|███████▌  | 8261/10996 [00:23<00:07, 350.70it/s]
+ 75%|███████▌  | 8300/10996 [00:23<00:07, 360.38it/s]
+ 76%|███████▌  | 8337/10996 [00:23<00:07, 355.32it/s]
+ 76%|███████▌  | 8374/10996 [00:23<00:07, 358.23it/s]
+ 77%|███████▋  | 8412/10996 [00:23<00:07, 358.90it/s]
+ 77%|███████▋  | 8448/10996 [00:24<00:07, 351.55it/s]
+ 77%|███████▋  | 8484/10996 [00:24<00:07, 337.11it/s]
+ 77%|███████▋  | 8521/10996 [00:24<00:07, 343.14it/s]
+ 78%|███████▊  | 8558/10996 [00:24<00:06, 349.29it/s]
+ 78%|███████▊  | 8594/10996 [00:24<00:07, 334.85it/s]
+ 78%|███████▊  | 8631/10996 [00:24<00:06, 342.44it/s]
+ 79%|███████▉  | 8670/10996 [00:24<00:06, 352.28it/s]
+ 79%|███████▉  | 8711/10996 [00:24<00:06, 367.40it/s]
+ 80%|███████▉  | 8753/10996 [00:24<00:05, 381.68it/s]
+ 80%|███████▉  | 8792/10996 [00:24<00:05, 369.10it/s]
+ 80%|████████  | 8830/10996 [00:25<00:05, 364.36it/s]
+ 81%|████████  | 8867/10996 [00:25<00:06, 349.91it/s]
+ 81%|████████  | 8905/10996 [00:25<00:05, 356.82it/s]
+ 81%|████████▏ | 8943/10996 [00:25<00:05, 357.98it/s]
+ 82%|████████▏ | 8982/10996 [00:25<00:05, 364.57it/s]
+ 82%|████████▏ | 9019/10996 [00:25<00:05, 358.70it/s]
+ 82%|████████▏ | 9055/10996 [00:25<00:05, 346.03it/s]
+ 83%|████████▎ | 9091/10996 [00:25<00:05, 350.04it/s]
+ 83%|████████▎ | 9160/10996 [00:25<00:04, 409.64it/s]
+ 84%|████████▍ | 9229/10996 [00:26<00:03, 466.21it/s]
+ 85%|████████▍ | 9301/10996 [00:26<00:03, 520.83it/s]
+ 85%|████████▌ | 9368/10996 [00:26<00:02, 555.94it/s]
+ 86%|████████▌ | 9432/10996 [00:26<00:02, 578.31it/s]
+ 86%|████████▋ | 9501/10996 [00:26<00:02, 606.50it/s]
+ 87%|████████▋ | 9573/10996 [00:26<00:02, 634.56it/s]
+ 88%|████████▊ | 9639/10996 [00:26<00:02, 493.60it/s]
+ 88%|████████▊ | 9695/10996 [00:26<00:02, 483.48it/s]
+ 89%|████████▊ | 9748/10996 [00:26<00:02, 457.93it/s]
+ 89%|████████▉ | 9798/10996 [00:27<00:02, 461.59it/s]
+ 90%|████████▉ | 9847/10996 [00:27<00:02, 459.76it/s]
+ 90%|████████▉ | 9895/10996 [00:27<00:02, 457.67it/s]
+ 90%|█████████ | 9942/10996 [00:27<00:02, 427.60it/s]
+ 91%|█████████ | 9986/10996 [00:27<00:02, 427.25it/s]
+ 91%|█████████▏| 10037/10996 [00:27<00:02, 448.12it/s]
+ 92%|█████████▏| 10083/10996 [00:27<00:02, 426.19it/s]
+ 92%|█████████▏| 10127/10996 [00:27<00:02, 430.05it/s]
+ 92%|█████████▏| 10171/10996 [00:27<00:01, 418.53it/s]
+ 93%|█████████▎| 10214/10996 [00:28<00:01, 408.77it/s]
+ 93%|█████████▎| 10257/10996 [00:28<00:01, 413.14it/s]
+ 94%|█████████▍| 10317/10996 [00:28<00:01, 455.01it/s]
+ 94%|█████████▍| 10371/10996 [00:28<00:01, 474.88it/s]
+ 95%|█████████▍| 10443/10996 [00:28<00:01, 527.61it/s]
+ 95%|█████████▌| 10500/10996 [00:28<00:00, 539.28it/s]
+ 96%|█████████▌| 10556/10996 [00:28<00:01, 363.68it/s]
+ 97%|█████████▋| 10632/10996 [00:28<00:00, 429.26it/s]
+ 97%|█████████▋| 10701/10996 [00:29<00:00, 480.96it/s]
+ 98%|█████████▊| 10773/10996 [00:29<00:00, 531.75it/s]
+ 99%|█████████▊| 10846/10996 [00:29<00:00, 578.43it/s]
+ 99%|█████████▉| 10911/10996 [00:29<00:00, 487.77it/s]
+100%|█████████▉| 10968/10996 [00:29<00:00, 417.58it/s]
+100%|██████████| 10996/10996 [00:29<00:00, 369.92it/s]
+20:45:35 - [DEBUG] - Time to execute query: 0.04 secs
+20:45:37 - [DEBUG] - Preparing to execute 20 queries.
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'zip'   AND  t1."city"<>t2."city"   AND  t3.rv_val = t2."zip" GROUP BY _vid_, val_id with id 0
+20:45:37 - [DEBUG] - Time to execute query with id 0: 0.01 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'city'   AND  t1."zip"=t2."zip"   AND  t3.rv_val <> t2."city" GROUP BY _vid_, val_id with id 1
+20:45:37 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'zip'   AND  t1."state"<>t2."state"   AND  t3.rv_val = t2."zip" GROUP BY _vid_, val_id with id 2
+20:45:37 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'state'   AND  t1."zip"=t2."zip"   AND  t3.rv_val <> t2."state" GROUP BY _vid_, val_id with id 3
+20:45:37 - [DEBUG] - Time to execute query with id 3: 0.02 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'zip'   AND  t1."haschild"=t2."haschild" AND t1."childexemp"<>t2."childexemp"   AND  t3.rv_val = t2."zip" GROUP BY _vid_, val_id with id 4
+20:45:37 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'haschild'   AND  t1."zip"=t2."zip" AND t1."childexemp"<>t2."childexemp"   AND  t3.rv_val = t2."haschild" GROUP BY _vid_, val_id with id 5
+20:45:37 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'childexemp'   AND  t1."zip"=t2."zip" AND t1."haschild"=t2."haschild"   AND  t3.rv_val <> t2."childexemp" GROUP BY _vid_, val_id with id 6
+20:45:37 - [DEBUG] - Time to execute query with id 6: 0.01 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'zip'   AND  t1."maritalstatus"=t2."maritalstatus" AND t1."singleexemp"<>t2."singleexemp"   AND  t3.rv_val = t2."zip" GROUP BY _vid_, val_id with id 7
+20:45:37 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'maritalstatus'   AND  t1."zip"=t2."zip" AND t1."singleexemp"<>t2."singleexemp"   AND  t3.rv_val = t2."maritalstatus" GROUP BY _vid_, val_id with id 8
+20:45:37 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'singleexemp'   AND  t1."zip"=t2."zip" AND t1."maritalstatus"=t2."maritalstatus"   AND  t3.rv_val <> t2."singleexemp" GROUP BY _vid_, val_id with id 9
+20:45:37 - [DEBUG] - Time to execute query with id 9: 0.01 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'zip'   AND  t1."maritalstatus"=t2."maritalstatus" AND t1."marriedexemp"<>t2."marriedexemp"   AND  t3.rv_val = t2."zip" GROUP BY _vid_, val_id with id 10
+20:45:37 - [DEBUG] - Time to execute query with id 10: 0.00 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'maritalstatus'   AND  t1."zip"=t2."zip" AND t1."marriedexemp"<>t2."marriedexemp"   AND  t3.rv_val = t2."maritalstatus" GROUP BY _vid_, val_id with id 11
+20:45:37 - [DEBUG] - Time to execute query with id 11: 0.00 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'marriedexemp'   AND  t1."zip"=t2."zip" AND t1."maritalstatus"=t2."maritalstatus"   AND  t3.rv_val <> t2."marriedexemp" GROUP BY _vid_, val_id with id 12
+20:45:37 - [DEBUG] - Time to execute query with id 12: 0.01 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'fname'   AND  t1."gender"<>t2."gender"   AND  t3.rv_val = t2."fname" GROUP BY _vid_, val_id with id 13
+20:45:37 - [DEBUG] - Time to execute query with id 13: 0.01 secs
+20:45:37 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'gender'   AND  t1."fname"=t2."fname"   AND  t3.rv_val <> t2."gender" GROUP BY _vid_, val_id with id 14
+20:45:38 - [DEBUG] - Time to execute query with id 14: 0.00 secs
+20:45:38 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'areacode'   AND  t1."state"<>t2."state"   AND  t3.rv_val = t2."areacode" GROUP BY _vid_, val_id with id 15
+20:45:38 - [DEBUG] - Time to execute query with id 15: 0.01 secs
+20:45:38 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'state'   AND  t1."areacode"=t2."areacode"   AND  t3.rv_val <> t2."state" GROUP BY _vid_, val_id with id 16
+20:45:41 - [DEBUG] - Time to execute query with id 16: 0.03 secs
+20:45:41 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'phone'   AND  t1."zip"=t2."zip" AND t1."areacode"<>t2."areacode"   AND  t3.rv_val = t2."phone" GROUP BY _vid_, val_id with id 17
+20:45:41 - [DEBUG] - Time to execute query with id 17: 0.00 secs
+20:45:41 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'zip'   AND  t1."phone"=t2."phone" AND t1."areacode"<>t2."areacode"   AND  t3.rv_val = t2."zip" GROUP BY _vid_, val_id with id 18
+20:45:41 - [DEBUG] - Time to execute query with id 18: 0.00 secs
+20:45:41 - [DEBUG] - Starting to execute query SELECT _vid_, val_id, count(*) violations FROM   "tax_nwcpk_15" as t1, "tax_nwcpk_15" as t2, pos_values as t3 WHERE  t1._tid_ != t2._tid_   AND  t1._tid_ = t3._tid_   AND  t3.attribute = 'areacode'   AND  t1."phone"=t2."phone" AND t1."zip"=t2."zip"   AND  t3.rv_val <> t2."areacode" GROUP BY _vid_, val_id with id 19
+20:45:41 - [DEBUG] - Time to execute query with id 19: 0.00 secs
+20:45:41 - [DEBUG] - Time to execute 20 queries: 0.12 secs
+20:45:44 - [DEBUG] - DONE featurization.
+20:45:44 - [DEBUG] - generating weak labels...
+20:45:44 - [DEBUG] - Time to execute query: 0.13 secs
+
+  0%|          | 0/8941 [00:00<?, ?it/s]
+ 53%|█████▎    | 4723/8941 [00:00<00:00, 47228.92it/s]
+100%|██████████| 8941/8941 [00:00<00:00, 49481.35it/s]
+20:45:44 - [DEBUG] - DONE generating weak labels.
+20:45:44 - [DEBUG] - generating mask...
+20:45:44 - [DEBUG] - Time to execute query: 0.01 secs
+
+  0%|          | 0/10996 [00:00<?, ?it/s]
+ 67%|██████▋   | 7342/10996 [00:00<00:00, 73413.24it/s]
+100%|██████████| 10996/10996 [00:00<00:00, 73072.93it/s]
+20:45:44 - [DEBUG] - DONE generating mask.
+20:45:44 - [ INFO] - DONE setting up featurized dataset.
+20:45:44 - [DEBUG] - Time to featurize data: 51.71 secs
+20:45:44 - [ INFO] - DONE setting up repair model.
+20:45:44 - [DEBUG] - Time to setup repair model: 51.71 secs
+20:45:45 - [ INFO] - training with 8941 training examples (cells)
+
+  0%|          | 0/10 [00:00<?, ?it/s]20:45:53 - [DEBUG] - Epoch 1, cost = 0.221239, acc = 99.07%
+
+ 10%|█         | 1/10 [00:08<01:14,  8.31s/it]20:46:01 - [DEBUG] - Epoch 2, cost = 0.107404, acc = 99.03%
+
+ 20%|██        | 2/10 [00:16<01:06,  8.35s/it]20:46:09 - [DEBUG] - Epoch 3, cost = 0.105626, acc = 99.08%
+
+ 30%|███       | 3/10 [00:24<00:57,  8.26s/it]20:46:17 - [DEBUG] - Epoch 4, cost = 0.105360, acc = 99.09%
+
+ 40%|████      | 4/10 [00:32<00:49,  8.18s/it]20:46:25 - [DEBUG] - Epoch 5, cost = 0.105310, acc = 99.09%
+
+ 50%|█████     | 5/10 [00:40<00:40,  8.04s/it]20:46:33 - [DEBUG] - Epoch 6, cost = 0.105298, acc = 99.09%
+
+ 60%|██████    | 6/10 [00:48<00:31,  7.99s/it]20:46:41 - [DEBUG] - Epoch 7, cost = 0.105295, acc = 99.09%
+
+ 70%|███████   | 7/10 [00:56<00:23,  7.89s/it]20:46:50 - [DEBUG] - Epoch 8, cost = 0.105293, acc = 99.09%
+
+ 80%|████████  | 8/10 [01:05<00:16,  8.33s/it]20:46:58 - [DEBUG] - Epoch 9, cost = 0.105293, acc = 99.09%
+
+ 90%|█████████ | 9/10 [01:13<00:08,  8.20s/it]20:47:06 - [DEBUG] - Epoch 10, cost = 0.105293, acc = 99.09%
+
+100%|██████████| 10/10 [01:20<00:00,  8.05s/it]
+20:47:06 - [ INFO] - DONE training repair model.
+20:47:06 - [DEBUG] - Time to fit repair model: 107.65 secs
+20:47:06 - [ INFO] - inferring on 2714 examples (cells)
+20:47:06 - [DEBUG] - Time to execute query: 0.32 secs
+20:47:07 - [DEBUG] - Time to create index: 0.00 secs
+20:47:07 - [DEBUG] - Time to create index: 0.00 secs
+20:47:07 - [ INFO] - DONE inferring repairs.
+20:47:07 - [DEBUG] - Time to infer correct cell values: 3.26 secs
+20:47:07 - [DEBUG] - Time to create table: 0.00 secs
+20:47:08 - [DEBUG] - Time to create index: 0.00 secs
+20:47:08 - [DEBUG] - Time to create index: 0.00 secs
+20:47:08 - [ INFO] - DONE collecting the inferred values.
+20:47:08 - [DEBUG] - Time to collect inferred values: 0.04 secs
+20:47:08 - [ INFO] - DONE generating repaired dataset
+20:47:08 - [DEBUG] - Time to store repaired dataset: 0.16 secs
+20:47:08 - [ INFO] - featurizer InitAttrFeaturizer,size 16,max 1.0000,min 1.0000,avg 1.0000,abs_avg 1.0000,weights:
+tno 1.0
+fname 1.0
+lname 1.0
+gender 1.0
+areacode 1.0
+phone 1.0
+city 1.0
+state 1.0
+zip 1.0
+maritalstatus 1.0
+haschild 1.0
+salary 1.0
+rate 1.0
+singleexemp 1.0
+marriedexemp 1.0
+childexemp 1.0
+featurizer OccurAttrFeaturizer,size 256,max 0.8170,min -0.7244,avg 0.1097,abs_avg 0.1390,weights:
+tno X tno 0.0
+tno X fname 0.0
+tno X lname -0.0
+tno X gender 0.0
+tno X areacode -0.0
+tno X phone -0.0
+tno X city -0.0
+tno X state -0.0
+tno X zip -0.0
+tno X maritalstatus -0.0
+tno X haschild -0.0
+tno X salary -0.0
+tno X rate 0.0
+tno X singleexemp 0.0
+tno X marriedexemp -0.0
+tno X childexemp 0.0
+fname X tno 0.817
+fname X fname -0.0
+fname X lname 0.744
+fname X gender 0.019
+fname X areacode 0.002
+fname X phone 0.817
+fname X city 0.113
+fname X state 0.002
+fname X zip 0.291
+fname X maritalstatus 0.001
+fname X haschild 0.0
+fname X salary 0.01
+fname X rate 0.0
+fname X singleexemp 0.0
+fname X marriedexemp 0.005
+fname X childexemp 0.039
+lname X tno 0.0
+lname X fname -0.0
+lname X lname 0.0
+lname X gender -0.0
+lname X areacode -0.0
+lname X phone 0.0
+lname X city 0.0
+lname X state 0.0
+lname X zip 0.0
+lname X maritalstatus -0.0
+lname X haschild -0.0
+lname X salary 0.0
+lname X rate -0.0
+lname X singleexemp 0.0
+lname X marriedexemp 0.0
+lname X childexemp -0.0
+gender X tno 0.552
+gender X fname 0.552
+gender X lname 0.512
+gender X gender -0.0
+gender X areacode 0.174
+gender X phone 0.552
+gender X city 0.326
+gender X state 0.171
+gender X zip 0.328
+gender X maritalstatus 0.172
+gender X haschild 0.172
+gender X salary 0.179
+gender X rate 0.172
+gender X singleexemp 0.172
+gender X marriedexemp 0.179
+gender X childexemp 0.195
+areacode X tno -0.211
+areacode X fname -0.202
+areacode X lname -0.191
+areacode X gender -0.203
+areacode X areacode 0.0
+areacode X phone -0.211
+areacode X city -0.168
+areacode X state -0.724
+areacode X zip -0.141
+areacode X maritalstatus -0.205
+areacode X haschild -0.199
+areacode X salary -0.205
+areacode X rate -0.316
+areacode X singleexemp -0.248
+areacode X marriedexemp -0.238
+areacode X childexemp -0.262
+phone X tno -0.0
+phone X fname 0.0
+phone X lname 0.0
+phone X gender -0.0
+phone X areacode 0.0
+phone X phone -0.0
+phone X city -0.0
+phone X state 0.0
+phone X zip -0.0
+phone X maritalstatus -0.0
+phone X haschild -0.0
+phone X salary -0.0
+phone X rate 0.0
+phone X singleexemp -0.0
+phone X marriedexemp 0.0
+phone X childexemp 0.0
+city X tno 0.365
+city X fname 0.471
+city X lname 0.431
+city X gender 0.005
+city X areacode 0.004
+city X phone 0.365
+city X city -0.0
+city X state 0.003
+city X zip 0.408
+city X maritalstatus -0.001
+city X haschild -0.002
+city X salary -0.005
+city X rate -0.002
+city X singleexemp 0.005
+city X marriedexemp 0.0
+city X childexemp 0.026
+state X tno 0.252
+state X fname 0.244
+state X lname 0.234
+state X gender 0.087
+state X areacode 0.252
+state X phone 0.252
+state X city 0.238
+state X state 0.0
+state X zip 0.252
+state X maritalstatus 0.089
+state X haschild 0.09
+state X salary 0.086
+state X rate 0.242
+state X singleexemp 0.156
+state X marriedexemp 0.13
+state X childexemp 0.115
+zip X tno 0.544
+zip X fname 0.526
+zip X lname 0.539
+zip X gender 0.001
+zip X areacode 0.006
+zip X phone 0.544
+zip X city 0.288
+zip X state 0.005
+zip X zip 0.0
+zip X maritalstatus 0.001
+zip X haschild 0.0
+zip X salary 0.005
+zip X rate 0.001
+zip X singleexemp 0.002
+zip X marriedexemp 0.001
+zip X childexemp 0.005
+maritalstatus X tno 0.349
+maritalstatus X fname 0.319
+maritalstatus X lname 0.314
+maritalstatus X gender 0.021
+maritalstatus X areacode 0.003
+maritalstatus X phone 0.349
+maritalstatus X city 0.124
+maritalstatus X state 0.001
+maritalstatus X zip 0.135
+maritalstatus X maritalstatus 0.0
+maritalstatus X haschild 0.002
+maritalstatus X salary 0.001
+maritalstatus X rate -0.002
+maritalstatus X singleexemp 0.069
+maritalstatus X marriedexemp 0.038
+maritalstatus X childexemp 0.012
+haschild X tno 0.351
+haschild X fname 0.323
+haschild X lname 0.316
+haschild X gender 0.015
+haschild X areacode -0.007
+haschild X phone 0.351
+haschild X city 0.135
+haschild X state 0.001
+haschild X zip 0.138
+haschild X maritalstatus 0.002
+haschild X haschild 0.0
+haschild X salary 0.01
+haschild X rate 0.002
+haschild X singleexemp -0.001
+haschild X marriedexemp 0.001
+haschild X childexemp 0.051
+salary X tno 0.0
+salary X fname 0.0
+salary X lname 0.0
+salary X gender -0.0
+salary X areacode -0.0
+salary X phone -0.0
+salary X city 0.0
+salary X state -0.0
+salary X zip -0.0
+salary X maritalstatus 0.0
+salary X haschild 0.0
+salary X salary -0.0
+salary X rate 0.0
+salary X singleexemp 0.0
+salary X marriedexemp 0.0
+salary X childexemp 0.0
+rate X tno 0.0
+rate X fname -0.0
+rate X lname 0.0
+rate X gender 0.0
+rate X areacode -0.0
+rate X phone 0.0
+rate X city 0.0
+rate X state -0.0
+rate X zip -0.0
+rate X maritalstatus -0.0
+rate X haschild -0.0
+rate X salary 0.0
+rate X rate 0.0
+rate X singleexemp -0.0
+rate X marriedexemp 0.0
+rate X childexemp 0.0
+singleexemp X tno 0.447
+singleexemp X fname 0.419
+singleexemp X lname 0.415
+singleexemp X gender 0.173
+singleexemp X areacode 0.272
+singleexemp X phone 0.447
+singleexemp X city 0.369
+singleexemp X state 0.26
+singleexemp X zip 0.392
+singleexemp X maritalstatus 0.229
+singleexemp X haschild 0.173
+singleexemp X salary 0.175
+singleexemp X rate 0.266
+singleexemp X singleexemp 0.0
+singleexemp X marriedexemp 0.18
+singleexemp X childexemp 0.213
+marriedexemp X tno 0.439
+marriedexemp X fname 0.431
+marriedexemp X lname 0.418
+marriedexemp X gender 0.201
+marriedexemp X areacode 0.271
+marriedexemp X phone 0.439
+marriedexemp X city 0.351
+marriedexemp X state 0.256
+marriedexemp X zip 0.384
+marriedexemp X maritalstatus 0.243
+marriedexemp X haschild 0.2
+marriedexemp X salary 0.207
+marriedexemp X rate 0.265
+marriedexemp X singleexemp 0.211
+marriedexemp X marriedexemp 0.0
+marriedexemp X childexemp 0.216
+childexemp X tno 0.477
+childexemp X fname 0.466
+childexemp X lname 0.454
+childexemp X gender 0.216
+childexemp X areacode 0.285
+childexemp X phone 0.477
+childexemp X city 0.383
+childexemp X state 0.274
+childexemp X zip 0.419
+childexemp X maritalstatus 0.213
+childexemp X haschild 0.256
+childexemp X salary 0.22
+childexemp X rate 0.283
+childexemp X singleexemp 0.251
+childexemp X marriedexemp 0.219
+childexemp X childexemp -0.0
+featurizer FreqFeaturizer,size 16,max 0.2137,min -0.2043,avg 0.0399,abs_avg 0.0660,weights:
+tno 0.0
+fname 0.0
+lname 0.0
+gender 0.172
+areacode -0.204
+phone -0.0
+city -0.002
+state 0.089
+zip 0.0
+maritalstatus -0.002
+haschild -0.001
+salary 0.0
+rate -0.0
+singleexemp 0.173
+marriedexemp 0.2
+childexemp 0.214
+featurizer ConstraintFeaturizer,size 20,max 0.0000,min -0.8588,avg -0.0890,abs_avg 0.0890,weights:
+fixed pred: t1."city"<>t2."city", violation pred: t1."zip"=t2."zip" -0.126
+fixed pred: t1."zip"=t2."zip", violation pred: t1."city"<>t2."city" -0.062
+fixed pred: t1."state"<>t2."state", violation pred: t1."zip"=t2."zip" -0.099
+fixed pred: t1."zip"=t2."zip", violation pred: t1."state"<>t2."state" -0.035
+fixed pred: t1."haschild"=t2."haschild" AND t1."childexemp"<>t2."childexemp", violation pred: t1."zip"=t2."zip" -0.049
+fixed pred: t1."zip"=t2."zip" AND t1."childexemp"<>t2."childexemp", violation pred: t1."haschild"=t2."haschild" -0.033
+fixed pred: t1."zip"=t2."zip" AND t1."haschild"=t2."haschild", violation pred: t1."childexemp"<>t2."childexemp" -0.038
+fixed pred: t1."maritalstatus"=t2."maritalstatus" AND t1."singleexemp"<>t2."singleexemp", violation pred: t1."zip"=t2."zip" -0.045
+fixed pred: t1."zip"=t2."zip" AND t1."singleexemp"<>t2."singleexemp", violation pred: t1."maritalstatus"=t2."maritalstatus" -0.025
+fixed pred: t1."zip"=t2."zip" AND t1."maritalstatus"=t2."maritalstatus", violation pred: t1."singleexemp"<>t2."singleexemp" -0.052
+fixed pred: t1."maritalstatus"=t2."maritalstatus" AND t1."marriedexemp"<>t2."marriedexemp", violation pred: t1."zip"=t2."zip" -0.04
+fixed pred: t1."zip"=t2."zip" AND t1."marriedexemp"<>t2."marriedexemp", violation pred: t1."maritalstatus"=t2."maritalstatus" -0.039
+fixed pred: t1."zip"=t2."zip" AND t1."maritalstatus"=t2."maritalstatus", violation pred: t1."marriedexemp"<>t2."marriedexemp" -0.059
+fixed pred: t1."gender"<>t2."gender", violation pred: t1."fname"=t2."fname" -0.152
+fixed pred: t1."fname"=t2."fname", violation pred: t1."gender"<>t2."gender" -0.012
+fixed pred: t1."state"<>t2."state", violation pred: t1."areacode"=t2."areacode" -0.859
+fixed pred: t1."areacode"=t2."areacode", violation pred: t1."state"<>t2."state" -0.056
+fixed pred: t1."zip"=t2."zip" AND t1."areacode"<>t2."areacode", violation pred: t1."phone"=t2."phone" -0.0
+fixed pred: t1."phone"=t2."phone" AND t1."areacode"<>t2."areacode", violation pred: t1."zip"=t2."zip" -0.0
+fixed pred: t1."phone"=t2."phone" AND t1."zip"=t2."zip", violation pred: t1."areacode"<>t2."areacode" 0.0
+
+20:47:08 - [DEBUG] - Time to store featurizer weights: 0.00 secs
+20:47:10 - [DEBUG] - Time to create index: 0.00 secs
+20:47:10 - [DEBUG] - Time to create index: 0.00 secs
+20:47:10 - [ INFO] - DONE Loading subset_tax_1k_clean_index_holoclean.csv
+20:47:10 - [DEBUG] - Time to evaluate repairs: 0.83 secs
+20:47:10 - [DEBUG] - Time to execute query: 0.00 secs
+20:47:10 - [DEBUG] - Time to execute query: 0.00 secs
+20:47:10 - [DEBUG] - Preparing to execute 16 queries.
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'tno'   AND t1."tno" != t2._value_ with id 0
+20:47:10 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'fname'   AND t1."fname" != t2._value_ with id 1
+20:47:10 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'lname'   AND t1."lname" != t2._value_ with id 2
+20:47:10 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'gender'   AND t1."gender" != t2._value_ with id 3
+20:47:10 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'areacode'   AND t1."areacode" != t2._value_ with id 4
+20:47:10 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'phone'   AND t1."phone" != t2._value_ with id 5
+20:47:10 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'city'   AND t1."city" != t2._value_ with id 6
+20:47:10 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'state'   AND t1."state" != t2._value_ with id 7
+20:47:10 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'zip'   AND t1."zip" != t2._value_ with id 8
+20:47:10 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'maritalstatus'   AND t1."maritalstatus" != t2._value_ with id 9
+20:47:10 - [DEBUG] - Time to execute query with id 9: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'haschild'   AND t1."haschild" != t2._value_ with id 10
+20:47:10 - [DEBUG] - Time to execute query with id 10: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'salary'   AND t1."salary" != t2._value_ with id 11
+20:47:10 - [DEBUG] - Time to execute query with id 11: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'rate'   AND t1."rate" != t2._value_ with id 12
+20:47:10 - [DEBUG] - Time to execute query with id 12: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'singleexemp'   AND t1."singleexemp" != t2._value_ with id 13
+20:47:10 - [DEBUG] - Time to execute query with id 13: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'marriedexemp'   AND t1."marriedexemp" != t2._value_ with id 14
+20:47:10 - [DEBUG] - Time to execute query with id 14: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT count(*) FROM  "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2 WHERE t1._tid_ = t2._tid_   AND t2._attribute_ = 'childexemp'   AND t1."childexemp" != t2._value_ with id 15
+20:47:10 - [DEBUG] - Time to execute query with id 15: 0.00 secs
+20:47:10 - [DEBUG] - Time to execute 16 queries: 0.02 secs
+20:47:10 - [DEBUG] - Time to execute query: 0.00 secs
+20:47:10 - [DEBUG] - Preparing to execute 16 queries.
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'tno'       AND t1."tno" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 0
+20:47:10 - [DEBUG] - Time to execute query with id 0: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'fname'       AND t1."fname" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 1
+20:47:10 - [DEBUG] - Time to execute query with id 1: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'lname'       AND t1."lname" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 2
+20:47:10 - [DEBUG] - Time to execute query with id 2: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'gender'       AND t1."gender" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 3
+20:47:10 - [DEBUG] - Time to execute query with id 3: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'areacode'       AND t1."areacode" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 4
+20:47:10 - [DEBUG] - Time to execute query with id 4: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'phone'       AND t1."phone" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 5
+20:47:10 - [DEBUG] - Time to execute query with id 5: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'city'       AND t1."city" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 6
+20:47:10 - [DEBUG] - Time to execute query with id 6: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'state'       AND t1."state" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 7
+20:47:10 - [DEBUG] - Time to execute query with id 7: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'zip'       AND t1."zip" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 8
+20:47:10 - [DEBUG] - Time to execute query with id 8: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'maritalstatus'       AND t1."maritalstatus" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 9
+20:47:10 - [DEBUG] - Time to execute query with id 9: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'haschild'       AND t1."haschild" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 10
+20:47:10 - [DEBUG] - Time to execute query with id 10: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'salary'       AND t1."salary" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 11
+20:47:10 - [DEBUG] - Time to execute query with id 11: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'rate'       AND t1."rate" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 12
+20:47:10 - [DEBUG] - Time to execute query with id 12: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'singleexemp'       AND t1."singleexemp" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 13
+20:47:10 - [DEBUG] - Time to execute query with id 13: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'marriedexemp'       AND t1."marriedexemp" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 14
+20:47:10 - [DEBUG] - Time to execute query with id 14: 0.00 secs
+20:47:10 - [DEBUG] - Starting to execute query SELECT COUNT(*) FROM   (SELECT t2._tid_, t2._attribute_, t2._value_      FROM "tax_nwcpk_15" as t1, "tax_nwcpk_15_clean" as t2     WHERE t1._tid_ = t2._tid_       AND t2._attribute_ = 'childexemp'       AND t1."childexemp" != t2._value_ ) as errors, inf_values_dom as repairs WHERE errors._tid_ = repairs._tid_   AND errors._attribute_ = repairs.attribute   AND errors._value_ = repairs.rv_value with id 15
+20:47:10 - [DEBUG] - Time to execute query with id 15: 0.00 secs
+20:47:10 - [DEBUG] - Time to execute 16 queries: 0.02 secs
+20:47:10 - [DEBUG] - Time to execute query: 0.00 secs
+20:47:10 - [DEBUG] - weak label statistics:
+20:47:10 - [DEBUG] -     is_clean  cell_status  is_inferred  init = grdth init = inferred  \
+0   False     0            True         False         False            
+1   False     0            True         False         False            
+2   False     0            True         False         True             
+3   False     0            True         True          False            
+4   False     0            True         True          True             
+5   False     1            True         False         False            
+6   False     1            True         True          False            
+7   False     1            True         True          True             
+8   False     2            True         False         False            
+9   False     2            True         True          False            
+10  False     2            True         True          True             
+11  True      0            False        False         None             
+12  True      0            False        True          None             
+13  True      1            False        True          None             
+14  True      2            False        False         None             
+15  True      2            False        True          None             
+
+    w. label = init  w. label = grdth w. label = inferred infer = grdth  count  
+0   True             False             False               False         16     
+1   True             False             False               True          77     
+2   True             False             True                False         125    
+3   True             True              False               False         8      
+4   True             True              True                True          1826   
+5   False            True              True                True          2      
+6   False            False             True                False         255    
+7   False            False             False               True          44     
+8   True             False             False               True          3      
+9   True             True              False               False         7      
+10  True             True              True                True          351    
+11  True             False             None                None          43     
+12  True             True              None                None          5377   
+13  False            False             None                None          20     
+14  True             False             None                None          5      
+15  True             True              None                None          2837   
+20:47:10 - [ INFO] - Precision = 0.22, Recall = 0.30, Repairing Recall = 0.37, F1 = 0.25, Repairing F1 = 0.28, Detected Errors = 223, Total Errors = 276, Correct Repairs = 82, Total Repairs = 368, Total Repairs on correct cells (Grdth present) = 270, Total Repairs on incorrect cells (Grdth present) = 98
+20:47:10 - [DEBUG] - Time to generate report: 0.07 secs
+20:47:10 - [DEBUG] - Time to execute query: 0.01 secs
+20:47:10 - [ INFO] - 清洗后的数据已成功保存到 results/holoclean/nwcpk/5_tax_nwcpk_15/5_tax_nwcpk_15_repaired.csv
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/5_tax/subset_tax_1k/subset_tax_1k_clean_index_ori_empty.csv
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/5_tax/subset_tax_1k/noise_with_correct_primary_key/dirty_mixed_1.5/dirty_tax_mix_1.5_ori_empty.csv
+Running Holoclean with modified dirty file: Data/5_tax/subset_tax_1k/noise_with_correct_primary_key/dirty_mixed_1.5/dirty_tax_mix_1.5_holoclean.csv
+转换完成，结果已保存到 Data/5_tax/subset_tax_1k/subset_tax_1k_clean_index_holoclean.csv
+Results saved to results/holoclean/nwcpk/5_tax_nwcpk_15/5_tax_nwcpk_15_repaired.csv
+Holoclean finished in 148.66452622413635 seconds.
+测评性能开始：
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: results/holoclean/nwcpk/5_tax_nwcpk_15/5_tax_nwcpk_15_repaired_ori_empty.csv
+差异文件已保存到:
+results/holoclean/nwcpk/5_tax_nwcpk_15/5_tax_nwcpk_15_clean_vs_dirty.csv
+results/holoclean/nwcpk/5_tax_nwcpk_15/5_tax_nwcpk_15_dirty_vs_cleaned.csv
+results/holoclean/nwcpk/5_tax_nwcpk_15/5_tax_nwcpk_15_clean_vs_cleaned.csv
+修复错误数据文件已保存到: results/holoclean/nwcpk/5_tax_nwcpk_15/5_tax_nwcpk_15_repair_errors.csv
+未修复但是应该修复数据文件已保存到: results/holoclean/nwcpk/5_tax_nwcpk_15/5_tax_nwcpk_15_unrepaired.csv
+修复准确率: 0.22282608695652173, 修复召回率: 0.29818181818181816, F1值: 0.255054432299413
+========================================
+EDR 结果已保存到: results/holoclean/nwcpk/5_tax_nwcpk_15/5_tax_nwcpk_15_edr_evaluation.txt
+错误减少率 (EDR): -0.6836363636363636
+========================================
+混合距离结果已保存到: results/holoclean/nwcpk/5_tax_nwcpk_15/5_tax_nwcpk_15_hybrid_distance_evaluation.txt
+混合距离 (Hybrid Distance): 0.10819764746799099
+========================================
+R-EDR 结果已保存到: results/holoclean/nwcpk/5_tax_nwcpk_15/5_tax_nwcpk_15_record_based_edr_evaluation.txt
+基于条目的错误减少率 (R-EDR): -0.588477366255144
+========================================
+测试结果:
+Accuracy: 0.22282608695652173
+Recall: 0.29818181818181816
+F1 Score: 0.255054432299413
+EDR: -0.6836363636363636
+Hybrid Distance: 0.10819764746799099
+R-EDR: -0.588477366255144
+Time: 148.66452622413635
+Speed: 14.866452622413636 seconds/100 records
+测评结束，详细测评日志见：results/holoclean/nwcpk/5_tax_nwcpk_15

@@ -1,4 +1,5 @@
-# python 3.6环境，配置齐全所有baseline系统的环境
+# python 3.6环境，配置齐全所有baseline系统的环境（环境为linux）
+
 pandas~=0.24.1
 numpy~=1.16.1
 matplotlib~=3.3.4
