@@ -9,13 +9,13 @@ datasets=(
     #"2_flights:index::Data/2_flights/noise_with_correct_primary_key:Data/2_flights/clean_index.csv:Data/2_flights/dc_rules-validate-fd-horizon.txt"
     #"3_beers:id:abv ibu:Data/3_beers/noise_with_correct_primary_key:Data/3_beers/clean.csv:Data/3_beers/dc_rules-validate-fd-horizon.txt"
     #"4_rayyan:index::Data/4_rayyan/noise_with_correct_primary_key:Data/4_rayyan/clean_index.csv:Data/4_rayyan/dc_rules-validate-fd-horizon.txt"
-    #"5_tax:tno:rate:Data/5_tax/subset_tax_10k/noise_with_correct_primary_key:Data/5_tax/subset_tax_10k/subset_tax_10k_clean_index.csv:Data/5_tax/dc_rules-validate-fd-horizon.txt"
-    "6_soccer:index::Data/6_soccer/noise_with_correct_primary_key:Data/6_soccer/clean_index.csv:Data/6_soccer/dc_rules-validate-fd-horizon.txt"
+    "5_tax:tno:rate:Data/5_tax/subset_tax_10k/noise_with_correct_primary_key:Data/5_tax/subset_tax_10k/subset_tax_10k_clean_index.csv:Data/5_tax/dc_rules-validate-fd-horizon.txt"
+    #"6_soccer:index::Data/6_soccer/noise_with_correct_primary_key:Data/6_soccer/clean_index.csv:Data/6_rayyan/dc_rules-validate-fd-horizon.txt"
 )
 
 # 定义错误比例集合
 #error_ratios=("0.25" "0.5" "0.75" "1" "1.25" "1.5" "1.75" "2")
-error_ratios=("1.75")
+error_ratios=("0.5" "1" "1.5" "2")
 
 # 创建日志目录
 log_dir="logs/horizon_nwcpk"

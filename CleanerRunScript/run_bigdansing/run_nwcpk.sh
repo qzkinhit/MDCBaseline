@@ -9,11 +9,10 @@ datasets=(
     # "2_flights:index::Data/2_flights/noise_with_correct_primary_key:Data/2_flights/clean_index.csv:Data/2_flights/dc_rules_holoclean.txt
     # "3_beers:id:abv ibu:Data/3_beers/noise_with_correct_primary_key:Data/3_beers/clean.csv:Data/3_beers/dc_rules_holoclean.txt"
     # "4_rayyan:index::Data/4_rayyan/noise_with_correct_primary_key:Data/4_rayyan/clean_index.csv:Data/4_rayyan/dc_rules_holoclean.txt"
-    # "5_tax_5k:tno:rate:Data/5_tax/tax_5k/noise_with_correct_primary_key:Data/5_tax/clean_index_5k.csv:Data/5_tax/dc_rules_holoclean.txt"
-    "5_tax:tno:rate:Data/5_tax/subset_tax_10k/noise_with_correct_primary_key:Data/5_tax/subset_tax_10k/tax_10k_clean_id.csv:Data/5_tax/dc_rules_holoclean.txt"
+    "5_tax_10k:tno:rate:Data/5_tax/tax_10k/noise_with_correct_primary_key:Data/5_tax/clean_index_10k.csv:Data/5_tax/dc_rules_holoclean.txt"
     # "5_tax_50k:tno:rate:Data/5_tax/tax_50k/noise_with_correct_primary_key:Data/5_tax/tax_50k/tax_50k_clean_id.csv:Data/5_tax/dc_rules_holoclean.txt"
     # "5_tax_200k:tno:rate:Data/5_tax/tax_200k/noise_with_correct_primary_key:Data/5_tax/tax_200k/tax_200k_clean_id.csv:Data/5_tax/dc_rules_holoclean.txt"
-    # "6_soccer:index::Data/6_soccer/subset_soccer_10k/noise_with_correct_primary_key:Data/6_soccer/subset_soccer_10k/subset_clean_index_10k.csv:Data/6_soccer/dc_rules_holoclean.txt"
+    # "6_soccer:index::Data/6_soccer/noise_with_correct_primary_key:Data/6_soccer/clean_index.csv:Data/6_soccer/dc_rules_holoclean.txt"
 )
 
 # 定义错误比例集合

@@ -5,17 +5,16 @@
 # 定义数据集配置
 # 解析dataset index_attr mse_attr noise_dir clean_path这几个参数，后续需要，根据你的系统配置自行修改
 datasets=(
-    # "1_hospitals:index:Score:Data/1_hospitals/noise_with_correct_primary_key:Data/1_hospitals/clean_index.csv"
-    # "2_flights:index::Data/2_flights/noise_with_correct_primary_key:Data/2_flights/clean_index.csv"
-    # "3_beers:id:abv ibu:Data/3_beers/noise_with_correct_primary_key:Data/3_beers/clean_index.csv"
+    "1_hospitals:index:Score:Data/1_hospitals/noise_with_correct_primary_key:Data/1_hospitals/clean_index.csv"
+    "2_flights:index::Data/2_flights/noise_with_correct_primary_key:Data/2_flights/clean_index.csv"
+    "3_beers:id:abv ibu:Data/3_beers/noise_with_correct_primary_key:Data/3_beers/clean_index.csv"
     "4_rayyan:index::Data/4_rayyan/noise_with_correct_primary_key:Data/4_rayyan/clean_index.csv"
-    # "5_tax:tno:rate:Data/5_tax/subset_tax_10k/noise_with_correct_primary_key:Data/5_tax/subset_tax_10k/subset_tax_10k_clean_index.csv"
-    # "6_soccer:index::Data/6_soccer/subset_directly_extract_soccer_10k/noise_with_correct_primary_key:Data/6_soccer/subset_directly_extract_soccer_10k/subset_directly_extract_soccer_10k_clean_index.csv"
+    "5_tax:tno:rate:Data/5_tax/subset_tax_10k/noise_with_correct_primary_key:Data/5_tax/subset_tax_10k/subset_tax_10k_clean_index.csv"
+    "6_soccer:index::Data/6_soccer/subset_directly_extract_soccer_10k/noise_with_correct_primary_key:Data/6_soccer/subset_directly_extract_soccer_10k/subset_directly_extract_soccer_10k_clean_index.csv"
 )
 
 # 定义错误比例集合
-# error_ratios=("0.25" "0.5" "0.75" "1" "1.25" "1.5" "1.75" "2")
-error_ratios=("1.25" "1.75" "2")
+error_ratios=("0.25" "0.5" "0.75" "1" "1.25" "1.5" "1.75" "2")
 
 # 创建日志目录
 log_dir="logs/raha_baran_nwcpk"
@@ -34,7 +33,7 @@ for dataset_config in "${datasets[@]}"; do
         log_file="${log_dir}/${dataset}_raha_baran_nwcpk_${ratio//./}.log"
 
         # 生成命令
-        cmd="python CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path ${dirty_path} --clean_path ${clean_path} --task_name ${task_name} --output_path ${output_path} --index_attribute ${index_attr}"
+        cmd="python3 CleanerRunScript/run_raha_baran/repair_with_raha.py --dirty_path ${dirty_path} --clean_path ${clean_path} --task_name ${task_name} --output_path ${output_path} --index_attribute ${index_attr}"
 
         if [ -n "${mse_attr}" ]; then
             cmd+=" --mse_attributes ${mse_attr}"
