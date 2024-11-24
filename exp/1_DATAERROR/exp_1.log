@@ -1,0 +1,395 @@
+F:\MDCBaseline\envir_holo\Scripts\python.exe F:\MDCBaseline\exp\1_DATAERROR\get_error_num.py
+Processing dataset: Hospital
+Hospital: 脏数据和干净数据之间有 407 个条目不一致。
+不同单元的数据保存到 ./change_report_Hospital.csv
+Hospital: 脏数据和干净数据之间有 509 个单元格不一致。
+Hospital: 单元格错误率: 2.6789%
+Hospital: 条目错误率: 40.7000%
+--------------------------------------------------
+Processing dataset: Flights
+Flights: 脏数据和干净数据之间有 1904 个条目不一致。
+不同单元的数据保存到 ./change_report_Flights.csv
+Flights: 脏数据和干净数据之间有 4920 个单元格不一致。
+Flights: 单元格错误率: 34.5118%
+Flights: 条目错误率: 80.1347%
+--------------------------------------------------
+Processing dataset: Beers
+Beers: 脏数据和干净数据之间有 2410 个条目不一致。
+不同单元的数据保存到 ./change_report_Beers.csv
+Beers: 脏数据和干净数据之间有 3358 个单元格不一致。
+Beers: 单元格错误率: 13.9336%
+Beers: 条目错误率: 100.0000%
+--------------------------------------------------
+Processing dataset: Rayyan
+Rayyan: 脏数据和干净数据之间有 784 个条目不一致。
+不同单元的数据保存到 ./change_report_Rayyan.csv
+Rayyan: 脏数据和干净数据之间有 993 个单元格不一致。
+Rayyan: 单元格错误率: 9.0273%
+Rayyan: 条目错误率: 78.4000%
+--------------------------------------------------
+Processing dataset: Tax
+sys:1: DtypeWarning: Columns (13,15) have mixed types.Specify dtype option on import or set low_memory=False.
+Tax: 脏数据和干净数据之间有 2929 个条目不一致。
+不同单元的数据保存到 ./change_report_Tax.csv
+Tax: 脏数据和干净数据之间有 2966 个单元格不一致。
+Tax: 单元格错误率: 0.0989%
+Tax: 条目错误率: 1.4645%
+--------------------------------------------------
+Processing dataset: Soccer
+Soccer: 脏数据和干净数据之间有 31296 个条目不一致。
+不同单元的数据保存到 ./change_report_Soccer.csv
+Soccer: 脏数据和干净数据之间有 31296 个单元格不一致。
+Soccer: 单元格错误率: 1.5648%
+Soccer: 条目错误率: 15.6480%
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------
+Processing dataset: Hospital with noise level: 0.25
+Hospital (noise 0.25): 脏数据和干净数据之间有 83 个条目不一致。
+不同单元的数据保存到 ./change_report_Hospital_noise_0.25.csv
+Hospital (noise 0.25): 脏数据和干净数据之间有 83 个单元格不一致。
+Hospital (noise 0.25): 单元格错误率: 0.4368%
+Hospital (noise 0.25): 条目错误率: 8.3000%
+--------------------------------------------------
+Processing dataset: Hospital with noise level: 0.5
+Hospital (noise 0.5): 脏数据和干净数据之间有 162 个条目不一致。
+不同单元的数据保存到 ./change_report_Hospital_noise_0.5.csv
+Hospital (noise 0.5): 脏数据和干净数据之间有 176 个单元格不一致。
+Hospital (noise 0.5): 单元格错误率: 0.9263%
+Hospital (noise 0.5): 条目错误率: 16.2000%
+--------------------------------------------------
+Processing dataset: Hospital with noise level: 0.75
+Hospital (noise 0.75): 脏数据和干净数据之间有 222 个条目不一致。
+不同单元的数据保存到 ./change_report_Hospital_noise_0.75.csv
+Hospital (noise 0.75): 脏数据和干净数据之间有 242 个单元格不一致。
+Hospital (noise 0.75): 单元格错误率: 1.2737%
+Hospital (noise 0.75): 条目错误率: 22.2000%
+--------------------------------------------------
+Processing dataset: Hospital with noise level: 1
+Hospital (noise 1): 脏数据和干净数据之间有 308 个条目不一致。
+不同单元的数据保存到 ./change_report_Hospital_noise_1.csv
+Hospital (noise 1): 脏数据和干净数据之间有 364 个单元格不一致。
+Hospital (noise 1): 单元格错误率: 1.9158%
+Hospital (noise 1): 条目错误率: 30.8000%
+--------------------------------------------------
+Processing dataset: Hospital with noise level: 1.25
+Hospital (noise 1.25): 脏数据和干净数据之间有 341 个条目不一致。
+不同单元的数据保存到 ./change_report_Hospital_noise_1.25.csv
+Hospital (noise 1.25): 脏数据和干净数据之间有 422 个单元格不一致。
+Hospital (noise 1.25): 单元格错误率: 2.2211%
+Hospital (noise 1.25): 条目错误率: 34.1000%
+--------------------------------------------------
+Processing dataset: Hospital with noise level: 1.5
+Hospital (noise 1.5): 脏数据和干净数据之间有 412 个条目不一致。
+不同单元的数据保存到 ./change_report_Hospital_noise_1.5.csv
+Hospital (noise 1.5): 脏数据和干净数据之间有 532 个单元格不一致。
+Hospital (noise 1.5): 单元格错误率: 2.8000%
+Hospital (noise 1.5): 条目错误率: 41.2000%
+--------------------------------------------------
+Processing dataset: Hospital with noise level: 1.75
+Hospital (noise 1.75): 脏数据和干净数据之间有 443 个条目不一致。
+不同单元的数据保存到 ./change_report_Hospital_noise_1.75.csv
+Hospital (noise 1.75): 脏数据和干净数据之间有 608 个单元格不一致。
+Hospital (noise 1.75): 单元格错误率: 3.2000%
+Hospital (noise 1.75): 条目错误率: 44.3000%
+--------------------------------------------------
+Processing dataset: Hospital with noise level: 2
+Hospital (noise 2): 脏数据和干净数据之间有 509 个条目不一致。
+不同单元的数据保存到 ./change_report_Hospital_noise_2.csv
+Hospital (noise 2): 脏数据和干净数据之间有 694 个单元格不一致。
+Hospital (noise 2): 单元格错误率: 3.6526%
+Hospital (noise 2): 条目错误率: 50.9000%
+--------------------------------------------------
+Processing dataset: Flights with noise level: 0.25
+Flights (noise 0.25): 脏数据和干净数据之间有 72 个条目不一致。
+不同单元的数据保存到 ./change_report_Flights_noise_0.25.csv
+Flights (noise 0.25): 脏数据和干净数据之间有 74 个单元格不一致。
+Flights (noise 0.25): 单元格错误率: 0.5191%
+Flights (noise 0.25): 条目错误率: 3.0303%
+--------------------------------------------------
+Processing dataset: Flights with noise level: 0.5
+Flights (noise 0.5): 脏数据和干净数据之间有 117 个条目不一致。
+不同单元的数据保存到 ./change_report_Flights_noise_0.5.csv
+Flights (noise 0.5): 脏数据和干净数据之间有 132 个单元格不一致。
+Flights (noise 0.5): 单元格错误率: 0.9259%
+Flights (noise 0.5): 条目错误率: 4.9242%
+--------------------------------------------------
+Processing dataset: Flights with noise level: 0.75
+Flights (noise 0.75): 脏数据和干净数据之间有 182 个条目不一致。
+不同单元的数据保存到 ./change_report_Flights_noise_0.75.csv
+Flights (noise 0.75): 脏数据和干净数据之间有 203 个单元格不一致。
+Flights (noise 0.75): 单元格错误率: 1.4240%
+Flights (noise 0.75): 条目错误率: 7.6599%
+--------------------------------------------------
+Processing dataset: Flights with noise level: 1
+Flights (noise 1): 脏数据和干净数据之间有 237 个条目不一致。
+不同单元的数据保存到 ./change_report_Flights_noise_1.csv
+Flights (noise 1): 脏数据和干净数据之间有 269 个单元格不一致。
+Flights (noise 1): 单元格错误率: 1.8869%
+Flights (noise 1): 条目错误率: 9.9747%
+--------------------------------------------------
+Processing dataset: Flights with noise level: 1.25
+Flights (noise 1.25): 脏数据和干净数据之间有 282 个条目不一致。
+不同单元的数据保存到 ./change_report_Flights_noise_1.25.csv
+Flights (noise 1.25): 脏数据和干净数据之间有 344 个单元格不一致。
+Flights (noise 1.25): 单元格错误率: 2.4130%
+Flights (noise 1.25): 条目错误率: 11.8687%
+--------------------------------------------------
+Processing dataset: Flights with noise level: 1.5
+Flights (noise 1.5): 脏数据和干净数据之间有 371 个条目不一致。
+不同单元的数据保存到 ./change_report_Flights_noise_1.5.csv
+Flights (noise 1.5): 脏数据和干净数据之间有 433 个单元格不一致。
+Flights (noise 1.5): 单元格错误率: 3.0373%
+Flights (noise 1.5): 条目错误率: 15.6145%
+--------------------------------------------------
+Processing dataset: Flights with noise level: 1.75
+Flights (noise 1.75): 脏数据和干净数据之间有 399 个条目不一致。
+不同单元的数据保存到 ./change_report_Flights_noise_1.75.csv
+Flights (noise 1.75): 脏数据和干净数据之间有 500 个单元格不一致。
+Flights (noise 1.75): 单元格错误率: 3.5073%
+Flights (noise 1.75): 条目错误率: 16.7929%
+--------------------------------------------------
+Processing dataset: Flights with noise level: 2
+Flights (noise 2): 脏数据和干净数据之间有 457 个条目不一致。
+不同单元的数据保存到 ./change_report_Flights_noise_2.csv
+Flights (noise 2): 脏数据和干净数据之间有 558 个单元格不一致。
+Flights (noise 2): 单元格错误率: 3.9141%
+Flights (noise 2): 条目错误率: 19.2340%
+--------------------------------------------------
+Processing dataset: Beers with noise level: 0.25
+Beers (noise 0.25): 脏数据和干净数据之间有 149 个条目不一致。
+不同单元的数据保存到 ./change_report_Beers_noise_0.25.csv
+Beers (noise 0.25): 脏数据和干净数据之间有 164 个单元格不一致。
+Beers (noise 0.25): 单元格错误率: 0.6805%
+Beers (noise 0.25): 条目错误率: 6.1826%
+--------------------------------------------------
+Processing dataset: Beers with noise level: 0.5
+Beers (noise 0.5): 脏数据和干净数据之间有 190 个条目不一致。
+不同单元的数据保存到 ./change_report_Beers_noise_0.5.csv
+Beers (noise 0.5): 脏数据和干净数据之间有 209 个单元格不一致。
+Beers (noise 0.5): 单元格错误率: 0.8672%
+Beers (noise 0.5): 条目错误率: 7.8838%
+--------------------------------------------------
+Processing dataset: Beers with noise level: 0.75
+Beers (noise 0.75): 脏数据和干净数据之间有 240 个条目不一致。
+不同单元的数据保存到 ./change_report_Beers_noise_0.75.csv
+Beers (noise 0.75): 脏数据和干净数据之间有 267 个单元格不一致。
+Beers (noise 0.75): 单元格错误率: 1.1079%
+Beers (noise 0.75): 条目错误率: 9.9585%
+--------------------------------------------------
+Processing dataset: Beers with noise level: 1
+Beers (noise 1): 脏数据和干净数据之间有 302 个条目不一致。
+不同单元的数据保存到 ./change_report_Beers_noise_1.csv
+Beers (noise 1): 脏数据和干净数据之间有 325 个单元格不一致。
+Beers (noise 1): 单元格错误率: 1.3485%
+Beers (noise 1): 条目错误率: 12.5311%
+--------------------------------------------------
+Processing dataset: Beers with noise level: 1.25
+Beers (noise 1.25): 脏数据和干净数据之间有 316 个条目不一致。
+不同单元的数据保存到 ./change_report_Beers_noise_1.25.csv
+Beers (noise 1.25): 脏数据和干净数据之间有 363 个单元格不一致。
+Beers (noise 1.25): 单元格错误率: 1.5062%
+Beers (noise 1.25): 条目错误率: 13.1120%
+--------------------------------------------------
+Processing dataset: Beers with noise level: 1.5
+Beers (noise 1.5): 脏数据和干净数据之间有 385 个条目不一致。
+不同单元的数据保存到 ./change_report_Beers_noise_1.5.csv
+Beers (noise 1.5): 脏数据和干净数据之间有 426 个单元格不一致。
+Beers (noise 1.5): 单元格错误率: 1.7676%
+Beers (noise 1.5): 条目错误率: 15.9751%
+--------------------------------------------------
+Processing dataset: Beers with noise level: 1.75
+Beers (noise 1.75): 脏数据和干净数据之间有 396 个条目不一致。
+不同单元的数据保存到 ./change_report_Beers_noise_1.75.csv
+Beers (noise 1.75): 脏数据和干净数据之间有 470 个单元格不一致。
+Beers (noise 1.75): 单元格错误率: 1.9502%
+Beers (noise 1.75): 条目错误率: 16.4315%
+--------------------------------------------------
+Processing dataset: Beers with noise level: 2
+Beers (noise 2): 脏数据和干净数据之间有 432 个条目不一致。
+不同单元的数据保存到 ./change_report_Beers_noise_2.csv
+Beers (noise 2): 脏数据和干净数据之间有 524 个单元格不一致。
+Beers (noise 2): 单元格错误率: 2.1743%
+Beers (noise 2): 条目错误率: 17.9253%
+--------------------------------------------------
+Processing dataset: Rayyan with noise level: 0.25
+Rayyan (noise 0.25): 脏数据和干净数据之间有 49 个条目不一致。
+不同单元的数据保存到 ./change_report_Rayyan_noise_0.25.csv
+Rayyan (noise 0.25): 脏数据和干净数据之间有 50 个单元格不一致。
+Rayyan (noise 0.25): 单元格错误率: 0.4545%
+Rayyan (noise 0.25): 条目错误率: 4.9000%
+--------------------------------------------------
+Processing dataset: Rayyan with noise level: 0.5
+Rayyan (noise 0.5): 脏数据和干净数据之间有 67 个条目不一致。
+不同单元的数据保存到 ./change_report_Rayyan_noise_0.5.csv
+Rayyan (noise 0.5): 脏数据和干净数据之间有 69 个单元格不一致。
+Rayyan (noise 0.5): 单元格错误率: 0.6273%
+Rayyan (noise 0.5): 条目错误率: 6.7000%
+--------------------------------------------------
+Processing dataset: Rayyan with noise level: 0.75
+Rayyan (noise 0.75): 脏数据和干净数据之间有 76 个条目不一致。
+不同单元的数据保存到 ./change_report_Rayyan_noise_0.75.csv
+Rayyan (noise 0.75): 脏数据和干净数据之间有 81 个单元格不一致。
+Rayyan (noise 0.75): 单元格错误率: 0.7364%
+Rayyan (noise 0.75): 条目错误率: 7.6000%
+--------------------------------------------------
+Processing dataset: Rayyan with noise level: 1
+Rayyan (noise 1): 脏数据和干净数据之间有 91 个条目不一致。
+不同单元的数据保存到 ./change_report_Rayyan_noise_1.csv
+Rayyan (noise 1): 脏数据和干净数据之间有 101 个单元格不一致。
+Rayyan (noise 1): 单元格错误率: 0.9182%
+Rayyan (noise 1): 条目错误率: 9.1000%
+--------------------------------------------------
+Processing dataset: Rayyan with noise level: 1.25
+Rayyan (noise 1.25): 脏数据和干净数据之间有 938 个条目不一致。
+不同单元的数据保存到 ./change_report_Rayyan_noise_1.25.csv
+Rayyan (noise 1.25): 脏数据和干净数据之间有 1056 个单元格不一致。
+Rayyan (noise 1.25): 单元格错误率: 9.6000%
+Rayyan (noise 1.25): 条目错误率: 93.8000%
+--------------------------------------------------
+Processing dataset: Rayyan with noise level: 1.5
+Rayyan (noise 1.5): 脏数据和干净数据之间有 114 个条目不一致。
+不同单元的数据保存到 ./change_report_Rayyan_noise_1.5.csv
+Rayyan (noise 1.5): 脏数据和干净数据之间有 128 个单元格不一致。
+Rayyan (noise 1.5): 单元格错误率: 1.1636%
+Rayyan (noise 1.5): 条目错误率: 11.4000%
+--------------------------------------------------
+Processing dataset: Rayyan with noise level: 1.75
+Rayyan (noise 1.75): 脏数据和干净数据之间有 939 个条目不一致。
+不同单元的数据保存到 ./change_report_Rayyan_noise_1.75.csv
+Rayyan (noise 1.75): 脏数据和干净数据之间有 1087 个单元格不一致。
+Rayyan (noise 1.75): 单元格错误率: 9.8818%
+Rayyan (noise 1.75): 条目错误率: 93.9000%
+--------------------------------------------------
+Processing dataset: Rayyan with noise level: 2
+Rayyan (noise 2): 脏数据和干净数据之间有 941 个条目不一致。
+不同单元的数据保存到 ./change_report_Rayyan_noise_2.csv
+Rayyan (noise 2): 脏数据和干净数据之间有 1105 个单元格不一致。
+Rayyan (noise 2): 单元格错误率: 10.0455%
+Rayyan (noise 2): 条目错误率: 94.1000%
+--------------------------------------------------
+Processing dataset: Tax with noise level: 0.25
+Tax (noise 0.25): 脏数据和干净数据之间有 9070 个条目不一致。
+不同单元的数据保存到 ./change_report_Tax_noise_0.25.csv
+Tax (noise 0.25): 脏数据和干净数据之间有 9480 个单元格不一致。
+Tax (noise 0.25): 单元格错误率: 0.3160%
+Tax (noise 0.25): 条目错误率: 4.5350%
+--------------------------------------------------
+Processing dataset: Tax with noise level: 0.5
+Tax (noise 0.5): 脏数据和干净数据之间有 18229 个条目不一致。
+不同单元的数据保存到 ./change_report_Tax_noise_0.5.csv
+Tax (noise 0.5): 脏数据和干净数据之间有 18912 个单元格不一致。
+Tax (noise 0.5): 单元格错误率: 0.6304%
+Tax (noise 0.5): 条目错误率: 9.1145%
+--------------------------------------------------
+Processing dataset: Tax with noise level: 0.75
+Tax (noise 0.75): 脏数据和干净数据之间有 26555 个条目不一致。
+不同单元的数据保存到 ./change_report_Tax_noise_0.75.csv
+Tax (noise 0.75): 脏数据和干净数据之间有 28184 个单元格不一致。
+Tax (noise 0.75): 单元格错误率: 0.9395%
+Tax (noise 0.75): 条目错误率: 13.2775%
+--------------------------------------------------
+Processing dataset: Tax with noise level: 1
+Tax (noise 1): 脏数据和干净数据之间有 34190 个条目不一致。
+不同单元的数据保存到 ./change_report_Tax_noise_1.csv
+Tax (noise 1): 脏数据和干净数据之间有 37559 个单元格不一致。
+Tax (noise 1): 单元格错误率: 1.2520%
+Tax (noise 1): 条目错误率: 17.0950%
+--------------------------------------------------
+Processing dataset: Tax with noise level: 1.25
+Tax (noise 1.25): 脏数据和干净数据之间有 41516 个条目不一致。
+不同单元的数据保存到 ./change_report_Tax_noise_1.25.csv
+Tax (noise 1.25): 脏数据和干净数据之间有 47038 个单元格不一致。
+Tax (noise 1.25): 单元格错误率: 1.5679%
+Tax (noise 1.25): 条目错误率: 20.7580%
+--------------------------------------------------
+Processing dataset: Tax with noise level: 1.5
+Tax (noise 1.5): 脏数据和干净数据之间有 48471 个条目不一致。
+不同单元的数据保存到 ./change_report_Tax_noise_1.5.csv
+Tax (noise 1.5): 脏数据和干净数据之间有 55902 个单元格不一致。
+Tax (noise 1.5): 单元格错误率: 1.8634%
+Tax (noise 1.5): 条目错误率: 24.2355%
+--------------------------------------------------
+Processing dataset: Tax with noise level: 1.75
+Tax (noise 1.75): 脏数据和干净数据之间有 54949 个条目不一致。
+不同单元的数据保存到 ./change_report_Tax_noise_1.75.csv
+Tax (noise 1.75): 脏数据和干净数据之间有 65214 个单元格不一致。
+Tax (noise 1.75): 单元格错误率: 2.1738%
+Tax (noise 1.75): 条目错误率: 27.4745%
+--------------------------------------------------
+Processing dataset: Tax with noise level: 2
+Tax (noise 2): 脏数据和干净数据之间有 62037 个条目不一致。
+不同单元的数据保存到 ./change_report_Tax_noise_2.csv
+Tax (noise 2): 脏数据和干净数据之间有 74016 个单元格不一致。
+Tax (noise 2): 单元格错误率: 2.4672%
+Tax (noise 2): 条目错误率: 31.0185%
+--------------------------------------------------
+Processing dataset: Soccer with noise level: 0.25
+Soccer (noise 0.25): 脏数据和干净数据之间有 8134 个条目不一致。
+不同单元的数据保存到 ./change_report_Soccer_noise_0.25.csv
+Soccer (noise 0.25): 脏数据和干净数据之间有 8921 个单元格不一致。
+Soccer (noise 0.25): 单元格错误率: 0.4461%
+Soccer (noise 0.25): 条目错误率: 4.0670%
+--------------------------------------------------
+Processing dataset: Soccer with noise level: 0.5
+Soccer (noise 0.5): 脏数据和干净数据之间有 15953 个条目不一致。
+不同单元的数据保存到 ./change_report_Soccer_noise_0.5.csv
+Soccer (noise 0.5): 脏数据和干净数据之间有 17890 个单元格不一致。
+Soccer (noise 0.5): 单元格错误率: 0.8945%
+Soccer (noise 0.5): 条目错误率: 7.9765%
+--------------------------------------------------
+Processing dataset: Soccer with noise level: 0.75
+Soccer (noise 0.75): 脏数据和干净数据之间有 23389 个条目不一致。
+不同单元的数据保存到 ./change_report_Soccer_noise_0.75.csv
+Soccer (noise 0.75): 脏数据和干净数据之间有 26664 个单元格不一致。
+Soccer (noise 0.75): 单元格错误率: 1.3332%
+Soccer (noise 0.75): 条目错误率: 11.6945%
+--------------------------------------------------
+Processing dataset: Soccer with noise level: 1
+Soccer (noise 1): 脏数据和干净数据之间有 30718 个条目不一致。
+不同单元的数据保存到 ./change_report_Soccer_noise_1.csv
+Soccer (noise 1): 脏数据和干净数据之间有 35595 个单元格不一致。
+Soccer (noise 1): 单元格错误率: 1.7798%
+Soccer (noise 1): 条目错误率: 15.3590%
+--------------------------------------------------
+Processing dataset: Soccer with noise level: 1.25
+Soccer (noise 1.25): 脏数据和干净数据之间有 37474 个条目不一致。
+不同单元的数据保存到 ./change_report_Soccer_noise_1.25.csv
+Soccer (noise 1.25): 脏数据和干净数据之间有 44361 个单元格不一致。
+Soccer (noise 1.25): 单元格错误率: 2.2180%
+Soccer (noise 1.25): 条目错误率: 18.7370%
+--------------------------------------------------
+Processing dataset: Soccer with noise level: 1.5
+Soccer (noise 1.5): 脏数据和干净数据之间有 44653 个条目不一致。
+不同单元的数据保存到 ./change_report_Soccer_noise_1.5.csv
+Soccer (noise 1.5): 脏数据和干净数据之间有 53253 个单元格不一致。
+Soccer (noise 1.5): 单元格错误率: 2.6627%
+Soccer (noise 1.5): 条目错误率: 22.3265%
+--------------------------------------------------
+Processing dataset: Soccer with noise level: 1.75
+Soccer (noise 1.75): 脏数据和干净数据之间有 51183 个条目不一致。
+不同单元的数据保存到 ./change_report_Soccer_noise_1.75.csv
+Soccer (noise 1.75): 脏数据和干净数据之间有 61927 个单元格不一致。
+Soccer (noise 1.75): 单元格错误率: 3.0964%
+Soccer (noise 1.75): 条目错误率: 25.5915%
+--------------------------------------------------
+Processing dataset: Soccer with noise level: 2
+Soccer (noise 2): 脏数据和干净数据之间有 57247 个条目不一致。
+不同单元的数据保存到 ./change_report_Soccer_noise_2.csv
+Soccer (noise 2): 脏数据和干净数据之间有 70630 个单元格不一致。
+Soccer (noise 2): 单元格错误率: 3.5315%
+Soccer (noise 2): 条目错误率: 28.6235%
+--------------------------------------------------
+
+进程已结束，退出代码为 0
