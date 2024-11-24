@@ -129,7 +129,6 @@ brewery_name,2395,empty,hopworks urban brewery
 brewery_name,1555,indeed brewing comjpany,indeed brewing company
 brewery_name,1445,lazym onk brewing,lazy monk brewing
 brewery_name,2583,lostnation brewing,lost nation brewing
-brewery_name,2120,martin house brewing compnay,martin house brewing company
 brewery_name,2667,empty,mike hess brewing company
 brewery_name,2532,mikerphone brewnig,mikerphone brewing
 brewery_name,568,empty,new england brewing company
@@ -139,7 +138,6 @@ brewery_name,1338,empty,sierra nevada brewing company
 brewery_name,160,silverto nbrewery,silverton brewery
 brewery_name,1820,empty,spiteful brewing company
 brewery_name,2228,empty,stevens point brewery
-brewery_name,2115,sevens point brewery,stevens point brewery
 brewery_name,2638,empty,the mitten brewing company
 brewery_name,121,htunderhead brewing company,thunderhead brewing company
 brewery_name,2445,tröegs brewing company,tr?egs brewing company
@@ -150,6 +148,8 @@ brewery_name,1509,tröegs brewing company,tr?egs brewing company
 brewery_name,2560,empty,upslope brewing company
 brewery_name,1378,vander mill fciders,vander mill ciders
 brewery_name,366,empty,wild onion brewing company
+brewery_name,2417,woodstock inn station & brewery,"woodstock inn, station & brewery"
+brewery_name,2306,woodstock inn station & brewery,"woodstock inn, station & brewery"
 brewery_name,807,empty,wynkoop brewing company
 city,2681,louiszville,louisville
 city,2680,luoisville,louisville
@@ -189,10 +189,8 @@ city,1085,portlad,portland
 city,1686,empty,york
 city,1674,empty,santee
 city,956,nutica,utica
-city,2530,chciago,chicago
 city,914,newburypnort,newburyport
 city,1081,empty,portland
-city,2229,ufort worth,fort worth
 city,1006,empty,denver
 city,2599,chandlexr,chandler
 city,917,empty,silverton

@@ -16,83 +16,40 @@ beer_name,2142,screamin�?pumpkin,screamin??pumpkin
 beer_name,195,lancaster german style kölsch,lancaster german style k?lsch
 beer_name,1081,occidental kölsch,occidental k?lsch
 beer_name,1796,the crowler�?,the crowler??
-beer_name,1087,side kick kölsch,side kick k?lsch
 beer_name,1760,greybeard�?ipa,greybeard??ipa
 beer_name,92,colorado kölsch,colorado k?lsch
 beer_name,105,köld lager (2010),k?ld lager (2010)
 beer_name,936,loafin bräu,loafin br?u
-style,2217,kölsch,k?lsch
-style,1535,kölsch,k?lsch
-style,550,kölsch,k?lsch
-style,1640,kölsch,k?lsch
 style,1579,märzen / oktoberfest,m?rzen / oktoberfest
-style,1401,kölsch,k?lsch
-style,1408,kölsch,k?lsch
 style,1613,märzen / oktoberfest,m?rzen / oktoberfest
 style,1281,märzen / oktoberfest,m?rzen / oktoberfest
-style,2204,kölsch,k?lsch
-style,2654,kölsch,k?lsch
-style,427,kölsch,k?lsch
-style,2055,kölsch,k?lsch
-style,2019,kölsch,k?lsch
 style,2079,märzen / oktoberfest,m?rzen / oktoberfest
 style,2011,märzen / oktoberfest,m?rzen / oktoberfest
-style,2438,kölsch,k?lsch
-style,129,kölsch,k?lsch
-style,681,kölsch,k?lsch
-style,1311,kölsch,k?lsch
-style,1452,kölsch,k?lsch
-style,1968,kölsch,k?lsch
-style,2659,kölsch,k?lsch
-style,2309,kölsch,k?lsch
-style,178,kölsch,k?lsch
-style,1300,kölsch,k?lsch
-style,1034,kölsch,k?lsch
 style,930,märzen / oktoberfest,m?rzen / oktoberfest
 style,539,märzen / oktoberfest,m?rzen / oktoberfest
 style,2461,märzen / oktoberfest,m?rzen / oktoberfest
 style,1567,märzen / oktoberfest,m?rzen / oktoberfest
-style,1380,kölsch,k?lsch
 style,1313,märzen / oktoberfest,m?rzen / oktoberfest
-style,769,kölsch,k?lsch
-style,192,kölsch,k?lsch
 style,989,märzen / oktoberfest,m?rzen / oktoberfest
 style,2383,märzen / oktoberfest,m?rzen / oktoberfest
 style,1458,märzen / oktoberfest,m?rzen / oktoberfest
-style,1235,kölsch,k?lsch
-style,195,kölsch,k?lsch
-style,475,kölsch,k?lsch
-style,1816,kölsch,k?lsch
 style,1626,märzen / oktoberfest,m?rzen / oktoberfest
-style,2662,kölsch,k?lsch
 style,1617,märzen / oktoberfest,m?rzen / oktoberfest
 style,314,märzen / oktoberfest,m?rzen / oktoberfest
-style,1081,kölsch,k?lsch
-style,696,kölsch,k?lsch
-style,1087,kölsch,k?lsch
 style,417,märzen / oktoberfest,m?rzen / oktoberfest
 style,1992,märzen / oktoberfest,m?rzen / oktoberfest
 style,2373,märzen / oktoberfest,m?rzen / oktoberfest
-style,1552,kölsch,k?lsch
-style,1864,kölsch,k?lsch
 style,1995,märzen / oktoberfest,m?rzen / oktoberfest
 style,307,märzen / oktoberfest,m?rzen / oktoberfest
 style,166,märzen / oktoberfest,m?rzen / oktoberfest
-style,1798,kölsch,k?lsch
 style,1482,märzen / oktoberfest,m?rzen / oktoberfest
-style,1969,kölsch,k?lsch
 style,369,märzen / oktoberfest,m?rzen / oktoberfest
-style,92,kölsch,k?lsch
 style,1357,märzen / oktoberfest,m?rzen / oktoberfest
-style,650,kölsch,k?lsch
 style,456,märzen / oktoberfest,m?rzen / oktoberfest
-style,1410,kölsch,k?lsch
 style,874,märzen / oktoberfest,m?rzen / oktoberfest
 style,526,märzen / oktoberfest,m?rzen / oktoberfest
-style,2035,kölsch,k?lsch
 style,1042,märzen / oktoberfest,m?rzen / oktoberfest
 style,1645,märzen / oktoberfest,m?rzen / oktoberfest
-style,1514,kölsch,k?lsch
 brewery_id,2518,67,267
 brewery_name,1409,asutin beerworks,austin beerworks
 brewery_name,470,bozemanz brewing company,bozeman brewing company
@@ -176,52 +133,165 @@ brewery_name,1510,tröegs brewing company,tr?egs brewing company
 brewery_name,1509,tröegs brewing company,tr?egs brewing company
 brewery_name,2417,woodstock inn station & brewery,"woodstock inn, station & brewery"
 brewery_name,2306,woodstock inn station & brewery,"woodstock inn, station & brewery"
+city,2675,nlouisville,louisville
+city,2674,loiusville,louisville
+city,2402,empty,portland
+city,410,empty,hayward
+city,1639,empty,bellingham
+city,2189,empty,portland
+city,1963,mhinneapolis,minneapolis
+city,1902,empty,duluth
+city,1712,empty,missoula
+city,168,missuola,missoula
+city,89,empty,midvale
+city,1281,botson,boston
+city,2636,grnd rapids,grand rapids
 city,2598,grand raids,grand rapids
 city,2597,grand rapdis,grand rapids
 city,2548,grand rapisd,grand rapids
+city,2542,grandq rapids,grand rapids
 city,2541,gradn rapids,grand rapids
 city,2504,gradn rapids,grand rapids
 city,2500,grand rapisd,grand rapids
 city,2499,garnd rapids,grand rapids
 city,2498,garnd rapids,grand rapids
+city,2481,grand rapis,grand rapids
+city,2476,granwd rapids,grand rapids
+city,2467,gxrand rapids,grand rapids
 city,2466,garnd rapids,grand rapids
+city,2465,rgand rapids,grand rapids
 city,2433,grad rapids,grand rapids
+city,2418,grandr apids,grand rapids
+city,2416,empty,grand rapids
+city,2382,empty,grand rapids
+city,2381,grhand rapids,grand rapids
+city,2290,gand rapids,grand rapids
+city,2241,grand rapitds,grand rapids
+city,2240,grand rapibds,grand rapids
 city,2137,grand raids,grand rapids
+city,2101,grandr apids,grand rapids
+city,2092,grand rpids,grand rapids
 city,2091,grand raids,grand rapids
 city,2086,grand raids,grand rapids
+city,2023,grando rapids,grand rapids
 city,2006,grad rapids,grand rapids
 city,1997,grand rapeids,grand rapids
 city,1977,grand rapdis,grand rapids
+city,1976,grandp rapids,grand rapids
+city,1974,rand rapids,grand rapids
+city,1785,granxd rapids,grand rapids
+city,1092,wahington,washington
+city,186,wkashington,washington
 city,1734,empty,diamond springs
 city,1944,denvaer,denver
 city,1107,jacksonvilsle beach,jacksonville beach
+city,2309,empty,tempe
+city,2525,empty,san antonio
+city,477,wimlliams,williams
 city,2126,farmers bracnh,farmers branch
+city,1990,empty,aurora
+city,2375,birminham,birmingham
 city,2339,empty,loveland
+city,1270,empty,richmond
+city,1558,empty,boston
+city,1893,mill valley***,mill valley
+city,85,missoulya,missoula
+city,1687,empty,york
 city,574,bridgewater rcorners,bridgewater corners
+city,1153,empty,flagstaff
+city,33,lahaian,lahaina
+city,109,empty,eau claire
+city,2192,portkland,portland
+city,1720,empty,arvada
+city,1487,empty,danville
 city,1526,airway heighst,airway heights
 city,1175,brevrad,brevard
+city,1043,empty,garden city
+city,1589,empty,carlsbad
+city,1091,blanoc,blanco
+city,1934,empty,chandler
+city,1077,empty,saint louis
+city,53,empty,saint louis
+city,975,empty,portland
+city,160,empty,silverton
+city,1591,broolyn,brooklyn
+city,1387,broklyn,brooklyn
+city,24,pottshtown,pottstown
+city,407,empty,jackson
+city,402,ackson,jackson
 city,2270,tevens point,stevens point
+city,2000,empty,indianapolis
 city,2409,brooklyn centre,brooklyn center
 city,827,tellride,telluride
+city,2347,cold sprintg,cold spring
+city,1912,empty,charlottesville
 city,1026,empty,minnetonka
+city,1284,empty,warrenville
+city,1853,empty,boulder
+city,79,empty,boulder
+city,1836,empty,portland
+state,1502,empty,or
+state,515,empty,la
+state,523,a,ca
+state,702,empty,nc
+state,1317,empty,ma
+state,937,empty,ne
+state,89,empty,ut
+state,1548,empty,co
+state,470,empty,mt
+state,384,empty,mi
 state,920,ka,ak
 state,919,ka,ak
+state,2607,empty,in
+state,530,empty,nc
+state,2094,empty,nj
+state,1726,empty,fl
 state,1159,k,ak
 state,947,ka,ak
 state,929,axk,ak
+state,1662,l,il
+state,351,empty,il
+state,1635,z,az
 state,1616,za,az
+state,1585,z,az
 state,358,za,az
 state,179,za,az
 state,178,za,az
+state,857,empty,wa
+state,312,l,al
 state,309,la,al
-state,2408,dm,md
+state,1028,empty,ia
+state,2453,empty,oh
+state,1254,empty,wi
+state,2060,empty,nv
 state,1187,ka,ak
 state,349,ka,ak
 state,348,ka,ak
+state,1832,empty,pa
+state,2581,empty,vt
 state,1153,z,az
 state,355,za,az
+state,125,z,az
+state,73,empty,ca
+state,1626,empty,pa
+state,587,axk,ak
 state,586,ka,ak
+state,434,k,ak
+state,172,empty,wi
+state,1052,empty,mo
 state,2413,a,ca
+state,580,empty,ri
+state,1486,a,pa
+state,508,empty,pa
+state,697,empty,co
+state,1384,empty,co
+state,2599,empty,az
 state,2063,za,az
 state,1995,za,az
+state,879,empty,id
 state,925,la,al
+state,637,l,al
+state,2155,empty,il
+state,1754,empty,la
+state,1170,empty,ct
+state,582,empty,md
