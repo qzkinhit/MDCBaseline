@@ -1,6 +1,6 @@
 Record 1
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 0
+Distance (Repaired to Clean): 1
 ========================================
 Record 2
 Distance (Dirty to Clean): 0
@@ -12,15 +12,15 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 4
 Distance (Dirty to Clean): 1
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 5
 Distance (Dirty to Clean): 1
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 6
 Distance (Dirty to Clean): 1
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 7
 Distance (Dirty to Clean): 1
@@ -36,7 +36,7 @@ Distance (Repaired to Clean): 1
 ========================================
 Record 10
 Distance (Dirty to Clean): 1
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 11
 Distance (Dirty to Clean): 1
@@ -92,7 +92,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 24
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 25
 Distance (Dirty to Clean): 0
@@ -144,7 +144,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 37
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 38
 Distance (Dirty to Clean): 0
@@ -420,7 +420,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 106
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 107
 Distance (Dirty to Clean): 0
@@ -520,7 +520,7 @@ Distance (Repaired to Clean): 1
 ========================================
 Record 131
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 0
+Distance (Repaired to Clean): 1
 ========================================
 Record 132
 Distance (Dirty to Clean): 1
@@ -868,7 +868,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 218
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 219
 Distance (Dirty to Clean): 0
@@ -1660,7 +1660,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 416
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 417
 Distance (Dirty to Clean): 0
@@ -1760,7 +1760,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 441
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 0
+Distance (Repaired to Clean): 1
 ========================================
 Record 442
 Distance (Dirty to Clean): 0
@@ -2352,7 +2352,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 589
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 590
 Distance (Dirty to Clean): 0
@@ -2612,7 +2612,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 654
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 655
 Distance (Dirty to Clean): 0
@@ -2684,7 +2684,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 672
 Distance (Dirty to Clean): 1
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 673
 Distance (Dirty to Clean): 0
@@ -2836,7 +2836,7 @@ Distance (Repaired to Clean): 1
 ========================================
 Record 710
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 711
 Distance (Dirty to Clean): 0
@@ -3308,7 +3308,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 828
 Distance (Dirty to Clean): 1
-Distance (Repaired to Clean): 0
+Distance (Repaired to Clean): 1
 ========================================
 Record 829
 Distance (Dirty to Clean): 0
@@ -3460,7 +3460,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 866
 Distance (Dirty to Clean): 0
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 867
 Distance (Dirty to Clean): 1
@@ -3552,7 +3552,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 889
 Distance (Dirty to Clean): 1
-Distance (Repaired to Clean): 0
+Distance (Repaired to Clean): 1
 ========================================
 Record 890
 Distance (Dirty to Clean): 0
@@ -3932,7 +3932,7 @@ Distance (Repaired to Clean): 0
 ========================================
 Record 984
 Distance (Dirty to Clean): 1
-Distance (Repaired to Clean): 1
+Distance (Repaired to Clean): 0
 ========================================
 Record 985
 Distance (Dirty to Clean): 0
@@ -3999,5 +3999,5 @@ Distance (Dirty to Clean): 0
 Distance (Repaired to Clean): 0
 ========================================
 总的脏数据到干净数据距离: 134
-总的修复后数据到干净数据距离: 141
-基于条目的错误减少率 (R-EDR): -0.05223880597014925
+总的修复后数据到干净数据距离: 131
+基于条目的错误减少率 (R-EDR): 0.022388059701492536

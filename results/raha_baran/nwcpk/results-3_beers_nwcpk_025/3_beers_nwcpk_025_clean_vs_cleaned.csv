@@ -94,12 +94,19 @@ style,1645,m?rzen / oktoberfest,märzen / oktoberfest
 style,1514,k?lsch,kölsch
 ounces,2181,19.2,19
 ounces,2179,19.2,19
+ounces,1220,16,24
+ounces,1070,12,24
+ounces,590,12,24
 ounces,2186,19.2,19
+ounces,2273,12,24
 ounces,1883,19.2,19
 ounces,1167,19.2,19
 ounces,993,19.2,19
 ounces,955,19.2,19
 ounces,1166,19.2,19
+ounces,662,12,24
+ounces,362,12,24
+ounces,361,12,24
 ounces,2575,16.9,16
 ounces,2565,19.2,19
 ounces,2564,19.2,19
@@ -109,6 +116,7 @@ ounces,2561,19.2,19
 ounces,1853,19.2,19
 ounces,1315,19.2,19
 abv,2685,0.125,0.099
+abv,2574,0.1,0
 abv,2621,0.12,0.099
 abv,2565,0.128,0.099
 abv,2306,0.028,0.065
@@ -125,7 +133,7 @@ brewery_name,1231,martin house brewing company,martin hous brewing company
 brewery_name,1429,maui brewing company,maui brewingc company
 brewery_name,1273,millking it productions,millking it porductions
 brewery_name,588,schlafly brewing company,schlafly gbrewing company
-brewery_name,2353,sietsema orchards and cider mill,empty
+brewery_name,1768,seventh son brewing company,empty
 brewery_name,1971,south austin brewery,south austin breweroy
 brewery_name,2445,tr?egs brewing company,tröegs brewing company
 brewery_name,2444,tr?egs brewing company,tröegs brewing company
@@ -159,29 +167,11 @@ city,1729,meadville,eadville
 city,1488,meadville,empty
 state,2214,ok,empty
 state,2016,in,empty
-state,2145,sd,az
-state,1804,sd,az
-state,1602,sd,az
-state,1301,sd,az
-state,542,sd,az
-state,272,sd,az
-state,271,sd,az
-state,2078,dc,az
-state,1809,dc,az
-state,1263,dc,az
-state,1092,dc,az
-state,851,dc,az
-state,186,dc,az
-state,185,dc,az
-state,184,dc,az
-state,1722,nd,az
-state,1435,nd,az
-state,1434,nd,az
-state,2314,wv,az
-state,2313,wv,az
 state,2493,mi,empty
 state,1047,ca,empty
 state,165,sc,cs
 state,82,wa,empty
 state,2030,sc,cs
+state,2249,pa,az
+state,307,nm,az
 state,1385,ny,empty
