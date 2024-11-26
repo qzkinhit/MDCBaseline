@@ -15,7 +15,6 @@ beer_name,1034,cabrillo k?lsch,cabrillo kölsch
 beer_name,2142,screamin??pumpkin,screamin�?pumpkin
 beer_name,195,lancaster german style k?lsch,lancaster german style kölsch
 beer_name,1081,occidental k?lsch,occidental kölsch
-beer_name,1796,the crowler??,the crowler�?
 beer_name,1087,side kick k?lsch,side kick kölsch
 beer_name,1760,greybeard??ipa,greybeard�?ipa
 beer_name,92,colorado k?lsch,colorado kölsch
@@ -101,7 +100,6 @@ ounces,1167,19.2,19
 ounces,993,19.2,19
 ounces,955,19.2,19
 ounces,1166,19.2,19
-ounces,2575,16.9,16
 ounces,2565,19.2,19
 ounces,2564,19.2,19
 ounces,2563,19.2,19
@@ -109,188 +107,193 @@ ounces,2562,19.2,19
 ounces,2561,19.2,19
 ounces,1853,19.2,19
 ounces,1315,19.2,19
-abv,2306,0.028,0.065
+abv,2685,0.125,0.099
+abv,2621,0.12,0.099
+abv,2565,0.128,0.099
 brewery_id,2518,267,67
 brewery_name,515,abita brewing company,abitda brewing company
-brewery_name,2680,against the grain brewery,against the grain brewevry
-brewery_name,1294,angry orchard cider company,empty
-brewery_name,1579,aviator brewing company,empty
-brewery_name,2423,beer works brewery,empty
-brewery_name,1002,big elm brewing,empty
+brewery_name,1535,alltech's lexington brewing company,west sixth brewing
+brewery_name,1149,alltech's lexington brewing company,west sixth brewing
+brewery_name,2494,bell's brewery,gonzo's biggdogg brewing
+brewery_name,2325,bell's brewery,gonzo's biggdogg brewing
+brewery_name,2022,bell's brewery,gonzo's biggdogg brewing
+brewery_name,1989,bell's brewery,gonzo's biggdogg brewing
+brewery_name,1988,bell's brewery,gonzo's biggdogg brewing
+brewery_name,1955,bell's brewery,gonzo's biggdogg brewing
 brewery_name,986,big wood brewery,big wood breery
 brewery_name,1012,blue blood brewing company,bue blood brewing company
-brewery_name,1890,bolero snort brewery,empty
-brewery_name,2548,brewery vivant,rewery vivant
-brewery_name,2542,brewery vivant,breiwery vivant
-brewery_name,2541,brewery vivant,brewer vivant
-brewery_name,2504,brewery vivant,brewery vivsant
-brewery_name,2500,brewery vivant,brewoery vivant
-brewery_name,2499,brewery vivant,rewery vivant
-brewery_name,2498,brewery vivant,bewery vivant
-brewery_name,2481,brewery vivant,brewery vivqant
-brewery_name,2476,brewery vivant,breweyr vivant
-brewery_name,2467,brewery vivant,berwery vivant
-brewery_name,2466,brewery vivant,brewoery vivant
-brewery_name,1352,brewery vivant,brewery viavant
-brewery_name,1267,brewery vivant,brewery pvivant
-brewery_name,1266,brewery vivant,brewery ivvant
-brewery_name,1178,brewery vivant,empty
-brewery_name,1136,brewery vivant,brewery vivatn
-brewery_name,1044,brewery vivant,lbrewery vivant
-brewery_name,1033,brewery vivant,brewery vivatn
-brewery_name,1031,brewery vivant,breery vivant
-brewery_name,909,brewery vivant,brewery ivvant
-brewery_name,873,brewery vivant,brewery vivnt
-brewery_name,860,brewery vivant,breweryy vivant
-brewery_name,677,brewery vivant,brewery vivat
-brewery_name,671,brewery vivant,brewey vivant
-brewery_name,670,brewery vivant,rewery vivant
-brewery_name,669,brewery vivant,brewer vivant
-brewery_name,627,brewery vivant,brwewery vivant
-brewery_name,387,brewery vivant,bzrewery vivant
-brewery_name,385,brewery vivant,brewery viant
-brewery_name,384,brewery vivant,berwery vivant
-brewery_name,538,buckbean brewing company,empty
-brewery_name,2252,coop ale works,empty
-brewery_name,1649,central coast brewing company,empty
-brewery_name,1725,cigar city brewing company,empty
+brewery_name,2252,coop ale works,anthem brewing company
+brewery_name,2214,coop ale works,anthem brewing company
+brewery_name,2213,coop ale works,anthem brewing company
+brewery_name,1442,coop ale works,anthem brewing company
+brewery_name,170,coop ale works,anthem brewing company
+brewery_name,169,coop ale works,anthem brewing company
+brewery_name,870,cans bar and canteen,noda brewing company
+brewery_name,869,cans bar and canteen,noda brewing company
+brewery_name,868,cans bar and canteen,noda brewing company
+brewery_name,867,cans bar and canteen,noda brewing company
+brewery_name,2377,center of the universe brewing c...,caldera brewing company
+brewery_name,1839,center of the universe brewing c...,caldera brewing company
+brewery_name,1248,center of the universe brewing c...,caldera brewing company
+brewery_name,1247,center of the universe brewing c...,caldera brewing company
 brewery_name,1887,destihl brewery,destihl brwery
 brewery_name,2430,evil czech brewery,evil czech brweery
 brewery_name,858,fremont brewing company,frsemont brewing company
 brewery_name,2649,great divide brewing company,greaat divide brewing company
 brewery_name,189,great river brewery,gerat river brewery
-brewery_name,2181,hawai'i nui brewing co.,hawai''i ni brewing co.
-brewery_name,989,heavy seas beer,empty
-brewery_name,988,heavy seas beer,empty
+brewery_name,1567,grey sail brewing of rhode island,grey sail brewing company
+brewery_name,1505,grey sail brewing of rhode island,grey sail brewing company
+brewery_name,1186,grey sail brewing of rhode island,grey sail brewing company
+brewery_name,1185,grey sail brewing of rhode island,grey sail brewing company
+brewery_name,984,grey sail brewing of rhode island,grey sail brewing company
+brewery_name,693,grey sail brewing of rhode island,grey sail brewing company
+brewery_name,631,grey sail brewing of rhode island,grey sail brewing company
+brewery_name,2183,hawai'i nui brewing co.,mehana brewing co.
+brewery_name,2182,hawai'i nui brewing co.,mehana brewing co.
+brewery_name,2181,hawai'i nui brewing co.,mehana brewing co.
+brewery_name,2180,hawai'i nui brewing co.,mehana brewing co.
+brewery_name,2179,hawai'i nui brewing co.,mehana brewing co.
 brewery_name,2408,jailbreak brewing company,empty
 brewery_name,1254,james page brewing company,james pag brewing company
+brewery_name,1678,kelso beer company,sixpoint craft ales
+brewery_name,1572,kelso beer company,sixpoint craft ales
+brewery_name,1348,kelso beer company,sixpoint craft ales
 brewery_name,574,long trail brewing company,long trail berwing company
 brewery_name,2582,lost nation brewing,lost nation berwing
 brewery_name,962,mactarnahans brewing company,empty
-brewery_name,713,maui brewing company,mauibrewing company
-brewery_name,1047,mavericks beer company,empty
-brewery_name,2361,minhas craft brewery,empty
+brewery_name,2237,mother's brewing,hop valley brewing company
+brewery_name,2208,mother's brewing,hop valley brewing company
 brewery_name,1952,mountain town brewing company,empty
-brewery_name,602,okoboji brewing company,empty
-brewery_name,803,oskar blues brewery,empty
+brewery_name,2692,northgate brewing,indeed brewing company
+brewery_name,2691,northgate brewing,indeed brewing company
+brewery_name,2690,northgate brewing,indeed brewing company
+brewery_name,2689,northgate brewing,indeed brewing company
+brewery_name,2688,northgate brewing,indeed brewing company
+brewery_name,2687,northgate brewing,indeed brewing company
 brewery_name,1946,otter creek brewing,otter creke brewing
 brewery_name,2633,perrin brewing company,perirn brewing company
+brewery_name,1062,pete's brewing company,freetail brewing company
+brewery_name,1061,pete's brewing company,freetail brewing company
+brewery_name,1060,pete's brewing company,freetail brewing company
+brewery_name,1056,pete's brewing company,freetail brewing company
+brewery_name,1055,pete's brewing company,freetail brewing company
+brewery_name,1054,pete's brewing company,freetail brewing company
+brewery_name,1053,pete's brewing company,freetail brewing company
 brewery_name,2559,pipeworks brewing company,empty
-brewery_name,1760,pisgah brewing company,empty
-brewery_name,2132,rhinegeist brewery,hrinegeist brewery
 brewery_name,2599,santan brewing company,santan brewing comany
 brewery_name,839,santan brewing company,empty
 brewery_name,2406,smartmouth brewing company,smartmouth bmrewing company
-brewery_name,2369,straub brewery,empty
-brewery_name,2084,sun king brewing company,sun king brewingc ompany
-brewery_name,2409,surly brewing company,empty
+brewery_name,2568,sweetwater brewing company,orpheus brewing
+brewery_name,2551,sweetwater brewing company,orpheus brewing
+brewery_name,1710,sweetwater brewing company,orpheus brewing
+brewery_name,1709,sweetwater brewing company,orpheus brewing
 brewery_name,361,tailgate beer,tailgajte beer
-brewery_name,102,tallgrass brewing company,empty
 brewery_name,827,telluride brewing company,telluride brexwing company
+brewery_name,1945,the brewer's art,union craft brewing
+brewery_name,1079,the brewer's art,union craft brewing
+brewery_name,94,the brewer's art,union craft brewing
 brewery_name,2455,the lion brewery,the lion brewrey
 brewery_name,1732,the traveler beer company,teh traveler beer company
-brewery_name,949,tin man brewing company,empty
+brewery_name,1913,three notch'd brewing company,champion brewing company
+brewery_name,1912,three notch'd brewing company,champion brewing company
 brewery_name,2445,tr?egs brewing company,tröegs brewing company
 brewery_name,2444,tr?egs brewing company,tröegs brewing company
 brewery_name,2203,tr?egs brewing company,tröegs brewing company
 brewery_name,1510,tr?egs brewing company,tröegs brewing company
 brewery_name,1509,tr?egs brewing company,tröegs brewing company
-brewery_name,1042,two brothers brewing company,empty
-brewery_name,346,uncommon brewers,empty
-brewery_name,345,upslope brewing company,empty
-brewery_name,2222,warped wing brewing company,warped wing bbrewing company
 brewery_name,575,westbrook brewing company,westbrook brewing compny
-brewery_name,2348,weston brewing company,empty
 brewery_name,2417,"woodstock inn, station & brewery",woodstock inn station & brewery
 brewery_name,2306,"woodstock inn, station & brewery",woodstock inn station & brewery
 city,2258,gary,empty
-city,1473,washougal,wasfougal
+city,2501,madison,stevens point
+city,1473,washougal,seattle
+city,410,hayward,stevens point
 city,1426,bloomfield,bwloomfield
 city,2496,duluth,empty
 city,1541,lincoln,empty
-city,1012,lincoln,linconl
+city,1012,lincoln,papillion
+city,633,eagle,eale
+city,1573,bozeman,bozemn
 city,2597,grand rapids,grandr apids
 city,2548,grand rapids,grand arpids
-city,2542,grand rapids,gkrand rapids
 city,2541,grand rapids,grand apids
 city,2504,grand rapids,grand rapis
-city,2500,grand rapids,gand rapids
 city,2499,grand rapids,grand arpids
-city,2498,grand rapids,grand raids
 city,2481,grand rapids,rgand rapids
 city,2476,grand rapids,rand rapids
 city,2467,grand rapids,grand rapis
 city,2466,grand rapids,grnad rapids
-city,2465,grand rapids,gran rapids
-city,2433,grand rapids,garnd rapids
-city,2418,grand rapids,garand rapids
 city,2416,grand rapids,grand arpids
-city,2382,grand rapids,grand rapilds
-city,2381,grand rapids,graand rapids
 city,2290,grand rapids,grnad rapids
 city,2241,grand rapids,grand arpids
 city,2240,grand rapids,grandr apids
-city,2137,grand rapids,grad rapids
 city,2101,grand rapids,rand rapids
-city,2092,grand rapids,grand rapidfs
 city,2091,grand rapids,grandrapids
 city,2086,grand rapids,rand rapids
 city,627,grand rapids,grandrapids
-city,387,grand rapids,grnd rapids
 city,385,grand rapids,grand rapis
-city,384,grand rapids,grandd rapids
+city,2456,east windsor,stratford
 city,793,ashland,empty
 city,1719,morganton,empty
+city,110,wilson,stevens point
 city,2003,denver,empty
 city,982,pawtucket,empty
 city,2171,astoria,empty
 city,2303,aurora,empty
+city,1990,aurora,indianapolis
+city,1244,davenport,daveonport
 city,655,davenport,empty
-city,190,davenport,davepyort
+city,190,davenport,davenpyort
 city,2375,birmingham,empty
 city,1653,boston,empty
-city,2295,windsor,winsor
+city,2295,windsor,denver
+city,2294,windsor,denver
 city,2195,springfield,springifeld
-city,502,austin,autsin
-city,2408,laurel,baltimore
+city,1784,wilmington,greenville
 city,2163,kalona,empty
-city,2162,kalona,empty
+city,2162,kalona,spirit lake
 city,1686,york,oyrk
 city,125,flagstaff,empty
 city,1716,belfast,belafst
-city,712,lahaina,lahania
+city,712,lahaina,kona
 city,2275,monroe,empty
 city,521,bucryus,empty
-city,479,bucryus,buciryus
+city,479,bucryus,weston
+city,399,seattle,seabttle
 city,2579,export,empty
 city,2249,lansdale,empty
+city,1995,chandler,chanler
+city,764,chandler,chandlre
+city,2368,wolcott,stratford
+city,738,marlborough,boston
+city,1942,durango,denver
 city,2024,southampton,empty
 city,2296,hattiesburg,empty
+city,2386,durango,denver
 city,925,huntsville,hhuntsville
-city,2352,st paul,st. paul
-city,1314,indianapolis,idianapolis
 city,874,indianapolis,empty
 city,1164,san diego,empty
 city,2555,manhattan,empty
 city,2447,bridgman,empty
 city,1982,evanston,empty
-city,2119,richmond,richmodn
+city,2119,richmond,austin
+city,1037,bronx,utica
 city,1277,traverse city,traverse ciy
 city,2622,evansville,evnasville
 city,974,salt lake city,empty
 city,543,santa cruz,empty
 city,1681,salt lake city,nsalt lake city
-city,1030,westminster,westinster
+city,1030,westminster,boston
 city,1836,portland,empty
 city,1194,nellysford,empty
 city,2417,north woodstock,empty
-city,2306,north woodstock,empty
+city,2306,north woodstock,hooksett
+city,1697,worcester,boston
 state,173,ca,a
 state,2403,or,empty
 state,1818,ca,a
 state,1738,ca,a
 state,2589,co,oc
-state,1426,ct,t
 state,1776,ma,a
 state,1422,co,empty
 state,168,mt,empty
@@ -303,39 +306,26 @@ state,1614,co,empty
 state,1183,co,empty
 state,397,co,oc
 state,83,co,empty
-state,2636,mi,im
-state,2023,mi,mai
 state,2315,or,empty
 state,1941,nj,empty
 state,2349,fl,empty
-state,1809,dc,c
-state,1455,co,o
 state,809,il,empty
-state,2171,or,ohr
 state,901,wa,empty
 state,1960,ca,a
 state,1489,ca,empty
 state,1296,ca,empty
-state,2202,il,l
-state,476,az,afz
+state,476,az,za
 state,143,az,za
 state,142,az,za
 state,1331,va,empty
-state,506,mt,tm
-state,2195,or,ro
-state,2357,tx,xt
 state,1405,pa,empty
-state,2436,ak,ka
 state,1675,pa,empty
 state,2332,nc,empty
 state,1090,vt,empty
 state,1475,ga,a
 state,1262,nm,empty
-state,1234,tx,x
-state,1985,mi,i
-state,2529,il,li
 state,1046,mo,empty
-state,625,az,saz
+state,625,az,za
 state,326,az,za
 state,132,az,za
 state,131,az,za
@@ -360,14 +350,9 @@ state,317,az,z
 state,286,az,za
 state,285,az,empty
 state,124,az,avz
-state,1588,pa,ap
 state,2405,va,a
 state,1969,tx,empty
 state,1820,il,empty
-state,1205,va,av
 state,2155,il,empty
-state,1198,wy,wfy
 state,1748,ny,empty
 state,2561,co,oc
-state,1932,co,cio
-state,2222,oh,ho

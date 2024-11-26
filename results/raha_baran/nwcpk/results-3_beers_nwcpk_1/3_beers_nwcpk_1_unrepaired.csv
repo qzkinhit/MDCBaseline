@@ -15,6 +15,7 @@ beer_name,1034,cabrillo kölsch,cabrillo k?lsch
 beer_name,2142,screamin�?pumpkin,screamin??pumpkin
 beer_name,195,lancaster german style kölsch,lancaster german style k?lsch
 beer_name,1081,occidental kölsch,occidental k?lsch
+beer_name,1796,the crowler�?,the crowler??
 beer_name,1087,side kick kölsch,side kick k?lsch
 beer_name,1760,greybeard�?ipa,greybeard??ipa
 beer_name,92,colorado kölsch,colorado k?lsch
@@ -95,76 +96,39 @@ style,1514,kölsch,k?lsch
 brewery_id,2518,67,267
 brewery_name,2260,empty,18th street brewery
 brewery_name,797,empty,21st amendment brewery
-brewery_name,2517,empty,3 daughters brewing
 brewery_name,514,abita brewing compnay,abita brewing company
-brewery_name,2684,against te grain brewery,against the grain brewery
-brewery_name,2683,agaisnt the grain brewery,against the grain brewery
-brewery_name,2682,agains the grain brewery,against the grain brewery
-brewery_name,2680,against hte grain brewery,against the grain brewery
-brewery_name,2679,against thep grain brewery,against the grain brewery
-brewery_name,2678,against teh grain brewery,against the grain brewery
-brewery_name,2677,against the grai nbrewery,against the grain brewery
 brewery_name,2676,againstthe grain brewery,against the grain brewery
-brewery_name,2675,against he grain brewery,against the grain brewery
-brewery_name,1350,empty,anderson valley brewing company
-brewery_name,596,aspe nbrewing company,aspen brewing company
-brewery_name,2187,empty,base camp brewing co.
-brewery_name,2487,empty,blue owl brewing
 brewery_name,2636,brewey vivant,brewery vivant
-brewery_name,2598,brewer yvivant,brewery vivant
 brewery_name,2597,breweory vivant,brewery vivant
 brewery_name,2548,brewery vivawnt,brewery vivant
 brewery_name,2542,breery vivant,brewery vivant
-brewery_name,2541,rewery vivant,brewery vivant
 brewery_name,2504,brewery viavnt,brewery vivant
-brewery_name,2500,brewery pvivant,brewery vivant
 brewery_name,2499,brewery vivrant,brewery vivant
 brewery_name,2498,breweyr vivant,brewery vivant
-brewery_name,2481,breweryv ivant,brewery vivant
 brewery_name,2476,brewey vivant,brewery vivant
 brewery_name,2467,brewery vivatn,brewery vivant
 brewery_name,27,buckbean brewing compayn,buckbean brewing company
 brewery_name,170,empty,coop ale works
 brewery_name,1248,center of the univers ebrewing c...,center of the universe brewing c...
 brewery_name,2010,cigar city brewing cofmpany,cigar city brewing company
-brewery_name,1141,empty,cigar city brewing company
-brewery_name,946,empty,deep ellum brewing company
-brewery_name,2003,empty,epic brewing
-brewery_name,1455,empty,fate brewing company
 brewery_name,442,great crsecent brewery,great crescent brewery
-brewery_name,863,empty,great river brewery
-brewery_name,1331,hardywood park craft brewrey,hardywood park craft brewery
 brewery_name,2162,kalona brcewing company,kalona brewing company
 brewery_name,781,kreb sbrewing company (pete''s pl...,krebs brewing company (pete's pl...
 brewery_name,712,maui brewnig company,maui brewing company
-brewery_name,1506,empty,miami brewing company
 brewery_name,171,milwaukee brewing company***,milwaukee brewing company
 brewery_name,2277,minhas cratf brewery,minhas craft brewery
-brewery_name,1051,empty,morgan street brewery
 brewery_name,1952,mountain town brewing comapny,mountain town brewing company
-brewery_name,1707,empty,new belgium brewing company
-brewery_name,2113,empty,orpheus brewing
-brewery_name,1,empty,oskar blues brewery
 brewery_name,785,oskar blues brewry,oskar blues brewery
-brewery_name,1797,empty,pine street brewery
-brewery_name,2576,empty,revolution brewing company
 brewery_name,883,ruhstaller beer compayn,ruhstaller beer company
 brewery_name,1868,sain archer brewery,saint archer brewery
 brewery_name,975,shipysard brewing company,shipyard brewing company
-brewery_name,2353,sietsema orchards and cier mill,sietsema orchards and cider mill
-brewery_name,629,empty,sixpoint craft ales
-brewery_name,1942,ska rewing company,ska brewing company
-brewery_name,684,stevens pointbrewery,stevens point brewery
+brewery_name,2352,smmit brewing company,summit brewing company
 brewery_name,1049,sun king brewing comany,sun king brewing company
 brewery_name,2445,tröegs brewing company,tr?egs brewing company
 brewery_name,2444,tröegs brewing company,tr?egs brewing company
 brewery_name,2203,tröegs brewing company,tr?egs brewing company
 brewery_name,1510,tröegs brewing company,tr?egs brewing company
 brewery_name,1509,tröegs brewing company,tr?egs brewing company
-brewery_name,451,empty,two beers brewing company
-brewery_name,1285,empty,two roads brewing company
-brewery_name,2100,empty,uinta brewing company
-brewery_name,1312,empty,westbrook brewing company
 brewery_name,1364,wild onion brewing comapny,wild onion brewing company
 brewery_name,2417,woodstock inn station & brewery,"woodstock inn, station & brewery"
 brewery_name,2306,woodstock inn station & brewery,"woodstock inn, station & brewery"
@@ -245,6 +209,7 @@ state,1920,lak,ak
 state,572,a,ca
 state,1322,oc,co
 state,1875,l,al
+state,1343,yaz,az
 state,2323,empty,or
 state,1003,am,ma
 state,1629,a,ma
@@ -263,6 +228,7 @@ state,929,k,ak
 state,1968,a,ca
 state,2463,empty,ca
 state,2172,r,or
+state,358,za,az
 state,312,l,al
 state,311,empty,al
 state,309,adl,al
@@ -299,6 +265,7 @@ state,1335,om,mo
 state,1463,oc,co
 state,2513,empty,md
 state,1180,oc,co
+state,1934,za,az
 state,305,m,nm
 state,975,mte,me
 state,629,empty,ny

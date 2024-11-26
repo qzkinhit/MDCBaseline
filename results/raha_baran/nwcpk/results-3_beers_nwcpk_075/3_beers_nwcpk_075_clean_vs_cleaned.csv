@@ -100,7 +100,6 @@ ounces,1167,19.2,19
 ounces,993,19.2,19
 ounces,955,19.2,19
 ounces,1166,19.2,19
-ounces,2575,16.9,16
 ounces,2565,19.2,19
 ounces,2564,19.2,19
 ounces,2563,19.2,19
@@ -109,7 +108,9 @@ ounces,2561,19.2,19
 ounces,1853,19.2,19
 ounces,1315,19.2,19
 abv,2574,0.1,0
+abv,2306,0.028,0.065
 brewery_id,2518,267,67
+brewery_name,2518,3 daughters brewing,cape cod beer
 brewery_name,1221,anderson valley brewing company,empty
 brewery_name,77,anderson valley brewing company,anderson vallsey brewing company
 brewery_name,1261,bent paddle brewing company,bent paddle brewnig company
@@ -124,7 +125,6 @@ brewery_name,2498,brewery vivant,brewer vivant
 brewery_name,2481,brewery vivant,brewery viovant
 brewery_name,2476,brewery vivant,brewer yvivant
 brewery_name,2467,brewery vivant,breweryvivant
-brewery_name,2240,brewery vivant,revolution brewing
 brewery_name,860,brewery vivant,ibrewery vivant
 brewery_name,677,brewery vivant,bewery vivant
 brewery_name,671,brewery vivant,brewery vviant
@@ -134,32 +134,52 @@ brewery_name,627,brewery vivant,breery vivant
 brewery_name,387,brewery vivant,berwery vivant
 brewery_name,385,brewery vivant,brewery vivanht
 brewery_name,384,brewery vivant,brewery viavnt
-brewery_name,1927,cape cod beer,3 daughters brewing
+brewery_name,2079,chatham brewing,santan brewing company
+brewery_name,2011,cigar city brewing company,santan brewing company
 brewery_name,1213,denali brewing company,ddenali brewing company
 brewery_name,944,dock street brewery,dock street brewbery
 brewery_name,2254,frog level brewing company,frog levelbrewing company
 brewery_name,143,grand canyon brewing company,empty
 brewery_name,1701,great crescent brewery,great crescen tbrewery
+brewery_name,539,great river brewery,santan brewing company
 brewery_name,1570,griffin claw brewing company,griffidn claw brewing company
 brewery_name,1857,hale's ales,empty
 brewery_name,1016,hangar 24 craft brewery,empty
+brewery_name,2400,hopworks urban brewery,empty
+brewery_name,2399,hopworks urban brewery,empty
+brewery_name,2398,hopworks urban brewery,empty
+brewery_name,2397,hopworks urban brewery,empty
 brewery_name,2396,hopworks urban brewery,empty
 brewery_name,2395,hopworks urban brewery,empty
+brewery_name,2394,hopworks urban brewery,empty
+brewery_name,2393,hopworks urban brewery,empty
+brewery_name,2392,hopworks urban brewery,empty
+brewery_name,2391,hopworks urban brewery,empty
+brewery_name,2390,hopworks urban brewery,empty
+brewery_name,2389,hopworks urban brewery,empty
+brewery_name,2383,horny goat brew pub,santan brewing company
 brewery_name,1555,indeed brewing company,indeed brewing comjpany
 brewery_name,1445,lazy monk brewing,lazym onk brewing
 brewery_name,2583,lost nation brewing,lostnation brewing
-brewery_name,2120,martin house brewing company,martin house brewing compnay
 brewery_name,2667,mike hess brewing company,empty
 brewery_name,2532,mikerphone brewing,mikerphone brewnig
 brewery_name,568,new england brewing company,empty
 brewery_name,1883,oskar blues brewery,empty
+brewery_name,1444,oskar blues brewery,oskar blues brewery (north carol...
+brewery_name,1252,oskar blues brewery,oskar blues brewery (north carol...
+brewery_name,955,oskar blues brewery,oskar blues brewery (north carol...
+brewery_name,565,oskar blues brewery,oskar blues brewery (north carol...
+brewery_name,5,oskar blues brewery,oskar blues brewery (north carol...
+brewery_name,1,oskar blues brewery,oskar blues brewery (north carol...
 brewery_name,1636,pikes peak brewing company,empty
+brewery_name,2373,rivertowne brewing company,santan brewing company
 brewery_name,1338,sierra nevada brewing company,empty
 brewery_name,160,silverton brewery,silverto nbrewery
 brewery_name,1820,spiteful brewing company,empty
+brewery_name,2365,stevens point brewery,empty
 brewery_name,2228,stevens point brewery,empty
-brewery_name,2115,stevens point brewery,sevens point brewery
 brewery_name,2638,the mitten brewing company,empty
+brewery_name,2421,thomas hooker brewing company,back east brewing company
 brewery_name,121,thunderhead brewing company,htunderhead brewing company
 brewery_name,2445,tr?egs brewing company,tröegs brewing company
 brewery_name,2444,tr?egs brewing company,tröegs brewing company
@@ -169,6 +189,8 @@ brewery_name,1509,tr?egs brewing company,tröegs brewing company
 brewery_name,2560,upslope brewing company,empty
 brewery_name,1378,vander mill ciders,vander mill fciders
 brewery_name,366,wild onion brewing company,empty
+brewery_name,2417,"woodstock inn, station & brewery",woodstock inn station & brewery
+brewery_name,2306,"woodstock inn, station & brewery",woodstock inn station & brewery
 brewery_name,807,wynkoop brewing company,empty
 city,2681,louisville,louiszville
 city,2680,louisville,luoisville
@@ -208,10 +230,8 @@ city,1085,portland,portlad
 city,1686,york,empty
 city,1674,santee,empty
 city,956,utica,nutica
-city,2530,chicago,chciago
 city,914,newburyport,newburypnort
 city,1081,portland,empty
-city,2229,fort worth,ufort worth
 city,1006,denver,empty
 city,2599,chandler,chandlexr
 city,917,silverton,empty

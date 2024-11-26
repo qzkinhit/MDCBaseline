@@ -1,42 +1,17 @@
 Attribute,Index,Dirty Value,Cleaned Value,Clean Value
-beer_name,1615,the 12th can�?american pale ale (apa),the crowler??,the 12th can??american pale ale (apa)
-ounces,2181,19.2,19,19.2
-ounces,2179,19.2,19,19.2
-ounces,2186,19.2,19,19.2
-ounces,1883,19.2,19,19.2
-ounces,1167,19.2,19,19.2
-ounces,993,19.2,19,19.2
-ounces,955,19.2,19,19.2
-ounces,1166,19.2,19,19.2
-ounces,2565,19.2,19,19.2
-ounces,2564,19.2,19,19.2
-ounces,2563,19.2,19,19.2
-ounces,2562,19.2,19,19.2
-ounces,2561,19.2,19,19.2
-ounces,1853,19.2,19,19.2
-ounces,1315,19.2,19,19.2
-brewery_name,1509,empty,tröegs brewing company,tr?egs brewing company
-state,1327,cia,ac,ca
-state,1326,kca,ac,ca
-state,1221,a,ac,ca
-state,811,cva,ac,ca
-state,572,a,ac,ca
-state,367,a,ac,ca
-state,2006,empty,pa,mi
-state,2028,a,oh,ga
-state,1960,a,ac,ca
-state,1698,a,ac,ca
-state,1490,a,ac,ca
-state,1489,a,ac,ca
-state,1399,cda,ac,ca
-state,1296,cla,ac,ca
-state,1034,cka,ac,ca
-state,991,yca,ac,ca
-state,750,a,ac,ca
-state,749,a,ac,ca
-state,549,cha,ac,ca
-state,311,l,mi,al
-state,2059,empty,pa,ma
-state,1952,empty,pa,mi
-state,1676,empty,pa,va
-state,1697,empty,pa,ma
+abv,2685,0.125,0.099,0.125
+abv,2574,0.1,0,0.1
+abv,2621,0.12,0.099,0.12
+abv,2565,0.128,0.099,0.128
+abv,2306,0.028,0.065,0.028
+city,2369,st mary's,danville,st mary's
+city,2233,st mary's,export,st mary's
+city,2231,st mary's,export,st mary's
+city,13,zbrooklyn center,vadnais heights,brooklyn center
+state,1301,d,ny,sd
+state,311,l,ny,al
+state,729,n,ny,mn
+state,1495,zca,ac,ca
+state,1759,c,ny,nc
+state,1086,x,ny,tx
+state,1823,t,ny,ut

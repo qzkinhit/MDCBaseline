@@ -13,11 +13,10 @@ beer_name,2309,sunbru kölsch,sunbru k?lsch
 beer_name,178,sunbru kölsch,sunbru k?lsch
 beer_name,1034,cabrillo kölsch,cabrillo k?lsch
 beer_name,2142,screamin�?pumpkin,screamin??pumpkin
-beer_name,1615,the 12th can�?american pale ale (apa),the 12th can??american pale ale (apa)
 beer_name,195,lancaster german style kölsch,lancaster german style k?lsch
 beer_name,1081,occidental kölsch,occidental k?lsch
+beer_name,1796,the crowler�?,the crowler??
 beer_name,1087,side kick kölsch,side kick k?lsch
-beer_name,1760,greybeard�?ipa,greybeard??ipa
 beer_name,92,colorado kölsch,colorado k?lsch
 beer_name,105,köld lager (2010),k?ld lager (2010)
 beer_name,936,loafin bräu,loafin br?u
@@ -180,18 +179,11 @@ brewery_name,1826,utah brewers cooperaitve,utah brewers cooperative
 brewery_name,2573,white birch brezwing,white birch brewing
 brewery_name,2417,woodstock inn station & brewery,"woodstock inn, station & brewery"
 brewery_name,2306,woodstock inn station & brewery,"woodstock inn, station & brewery"
-city,802,empty,san francisco
-city,432,empty,san francisco
-city,77,empty,boonville
-city,2509,empty,boone
 city,1806,viginia beach,virginia beach
-city,886,empty,lincoln
-city,1545,empty,afton
-city,2596,empty,kansas city
+city,1360,egle,eagle
 city,2481,gran drapids,grand rapids
 city,2476,grandrapids,grand rapids
 city,2467,rand rapids,grand rapids
-city,2466,empty,grand rapids
 city,2465,grand rpids,grand rapids
 city,2433,grand rpaids,grand rapids
 city,2418,grand rapisd,grand rapids
@@ -203,7 +195,10 @@ city,2241,grandt rapids,grand rapids
 city,2240,greand rapids,grand rapids
 city,2137,grand apids,grand rapids
 city,2101,grnd rapids,grand rapids
+city,2092,gradn rapids,grand rapids
+city,2091,grad rapids,grand rapids
 city,2086,grand rapdis,grand rapids
+city,2023,gran rapids,grand rapids
 city,2006,grand apids,grand rapids
 city,1997,grandr apids,grand rapids
 city,1977,grand rapvids,grand rapids
@@ -222,64 +217,43 @@ city,1267,grand rampids,grand rapids
 city,1266,grand mrapids,grand rapids
 city,1178,gramnd rapids,grand rapids
 city,1136,grand rapizds,grand rapids
+city,1044,grcand rapids,grand rapids
 city,1033,grnd rapids,grand rapids
 city,1031,grantd rapids,grand rapids
 city,909,grand rbapids,grand rapids
-city,627,empty,grand rapids
-city,2552,empty,lyons
-city,169,empty,oklahoma city
-city,2079,empty,chatham
-city,657,empty,nantucket
-city,2015,empty,bloomington
-city,1201,empty,lexington
-city,1451,empty,boulder
-city,1664,empty,chicago
-city,351,empty,chicago
+city,873,grnad rapids,grand rapids
+city,1247,ashlnad,ashland
+city,659,greelery,greeley
+city,1159,tcalkeetna,talkeetna
+city,1943,denvre,denver
+city,941,chciago,chicago
 city,1657,south bnd,south bend
 city,858,eattle,seattle
 city,649,uarora,aurora
 city,436,aubrora,aurora
-city,1574,empty,davenport
 city,864,davenoprt,davenport
+city,498,springfiedl,springfield
+city,2393,protland,portland
 city,2376,ipswcih,ipswich
-city,760,empty,missoula
 city,60,houghotn,houghton
 city,573,brdigewater corners,bridgewater corners
-city,2584,empty,east fairfield
-city,1986,empty,somerset center
-city,2281,empty,monroe
-city,408,empty,kinston
+city,1124,cincinnait,cincinnati
 city,326,lake havasuj city,lake havasu city
 city,862,ustang,mustang
-city,484,empty,new orleans
-city,1854,empty,northamtpon
 city,1752,longmonet,longmont
 city,1636,monumetn,monument
-city,479,empty,bucryus
+city,1457,carlcsbad,carlsbad
 city,64,presott,prescott
 city,1091,blnco,blanco
-city,1392,empty,boulder
-city,1323,empty,saint louis
 city,1078,saint lousi,saint louis
-city,1632,empty,chicago
+city,855,glenale,glendale
 city,2369,t mary''s,st mary's
 city,2233,st maary''s,st mary's
 city,2164,indianvapolis,indianapolis
-city,1242,empty,gainesville
-city,412,empty,manhattan
-city,1197,empty,sheridan
-city,1562,empty,torrance
-city,950,empty,evansville
-city,2212,empty,dripping springs
-city,560,empty,seattle
-city,1723,empty,salt lake city
-city,1853,empty,boulder
+city,1659,settle,seattle
 city,2411,yarldey,yardley
 city,1769,eadville,meadville
-city,1838,empty,portland
 city,162,lak barrington,lake barrington
-city,1195,empty,nellysford
-city,1470,empty,memphis
 state,976,a,ca
 state,353,empty,ca
 state,1350,a,ca
