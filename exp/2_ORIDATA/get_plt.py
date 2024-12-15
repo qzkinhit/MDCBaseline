@@ -164,4 +164,4 @@ if __name__ == "__main__":
     plt = actual_performance_comparison_with_bars(data_sets, system_names, performance_metrics)
     # 使用 savefig() 将图表保存为 SVG 格式
     plt.savefig("demoplt.png", format="png")
-    plt.savefig("result1107.eps", format="eps")
+    plt.savefig("baseline_comparison.eps", format="eps")

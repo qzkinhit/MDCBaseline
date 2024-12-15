@@ -4,49 +4,74 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 from matplotlib.ticker import FuncFormatter, MaxNLocator
-
-
-
 def injected_error_rates(error_injection_rates, datasets, cell_error_rates, entry_error_rates):
     """
-    绘制两张图：一张表示不同数据集在多种错误独立注入率下的单元格错误率，另一张表示数据条目错误率。
+    绘制一张图：不同数据集在多种错误独立注入率下的单元格错误率和条目错误率。
+    单元格错误率使用虚线，条目错误率使用实线，图例仅区分不同数据集，并显示在图的右边。
 
     :param error_injection_rates: 注入率列表（X轴）
     :param datasets: 数据集名称列表
     :param cell_error_rates: 各数据集在不同注入率下的单元格错误率（二维列表）
     :param entry_error_rates: 各数据集在不同注入率下的数据条目错误率（二维列表）
     """
-    fig, axes = plt.subplots(1, 2, figsize=(16, 10))
+    fig, ax1 = plt.subplots(figsize=(10, 10))
     markers = ['o', 's', 'D', '^', 'v', 'P', '*']  # 点形状
     colors = plt.cm.viridis(np.linspace(0, 1, len(datasets)))  # 各数据集的颜色
 
-    # 第一张图：单元格错误率（不同比例尺）
-    ax1 = axes[0]
+    # 设置通用字体大小和线宽
+    marker_size = 12
+    line_width = 3
+    label_fontsize = 20
+    legend_fontsize = 18
+
+    # 绘制单元格错误率（虚线）
     for i, dataset in enumerate(datasets):
-        ax1.plot(error_injection_rates, cell_error_rates[i], marker=markers[i % len(markers)],
-                 color=colors[i], label=dataset, linestyle='-', markersize=6)
-    ax1.set_title("Cell Error Rate by Injection Rate")
-    ax1.set_xlabel("Error Injection Rate (%)")
-    ax1.set_ylabel("Cell Error Rate (%)")
-    ax1.set_ylim(0, max(max(rate) for rate in cell_error_rates) * 1.1)  # 自适应比例尺
+        ax1.plot(error_injection_rates, cell_error_rates[i],
+                 marker=markers[i % len(markers)],
+                 color=colors[i],
+                 linestyle='--',
+                 linewidth=line_width,
+                 markersize=marker_size,
+                 label=dataset)
+
+    # 绘制条目错误率（实线）
+    for i, dataset in enumerate(datasets):
+        ax1.plot(error_injection_rates, entry_error_rates[i],
+                 marker=markers[i % len(markers)],
+                 color=colors[i],
+                 linestyle='-',
+                 linewidth=line_width,
+                 markersize=marker_size)
+
+    # 设置轴标签、标题等
+    ax1.set_xlabel("Error Injection Rate (%)", fontsize=label_fontsize)
+    ax1.set_ylabel("Error Rate (%)", fontsize=label_fontsize)
+    ax1.tick_params(axis='y', labelsize=16)
+    ax1.tick_params(axis='x', labelsize=16)
     ax1.grid(axis='y', linestyle='--', alpha=0.7)
 
-    # 第二张图：条目错误率
-    ax2 = axes[1]
-    for i, dataset in enumerate(datasets):
-        ax2.plot(error_injection_rates, entry_error_rates[i], marker=markers[i % len(markers)],
-                 color=colors[i], label=dataset, linestyle='-', markersize=6)
-    ax2.set_title("Entry Error Rate by Injection Rate")
-    ax2.set_xlabel("Error Injection Rate (%)")
-    ax2.set_ylabel("Entry Error Rate (%)")
-    ax2.set_ylim(0, 60)
-    ax2.grid(axis='y', linestyle='--', alpha=0.7)
-    # 添加统一图例
+    # 统一比例尺
+    max_rate = max(max(max(cell_error_rates)), max(max(entry_error_rates)))
+    ax1.set_ylim(0, max_rate * 1.1)
+    line_cell = plt.Line2D([0], [0], color='black', linestyle='--', linewidth=3, label='Cell Error Rate (Dashed)')
+    line_entry = plt.Line2D([0], [0], color='black', linestyle='-', linewidth=3, label='Entry Error Rate (Solid)')
     handles, labels = ax1.get_legend_handles_labels()
-    fig.legend(handles, labels, loc="upper center", ncol=len(datasets),fontsize=15 ) # 调整字体大小)
+    handles.extend([line_cell, line_entry])
+    ax1.legend(handles, datasets + ['Cell Error%', 'Entry Error%'],
+               loc="center left", bbox_to_anchor=(1, 0.5), fontsize=legend_fontsize, frameon=True)
 
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
+    # # 简化图例，只显示不同数据集，并放置在图的右边
+    # handles, labels = ax1.get_legend_handles_labels()
+    #
+    # ax1.legend(handles, datasets, loc="center left", bbox_to_anchor=(1, 0.5), fontsize=legend_fontsize, frameon=True)
+
+    # plt.title("Cell and Entry Error Rates by Injection Rate", fontsize=label_fontsize)
+    plt.tight_layout()
+    plt.savefig("injected_error_rates.eps", format='eps', bbox_inches='tight')
     plt.show()
+
+
+# 调用函数生成图表
 
 if __name__ == "__main__":
     # 示例数据
