@@ -70,7 +70,7 @@ class Querier(object):
         not_cp_idx = [i for i, cp in enumerate(q1_results) if not cp]
 
         q2_cp = []
-        for i in cp_idx:
+        for i in cp_idx: # 根据q1结果，如只有一个预测结果，等同于q2的CPed的结果
             assert len(cp_preds[i]) == 1
             pred = cp_preds[i][0]
             res = {c: 0 for c in self.classes}

@@ -89,7 +89,7 @@ def group_by_classes(S, y):
         n_must_alpha_c:{0:0,1:0}
         n_must_beta_c:{0:N_c[0],1:N_c[1]}
     """
-    classes = [0, 1] # 只支持两个类
+    classes = [0, 1] # 只支持两个类别
 
     # map old row number to new row number in each group
     new_rid = {}

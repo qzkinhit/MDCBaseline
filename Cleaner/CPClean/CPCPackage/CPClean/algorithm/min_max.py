@@ -16,11 +16,11 @@ def min_max(mm, y, K):
             cc (list of boolean):whether CPed or not
 
     """
-    assert len(set(y)) == 2 # 开始判定了标签数只能为2，需要改动才能支持多标签
+    assert len(set(y)) == 2 # 开始判定了类别数只能为2，需要改动才能支持更多类别
     pred_set = set()
     best_scenarios = {}
 
-    for c in [0, 1]: # 只支持两个标签
+    for c in [0, 1]: # 只支持两个类别
         best_scenario = np.zeros(len(y))
         mask = (y == c)
 
