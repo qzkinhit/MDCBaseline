@@ -56,24 +56,25 @@ def plot_radial_chart(datasets, metrics, scales, data_with_preparation, data_wit
     ax.set_thetagrids(np.degrees(angles[:-1]), labels, fontsize=15)
 
     # 颜色图例（表示数据集）
-    color_handles = [plt.Line2D([0], [0], color=color, lw=2, label=dataset) for color, dataset in zip(colors, datasets)]
-    legend1 = fig.legend(handles=color_handles, loc='upper left', bbox_to_anchor=(0.05, 0.98), title="Dataset",fontsize=15)
+    # color_handles = [plt.Line2D([0], [0], color=color, lw=2, label=dataset) for color, dataset in zip(colors, datasets)]
+    # legend1 = fig.legend(handles=color_handles, loc='upper left', bbox_to_anchor=(0.05, 0.98), title="Dataset", fontsize=15)
 
     # 线型图例（表示是否使用清洗准备策略）
     line_handles = [
-        plt.Line2D([0], [0], color='black', lw=2, linestyle='solid', label='With Preparation'),
-        plt.Line2D([0], [0], color='black', lw=2, linestyle='dashed', label='Without Preparation'),
+        plt.Line2D([0], [0], color='black', lw=2, linestyle='solid', label='With UniClean'),
+        plt.Line2D([0], [0], color='black', lw=2, linestyle='dashed', label='Without UniClean'),
     ]
-    legend2 = fig.legend(handles=line_handles, loc='upper right', bbox_to_anchor=(1, 0.98), fontsize=15)
+    legend2 = fig.legend(handles=line_handles, loc='upper right', bbox_to_anchor=(1, 0.98), fontsize=20)
 
     # 将图例附加到绘图对象中，防止覆盖
-    ax.add_artist(legend1)
+    # ax.add_artist(legend1)
     ax.add_artist(legend2)
 
-    # # 添加标题
+    # 添加标题
     # ax.set_title(title, fontsize=16, pad=20)
 
     # 显示图形
+    plt.savefig("performance_comparison_no_preprocessing.pdf", format="pdf")  # 使用PDF格式
     plt.show()
 
 
