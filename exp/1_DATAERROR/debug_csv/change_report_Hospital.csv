@@ -1,0 +1,510 @@
+index,attribute,dirty_value,clean_value
+14,ProviderNumber,1xx19,10019
+46,ProviderNumber,x0005,10005
+82,ProviderNumber,1000x,10006
+214,ProviderNumber,x00xx,10011
+245,ProviderNumber,x00x5,10015
+254,ProviderNumber,1xx15,10015
+274,ProviderNumber,1xx16,10016
+315,ProviderNumber,100x8,10038
+361,ProviderNumber,100x6,10086
+409,ProviderNumber,x0x08,10108
+560,ProviderNumber,1xx24,10024
+609,ProviderNumber,x0027,10027
+628,ProviderNumber,x0029,10029
+640,ProviderNumber,1xx29,10029
+646,ProviderNumber,1xx32,10032
+656,ProviderNumber,1xx32,10032
+705,ProviderNumber,100x4,10034
+722,ProviderNumber,100x5,10035
+725,ProviderNumber,1xx35,10035
+756,ProviderNumber,1xx36,10036
+781,ProviderNumber,1003x,10039
+790,ProviderNumber,1xx39,10039
+794,ProviderNumber,100x9,10039
+860,ProviderNumber,1xx44,10044
+879,ProviderNumber,1xx45,10045
+889,ProviderNumber,x0045,10045
+934,ProviderNumber,1xx47,10047
+956,ProviderNumber,1004x,10049
+27,HospitalName,southeast alabama medxcal center,southeast alabama medical center
+132,HospitalName,crenshaw cxmmunity hxspital,crenshaw community hospital
+172,HospitalName,marshall medical cenxer norxh,marshall medical center north
+244,HospitalName,dexalb regional medical center,dekalb regional medical center
+338,HospitalName,floxers hospital,flowers hospital
+385,HospitalName,univ ox south alabama medical center,univ of south alabama medical center
+386,HospitalName,xniv of soxth alabama medical center,univ of south alabama medical center
+449,HospitalName,xlxskx regionxl hospitxl,alaska regional hospital
+533,HospitalName,baptist medical cexter south,baptist medical center south
+561,HospitalName,jaxkson hospital & xlinix inx,jackson hospital & clinic inc
+655,HospitalName,wedowee hosxital,wedowee hospital
+698,HospitalName,communitx hospital inc,community hospital inc
+711,HospitalName,communixy hospixal inc,community hospital inc
+731,HospitalName,cullmxn regionxl medicxl center,cullman regional medical center
+759,HospitalName,andaxusia regionax hospitax,andalusia regional hospital
+766,HospitalName,andaluxia regional hoxpital,andalusia regional hospital
+778,HospitalName,huntsvxlle hospxtal,huntsville hospital
+904,HospitalName,rivxrvixw rxgional mxdical cxntxr,riverview regional medical center
+922,HospitalName,xivexview xegional medical centex,riverview regional medical center
+923,HospitalName,riverview rexional medical center,riverview regional medical center
+939,HospitalName,georgiaxa hospital,georgiana hospital
+957,HospitalName,medixal xenter enterprise,medical center enterprise
+963,HospitalName,medxcal center enterprxse,medical center enterprise
+988,HospitalName,st vincents bxount,st vincents blount
+58,Address1,2505xuxsxhighwayx431xnorth,2505 u s highway 431 north
+95,Address1,702xnxmainxst,702 n main st
+107,Address1,702 x maix st,702 n main st
+162,Address1,201 pine sxreex norxhwesx,201 pine street northwest
+176,Address1,8000 alabama xigxway 69,8000 alabama highway 69
+261,Address1,33700 hxghway 43,33700 highway 43
+265,Address1,33700 highway x3,33700 highway 43
+276,Address1,1000 fixst stxeet noxth,1000 first street north
+296,Address1,1720 univxrsity blvd,1720 university blvd
+317,Address1,301xeastx18thxst,301 east 18th st
+335,Address1,4370xwestxmainxstreet,4370 west main street
+351,Address1,810 st vxncents drxve,810 st vincents drive
+364,Address1,1530xuxsxhighwayx43,1530 u s highway 43
+394,Address1,124xsxmemorialxdr,124 s memorial dr
+412,Address1,124 s mxmorial dr,124 s memorial dr
+416,Address1,315 w hickxry st,315 w hickory st
+432,Address1,315xwxhickoryxst,315 w hickory st
+452,Address1,poxboxx287,po box 287
+473,Address1,126xhospitalxave,126 hospital ave
+485,Address1,1x6 hospital ave,126 hospital ave
+653,Address1,209 xorth maix street,209 north main street
+737,Address1,1912xalabamaxhighwayx157,1912 alabama highway 157
+768,Address1,301 east 1xth st,301 east 18th st
+850,Address1,x0x0 lay dam road,1010 lay dam road
+858,Address1,1256 military street sxuth,1256 military street south
+916,Address1,600 souxh xhird sxreex,600 south third street
+935,Address1,515 miranda sx,515 miranda st
+936,Address1,515 miranxa st,515 miranda st
+946,Address1,515 mirxndx st,515 miranda st
+957,Address1,400xnxedwardsxstreet,400 n edwards street
+987,Address1,150 gilxreath drive,150 gilbreath drive
+4,City,birminghxm,birmingham
+8,City,birmingxam,birmingham
+11,City,sheffxeld,sheffield
+57,City,boxz,boaz
+80,City,fxorence,florence
+89,City,florxncx,florence
+94,City,flxrence,florence
+181,City,guntxrsvillx,guntersville
+208,City,birmixgham,birmingham
+213,City,bxrmxngham,birmingham
+229,City,fort payxe,fort payne
+312,City,axxistox,anniston
+368,City,winfielx,winfield
+438,City,anchoraxe,anchorage
+475,City,ozarx,ozark
+486,City,xzark,ozark
+518,City,montxomery,montgomery
+579,City,vallex,valley
+591,City,vxlley,valley
+602,City,exba,elba
+655,City,wxdowxx,wedowee
+691,City,birminxham,birmingham
+697,City,tallaxxee,tallassee
+737,City,cuxxman,cullman
+757,City,andaluxia,andalusia
+773,City,annxston,anniston
+822,City,gxdsden,gadsden
+856,City,hamilxon,hamilton
+896,City,faxette,fayette
+950,City,geoxgiana,georgiana
+961,City,enterprxse,enterprise
+969,City,xntxrprisx,enterprise
+986,City,onxonta,oneonta
+43,State,xl,al
+47,State,xl,al
+51,State,xl,al
+84,State,xl,al
+99,State,xl,al
+120,State,ax,al
+141,State,ax,al
+166,State,ax,al
+183,State,xl,al
+229,State,ax,al
+279,State,xl,al
+357,State,ax,al
+387,State,xl,al
+403,State,ax,al
+478,State,xl,al
+484,State,xl,al
+505,State,ax,al
+560,State,xl,al
+573,State,ax,al
+593,State,ax,al
+702,State,xl,al
+765,State,xl,al
+792,State,xl,al
+885,State,xl,al
+887,State,xl,al
+923,State,ax,al
+45,ZipCode,x5957,35957
+64,ZipCode,3595x,35957
+71,ZipCode,3563x,35631
+94,ZipCode,3563x,35631
+138,ZipCode,36x49,36049
+140,ZipCode,360x9,36049
+150,ZipCode,3x640,35640
+158,ZipCode,3x640,35640
+197,ZipCode,3x23x,35235
+233,ZipCode,359x8,35968
+268,ZipCode,x6784,36784
+284,ZipCode,3x007,35007
+291,ZipCode,x5007,35007
+326,ZipCode,36x01,36201
+333,ZipCode,3x305,36305
+341,ZipCode,x6x05,36305
+367,ZipCode,3xx94,35594
+376,ZipCode,3xx94,35594
+407,ZipCode,3x0x7,36067
+421,ZipCode,x5150,35150
+429,ZipCode,3x1x0,35150
+491,ZipCode,x6x60,36360
+500,ZipCode,x5960,35960
+545,ZipCode,3x10x,36106
+680,ZipCode,3x233,35233
+686,ZipCode,x52xx,35233
+711,ZipCode,36x78,36078
+751,ZipCode,3642x,36420
+816,ZipCode,x590x,35903
+924,ZipCode,3590x,35901
+68,CountyName,mxrshxll,marshall
+73,CountyName,laudxrdalx,lauderdale
+78,CountyName,laudexdale,lauderdale
+137,CountyName,crxnshaw,crenshaw
+217,CountyName,jeffersxn,jefferson
+222,CountyName,dx kalb,de kalb
+224,CountyName,xe kalb,de kalb
+228,CountyName,dx kalb,de kalb
+239,CountyName,xe kalb,de kalb
+253,CountyName,xlarke,clarke
+313,CountyName,calhoxn,calhoun
+325,CountyName,caxhoun,calhoun
+347,CountyName,housxon,houston
+416,CountyName,tallaxega,talladega
+457,CountyName,jxffxrson,jefferson
+458,CountyName,xefferson,jefferson
+466,CountyName,jexxerson,jefferson
+503,CountyName,chxrokxx,cherokee
+514,CountyName,chxrokxx,cherokee
+528,CountyName,monxgomery,montgomery
+541,CountyName,montgomexy,montgomery
+552,CountyName,monxgomery,montgomery
+579,CountyName,xhambers,chambers
+591,CountyName,chaxbers,chambers
+603,CountyName,coffxx,coffee
+634,CountyName,xee,lee
+673,CountyName,jxffxrson,jefferson
+690,CountyName,jexxerson,jefferson
+693,CountyName,elmoxe,elmore
+699,CountyName,elxore,elmore
+723,CountyName,cxllman,cullman
+731,CountyName,cxllman,cullman
+753,CountyName,coxington,covington
+786,CountyName,madisxn,madison
+799,CountyName,madisox,madison
+896,CountyName,fayexxe,fayette
+918,CountyName,etowxh,etowah
+944,CountyName,butxer,butler
+967,CountyName,cxffee,coffee
+25,PhoneNumber,334793870x,3347938701
+37,PhoneNumber,xx479x8701,3347938701
+58,PhoneNumber,2x6x938310,2565938310
+61,PhoneNumber,2x6x938310,2565938310
+66,PhoneNumber,2565x38310,2565938310
+102,PhoneNumber,3344x33541,3344933541
+218,PhoneNumber,2058x8x122,2058383122
+229,PhoneNumber,2568453x50,2568453150
+248,PhoneNumber,xx46x66221,3346366221
+262,PhoneNumber,334x3xx221,3346366221
+322,PhoneNumber,256235x900,2562358900
+343,PhoneNumber,xx479x5000,3347935000
+382,PhoneNumber,25x47x7xx0,2514717110
+385,PhoneNumber,25x47x7xx0,2514717110
+387,PhoneNumber,25x47x7xx0,2514717110
+394,PhoneNumber,33x361x267,3343614267
+472,PhoneNumber,334774x601,3347742601
+517,PhoneNumber,3342xx2100,3342882100
+549,PhoneNumber,3342938xxx,3342938000
+562,PhoneNumber,33x2938000,3342938000
+563,PhoneNumber,3342938xxx,3342938000
+573,PhoneNumber,334x561400,3347561400
+594,PhoneNumber,33x8972257,3348972257
+667,PhoneNumber,20593xx011,2059344011
+700,PhoneNumber,334x836541,3342836541
+714,PhoneNumber,33x28365x1,3342836541
+752,PhoneNumber,334xxx8466,3342228466
+764,PhoneNumber,33422284xx,3342228466
+825,PhoneNumber,2564944xxx,2564944000
+856,PhoneNumber,x059x16x00,2059216200
+866,PhoneNumber,20x9216200,2059216200
+882,PhoneNumber,x0593x5966,2059325966
+884,PhoneNumber,x0593x5966,2059325966
+917,PhoneNumber,x565435x00,2565435200
+17,HospitalType,acuxe care hospixals,acute care hospitals
+40,HospitalType,acxte care hospitals,acute care hospitals
+99,HospitalType,acute care hosxitals,acute care hospitals
+200,HospitalType,acute care hosxitals,acute care hospitals
+214,HospitalType,acutx carx hospitals,acute care hospitals
+267,HospitalType,acuxe care hospixals,acute care hospitals
+281,HospitalType,acutexcarexhospitals,acute care hospitals
+294,HospitalType,acuxe care hospixals,acute care hospitals
+412,HospitalType,acute care hosxitals,acute care hospitals
+414,HospitalType,acuxe care hospixals,acute care hospitals
+454,HospitalType,acute care hospitaxs,acute care hospitals
+491,HospitalType,acute caxe hospitals,acute care hospitals
+494,HospitalType,acute care hxspitals,acute care hospitals
+498,HospitalType,acutx carx hospitals,acute care hospitals
+512,HospitalType,acuxe care hospixals,acute care hospitals
+533,HospitalType,acute care hosxitals,acute care hospitals
+589,HospitalType,acuxe care hospixals,acute care hospitals
+635,HospitalType,acuxe care hospixals,acute care hospitals
+696,HospitalType,acute cxre hospitxls,acute care hospitals
+706,HospitalType,acutexcarexhospitals,acute care hospitals
+730,HospitalType,acutexcarexhospitals,acute care hospitals
+780,HospitalType,acutexcarexhospitals,acute care hospitals
+783,HospitalType,acute care hospitaxs,acute care hospitals
+815,HospitalType,axute care hospitals,acute care hospitals
+849,HospitalType,acute caxe hospitals,acute care hospitals
+878,HospitalType,acute care hoxpitalx,acute care hospitals
+903,HospitalType,acutexcarexhospitals,acute care hospitals
+927,HospitalType,acuxe care hospixals,acute care hospitals
+950,HospitalType,acute care hosxitals,acute care hospitals
+957,HospitalType,acute xare hospitals,acute care hospitals
+965,HospitalType,acutexcarexhospitals,acute care hospitals
+977,HospitalType,acutexcarexhospitals,acute care hospitals
+23,HospitalOwner,government - hospxtal dxstrxct or authorxty,government - hospital district or authority
+28,HospitalOwner,government - hospital xistrict or authority,government - hospital district or authority
+32,HospitalOwner,governmenx - hospixal disxricx or auxhorixy,government - hospital district or authority
+43,HospitalOwner,gxvernment - hxspital district xr authxrity,government - hospital district or authority
+114,HospitalOwner,volunxary non-profix - privaxe,voluntary non-profit - private
+158,HospitalOwner,pxopxietaxy,proprietary
+160,HospitalOwner,proxrietary,proprietary
+163,HospitalOwner,xroprietary,proprietary
+165,HospitalOwner,pxopxietaxy,proprietary
+217,HospitalOwner,volunxary non-profix - privaxe,voluntary non-profit - private
+219,HospitalOwner,voluntary nonxprofit x private,voluntary non-profit - private
+222,HospitalOwner,voluntaryxnon-profitx-xchurch,voluntary non-profit - church
+239,HospitalOwner,voxuntary non-profit - church,voluntary non-profit - church
+248,HospitalOwner,governxent - federal,government - federal
+314,HospitalOwner,prxprietary,proprietary
+333,HospitalOwner,proxrietary,proprietary
+357,HospitalOwner,prxprietary,proprietary
+450,HospitalOwner,proxrietary,proprietary
+457,HospitalOwner,gxvernment - hxspital district xr authxrity,government - hospital district or authority
+494,HospitalOwner,voluntaryxnon-profitx-xprivate,voluntary non-profit - private
+527,HospitalOwner,volxntary non-profit - chxrch,voluntary non-profit - church
+573,HospitalOwner,voluntary non-profit - otxer,voluntary non-profit - other
+745,HospitalOwner,prxprietary,proprietary
+785,HospitalOwner,goverxmext - hospital district or authority,government - hospital district or authority
+847,HospitalOwner,voluntaxy non-pxofit - pxivate,voluntary non-profit - private
+869,HospitalOwner,voluxtary xox-profit - private,voluntary non-profit - private
+873,HospitalOwner,voluntaxy non-pxofit - pxivate,voluntary non-profit - private
+25,EmergencyService,yxs,yes
+44,EmergencyService,yex,yes
+52,EmergencyService,yxs,yes
+158,EmergencyService,yxs,yes
+319,EmergencyService,xes,yes
+328,EmergencyService,yex,yes
+333,EmergencyService,yex,yes
+351,EmergencyService,yxs,yes
+375,EmergencyService,yex,yes
+390,EmergencyService,yxs,yes
+411,EmergencyService,yxs,yes
+419,EmergencyService,xo,no
+493,EmergencyService,yxs,yes
+522,EmergencyService,yxs,yes
+537,EmergencyService,yex,yes
+565,EmergencyService,xes,yes
+580,EmergencyService,xes,yes
+588,EmergencyService,xes,yes
+629,EmergencyService,yex,yes
+654,EmergencyService,xo,no
+675,EmergencyService,yex,yes
+798,EmergencyService,yxs,yes
+810,EmergencyService,xes,yes
+867,EmergencyService,yxs,yes
+890,EmergencyService,yex,yes
+920,EmergencyService,yex,yes
+922,EmergencyService,yxs,yes
+22,Condition,heart attaxk,heart attack
+23,Condition,hearx axxack,heart attack
+74,Condition,hearx axxack,heart attack
+128,Condition,heaxt failuxe,heart failure
+200,Condition,heaxt attack,heart attack
+226,Condition,hexrt attxck,heart attack
+230,Condition,heart faxlure,heart failure
+237,Condition,suxgical infection pxevention,surgical infection prevention
+240,Condition,surgxcal infectxon preventxon,surgical infection prevention
+257,Condition,xneumonia,pneumonia
+280,Condition,xeart failure,heart failure
+367,Condition,pnxumonia,pneumonia
+370,Condition,pnexmonia,pneumonia
+387,Condition,hxart failurx,heart failure
+401,Condition,hxart failurx,heart failure
+468,Condition,hexrt attxck,heart attack
+507,Condition,pneumonix,pneumonia
+556,Condition,pxeumoxia,pneumonia
+600,Condition,heart faixure,heart failure
+609,Condition,surgical ixfectiox prevextiox,surgical infection prevention
+632,Condition,pneumonxa,pneumonia
+680,Condition,xneumonia,pneumonia
+696,Condition,heart attaxk,heart attack
+699,Condition,hexrt fxilure,heart failure
+713,Condition,surgical infection xrevention,surgical infection prevention
+717,Condition,heartxattack,heart attack
+734,Condition,suxgical infection pxevention,surgical infection prevention
+781,Condition,heart attaxk,heart attack
+852,Condition,surgical infxction prxvxntion,surgical infection prevention
+870,Condition,surgical ixfectiox prevextiox,surgical infection prevention
+956,Condition,hexrt attxck,heart attack
+975,Condition,surgical xnfection prevention,surgical infection prevention
+98,MeasureCode,axi-4,ami-4
+102,MeasureCode,hfx1,hf-1
+109,MeasureCode,pnx5c,pn-5c
+121,MeasureCode,axi-2,ami-2
+178,MeasureCode,hf-x,hf-2
+191,MeasureCode,scip-inx-4,scip-inf-4
+265,MeasureCode,scxp-xnf-3,scip-inf-3
+350,MeasureCode,amix2,ami-2
+392,MeasureCode,pn-xb,pn-3b
+399,MeasureCode,hx-1,hf-1
+410,MeasureCode,scipxinfx1,scip-inf-1
+465,MeasureCode,sxip-vte-1,scip-vte-1
+496,MeasureCode,ami-x,ami-5
+581,MeasureCode,px-5c,pn-5c
+640,MeasureCode,scip-vtx-1,scip-vte-1
+649,MeasureCode,hfx1,hf-1
+674,MeasureCode,xf-1,hf-1
+677,MeasureCode,hfx4,hf-4
+692,MeasureCode,amix1,ami-1
+695,MeasureCode,amx-4,ami-4
+719,MeasureCode,amx-3,ami-3
+730,MeasureCode,px-4,pn-4
+736,MeasureCode,scix-inf-2,scip-inf-2
+750,MeasureCode,hx-2,hf-2
+775,MeasureCode,xax-1,cac-1
+789,MeasureCode,pn-x,pn-2
+843,MeasureCode,pnx6,pn-6
+866,MeasureCode,px-4,pn-4
+931,MeasureCode,amix1,ami-1
+1,MeasureName,surgery patients who were taking heart drugs caxxed beta bxockers before coming to the hospitax who were kept on the beta bxockers during the period just before and after their surgery,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery
+95,MeasureName,xeart attack patients given aspirin at arrival,heart attack patients given aspirin at arrival
+112,MeasureName,surgery patiexts who were takixg heart drugs called beta blockers before comixg to the hospital who were kept ox the beta blockers durixg the period just before axd after their surgery,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery
+120,MeasureName,heart attack patients given aspirin at arrivax,heart attack patients given aspirin at arrival
+146,MeasureName,heart attaxk patients given aspirin at disxharge,heart attack patients given aspirin at discharge
+211,MeasureName,pneumoniaxpatientsxassessedxandxgivenxinfluenzaxvaccination,pneumonia patients assessed and given influenza vaccination
+220,MeasureName,heartxattackxpatientsxgivenxaspirinxatxarrival,heart attack patients given aspirin at arrival
+257,MeasureName,pneumonxa patxents whose inxtxal emergency room blood culture was performed prxor to the admxnxstratxon of the fxrst hospxtal dose of antxbxotxcs,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
+282,MeasureName,pnxumonia patixnts whosx initial emxrgxncy room blood culturx was pxrformxd prior to thx administration of thx first hospital dosx of antibiotics,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
+291,MeasureName,all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
+347,MeasureName,surgery pxtients whose doctors ordered trextments to prevent blood clots xfter certxin types of surgeries,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries
+381,MeasureName,heaxt attack patients given aspixin at dischaxge,heart attack patients given aspirin at discharge
+390,MeasureName,heart xailure patients given smoking cessation advice/counseling,heart failure patients given smoking cessation advice/counseling
+435,MeasureName,heart faxlure patxents gxven ace inhxbxtor or arb for left ventrxcular systolxc dysfunctxon (lvsd),heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
+448,MeasureName,surgeryxpatientsxneedingxhairxremovedxfromxthexsurgicalxareaxbeforexsurgery& xwhoxhadxhairxremovedxusingxaxsaferxmethodx(electricxclippersxorxhairxremovalxcreamxï¿½cxnotxaxrazor),surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)
+474,MeasureName,heaxt failuxe patients given dischaxge instxuctions,heart failure patients given discharge instructions
+494,MeasureName,hxart attack patixnts givxn ace inhibitor or arb for lxft vxntricular systolic dysfunction (lvsd),heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
+508,MeasureName,pneumonix pxtients assessed xnd given influenzx vxccinxtion,pneumonia patients assessed and given influenza vaccination
+533,MeasureName,pxeumoxia patiexts assessed axd givex ixfluexza vaccixatiox,pneumonia patients assessed and given influenza vaccination
+542,MeasureName,hexrt attxck pxtients given aspirin xt arrivxl,heart attack patients given aspirin at arrival
+546,MeasureName,heaxt attack patients given beta blockex at dischaxge,heart attack patients given beta blocker at discharge
+563,MeasureName,allxheartxsurgeryxpatientsxwhosexbloodxsugarx(bloodxglucose)xisxkeptxunderxgoodxcontrolxinxthexdaysxrightxafterxsurgery,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
+613,MeasureName,all heaxt suxgexy patients whose blood sugax (blood glucose) is kept undex good contxol in the days xight aftex suxgexy,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
+651,MeasureName,heart failure patients given ace inhibitor or arb for left xentricular systolic dysfunction (lxsd),heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
+652,MeasureName,heart faxlure patxents gxven smokxng cessatxon advxce/counselxng,heart failure patients given smoking cessation advice/counseling
+673,MeasureName,heartxattackxpatientsxgivenxpcixwithinx90xminutesxofxarrival,heart attack patients given pci within 90 minutes of arrival
+706,MeasureName,pxeumoxia patiexts givex ixitial axtibiotic(s) withix 6 hours after arrival,pneumonia patients given initial antibiotic(s) within 6 hours after arrival
+707,MeasureName,pxeumoxia patiexts givex the most appropriate ixitial axtibiotic(s),pneumonia patients given the most appropriate initial antibiotic(s)
+714,MeasureName,surgery paxienxs needing hair removed from xhe surgical area before surgery who had hair removed using a safer mexhod (elecxric clippers or hair removal cream c nox a razor),surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)
+786,MeasureName,heaxt failuxe patients given an evaluation of left ventxiculax systolic (lvs) function,heart failure patients given an evaluation of left ventricular systolic (lvs) function
+803,MeasureName,heart attack patxents gxven aspxrxn at arrxval,heart attack patients given aspirin at arrival
+817,MeasureName,pneumonix pxtients given initixl antibiotic(s) within 6 hours after arrivxl,pneumonia patients given initial antibiotic(s) within 6 hours after arrival
+894,MeasureName,pneumonia patients assessed and given influenza vaxxination,pneumonia patients assessed and given influenza vaccination
+903,MeasureName,childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma,children who received reliever medication while hospitalized for asthma
+916,MeasureName,hearx failure paxienxs given smoking cessaxion advice/counseling,heart failure patients given smoking cessation advice/counseling
+998,MeasureName,surgery pxtients who were txking hexrt drugs cxlled betx blockers before coming to the hospitxl who were kept on the betx blockers during the period just before xnd xfter their surgery,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery
+121,Score,x00%,100%
+159,Score,9x%,98%
+164,Score,x7%,57%
+188,Score,95x,95%
+209,Score,x5%,95%
+238,Score,9x%,97%
+239,Score,xx%,99%
+253,Score,89x,89%
+257,Score,x6%,96%
+337,Score,x00%,100%
+379,Score,x5%,95%
+406,Score,x4%,94%
+412,Score,1xx%,100%
+427,Score,x7%,97%
+489,Score,1xx%,100%
+507,Score,93x,93%
+515,Score,1xx%,100%
+699,Score,xx%,88%
+712,Score,1xx%,100%
+719,Score,x7%,67%
+770,Score,x3%,93%
+861,Score,80x,80%
+889,Score,x5%,85%
+18,Sample,3x patients,37 patients
+92,Sample,619 paxienxs,619 patients
+116,Sample,0 patixnts,0 patients
+134,Sample,21 pxtients,21 patients
+167,Sample,xx patients,11 patients
+171,Sample,6xpatients,6 patients
+225,Sample,1 patiexts,1 patients
+235,Sample,82 patientx,82 patients
+317,Sample,29 xatients,29 patients
+355,Sample,1x patients,10 patients
+414,Sample,125 patixnts,125 patients
+419,Sample,4 xatients,4 patients
+445,Sample,521 patiexts,521 patients
+463,Sample,x patients,0 patients
+483,Sample,62 patientx,62 patients
+497,Sample,0 patxents,0 patients
+503,Sample,44 paxienxs,44 patients
+524,Sample,25x patients,257 patients
+533,Sample,87 patientx,87 patients
+547,Sample,x patients,0 patients
+555,Sample,74 patxents,74 patients
+581,Sample,50 pxtients,50 patients
+589,Sample,172 patxents,172 patients
+669,Sample,87 paxienxs,87 patients
+674,Sample,618 xatients,618 patients
+777,Sample,193 paxienxs,193 patients
+846,Sample,4 patiexts,4 patients
+867,Sample,121 patiexts,121 patients
+873,Sample,15 patiexts,15 patients
+906,Sample,126 patxents,126 patients
+973,Sample,27 paxienxs,27 patients
+57,Stateavg,al_pn-xb,al_pn-3b
+70,Stateavg,al_amx-1,al_ami-1
+194,Stateavg,al_scix-vte-2,al_scip-vte-2
+214,Stateavg,al_sxip-inf-2,al_scip-inf-2
+245,Stateavg,ax_ami-1,al_ami-1
+249,Stateavg,xl_xmi-5,al_ami-5
+270,Stateavg,al_axi-1,al_ami-1
+335,Stateavg,al_pnx2,al_pn-2
+348,Stateavg,al_scipxvtex2,al_scip-vte-2
+371,Stateavg,alxpn-7,al_pn-7
+374,Stateavg,al_sxip-inf-2,al_scip-inf-2
+388,Stateavg,al_hx-2,al_hf-2
+478,Stateavg,ax_pn-2,al_pn-2
+556,Stateavg,al_pn-5x,al_pn-5c
+565,Stateavg,al_scipxvtex1,al_scip-vte-1
+568,Stateavg,xl_xmi-2,al_ami-2
+623,Stateavg,al_amix8a,al_ami-8a
+647,Stateavg,alxami-7a,al_ami-7a
+679,Stateavg,alxpn-3b,al_pn-3b
+722,Stateavg,al_amx-7a,al_ami-7a
+761,Stateavg,al_scipxinfx2,al_scip-inf-2
+765,Stateavg,al_scix-vte-1,al_scip-vte-1
+788,Stateavg,al_hf-x,al_hf-4
+797,Stateavg,xl_scip-inf-2,al_scip-inf-2
+828,Stateavg,xl_xmi-1,al_ami-1
+843,Stateavg,al_pnx6,al_pn-6
+921,Stateavg,alxpn-6,al_pn-6

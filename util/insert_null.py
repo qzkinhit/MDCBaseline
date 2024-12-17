@@ -3,7 +3,7 @@ import pandas as pd
 import random
 
 
-def inject_missing_values(csv_file, output_file, attributes_error_ratio, missing_value_in_ori_data='empty',missing_value_representation='empty'):
+def inject_missing_values(csv_file, output_file, attributes_error_ratio=None, missing_value_in_ori_data='empty',missing_value_representation='empty'):
     """
     注入空值的错误注入方法，并在注入之前将已有的空值统一替换为指定的表达方式。
 
@@ -32,6 +32,7 @@ def inject_missing_values(csv_file, output_file, attributes_error_ratio, missing
     df = df.fillna(missing_value_representation)
     df.replace('', missing_value_representation, inplace=True)
     df.replace('nan', missing_value_representation, inplace=True)
+    df.replace('_nan_', missing_value_representation, inplace=True)
     df.replace('null', missing_value_representation, inplace=True)
     df.replace('__NULL__', missing_value_representation, inplace=True)
     df.replace(missing_value_in_ori_data, missing_value_representation, inplace=True)
@@ -80,8 +81,8 @@ if __name__ == "__main__":
     # )
     # 如果干净数据存在空值，记得替换clean数据中的空值，统一转换为empty
     inject_missing_values(
-        csv_file='../Data/5_tax/dirty_index_10k.csv',
-        output_file='../Data/5_tax/dirty_index_10k.csv',
+        csv_file='../Data/3_beers/clean_index.csv',
+        output_file='../Data/3_beers/clean_index.csv',
         attributes_error_ratio=None,
         missing_value_in_ori_data='NaN',
         missing_value_representation='empty'

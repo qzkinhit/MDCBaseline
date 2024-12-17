@@ -9,7 +9,7 @@ Context](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=c4221a89
 
 ## 运行命令1:
 ```bash
-python CleanerRunScript/run_holistic/run_holistic_base.py --task_name task_name1 --rule_path Data/1_hospital/dc_rules_dc_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/1_hospital/dirty_index.csv --clean_path Data/1_hospital/clean_index.csv --output_path results/hospital/
+python CleanerRunScript/run_holistic/run_holistic_base.py --task_name task_name1 --rule_path Data/1_hospitals/dc_rules_dc_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/1_hospitals/dirty_index.csv --clean_path Data/1_hospitals/clean_index.csv --output_path results/hospital/
 ```
 
 ### 命令行参数说明：
@@ -37,7 +37,7 @@ python CleanerRunScript/run_holistic/run_holistic_base.py --task_name task_name1
 
 ### 运行示例：
 ```bash
-python3 CleanerRunScript/run_holistic/run_holistic_base.py --task_name hospital_dirty1 --rule_path Data/1_hospital/dc_rules_dc_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/1_hospital/dirty_index.csv --clean_path Data/1_hospital/clean_index.csv --output_path results/holistic
+python3 CleanerRunScript/run_holistic/run_holistic_base.py --task_name hospital_dirty1 --rule_path Data/1_hospitals/dc_rules_dc_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/1_hospitals/dirty_index.csv --clean_path Data/1_hospitals/clean_index.csv --output_path results/holistic
 ```
 ```bash
 python CleanerRunScript/run_holistic/run_holistic_base.py --task_name flights_dirty1 --rule_path Data/2_flights/dc_rules_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/2_flights/dirty_index.csv --clean_path Data/2_flights/clean_index.csv --output_path results/holistic

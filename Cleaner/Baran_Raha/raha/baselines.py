@@ -39,7 +39,7 @@ class Baselines:
         """
         self.VERBOSE = False
         self.DATASET_CONSTRAINTS = {
-            "1_hospital": {
+            "1_hospitals": {
                 "functions": [["HospitalName", "ZipCode"], ["HospitalName", "PhoneNumber"], ["MeasureCode", "MeasureName"], ["MeasureCode", "Stateavg"], ["ProviderNumber", "HospitalName"],
                               ["MeasureCode", "Condition"],["HospitalName", "Address1"],["HospitalName", "HospitalOwner"],["HospitalName", "ProviderNumber"],["City", "CountyName"],["ZipCode", "EmergencyService"],["HospitalName", "City"],["MeasureName", "MeasureName"]],
                 "patterns": []
@@ -355,7 +355,7 @@ class Baselines:
 
 ########################################
 if __name__ == "__main__":
-    dataset_name = ["1_hospital", "3_beers", "2_flights", "4_rayyan"]
+    dataset_name = ["1_hospitals", "3_beers", "2_flights", "4_rayyan"]
     for data in dataset_name:
         dataset_dictionary = {
             "name": data,

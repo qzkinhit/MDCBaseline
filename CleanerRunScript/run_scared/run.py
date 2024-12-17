@@ -50,9 +50,9 @@ if __name__ == "__main__":
         ONLYED = args.onlyed
         PERFECTED = args.perfected
 
-        # dirty_path = "./data_with_rules/1_hospital/noise/1_hospital-inner_outer_error-10.csv"
+        # dirty_path = "./data_with_rules/1_hospitals/noise/1_hospitals-inner_outer_error-10.csv"
         # rule_path = "./data_with_rules/5_tax/dc_rules-validate-fd-horizon.txt"
-        # clean_path = "./data_with_rules/1_hospital/clean.csv"
+        # clean_path = "./data_with_rules/1_hospitals/clean.csv"
         # task_name = "hospital1"
         # ONLYED = 0
         # PERFECTED = 0

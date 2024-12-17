@@ -52,8 +52,8 @@ app_1 = raha.Detection()
 app_1.LABELING_BUDGET = 30
 
 app_1.VERBOSE = True
-clean_filepath = "./raha-master/datasets/1_hospital/clean.csv"
-dirty_filepath = "./raha-master/datasets/1_hospital/dirty.csv"
+clean_filepath = "./raha-master/datasets/1_hospitals/clean.csv"
+dirty_filepath = "./raha-master/datasets/1_hospitals/dirty.csv"
 
 
 

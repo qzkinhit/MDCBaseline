@@ -19,7 +19,7 @@
 | 实验1    | `../../Data/hospital/dirty_hospital_E1.csv`, `../../Data/hospital/dc-rules-validate-fd-horizon.txt`, `../../Data/hospital/clean.csv`| `/` | `../../results/horizon/hospital_horizon_E1.csv`      | `/`   | 规则违反MeasureCode ⇒ Stateavg比例为2%, 规则违反HospitalName ⇒ Address1比例为1%, 规则违反HospitalName ⇒ PhoneNumber比例为0.5%, 规则违反MeasureCode ⇒ Condition比例为1%|
 ### 实验1 运行命令：
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty_hospital_E1.csv --rule_path ../../Data/1_hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean.csv --task_name hospital_horizon_E1 --output_path ../../results/horizon/hospital_horizon_E1
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospitals/dirty_hospital_E1.csv --rule_path ../../Data/1_hospitals/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospitals/clean.csv --task_name hospital_horizon_E1 --output_path ../../results/horizon/hospital_horizon_E1
 ```
 #### 实验2 设置
 | 实验编号 | 本地输入路径             | 实际输入存放路径                         | 本地输出路径             | 实际输出存放路径                        | 备注      |
@@ -28,7 +28,7 @@ python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../..
 
 ### 实验2 运行命令：
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty_hospital_E2.csv --rule_path ../../Data/1_hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospitals/dirty_hospital_E2.csv --rule_path ../../Data/1_hospitals/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospitals/clean.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
 ```
 #### 实验3 设置
 | 实验编号 | 本地输入路径                                                                                                                                                             | 实际输入存放路径                                                                                                                      | 本地输出路径                                       | 实际输出存放路径 | 备注                                  |
@@ -37,7 +37,7 @@ python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../..
 
 ### 实验 3 运行命令：
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty.csv --rule_path ../../Data/1_hospital/dc_rules_test.txt --clean_path ../../Data/1_hospital/hospital_clean.csv --task_name hospital_test --output_path ../../results/horizon/hospital_test
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospitals/dirty.csv --rule_path ../../Data/1_hospitals/dc_rules_test.txt --clean_path ../../Data/1_hospitals/hospital_clean.csv --task_name hospital_test --output_path ../../results/horizon/hospital_test
 ```
 ---
 

@@ -4,7 +4,7 @@
     <type>DBMS</type>
     <access-configuration>
       <driver>org.postgresql.Driver</driver>
-      <uri>jdbc:postgresql://localhost:5432/beta1</uri>
+      <uri>jdbc:postgresql://localhost:5432/gamma</uri>
       <schema>soccer</schema>
       <login>postgres</login>
       <password>1234</password>
@@ -27,7 +27,7 @@
         fd6: soccer(index: $index1, name: $name1, surname: $surname1, birthyear: $birthyear1, birthplace: $birthplace1, position: $position1, season: $season1, team: $team1, stadium: $stadium1, city: $city1, manager: $manager1), soccer(index: $index2, name: $name2, surname: $surname2, birthyear: $birthyear2, birthplace: $birthplace2, position: $position2, season: $season2, team: $team2, stadium: $stadium2, city: $city2, manager: $manager2),
             $manager1 == $manager2, $season1 == $season2, $team1 != $team2 -> #fail.]]></dependencies>
   <configuration>
-    <printLog>false</printLog>
+    <printLog>true</printLog>
     <checkChanges>true</checkChanges>
     <recreateDBOnStart>false</recreateDBOnStart>
     <applyCellChanges>true</applyCellChanges>
@@ -44,69 +44,69 @@
     <errorPercentages>
       <defaultPercentage>0.0</defaultPercentage>
       <vioGenQueries>
-        <vioGenQuery id="fd6">
-          <comparison>(season1 == season2)</comparison>
-          <percentage>0.0</percentage>
-        </vioGenQuery>
-        <vioGenQuery id="fd5">
-          <comparison>(city1 == city2)</comparison>
-          <percentage>0.0</percentage>
-        </vioGenQuery>
-        <vioGenQuery id="fd6">
-          <comparison>(manager1 == manager2)</comparison>
-          <percentage>0.0</percentage>
-        </vioGenQuery>
-        <vioGenQuery id="fd3">
+        <vioGenQuery id="fd1">
           <comparison>(name1 == name2)</comparison>
-          <percentage>0.0</percentage>
-        </vioGenQuery>
-        <vioGenQuery id="fd5">
-          <comparison>(season1 == season2)</comparison>
-          <percentage>0.0</percentage>
+          <percentage>0.25</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd1">
           <comparison>(surname1 != surname2)</comparison>
-          <percentage>0.5</percentage>
+          <percentage>0.25</percentage>
+        </vioGenQuery>
+        <vioGenQuery id="fd2">
+          <comparison>(name1 == name2)</comparison>
+          <percentage>0.25</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd2">
           <comparison>(birthyear1 != birthyear2)</comparison>
-          <percentage>0.5</percentage>
+          <percentage>0.25</percentage>
         </vioGenQuery>
-        <vioGenQuery id="fd1">
+        <vioGenQuery id="fd3">
           <comparison>(name1 == name2)</comparison>
-          <percentage>0.0</percentage>
+          <percentage>0.25</percentage>
         </vioGenQuery>
-        <vioGenQuery id="fd4">
-          <comparison>(position1 != position2)</comparison>
-          <percentage>0.5</percentage>
-        </vioGenQuery>
-        <vioGenQuery id="fd5">
-          <comparison>(team1 == team2)</comparison>
+        <vioGenQuery id="fd3">
+          <comparison>(birthplace1 != birthplace2)</comparison>
           <percentage>0.25</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd4">
           <comparison>(season1 == season2)</comparison>
-          <percentage>0.0</percentage>
+          <percentage>0.167</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd4">
           <comparison>(name1 == name2)</comparison>
-          <percentage>0.0</percentage>
+          <percentage>0.167</percentage>
         </vioGenQuery>
-        <vioGenQuery id="fd3">
-          <comparison>(birthplace1 != birthplace2)</comparison>
-          <percentage>0.5</percentage>
+        <vioGenQuery id="fd4">
+          <comparison>(position1 != position2)</comparison>
+          <percentage>0.167</percentage>
+        </vioGenQuery>
+        <vioGenQuery id="fd5">
+          <comparison>(team1 == team2)</comparison>
+          <percentage>0.125</percentage>
+        </vioGenQuery>
+        <vioGenQuery id="fd5">
+          <comparison>(city1 == city2)</comparison>
+          <percentage>0.125</percentage>
+        </vioGenQuery>
+        <vioGenQuery id="fd5">
+          <comparison>(season1 == season2)</comparison>
+          <percentage>0.125</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd5">
           <comparison>(stadium1 != stadium2)</comparison>
-          <percentage>0.25</percentage>
+          <percentage>0.125</percentage>
         </vioGenQuery>
-        <vioGenQuery id="fd2">
-          <comparison>(name1 == name2)</comparison>
-          <percentage>0.0</percentage>
+        <vioGenQuery id="fd6">
+          <comparison>(season1 == season2)</comparison>
+          <percentage>0.167</percentage>
+        </vioGenQuery>
+        <vioGenQuery id="fd6">
+          <comparison>(manager1 == manager2)</comparison>
+          <percentage>0.167</percentage>
         </vioGenQuery>
         <vioGenQuery id="fd6">
           <comparison>(team1 != team2)</comparison>
-          <percentage>0.5</percentage>
+          <percentage>0.167</percentage>
         </vioGenQuery>
       </vioGenQueries>
     </errorPercentages>
@@ -120,9 +120,13 @@
         <table name="soccer">
           <percentage>0.5</percentage>
           <attributes>
+            <attribute>manager</attribute>
             <attribute>birthyear</attribute>
             <attribute>birthplace</attribute>
+            <attribute>city</attribute>
             <attribute>surname</attribute>
+            <attribute>name</attribute>
+            <attribute>season</attribute>
             <attribute>stadium</attribute>
             <attribute>position</attribute>
             <attribute>team</attribute>

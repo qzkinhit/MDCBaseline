@@ -602,12 +602,12 @@ class Correction:
 
 ########################################
 if __name__ == "__main__":
-    dataset_name = "1_hospital"
+    dataset_name = "1_hospitals"
     time_start=time.time()
     dataset_dictionary = {
         "name": dataset_name,
-        "path": "./data_with_rules/1_hospital/dirty.csv",
-        "clean_path": "./data_with_rules/1_hospital/clean.csv"
+        "path": "./data_with_rules/1_hospitals/dirty.csv",
+        "clean_path": "./data_with_rules/1_hospitals/clean.csv"
     }
     data = raha.dataset.Dataset(dataset_dictionary)
     data.detected_cells = dict(data.get_actual_errors_dictionary())

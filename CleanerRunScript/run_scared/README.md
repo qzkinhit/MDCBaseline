@@ -36,13 +36,13 @@ python run_horizon_base.py --dirty_path data/input.csv --rule_path data/rules.tx
 
 ### 运行示例：
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty_hospital_E1.csv --rule_path ../../Data/1_hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean.csv --task_name hospital_horizon_E1 --output_path ../../results/horizon/hospital_horizon_E1
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospitals/dirty_hospital_E1.csv --rule_path ../../Data/1_hospitals/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospitals/clean.csv --task_name hospital_horizon_E1 --output_path ../../results/horizon/hospital_horizon_E1
 ```
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty_hospital_E2.csv --rule_path ../../Data/1_hospital/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospital/clean.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospitals/dirty_hospital_E2.csv --rule_path ../../Data/1_hospitals/dc_rules-vallidate-fd-horizon.txt --clean_path ../../Data/1_hospitals/clean.csv --task_name hospital_horizon_E2 --output_path ../../results/horizon/hospital_horizon_E2
 ```
 ```bash
-python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospital/dirty.csv --rule_path ../../Data/1_hospital/dc_rules_test.txt --clean_path ../../Data/1_hospital/hospital_clean.csv --task_name hospital_test --output_path ../../results/horizon/hospital_test
+python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/1_hospitals/dirty.csv --rule_path ../../Data/1_hospitals/dc_rules_test.txt --clean_path ../../Data/1_hospitals/hospital_clean.csv --task_name hospital_test --output_path ../../results/horizon/hospital_test
 ```
 ```bash
 python ../../CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path ../../Data/5_tax/tax_50k/5_tax-dirty-original_error-0010k.csv --rule_path ../../Data/5_tax/dc_rules-validate-fd-horizon.txt --clean_path ../../Data/5_tax/split-clean-clean_data_ori-0010k.csv --task_name tax_horizon_ori --output_path ../../results/horizon/tax_horizon_ori

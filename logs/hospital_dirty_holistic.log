@@ -1,0 +1,51 @@
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/1_hospital/clean_index.csv
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/1_hospital/dirty_index.csv
+Running holistic with dirty file: Data/1_hospital/dirty_index.csv
+  0%|          | 0/15 [00:00<?, ?it/s]  7%|▋         | 1/15 [00:01<00:14,  1.05s/it] 13%|█▎        | 2/15 [00:01<00:12,  1.06it/s] 20%|██        | 3/15 [00:03<00:12,  1.05s/it] 27%|██▋       | 4/15 [00:03<00:10,  1.02it/s] 33%|███▎      | 5/15 [00:05<00:10,  1.01s/it] 40%|████      | 6/15 [00:06<00:09,  1.09s/it] 47%|████▋     | 7/15 [00:07<00:09,  1.23s/it] 53%|█████▎    | 8/15 [00:07<00:06,  1.14it/s] 60%|██████    | 9/15 [00:09<00:07,  1.18s/it] 67%|██████▋   | 10/15 [00:09<00:04,  1.18it/s] 73%|███████▎  | 11/15 [00:12<00:05,  1.28s/it] 80%|████████  | 12/15 [00:12<00:02,  1.08it/s] 87%|████████▋ | 13/15 [00:12<00:01,  1.46it/s] 93%|█████████▎| 14/15 [00:15<00:01,  1.32s/it]100%|██████████| 15/15 [00:15<00:00,  1.04it/s]100%|██████████| 15/15 [00:15<00:00,  1.02s/it]
+Finish Blocking and Iterating
+Detecting Errors
+  0%|                                                              | 0/14 [00:00<?, ?it/s]  7%|███▊                                                  | 1/14 [00:33<07:10, 33.14s/it] 14%|███████▋                                              | 2/14 [01:06<06:42, 33.52s/it] 21%|███████████▌                                          | 3/14 [01:41<06:12, 33.84s/it] 29%|███████████████▍                                      | 4/14 [02:16<05:42, 34.25s/it] 36%|███████████████████▎                                  | 5/14 [02:49<05:05, 33.95s/it] 43%|███████████████████████▏                              | 6/14 [03:23<04:31, 33.88s/it] 50%|███████████████████████████                           | 7/14 [03:57<03:58, 34.02s/it] 57%|██████████████████████████████▊                       | 8/14 [04:31<03:24, 34.07s/it] 64%|██████████████████████████████████▋                   | 9/14 [05:06<02:51, 34.33s/it] 71%|█████████████████████████████████████▊               | 10/14 [05:39<02:16, 34.05s/it] 79%|█████████████████████████████████████████▋           | 11/14 [06:13<01:42, 34.02s/it] 86%|█████████████████████████████████████████████▍       | 12/14 [06:47<01:07, 33.77s/it] 93%|█████████████████████████████████████████████████▏   | 13/14 [07:21<00:34, 34.05s/it]100%|█████████████████████████████████████████████████████| 14/14 [08:24<00:00, 42.80s/it]100%|█████████████████████████████████████████████████████| 14/14 [08:24<00:00, 36.06s/it]
+Finish Detectings
+Finish Repairing
+Detecting Errors
+  0%|                                                              | 0/14 [00:00<?, ?it/s]  7%|███▊                                                  | 1/14 [00:32<07:03, 32.55s/it] 14%|███████▋                                              | 2/14 [01:06<06:40, 33.36s/it] 21%|███████████▌                                          | 3/14 [01:39<06:05, 33.25s/it] 29%|███████████████▍                                      | 4/14 [02:12<05:31, 33.14s/it] 36%|███████████████████▎                                  | 5/14 [02:45<04:56, 33.00s/it] 43%|███████████████████████▏                              | 6/14 [03:18<04:24, 33.07s/it] 50%|███████████████████████████                           | 7/14 [03:51<03:51, 33.03s/it] 57%|██████████████████████████████▊                       | 8/14 [04:24<03:18, 33.11s/it] 64%|██████████████████████████████████▋                   | 9/14 [04:57<02:45, 33.01s/it] 71%|█████████████████████████████████████▊               | 10/14 [05:29<02:11, 32.80s/it] 79%|█████████████████████████████████████████▋           | 11/14 [06:06<01:41, 33.88s/it] 86%|█████████████████████████████████████████████▍       | 12/14 [06:39<01:07, 33.85s/it] 93%|█████████████████████████████████████████████████▏   | 13/14 [07:12<00:33, 33.56s/it]100%|█████████████████████████████████████████████████████| 14/14 [08:14<00:00, 42.04s/it]100%|█████████████████████████████████████████████████████| 14/14 [08:14<00:00, 35.32s/it]
+/home/qzk/MDCBaseline/baran_env_2/lib/python3.6/site-packages/numpy/lib/function_base.py:380: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis)
+/home/qzk/MDCBaseline/baran_env_2/lib/python3.6/site-packages/numpy/core/_methods.py:170: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/qzk/MDCBaseline/baran_env_2/lib/python3.6/site-packages/numpy/lib/function_base.py:380: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis)
+/home/qzk/MDCBaseline/baran_env_2/lib/python3.6/site-packages/numpy/core/_methods.py:170: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+===============================================
+Results saved to results/holistic/Repaired_res/hospital_dirty/repaired_hospital_dirty1.csv
+holistic finished in 1024.6689939498901 seconds.
+测评性能开始：
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: results/holistic/Repaired_res/hospital_dirty/repaired_hospital_dirty1.csv
+差异文件已保存到:
+results/holistic/Repaired_res/hospital_dirty/hospital_dirty1_clean_vs_dirty.csv
+results/holistic/Repaired_res/hospital_dirty/hospital_dirty1_dirty_vs_cleaned.csv
+results/holistic/Repaired_res/hospital_dirty/hospital_dirty1_clean_vs_cleaned.csv
+修复准确率: 0.4926829268292683, 修复召回率: 0.793713163064833, F1值: 0.6079759216984114
+========================================
+EDR 结果已保存到: results/holistic/Repaired_res/hospital_dirty/hospital_dirty1_edr_evaluation.txt
+错误减少率 (EDR): -0.023575638506876228
+========================================
+混合距离结果已保存到: results/holistic/Repaired_res/hospital_dirty/hospital_dirty1_hybrid_distance_evaluation.txt
+混合距离 (Hybrid Distance): 0.11568050130182034
+========================================
+R-EDR 结果已保存到: results/holistic/Repaired_res/hospital_dirty/hospital_dirty1_record_based_edr_evaluation.txt
+基于条目的错误减少率 (R-EDR): 0.044226044226044224
+========================================
+测试结果:
+Accuracy: 0.4926829268292683
+Recall: 0.793713163064833
+F1 Score: 0.6079759216984114
+EDR: -0.023575638506876228
+Hybrid Distance: 0.11568050130182034
+R-EDR: 0.044226044226044224
+time(s): 1024.6689939498901
+测评结束，详细测评日志见：results/holistic/Repaired_res/hospital_dirty

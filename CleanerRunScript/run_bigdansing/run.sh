@@ -9,7 +9,7 @@ bigdansing_commands=(
     "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing --clean_path Data/2_flights/clean_index.csv --dirty_path Data/2_flights/dirty_index.csv --rule_path Data/2_flights/dc_rules_holoclean.txt --task_name 2_flights_ori"
     "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing --clean_path Data/3_beers/clean_index.csv --dirty_path Data/3_beers/dirty_index.csv --rule_path Data/3_beers/dc_rules_holoclean.txt --task_name 3_beers_ori --index_attribute id --mse_attributes abv ibu"
     "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing --clean_path Data/4_rayyan/clean_index.csv --dirty_path Data/4_rayyan/dirty_index.csv --rule_path Data/4_rayyan/dc_rules_holoclean.txt --task_name 4_rayyan_ori"
-    "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing --clean_path Data/5_tax/clean_index_10k.csv --dirty_path Data/5_tax/dirty_index_10k.csv --rule_path Data/5_tax/dc_rules_holoclean.txt --task_name 5_tax_ori --mse_attributes salary rate singleexemp marriedexemp childexemp"
+    "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing --clean_path Data/5_tax/clean_index_10k.csv --dirty_path Data/5_tax/dirty_index_10k.csv --rule_path Data/5_tax/dc_rules_holoclean.txt --task_name 5_tax_ori --mse_attributes rate"
     "python3 CleanerRunScript/run_bigdansing/run_bigdansing_base.py --output_path results/bigdansing --clean_path Data/6_soccer/clean_index_10k.csv --dirty_path Data/6_soccer/dirty_index_10k.csv --rule_path Data/6_soccer/dc_rules_holoclean.txt --task_name 6_soccer_ori"
 )
 

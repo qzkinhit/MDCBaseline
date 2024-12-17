@@ -44,7 +44,7 @@ def count_inconsistent_entries(dirty_df, clean_df, index_column):
     return len(inconsistent_entry_indices)
 
 
-def generate_change_report(dirty_df, clean_df, index_column):
+def generate_change_report(dirty_df, clean_df, index_column,output_file_name):
     """
     比较脏数据和干净数据的单元格变化情况，生成change.CSV文件
 
@@ -76,8 +76,10 @@ def generate_change_report(dirty_df, clean_df, index_column):
     change_df = pd.DataFrame(changes)
 
     # 将结果保存为CSV文件
-    change_df.to_csv(r"./change.CSV", index=False)
-    print("不同单元的数据保存到 change.CSV")
+    # change_df.to_csv(r"./change.CSV", index=False)
+    # print("不同单元的数据保存到 change.CSV")
+    change_df.to_csv(output_file_name, index=False)
+    print(f"不同单元的数据保存到 {output_file_name}")
     # 返回不一致的单元格总数
     return len(change_df)
 
@@ -144,12 +146,12 @@ def replace_half_with_clean_value(dirty_df, clean_df, index_column):
     return dirty_df
 # 使用示例,上面的代码不要改动
 if __name__ == '__main__':
-    dirty_df = pd.read_csv('../Data/5_tax/dirty_index_10k.csv')
-    clean_df = pd.read_csv('../Data/5_tax/clean_index_10k.csv')
+    dirty_df = pd.read_csv('../Data/6_soccer/subset_soccer_10k/noise_with_correct_primary_key/dirty_mixed_0.25/dirty_soccer_mix_0.25.csv')
+    clean_df = pd.read_csv('../Data/6_soccer/subset_soccer_10k/subset_clean_index_10k.csv')
     # replace_half_with_clean_value(dirty_df, clean_df, 'id')
     inconsistent_entries_count = count_inconsistent_entries(dirty_df, clean_df, 'index')
     print(f'脏数据和干净数据之间有 {inconsistent_entries_count} 个条目不一致。')
 
-    inconsistent_cells = generate_change_report(dirty_df, clean_df, 'index')
+    inconsistent_cells = generate_change_report(dirty_df, clean_df, 'index',"./change.CSV")
     print(f'脏数据和干净数据之间有 {inconsistent_cells} 个单元格不一致。')
 

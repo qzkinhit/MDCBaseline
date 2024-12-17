@@ -45,7 +45,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../../')
 # from Cleaner.Baran_Raha.repairing_with_delete_and_mode import Detection
 from Cleaner.Baran_Raha.repairing_with_delete import Detection
 # from Cleaner.Baran_Raha.detection import Detection
-from util.getScore import calculate_accuracy_and_recall, calculate_all_metrics
+from util.getScore import calculate_all_metrics
 
 warnings.filterwarnings("ignore")
 
@@ -644,9 +644,6 @@ class Correction:
             # self.store_results(d)
         return d.corrected_cells
 
-
-########################################
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--dirty_path', type=str, default='../../Data/4_rayyan/dirty_index.csv',
@@ -691,21 +688,21 @@ if __name__ == "__main__":
     start_time = time.time()
     try:
         # 获取Raha的错误检测结果
-        time_start = time.time()
+        # time_start = time.time()
         app1 = Detection()
         detected_cells = app1.run(dataset_dictionary)
         p, r, f = app1.d.get_data_cleaning_evaluation(detected_cells)[:3]
-        time_end = time.time()
+        # time_end = time.time()
 
         # 输出文件路径保存在 stra_path 中
         out_path = f"{stra_path}/onlyED_{task_name}{check_string(dirty_path)}.txt"
         with open(out_path, 'w') as f:
             sys.stdout = f
             print(f"{p}\n{r}\n{f}")
-            print(time_end - time_start)
+            # print(time_end - time_start)
 
         # 开始错误修正过程
-        time_start = time.time()
+        # time_start = time.time()
         data = raha.dataset.Dataset(dataset_dictionary)
         # 恢复标准输出
         sys.stdout = sys.__stdout__
@@ -724,10 +721,11 @@ if __name__ == "__main__":
         with open(out_path, 'w') as f:
             sys.stdout = f
             print(f"{p}\n{r}\n{str(f)}")
-            time_end = time.time()
-            print(time_end - time_start)
+            # time_end = time.time()
+            # print(time_end - time_start)
         # 记录结束时间
         end_time = time.time()
+        elapsed_time = end_time - start_time
         # 分析修复结果
         sys.stdout = sys.__stdout__
         out_path = f"{stra_path}/all_compute_{task_name}{check_string(dirty_path)}.txt"
@@ -798,8 +796,8 @@ if __name__ == "__main__":
             print(f"EDR: {results.get('edr')}")
             print(f"Hybrid Distance: {results.get('hybrid_distance')}")
             print(f"R-EDR: {results.get('r_edr')}")
-            print(f"Time: {end_time - start_time}")
-            print(f"speed: {100 * float(end_time - start_time) / clean_data.shape[0]} seconds/100num")
+            print(f"Time: {elapsed_time}")
+            print(f"speed: {100 * float(elapsed_time) / clean_data.shape[0]} seconds/100num")
         # 恢复标准输出
         sys.stdout = original_stdout
         # # 打印结果到cmd里
@@ -810,9 +808,10 @@ if __name__ == "__main__":
         print(f"EDR: {results.get('edr')}")
         print(f"Hybrid Distance: {results.get('hybrid_distance')}")
         print(f"R-EDR: {results.get('r_edr')}")
-        print(f"time(s): {end_time - start_time}")
-        print(f"speed: {100 * float(end_time - start_time) / clean_data.shape[0]} seconds/100num")
+        print(f"time(s): {elapsed_time}")
+        print(f"speed: {100 * float(elapsed_time) / clean_data.shape[0]} seconds/100num")
         print("测评结束，详细测评日志见：" + str(out_path))
+        exit(0)
     except TimeoutError as e:
         print(f"Time exceeded: {e}, {task_name}, {dirty_path}")
         with open(f"{stra_path}/timeout_log.txt", "a") as out_file:
@@ -820,4 +819,9 @@ if __name__ == "__main__":
             out_file.write(now.strftime("%Y-%m-%d %H:%M:%S"))
             out_file.write("Baran with Raha.py: ")
             out_file.write(f" {task_name} {dirty_path}\n")
+    finally:
+        # Cancel the timer to allow the program to exit
+        timer.cancel()
+        # Exit the program
+        exit(0)
 
