@@ -3,4 +3,39 @@
 没有指定错误比例，仅进行原数据集的空值替换，不添加错误
 已将注入错误的文件保存到: Data/5_tax/subset_tax_3k/noise_with_correct_primary_key/dirty_mixed_1.5/dirty_tax_mix_1.5.csv
 Running bigdansing with dirty file: Data/5_tax/subset_tax_3k/noise_with_correct_primary_key/dirty_mixed_1.5/dirty_tax_mix_1.5.csv
-  0%|                                                               | 0/8 [00:00<?, ?it/s]
+  0%|                                                               | 0/8 [00:00<?, ?it/s] 38%|██████████████████▍                              | 3/8 [4:13:46<7:02:56, 5075.37s/it] 50%|███████████████████████                       | 4/8 [10:14:49<11:10:07, 10051.81s/it] 62%|████████████████████████████▊                 | 5/8 [17:24:43<12:18:43, 14774.56s/it] 88%|█████████████████████████████████████████▏     | 7/8 [17:24:44<2:52:22, 10342.29s/it]100%|██████████████████████████████████████████████████| 8/8 [17:24:44<00:00, 7239.64s/it]
+  0%|                                                               | 0/8 [00:00<?, ?it/s] 12%|██████▉                                                | 1/8 [00:01<00:08,  1.22s/it] 25%|█████████████▊                                         | 2/8 [00:02<00:07,  1.23s/it] 38%|████████████████████▎                                 | 3/8 [15:16<22:55, 275.18s/it] 50%|███████████████████████████                           | 4/8 [30:39<31:17, 469.36s/it] 62%|█████████████████████████████████▊                    | 5/8 [46:01<30:15, 605.27s/it] 75%|████████████████████████████████████████▌             | 6/8 [46:02<14:07, 423.80s/it] 88%|███████████████████████████████████████████████▎      | 7/8 [49:46<06:04, 364.05s/it]100%|██████████████████████████████████████████████████████| 8/8 [49:46<00:00, 373.34s/it]
+  0%|                                                               | 0/8 [00:00<?, ?it/s] 12%|██████▉                                                | 1/8 [00:01<00:07,  1.07s/it] 25%|█████████████▊                                         | 2/8 [00:02<00:06,  1.10s/it] 38%|████████████████████▎                                 | 3/8 [11:43<17:35, 211.02s/it] 50%|███████████████████████████                           | 4/8 [21:11<21:13, 318.35s/it] 62%|█████████████████████████████████▊                    | 5/8 [32:21<21:11, 423.68s/it] 75%|████████████████████████████████████████▌             | 6/8 [32:21<09:53, 296.63s/it] 88%|███████████████████████████████████████████████▎      | 7/8 [35:00<04:15, 255.22s/it]100%|██████████████████████████████████████████████████████| 8/8 [35:00<00:00, 262.51s/it]
+===============================================
+Results saved to results/bigdansing/nwcpk/Repaired_res/5_tax_nwcpk_1/repaired_5_tax_nwcpk_15.csv
+BigDansing finished in 67932.24441790581 seconds.
+测评性能开始：
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: results/bigdansing/nwcpk/Repaired_res/5_tax_nwcpk_1/repaired_5_tax_nwcpk_15.csv
+差异文件已保存到:
+results/bigdansing/nwcpk/Repaired_res/5_tax_nwcpk_1/5_tax_nwcpk_15_clean_vs_dirty.csv
+results/bigdansing/nwcpk/Repaired_res/5_tax_nwcpk_1/5_tax_nwcpk_15_dirty_vs_cleaned.csv
+results/bigdansing/nwcpk/Repaired_res/5_tax_nwcpk_1/5_tax_nwcpk_15_clean_vs_cleaned.csv
+修复错误数据文件已保存到: results/bigdansing/nwcpk/Repaired_res/5_tax_nwcpk_1/5_tax_nwcpk_15_repair_errors.csv
+未修复但是应该修复数据文件已保存到: results/bigdansing/nwcpk/Repaired_res/5_tax_nwcpk_1/5_tax_nwcpk_15_unrepaired.csv
+修复准确率: 0.28345323741007195, 修复召回率: 0.21251348435814454, F1值: 0.2429099876205667
+========================================
+EDR 结果已保存到: results/bigdansing/nwcpk/Repaired_res/5_tax_nwcpk_1/5_tax_nwcpk_15_edr_evaluation.txt
+错误减少率 (EDR): -0.2740021574973031
+========================================
+混合距离结果已保存到: results/bigdansing/nwcpk/Repaired_res/5_tax_nwcpk_1/5_tax_nwcpk_15_hybrid_distance_evaluation.txt
+混合距离 (Hybrid Distance): 0.1429639057730236
+========================================
+R-EDR 结果已保存到: results/bigdansing/nwcpk/Repaired_res/5_tax_nwcpk_1/5_tax_nwcpk_15_record_based_edr_evaluation.txt
+基于条目的错误减少率 (R-EDR): -0.12239902080783353
+========================================
+测试结果:
+Accuracy: 0.28345323741007195
+Recall: 0.21251348435814454
+F1 Score: 0.2429099876205667
+EDR: -0.2740021574973031
+Hybrid Distance: 0.1429639057730236
+R-EDR: -0.12239902080783353
+time(s): 67932.24441790581
+speed: 2264.408147263527 seconds/100num
+测评结束，详细测评日志见：results/bigdansing/nwcpk/Repaired_res/5_tax_nwcpk_1
