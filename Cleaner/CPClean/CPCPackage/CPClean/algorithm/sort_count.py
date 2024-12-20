@@ -80,16 +80,16 @@ def compute_BR(alpha_beta, K, eps=1e-100):
 
 def group_by_classes(S, y):
     """按类别y记录S的信息,只支持两个类别
-    Return:
-        new_rid:[]  将旧行坐标映射到对应类集合的行坐标
-        row_count:{0:[],1:[]}  按类记录每个空缺值对应的填补方式数量
+    :returns:
         alpha_beta_c:{0:[[0,1],...],1:[[0,1,...]]}  按类别记录[0,1]，每个类中[0,1]的数量即为类别中项的数量
-        N_c:各类别数量
+        new_rid:[ ]  将旧行坐标映射到对应类集合中的行坐标
         classes:[0,1]
+        N_c:各类别数量
+        row_count:{0:[ ],1:[ ]}  按类记录每个空缺值对应的填补方式数量
         n_must_alpha_c:{0:0,1:0}
         n_must_beta_c:{0:N_c[0],1:N_c[1]}
     """
-    classes = [0, 1] # 只支持两个类
+    classes = [0, 1] # 只支持两个类别
 
     # map old row number to new row number in each group
     new_rid = {}
@@ -127,6 +127,9 @@ def change_alpha_beta(alpha_beta_c, n_must_alpha_c, n_must_beta_c, ri, yi, ab_af
     alpha_beta_c[yi][ri] = ab_after
 
 def get_cases(n_must_alpha_c, n_must_beta_c, N_c, classes, K):
+    """返回所有可能的Top-K情况和两个类别在Top-K集中占最多的数量值
+
+    """
     cases_c = {}
 
     for c in classes:
@@ -141,6 +144,7 @@ def get_cases(n_must_alpha_c, n_must_beta_c, N_c, classes, K):
     classes = list(classes)
 
     for i in range(K+1):
+        # 只支持2分类
         if i in cases_c[classes[0]] and (K-i) in cases_c[classes[1]]:
             pred = classes[0] if i > K / 2 else classes[1]
             possible_cases.append({classes[0]:i, classes[1]:K-i, "knn_pred":pred})
@@ -275,7 +279,7 @@ def update_ac_counters(ac_counters, sl_counts, ri, rj, S, y, dirty_rows):
 
 def prune(S_full, y_full, K, mm=None):
     """
-    返回最大相似度大于边界相似度的相似度组S和对应标签y，其中边界相似度基于最小相似度求出。
+    返回对KNN有效的相似度组S和对应标签y。
     """
     if mm is None:
         mm = np.array([[min(s), max(s)] for s in S_full])
@@ -288,7 +292,7 @@ def prune(S_full, y_full, K, mm=None):
 
 def get_valid_indices(mm, K):
     """
-    返回最大相似度大于边界相似度的索引，其中边界相似度基于最小相似度求出。
+    返回最大相似度大于边界相似度的索引，其中边界相似度基于最小相似度求出。如果最大相似度小于基于最小相似度求出的TopK集，那么这一项的任何填充结果都无法对分类结果产生影响，视为无效
     """
     min_order = np.argsort(-mm[:, 0], kind="stable") # 最小相似度的降序索引
     k_largest_min_idx = min_order[K-1]

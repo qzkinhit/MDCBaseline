@@ -1,9 +1,20 @@
 Attribute,Index,Clean Value,Dirty Value
+<<<<<<< HEAD
+=======
 gender,792,f,empty
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 gender,1105,f,empty
 gender,1191,m,nm
 gender,1809,f,empty
 gender,3034,f,***
+<<<<<<< HEAD
+gender,4516,m,empty
+gender,4595,m,empty
+gender,5127,m,empty
+gender,6374,m,empty
+gender,6959,f,empty
+gender,7308,f,***
+=======
 gender,4083,m,***
 gender,4516,m,empty
 gender,4595,m,empty
@@ -15,10 +26,18 @@ gender,6959,f,empty
 gender,7251,f,of
 gender,7308,f,***
 gender,7377,m,empty
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 gender,7429,m,empty
 gender,8369,f,empty
 gender,8521,m,empty
 gender,9394,f,empty
+<<<<<<< HEAD
+gender,9744,f,ff
+gender,10162,m,empty
+gender,10386,f,empty
+gender,15454,f,***
+gender,15535,f,empty
+=======
 gender,9577,m,***
 gender,9744,f,ff
 gender,10162,m,empty
@@ -35,6 +54,7 @@ gender,17205,f,empty
 gender,17492,f,***
 gender,17703,f,***
 gender,18072,m,vm
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 gender,18300,m,empty
 gender,18771,m,empty
 gender,18894,f,***
@@ -53,6 +73,13 @@ city,4854,mill river,empty
 city,4870,hampton,hampotn
 city,5187,providence,empty
 city,5204,groton,groon
+<<<<<<< HEAD
+city,6974,gill,gill***
+city,7173,harmony,harmoyn
+city,7673,hampton,hampston
+city,7922,harmony,harmnoy
+city,7966,guaynabo,guaynaabo
+=======
 city,5293,shelburne,yshelburne
 city,5837,hampton,hmpton
 city,6974,gill,gill***
@@ -62,6 +89,7 @@ city,7760,orleans,empty
 city,7922,harmony,harmnoy
 city,7966,guaynabo,guaynaabo
 city,8375,totowa,totoxwa
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 city,8396,guanica,gujanica
 city,8405,guaynabo,guanyabo
 city,8436,hanover,hanoer
@@ -74,10 +102,14 @@ city,11705,guaynabo,guayenabo
 city,12106,guild,guidl
 city,12752,guild,gumild
 city,12982,ponce,pnce
+<<<<<<< HEAD
+city,15493,hallowell,hllowell
+=======
 city,14624,groton,gfroton
 city,15198,colchester,empty
 city,15493,hallowell,hllowell
 city,15820,websterville,empty
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 city,16606,guaynabo,uaynabo
 city,16704,guaynabo,guajynabo
 city,16834,guaynabo,gvuaynabo
@@ -91,15 +123,63 @@ city,18218,aguadilla,empty
 city,18379,juana diaz,juana diza
 city,18639,bayamon,bayvamon
 city,18734,gurabo,gurbao
+<<<<<<< HEAD
+city,18982,guayama,guayaam
+city,19028,gurabo,grabo
+city,19266,gilmanton iron works,gilmanton ironn works
+=======
 city,18848,stamford,stamfod
 city,18982,guayama,guayaam
 city,19028,gurabo,grabo
 city,19266,gilmanton iron works,gilmanton ironn works
 city,19491,craftsbury common,craftmsbury common
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 city,19698,harmony,harmxony
 city,19712,gurabo,gurbo
 city,19918,hampton,hampon
 state,672,ma,yma
+<<<<<<< HEAD
+state,3061,ri,empty
+state,4755,nh,hn
+state,4834,me,empty
+state,7574,nh,hn
+state,7836,me,mfe
+state,7896,me,empty
+state,9434,vt,tv
+state,9838,ri,empty
+state,10766,ri,i
+state,12560,ri,empty
+state,12670,ma,empty
+state,13089,nh,empty
+state,15182,ma,ima
+state,15600,nh,hn
+state,15934,ri,i
+state,17035,pr,pdr
+state,17637,ri,rgi
+state,18316,me,empty
+state,18460,ri,i
+rate,518,6.9580293000000015,6.9580293
+rate,873,6.9580293000000015,6.9580293
+rate,1813,6.9580293000000015,6.9580293
+rate,1950,6.9580293000000015,6.9580293
+rate,4578,6.9580293000000015,6.9580293
+rate,5284,6.9580293000000015,6.9580293
+rate,5327,6.047202599999999,6.0472026
+rate,5756,6.9580293000000015,6.9580293
+rate,7453,6.9580293000000015,6.9580293
+rate,7813,4.497285400000001,4.4972854
+rate,8529,6.9580293000000015,6.9580293
+rate,10078,6.9580293000000015,6.9580293
+rate,10577,6.9580293000000015,6.9580293
+rate,10865,6.9580293000000015,6.9580293
+rate,12252,6.9580293000000015,6.9580293
+rate,14002,6.9580293000000015,6.9580293
+rate,15396,4.497285400000001,4.4972854
+rate,17289,6.9580293000000015,6.9580293
+rate,17757,6.9580293000000015,6.9580293
+rate,18596,6.9580293000000015,6.9580293
+rate,19756,6.9580293000000015,6.9580293
+=======
 state,922,vt,tv
 state,1873,ct,t
 state,2037,ct,t
@@ -336,6 +416,7 @@ rate,19676,4.7957172,4.7957171999999995
 rate,19721,2.6616669,2.6616668999999997
 rate,19757,3.6019895,3.6019894999999997
 rate,19873,3.800944,3.8009440000000003
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 singleexemp,279,0,empty
 singleexemp,2589,0,empty
 singleexemp,3535,0,empty
@@ -343,6 +424,15 @@ singleexemp,5794,0,empty
 singleexemp,5997,0,empty
 singleexemp,7170,0,j0
 singleexemp,7193,3575,5375
+<<<<<<< HEAD
+singleexemp,10149,0,empty
+singleexemp,12367,0,empty
+singleexemp,12887,0,empty
+singleexemp,12939,3575,empty
+singleexemp,14043,0,***
+singleexemp,14264,0,empty
+singleexemp,14721,3575,empty
+=======
 singleexemp,8590,12750,empty
 singleexemp,10041,0,empty
 singleexemp,10149,0,empty
@@ -357,10 +447,18 @@ singleexemp,14721,3575,empty
 singleexemp,14914,0,***
 singleexemp,15390,3300,300
 singleexemp,17390,0,empty
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 singleexemp,17475,0,empty
 singleexemp,18650,3575,3755
 singleexemp,19192,2850,empty
 singleexemp,19362,0,empty
+<<<<<<< HEAD
+marriedexemp,3061,0,empty
+marriedexemp,3659,0,o0
+marriedexemp,3820,7150,150
+marriedexemp,4857,0,empty
+marriedexemp,4876,0,empty
+=======
 marriedexemp,1068,0,empty
 marriedexemp,3061,0,empty
 marriedexemp,3310,6600,empty
@@ -370,12 +468,19 @@ marriedexemp,3878,24500,empty
 marriedexemp,4857,0,empty
 marriedexemp,4876,0,empty
 marriedexemp,4915,24500,empty
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 marriedexemp,5204,6600,empty
 marriedexemp,5867,0,empty
 marriedexemp,6145,0,empty
 marriedexemp,6923,0,empty
 marriedexemp,6974,7150,71j50
 marriedexemp,7462,0,empty
+<<<<<<< HEAD
+marriedexemp,9830,7150,715w0
+marriedexemp,10118,0,s0
+marriedexemp,10416,0,empty
+marriedexemp,11244,7150,150
+=======
 marriedexemp,7817,6600,empty
 marriedexemp,8443,6600,660t0
 marriedexemp,9830,7150,715w0
@@ -384,6 +489,7 @@ marriedexemp,10416,0,empty
 marriedexemp,10435,6600,empty
 marriedexemp,11244,7150,150
 marriedexemp,12193,0,empty
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 marriedexemp,13524,7150,7510
 marriedexemp,14324,0,***
 marriedexemp,14497,0,p0
@@ -394,6 +500,18 @@ marriedexemp,15551,0,***
 marriedexemp,15580,0,***
 marriedexemp,18637,0,empty
 marriedexemp,18990,0,empty
+<<<<<<< HEAD
+childexemp,1845,0,v0
+childexemp,2725,0,empty
+childexemp,4208,0,empty
+childexemp,5482,2850,empty
+childexemp,6297,3300,empty
+childexemp,9516,0,***
+childexemp,11165,0,empty
+childexemp,11216,0,***
+childexemp,11423,1000,empty
+childexemp,13059,0,empty
+=======
 childexemp,451,0,empty
 childexemp,1845,0,v0
 childexemp,2725,0,empty
@@ -414,4 +532,5 @@ childexemp,13059,0,empty
 childexemp,13482,3300,p3300
 childexemp,17034,0,***
 childexemp,17406,0,empty
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 childexemp,19923,0,empty

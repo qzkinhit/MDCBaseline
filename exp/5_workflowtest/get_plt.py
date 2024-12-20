@@ -92,23 +92,25 @@ def plot_radial_chart(datasets, metrics, scales, data_with_preparation, data_wit
     # 颜色图例（表示数据集）
     color_handles = [plt.Line2D([0], [0], color=color, lw=2, label=dataset) for color, dataset in zip(colors, datasets)]
     legend1 = fig.legend(handles=color_handles, loc='upper left', bbox_to_anchor=(0, 0.98), title="Dataset",
-                         fontsize=15)
+                         fontsize=20)
 
-    # 线型图例（表示是否使用清洗准备策略）
-    line_handles = [
-        plt.Line2D([0], [0], color='black', lw=2, linestyle='solid', label='With Preparation'),
-        plt.Line2D([0], [0], color='black', lw=2, linestyle='dashed', label='Without Preparation'),
-    ]
-    legend2 = fig.legend(handles=line_handles, loc='upper right', fontsize=15,bbox_to_anchor=(1, 0.98))
+    # # 线型图例（表示是否使用清洗准备策略）
+    # line_handles = [
+    #     plt.Line2D([0], [0], color='black', lw=2, linestyle='solid', label='With Preparation'),
+    #     plt.Line2D([0], [0], color='black', lw=2, linestyle='dashed', label='Without Preparation'),
+    # ]
+    # legend2 = fig.legend(handles=line_handles, loc='upper right', fontsize=15,bbox_to_anchor=(1, 0.98))
 
     # 将图例附加到绘图对象中，防止覆盖
     ax.add_artist(legend1)
-    ax.add_artist(legend2)
+    # ax.add_artist(legend2)
 
     # 添加标题
-    ax.set_title(title, fontsize=16, pad=20)
+    # ax.set_title(title, fontsize=16, pad=20)
 
     # 显示图形
+    plt.savefig("dataset_scenario.eps", format="eps")
+    plt.savefig("dataset_scenario.pdf", format="pdf")  # 使用PDF格式
     plt.show()
 
 datasets = ['Hospital', 'Flights', 'Beers', 'Rayyan', 'Tax','Soccer','Commercial']

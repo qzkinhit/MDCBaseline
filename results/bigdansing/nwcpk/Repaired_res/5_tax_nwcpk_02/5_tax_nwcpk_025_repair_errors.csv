@@ -1,4 +1,10 @@
 Attribute,Index,Dirty Value,Cleaned Value,Clean Value
+<<<<<<< HEAD
+fname,92,sonu,0,sonu
+fname,7224,hussein,0,hussein
+fname,7486,eugen,0,eugen
+fname,13219,renwei,0,renwei
+=======
 fname,77,gudala,0,gudala
 fname,92,sonu,0,sonu
 fname,1852,ferroudja,0,ferroudja
@@ -10,10 +16,17 @@ fname,9297,parimal,0,parimal
 fname,9554,afzal,0,afzal
 fname,13219,renwei,0,renwei
 areacode,60,203,0,203
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 areacode,71,603,0,603
 areacode,162,787,0,787
 areacode,1504,401,0,401
 areacode,2066,802,0,802
+<<<<<<< HEAD
+areacode,3017,207,0,207
+areacode,3021,781,0,781
+areacode,3491,603,0,603
+areacode,11015,978,0,978
+=======
 areacode,2316,508,0,508
 areacode,3017,207,0,207
 areacode,3021,781,0,781
@@ -23,11 +36,40 @@ areacode,7548,802,0,802
 areacode,9264,860,0,860
 areacode,11015,978,0,978
 areacode,11077,860,0,860
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 areacode,14863,617,0,617
 areacode,15240,802,0,802
 areacode,15562,207,0,207
 areacode,17525,207,0,207
 areacode,19714,939,0,939
+<<<<<<< HEAD
+city,3080,oakland,boylston,oakland
+city,3083,south mountain,boylston,south mountain
+city,3084,brohard,boylston,brohard
+city,5322,joliet,boylston,joliet
+city,5323,landisville,boylston,landisville
+city,5324,des moines,boylston,des moines
+state,71,nj,nh,nj
+state,3017,ar,me,ar
+state,3021,ar,ma,ar
+state,3080,or,ma,or
+state,3082,ct,ma,ct
+state,3084,wv,ma,wv
+state,3086,sd,ma,sd
+state,5322,mt,ma,mt
+state,5324,ia,ma,ia
+zip,0,1907,0,1907
+zip,162,676,0,676
+zip,649,4448,0,4448
+zip,1022,2802,0,2802
+zip,1266,2826,0,2826
+zip,1427,1985,0,1985
+zip,1504,2879,0,2879
+zip,1796,2858,0,2858
+zip,2088,3756,0,3756
+zip,2384,2841,0,2841
+zip,2863,703,0,703
+=======
 city,1022,albion,alblion,albion
 city,1426,shelburne,shelurne,shelburne
 city,2863,aguas buenas,aguasg buenas,aguas buenas
@@ -67,6 +109,7 @@ zip,2110,6422,0,6422
 zip,2384,2841,0,2841
 zip,2645,6525,0,6525
 zip,2864,6183,0,6183
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 zip,3080,1907,0,1907
 zip,3081,1907,0,1907
 zip,3082,1907,0,1907
@@ -75,6 +118,13 @@ zip,3084,1907,0,1907
 zip,3085,1907,0,1907
 zip,3086,1907,0,1907
 zip,3107,963,0,963
+<<<<<<< HEAD
+zip,3828,2813,0,2813
+zip,3931,704,0,704
+zip,4114,3581,0,3581
+zip,4411,1907,0,1907
+zip,4440,926,0,926
+=======
 zip,3744,6907,0,6907
 zip,3828,2813,0,2813
 zip,3865,6282,0,6282
@@ -85,6 +135,7 @@ zip,4440,926,0,926
 zip,4696,6702,0,6702
 zip,4915,6234,0,6234
 zip,5119,5648,0,5648
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 zip,5322,1907,0,1907
 zip,5323,1907,0,1907
 zip,5324,1907,0,1907
@@ -92,6 +143,29 @@ zip,5325,1907,0,1907
 zip,5326,1907,0,1907
 zip,5327,1907,0,1907
 zip,5328,1907,0,1907
+<<<<<<< HEAD
+zip,5738,936,0,936
+zip,6001,4781,0,4781
+zip,6494,3603,0,3603
+zip,7700,723,0,723
+zip,8866,962,0,962
+zip,9324,2891,0,2891
+zip,11015,2562,0,2562
+zip,12122,5071,0,5071
+zip,13604,605,0,605
+zip,13881,2858,0,2858
+zip,14762,2812,0,2812
+zip,14857,2889,0,2889
+zip,16659,4262,0,4262
+zip,18213,2892,0,2892
+zip,19058,605,0,605
+maritalstatus,5738,m,0,m
+maritalstatus,7700,m,0,m
+maritalstatus,8866,m,0,m
+haschild,3828,y,0,y
+marriedexemp,3082,24500,7150,24500
+marriedexemp,3085,318,7150,318
+=======
 zip,5391,6375,0,6375
 zip,5463,6902,0,6902
 zip,5467,6610,0,6610
@@ -125,3 +199,4 @@ marriedexemp,2864,24500,2400,24500
 marriedexemp,3082,24500,7150,24500
 marriedexemp,3084,4000,7150,4000
 marriedexemp,5327,6600,7150,6600
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb

@@ -8,16 +8,16 @@ datasets=(
 #     "1_hospitals:index:Score:Data/1_hospitals/noise_with_correct_primary_key:Data/1_hospitals/clean_index.csv:Data/1_hospitals/dc_rules_dc_holoclean.txt"
 #     //"2_flights:index::Data/2_flights/noise_with_correct_primary_key:Data/2_flights/clean_index.csv:Data/2_flights/dc_rules_holoclean.txt"
 #     "3_beers:id:abv ibu:Data/3_beers/noise_with_correct_primary_key:Data/3_beers/clean.csv:Data/3_beers/dc_rules_holoclean.txt"
-    #  "4_rayyan:index::Data/4_rayyan/noise_with_correct_primary_key:Data/4_rayyan/noise_with_correct_primary_key/clean_index.csv:Data/4_rayyan/dc_rules_holoclean.txt"
-    "5_tax:tno:rate:Data/5_tax/subset_tax_3k/noise_with_correct_primary_key:Data/5_tax/subset_tax_3k/subset_tax_3k_clean_index.csv:Data/5_tax/dc_rules_holoclean.txt"
+     "4_rayyan:index::Data/4_rayyan/noise_with_correct_primary_key:Data/4_rayyan/noise_with_correct_primary_key/clean_index.csv:Data/4_rayyan/dc_rules_holoclean.txt"
+#     "5_tax:tno:rate:Data/5_tax/subset_tax_10k/noise_with_correct_primary_key:Data/5_tax/subset_tax_10k/tax_10k_clean_id.csv:Data/5_tax/dc_rules_holoclean.txt"
     # "5_tax_50k:tno:rate:Data/5_tax/tax_50k/noise_with_correct_primary_key:Data/5_tax/tax_50k/tax_50k_clean_id.csv:Data/5_tax/dc_rules_holoclean.txt"
     # "5_tax_200k:tno:rate:Data/5_tax/tax_200k/noise_with_correct_primary_key:Data/5_tax/tax_200k/tax_200k_clean_id.csv:Data/5_tax/dc_rules_holoclean.txt"
-    "6_soccer:index::Data/6_soccer/subset_directly_extract_soccer_3k/noise_with_correct_primary_key:Data/6_soccer/subset_directly_extract_soccer_3k/subset_directly_extract_soccer_3k_clean_index.csv:Data/6_soccer/dc_rules_holoclean.txt"
+#     "6_soccer:index::Data/6_soccer/noise_with_correct_primary_key:Data/6_soccer/clean_index.csv:Data/6_soccer/dc_rules_holoclean.txt"
 )
 
 # 定义错误比例集合
-error_ratios=("0.25" "0.5" "0.75" "1" "1.25" "1.5" "1.75" "2")
-
+#error_ratios=("0.25" "0.5" "0.75" "1" "1.25" "1.5" "1.75" "2")
+error_ratios=("1" "1.25" "1.5" "1.75" "2")
 # 创建日志目录
 log_dir="logs/holistic_nwcpk"
 mkdir -p "${log_dir}"

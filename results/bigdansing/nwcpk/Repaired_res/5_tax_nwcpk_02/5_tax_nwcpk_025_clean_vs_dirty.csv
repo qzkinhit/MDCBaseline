@@ -1,14 +1,35 @@
 Attribute,Index,Clean Value,Dirty Value
+<<<<<<< HEAD
+gender,92,m,empty
+gender,1911,m,empty
+=======
 gender,77,f,lf
 gender,92,m,empty
 gender,1852,f,nf
 gender,1911,m,empty
 gender,2429,m,empty
 gender,3932,m,empty
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 gender,5631,f,zf
 gender,7522,f,empty
 gender,8097,f,empty
 gender,8759,f,***
+<<<<<<< HEAD
+gender,9494,f,***
+gender,9554,f,pf
+gender,13219,m,empty
+gender,17003,m,um
+gender,17289,m,pm
+gender,19868,f,empty
+city,649,howland,hwland
+city,2384,newport,empty
+city,6297,taftsville,tacftsville
+city,6494,charlestown,empty
+city,12122,south woodstock,sdouth woodstock
+city,16659,north jay,noth jay
+city,17147,albion,alblion
+city,17666,aguas buenas,aguasg buenas
+=======
 gender,9297,m,empty
 gender,9494,f,***
 gender,9554,f,pf
@@ -36,6 +57,7 @@ city,16712,new fairfield,newfairfield
 city,17147,albion,alblion
 city,17666,aguas buenas,aguasg buenas
 city,17777,chaplin,empty
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 city,18213,west kingston,empty
 city,19058,aguadilla,guadilla
 city,19764,aguirre,augirre
@@ -43,16 +65,27 @@ state,162,pr,empty
 state,1504,ri,empty
 state,2066,vt,t
 state,3491,nh,empty
+<<<<<<< HEAD
+state,11015,ma,empty
+=======
 state,4137,nj,j
 state,7548,vt,t
 state,9264,ct,empty
 state,11015,ma,empty
 state,11077,ct,tc
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 state,14863,ma,mja
 state,15240,vt,t
 state,15562,me,empty
 state,17525,me,em
 state,19714,pr,rp
+<<<<<<< HEAD
+singleexemp,1266,0,e0
+singleexemp,2088,0,empty
+singleexemp,2349,0,empty
+singleexemp,7326,0,empty
+singleexemp,7503,0,empty
+=======
 singleexemp,648,12750,1250
 singleexemp,1182,3300,300
 singleexemp,1266,0,e0
@@ -62,12 +95,19 @@ singleexemp,5119,3300,300
 singleexemp,7326,0,empty
 singleexemp,7503,0,empty
 singleexemp,7583,1000,1000***
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 singleexemp,7700,0,***
 singleexemp,8866,0,empty
 singleexemp,11294,2850,250
 singleexemp,12496,3575,375
 singleexemp,13068,0,empty
 singleexemp,14114,0,empty
+<<<<<<< HEAD
+marriedexemp,4440,0,empty
+marriedexemp,4970,0,empty
+marriedexemp,5738,0,empty
+marriedexemp,6001,5700,700
+=======
 singleexemp,15639,0,empty
 marriedexemp,202,0,***
 marriedexemp,3146,24500,2t4500
@@ -105,14 +145,18 @@ marriedexemp,16771,24500,2400
 marriedexemp,17095,24500,25400
 marriedexemp,17144,24500,245z00
 marriedexemp,17205,24500,2450o0
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 childexemp,1342,0,empty
 childexemp,1796,0,empty
 childexemp,2136,0,empty
 childexemp,3828,0,empty
+<<<<<<< HEAD
+=======
 childexemp,5110,0,***
 childexemp,5725,0,a0
 childexemp,8301,1500,150
 childexemp,12667,0,v0
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
 childexemp,13604,0,k0
 childexemp,13815,0,l0
 childexemp,13881,0,empty

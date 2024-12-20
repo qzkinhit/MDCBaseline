@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+rep_right:94
+rec_right:92
+wrong_cells:743
+prec:0.18540433925045655
+rec:0.12382234185731845
+wrong2right:92
+right2right:2
+wrong2wrong:38
+right2wrong:375
+proportion of clean value in candidates:0.1873767258382643
+proportion of clean value in candidates and selected correctly:0.9894736842105263
+=======
 rep_right:119
 rec_right:118
 wrong_cells:920
@@ -9,3 +22,4 @@ wrong2wrong:45
 right2wrong:713
 proportion of clean value in candidates:0.13683010262257697
 proportion of clean value in candidates and selected correctly:0.9916666666666667
+>>>>>>> 7bf0206f7ddcf282baf2ab902c08e6483a4ce7cb
