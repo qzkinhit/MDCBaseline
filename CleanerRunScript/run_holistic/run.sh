@@ -12,7 +12,7 @@ commands=(
     "python3 CleanerRunScript/run_holistic/run_holistic_base.py --task_name 6_soccer_ori --rule_path Data/6_soccer/dc_rules_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/6_soccer/subset_dirty_index_10k.csv --clean_path Data/6_soccer/subset_clean_index_10k.csv --output_path results/holistic"
 )
 
-#python CleanerRunScript/run_holistic/run_holistic_base.py --task_name 5_tax_ori --rule_path Data/5_tax/dc_rules_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/5_tax/subset_dirty_index_10k.csv --clean_path Data/5_tax/subset_clean_index_10k.csv --output_path results/holistic --mse_attributes rate
+#python CleanerRunScript/run_holistic/run_holistic_base.py --task_name 5_tax_ori --rule_path Data/5_tax/dc_rules_holoclean.txt --onlyed 0 --perfected 0 --dirty_path Data/5_tax/subset_directly_dirty_index_10k.csv --clean_path Data/5_tax/subset_directly_clean_index_10k.csv --output_path results/holistic --mse_attributes rate
 
 # 定义日志文件名列表
 log_files=(

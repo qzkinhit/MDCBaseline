@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 读取干净数据子集和脏数据
-clean_data_path = 'subset_clean_index_10k.csv'
+clean_data_path = 'subset_directly_clean_index_10k.csv'
 dirty_data_path = 'noise_with_correct_primary_key/dirty_mixed_2/dirty_soccer_mix_2.csv'
 
 clean_data = pd.read_csv(clean_data_path)

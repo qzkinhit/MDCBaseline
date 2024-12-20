@@ -13,7 +13,7 @@ datasets=(
     "5_tax:tno:rate:Data/5_tax/subset_tax_5k/noise_with_correct_primary_key:Data/5_tax/subset_tax_5k/subset_tax_5k_clean_index.csv:Data/5_tax/dc_rules_holoclean.txt"
     # "5_tax_50k:tno:rate:Data/5_tax/tax_50k/noise_with_correct_primary_key:Data/5_tax/tax_50k/tax_50k_clean_id.csv:Data/5_tax/dc_rules_holoclean.txt"
     # "5_tax_200k:tno:rate:Data/5_tax/tax_200k/noise_with_correct_primary_key:Data/5_tax/tax_200k/tax_200k_clean_id.csv:Data/5_tax/dc_rules_holoclean.txt"
-    # "6_soccer:index::Data/6_soccer/subset_soccer_10k/noise_with_correct_primary_key:Data/6_soccer/subset_soccer_10k/subset_clean_index_10k.csv:Data/6_soccer/dc_rules_holoclean.txt"
+    # "6_soccer:index::Data/6_soccer/subset_soccer_10k/noise_with_correct_primary_key:Data/6_soccer/subset_soccer_10k/subset_directly_clean_index_10k.csv:Data/6_soccer/dc_rules_holoclean.txt"
 )
 
 # 定义错误比例集合
