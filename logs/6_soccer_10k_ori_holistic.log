@@ -1,29 +1,7 @@
 没有指定错误比例，仅进行原数据集的空值替换，不添加错误
-已将注入错误的文件保存到: Data/6_soccer/clean_index.csv
+已将注入错误的文件保存到: Data/6_soccer/subset_clean_index_10k.csv
 没有指定错误比例，仅进行原数据集的空值替换，不添加错误
-已将注入错误的文件保存到: Data/6_soccer/dirty_index.csv
-Running holistic with dirty file: Data/6_soccer/dirty_index.csv
-  0%|          | 0/6 [00:00<?, ?it/s]===============================================
-Results saved to results/holistic/Repaired_res/6_soccer_or/repaired_6_soccer_ori.csv
-holistic finished in 3968.0958256721497 seconds.
-测评性能开始：
-Traceback (most recent call last):
-  File "CleanerRunScript/run_holistic/run_holistic_base.py", line 171, in <module>
-    main()
-  File "CleanerRunScript/run_holistic/run_holistic_base.py", line 112, in main
-    missing_value_representation='empty'
-  File "/home/qzk/MDCBaseline/CleanerRunScript/run_holistic/../../util/insert_null.py", line 21, in inject_missing_values
-    df = pd.read_csv(csv_file)
-  File "/home/qzk/MDCBaseline/baran_env_2/lib/python3.6/site-packages/pandas/io/parsers.py", line 688, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/qzk/MDCBaseline/baran_env_2/lib/python3.6/site-packages/pandas/io/parsers.py", line 454, in _read
-    parser = TextFileReader(fp_or_buf, **kwds)
-  File "/home/qzk/MDCBaseline/baran_env_2/lib/python3.6/site-packages/pandas/io/parsers.py", line 948, in __init__
-    self._make_engine(self.engine)
-  File "/home/qzk/MDCBaseline/baran_env_2/lib/python3.6/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
-    self._engine = CParserWrapper(self.f, **self.options)
-  File "/home/qzk/MDCBaseline/baran_env_2/lib/python3.6/site-packages/pandas/io/parsers.py", line 2010, in __init__
-    self._reader = parsers.TextReader(src, **kwds)
-  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
-  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
-FileNotFoundError: [Errno 2] No such file or directory: 'results/holistic/Repaired_res/6_soccer_or/repaired_6_soccer_ori.csv'
+已将注入错误的文件保存到: Data/6_soccer/subset_dirty_index_10k.csv
+Running holistic with dirty file: Data/6_soccer/subset_dirty_index_10k.csv
+  0%|          | 0/6 [00:00<?, ?it/s] 17%|█▋        | 1/6 [00:28<02:21, 28.23s/it] 33%|███▎      | 2/6 [00:54<01:50, 27.73s/it] 50%|█████     | 3/6 [01:23<01:24, 28.00s/it] 67%|██████▋   | 4/6 [01:46<00:53, 26.61s/it] 83%|████████▎ | 5/6 [02:14<00:26, 26.80s/it]100%|██████████| 6/6 [02:45<00:00, 28.11s/it]
+  0%|                                                               | 0/5 [00:00<?, ?it/s] 20%|██████████▏                                        | 1/5 [58:15<3:53:01, 3495.38s/it] 40%|███████████████████▌                             | 2/5 [1:55:27<2:53:49, 3476.38s/it] 60%|█████████████████████████████▍                   | 3/5 [2:52:38<1:55:25, 3462.79s/it]

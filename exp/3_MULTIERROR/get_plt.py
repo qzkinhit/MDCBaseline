@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import random
 import pandas as pd
 from collections import defaultdict
 

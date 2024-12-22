@@ -9,7 +9,7 @@ source bin/activate
 ## 目录
 1. [Horizon](#horizon)
 2. [Activeclean](#activeclean)
-3. [Raha & Baran](#raha--baran)
+3. [Raha & Baran](#rascha--baran)
 4. [BoostClean](#boostclean)
 5. [CPClean](#cpclean)
 6. [Holistic](#holistic)
