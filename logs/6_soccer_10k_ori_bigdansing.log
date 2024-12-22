@@ -1,0 +1,11 @@
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/6_soccer/subset_clean_index_10k.csv
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/6_soccer/subset_dirty_index_10k.csv
+Running bigdansing with dirty file: Data/6_soccer/subset_dirty_index_10k.csv
+Start Blocking
+
+  0%|                                                               | 0/6 [00:00<?, ?it/s]
+ 17%|█████████▏                                             | 1/6 [00:03<00:19,  3.93s/it]
+ 33%|██████████████████▎                                    | 2/6 [00:07<00:15,  3.94s/it]
+ 50%|███████████████████████████▌                           | 3/6 [00:12<00:12,  4.11s/it]
