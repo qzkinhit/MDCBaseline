@@ -1,0 +1,6 @@
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/6_soccer/subset_directly_clean_index_6k.csv
+没有指定错误比例，仅进行原数据集的空值替换，不添加错误
+已将注入错误的文件保存到: Data/6_soccer/subset_directly_dirty_index_6k.csv
+Running holistic with dirty file: Data/6_soccer/subset_directly_dirty_index_6k.csv
+  0%|          | 0/6 [00:00<?, ?it/s]
