@@ -2,6 +2,8 @@
 # 环境激活
 cd ~/MDCBaseline/baseline_env
 source bin/activate
+cd ..
+./CleanerRunScript/run_horizon/run.sh
 
 
 本仓库包含了对多个数据清洗系统的复现工作，这些系统描述于各类研究论文中。目标是复现这些系统，并在受控环境中验证其有效性。

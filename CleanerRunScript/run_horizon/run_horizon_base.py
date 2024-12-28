@@ -43,20 +43,20 @@ def main():
         os.makedirs(stra_path)
     # 执行数据清洗操作，获取修复结果和脏单元格
     # 替换数据中的空值，统一转换为empty
-    inject_missing_values(
-        csv_file=args.clean_path,
-        output_file=args.clean_path,
-        attributes_error_ratio=None,
-        missing_value_in_ori_data='NULL',
-        missing_value_representation='empty'
-    )
-    inject_missing_values(
-        csv_file=args.dirty_path,
-        output_file=args.dirty_path,
-        attributes_error_ratio=None,
-        missing_value_in_ori_data='NULL',
-        missing_value_representation='empty'
-    )
+    # inject_missing_values(
+    #     csv_file=args.clean_path,
+    #     output_file=args.clean_path,
+    #     attributes_error_ratio=None,
+    #     missing_value_in_ori_data='NULL',
+    #     missing_value_representation='empty'
+    # )
+    # inject_missing_values(
+    #     csv_file=args.dirty_path,
+    #     output_file=args.dirty_path,
+    #     attributes_error_ratio=None,
+    #     missing_value_in_ori_data='NULL',
+    #     missing_value_representation='empty'
+    # )
     # 记录开始时间
     start_time = time.time()
     print(f"Running Horizon with dirty file: {args.dirty_path}")
