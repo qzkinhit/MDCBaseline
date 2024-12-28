@@ -14,7 +14,7 @@ def injected_error_rates(error_injection_rates, datasets, cell_error_rates, entr
     :param cell_error_rates: 各数据集在不同注入率下的单元格错误率（二维列表）
     :param entry_error_rates: 各数据集在不同注入率下的数据条目错误率（二维列表）
     """
-    fig, ax1 = plt.subplots(figsize=(15, 10))
+    fig, ax1 = plt.subplots(figsize=(18, 10))
     markers = ['o', 's', 'D', '^', 'v', 'P', '*']  # 点形状
     colors = plt.cm.viridis(np.linspace(0, 1, len(datasets)))  # 各数据集的颜色
 

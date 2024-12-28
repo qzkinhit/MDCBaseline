@@ -18,11 +18,11 @@ def plot_metrics_with_limits(error_rates, data_sets, systems, metrics, performan
         "F1 Score": "f1_performance.eps",
         "EDR": "edr_performance.eps",
         "R-EDR": "redr_performance.eps",
-        "Time per 100 Records(s)": "time_performance.eps"
+        "CTR": "time_performance.eps"
     }
     # 指标的限制条件
     limits = {
-        "Time per 100 Records(s)": {"upper": 70,"upperSYS":True},      # Time per 100 Records(s)只限制上界
+        "CTR": {"upper": 70,"upperSYS":True},      # Time per 100 Records(s)只限制上界
         "EDR": {"lower": -1.5, "upper": 1, "upperSYS":False},  # EDR限制下界为-1.5，上界为1.0
         "R-EDR": {"lower": -1.5,"upper": 1,"upperSYS":False}  # REDR限制下界为-1.5，上界为1.0
     }
@@ -112,16 +112,16 @@ def plot_metrics_with_limits(error_rates, data_sets, systems, metrics, performan
         )
 
         # 调整布局，避免重叠
-        plt.tight_layout(rect=[0, 0.05, 1, 0.95])  # 调整底部边距
-        fig.text(
-            0.5,
-            0.02,
-            "* Systems except "
-            + r"$\bf{UniClean}$ and $\bf{Horizon}$ unable to handle full 200k $\bf{Tax}$ and $\bf{Soccer}$ dataset in 24 hour. "
-              "\n For those baseline systems e evaluated using segmented lower than 10k batch inputs.",
-            ha="center",
-            fontsize=15
-        )
+        # plt.tight_layout(rect=[0, 0.05, 1, 0.95])  # 调整底部边距
+        # fig.text(
+        #     0.5,
+        #     0.02,
+        #     "* Systems except "
+        #     + r"$\bf{UniClean}$ and $\bf{Horizon}$ unable to handle full 200k $\bf{Tax}$ and $\bf{Soccer}$ dataset in 24 hour. "
+        #       "\n For those baseline systems e evaluated using segmented lower than 10k batch inputs.",
+        #     ha="center",
+        #     fontsize=15
+        # )
         plt.savefig(metric+'.png', format="png")
         # plt.show()
         plt.savefig(name[metric], format="eps")
@@ -135,7 +135,7 @@ if __name__ == "__main__":
     # 错误注入率
     error_rates = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]
     # 指标名称
-    metrics = ["F1 Score", "EDR", "R-EDR", "Time per 100 Records(s)"]
+    metrics = ["F1 Score", "EDR", "R-EDR", "CTR"]
 
 
     def convert_to_performance_data(csv_path):
@@ -146,7 +146,7 @@ if __name__ == "__main__":
         performance_data = defaultdict(list)
         current_dataset = None
         current_system = None
-        metric_map = {"F1 Score": 0, "EDR": 1, "Hybrid Distance": 2, "R-EDR": 3, "Time per 100 Records(s)": 4}
+        metric_map = {"F1 Score": 0, "EDR": 1, "Hybrid Distance": 2, "R-EDR": 3, "CTR": 4}
         datasets_order = []
         system_order = []
 

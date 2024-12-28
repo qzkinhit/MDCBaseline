@@ -68,13 +68,13 @@ def plot_radial_chart(datasets, metrics, scales, data_with_preparation, data_wit
     labels = []
     for dataset, values in data_with_norm.items():
         for metric in metrics:
-            labels.append(f"{dataset} {metric}")
+            labels.append(f"{metric}")
     ax.set_theta_offset(np.pi / 2)
     ax.set_theta_direction(-1)
     ax.set_thetagrids(
         np.degrees(angles[:-1]),
         labels,
-        fontsize=13,
+        fontsize=19,
         weight='bold',
         position=(-0.01,-0.03)
     )
@@ -91,7 +91,7 @@ def plot_radial_chart(datasets, metrics, scales, data_with_preparation, data_wit
 
     # 颜色图例（表示数据集）
     color_handles = [plt.Line2D([0], [0], color=color, lw=2, label=dataset) for color, dataset in zip(colors, datasets)]
-    legend1 = fig.legend(handles=color_handles, loc='upper left', bbox_to_anchor=(0, 0.98), title="Dataset",
+    legend1 = fig.legend(handles=color_handles, loc='upper left', bbox_to_anchor=(0, 0.98), title="",
                          fontsize=20)
 
     # # 线型图例（表示是否使用清洗准备策略）

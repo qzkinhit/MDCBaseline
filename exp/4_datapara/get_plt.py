@@ -50,10 +50,10 @@ def plot_radial_chart(datasets, metrics, scales, data_with_preparation, data_wit
         ax.plot(dataset_angles, values_without, color=colors[i], linewidth=2, linestyle='dashed')
 
     # 设置每个点的标签
-    labels = [f"{dataset} {metric}" for dataset in datasets for metric in metrics]
+    labels = [f"{metric}" for dataset in datasets for metric in metrics]
     ax.set_theta_offset(np.pi / 2)
     ax.set_theta_direction(-1)
-    ax.set_thetagrids(np.degrees(angles[:-1]), labels, fontsize=15)
+    ax.set_thetagrids(np.degrees(angles[:-1]), labels, weight='bold', fontsize=18)
 
     # 颜色图例（表示数据集）
     # color_handles = [plt.Line2D([0], [0], color=color, lw=2, label=dataset) for color, dataset in zip(colors, datasets)]
