@@ -63,7 +63,7 @@ def BuildFDPatternGraph(D_path, constrains_path):
     cnt = 0
     for v in g:
         for w in v.getConnections():
-            print("( %s , %s ), %f" % (v.getId(), w.getId(), v.connectedTo[w]))
+            # print("( %s , %s ), %f" % (v.getId(), w.getId(), v.connectedTo[w]))
             cnt += 1
 
     return g  # 返回构建的图对象
@@ -210,10 +210,10 @@ def BuildSCCGraghAndSort(constrains_path):
             if indegree[i] == 0:
                 q.put(i)
 
-    # print(scc)
-    # print(ret)
-    # print(order)
-    # print(tar)
+    print(scc)
+    print(ret)
+    print(order)
+    print(tar)
     return order, tar, scc, G  # 返回拓扑排序结果、映射字典、强连通分量、原始图
 
 
