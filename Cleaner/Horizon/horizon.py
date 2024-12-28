@@ -369,7 +369,7 @@ def GeneratePatternPreservingRepairs(dirty_path, constraints_path, gt_wrong_cell
             pattern_expressions.append(Rtable)
             rtable_set.append(Rtable)
 
-        print(rtable_set)
+        # print(rtable_set)
 
     return pattern_expressions  # 返回模式表达式（修复后的数据）
 
