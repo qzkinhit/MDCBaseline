@@ -210,10 +210,10 @@ def BuildSCCGraghAndSort(constrains_path):
             if indegree[i] == 0:
                 q.put(i)
 
-    print(scc)
-    print(ret)
-    print(order)
-    print(tar)
+    # print(scc)
+    # print(ret)
+    # print(order)
+    # print(tar)
     return order, tar, scc, G  # 返回拓扑排序结果、映射字典、强连通分量、原始图
 
 
@@ -348,11 +348,11 @@ def GeneratePatternPreservingRepairs(dirty_path, constraints_path, gt_wrong_cell
                 for v in g.vertList[Lval].getConnections():
                     # if v.id=='empty':
                     #     continue
-                    print(v.id + "," + str(g.vertList[Lval].connectedQLT[v]))
+                    # print(v.id + "," + str(g.vertList[Lval].connectedQLT[v]))
                     if v.attr == OrderedFDs[j].right and g.vertList[Lval].connectedQLT[v] > maxedge:
                         maxedge = g.vertList[Lval].connectedQLT[v]
                         maxp = v.id  # 记录修复值
-                        print('maxp', maxp)
+                        # print('maxp', maxp)
 
                 # 如果找到合适的修复，更新右侧属性
                 if maxedge != -1 and maxp != 'empty':
