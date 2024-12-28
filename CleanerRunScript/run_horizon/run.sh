@@ -4,7 +4,7 @@
 
 # 定义horizon命令列表，并指定各数据集的mse_attributes，注意我这里在服务器上运行，所以是python3开头，你们本地可能只能识别python
 horizon_commands=(
-    "python3 CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path Data/1_hospitals/dirty_index.csv --rule_path Data/1_hospitals/dc_rules-validate-fd-horizon.txt --clean_path Data/1_hospitals/clean_index.csv --task_name 1_hospital_ori --output_path results/horizon/ --index_attribute index --mse_attributes Score"
+#    "python3 CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path Data/1_hospitals/dirty_index.csv --rule_path Data/1_hospitals/dc_rules-validate-fd-horizon.txt --clean_path Data/1_hospitals/clean_index.csv --task_name 1_hospital_ori --output_path results/horizon/ --index_attribute index --mse_attributes Score"
     #"python3 CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path Data/2_flights/dirty_index.csv --rule_path Data/2_flights/dc_rules-validate-fd-horizon.txt --clean_path Data/2_flights/clean_index.csv --task_name 2_flights_ori --output_path results/horizon/ --index_attribute index"
     #"python3 CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path Data/3_beers/dirty_index.csv --rule_path Data/3_beers/dc_rules-validate-fd-horizon.txt --clean_path Data/3_beers/clean_index.csv --task_name 3_beers_ori --output_path results/horizon/ --index_attribute id --mse_attributes abv ibu"
     #"python3 CleanerRunScript/run_horizon/run_horizon_base.py --dirty_path Data/4_rayyan/dirty_index.csv --rule_path Data/4_rayyan/dc_rules-validate-fd-horizon.txt --clean_path Data/4_rayyan/clean_index.csv --task_name 4_rayyan_ori --output_path results/horizon/ --index_attribute index"
@@ -18,7 +18,7 @@ horizon_commands=(
 
 # 定义日志文件名列表
 log_files=(
-    "logs/1_hospital_ori_horizon.log"
+#    "logs/1_hospital_ori_horizon.log"
     #"logs/2_flights_ori_horizon.log"
     #"logs/3_beers_ori_horizon.log"
     #"logs/4_rayyan_ori_horizon.log"
