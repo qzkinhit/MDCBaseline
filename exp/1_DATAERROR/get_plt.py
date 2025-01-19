@@ -14,15 +14,15 @@ def injected_error_rates(error_injection_rates, datasets, cell_error_rates, entr
     :param cell_error_rates: 各数据集在不同注入率下的单元格错误率（二维列表）
     :param entry_error_rates: 各数据集在不同注入率下的数据条目错误率（二维列表）
     """
-    fig, ax1 = plt.subplots(figsize=(18, 10))
+    fig, ax1 = plt.subplots(figsize=(14, 10))
     markers = ['o', 's', 'D', '^', 'v', 'P', '*']  # 点形状
     colors = plt.cm.viridis(np.linspace(0, 1, len(datasets)))  # 各数据集的颜色
 
     # 设置通用字体大小和线宽
     marker_size = 25
     line_width = 5
-    label_fontsize = 20
-    legend_fontsize = 20
+    label_fontsize = 35
+    legend_fontsize = 30
 
     # 绘制单元格错误率（虚线）
     for i, dataset in enumerate(datasets):
@@ -46,8 +46,8 @@ def injected_error_rates(error_injection_rates, datasets, cell_error_rates, entr
     # 设置轴标签、标题等
     ax1.set_xlabel("Error Injection Rate (%)", fontsize=label_fontsize)
     ax1.set_ylabel("Error Rate (%)", fontsize=label_fontsize)
-    ax1.tick_params(axis='y', labelsize=16)
-    ax1.tick_params(axis='x', labelsize=16)
+    ax1.tick_params(axis='y', labelsize=25)
+    ax1.tick_params(axis='x', labelsize=25)
     ax1.grid(axis='y', linestyle='--', alpha=0.7)
 
     # 统一比例尺
