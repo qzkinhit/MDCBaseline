@@ -45,16 +45,21 @@ def run_cp_clean(data, model, n_jobs=4, debug_dir=None, restore=False, method="c
     X_train_repairs = np.array([data["X_train_repairs"][m] for m in data["repair_methods"]])
     cleaner = CPClean(K=model["params"]["n_neighbors"], n_jobs=n_jobs, random_state=1)
 
+    cleaner.fit_raw(data["X_train_repairs"]["mean"], data["y_train"])
+    val_acc = cleaner.score(data["X_val"], data["y_val"])
+    test_acc = cleaner.score(data["X_test"], data["y_test"])
+    original_result = {"test_acc_cp": test_acc, "val_acc_cp": val_acc}
+
     #debugger = Debugger(data, model, utils.makedir([debug_dir, method]))
 
-    cleaner.fit(X_train_repairs, data["y_train"], data["X_val"], data["y_val"], 
-                gt=data["X_train_gt"], X_train_mean=data["X_train_repairs"]["mean"], 
+    cleaner.fit(X_train_repairs, data["y_train"], data["X_val"], data["y_val"],
+                gt=data["X_train_gt"], X_train_mean=data["X_train_repairs"]["mean"],
                 restore=restore, method=method, sample_size=sample_size)
 
     val_acc = cleaner.score(data["X_val"], data["y_val"])
     test_acc = cleaner.score(data["X_test"], data["y_test"])
     cp_result = {"test_acc_cp": test_acc, "val_acc_cp": val_acc}
-    return cp_result
+    return original_result, cp_result
 
 def run_random(data, model, n_jobs=4, debug_dir=None, seed=1):
     X_train_repairs = np.array([data["X_train_repairs"][m] for m in data["repair_methods"]])
