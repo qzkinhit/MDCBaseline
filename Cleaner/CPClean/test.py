@@ -18,14 +18,14 @@ model = {
     "params": {"n_neighbors":3}
 }
 
-# todo: 需要配置的参数 info val_size dataset_name version
+# 需要配置的参数 info val_size dataset_name version
 info = {
-    "label": "class", # name of label column
+    "label": "labels", # name of label column
 }
 val_size = 100
 
-dataset_name = "cancer"
-version = "_systematic_25"
+dataset_name = "smartfactory"
+version = "_systematic_10"
 data_clean = "D:\PyCharm\PycharmProjects\MDCBaseline\Data\\" + dataset_name + "\\" + dataset_name + "_data_vectorized.csv"
 data_dirty = "D:\PyCharm\PycharmProjects\MDCBaseline\Data\\" + dataset_name + "\\explicit_for_CPClean\\" + dataset_name + version + ".csv"
 
@@ -46,5 +46,18 @@ boost_results = run_boost_clean(data, model)
 original_result, cp_result = run_cp_clean(data, model, n_jobs=1)
 
 print("clean before: ", original_result)
-print("boostclean : ", boost_results)
+print("boostclean after: ", boost_results)
 print("cpclean after: ", cp_result)
+
+
+result_path = "D:\PyCharm\PycharmProjects\MDCBaseline\\results\\"
+file_boost = result_path + "boostclean\\" + dataset_name + "\\" + dataset_name + version + "_output.txt"
+file_cp = result_path + "cpclean\\" + dataset_name + "\\" + dataset_name + version + "_output.txt"
+
+with open(file_boost, 'w') as file:
+    file.write("clean before: " + str(original_result))
+    file.write("\nboostclean after: " + str(boost_results))
+
+with open(file_cp, 'w') as file:
+    file.write("clean before: " + str(original_result))
+    file.write("\ncpclean after: " + str(cp_result))
