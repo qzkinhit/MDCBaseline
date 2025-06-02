@@ -34,7 +34,12 @@ def plot_metrics_3x1(error_rates, data_sets, systems, metrics, performance_data)
         # "R-EDR":    "redr_performance.eps",
         "Hybrid Distance":      "hd_performance.eps"
     }
-
+    name_dict = {
+        "F1 Score": "(b1) F1 Score",
+        "EDR":      "(b2) EDR",
+        # "R-EDR":    "redr_performance.eps",
+        "Hybrid Distance":      "(b3) Hybrid Distance"
+    }
     # 设定针对各指标的显示上下限（如果有）
     limits = {
         "CTR":   {"upper": 40, "upperSYS": True},        # Time per 100 Records(s) 只限制上界
@@ -53,7 +58,7 @@ def plot_metrics_3x1(error_rates, data_sets, systems, metrics, performance_data)
     #   创建外层 2×2 网格
     # ======================
     # figure 比较紧凑，适当减小
-    fig = plt.figure(figsize=(30, 10))
+    fig = plt.figure(figsize=(35, 12))
     # 调整 wspace / hspace 尝试让外层间隔更小
     outer_grid = gridspec.GridSpec(
         1, 3,
@@ -71,7 +76,7 @@ def plot_metrics_3x1(error_rates, data_sets, systems, metrics, performance_data)
         inner_grid = gridspec.GridSpecFromSubplotSpec(
             2, 3,
             subplot_spec=outer_grid[row, col],
-            wspace=0.15,  # 让子图之间横向间隔小一些
+            wspace=0.38,  # 让子图之间横向间隔小一些
             hspace=0.25   # 让子图之间纵向间隔小一些
         )
 
@@ -104,7 +109,7 @@ def plot_metrics_3x1(error_rates, data_sets, systems, metrics, performance_data)
                     color=colors[j],
                     linestyle='-',
                     linewidth=5,   # 线条
-                    markersize=16   # marker
+                    markersize=15   # marker
                 )
 
             # 设置子图标题为对应的数据集名称
@@ -114,17 +119,18 @@ def plot_metrics_3x1(error_rates, data_sets, systems, metrics, performance_data)
             # if i >= 3:
                 # ax.set_xlabel("Error Rate (%)", fontsize=25)
             if i % 6 == 4:
-                ax.set_xlabel("Error Rate (%) \n"+metric, fontsize=30,fontweight='bold')
+                ax.set_xlabel("Error Injection Rate (%) \n"+name_dict[metric], fontsize=30,fontweight='bold')
                 if metric=="CTR":
-                    ax.set_xlabel("Error Rate (%) \n" + metric+"(s)", fontsize=30, fontweight='bold')
+                    ax.set_xlabel("Error Injection Rate (%) \n" + metric+"(s)", fontsize=30, fontweight='bold')
+            ax.tick_params(axis='y', labelsize=20)  # 调整 Y 轴刻度字体大小
             # 只在第一列显示 Y 轴标签
-            if i % 3 == 0:
-                # ax.set_ylabel(metric, fontsize=30)
-                ax.tick_params(axis='y', labelsize=20)  # 调整 Y 轴刻度字体大小
-            # 只为最左侧的子图显示 Y 轴标签和刻度
-            else:
-                # 隐藏中间和右边子图的 Y 轴刻度和标签
-                ax.tick_params(axis='y', which='both', left=False, labelleft=False)
+            # if i % 3 == 0:
+            #     # ax.set_ylabel(metric, fontsize=30)
+            #     ax.tick_params(axis='y', labelsize=20)  # 调整 Y 轴刻度字体大小
+            # # 只为最左侧的子图显示 Y 轴标签和刻度
+            # else:
+            #     # 隐藏中间和右边子图的 Y 轴刻度和标签
+            #     ax.tick_params(axis='y', which='both', left=False, labelleft=False)
 
             ax.grid(True, linestyle='--', alpha=0.6)
 
@@ -185,6 +191,8 @@ def plot_metrics_3x1(error_rates, data_sets, systems, metrics, performance_data)
     # 也可以统一只输出一个大图文件：
     plt.savefig("all_metrics_1*3.eps", format="eps",bbox_inches='tight')
     plt.savefig("all_metrics_1*3.png", dpi=300, format="png",bbox_inches='tight')
+    plt.savefig("all_metrics_1*3.pdf", format="pdf", bbox_inches="tight")
+
     plt.show()
 def plot_metrics_4x1(error_rates, data_sets, systems, metrics, performance_data):
     """
@@ -476,7 +484,7 @@ if __name__ == "__main__":
     # 数据集名称
     data_sets = ["Hospital", "Flights", "Beers", "Rayyan", "Tax", "Soccer"]
     # 系统名称
-    systems = ["Uniclean", "Horizon", "Raha-Baran", "HoloClean", "BigDansing", "Holistic"]
+    systems = ["Uniclean", "Horizon", "Baran", "HoloClean", "BigDansing", "Holistic"]
     # 错误注入率
     error_rates = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]
     # 指标名称

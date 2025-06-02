@@ -69,30 +69,30 @@ def plot_radial_chart(datasets, metrics, scales, data_with_preparation, data_wit
     for dataset, values in data_with_norm.items():
         for metric in metrics:
             labels.append(f"{metric}")
-    ax.set_theta_offset(np.pi / 2)
-    ax.set_theta_direction(-1)
+    ax.set_theta_offset(-np.pi / 2)  # 从 6 点钟方向开始
+    ax.set_theta_direction(-1)  # 顺时针方向绘制
     ax.set_thetagrids(
         np.degrees(angles[:-1]),
         labels,
-        fontsize=19,
+        fontsize=25,
         weight='bold',
         position=(-0.01,-0.03)
     )
 
     # 自定义径向坐标轴的标签（移动到左侧以避免重叠）
     ax.set_rgrids(
-        [0.2, 0.4, 0.6, 0.8, 1.0],
+        [0.2, 0.4, 0.6, 0.8, 0.98],
         labels=['20%', '40%', '60%', '80%', '>100%'],
         angle=180,  # 将径向标签固定在左侧
-        fontsize=15,
+        fontsize=18,
         weight='bold',
         ha='center'  # 居中对齐
     )
 
     # 颜色图例（表示数据集）
     color_handles = [plt.Line2D([0], [0], color=color, lw=2, label=dataset) for color, dataset in zip(colors, datasets)]
-    legend1 = fig.legend(handles=color_handles, loc='upper left', bbox_to_anchor=(0, 0.98), title="",
-                         fontsize=20)
+    legend1 = fig.legend(handles=color_handles, loc='upper left', bbox_to_anchor=(-0.01, 1), title="",
+                         fontsize=25, frameon=True,)
 
     # # 线型图例（表示是否使用清洗准备策略）
     # line_handles = [
@@ -110,10 +110,10 @@ def plot_radial_chart(datasets, metrics, scales, data_with_preparation, data_wit
 
     # 显示图形
     plt.savefig("dataset_scenario.eps", format="eps")
-    plt.savefig("dataset_scenario.pdf", format="pdf")  # 使用PDF格式
+    plt.savefig("dataset_scenario.pdf", format="pdf",bbox_inches="tight")  # 使用PDF格式
     plt.show()
-
-datasets = ['Hospital', 'Flights', 'Beers', 'Rayyan', 'Tax','Soccer','Commercial']
+datasets = ['Hospital', 'Flights', 'Beers', 'Rayyan','Soccer','Commercial','Tax']
+# datasets = ['Hospital', 'Beers', 'Rayyan', 'Tax','Commercial','Flights','Soccer']
 metrics = ['S', 'F1', 'REDR', 'EDR']
 
 scales = [
@@ -129,8 +129,8 @@ data_with_preparation = {
     'Beers': [1 / 1.2966, 0.8373, 0.7730, 0.8329],
     'Rayyan': [1 / 5.2378, 0.9213, 0.8827, 0.9005],
     'Tax': [1 / 0.2525, 0.5944, 0.5524, 0.1005],
-    'Soccer': [1 / 0.0343, 0.5341, 0.3442, 0.3301],
     'Commercial': [1 / 0.03055, 0.8400, 0.7700, 0.7500],
+    'Soccer': [1 / 0.0343, 0.5341, 0.3442, 0.3301],
 }
 # metrics = ['S', 'F1', 'REDR', 'EDR']
 data_without_preparation = {
@@ -139,8 +139,8 @@ data_without_preparation = {
     'Beers': [1 / 2.2966, 0.6400, 0.6773, 0.7329],
     'Rayyan': [1 / 4.2378, 0.8200, 0.7827, 0.6005],
     'Tax': [1 / 40.25, 0.3200, 0.0000, 0.1005],
-    'Soccer': [1 / 0.0643, 0.4100, 0.3342, 0.3201],
     'Commercial': [1 / 22.935, 0.2300, 0.0000, 0.0000],
+    'Soccer': [1 / 0.0643, 0.4100, 0.3342, 0.3201],
 }
 
 

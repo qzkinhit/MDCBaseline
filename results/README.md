@@ -17,13 +17,7 @@
 
 ### Horizon
 **论文**: [Horizon: scalable dependency-driven data cleaning](https://www.vldb.org/pvldb/vol14/p25)
-**可视化结果**: `results/horizon/visualization.png`  
-**说明**: 此结果包含了xxx
-
-### Activeclean
-**论文**: [Activeclean: An interactive data cleaning framework for modern machine learning](https://arxiv.org/pdf/1601.03797.pdf)
-**可视化结果**: `results/activeclean/visualization.png`  
-**说明**: 此结果展示了Activeclean系统在xxx
+**可视化结果**: `results/horizon/visualization.png`
 
 ### Raha & Baran
 **论文**:

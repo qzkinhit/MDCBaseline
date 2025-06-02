@@ -255,15 +255,15 @@ def build_dataset(data_dir, dataset, val_size=1000, test_size=None,
 
     return data_dict, info
 
-def build_real_dataset(data_clean, data_dirty, info, val_size=1000, test_size=None,
+def build_real_dataset(data_dir, dataset, info, val_size=1000, test_size=None, 
                        max_size=None, save_dir=None, random_state=1):
     
     #info_path = os.path.join(data_dir, dataset, "info.json")
     #with open(info_path) as info_data:
     #    info = json.load(info_data)
 
-    data_clean = load_df(data_clean, info)
-    data_dirty = load_df(data_dirty, info)
+    data_clean = load_df(os.path.join(data_dir, dataset, "clean.csv"), info)
+    data_dirty = load_df(os.path.join(data_dir, dataset, "dirty.csv"), info)
 
     # duplicates = data_clean.duplicated().values
     # data_clean = data_clean[~duplicates]

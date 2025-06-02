@@ -28,7 +28,7 @@ def actual_performance_comparison_with_bars(data_sets, system_names, performance
 
     # 定义每个指标的 y 轴范围
     limits = {
-        "Clean Time per 100 Records(s)": (None, 70),  # 超过70的值用 >70 表示
+        "Clean Time per 100 Records(s)": (None, 50),  # 超过70的值用 >70 表示
         "EDR": (-0.6, None),  # 仅限制下界，小于-0.5的值用 <-0.5 表示
         "REDR": (-0.6, None)  # 仅限制下界，小于-0.5的值用 <-0.5 表示
     }
@@ -109,19 +109,19 @@ def actual_performance_comparison_with_bars(data_sets, system_names, performance
     # 在图的顶部添加图例
     fig.legend(system_names, loc="upper center", ncol=len(system_names), fontsize=19)
     fig.text(0.5, 0.11,"Datasets", ha='center', fontsize=12)
-    # fig.text(0.5, 0.08, "* All baseline systems except UniClean unable to handle full 50k Tax dataset in 24 hour."
-    #                     "we evaluated using segmented 10k batch inputs.", ha='center', fontsize=12)
+    fig.text(0.5, 0.08, "* All baseline systems except UniClean unable to handle full 50k Tax dataset in 24 hour."
+                        "we evaluated using segmented 10k batch inputs.", ha='center', fontsize=12)
 
     plt.tight_layout(rect=[0, 0.1, 1, 0.85])  # 调整底部边距
-    fig.text(
-        0.5,
-        0.02,
-        "* Systems except "
-        + r"$\bf{UniClean}$ and $\bf{Horizon}$ unable to handle full 200k $\bf{Tax}$ and $\bf{Soccer}$ dataset in 24 hour. "
-          "\n For those baseline systems e evaluated using segmented lower than 10k batch inputs.",
-        ha="center",
-        fontsize=15
-    )
+    # fig.text(
+    #     0.5,
+    #     0.02,
+    #     "* Systems except "
+    #     + r"$\bf{UniClean}$ and $\bf{Horizon}$ unable to handle full 200k $\bf{Tax}$ and $\bf{Soccer}$ dataset in 24 hour. "
+    #       "\n For those baseline systems e evaluated using segmented lower than 10k batch inputs.",
+    #     ha="center",
+    #     fontsize=15
+    # )
 
     return plt
 
@@ -143,7 +143,7 @@ if __name__ == "__main__":
             [1.2966, 1.4270, 24.7956, 9.6334, 65.4283, 1.2669],  # Beers
             [5.2378, 2.3133, 27.3773, 10.8541, 2017.268, 83.3452],  # Rayyan
             [0.2525, 11.1435, 38.0591, 12.4377, 574.0920, 103.8026],  # Tax
-            [0.0343, 0.7025, 23.7848, 2.8439, 100.1337, 505.6491]  # Soccer
+            [0.343, 0.7025, 23.7848, 2.8439, 100.1337, 505.6491]  # Soccer
         ],
         "EDR": [
             [0.7839, 0.0570, 0.4165, 0.4558, -0.0236, -0.0766],  # Hospital
@@ -161,17 +161,17 @@ if __name__ == "__main__":
             [0.5524, -57.1333, 0.0182, -0.6545, -0.0353, -0.0272],  # Tax
             [0.3442, -4.3710, 0.2338, 0.0000, -0.0369, -0.0134]  # Soccer
         ],
-        "Hybrid Distance": [
-            [0.0521, 0.0974, 0.1304, 0.1523, 0.1157, 0.1239],  # Hospital
-            [0.0953, 0.1782, 0.1231, 0.2018, 0.1944, 0.1999],  # Flights
-            [0.0306, 0.0794, 0.0538, 0.0942, 0.0823, 0.0822],  # Beers
-            [0.0078, 0.0600, 0.0458, 0.1070, 0.0807, 0.0688],  # Rayyan
-            [0.0031, 0.0943, 0.0012, 0.0057, 0.0120, 0.0145],  # Tax
-            [0.0354, 0.1295, 0.0071, 0.0135, 0.0504, 0.0509]  # Soccer
-        ]
+        # "Hybrid Distance": [
+        #     [0.0521, 0.0974, 0.1304, 0.1523, 0.1157, 0.1239],  # Hospital
+        #     [0.0953, 0.1782, 0.1231, 0.2018, 0.1944, 0.1999],  # Flights
+        #     [0.0306, 0.0794, 0.0538, 0.0942, 0.0823, 0.0822],  # Beers
+        #     [0.0078, 0.0600, 0.0458, 0.1070, 0.0807, 0.0688],  # Rayyan
+        #     [0.0031, 0.0943, 0.0012, 0.0057, 0.0120, 0.0145],  # Tax
+        #     [0.0354, 0.1295, 0.0071, 0.0135, 0.0504, 0.0509]  # Soccer
+        # ]
     }
 
     plt = actual_performance_comparison_with_bars(data_sets, system_names, performance_metrics)
     # 使用 savefig() 将图表保存为 SVG 格式
-    plt.savefig("demoplt.png", format="png")
-    plt.savefig("baseline_comparison.eps", format="eps")
+    plt.savefig("demoplt.png", format="png",bbox_inches="tight")
+    plt.savefig("baseline_comparison.eps", format="eps",bbox_inches="tight")

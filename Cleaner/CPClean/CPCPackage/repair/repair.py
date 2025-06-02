@@ -14,15 +14,16 @@ num_imputers = {
     "em": EMImputer(),
     "knn": KNNImputer(),
     "mean": SimpleImputer(num="mean"),
-    "median": SimpleImputer(num="median"),
-    "mode": SimpleImputer(num="most_frequent"),
-    "br_iterative": IterativeImputer("bayesian_ridge"),
+    # "median": SimpleImputer(num="median"),
+    # "mode": SimpleImputer(num="most_frequent"),
+    # "br_iterative": IterativeImputer("bayesian_ridge"),
     "dt_iterative": IterativeImputer("decision_tree"),
     # "soft": SoftImputer(),
     "missForest": MissForestImputer(),
     # "datawig": DataWigImputer(),
-    "25_percent": PercentileImputer(25),
-    "75_percent": PercentileImputer(75),
+    "min": PercentileImputer(0),
+    # "25_percent": PercentileImputer(25),
+    # "75_percent": PercentileImputer(75),
     "max": PercentileImputer(100),
     "25-grid": GridImputer(25),
     "75-grid": GridImputer(75)
@@ -73,21 +74,20 @@ def repair(X_train_mv, save_dir=None):
     # else:
     #     raise Exception("no missing values")
 
-    X_train_repairs = {}
-
-    for name, imputer in all_imputers.items():
-        X_imp = imputer.fit_transform(X_train_mv)
-
-        for c in X_imp.columns:
-            nonnull = np.argwhere(X_train_mv[c].notnull().values).ravel()
-            X_imp[c].iloc[nonnull] = X_train_mv[c].iloc[nonnull]
-
-        X_train_repairs[name] = X_imp
-
     # X_train_repairs = {}
-    # for name, imputer in num_imputers.items():
+    #
+    # for name, imputer in all_imputers.items():
     #     X_imp = imputer.fit_transform(X_train_mv)
+    #
+    #     for c in X_imp.columns:
+    #         nonnull = np.argwhere(X_train_mv[c].notnull().values).ravel()
+    #         X_imp[c].iloc[nonnull] = X_train_mv[c].iloc[nonnull]
+    #
     #     X_train_repairs[name] = X_imp
+
+    X_train_repairs = {}
+    for name, imputer in cat_imputers.items():
+        X_train_repairs[name] = X_train_mv
 
     if save_dir is not None:
         for name, X_imp in X_train_repairs.items():

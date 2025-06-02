@@ -6,10 +6,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.linear_model import SGDClassifier
-from sklearn.linear_model import SGDRegressor
-from sklearn.linear_model import LinearRegression
 from sklearn.metrics import classification_report, accuracy_score
-from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from scipy.sparse import hstack, vstack
 import pandas as pd
 import random
@@ -19,7 +16,7 @@ import pickle
 
 
 # test data只包括clean的
-def activeclean(dirty_data, clean_data, test_data, full_data, indextuple, type="c", batchsize=50, total=10000):
+def activeclean(dirty_data, clean_data, test_data, full_data, indextuple, batchsize=50, total=10000):
 	#makes sure the initialization uses the training data
     # 训练集中dirty的部分
 	X = dirty_data[0][translate_indices(indextuple[0],indextuple[1]),:]
@@ -61,41 +58,21 @@ def activeclean(dirty_data, clean_data, test_data, full_data, indextuple, type="
 			except ValueError:
 				pass
 
-	if type == "c":
-		clf = SGDClassifier(loss="hinge", alpha=0.000001, max_iter=200, fit_intercept=True, warm_start=True)
-	else:
-		clf = SGDRegressor()
+
+	clf = SGDClassifier(loss="hinge", alpha=0.000001, max_iter=200, fit_intercept=True, warm_start=True)
 	# 利用抽样的干净的训练集cleanex训练分类器
 	clf.fit(X_clean[cleanex,:],y_clean[cleanex])
 
 	for i in range(50, total, batchsize):
 		# 用当前的下游模型训练测试集
 		# 这里不涉及信息泄露，因为只作为效果的参考，没有用于模型训练过程
-		# 对于回归模型：输出的报告不一样
-		print("\n[ActiveClean Real] Number Cleaned So Far ", len(cleanex))
+		print("[ActiveClean Real] Number Cleaned So Far ", len(cleanex))
 		ypred = clf.predict(X_test)
-		if type == "c":
-			print("[ActiveClean Real] Prediction Freqs", np.sum(ypred), np.shape(ypred))
-			print(classification_report(y_test, ypred))
-			txt += "\n[ActiveClean Real] Number Cleaned So Far : " + str(len(cleanex))
-			txt += "\n[ActiveClean Real] Prediction Freqs : " + str(np.sum(ypred))
-			txt += "\n" + classification_report(y_test, ypred)
-		else:
-			print("\n[ActiveClean Real] Prediction Freqs", np.sum(ypred), np.shape(ypred))
-			mse = mean_squared_error(y_test, ypred)
-			mae = mean_absolute_error(y_test, ypred)
-			r2 = r2_score(y_test, ypred)
-			rmse = np.sqrt(mse)  # 均方根误差
-			report = {
-				'Metric': ['Mean Absolute Error (MAE)', 'Mean Squared Error (MSE)', 'Root Mean Squared Error (RMSE)',
-						   'R-squared (R²)'],
-				'Score': [mae, mse, rmse, r2]
-			}
-
-			print(report)
-			txt += "\n[ActiveClean Real] Number Cleaned So Far : " + str(len(cleanex))
-			txt += "\n[ActiveClean Real] Prediction Freqs : " + str(np.sum(ypred))
-			txt += "\n" + str(pd.DataFrame(report))
+		print("[ActiveClean Real] Prediction Freqs", np.sum(ypred), np.shape(ypred))
+		print(classification_report(y_test, ypred))
+		txt += "\n[ActiveClean Real] Number Cleaned So Far : " + str(len(cleanex))
+		txt += "\n[ActiveClean Real] Prediction Freqs : " + str(np.sum(ypred))
+		txt += "\n" + classification_report(y_test, ypred)
 
 		#Sample a new batch of data
 		examples_real = np.random.choice(dirtyex, batchsize)
@@ -124,10 +101,9 @@ def activeclean(dirty_data, clean_data, test_data, full_data, indextuple, type="
 		# uses partial fit (not in the paper--not exactly SGD)
 		clf.partial_fit(X_clean[cleanex,:],y_clean[cleanex])
 
-		mse = mean_squared_error(y_test, ypred)
-		rmse = np.sqrt(mse)
-		print("[ActiveClean Real] RMSE ", i , rmse)
-		txt += "\n[ActiveClean Real] RMSE " + str(i) + " : " + str(rmse)
+
+		print("[ActiveClean Real] Accuracy ", i ,accuracy_score(y_test, ypred))
+		txt += "[ActiveClean Real] Accuracy " + str(i) + " : " + str(accuracy_score(y_test, ypred))
 
 		if len(dirtyex) < 50:
 			print("[ActiveClean Real] No More Dirty Data Detected")
@@ -149,8 +125,8 @@ def error_classifier(total_labels, full_data):
 	if np.sum(labels) < len(labels):
 		clf = SGDClassifier(loss="log_loss", alpha=1e-6, max_iter=200, fit_intercept=True)
 		clf.fit(full_data[indices,:],labels)
-		# print labels
-	# print clf.score(full_data[indices,:],labels)
+		#print labels
+	#print clf.score(full_data[indices,:],labels)
 		return clf
 	else:
 		return None
@@ -192,7 +168,7 @@ def ec_filter(dirtyex, full_data, clf, t=0.90):
 # 	txt = activeclean((X_dirty, y_dirty),(X_clean, y_clean),(X_clean[clean_test_indices,:], y_clean[clean_test_indices]),X_full,(train_indices,indices_dirty,indices_clean))
 # 	return txt
 
-def run(correct_data_path, injected_data_path, type):
+def run(correct_data_path, injected_data_path):
     """
     运行 Activeclean 的主逻辑，读取两个数据集，一个是完全正确的，另一个是注入错误的。
     Args:
@@ -231,7 +207,7 @@ def run(correct_data_path, injected_data_path, type):
     examples = np.arange(0, size, 1)
 
     # 分割训练集和测试集
-    train_indices, test_indices = train_test_split(examples, test_size=0.20)
+    train_indices, test_indices = train_test_split(examples, test_size=0.20,stratify=y_full)
 
     # 将测试集中干净数据的索引转换为clean数据中的索引
     clean_test_indices = translate_indices(test_indices, indices_clean)
@@ -242,8 +218,7 @@ def run(correct_data_path, injected_data_path, type):
         (X_clean, y_clean),  # 干净的数据
         (X_clean[clean_test_indices], y_clean[clean_test_indices]),  # 干净的测试集
         X_full,  # 完整的数据集
-        (train_indices, indices_dirty, indices_clean),  # 训练集和索引
-		type
+        (train_indices, indices_dirty, indices_clean)  # 训练集和索引
     )
 
     return txt

@@ -14,15 +14,15 @@ def injected_error_rates(error_injection_rates, datasets, cell_error_rates, entr
     :param cell_error_rates: 各数据集在不同注入率下的单元格错误率（二维列表）
     :param entry_error_rates: 各数据集在不同注入率下的数据条目错误率（二维列表）
     """
-    fig, ax1 = plt.subplots(figsize=(14, 10))
+    fig, ax1 = plt.subplots(figsize=(7, 10))
     markers = ['o', 's', 'D', '^', 'v', 'P', '*']  # 点形状
     colors = plt.cm.viridis(np.linspace(0, 1, len(datasets)))  # 各数据集的颜色
 
     # 设置通用字体大小和线宽
-    marker_size = 25
-    line_width = 5
-    label_fontsize = 35
-    legend_fontsize = 30
+    marker_size = 18
+    line_width = 3
+    label_fontsize = 24
+    legend_fontsize = 25
 
     # 绘制单元格错误率（虚线）
     for i, dataset in enumerate(datasets):
@@ -44,10 +44,10 @@ def injected_error_rates(error_injection_rates, datasets, cell_error_rates, entr
                  markersize=marker_size)
 
     # 设置轴标签、标题等
-    ax1.set_xlabel("Error Injection Rate (%)", fontsize=label_fontsize)
-    ax1.set_ylabel("Error Rate (%)", fontsize=label_fontsize)
-    ax1.tick_params(axis='y', labelsize=25)
-    ax1.tick_params(axis='x', labelsize=25)
+    ax1.set_xlabel("Error Injection Rate (%)", fontsize=label_fontsize,fontweight='bold')
+    ax1.set_ylabel("Error Rate (%)", fontsize=label_fontsize,fontweight='bold')
+    ax1.tick_params(axis='y', labelsize=23)
+    ax1.tick_params(axis='x', labelsize=23)
     ax1.grid(axis='y', linestyle='--', alpha=0.7)
 
     # 统一比例尺
@@ -57,9 +57,17 @@ def injected_error_rates(error_injection_rates, datasets, cell_error_rates, entr
     line_entry = plt.Line2D([0], [0], color='black', linestyle='-', linewidth=3, label='Entry Error Rate (Solid)')
     handles, labels = ax1.get_legend_handles_labels()
     handles.extend([line_cell, line_entry])
-    ax1.legend(handles, datasets + ['Cell Error%', 'Entry Error%'],
-               loc="center left", bbox_to_anchor=(1, 0.5), fontsize=legend_fontsize, frameon=True)
-
+    # ax1.legend(handles, datasets + ['Cell Error%', 'Entry Error%'],
+    #            loc="center left", bbox_to_anchor=(1, 0.5), fontsize=legend_fontsize, frameon=True)
+    ax1.legend(
+        handles,
+        datasets + ['Cell Error%', 'Record Error%'],
+        loc="upper center",
+        bbox_to_anchor=(0.33, 1),  # Adjust the height above the plot
+        fontsize=legend_fontsize,
+        frameon=True,
+        ncol=int((len(datasets) + 2) / 8)  # Divide legend items into two rows
+    )
     # # 简化图例，只显示不同数据集，并放置在图的右边
     # handles, labels = ax1.get_legend_handles_labels()
     #
@@ -68,6 +76,7 @@ def injected_error_rates(error_injection_rates, datasets, cell_error_rates, entr
     # plt.title("Cell and Entry Error Rates by Injection Rate", fontsize=label_fontsize)
     plt.tight_layout()
     plt.savefig("injected_error_rates.eps", format='eps', bbox_inches='tight')
+    plt.savefig("injected_error_rates.pdf", format="pdf", bbox_inches="tight")
     plt.show()
 
 

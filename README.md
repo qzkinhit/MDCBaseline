@@ -1,125 +1,140 @@
-# 数据清洗系统复现
-# 环境激活
+
+
+# Reproduction of Data Cleaning Systems
+
+## Environment Activation
+```bash
 cd ~/MDCBaseline/baseline_env
 source bin/activate
 cd ..
 ./CleanerRunScript/run_horizon/run.sh
+````
 
+This repository contains the reproduction of several data cleaning systems proposed in academic papers. The goal is to replicate these systems and validate their effectiveness under controlled environments.
 
-本仓库包含了对多个数据清洗系统的复现工作，这些系统描述于各类研究论文中。目标是复现这些系统，并在受控环境中验证其有效性。
+## Contents
 
-## 目录
 1. [Horizon](#horizon)
-2. [Activeclean](#activeclean)
-3. [Raha & Baran](#rascha--baran)
+2. [ActiveClean](#activeclean)
+3. [Raha & Baran](#raha--baran)
 4. [BoostClean](#boostclean)
 5. [CPClean](#cpclean)
 6. [Holistic](#holistic)
 7. [BigDansing](#bigdansing)
-7. [Scared](#scared)
-8. [Holoclean](#holoclean)
+8. [ScaRed](#scared)
+9. [HoloClean](#holoclean)
 
-## 系统调研与复现进度
+## Reproduction Status and Details
 
 ### Horizon
-**论文**: [Horizon: scalable dependency-driven data cleaning](https://www.vldb.org/pvldb/vol14/p25)  
-**主讲人**: zekai  
-**状态**: 已完成  
-**摘要**: 该论文描述了一种可扩展的依赖驱动数据清洗方法。复现工作集中在实现文中描述的方法，并对提供的数据集进行验证。  
-**错误处理方法（清洗信号）**: 最优FD模式选择  
-**处理的错误类型**: 依赖冲突、数据分布异常  
-**前置配置**: FD依赖规则集  
-**下游反馈内容**: 通用的系统，无特定下游  
-**面向任务**: 通用任务的检测  
-**清洗判别指标**: 准确率、召回率
 
-### Activeclean
-**论文**: [Activeclean: An interactive data cleaning framework for modern machine learning](https://arxiv.org/pdf/1601.03797.pdf)  
-**主讲人**: siying  
-**语言**: Python  
-**状态**: 已完成  
-**摘要**: 使用Python复现Activeclean。重点在于复现交互式框架及其与机器学习工作流的集成。  
-**错误处理方法（清洗信号）**: 用户交互反馈  
-**处理的错误类型**: 噪声、缺失值  
-**前置配置**: 用户反馈机制  
-**下游反馈内容**: 凸损失模型  
-**面向任务**: 凸损失模型的检测与修复  
-**清洗判别指标**: 数据准确性、模型性能提升 
+* **Paper**: [Horizon: Scalable Dependency-Driven Data Cleaning](https://www.vldb.org/pvldb/vol14/p25)
+* **Presenter**: Zekai
+* **Status**: Completed
+* **Summary**: Implements a scalable dependency-driven cleaning strategy. Focused on reproducing the FD-based method and validating its effectiveness on benchmark datasets.
+* **Error Handling Signals**: Optimal FD pattern selection
+* **Error Types**: Dependency violations, distribution anomalies
+* **Precondition**: FD rule set
+* **Downstream Feedback**: Generic
+* **Task Type**: General-purpose detection
+* **Evaluation Metrics**: Precision, Recall
+
+### ActiveClean
+
+* **Paper**: [ActiveClean: An Interactive Data Cleaning Framework for Modern Machine Learning](https://arxiv.org/pdf/1601.03797.pdf)
+* **Presenter**: Siying
+* **Language**: Python
+* **Status**: Completed
+* **Summary**: Reproduction of the interactive feedback framework and its integration with machine learning workflows.
+* **Error Handling Signals**: User interaction feedback
+* **Error Types**: Noise, missing values
+* **Precondition**: Feedback mechanism
+* **Downstream Feedback**: Convex loss models
+* **Task Type**: Detection and repair for ML
+* **Evaluation Metrics**: Data accuracy, ML performance improvement
 
 ### Raha & Baran
-**论文**:
-- **Raha**: A configuration-free error detection system  
-- **Baran**: Effective error correction via a unified context representation and transfer learning  
-**主讲人**: zekai
-**状态**: 已完成  
-**摘要**: Raha和Baran将依次进行复现。Raha专注于错误检测，而Baran在此基础上通过迁移学习进行错误修正。  
-**错误处理方法（清洗信号）**: 规则驱动、上下文表示  
-**处理的错误类型**: 数据错误、不一致性  
-**前置配置**: 无需配置（Raha），上下文规则集（Baran）  
-**下游反馈内容**: 无特定下游  
-**面向任务**: 错误检测和修复  
-**清洗判别指标**: 错误检测率、修复精度
+
+* **Papers**:
+
+  * *Raha*: A Configuration-Free Error Detection System
+  * *Baran*: Effective Error Correction via a Unified Context Representation and Transfer Learning
+* **Presenter**: Zekai
+* **Status**: Completed
+* **Summary**: Raha focuses on rule-free error detection; Baran extends with context-driven repair using transfer learning.
+* **Error Handling Signals**: Rule-based detection, contextual representation
+* **Error Types**: Data errors, inconsistencies
+* **Precondition**: None (Raha); Contextual rule set (Baran)
+* **Downstream Feedback**: None
+* **Task Type**: Error detection and repair
+* **Evaluation Metrics**: Detection rate, repair accuracy
 
 ### BoostClean
-**论文**: Automated Error Detection and Repair for Machine Learning  
-**主讲人**: siying  
-**状态**: 已完成  
-**摘要**: BoostClean将被实现，以评估其在机器学习数据准备中的自动错误检测与修复能力。  
-**错误处理方法（清洗信号）**: 统计分析、机器学习  
-**处理的错误类型**: 噪声、异常值  
-**前置配置**: 错误模式库  
-**下游反馈内容**: 机器学习模型  
-**面向任务**: 错误检测和修复  
-**清洗判别指标**: 修复后模型性能提升
+
+* **Paper**: Automated Error Detection and Repair for Machine Learning
+* **Presenter**: Siying
+* **Status**: Completed
+* **Summary**: Evaluates BoostClean's automatic error handling capabilities in ML data pipelines.
+* **Error Handling Signals**: Statistical analysis, ML models
+* **Error Types**: Noise, outliers
+* **Precondition**: Error pattern library
+* **Downstream Feedback**: ML model
+* **Task Type**: Detection and repair
+* **Evaluation Metrics**: Post-repair model performance
 
 ### CPClean
-**论文**: Nearest neighbor classifiers over incomplete information: From certain answers to certain predictions  
-**主讲人**: siying  
-**语言**: Python  
-**状态**: 已完成  
-**摘要**: 实现将专注于使用最近邻分类器处理不完整信息。  
-**错误处理方法（清洗信号）**: 最近邻分类  
-**处理的错误类型**: 缺失值、不完整信息  
-**前置配置**: 无  
-**下游反馈内容**: 预测模型  
-**面向任务**: 错误检测和修复  
-**清洗判别指标**: 准确率、填充正确率
+
+* **Paper**: Nearest Neighbor Classifiers over Incomplete Information
+* **Presenter**: Siying
+* **Language**: Python
+* **Status**: Completed
+* **Summary**: Reproduces CPClean for handling incomplete data using nearest neighbor classifiers.
+* **Error Handling Signals**: Nearest-neighbor classification
+* **Error Types**: Missing or incomplete data
+* **Precondition**: None
+* **Downstream Feedback**: Prediction models
+* **Task Type**: Detection and repair
+* **Evaluation Metrics**: Accuracy, imputation correctness
 
 ### Holistic
-**论文**: Holistic data cleaning: Putting violations into context  
-**主讲人**: zekai & siying  
-**状态**: 已完成  
-**摘要**: 将评估此方法在处理数据违规时的上下文处理能力。  
-**错误处理方法（清洗信号）**: 上下文分析  
-**处理的错误类型**: 数据违规、上下文冲突  
-**前置配置**: 上下文规则集  
-**下游反馈内容**: 无特定下游  
-**面向任务**: 错误检测  
-**清洗判别指标**: 准确率、召回率
+
+* **Paper**: Holistic Data Cleaning: Putting Violations into Context
+* **Presenters**: Zekai & Siying
+* **Status**: Completed
+* **Summary**: Assesses context-based violation handling methods.
+* **Error Handling Signals**: Contextual analysis
+* **Error Types**: Violations, contextual conflicts
+* **Precondition**: Contextual rule sets
+* **Downstream Feedback**: None
+* **Task Type**: Error detection
+* **Evaluation Metrics**: Precision, Recall
 
 ### BigDansing
-已完成
 
-### Scared
-**论文**: Don't be scared: Use scalable automatic repairing with maximal likelihood and bounded changes  
-**主讲人**: siying  
-**状态**: 已完成  
-**摘要**: 复现工作将集中于系统在受约束变化下自动修复数据的能力。  
-**错误处理方法（清洗信号）**: 最大似然估计  
-**处理的错误类型**: 噪声、错误值  
-**前置配置**: 错误概率模型  
-**下游反馈内容**: 无特定下游  
-**面向任务**: 错误修复  
-**清洗判别指标**: 修复精度、受约束变化量
+* **Status**: Completed
 
-### Holoclean
-**论文**: Holistic data repairs with probabilistic inference  
-**主负责人**: zekai  
-**状态**: 已完成  
-**摘要**: 将实现Holoclean，以测试其通过概率推理进行整体数据修复的方法。  
-**错误处理方法（清洗信号）**: 概率推理  
-**处理的错误类型**: 数据错误、不一致性  
-**前置配置**: 先验概率、规则集  
-**下游反馈内容**: 无特定下游  
-**面向任务**: 错误修复  
-**清洗判别指标**: 修复准确率、数据一致性
+### ScaRed
+
+* **Paper**: Don’t Be Scared: Use Scalable Automatic Repairing with Maximal Likelihood and Bounded Changes
+* **Presenter**: Siying
+* **Status**: Completed
+* **Summary**: Focuses on probabilistic repair under change constraints.
+* **Error Handling Signals**: Maximum likelihood estimation
+* **Error Types**: Noise, incorrect values
+* **Precondition**: Error probability model
+* **Downstream Feedback**: None
+* **Task Type**: Error repair
+* **Evaluation Metrics**: Repair precision, constrained change magnitude
+
+### HoloClean
+
+* **Paper**: Holistic Data Repairs with Probabilistic Inference
+* **Presenter**: Zekai
+* **Status**: Completed
+* **Summary**: Implements probabilistic inference-based repair on noisy and inconsistent data.
+* **Error Handling Signals**: Probabilistic inference
+* **Error Types**: Data errors, inconsistencies
+* **Precondition**: Prior probabilities, rule set
+* **Downstream Feedback**: None
+* **Task Type**: Error repair
+* **Evaluation Metrics**: Repair accuracy, data consistency

@@ -54,10 +54,6 @@ class CPClean(object):
         S_val = np.array([1 / (1 + np.sqrt(np.sum((X_train - x_val)**2, axis=1))) for x_val in X_val])
         return S_val
 
-    def fit_raw(self, X_train, y_train):
-        self.classifier = KNN()
-        self.classifier.fit(X_train, y_train)
-
     def fit(self, X_train_repairs, y_train, X_val, y_val, 
             gt=None, X_train_mean=None, debugger=None, method="cpclean", random_state=1, sample_size=32, restore=False):
         """ Find a world in the space that has the same validation accuracy 
@@ -79,7 +75,6 @@ class CPClean(object):
             selection = self.random_clean(S_val, y_train, gt_indices, MM, debugger=debugger)
 
         X_train_clean = deepcopy(X_train_mean)
-
         for i in selection:
             X_train_clean[i] = gt[i]
         self.classifier = KNN()

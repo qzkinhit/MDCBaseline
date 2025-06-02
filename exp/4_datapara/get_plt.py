@@ -32,8 +32,8 @@ def plot_radial_chart(datasets, metrics, scales, data_with_preparation, data_wit
     angles += angles[:1]  # 闭合曲线
 
     # 创建雷达图
-    fig, ax = plt.subplots(figsize=(10, 10), subplot_kw={'projection': 'polar'})
-    colors = ['blue', 'green', 'red', 'purple']  # 每个数据集的颜色
+    fig, ax = plt.subplots(figsize=(12, 12), subplot_kw={'projection': 'polar'})
+    colors = ['blue', 'green', 'red', 'purple', 'orange', 'cyan', 'magenta']  # 每个数据集的颜色
 
     # 绘制每个数据集的指标
     for i, dataset in enumerate(datasets):
@@ -51,9 +51,9 @@ def plot_radial_chart(datasets, metrics, scales, data_with_preparation, data_wit
 
     # 设置每个点的标签
     labels = [f"{metric}" for dataset in datasets for metric in metrics]
-    ax.set_theta_offset(np.pi / 2)
-    ax.set_theta_direction(-1)
-    ax.set_thetagrids(np.degrees(angles[:-1]), labels, weight='bold', fontsize=18)
+    ax.set_theta_offset(-np.pi / 2)  # 从 6 点钟方向开始
+    ax.set_theta_direction(-1)  # 顺时针方向绘制
+    ax.set_thetagrids(np.degrees(angles[:-1]), labels, weight='bold', fontsize=30)
 
     # 颜色图例（表示数据集）
     # color_handles = [plt.Line2D([0], [0], color=color, lw=2, label=dataset) for color, dataset in zip(colors, datasets)]
@@ -64,8 +64,15 @@ def plot_radial_chart(datasets, metrics, scales, data_with_preparation, data_wit
         plt.Line2D([0], [0], color='black', lw=2, linestyle='solid', label='With UniClean'),
         plt.Line2D([0], [0], color='black', lw=2, linestyle='dashed', label='Without UniClean'),
     ]
-    legend2 = fig.legend(handles=line_handles, loc='upper right', bbox_to_anchor=(1, 0.98), fontsize=20)
-
+    legend2 = fig.legend(handles=line_handles, loc='upper right', bbox_to_anchor=(1, 0.98), fontsize=25, frameon=True)
+    ax.set_rgrids(
+        [0.2, 0.4, 0.6, 0.8, 0.9],
+        labels=['20%', '40%', '60%', '80%', '>100%'],
+        angle=180,  # 将径向标签固定在左侧
+        fontsize=18,
+        weight='bold',
+        ha='center'  # 居中对齐
+    )
     # 将图例附加到绘图对象中，防止覆盖
     # ax.add_artist(legend1)
     ax.add_artist(legend2)
@@ -74,7 +81,7 @@ def plot_radial_chart(datasets, metrics, scales, data_with_preparation, data_wit
     # ax.set_title(title, fontsize=16, pad=20)
 
     # 显示图形
-    plt.savefig("performance_comparison_no_preprocessing.pdf", format="pdf")  # 使用PDF格式
+    plt.savefig("performance_comparison_no_preprocessing.pdf", format="pdf",bbox_inches="tight")  # 使用PDF格式
     plt.show()
 
 
