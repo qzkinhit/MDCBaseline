@@ -6,9 +6,20 @@
 ```bash
 cd ~/MDCBaseline/baseline_env
 source bin/activate
-cd ..
-./CleanerRunScript/run_horizon/run.sh
 ````
+# Data Cleaning Script Execution
+
+1. [Horizon](./CleanerRunScript/run_horizon/README.md)  
+2. [ActiveClean](./CleanerRunScript/run_activeclean/README.md)  
+3. [Raha & Baran](./CleanerRunScript/run_raha_baran/README.md)  
+4. [BoostClean](./CleanerRunScript/run_boostclean/README.md)  
+5. [CPClean](./CleanerRunScript/run_cpclean/README.md)  
+6. [Holistic](./CleanerRunScript/run_holistic/README.md)  
+7. [BigDansing](./CleanerRunScript/run_bigdansing/README.md)  
+8. [ScaRed](./CleanerRunScript/run_scared/README.md)  
+9. [HoloClean](./CleanerRunScript/run_holoclean/README.md)  
+
+Each subdirectory includes its own `README.md` with specific instructions for environment setup, dataset preparation, and running the corresponding script. Please refer to them for details.
 
 This repository contains the reproduction of several data cleaning systems proposed in academic papers. The goal is to replicate these systems and validate their effectiveness under controlled environments.
 
@@ -29,7 +40,6 @@ This repository contains the reproduction of several data cleaning systems propo
 ### Horizon
 
 * **Paper**: [Horizon: Scalable Dependency-Driven Data Cleaning](https://www.vldb.org/pvldb/vol14/p25)
-* **Presenter**: Zekai
 * **Status**: Completed
 * **Summary**: Implements a scalable dependency-driven cleaning strategy. Focused on reproducing the FD-based method and validating its effectiveness on benchmark datasets.
 * **Error Handling Signals**: Optimal FD pattern selection
@@ -42,7 +52,6 @@ This repository contains the reproduction of several data cleaning systems propo
 ### ActiveClean
 
 * **Paper**: [ActiveClean: An Interactive Data Cleaning Framework for Modern Machine Learning](https://arxiv.org/pdf/1601.03797.pdf)
-* **Presenter**: Siying
 * **Language**: Python
 * **Status**: Completed
 * **Summary**: Reproduction of the interactive feedback framework and its integration with machine learning workflows.
@@ -59,7 +68,6 @@ This repository contains the reproduction of several data cleaning systems propo
 
   * *Raha*: A Configuration-Free Error Detection System
   * *Baran*: Effective Error Correction via a Unified Context Representation and Transfer Learning
-* **Presenter**: Zekai
 * **Status**: Completed
 * **Summary**: Raha focuses on rule-free error detection; Baran extends with context-driven repair using transfer learning.
 * **Error Handling Signals**: Rule-based detection, contextual representation
@@ -72,7 +80,6 @@ This repository contains the reproduction of several data cleaning systems propo
 ### BoostClean
 
 * **Paper**: Automated Error Detection and Repair for Machine Learning
-* **Presenter**: Siying
 * **Status**: Completed
 * **Summary**: Evaluates BoostClean's automatic error handling capabilities in ML data pipelines.
 * **Error Handling Signals**: Statistical analysis, ML models
@@ -85,7 +92,6 @@ This repository contains the reproduction of several data cleaning systems propo
 ### CPClean
 
 * **Paper**: Nearest Neighbor Classifiers over Incomplete Information
-* **Presenter**: Siying
 * **Language**: Python
 * **Status**: Completed
 * **Summary**: Reproduces CPClean for handling incomplete data using nearest neighbor classifiers.
@@ -99,7 +105,6 @@ This repository contains the reproduction of several data cleaning systems propo
 ### Holistic
 
 * **Paper**: Holistic Data Cleaning: Putting Violations into Context
-* **Presenters**: Zekai & Siying
 * **Status**: Completed
 * **Summary**: Assesses context-based violation handling methods.
 * **Error Handling Signals**: Contextual analysis
@@ -116,7 +121,6 @@ This repository contains the reproduction of several data cleaning systems propo
 ### ScaRed
 
 * **Paper**: Don’t Be Scared: Use Scalable Automatic Repairing with Maximal Likelihood and Bounded Changes
-* **Presenter**: Siying
 * **Status**: Completed
 * **Summary**: Focuses on probabilistic repair under change constraints.
 * **Error Handling Signals**: Maximum likelihood estimation
@@ -129,7 +133,6 @@ This repository contains the reproduction of several data cleaning systems propo
 ### HoloClean
 
 * **Paper**: Holistic Data Repairs with Probabilistic Inference
-* **Presenter**: Zekai
 * **Status**: Completed
 * **Summary**: Implements probabilistic inference-based repair on noisy and inconsistent data.
 * **Error Handling Signals**: Probabilistic inference
